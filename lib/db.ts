@@ -19,7 +19,7 @@ async function openDb(): Promise<SQLite.SQLiteDatabase> {
     await FileSystem.downloadAsync(dbUri, localDbUri);
   }
 
-  return SQLite.openDatabaseSync(dbName);
+  return SQLite.openDatabaseAsync(dbName);
 }
 
 const db = openDb();
@@ -34,21 +34,8 @@ export interface Category {
 
 export async function getCategories(): Promise<Category[]> {
   const dbInstance = await db;
-  return new Promise((resolve, reject) => {
-    dbInstance.transaction(tx => {
-      tx.executeSql(
-        'SELECT * FROM cat',
-        [],
-        (_, { rows }) => {
-          resolve(rows._array);
-        },
-        (_, error) => {
-          reject(error);
-          return false;
-        }
-      );
-    });
-  });
+  const results = await dbInstance.getAllAsync<Category>('SELECT * FROM cat');
+  return results;
 }
 
 export default db;
@@ -69,38 +56,18 @@ export interface Verse {
 
 export async function getPoemsByCategoryId(catId: number): Promise<Poem[]> {
   const dbInstance = await db;
-  return new Promise((resolve, reject) => {
-    dbInstance.transaction(tx => {
-      tx.executeSql(
-        'SELECT * FROM poem WHERE cat_id = ?',
-        [catId],
-        (_, { rows }) => {
-          resolve(rows._array);
-        },
-        (_, error) => {
-          reject(error);
-          return false;
-        }
-      );
-    });
-  });
+  const results = await dbInstance.getAllAsync<Poem>(
+    'SELECT * FROM poem WHERE cat_id = ?',
+    [catId]
+  );
+  return results;
 }
 
 export async function getVersesByPoemId(poemId: number): Promise<Verse[]> {
   const dbInstance = await db;
-  return new Promise((resolve, reject) => {
-    dbInstance.transaction(tx => {
-      tx.executeSql(
-        'SELECT * FROM verse WHERE poem_id = ? ORDER BY vorder',
-        [poemId],
-        (_, { rows }) => {
-          resolve(rows._array);
-        },
-        (_, error) => {
-          reject(error);
-          return false;
-        }
-      );
-    });
-  });
+  const results = await dbInstance.getAllAsync<Verse>(
+    'SELECT * FROM verse WHERE poem_id = ? ORDER BY vorder',
+    [poemId]
+  );
+  return results;
 }
