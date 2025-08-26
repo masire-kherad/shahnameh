@@ -1,75 +1,110 @@
-import { Image } from 'expo-image';
-import { Platform, StyleSheet } from 'react-native';
-
-import { HelloWave } from '@/components/HelloWave';
-import ParallaxScrollView from '@/components/ParallaxScrollView';
+import React, { useEffect, useState } from 'react';
+import { StyleSheet, ScrollView, Text, View, Pressable } from 'react-native';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
+import { getRoadmap } from '@/services/dataService';
+import { getCompletedPoems, CompletedPoems } from '@/services/progressService';
+import { Category, Poem } from '@/types/shahname';
+import { View as MotiView } from 'moti';
+import { router } from 'expo-router';
+
+// Define the type for the roadmap data with poems included
+type RoadmapSection = Category & {
+  poems: Poem[];
+};
 
 export default function HomeScreen() {
+  const [roadmap, setRoadmap] = useState<RoadmapSection[]>([]);
+  const [completedPoems, setCompletedPoems] = useState<CompletedPoems>({});
+
+  useEffect(() => {
+    const loadData = async () => {
+      const roadmapData = getRoadmap();
+      const completedData = await getCompletedPoems();
+      setRoadmap(roadmapData);
+      setCompletedPoems(completedData);
+    };
+    loadData();
+  }, []);
+
+  const handlePoemPress = (poemId: number) => {
+    router.push(`/reading/${poemId}`);
+  };
+
   return (
-    <ParallaxScrollView
-      headerBackgroundColor={{ light: '#A1CEDC', dark: '#1D3D47' }}
-      headerImage={
-        <Image
-          source={require('@/assets/images/partial-react-logo.png')}
-          style={styles.reactLogo}
-        />
-      }>
+    <ScrollView style={styles.container}>
       <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Welcome!</ThemedText>
-        <HelloWave />
+        <ThemedText type="title">شاهنامه</ThemedText>
       </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 1: Try it</ThemedText>
-        <ThemedText>
-          Edit <ThemedText type="defaultSemiBold">app/(tabs)/index.tsx</ThemedText> to see changes.
-          Press{' '}
-          <ThemedText type="defaultSemiBold">
-            {Platform.select({
-              ios: 'cmd + d',
-              android: 'cmd + m',
-              web: 'F12',
+
+      {roadmap.map((section) => (
+        <View key={section.id} style={styles.sectionContainer}>
+          <ThemedText type="subtitle">{section.text}</ThemedText>
+          <View style={styles.poemContainer}>
+            {section.poems.map((poem, poemIndex) => {
+              const isCompleted = completedPoems[poem.id];
+              return (
+                <Pressable key={poem.id} onPress={() => handlePoemPress(poem.id)}>
+                  <MotiView
+                    from={{ opacity: 0, scale: 0.5 }}
+                    animate={{ opacity: 1, scale: 1 }}
+                    transition={{ delay: poemIndex * 100 }}
+                    style={[styles.poemNode, isCompleted && styles.completedPoemNode]}
+                  >
+                    <Text style={styles.poemText}>{poemIndex + 1}</Text>
+                  </MotiView>
+                </Pressable>
+              );
             })}
-          </ThemedText>{' '}
-          to open developer tools.
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 2: Explore</ThemedText>
-        <ThemedText>
-          {`Tap the Explore tab to learn more about what's included in this starter app.`}
-        </ThemedText>
-      </ThemedView>
-      <ThemedView style={styles.stepContainer}>
-        <ThemedText type="subtitle">Step 3: Get a fresh start</ThemedText>
-        <ThemedText>
-          {`When you're ready, run `}
-          <ThemedText type="defaultSemiBold">npm run reset-project</ThemedText> to get a fresh{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> directory. This will move the current{' '}
-          <ThemedText type="defaultSemiBold">app</ThemedText> to{' '}
-          <ThemedText type="defaultSemiBold">app-example</ThemedText>.
-        </ThemedText>
-      </ThemedView>
-    </ParallaxScrollView>
+          </View>
+        </View>
+      ))}
+    </ScrollView>
   );
 }
 
 const styles = StyleSheet.create({
+  container: {
+    flex: 1,
+    padding: 16,
+  },
   titleContainer: {
-    flexDirection: 'row',
     alignItems: 'center',
-    gap: 8,
+    marginBottom: 24,
   },
-  stepContainer: {
-    gap: 8,
-    marginBottom: 8,
+  sectionContainer: {
+    marginBottom: 32,
+    alignItems: 'center',
   },
-  reactLogo: {
-    height: 178,
-    width: 290,
-    bottom: 0,
-    left: 0,
-    position: 'absolute',
+  poemContainer: {
+    flexDirection: 'row-reverse',
+    flexWrap: 'wrap',
+    justifyContent: 'center',
+    marginTop: 16,
+  },
+  poemNode: {
+    width: 60,
+    height: 60,
+    borderRadius: 30,
+    backgroundColor: '#A1CEDC', // Incomplete color
+    justifyContent: 'center',
+    alignItems: 'center',
+    margin: 10,
+    shadowColor: '#000',
+    shadowOffset: {
+      width: 0,
+      height: 2,
+    },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+    elevation: 5,
+  },
+  completedPoemNode: {
+    backgroundColor: '#6EBF8B', // Completed color
+  },
+  poemText: {
+    color: '#fff',
+    fontSize: 18,
+    fontWeight: 'bold',
   },
 });
