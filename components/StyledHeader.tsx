@@ -2,6 +2,7 @@ import React from 'react';
 import { StyleSheet, View, Pressable } from 'react-native';
 import { BlurView } from 'expo-blur';
 import { ThemedText } from './ThemedText';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Colors } from '@/constants/Colors';
 import { IconSymbol } from './ui/IconSymbol';
 import { router } from 'expo-router';
@@ -11,12 +12,13 @@ interface StyledHeaderProps {
 }
 
 export default function StyledHeader({ title }: StyledHeaderProps) {
+  const insets = useSafeAreaInsets();
   const handleProfilePress = () => {
     router.push('/profile');
   };
 
   return (
-    <BlurView intensity={80} tint="dark" style={styles.header}>
+    <BlurView intensity={80} tint="dark" style={[styles.header, { paddingTop: insets.top + 12 }]}>
       <ThemedText type="title" style={{ color: Colors.dark.text }}>{title}</ThemedText>
       <Pressable onPress={handleProfilePress}>
         <IconSymbol name="person.fill" size={28} color={Colors.dark.text} />
@@ -31,10 +33,9 @@ const styles = StyleSheet.create({
     justifyContent: 'space-between',
     alignItems: 'center',
     paddingHorizontal: 16,
-    paddingVertical: 12,
-    borderRadius: 20,
-    marginHorizontal: 16,
-    marginBottom: 24,
+    paddingBottom: 12,
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20,
     overflow: 'hidden',
   },
 });

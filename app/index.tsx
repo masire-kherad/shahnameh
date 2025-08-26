@@ -11,14 +11,12 @@ import { IconSymbol } from '@/components/ui/IconSymbol';
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { Colors } from '@/constants/Colors';
 import Roadmap from '@/components/Roadmap';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 export default function HomeScreen() {
   const [categories, setCategories] = useState<Category[]>([]);
   const [poems, setPoems] = useState<Poem[]>([]);
   const [completedPoems, setCompletedPoems] = useState<CompletedPoems>({});
   const colorScheme = useColorScheme();
-  const insets = useSafeAreaInsets();
 
   useEffect(() => {
     const loadData = async () => {
@@ -35,7 +33,7 @@ export default function HomeScreen() {
   return (
     <ImageBackground
       source={require('@/assets/images/rostam.jpg')}
-      style={[styles.container, { paddingTop: insets.top }]}
+      style={styles.container}
     >
       <View style={styles.overlay} />
       <Roadmap categories={categories} poems={poems} completedPoems={completedPoems} />
