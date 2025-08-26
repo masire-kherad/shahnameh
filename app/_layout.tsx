@@ -30,7 +30,6 @@ export default function RootLayout() {
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack
         screenOptions={{
-          headerTransparent: true,
           header: ({ options }) => <StyledHeader title={options.title || ''} />,
         }}
       >
