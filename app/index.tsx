@@ -2,31 +2,27 @@ import React, { useEffect, useState } from 'react';
 import { StyleSheet, ScrollView, Text, View, Pressable } from 'react-native';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-import { getPoems } from '@/services/dataService';
-import { getCompletedPoems, CompletedPoems } from '@/services/progressService';
-import { Poem } from '@/types/shahname';
+import { getCategories } from '@/services/dataService';
+import { Category } from '@/types/shahname';
 import { router } from 'expo-router';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { Colors } from '@/constants/Colors';
 
 export default function HomeScreen() {
-  const [poems, setPoems] = useState<Poem[]>([]);
-  const [completedPoems, setCompletedPoems] = useState<CompletedPoems>({});
+  const [categories, setCategories] = useState<Category[]>([]);
   const colorScheme = useColorScheme();
 
   useEffect(() => {
-    const loadData = async () => {
-      const poemsData = getPoems();
-      const completedData = await getCompletedPoems();
-      setPoems(poemsData);
-      setCompletedPoems(completedData);
+    const loadData = () => {
+      const categoriesData = getCategories();
+      setCategories(categoriesData);
     };
     loadData();
   }, []);
 
-  const handlePoemPress = (poemId: number) => {
-    router.push(`/reading/${poemId}`);
+  const handleCategoryPress = (catId: number) => {
+    router.push(`/category/${catId}`);
   };
 
   const handleProfilePress = () => {
@@ -42,12 +38,11 @@ export default function HomeScreen() {
         </Pressable>
       </ThemedView>
       <ScrollView>
-        {poems.map((poem, index) => {
-          const isCompleted = completedPoems[poem.id];
+        {categories.map((category) => {
           return (
-            <Pressable key={poem.id} onPress={() => handlePoemPress(poem.id)}>
-              <ThemedView style={[styles.poemItem, isCompleted ? styles.completedPoemItem : {}]}>
-                <Text style={styles.poemText}>{poem.title}</Text>
+            <Pressable key={category.id} onPress={() => handleCategoryPress(category.id)}>
+              <ThemedView style={styles.categoryItem}>
+                <Text style={styles.categoryText}>{category.text}</Text>
               </ThemedView>
             </Pressable>
           );
@@ -68,16 +63,13 @@ const styles = StyleSheet.create({
     alignItems: 'center',
     marginBottom: 24,
   },
-  poemItem: {
+  categoryItem: {
     padding: 16,
     marginBottom: 12,
     borderRadius: 8,
-    backgroundColor: '#A1CEDC', // Incomplete color
+    backgroundColor: '#A1CEDC',
   },
-  completedPoemItem: {
-    backgroundColor: '#6EBF8B', // Completed color
-  },
-  poemText: {
+  categoryText: {
     color: '#fff',
     fontSize: 18,
     fontWeight: 'bold',

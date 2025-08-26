@@ -30,6 +30,7 @@ export default function RootLayout() {
       <Stack>
         <Stack.Screen name="index" options={{ headerShown: false }} />
         <Stack.Screen name="profile" options={{ title: 'Profile' }} />
+        <Stack.Screen name="category/[cat_id]" options={{ title: 'Category' }} />
         <Stack.Screen name="+not-found" />
       </Stack>
       <StatusBar style="auto" />

@@ -27,3 +27,7 @@ export const getPoem = (poemId: number) => {
 export const getPoems = () => {
   return poems;
 };
+
+export const getCategories = () => {
+  return categories.filter(c => c.parent_id === 33);
+};
