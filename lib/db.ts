@@ -2,7 +2,9 @@ import * as FileSystem from 'expo-file-system';
 import { Asset } from 'expo-asset';
 import * as SQLite from 'expo-sqlite';
 
-async function openDb(): Promise<SQLite.SQLiteDatabase> {
+let dbInstance: SQLite.SQLiteDatabase | null = null;
+
+async function initializeDatabase(): Promise<SQLite.SQLiteDatabase> {
   const dbName = 'ferdousi.gdb';
   const dbAsset = require('../assets/db/ferdousi.gdb');
   const dbUri = Asset.fromModule(dbAsset).uri;
@@ -22,7 +24,12 @@ async function openDb(): Promise<SQLite.SQLiteDatabase> {
   return SQLite.openDatabaseAsync(dbName);
 }
 
-const db = openDb();
+async function getDbConnection(): Promise<SQLite.SQLiteDatabase> {
+  if (dbInstance === null) {
+    dbInstance = await initializeDatabase();
+  }
+  return dbInstance;
+}
 
 export interface Category {
   id: number;
@@ -33,12 +40,11 @@ export interface Category {
 }
 
 export async function getCategories(): Promise<Category[]> {
-  const dbInstance = await db;
-  const results = await dbInstance.getAllAsync<Category>('SELECT * FROM cat');
+  const db = await getDbConnection();
+  const results = await db.getAllAsync<Category>('SELECT * FROM cat');
   return results;
 }
 
-export default db;
 
 export interface Poem {
   id: number;
@@ -55,8 +61,8 @@ export interface Verse {
 }
 
 export async function getPoemsByCategoryId(catId: number): Promise<Poem[]> {
-  const dbInstance = await db;
-  const results = await dbInstance.getAllAsync<Poem>(
+  const db = await getDbConnection();
+  const results = await db.getAllAsync<Poem>(
     'SELECT * FROM poem WHERE cat_id = ?',
     [catId]
   );
@@ -64,8 +70,8 @@ export async function getPoemsByCategoryId(catId: number): Promise<Poem[]> {
 }
 
 export async function getVersesByPoemId(poemId: number): Promise<Verse[]> {
-  const dbInstance = await db;
-  const results = await dbInstance.getAllAsync<Verse>(
+  const db = await getDbConnection();
+  const results = await db.getAllAsync<Verse>(
     'SELECT * FROM verse WHERE poem_id = ? ORDER BY vorder',
     [poemId]
   );
