@@ -1,0 +1,554 @@
+[
+  {
+    "poem_id": 1871,
+    "vorder": 1,
+    "position": 0,
+    "text": "دگر روز خسرو بیاراست گاه"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 2,
+    "position": 1,
+    "text": "به سر برنهاد آن کیانی کلاه"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 3,
+    "position": 0,
+    "text": "نهادند در گلشن سور خوان"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 4,
+    "position": 1,
+    "text": "چنین گفت پس رومیان را بخوان"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 5,
+    "position": 0,
+    "text": "بیامد نیاطوس با رومیان"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 6,
+    "position": 1,
+    "text": "نشستند با فیلسوفان بخوان"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 7,
+    "position": 0,
+    "text": "چو خسرو فرود آمد از تخت بار"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 8,
+    "position": 1,
+    "text": "ابا جامهٔ روم گوهر نگار"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 9,
+    "position": 0,
+    "text": "خرامید خندان و برخوان نشست"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 10,
+    "position": 1,
+    "text": "بشد نیز بندوی برسم بدست"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 11,
+    "position": 0,
+    "text": "جهاندار بگرفت واژ نهان"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 12,
+    "position": 1,
+    "text": "به زمزم همی رای زد با مهان"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 13,
+    "position": 0,
+    "text": "نیاطوس کان دید بنداخت نان"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 14,
+    "position": 1,
+    "text": "از آشفتگی باز پس شد ز خوان"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 15,
+    "position": 0,
+    "text": "همی‌گفت واژ و چلیپا بهم"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 16,
+    "position": 1,
+    "text": "ز قیصر بود بر مسیحا ستم"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 17,
+    "position": 0,
+    "text": "چو بندوی دید آن بزد پشت دست"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 18,
+    "position": 1,
+    "text": "بخوان بر به روی چلیپا پرست"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 19,
+    "position": 0,
+    "text": "غمی گشت زان کار خسرو چودید"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 20,
+    "position": 1,
+    "text": "برخساره شد چون گل شنبلید"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 21,
+    "position": 0,
+    "text": "به گستهم گفت این گو بی‌خرد"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 22,
+    "position": 1,
+    "text": "نباید که بی‌داوری می‌خورد"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 23,
+    "position": 0,
+    "text": "ورا با نیاطوس رومی چه کار"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 24,
+    "position": 1,
+    "text": "تن خویش را کرد امروز خوار"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 25,
+    "position": 0,
+    "text": "نیاطوس زان جایگه برنشست"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 26,
+    "position": 1,
+    "text": "به لشکرگه خویش شد نیم مست"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 27,
+    "position": 0,
+    "text": "بپوشید رومی زره رزم را"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 28,
+    "position": 1,
+    "text": "ز بهر تبه کردن بزم را"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 29,
+    "position": 0,
+    "text": "سواران رومی همه جنگ جوی"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 30,
+    "position": 1,
+    "text": "به درگاه خسرو نهادند روی"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 31,
+    "position": 0,
+    "text": "هم آنگه ز لشکر سواری چو باد"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 32,
+    "position": 1,
+    "text": "به خسرو فرستاد رومی نژاد"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 33,
+    "position": 0,
+    "text": "که بندوی ناکس چرا پشت دست"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 34,
+    "position": 1,
+    "text": "زند بر رخ مرد یزدان‌پرست"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 35,
+    "position": 0,
+    "text": "گر او را فرستی به نزدیک من"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 36,
+    "position": 1,
+    "text": "و گرنه ببین شورش انجمن"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 37,
+    "position": 0,
+    "text": "ز من بیش پیچی کنون کز رهی"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 38,
+    "position": 1,
+    "text": "که جوید همی تخت شاهنشهی"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 39,
+    "position": 0,
+    "text": "چو بشنید خسرو برآشفت و گفت"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 40,
+    "position": 1,
+    "text": "که کس دین یزدان نیارد نهفت"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 41,
+    "position": 0,
+    "text": "کیومرث و جمشید تا کی قباد"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 42,
+    "position": 1,
+    "text": "کسی از مسیحا نکردند یاد"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 43,
+    "position": 0,
+    "text": "مبادا که دین نیاکان خویش"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 44,
+    "position": 1,
+    "text": "گزیده سرافراز و پاکان خویش"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 45,
+    "position": 0,
+    "text": "گذارم بدین مسیحا شوم"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 46,
+    "position": 1,
+    "text": "نگیرم بخوان واژ و ترسا شوم"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 47,
+    "position": 0,
+    "text": "تو تنها همی کژگیری شمار"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 48,
+    "position": 1,
+    "text": "هنر دیدم از رومیان روز کار"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 49,
+    "position": 0,
+    "text": "به خسرو چنین گفت مریم که من"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 50,
+    "position": 1,
+    "text": "بپا آورم جنگ این انجمن"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 51,
+    "position": 0,
+    "text": "به من ده سرافراز بندوی را"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 52,
+    "position": 1,
+    "text": "که تا رومیان از پی روی را"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 53,
+    "position": 0,
+    "text": "ببینند و باز آرمش تن درست"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 54,
+    "position": 1,
+    "text": "کسی بیهوده جنگ هرگز نجست"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 55,
+    "position": 0,
+    "text": "فرستاد بندوی را شهریار"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 56,
+    "position": 1,
+    "text": "به نزد نیاطوس با ده سوار"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 57,
+    "position": 0,
+    "text": "همان نیز مریم زن هوشمند"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 58,
+    "position": 1,
+    "text": "که بودی همیشه لبانش بپند"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 59,
+    "position": 0,
+    "text": "بدو گفت رو با برادر پدر"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 60,
+    "position": 1,
+    "text": "بگو ای بداندیش پرخاشخر"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 61,
+    "position": 0,
+    "text": "ندیدی که با شاه قیصر چه گفت"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 62,
+    "position": 1,
+    "text": "ز بهر بزرگی ورا بود جفت"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 63,
+    "position": 0,
+    "text": "ز پیوند خویشی و از خواسته"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 64,
+    "position": 1,
+    "text": "ز مردان وز گنج آراسته"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 65,
+    "position": 0,
+    "text": "تو پیوند خویشی همی‌برکنی"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 66,
+    "position": 1,
+    "text": "همان فر قیصر ز من بفگنی"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 67,
+    "position": 0,
+    "text": "ز قیصر شنیدی که خسرو ز دین"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 68,
+    "position": 1,
+    "text": "بگردد چو آید به ایران زمین"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 69,
+    "position": 0,
+    "text": "مگو ایچ گفتار نا دلپذیر"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 70,
+    "position": 1,
+    "text": "تو بندوی را سر به آغوش گیر"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 71,
+    "position": 0,
+    "text": "ندانی که دهقان ز دین کهن"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 72,
+    "position": 1,
+    "text": "نپیچد چرا خام گویی سخن"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 73,
+    "position": 0,
+    "text": "مده رنج و کردار قیصر بباد"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 74,
+    "position": 1,
+    "text": "بمان تا به باشیم یک چند شاد"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 75,
+    "position": 0,
+    "text": "بکین پدر من جگر خسته‌ام"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 76,
+    "position": 1,
+    "text": "کمر بر میان سوک را بسته‌ام"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 77,
+    "position": 0,
+    "text": "دل او سراسر پر از کین اوست"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 78,
+    "position": 1,
+    "text": "زبانش پر از رنج و تیماراوست"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 79,
+    "position": 0,
+    "text": "که او از پی واژ شد زشت گوی"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 80,
+    "position": 1,
+    "text": "تو از بی‌خرد هوشمندی مجوی"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 81,
+    "position": 0,
+    "text": "چو مریم برفت این سخنها بگفت"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 82,
+    "position": 1,
+    "text": "نیاطوس بشنید و کینه نهفت"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 83,
+    "position": 0,
+    "text": "هم از کار بندوی دل کرد نرم"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 84,
+    "position": 1,
+    "text": "کجا داشت از روی بندوی شرم"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 85,
+    "position": 0,
+    "text": "بیامد به نزدیک خسرو چو گرد"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 86,
+    "position": 1,
+    "text": "دل خویش خوش کرد زان گفته مرد"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 87,
+    "position": 0,
+    "text": "نیاطوس گفت ای جهاندیده شاه"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 88,
+    "position": 1,
+    "text": "خردمندی از مست رومی مخواه"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 89,
+    "position": 0,
+    "text": "توبس کن بدین نیاکان خویش"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 90,
+    "position": 1,
+    "text": "خردمند مردم نگردد ز کیش"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 91,
+    "position": 0,
+    "text": "برین گونه چون شد سخنها دراز"
+  },
+  {
+    "poem_id": 1871,
+    "vorder": 92,
+    "position": 1,
+    "text": "به لشکر گه آمد نیاطوس باز"
+  }
+]

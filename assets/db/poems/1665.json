@@ -1,0 +1,614 @@
+[
+  {
+    "poem_id": 1665,
+    "vorder": 1,
+    "position": 0,
+    "text": "چو طینوش گفت سکندر شنید"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 2,
+    "position": 1,
+    "text": "به کردار باد دمان بردمید"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 3,
+    "position": 0,
+    "text": "بدو گفت کای ناکس بی‌خرد"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 4,
+    "position": 1,
+    "text": "ترا مردم از مردمان نشمرد"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 5,
+    "position": 0,
+    "text": "ندانی که پیش که داری نشست"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 6,
+    "position": 1,
+    "text": "بر شاه منشین و منمای دست"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 7,
+    "position": 0,
+    "text": "سرت پر ز تیزی و کنداوریست"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 8,
+    "position": 1,
+    "text": "نگویی مرا خود که شاه تو کیست"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 9,
+    "position": 0,
+    "text": "اگر نیستی فر این نامدار"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 10,
+    "position": 1,
+    "text": "سرت کندمی چون ترنجی ز بار"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 11,
+    "position": 0,
+    "text": "هم‌اکنون سرت را من از درد فور"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 12,
+    "position": 1,
+    "text": "به لشکر نمایم ز تن کرده دور"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 13,
+    "position": 0,
+    "text": "یکی بانگ برزد برو مادرش"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 14,
+    "position": 1,
+    "text": "که آسیمه برگشت جنگی سرش"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 15,
+    "position": 0,
+    "text": "به طینوش گفت این نه گفتار اوست"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 16,
+    "position": 1,
+    "text": "بران درگه او را فرستاد دوست"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 17,
+    "position": 0,
+    "text": "بفرمود کو را به بیرون برند"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 18,
+    "position": 1,
+    "text": "ز پیش نشستش به هامون برند"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 19,
+    "position": 0,
+    "text": "چنین گفت پس با سکندر به راز"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 20,
+    "position": 1,
+    "text": "که طینوش بی‌دانش دیوساز"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 21,
+    "position": 0,
+    "text": "نباید که اندر نهان چاره‌ای"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 22,
+    "position": 1,
+    "text": "بسازد گزندی و پتیاره‌ای"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 23,
+    "position": 0,
+    "text": "تو دانش پژوهی و داری خرد"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 24,
+    "position": 1,
+    "text": "نگه کن بدین تا چه اندر خورد"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 25,
+    "position": 0,
+    "text": "سکندر بدو گفت کین نیست راست"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 26,
+    "position": 1,
+    "text": "چو طینوش را بازخوانی رواست"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 27,
+    "position": 0,
+    "text": "جهاندار فرزند را بازخواند"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 28,
+    "position": 1,
+    "text": "بران نامور زیرگاهش نشاند"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 29,
+    "position": 0,
+    "text": "سکندر بدو گفت کای کامگار"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 30,
+    "position": 1,
+    "text": "اگر کام دل خواهی آرام دار"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 31,
+    "position": 0,
+    "text": "من از تو بدین کین نگیرم همی"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 32,
+    "position": 1,
+    "text": "سخن هرچ گویی پذیرم همی"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 33,
+    "position": 0,
+    "text": "مرا این نژندی ز اسکندرست"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 34,
+    "position": 1,
+    "text": "کجا شاد با تاج و با افسرست"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 35,
+    "position": 0,
+    "text": "بدین سان فرستد مرا نزد شاه"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 36,
+    "position": 1,
+    "text": "که از نامور مهتری باژ خواه"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 37,
+    "position": 0,
+    "text": "بدان تا هران بد که خواهد رسید"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 38,
+    "position": 1,
+    "text": "برو بر من آید ز دشمن پدید"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 39,
+    "position": 0,
+    "text": "ورا من بدین زود پاسخ دهم"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 40,
+    "position": 1,
+    "text": "یکی شاه را رای فرخ نهم"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 41,
+    "position": 0,
+    "text": "اگر دست او من بگیرم به دست"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 42,
+    "position": 1,
+    "text": "به نزد تو آرم به جای نشست"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 43,
+    "position": 0,
+    "text": "بدان سان که با او نبینی سپاه"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 44,
+    "position": 1,
+    "text": "نه شمشیر بینی نه تخت و کلاه"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 45,
+    "position": 0,
+    "text": "چه بخشی تو زین پادشاهی مرا"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 46,
+    "position": 1,
+    "text": "چو بپسندی این نیک‌خواهی مرا"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 47,
+    "position": 0,
+    "text": "چو بشنید طینوش گفت این سخن"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 48,
+    "position": 1,
+    "text": "شنیدم نباید که گردد کهن"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 49,
+    "position": 0,
+    "text": "گرین را که گفتی به جای آوری"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 50,
+    "position": 1,
+    "text": "بکوشی و پاکیزه رای آوری"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 51,
+    "position": 0,
+    "text": "من از گنج وز بدره و هرچ هست"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 52,
+    "position": 1,
+    "text": "ز اسپان و مردان خسرو پرست"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 53,
+    "position": 0,
+    "text": "ترا بخشم و نیز دارم سپاس"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 54,
+    "position": 1,
+    "text": "تو باشی جهانگیر و نیکی‌شناس"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 55,
+    "position": 0,
+    "text": "یکی پاک دستور باشی مرا"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 56,
+    "position": 1,
+    "text": "بدین مرز گنجور باشی مرا"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 57,
+    "position": 0,
+    "text": "سکندر بیامد ز جای نشست"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 58,
+    "position": 1,
+    "text": "برین عهد بگرفت دستش به دست"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 59,
+    "position": 0,
+    "text": "بپرسید طینوش کاین چون کنی"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 60,
+    "position": 1,
+    "text": "بدین جادوی بر چه افسون کنی"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 61,
+    "position": 0,
+    "text": "بدو گفت چون بازگردم ز شاه"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 62,
+    "position": 1,
+    "text": "تو باید که با من بیایی به راه"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 63,
+    "position": 0,
+    "text": "ز لشکر بیاری سواری هزار"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 64,
+    "position": 1,
+    "text": "همه نامدار از در کارزار"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 65,
+    "position": 0,
+    "text": "به جایی یکی بیشه دیدم به راه"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 66,
+    "position": 1,
+    "text": "نشانم ترا در کمین با سپاه"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 67,
+    "position": 0,
+    "text": "شوم من ز پیش تو در پیش اوی"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 68,
+    "position": 1,
+    "text": "ببینم روان بداندیش اوی"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 69,
+    "position": 0,
+    "text": "بگویم که چندین فرستاد چیز"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 70,
+    "position": 1,
+    "text": "کزان پس نیندیشی از چیز نیز"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 71,
+    "position": 0,
+    "text": "فرستاده گوید که من نزد شاه"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 72,
+    "position": 1,
+    "text": "نیارم شدن در میان سپاه"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 73,
+    "position": 0,
+    "text": "اگر شاه بیند که با موبدان"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 74,
+    "position": 1,
+    "text": "شود نزد طینوش با بخردان"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 75,
+    "position": 0,
+    "text": "چو بیندش بپذیرد این خواسته"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 76,
+    "position": 1,
+    "text": "ز هرگونه‌ای گنج آراسته"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 77,
+    "position": 0,
+    "text": "بیاید چو بیند ترا بی‌سپاه"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 78,
+    "position": 1,
+    "text": "اگر بازگردد گشادست راه"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 79,
+    "position": 0,
+    "text": "چو او بشنود خوب گفتار من"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 80,
+    "position": 1,
+    "text": "نه اندیشد از رنگ و بازار من"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 81,
+    "position": 0,
+    "text": "بیاید بر آن سایه زیر درخت"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 82,
+    "position": 1,
+    "text": "ز گنجور می خواهد و تاج و تخت"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 83,
+    "position": 0,
+    "text": "تو جنگی سپاهی به گردش درآر"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 84,
+    "position": 1,
+    "text": "برآساید از گردش روزگار"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 85,
+    "position": 0,
+    "text": "مکافات من باشد و کام تو"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 86,
+    "position": 1,
+    "text": "نجوید ازان پس کس آرام تو"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 87,
+    "position": 0,
+    "text": "که آید به دستت بسی خواسته"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 88,
+    "position": 1,
+    "text": "پرستنده و اسپ آراسته"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 89,
+    "position": 0,
+    "text": "چو طینوش بشنید زان شاد شد"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 90,
+    "position": 1,
+    "text": "بسان یکی سرو آزاد شد"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 91,
+    "position": 0,
+    "text": "چنین داد پاسخ که دارم امید"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 92,
+    "position": 1,
+    "text": "که گردد بدو تیره روزم سپید"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 93,
+    "position": 0,
+    "text": "به دام من آویزد او ناگهان"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 94,
+    "position": 1,
+    "text": "به خونی که او ریخت اندر جهان"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 95,
+    "position": 0,
+    "text": "چو دارای دارا و گردان سند"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 96,
+    "position": 1,
+    "text": "چو فور دلیر آن سرافراز هند"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 97,
+    "position": 0,
+    "text": "چو قیدافه گفت سکندر شنید"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 98,
+    "position": 1,
+    "text": "به چشم و دلش چارهٔ او بدید"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 99,
+    "position": 0,
+    "text": "بخندید زان چاره در زیر لب"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 100,
+    "position": 1,
+    "text": "دو بسد نهان کرد زیر قصب"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 101,
+    "position": 0,
+    "text": "سکندر بیامد ز نزدیک اوی"
+  },
+  {
+    "poem_id": 1665,
+    "vorder": 102,
+    "position": 1,
+    "text": "پراندیشه بد جان تاریک اوی"
+  }
+]

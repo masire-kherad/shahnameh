@@ -1,0 +1,578 @@
+[
+  {
+    "poem_id": 1901,
+    "vorder": 1,
+    "position": 0,
+    "text": "چنان بد که یک روز پرویز شاه"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 2,
+    "position": 1,
+    "text": "همی آرزو کرد نخچیرگاه"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 3,
+    "position": 0,
+    "text": "بیاراست برسان شاهنشهان"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 4,
+    "position": 1,
+    "text": "که بودند از او پیشتر در جهان"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 5,
+    "position": 0,
+    "text": "چو بالای سیصد به زرین ستام"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 6,
+    "position": 1,
+    "text": "ببردند با خسرو نیک نام"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 7,
+    "position": 0,
+    "text": "هزار و صد و شست خسرو پرست"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 8,
+    "position": 1,
+    "text": "پیاده همی‌رفت ژوپین بدست"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 9,
+    "position": 0,
+    "text": "هزار و چهل چوب و شمشیر داشت"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 10,
+    "position": 1,
+    "text": "که دیبای در بر زره زیر داشت"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 11,
+    "position": 0,
+    "text": "پس اندر بدی پانصد بازدار"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 12,
+    "position": 1,
+    "text": "هم از واشه و چرغ و شاهین کار"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 13,
+    "position": 0,
+    "text": "ازان پس برفتند سیصد سوار"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 14,
+    "position": 1,
+    "text": "پس بازداران با یوزدار"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 15,
+    "position": 0,
+    "text": "به زنجیر هفتاد شیروپلنگ"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 16,
+    "position": 1,
+    "text": "به دیبای چین اندرون بسته تنگ"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 17,
+    "position": 0,
+    "text": "پلنگان و شیران آموخته"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 18,
+    "position": 1,
+    "text": "به زنجیر زرین دهن دوخته"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 19,
+    "position": 0,
+    "text": "قلاده بزر بسته صد بود سگ"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 20,
+    "position": 1,
+    "text": "که دردشت آهو گرفتی بتگ"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 21,
+    "position": 0,
+    "text": "پس اندر ز رامشگران دوهزار"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 22,
+    "position": 1,
+    "text": "همه ساخته رود روز شکار"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 23,
+    "position": 0,
+    "text": "به زیر اندرون هریکی اشتری"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 24,
+    "position": 1,
+    "text": "به سر برنهاده ز زر افسری"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 25,
+    "position": 0,
+    "text": "ز کرسی و خرگاه و پرده سرای"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 26,
+    "position": 1,
+    "text": "همان خیمه و آخر چارپای"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 27,
+    "position": 0,
+    "text": "شتر بود پیش اندرون پانصد"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 28,
+    "position": 1,
+    "text": "همه کرده آن بزم را نامزد"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 29,
+    "position": 0,
+    "text": "ز شاهان برنای سیصد سوار"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 30,
+    "position": 1,
+    "text": "همی‌راند با نامور شهریار"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 31,
+    "position": 0,
+    "text": "ابا یاره و طوق و زرین کمر"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 32,
+    "position": 1,
+    "text": "بهر مهره‌ای در نشانده گهر"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 33,
+    "position": 0,
+    "text": "دوصد برده تامجمر افروختند"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 34,
+    "position": 1,
+    "text": "برو عود و عنبر همی‌سوختند"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 35,
+    "position": 0,
+    "text": "دوصد مرد برنای فرمانبران"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 36,
+    "position": 1,
+    "text": "ابا هریکی نرگس و زعفران"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 37,
+    "position": 0,
+    "text": "همه پیش بردند تا باد بوی"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 38,
+    "position": 1,
+    "text": "چو آید ز هر سو رساند بدوی"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 39,
+    "position": 0,
+    "text": "همه پیش آنکس که با بوی خوش"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 40,
+    "position": 1,
+    "text": "همی‌رفت با مشک صد آبکش"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 41,
+    "position": 0,
+    "text": "که تا ناورد ناگهان گرد باد"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 42,
+    "position": 1,
+    "text": "نشاند بران شاه فرخ نژاد"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 43,
+    "position": 0,
+    "text": "چو بشنید شیرین که آمد سپاه"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 44,
+    "position": 1,
+    "text": "به پیش سپاه آن جهاندار شاه"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 45,
+    "position": 0,
+    "text": "یکی زرد پیراهن مشک بوی"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 46,
+    "position": 1,
+    "text": "بپوشید و گلنارگون کرد روی"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 47,
+    "position": 0,
+    "text": "یکی از برش سرخ دیبای روم"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 48,
+    "position": 1,
+    "text": "همه پیکرش گوهر و زر بوم"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 49,
+    "position": 0,
+    "text": "به سر برنهاد افسر خسروی"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 50,
+    "position": 1,
+    "text": "نگارش همه پیکر پهلوای"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 51,
+    "position": 0,
+    "text": "از ایوان خسرو برآمد ببام"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 52,
+    "position": 1,
+    "text": "به روز جوانی نبد شادکام"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 53,
+    "position": 0,
+    "text": "همی‌بود تاخسرو آنجا رسید"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 54,
+    "position": 1,
+    "text": "سرشکش ز مژگان به رخ برچکید"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 55,
+    "position": 0,
+    "text": "چو روی ورا دید برپای خاست"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 56,
+    "position": 1,
+    "text": "به پرویز بنمود بالای راست"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 57,
+    "position": 0,
+    "text": "زبان کرد گویا بشیرین سخن"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 58,
+    "position": 1,
+    "text": "همی‌گفت زان روزگار کهن"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 59,
+    "position": 0,
+    "text": "به نرگس گل و ارغوان را بشست"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 60,
+    "position": 1,
+    "text": "که بیمار بد نرگس وگل درست"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 61,
+    "position": 0,
+    "text": "بدان آبداری و آن نیکوی"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 62,
+    "position": 1,
+    "text": "زبان تیز بگشاد برپهلوی"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 63,
+    "position": 0,
+    "text": "که تهما هژبرا سپهبد تنا"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 64,
+    "position": 1,
+    "text": "خجسته کیا گرد شیراوژنا"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 65,
+    "position": 0,
+    "text": "کجا آن همه مهر و خونین سرشک"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 66,
+    "position": 1,
+    "text": "که دیدار شیرین بد او را پزشک"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 67,
+    "position": 0,
+    "text": "کجا آن همه روز کردن به شب"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 68,
+    "position": 1,
+    "text": "دل و دیده گریان و خندان دو لب"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 69,
+    "position": 0,
+    "text": "کجا آن همه بند و پیوندما"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 70,
+    "position": 1,
+    "text": "کجا آن همه عهد و سوگند ما"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 71,
+    "position": 0,
+    "text": "همی‌گفت وز دیده خوناب زرد"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 72,
+    "position": 1,
+    "text": "همی‌ریخت برجامهٔ لاژورد"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 73,
+    "position": 0,
+    "text": "به چشم اندر آورد زو خسرو آب"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 74,
+    "position": 1,
+    "text": "به زردی رخش گشت چون آفتاب"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 75,
+    "position": 0,
+    "text": "فرستاد بالای زرین ستام"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 76,
+    "position": 1,
+    "text": "ز رومی چهل خادم نیک نام"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 77,
+    "position": 0,
+    "text": "که او را به مشکوی زرین برند"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 78,
+    "position": 1,
+    "text": "سوی خانهٔ گوهر آگین برند"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 79,
+    "position": 0,
+    "text": "ازان جایگه شد به دشت شکار"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 80,
+    "position": 1,
+    "text": "ابا باده ورود و با میگسار"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 81,
+    "position": 0,
+    "text": "چو از کوه وز دشت برداشت بهر"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 82,
+    "position": 1,
+    "text": "همی‌رفت شادی کنان سوی شهر"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 83,
+    "position": 0,
+    "text": "ببستند آذین بشهر و به راه"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 84,
+    "position": 1,
+    "text": "که شاه آمد از دشت نخچیرگاه"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 85,
+    "position": 0,
+    "text": "ز نالیدن بوق و بانگ سرود"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 86,
+    "position": 1,
+    "text": "هوا گشت ز آواز بی‌تار و پود"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 87,
+    "position": 0,
+    "text": "چنان خسروی برز و شاخ بلند"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 88,
+    "position": 1,
+    "text": "ز دشت اندر آمد به کاخ بلند"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 89,
+    "position": 0,
+    "text": "ز مشکوی شیرین بیامد برش"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 90,
+    "position": 1,
+    "text": "ببوسید پای و زمین و برش"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 91,
+    "position": 0,
+    "text": "به موبد چنین گفت شاه آن زمان"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 92,
+    "position": 1,
+    "text": "که بر ما مبر جز به نیکی گمان"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 93,
+    "position": 0,
+    "text": "مرین خوب رخ را به خسرو دهید"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 94,
+    "position": 1,
+    "text": "جهان را بدین مژدهٔ نو دهید"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 95,
+    "position": 0,
+    "text": "مر او را به آیین پیشی بخواست"
+  },
+  {
+    "poem_id": 1901,
+    "vorder": 96,
+    "position": 1,
+    "text": "که آن رسم و آیین بد آنگاه راست"
+  }
+]

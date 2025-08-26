@@ -1,0 +1,494 @@
+[
+  {
+    "poem_id": 1622,
+    "vorder": 1,
+    "position": 0,
+    "text": "چنان بد که روزی یکی تندباد"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 2,
+    "position": 1,
+    "text": "برآمد غمی گشت زان رشنواد"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 3,
+    "position": 0,
+    "text": "یکی رعد و باران با برق و جوش"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 4,
+    "position": 1,
+    "text": "زمین پر ز آب آسمان پرخروش"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 5,
+    "position": 0,
+    "text": "به هر سو ز باران همی تاختند"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 6,
+    "position": 1,
+    "text": "به دشت اندرون خیمه‌ها ساختند"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 7,
+    "position": 0,
+    "text": "غمی بود زان کار داراب نیز"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 8,
+    "position": 1,
+    "text": "ز باران همی جست راه گریز"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 9,
+    "position": 0,
+    "text": "نگه کرد ویران یکی جای دید"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 10,
+    "position": 1,
+    "text": "میانش یکی طاق بر پای دید"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 11,
+    "position": 0,
+    "text": "بلند و کهن بود و آزرده بود"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 12,
+    "position": 1,
+    "text": "یکی خسروی جای پر پرده بود"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 13,
+    "position": 0,
+    "text": "نه خرگاه بودش نه پرده‌سرای"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 14,
+    "position": 1,
+    "text": "نه خیمه نه انباز و نه چارپای"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 15,
+    "position": 0,
+    "text": "بران طاق آزرده بایست خفت"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 16,
+    "position": 1,
+    "text": "چو تنها تنی بود بی‌یار و جفت"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 17,
+    "position": 0,
+    "text": "سپهبد همی گرد لشکر بگشت"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 18,
+    "position": 1,
+    "text": "بران طاق آزرده اندر گذشت"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 19,
+    "position": 0,
+    "text": "ز ویران خروشی به گوش آمدش"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 20,
+    "position": 1,
+    "text": "کزان سهم جای خروش آمدش"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 21,
+    "position": 0,
+    "text": "که ای طاق آزرده هشیار باش"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 22,
+    "position": 1,
+    "text": "برین شاه ایران نگهدار باش"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 23,
+    "position": 0,
+    "text": "نبودش یکی خیمه و یار و جفت"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 24,
+    "position": 1,
+    "text": "بیامد به زیر تو اندر بخفت"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 25,
+    "position": 0,
+    "text": "چنین گفت با خویشتن رشنواد"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 26,
+    "position": 1,
+    "text": "که این بانگ رعدست گر تندباد"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 27,
+    "position": 0,
+    "text": "دگر باره آمد ز ایوان خروش"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 28,
+    "position": 1,
+    "text": "که ای طاق چشم خرد را مپوش"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 29,
+    "position": 0,
+    "text": "که در تست فرزند شاه اردشیر"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 30,
+    "position": 1,
+    "text": "ز باران مترس این سخن یادگیر"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 31,
+    "position": 0,
+    "text": "سیم بار آوازش آمد به گوش"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 32,
+    "position": 1,
+    "text": "شگفتی دلش تنگ شد زان خروش"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 33,
+    "position": 0,
+    "text": "به فرزانه گفت این چه شاید بدن"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 34,
+    "position": 1,
+    "text": "یکی را سوی طاق باید شدن"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 35,
+    "position": 0,
+    "text": "ببینید تا اندرو خفته کیست"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 36,
+    "position": 1,
+    "text": "چنین بر تن خود برآشفته کیست"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 37,
+    "position": 0,
+    "text": "برفتند و دیدند مردی جوان"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 38,
+    "position": 1,
+    "text": "خردمند و با چهرهٔ پهلوان"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 39,
+    "position": 0,
+    "text": "همه جامه و باره و تر و تباه"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 40,
+    "position": 1,
+    "text": "ز خاک سیه ساخته جایگاه"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 41,
+    "position": 0,
+    "text": "به پیش سپهبد بگفت آنچ دید"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 42,
+    "position": 1,
+    "text": "دل پهلوان زان سخن بردمید"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 43,
+    "position": 0,
+    "text": "بفرمود کو را بخوانید زود"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 44,
+    "position": 1,
+    "text": "خروشی برین سان که یارد شنود"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 45,
+    "position": 0,
+    "text": "برفتند و گفتند کای خفته مرد"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 46,
+    "position": 1,
+    "text": "ازین خواب برخیز و بیدار گرد"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 47,
+    "position": 0,
+    "text": "چو دارا به اسپ اندر آورد پای"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 48,
+    "position": 1,
+    "text": "شکسته رواق اندر آمد ز جای"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 49,
+    "position": 0,
+    "text": "چو سالار شاه آن شگفتی بدید"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 50,
+    "position": 1,
+    "text": "سرو پای داراب را بنگرید"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 51,
+    "position": 0,
+    "text": "چنین گفت کاینت شگفتی شگفت"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 52,
+    "position": 1,
+    "text": "کزین برتر اندیشه نتوان گرفت"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 53,
+    "position": 0,
+    "text": "بشد تیز با او به پرده‌سرای"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 54,
+    "position": 1,
+    "text": "همی گفت کای دادگر یک خدای"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 55,
+    "position": 0,
+    "text": "کسی در جهان این شگفتی ندید"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 56,
+    "position": 1,
+    "text": "نه از کار دیده بزرگان شنید"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 57,
+    "position": 0,
+    "text": "بفرمود تا جامه‌ها خواستند"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 58,
+    "position": 1,
+    "text": "به خرگاه جایی بیاراستند"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 59,
+    "position": 0,
+    "text": "به کردار کوه آتشی برفروخت"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 60,
+    "position": 1,
+    "text": "بسی عود و با مشک و عنبر بسوخت"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 61,
+    "position": 0,
+    "text": "چو خورشید سر برزد از کوهسار"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 62,
+    "position": 1,
+    "text": "سپهبد برفتن بر آراست کار"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 63,
+    "position": 0,
+    "text": "بفرمود تا موبدی رهنمای"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 64,
+    "position": 1,
+    "text": "یکی دست جامه ز سر تا به پای"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 65,
+    "position": 0,
+    "text": "یکی اسپ با زین و زرین ستام"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 66,
+    "position": 1,
+    "text": "کمندی و تیغی به زرین نیام"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 67,
+    "position": 0,
+    "text": "به داراب دادند و پرسید زوی"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 68,
+    "position": 1,
+    "text": "که ای شیردل مهتر نامجوی"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 69,
+    "position": 0,
+    "text": "چو مردی تو و زادبومت کجاست"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 70,
+    "position": 1,
+    "text": "سزد گر بگویی همه راه راست"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 71,
+    "position": 0,
+    "text": "چو بشنید داراب یکسر بگفت"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 72,
+    "position": 1,
+    "text": "گذشته همی برگشاد از نهفت"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 73,
+    "position": 0,
+    "text": "بران سان که آن زن برو کرد یاد"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 74,
+    "position": 1,
+    "text": "سخنها همی گفت با رشنواد"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 75,
+    "position": 0,
+    "text": "ز صندوق و یاقوت و بازوی خویش"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 76,
+    "position": 1,
+    "text": "ز دینار و دیبا به پهلوی خویش"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 77,
+    "position": 0,
+    "text": "یکایک به سالار لشکر بگفت"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 78,
+    "position": 1,
+    "text": "ز خواب و ز آرام و خورد و نهفت"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 79,
+    "position": 0,
+    "text": "هم‌انگه فرستاد کس رشنواد"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 80,
+    "position": 1,
+    "text": "فرستاده را گفت بر سان باد"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 81,
+    "position": 0,
+    "text": "زن گازر و گازر و مهره را"
+  },
+  {
+    "poem_id": 1622,
+    "vorder": 82,
+    "position": 1,
+    "text": "بیارید بهرام و هم زهره را"
+  }
+]

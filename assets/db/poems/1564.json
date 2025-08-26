@@ -1,0 +1,698 @@
+[
+  {
+    "poem_id": 1564,
+    "vorder": 1,
+    "position": 0,
+    "text": "از آن کار پر درد شد گرگسار"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 2,
+    "position": 1,
+    "text": "کجا زنده شد مرده اسفندیار"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 3,
+    "position": 0,
+    "text": "سراپرده زد بر لب آب شاه"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 4,
+    "position": 1,
+    "text": "همه خیمه‌ها گردش اندر سپاه"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 5,
+    "position": 0,
+    "text": "می و رود بر خوان و میخواره خواست"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 6,
+    "position": 1,
+    "text": "به یاد جهاندار بر پای خاست"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 7,
+    "position": 0,
+    "text": "بفرمود تا داغ دل گرگسار"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 8,
+    "position": 1,
+    "text": "بیامد نوان پیش اسفندیار"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 9,
+    "position": 0,
+    "text": "می خسروانی سه جامش بداد"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 10,
+    "position": 1,
+    "text": "بخندید و زآن اژدها کرد یاد"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 11,
+    "position": 0,
+    "text": "بدو گفت کای بد تن بی‌بها"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 12,
+    "position": 1,
+    "text": "ببین این دم آهنج نر اژدها"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 13,
+    "position": 0,
+    "text": "از این پس به منزل چه پیش آیدم"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 14,
+    "position": 1,
+    "text": "کجا رنج و تیمار بیش آیدم"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 15,
+    "position": 0,
+    "text": "بدو گفت کای شاه پیروزگر"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 16,
+    "position": 1,
+    "text": "همی یابی از اختر نیک بر"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 17,
+    "position": 0,
+    "text": "تو فردا چو در منزل آیی فرود"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 18,
+    "position": 1,
+    "text": "به پیشت زن جادو آرد درود"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 19,
+    "position": 0,
+    "text": "که دیدست ز این پیش لشکر بسی"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 20,
+    "position": 1,
+    "text": "نکردست پیچان روان از کسی"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 21,
+    "position": 0,
+    "text": "چو خواهد بیابان چو دریا کند"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 22,
+    "position": 1,
+    "text": "به بالای خورشید پهنا کند"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 23,
+    "position": 0,
+    "text": "ورا غول خوانند شاهان به نام"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 24,
+    "position": 1,
+    "text": "به روز جوانی مرو پیش دام"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 25,
+    "position": 0,
+    "text": "به پیروزی اژدها باز گرد"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 26,
+    "position": 1,
+    "text": "نباید که نام اندر آری به گرد"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 27,
+    "position": 0,
+    "text": "جهانجوی گفت ای بد شوخ روی"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 28,
+    "position": 1,
+    "text": "ز من هرچه بینی تو فردا بگوی"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 29,
+    "position": 0,
+    "text": "که من با زن جادوان آن کنم"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 30,
+    "position": 1,
+    "text": "که پشت و دل جادوان بشکنم"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 31,
+    "position": 0,
+    "text": "به پیروزی دادده یک خدای"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 32,
+    "position": 1,
+    "text": "سر جادوان اندر آرم به پای"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 33,
+    "position": 0,
+    "text": "چو پیراهن زرد پوشید روز"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 34,
+    "position": 1,
+    "text": "سوی باختر گشت گیتی فروز"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 35,
+    "position": 0,
+    "text": "سپه برگرفت و بنه بر نهاد"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 36,
+    "position": 1,
+    "text": "ز یزدان نیکی دهش کرد یاد"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 37,
+    "position": 0,
+    "text": "شب تیره لشکر همی راند شاه"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 38,
+    "position": 1,
+    "text": "چو خورشید بفروخت زرین کلاه"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 39,
+    "position": 0,
+    "text": "چو یاقوت شد روی برج بره"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 40,
+    "position": 1,
+    "text": "بخندید روی زمین یکسره"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 41,
+    "position": 0,
+    "text": "سپه را همه بر پشوتن سپرد"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 42,
+    "position": 1,
+    "text": "یکی جام زرین پر از می ببرد"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 43,
+    "position": 0,
+    "text": "یکی ساخته نیز تنبور خواست"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 44,
+    "position": 1,
+    "text": "همی رزم پیش آمدش سور خواست"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 45,
+    "position": 0,
+    "text": "یکی بیشه‌ای دید همچون بهشت"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 46,
+    "position": 1,
+    "text": "تو گفتی سپهر اندر او لاله کشت"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 47,
+    "position": 0,
+    "text": "ندید از درخت اندر او آفتاب"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 48,
+    "position": 1,
+    "text": "به هر جای بر چشمه‌ای چون گلاب"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 49,
+    "position": 0,
+    "text": "فرود آمد از بارگی چون سزید"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 50,
+    "position": 1,
+    "text": "ز بیشه لب چشمه‌ای برگزید"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 51,
+    "position": 0,
+    "text": "یکی جام زرین به کف برنهاد"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 52,
+    "position": 1,
+    "text": "چو دانست کز می دلش گشت شاد"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 53,
+    "position": 0,
+    "text": "همانگاه تنبور را برگرفت"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 54,
+    "position": 1,
+    "text": "سراییدن و ناله اندر گرفت"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 55,
+    "position": 0,
+    "text": "همی گفت بداختر اسفندیار"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 56,
+    "position": 1,
+    "text": "که هرگز نبیند می و میگسار"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 57,
+    "position": 0,
+    "text": "نبیند جز از شیر و نر اژدها"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 58,
+    "position": 1,
+    "text": "ز چنگ بلاها نیابد رها"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 59,
+    "position": 0,
+    "text": "نیابد همی ز این جهان بهره‌ای"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 60,
+    "position": 1,
+    "text": "به دیدار فرخ پری چهره‌ای"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 61,
+    "position": 0,
+    "text": "بیابم ز یزدان همی کام دل"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 62,
+    "position": 1,
+    "text": "مرا گر دهد چهرهٔ دلگسل"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 63,
+    "position": 0,
+    "text": "به بالا چو سرو و چو خورشید روی"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 64,
+    "position": 1,
+    "text": "فروهشته از مشک تا پای موی"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 65,
+    "position": 0,
+    "text": "زن جادو آواز اسفندیار"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 66,
+    "position": 1,
+    "text": "چو بشنید شد چون گل اندر بهار"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 67,
+    "position": 0,
+    "text": "چنین گفت کآمد هژبری به دام"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 68,
+    "position": 1,
+    "text": "ابا چامه و رود و پر کرده جام"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 69,
+    "position": 0,
+    "text": "پر آژنگ رویی بی آیین و زشت"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 70,
+    "position": 1,
+    "text": "بدان تیرگی جادویها نوشت"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 71,
+    "position": 0,
+    "text": "به سان یکی ترک شد خوب روی"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 72,
+    "position": 1,
+    "text": "چو دیبای چینی رخ از مشک موی"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 73,
+    "position": 0,
+    "text": "بیامد به نزدیک اسفندیار"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 74,
+    "position": 1,
+    "text": "نشست از بر سبزه و جویبار"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 75,
+    "position": 0,
+    "text": "جهانجوی چون روی او را بدید"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 76,
+    "position": 1,
+    "text": "سرود و می و رود برتر کشید"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 77,
+    "position": 0,
+    "text": "چنین گفت کای دادگر یک خدای"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 78,
+    "position": 1,
+    "text": "به کوه و بیابان توی رهنمای"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 79,
+    "position": 0,
+    "text": "بجستم هم‌اکنون پری چهره‌ای"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 80,
+    "position": 1,
+    "text": "به تن شهره‌ای زو مرا بهره‌ای"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 81,
+    "position": 0,
+    "text": "به داد آفرینندهٔ داد و راد"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 82,
+    "position": 1,
+    "text": "مرا پاک جام و پرستنده داد"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 83,
+    "position": 0,
+    "text": "یکی جام پر بادهٔ مشک بوی"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 84,
+    "position": 1,
+    "text": "بدو داد تا لعل گرددش روی"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 85,
+    "position": 0,
+    "text": "یکی نغز پولاد زنجیر داشت"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 86,
+    "position": 1,
+    "text": "نهان کرده از جادو آژیر داشت"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 87,
+    "position": 0,
+    "text": "به بازوش در بسته بد زردهشت"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 88,
+    "position": 1,
+    "text": "به گشتاسپ آورده بود از بهشت"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 89,
+    "position": 0,
+    "text": "بدان آهن از جان اسفندیار"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 90,
+    "position": 1,
+    "text": "نبردی گمانی به بد روزگار"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 91,
+    "position": 0,
+    "text": "بینداخت زنجیر در گردنش"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 92,
+    "position": 1,
+    "text": "بر آن سان که نیرو ببرد از تنش"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 93,
+    "position": 0,
+    "text": "زن جادو از خویشتن شیر کرد"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 94,
+    "position": 1,
+    "text": "جهانجوی آهنگ شمشیر کرد"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 95,
+    "position": 0,
+    "text": "بدو گفت بر من نیاری گزند"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 96,
+    "position": 1,
+    "text": "اگر آهنین کوه گردی بلند"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 97,
+    "position": 0,
+    "text": "بیارای زآن سان که هستی رخت"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 98,
+    "position": 1,
+    "text": "به شمشیر یازم کنون پاسخت"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 99,
+    "position": 0,
+    "text": "به زنجیر شد گنده پیری تباه"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 100,
+    "position": 1,
+    "text": "سر و موی چون برف و رنگی سیاه"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 101,
+    "position": 0,
+    "text": "یکی تیز خنجر بزد بر سرش"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 102,
+    "position": 1,
+    "text": "مبادا که بینی سرش گر برش"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 103,
+    "position": 0,
+    "text": "چو جادو بمرد آسمان تیره گشت"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 104,
+    "position": 1,
+    "text": "بر آن سان که چشم اندر آن خیره گشت"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 105,
+    "position": 0,
+    "text": "یکی باد و گردی برآمد سیاه"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 106,
+    "position": 1,
+    "text": "بپوشید دیدار خورشید و ماه"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 107,
+    "position": 0,
+    "text": "به بالا برآمد جهانجوی مرد"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 108,
+    "position": 1,
+    "text": "چو رعد خروشان یکی نعره کرد"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 109,
+    "position": 0,
+    "text": "پشوتن بیامد همی با سپاه"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 110,
+    "position": 1,
+    "text": "چنین گفت کای نامبردار شاه"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 111,
+    "position": 0,
+    "text": "نه با زخم تو پای دارد نهنگ"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 112,
+    "position": 1,
+    "text": "نه ترک و نه جادو نه شیر و پلنگ"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 113,
+    "position": 0,
+    "text": "به گیتی بماناد یل سرفراز"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 114,
+    "position": 1,
+    "text": "جهان را به مهر تو بادا نیاز"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 115,
+    "position": 0,
+    "text": "یکی آتش از تارک گرگسار"
+  },
+  {
+    "poem_id": 1564,
+    "vorder": 116,
+    "position": 1,
+    "text": "برآمد ز پیکار اسفندیار"
+  }
+]

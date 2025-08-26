@@ -1,0 +1,626 @@
+[
+  {
+    "poem_id": 1628,
+    "vorder": 1,
+    "position": 0,
+    "text": "شد از جنگ نیزه‌وران تا به روم"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 2,
+    "position": 1,
+    "text": "همی جست رزم اندر آباد بوم"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 3,
+    "position": 0,
+    "text": "به روم اندرون شاه بدفیلقوس"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 4,
+    "position": 1,
+    "text": "کجا بود با رای او شاه سوس"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 5,
+    "position": 0,
+    "text": "نوشتند نامه که پور همای"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 6,
+    "position": 1,
+    "text": "سپاهی بیاورد بی‌مر ز جای"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 7,
+    "position": 0,
+    "text": "چو بشنید سالار روم این سخن"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 8,
+    "position": 1,
+    "text": "به یاد آمدش روزگار کهن"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 9,
+    "position": 0,
+    "text": "ز عموریه لشکری گرد کرد"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 10,
+    "position": 1,
+    "text": "همه نامداران روز نبرد"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 11,
+    "position": 0,
+    "text": "چو دارا بیامد بزرگان روم"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 12,
+    "position": 1,
+    "text": "بپرداختند آن همه مرز و بوم"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 13,
+    "position": 0,
+    "text": "ز عموریه فیلقوس و سران"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 14,
+    "position": 1,
+    "text": "برفتند گردان و جنگاوران"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 15,
+    "position": 0,
+    "text": "دو رزم گران کرده شد در سه روز"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 16,
+    "position": 1,
+    "text": "چهارم چو بفروخت گیتی فروز"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 17,
+    "position": 0,
+    "text": "گریزان بشد فیلقوس و سپاه"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 18,
+    "position": 1,
+    "text": "یکی را نبد ترگ و رومی کلاه"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 19,
+    "position": 0,
+    "text": "زن و کودکان نیز کردند اسیر"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 20,
+    "position": 1,
+    "text": "بکشتند چندی به شمشیر و تیر"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 21,
+    "position": 0,
+    "text": "چو از پیش دارا به شهر آمدند"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 22,
+    "position": 1,
+    "text": "ازان رفته لشکر دو بهر آمدند"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 23,
+    "position": 0,
+    "text": "دگر پیشتر کشته و خسته بود"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 24,
+    "position": 1,
+    "text": "پس پشتشان نیزه پیوسته بود"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 25,
+    "position": 0,
+    "text": "به عموریه در حصاری شدند"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 26,
+    "position": 1,
+    "text": "ازیشان بسی زینهاری شدند"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 27,
+    "position": 0,
+    "text": "فرستاده‌ای آمد از فیلقوس"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 28,
+    "position": 1,
+    "text": "خردمند و بیدار و با نعم و بوس"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 29,
+    "position": 0,
+    "text": "ابا برده و بدره و با نثار"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 30,
+    "position": 1,
+    "text": "دو صندوق پرگوهر شاهوار"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 31,
+    "position": 0,
+    "text": "چنین بود پیغام کز یک خدای"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 32,
+    "position": 1,
+    "text": "بخواهم که او باشدم رهنمای"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 33,
+    "position": 0,
+    "text": "که فرجام این رزم بزم آوریم"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 34,
+    "position": 1,
+    "text": "مبادا که دل سوی رزم آوریم"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 35,
+    "position": 0,
+    "text": "همه راستی باید و مردمی"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 36,
+    "position": 1,
+    "text": "ز کژی و آزار خیزد کمی"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 37,
+    "position": 0,
+    "text": "چو عموریه کان نشست منست"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 38,
+    "position": 1,
+    "text": "تو آیی و سازی که گیری بدست"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 39,
+    "position": 0,
+    "text": "دل من به جوش آید از نام و ننگ"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 40,
+    "position": 1,
+    "text": "به هنگام بزم اندر آیم به جنگ"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 41,
+    "position": 0,
+    "text": "تو آن کن که از شهریاران سزاست"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 42,
+    "position": 1,
+    "text": "پدر شاه بود و پسر پادشاست"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 43,
+    "position": 0,
+    "text": "چو بشنید آزادگانرا بخواند"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 44,
+    "position": 1,
+    "text": "همه داستان پیش ایشان براند"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 45,
+    "position": 0,
+    "text": "چه بینید گفت اندرین گفت و گوی"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 46,
+    "position": 1,
+    "text": "بجوید همی فیلقوس آب روی"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 47,
+    "position": 0,
+    "text": "همه مهتران خواندند آفرین"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 48,
+    "position": 1,
+    "text": "که ای شاه بینادل و پاک‌دین"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 49,
+    "position": 0,
+    "text": "شهنشاه بر مهتران مهتر است"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 50,
+    "position": 1,
+    "text": "ز کار آن گزیند کجا در خور است"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 51,
+    "position": 0,
+    "text": "یکی دختری دارد این نامدار"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 52,
+    "position": 1,
+    "text": "به بالای سرو و به رخ چون بهار"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 53,
+    "position": 0,
+    "text": "بت‌آرای چون او نبیند به چین"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 54,
+    "position": 1,
+    "text": "میان بتان چون درخشان نگین"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 55,
+    "position": 0,
+    "text": "اگر شاه بیند پسند آیدش"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 56,
+    "position": 1,
+    "text": "به پالیز سرو بلند آیدش"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 57,
+    "position": 0,
+    "text": "فرستادهٔ روم را خواند شاه"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 58,
+    "position": 1,
+    "text": "بگفت آنچ بشنید از نیکخواه"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 59,
+    "position": 0,
+    "text": "بدو گفت رو پیش قیصر بگوی"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 60,
+    "position": 1,
+    "text": "اگر جست خواهی همی آب روی"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 61,
+    "position": 0,
+    "text": "پس پردهٔ تو یکی دختر است"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 62,
+    "position": 1,
+    "text": "که بر تارک بانوان افسر است"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 63,
+    "position": 0,
+    "text": "نگاری که ناهید خوانی ورا"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 64,
+    "position": 1,
+    "text": "بر اورنگ زرین نشانی ورا"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 65,
+    "position": 0,
+    "text": "به من بخش و بفرست با باژ روم"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 66,
+    "position": 1,
+    "text": "چو خواهی که بی‌رنج ماندت بوم"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 67,
+    "position": 0,
+    "text": "فرستاده بشنید و آمد چو باد"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 68,
+    "position": 1,
+    "text": "به قیصر بر آن گفتها کرد یاد"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 69,
+    "position": 0,
+    "text": "بدان شاد شد فیلقوس و سپاه"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 70,
+    "position": 1,
+    "text": "که داماد باشد مر او را چو شاه"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 71,
+    "position": 0,
+    "text": "سخن گفت هرگونه از باژ و ساو"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 72,
+    "position": 1,
+    "text": "ز چیزی که دارد پی روم تاو"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 73,
+    "position": 0,
+    "text": "بران بر نهادند سالی که شاه"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 74,
+    "position": 1,
+    "text": "ستاند ز قیصر که دارد سپاه"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 75,
+    "position": 0,
+    "text": "ز زر خایهٔ ریخته صدهزار"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 76,
+    "position": 1,
+    "text": "ابا هر یکی گوهر شاهوار"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 77,
+    "position": 0,
+    "text": "چهل کرده مثقال هر خایه‌ای"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 78,
+    "position": 1,
+    "text": "همان نیز گوهر گرانمایه‌ای"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 79,
+    "position": 0,
+    "text": "ببخشید بر مرزبانان روم"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 80,
+    "position": 1,
+    "text": "هرانکس که بودند ز آباد بوم"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 81,
+    "position": 0,
+    "text": "ازان پس همه فیلسوفان شهر"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 82,
+    "position": 1,
+    "text": "هرانکس که بودش ازان شهر بهر"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 83,
+    "position": 0,
+    "text": "بفرمود تا راه را ساختند"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 84,
+    "position": 1,
+    "text": "ز هر کار دل را بپرداختند"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 85,
+    "position": 0,
+    "text": "برفتند با دختر شهریار"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 86,
+    "position": 1,
+    "text": "گرانمایگان هریکی با نثار"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 87,
+    "position": 0,
+    "text": "یکی مهر زرین بیاراستند"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 88,
+    "position": 1,
+    "text": "پرستندهٔ تاجور خواستند"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 89,
+    "position": 0,
+    "text": "ده استر همه بار دیبای روم"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 90,
+    "position": 1,
+    "text": "بسی پیکر از گوهر و زر بوم"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 91,
+    "position": 0,
+    "text": "شتروار سیصد ز گستردنی"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 92,
+    "position": 1,
+    "text": "ز چیزی که بد راه را بردنی"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 93,
+    "position": 0,
+    "text": "دلارای رومی به مهد اندرون"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 94,
+    "position": 1,
+    "text": "سکوبا و راهب ورا رهنمون"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 95,
+    "position": 0,
+    "text": "کنیزک پس پشت ناهید شست"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 96,
+    "position": 1,
+    "text": "ازان هریکی جامی از زر بدست"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 97,
+    "position": 0,
+    "text": "به جام اندرون گوهر شاهوار"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 98,
+    "position": 1,
+    "text": "بت‌آرای با افسر و گوشوار"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 99,
+    "position": 0,
+    "text": "سقف خوب رخ را به دارا سپرد"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 100,
+    "position": 1,
+    "text": "گهرها به گنجور او برشمرد"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 101,
+    "position": 0,
+    "text": "ازان پس بران رزمگه بس نماند"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 102,
+    "position": 1,
+    "text": "سپه را سوی شهر ایران براند"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 103,
+    "position": 0,
+    "text": "سوی پارس آمد دلارام و شاد"
+  },
+  {
+    "poem_id": 1628,
+    "vorder": 104,
+    "position": 1,
+    "text": "کلاه بزرگی بسر بر نهاد"
+  }
+]

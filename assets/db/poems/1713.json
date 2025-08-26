@@ -1,0 +1,506 @@
+[
+  {
+    "poem_id": 1713,
+    "vorder": 1,
+    "position": 0,
+    "text": "چو شاپور شد همچو سرو بلند"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 2,
+    "position": 1,
+    "text": "ز چشم بدش بود بیم گزند"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 3,
+    "position": 0,
+    "text": "نبودی جدا یک زمان ز اردشیر"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 4,
+    "position": 1,
+    "text": "ورا همچو دستور بودی وزیر"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 5,
+    "position": 0,
+    "text": "نپرداختی شاه روزی ز جنگ"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 6,
+    "position": 1,
+    "text": "به شادی نبودیش جای درنگ"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 7,
+    "position": 0,
+    "text": "چو جایی ز دشمن بپرداختی"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 8,
+    "position": 1,
+    "text": "دگر بدکنش سر برافراختی"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 9,
+    "position": 0,
+    "text": "همی گفت کز کردگار جهان"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 10,
+    "position": 1,
+    "text": "بخواهم همی آشکار و نهان"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 11,
+    "position": 0,
+    "text": "که بی‌دشمن آرم جهان را به دست"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 12,
+    "position": 1,
+    "text": "نباشم مگر شاد و یزدان‌پرست"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 13,
+    "position": 0,
+    "text": "بدو گفت فرخنده دستور اوی"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 14,
+    "position": 1,
+    "text": "که ای شاه روشن‌دل و راه‌جوی"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 15,
+    "position": 0,
+    "text": "سوی کید هندی فرستیم کس"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 16,
+    "position": 1,
+    "text": "که دانش پژوهست و فریادرس"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 17,
+    "position": 0,
+    "text": "بداند شمار سپهر بلند"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 18,
+    "position": 1,
+    "text": "در پادشاهی و راه گزند"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 19,
+    "position": 0,
+    "text": "اگر هفت کشور ترا بی همال"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 20,
+    "position": 1,
+    "text": "بخواهد بدن بازیابد به فال"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 21,
+    "position": 0,
+    "text": "یکایک بگوید ندارد به رنج"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 22,
+    "position": 1,
+    "text": "نخواهد بدین پاسخ از شاه گنج"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 23,
+    "position": 0,
+    "text": "چو بشنید بگزید شاه اردشیر"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 24,
+    "position": 1,
+    "text": "جوانی گرانمایه و تیزویر"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 25,
+    "position": 0,
+    "text": "فرستاد نزدیک دانا به هند"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 26,
+    "position": 1,
+    "text": "بسی اسپ و دینار و چندی پرند"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 27,
+    "position": 0,
+    "text": "بدو گفت رو پیش دانا بگوی"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 28,
+    "position": 1,
+    "text": "که ای مرد نیک‌اختر و راه‌جوی"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 29,
+    "position": 0,
+    "text": "به اختر نگه کن که تا من ز جنگ"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 30,
+    "position": 1,
+    "text": "کی آسایم و کشور آرم به چنگ"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 31,
+    "position": 0,
+    "text": "اگر بود خواهد بدین دستگاه"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 32,
+    "position": 1,
+    "text": "به تدبیر آن زور بنمای راه"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 33,
+    "position": 0,
+    "text": "وگر نیست این تا نباشم به رنج"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 34,
+    "position": 1,
+    "text": "برین گونه نپراگند نیز گنج"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 35,
+    "position": 0,
+    "text": "بیامد فرستادهٔ شهریار"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 36,
+    "position": 1,
+    "text": "بر کید با هدیه و با نثار"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 37,
+    "position": 0,
+    "text": "بگفت آنک با او شهنشاه گفت"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 38,
+    "position": 1,
+    "text": "همه رازها برگشاد از نهفت"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 39,
+    "position": 0,
+    "text": "بپرسید زو کید و غمخواره شد"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 40,
+    "position": 1,
+    "text": "ز پرسش سوی دانش و چاره شد"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 41,
+    "position": 0,
+    "text": "بیاورد صلاب و اختر گرفت"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 42,
+    "position": 1,
+    "text": "یکی زیج رومی به بر در گرفت"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 43,
+    "position": 0,
+    "text": "نگه کرد بر کار چرخ بلند"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 44,
+    "position": 1,
+    "text": "ز آسانی و سود و درد و گزند"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 45,
+    "position": 0,
+    "text": "فرستاده را گفت کردم شمار"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 46,
+    "position": 1,
+    "text": "از ایران و از اختر شهریار"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 47,
+    "position": 0,
+    "text": "گر از گوهر مهرک نوش‌زاد"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 48,
+    "position": 1,
+    "text": "برآمیزد این تخمه با آن نژاد"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 49,
+    "position": 0,
+    "text": "نشیند به آرام بر تخت شاه"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 50,
+    "position": 1,
+    "text": "نباید فرستاد هر سو سپاه"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 51,
+    "position": 0,
+    "text": "بیفزایدش گنج و کاهدش رنج"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 52,
+    "position": 1,
+    "text": "تو شو کینهٔ این دو گوهر بسنج"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 53,
+    "position": 0,
+    "text": "گر این کرد ایران ورا گشت راست"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 54,
+    "position": 1,
+    "text": "بیابد همه کام دل هرچ خواست"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 55,
+    "position": 0,
+    "text": "فرستاده را چیز بخشید و گفت"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 56,
+    "position": 1,
+    "text": "کزین هرچ گفتم نباید نهفت"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 57,
+    "position": 0,
+    "text": "گر او زین نپیچد سپهر بلند"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 58,
+    "position": 1,
+    "text": "کند اینک گفتم برو ارجمند"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 59,
+    "position": 0,
+    "text": "فرستاده آمد بر شهریار"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 60,
+    "position": 1,
+    "text": "بگفت آنچ بشنید زان نامدار"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 61,
+    "position": 0,
+    "text": "چو بشنید گفتار او اردشیر"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 62,
+    "position": 1,
+    "text": "دلش گشت پر درد و رخ چون زریر"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 63,
+    "position": 0,
+    "text": "فرستاده را گفت هرگز مباد"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 64,
+    "position": 1,
+    "text": "که من بینم از تخم مهرک نژاد"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 65,
+    "position": 0,
+    "text": "به خانه درون دشمن آرم ز کوی"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 66,
+    "position": 1,
+    "text": "شود با بر و بوم من کینه‌جوی"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 67,
+    "position": 0,
+    "text": "دریغ آن پراگندن گنج من"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 68,
+    "position": 1,
+    "text": "فرستادن مردم و رنج من"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 69,
+    "position": 0,
+    "text": "ز مهرک یکی دختری ماند و بس"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 70,
+    "position": 1,
+    "text": "که او را به جهرم ندیدست کس"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 71,
+    "position": 0,
+    "text": "بفرمایم اکنون که جوینده باز"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 72,
+    "position": 1,
+    "text": "ز روم و ز چین و ز هند و طراز"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 73,
+    "position": 0,
+    "text": "بر آتش چو یابمش بریان کنم"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 74,
+    "position": 1,
+    "text": "برو خاک را زار و گریان کنم"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 75,
+    "position": 0,
+    "text": "به جهرم فرستاد چندی سوار"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 76,
+    "position": 1,
+    "text": "یکی مرد جوینده و کینه‌دار"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 77,
+    "position": 0,
+    "text": "چو آگاه شد دخت مهرک بجست"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 78,
+    "position": 1,
+    "text": "سوی خان مهتر به کنجی نشست"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 79,
+    "position": 0,
+    "text": "چو بنشست آن دخت مهرک بده"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 80,
+    "position": 1,
+    "text": "مر او را گرامی همی کرد مه"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 81,
+    "position": 0,
+    "text": "ببالید بر سان سرو سهی"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 82,
+    "position": 1,
+    "text": "خردمند با زیب و با فرهی"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 83,
+    "position": 0,
+    "text": "مر او را دران بوم همتا نبود"
+  },
+  {
+    "poem_id": 1713,
+    "vorder": 84,
+    "position": 1,
+    "text": "به کشور چنو سرو بالا نبود"
+  }
+]

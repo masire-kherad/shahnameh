@@ -1,0 +1,542 @@
+[
+  {
+    "poem_id": 1625,
+    "vorder": 1,
+    "position": 0,
+    "text": "ز درگاه پرده فروهشت شاه"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 2,
+    "position": 1,
+    "text": "به یک هفته کس را ندادند راه"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 3,
+    "position": 0,
+    "text": "جهاندار زرین یکی تخت کرد"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 4,
+    "position": 1,
+    "text": "دو کرسی ز پیروزه و لاژورد"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 5,
+    "position": 0,
+    "text": "یکی تاج پرگوهر شاهوار"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 6,
+    "position": 1,
+    "text": "دو یاره یکی طوق گوهرنگار"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 7,
+    "position": 0,
+    "text": "همه جامهٔ خسروانی به زر"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 8,
+    "position": 1,
+    "text": "درو بافته چند گونه گهر"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 9,
+    "position": 0,
+    "text": "نشسته ستاره‌شمر پیش شاه"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 10,
+    "position": 1,
+    "text": "ز اختر همی کرد روزی نگاه"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 11,
+    "position": 0,
+    "text": "به شهریور بهمن از بامداد"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 12,
+    "position": 1,
+    "text": "جهاندار داراب را بار داد"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 13,
+    "position": 0,
+    "text": "یکی جام پر سرخ یاقوت کرد"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 14,
+    "position": 1,
+    "text": "یکی دیگری پر ز یاقوت زرد"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 15,
+    "position": 0,
+    "text": "چو آمد به نزدیک ایوان فراز"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 16,
+    "position": 1,
+    "text": "همای آمد از دور و بردش نماز"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 17,
+    "position": 0,
+    "text": "برافشاند آن گوهر شاهوار"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 18,
+    "position": 1,
+    "text": "فرو ریخت از دیده خون برکنار"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 19,
+    "position": 0,
+    "text": "پسر را گرفت اندر آغوش تنگ"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 20,
+    "position": 1,
+    "text": "ببوسید و ببسود رویش به چنگ"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 21,
+    "position": 0,
+    "text": "بیاورد و بر تخت زرین نشاند"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 22,
+    "position": 1,
+    "text": "دو چشمش ز دیدار او خیره ماند"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 23,
+    "position": 0,
+    "text": "چو داراب بر تخت شاهی نشست"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 24,
+    "position": 1,
+    "text": "همای آمد و تاج شاهی به دست"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 25,
+    "position": 0,
+    "text": "بیاورد و بر تارک او نهاد"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 26,
+    "position": 1,
+    "text": "جهان را به دیهیم او مژده داد"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 27,
+    "position": 0,
+    "text": "چو از تاج دارا فروزش گرفت"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 28,
+    "position": 1,
+    "text": "هما اندران کار پوزش گرفت"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 29,
+    "position": 0,
+    "text": "به داراب گفت آنچ اندر گذشت"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 30,
+    "position": 1,
+    "text": "چنان دان که بر ما همه بادگشت"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 31,
+    "position": 0,
+    "text": "جوانی و گنج آمد و رای زن"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 32,
+    "position": 1,
+    "text": "پدر مرده و شاه بی‌رای‌زن"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 33,
+    "position": 0,
+    "text": "اگر بد کند زو مگیر آن به دست"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 34,
+    "position": 1,
+    "text": "که جز تخت هرگز مبادت نشست"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 35,
+    "position": 0,
+    "text": "چنین داد پاسخ به مادر جوان"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 36,
+    "position": 1,
+    "text": "که تو هستی از گوهر پهلوان"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 37,
+    "position": 0,
+    "text": "نباشد شگفت ار دل آید به جوش"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 38,
+    "position": 1,
+    "text": "به یک بد تو چندین چه داری خروش"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 39,
+    "position": 0,
+    "text": "جهان‌آفرین از تو خشنود باد"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 40,
+    "position": 1,
+    "text": "دل بدسگالانت پر دود باد"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 41,
+    "position": 0,
+    "text": "ز من یادگاری بود این سخن"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 42,
+    "position": 1,
+    "text": "که هرگز نگردد به دفتر کهن"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 43,
+    "position": 0,
+    "text": "برو آفرین کرد فرخ همای"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 44,
+    "position": 1,
+    "text": "که تا جای باشد تو بادی به جای"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 45,
+    "position": 0,
+    "text": "بفرمود تا موبد موبدان"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 46,
+    "position": 1,
+    "text": "بخواند ز هر کشوری بخردان"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 47,
+    "position": 0,
+    "text": "هم از لشکر آنکس که بد نامدار"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 48,
+    "position": 1,
+    "text": "سرافراز شیران خنجرگزار"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 49,
+    "position": 0,
+    "text": "بفرمود تا خواندند آفرین"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 50,
+    "position": 1,
+    "text": "به شاهی بران نامدار زمین"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 51,
+    "position": 0,
+    "text": "چو بر تاج شاه آفرین خواندند"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 52,
+    "position": 1,
+    "text": "بران تخت بر گوهر افشاندند"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 53,
+    "position": 0,
+    "text": "بگفت آنک اندر نهان کرده بود"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 54,
+    "position": 1,
+    "text": "ازان کرده بسیار غم خورده بود"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 55,
+    "position": 0,
+    "text": "بدانید کز بهمن شهریار"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 56,
+    "position": 1,
+    "text": "جزین نیست اندر جهان یادگار"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 57,
+    "position": 0,
+    "text": "به فرمان او رفت باید همه"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 58,
+    "position": 1,
+    "text": "که او چون شبانست و گردان رمه"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 59,
+    "position": 0,
+    "text": "بزرگی و شاهی و لشکر وراست"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 60,
+    "position": 1,
+    "text": "بدو کرد باید همی پشت راست"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 61,
+    "position": 0,
+    "text": "به شادی خروشی برآمد ز کاخ"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 62,
+    "position": 1,
+    "text": "که نورسته دیدند فرخنده شاخ"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 63,
+    "position": 0,
+    "text": "ببردند چندان ز هر سو نثار"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 64,
+    "position": 1,
+    "text": "که شد ناپدید اندران شهریار"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 65,
+    "position": 0,
+    "text": "جهان پر شد از شادمانی و داد"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 66,
+    "position": 1,
+    "text": "کی را نیامد ازان رنج یاد"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 67,
+    "position": 0,
+    "text": "همای آن زمان گفت با موبدان"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 68,
+    "position": 1,
+    "text": "که ای نامور باگهر بخردان"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 69,
+    "position": 0,
+    "text": "به سی و دو سال آنک کردم به رنج"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 70,
+    "position": 1,
+    "text": "سپردم بدو پادشاهی و گنج"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 71,
+    "position": 0,
+    "text": "شما شاد باشید و فرمان برید"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 72,
+    "position": 1,
+    "text": "ابی رای او یک نفس مشمرید"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 73,
+    "position": 0,
+    "text": "چو داراب از تخت کی گشت شاد"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 74,
+    "position": 1,
+    "text": "به آرام دیهیم بر سر نهاد"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 75,
+    "position": 0,
+    "text": "زن گازر و گازر آمد دوان"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 76,
+    "position": 1,
+    "text": "بگفتند کای شهریار جوان"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 77,
+    "position": 0,
+    "text": "نشست کیی بر تو فرخنده باد"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 78,
+    "position": 1,
+    "text": "سر بدسگالان تو کنده باد"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 79,
+    "position": 0,
+    "text": "بفرمود داراب ده بدره زر"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 80,
+    "position": 1,
+    "text": "بیارند پرمایه جامی گهر"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 81,
+    "position": 0,
+    "text": "ز هر جامه‌ای تخته فرمود پنج"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 82,
+    "position": 1,
+    "text": "بدادند آنرا که او دید رنج"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 83,
+    "position": 0,
+    "text": "بدو گفت کای گازر پیشه‌دار"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 84,
+    "position": 1,
+    "text": "همیشه روان را به اندیشه دار"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 85,
+    "position": 0,
+    "text": "مگر زاب صندوق یابی یکی"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 86,
+    "position": 1,
+    "text": "چو دارا بدو اندرون کودکی"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 87,
+    "position": 0,
+    "text": "برفتند یک لب پر از آفرین"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 88,
+    "position": 1,
+    "text": "ز دادار بر شهریار زمین"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 89,
+    "position": 0,
+    "text": "کنون اختر گازر اندرگذشت"
+  },
+  {
+    "poem_id": 1625,
+    "vorder": 90,
+    "position": 1,
+    "text": "به دکان شد و برد اشنان به دشت"
+  }
+]

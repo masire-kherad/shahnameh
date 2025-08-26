@@ -1,0 +1,758 @@
+[
+  {
+    "poem_id": 1862,
+    "vorder": 1,
+    "position": 0,
+    "text": "وزان پس چو دانست کامد سپاه"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 2,
+    "position": 1,
+    "text": "جهان شد ز گرد سواران سیاه"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 3,
+    "position": 0,
+    "text": "گزین کرد زان رومیان صدهزار"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 4,
+    "position": 1,
+    "text": "همه نامدار ازدرکارزار"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 5,
+    "position": 0,
+    "text": "سلیح و درم خواست واسپان جنگ"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 6,
+    "position": 1,
+    "text": "سرآمد برو روزگار درنگ"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 7,
+    "position": 0,
+    "text": "یکی دخترش بود مریم بنام"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 8,
+    "position": 1,
+    "text": "خردمند و با سنگ و با رای وکام"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 9,
+    "position": 0,
+    "text": "بخسرو فرستاد به آیین دین"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 10,
+    "position": 1,
+    "text": "همی‌خواست ازکردگار آفرین"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 11,
+    "position": 0,
+    "text": "بپذرفت دخترش گستهم گرد"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 12,
+    "position": 1,
+    "text": "به آیین نیکو بخسرو سپرد"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 13,
+    "position": 0,
+    "text": "وزان پس بیاورد چندان جهیز"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 14,
+    "position": 1,
+    "text": "کزان کند شد بارگیهای تیز"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 15,
+    "position": 0,
+    "text": "ز زرینه و گوهر شاهوار"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 16,
+    "position": 1,
+    "text": "ز یاقوت وز جامهٔ زرنگار"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 17,
+    "position": 0,
+    "text": "ز گستردنیها و دیبای روم"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 18,
+    "position": 1,
+    "text": "به زر پیکر و از بریشمش بوم"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 19,
+    "position": 0,
+    "text": "همان یاره و طوق با گوشوار"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 20,
+    "position": 1,
+    "text": "سه تاج گرانمایه گوهرنگار"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 21,
+    "position": 0,
+    "text": "عماری بیاراست زرین چهار"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 22,
+    "position": 1,
+    "text": "جلیلش پر ازگوهر شاهوا ر"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 23,
+    "position": 0,
+    "text": "چهل مهد دیگر بد از آبنوس"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 24,
+    "position": 1,
+    "text": "ز گوهر درفشان چو چشم خروس"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 25,
+    "position": 0,
+    "text": "ازان پس پرستنده ماه روی"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 26,
+    "position": 1,
+    "text": "زایوان برفتند با رنگ وبوی"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 27,
+    "position": 0,
+    "text": "خردمند و بیدار پانصد غلام"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 28,
+    "position": 1,
+    "text": "بیامد بزرین وسیمین ستام"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 29,
+    "position": 0,
+    "text": "ز رومی همان نیز خادم چهل"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 30,
+    "position": 1,
+    "text": "پری چهره و شهره ودلگسل"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 31,
+    "position": 0,
+    "text": "وزان فیلسوفان رومی چهار"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 32,
+    "position": 1,
+    "text": "خردمند و با دانش ونامدار"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 33,
+    "position": 0,
+    "text": "بدیشان بگفت آنچ بایست گفت"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 34,
+    "position": 1,
+    "text": "همان نیز با مریم اندرنهفت"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 35,
+    "position": 0,
+    "text": "از آرام وز کام و بایستگی"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 36,
+    "position": 1,
+    "text": "همان بخشش و خورد و شایستگی"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 37,
+    "position": 0,
+    "text": "پس از خواسته کرد رومی شمار"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 38,
+    "position": 1,
+    "text": "فزون بد ز سیصد هزاران هزار"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 39,
+    "position": 0,
+    "text": "فرستاد هر کس که بد بردرش"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 40,
+    "position": 1,
+    "text": "ز گوهر نگار افسری بر سرش"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 41,
+    "position": 0,
+    "text": "مهان را همان اسپ و دینار داد"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 42,
+    "position": 1,
+    "text": "ز شایسته هر چیز بسیار داد"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 43,
+    "position": 0,
+    "text": "چنین گفت کای زیردستان شاه"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 44,
+    "position": 1,
+    "text": "سزد گر بر آرید گردن بماه"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 45,
+    "position": 0,
+    "text": "ز گستهم شایسته‌تر در جهان"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 46,
+    "position": 1,
+    "text": "نخیزد کسی از میان مهان"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 47,
+    "position": 0,
+    "text": "چوشاپور مهتر کرانجی بود"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 48,
+    "position": 1,
+    "text": "که اندر سخنها میانجی بود"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 49,
+    "position": 0,
+    "text": "یکی راز دارست بالوی نیز"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 50,
+    "position": 1,
+    "text": "که نفروشد آزادگان را بچیز"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 51,
+    "position": 0,
+    "text": "چوخراد برزین نبیند کسی"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 52,
+    "position": 1,
+    "text": "اگر چند ماند بگیتی بسی"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 53,
+    "position": 0,
+    "text": "بران آفریدش خدای جهان"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 54,
+    "position": 1,
+    "text": "که تا آشکارا شود زو نهان"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 55,
+    "position": 0,
+    "text": "چو خورشید تابنده او بی‌بدیست"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 56,
+    "position": 1,
+    "text": "همه کار و کردار او ایزدیست"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 57,
+    "position": 0,
+    "text": "همه یاد کرد این به نامه درون"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 58,
+    "position": 1,
+    "text": "برفتند با دانش و رهنمون"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 59,
+    "position": 0,
+    "text": "ستاره شمر پیش با رهنمای"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 60,
+    "position": 1,
+    "text": "که تارفتنش کی به آید ز جای"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 61,
+    "position": 0,
+    "text": "به جنبید قیصر به بهرام روز"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 62,
+    "position": 1,
+    "text": "به نیک اختر و فال گیتی فروز"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 63,
+    "position": 0,
+    "text": "دو منزل همی‌رفت قیصر به راه"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 64,
+    "position": 1,
+    "text": "سدیگر بیامد به پیش سپاه"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 65,
+    "position": 0,
+    "text": "به فرمود تا مریم آمد به پیش"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 66,
+    "position": 1,
+    "text": "سخن گفت با او ز اندازه بیش"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 67,
+    "position": 0,
+    "text": "بدو گفت دامن ز ایرانیان"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 68,
+    "position": 1,
+    "text": "نگه دار و مگشای بند ازمیان"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 69,
+    "position": 0,
+    "text": "برهنه نباید که خسرو تو را"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 70,
+    "position": 1,
+    "text": "ببیند که کاری رسد نو تو را"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 71,
+    "position": 0,
+    "text": "بگفت این و بدرود کردش به مهر"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 72,
+    "position": 1,
+    "text": "که یار تو بادا برفتن سپهر"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 73,
+    "position": 0,
+    "text": "نیاطوس جنگی برادرش بود"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 74,
+    "position": 1,
+    "text": "بدان جنگ سالار لشکرش بود"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 75,
+    "position": 0,
+    "text": "بدو گفت مریم به خون خویش تست"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 76,
+    "position": 1,
+    "text": "بران برنهادم که هم کیش تست"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 77,
+    "position": 0,
+    "text": "سپردم تو را دختر وخواسته"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 78,
+    "position": 1,
+    "text": "سپاهی برین گونه آراسته"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 79,
+    "position": 0,
+    "text": "نیاطوس یکسر پذیرفت از وی"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 80,
+    "position": 1,
+    "text": "بگفتند و گریان بپیچید روی"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 81,
+    "position": 0,
+    "text": "همی‌رفت لشکر به راه وریغ"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 82,
+    "position": 1,
+    "text": "نیا طوس در پیش با گرز وتیغ"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 83,
+    "position": 0,
+    "text": "چو بشنید خسروکه آمد سپاه"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 84,
+    "position": 1,
+    "text": "ازان شارستان برد لشکر به راه"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 85,
+    "position": 0,
+    "text": "چو آمد پدیدار گرد سران"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 86,
+    "position": 1,
+    "text": "درفش سواران جوشن وران"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 87,
+    "position": 0,
+    "text": "همی‌رفت لشکر بکردار گرد"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 88,
+    "position": 1,
+    "text": "سواران بیدار و مردان مرد"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 89,
+    "position": 0,
+    "text": "دل خسرو از لشکر نامدار"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 90,
+    "position": 1,
+    "text": "بخندید چون گل بوقت بهار"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 91,
+    "position": 0,
+    "text": "دل روشن راد راتیز کرد"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 92,
+    "position": 1,
+    "text": "مران باره را پاشنه خیز کرد"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 93,
+    "position": 0,
+    "text": "نیاطوس را دید و در برگرفت"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 94,
+    "position": 1,
+    "text": "بپرسیدن آزادی اندرگرفت"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 95,
+    "position": 0,
+    "text": "ز قیصر که برداشت زانگونه رنج"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 96,
+    "position": 1,
+    "text": "ابا رنج دیگر تهی کرد گنج"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 97,
+    "position": 0,
+    "text": "وزانجای سوی عماری کشید"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 98,
+    "position": 1,
+    "text": "بپرده درون روی مریم بدید"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 99,
+    "position": 0,
+    "text": "بپرسید و بر دست او بوس داد"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 100,
+    "position": 1,
+    "text": "ز دیدار آن خوب رخ گشت شاد"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 101,
+    "position": 0,
+    "text": "بیاورد لشکر به پرده سرای"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 102,
+    "position": 1,
+    "text": "نهفته یکی ماه را ساخت جای"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 103,
+    "position": 0,
+    "text": "سخن گفت و بنشست بااوسه روز"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 104,
+    "position": 1,
+    "text": "چهارم چو بفروخت گیتی فروز"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 105,
+    "position": 0,
+    "text": "گزیده سرایی بیاراستند"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 106,
+    "position": 1,
+    "text": "نیاطوس را پیش اوخواستند"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 107,
+    "position": 0,
+    "text": "ابا سرگس و کوت جنگی بهم"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 108,
+    "position": 1,
+    "text": "سران سپه را همه بیش و کم"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 109,
+    "position": 0,
+    "text": "بدیشان چنین گفت کاکنون سران"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 110,
+    "position": 1,
+    "text": "کدامند و مردان جنگاوران"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 111,
+    "position": 0,
+    "text": "نیاطوس بگزید هفتاد مرد"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 112,
+    "position": 1,
+    "text": "که آورد گیرند روز نبرد"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 113,
+    "position": 0,
+    "text": "که زیر درفشش برفتی هزار"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 114,
+    "position": 1,
+    "text": "گزیده سواران خنجر گزار"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 115,
+    "position": 0,
+    "text": "چو خسرو بدید آن گزیده سپاه"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 116,
+    "position": 1,
+    "text": "سواران گردنکش ورزمخواه"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 117,
+    "position": 0,
+    "text": "همی‌خواند بر کردگار آفرین"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 118,
+    "position": 1,
+    "text": "که چرخ آفرید و زمان و زمین"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 119,
+    "position": 0,
+    "text": "همان بر نیاطوس وبر لشکرش"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 120,
+    "position": 1,
+    "text": "چه برنامور قیصر وکشورش"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 121,
+    "position": 0,
+    "text": "بدان مهتران گفت اگر کردگار"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 122,
+    "position": 1,
+    "text": "مرا یارباشد گه کارزار"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 123,
+    "position": 0,
+    "text": "توانایی خویش پیداکنم"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 124,
+    "position": 1,
+    "text": "زمین رابکوکب ثریاکنم"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 125,
+    "position": 0,
+    "text": "نباشد جزاندیشهٔ دوستان"
+  },
+  {
+    "poem_id": 1862,
+    "vorder": 126,
+    "position": 1,
+    "text": "فلک یارومهر ردان بوستان"
+  }
+]

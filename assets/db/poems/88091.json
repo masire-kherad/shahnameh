@@ -1,0 +1,578 @@
+[
+  {
+    "poem_id": 88091,
+    "vorder": 1,
+    "position": 0,
+    "text": "سر هفته را زال و رستم به هم"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 2,
+    "position": 1,
+    "text": "رسیدند بی‌کام دل پر ز غم"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 3,
+    "position": 0,
+    "text": "چو ایرانیان آگهی یافتند"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 4,
+    "position": 1,
+    "text": "همه داغ دل پیش بشتافتند"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 5,
+    "position": 0,
+    "text": "چو رستم پدید آمد و زال زر"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 6,
+    "position": 1,
+    "text": "همان موبدان فراوان هنر"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 7,
+    "position": 0,
+    "text": "هر آن کس که بود از نژاد زرسب"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 8,
+    "position": 1,
+    "text": "پذیره شدن را بیاراست اسب"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 9,
+    "position": 0,
+    "text": "همان طوس با کاویانی درفش"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 10,
+    "position": 1,
+    "text": "همه نامداران زرینه کفش"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 11,
+    "position": 0,
+    "text": "چو گودرز پیش تهمتن رسید"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 12,
+    "position": 1,
+    "text": "سرشکش ز مژگان به رخ برچکید"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 13,
+    "position": 0,
+    "text": "سپاهی همی رفت رخساره زرد"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 14,
+    "position": 1,
+    "text": "ز خسرو همه دل پر از داغ و درد"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 15,
+    "position": 0,
+    "text": "بگفتند با زال و رستم که شاه"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 16,
+    "position": 1,
+    "text": "به گفتار ابلیس گم کرد راه"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 17,
+    "position": 0,
+    "text": "همه بارگاهش سیاهست و بس"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 18,
+    "position": 1,
+    "text": "شب و روز او را ندیدست کس"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 19,
+    "position": 0,
+    "text": "از این هفته تا آن در بارگاه"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 20,
+    "position": 1,
+    "text": "گشایند و پوییم و یابیم راه"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 21,
+    "position": 0,
+    "text": "جز آنست کیخسرو ای پهلوان"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 22,
+    "position": 1,
+    "text": "که دیدی تو شاداب و روشن‌روان"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 23,
+    "position": 0,
+    "text": "شده کوژ بالای سرو سهی"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 24,
+    "position": 1,
+    "text": "گرفته گل سرخ رنگ بهی"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 25,
+    "position": 0,
+    "text": "ندانم چه چشم بد آمد بر اوی"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 26,
+    "position": 1,
+    "text": "چرا پژمرید آن چو گلبرگ روی"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 27,
+    "position": 0,
+    "text": "مگر تیره شد بخت ایرانیان"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 28,
+    "position": 1,
+    "text": "وگر شاه را ز اختر آمد زیان"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 29,
+    "position": 0,
+    "text": "بدیشان چنین گفت زال دلیر"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 30,
+    "position": 1,
+    "text": "که باشد که شاه آمد از گاه سیر"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 31,
+    "position": 0,
+    "text": "درستی و هم دردمندی بود"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 32,
+    "position": 1,
+    "text": "گهی خوشی و گه نژندی بود"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 33,
+    "position": 0,
+    "text": "شما دل مدارید چندین به غم"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 34,
+    "position": 1,
+    "text": "که از غم شود جان خرم دژم"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 35,
+    "position": 0,
+    "text": "بکوشیم و بسیار پندش دهیم"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 36,
+    "position": 1,
+    "text": "به پند اختر سودمندش دهیم"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 37,
+    "position": 0,
+    "text": "وز آن پس هر آن کس که آمد به راه"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 38,
+    "position": 1,
+    "text": "برفتند پویان سوی بارگاه"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 39,
+    "position": 0,
+    "text": "هم آنگه ز در پرده برداشتند"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 40,
+    "position": 1,
+    "text": "بر اندازه‌شان شاد بگذاشتند"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 41,
+    "position": 0,
+    "text": "چو دستان و چون رستم پیلتن"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 42,
+    "position": 1,
+    "text": "چو طوس و چو گودرز و آن انجمن"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 43,
+    "position": 0,
+    "text": "چو گرگین و چون بیژن و گستهم"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 44,
+    "position": 1,
+    "text": "هر آن کس که رفتند گردان به هم"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 45,
+    "position": 0,
+    "text": "شهنشاه چون روی ایشان بدید"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 46,
+    "position": 1,
+    "text": "به پرده در آوای رستم شنید"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 47,
+    "position": 0,
+    "text": "پراندیشه از تخت بر پای خاست"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 48,
+    "position": 1,
+    "text": "چنان پشت خمیده را کرد راست"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 49,
+    "position": 0,
+    "text": "ز دانندگان هرکه بد زابلی"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 50,
+    "position": 1,
+    "text": "ز قنوج وز دنبر و کابلی"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 51,
+    "position": 0,
+    "text": "یکایک بپرسید و بنواختشان"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 52,
+    "position": 1,
+    "text": "به رسم مهی پایگه ساختشان"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 53,
+    "position": 0,
+    "text": "همان نیز ز ایرانیان هرکه بود"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 54,
+    "position": 1,
+    "text": "به اندازه‌شان پایگه برفزود"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 55,
+    "position": 0,
+    "text": "بر او آفرین کرد بسیار زال"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 56,
+    "position": 1,
+    "text": "که شادان بدی تا بود ماه و سال"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 57,
+    "position": 0,
+    "text": "ز گاه منوچهر تا کیقباد"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 58,
+    "position": 1,
+    "text": "از آن نامداران که داریم یاد"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 59,
+    "position": 0,
+    "text": "همان زو طهماسب و کاووس کی"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 60,
+    "position": 1,
+    "text": "بزرگان و شاهان فرخنده‌پی"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 61,
+    "position": 0,
+    "text": "سیاوش مرا خود چو فرزند بود"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 62,
+    "position": 1,
+    "text": "که با فر و با برز و اورند بود"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 63,
+    "position": 0,
+    "text": "ندیدم کسی را بدین بخردی"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 64,
+    "position": 1,
+    "text": "بدین برز و این فره ایزدی"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 65,
+    "position": 0,
+    "text": "به پیروزی و مردی و مهر و رای"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 66,
+    "position": 1,
+    "text": "که شاهیت بادا همیشه به جای"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 67,
+    "position": 0,
+    "text": "چه مهتر که پای ترا خاک نیست"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 68,
+    "position": 1,
+    "text": "چه زهر آنکه نام تو تریاک نیست"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 69,
+    "position": 0,
+    "text": "یکی ناسزا آگهی یافتم"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 70,
+    "position": 1,
+    "text": "بدان آگهی تیز بشتافتم"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 71,
+    "position": 0,
+    "text": "ستاره‌شناسان و کنداوران"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 72,
+    "position": 1,
+    "text": "ز هر کشوری آنکه دیدم سران"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 73,
+    "position": 0,
+    "text": "ز قنوج وز دنور و مرغ و مای"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 74,
+    "position": 1,
+    "text": "برفتند با زیج هندی ز جای"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 75,
+    "position": 0,
+    "text": "بدان تا بجویند راز سپهر"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 76,
+    "position": 1,
+    "text": "کز ایران چرا پاک ببرید مهر"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 77,
+    "position": 0,
+    "text": "از ایران کس آمد که پیروز شاه"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 78,
+    "position": 1,
+    "text": "بفرمود تا پردهٔ بارگاه"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 79,
+    "position": 0,
+    "text": "نه بردارد از پیش سالار بار"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 80,
+    "position": 1,
+    "text": "بپوشد ز ما چهرهٔ شهریار"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 81,
+    "position": 0,
+    "text": "من از درد ایرانیان چون عقاب"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 82,
+    "position": 1,
+    "text": "همی تاختم همچو کشتی بر آب"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 83,
+    "position": 0,
+    "text": "بدان تا بپرسم ز شاه جهان"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 84,
+    "position": 1,
+    "text": "ز چیزی که دارد همی در نهان"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 85,
+    "position": 0,
+    "text": "به سه چیز هر کار نیکو شود"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 86,
+    "position": 1,
+    "text": "همان تخت شاهی بی‌آهو شود"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 87,
+    "position": 0,
+    "text": "به گنج و به رنج و به  مردان مرد"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 88,
+    "position": 1,
+    "text": "به جز این نشاید همی کار کرد"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 89,
+    "position": 0,
+    "text": "چهارم به یزدان ستایش کنیم"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 90,
+    "position": 1,
+    "text": "شب و روز او را نیایش کنیم"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 91,
+    "position": 0,
+    "text": "که اویست فریادرس بنده را"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 92,
+    "position": 1,
+    "text": "هم او بازدارد گراینده را"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 93,
+    "position": 0,
+    "text": "به درویش بخشیم بسیار چیز"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 94,
+    "position": 1,
+    "text": "اگرچند چیز ارجمند است نیز"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 95,
+    "position": 0,
+    "text": "بدان تا روان تو روشن کند"
+  },
+  {
+    "poem_id": 88091,
+    "vorder": 96,
+    "position": 1,
+    "text": "خرد پیش مغز تو جوشن کند"
+  }
+]

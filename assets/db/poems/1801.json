@@ -1,0 +1,518 @@
+[
+  {
+    "poem_id": 1801,
+    "vorder": 1,
+    "position": 0,
+    "text": "چو بشنید شد نامه را خواستار"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 2,
+    "position": 1,
+    "text": "شگفتی بماند اندران نامدار"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 3,
+    "position": 0,
+    "text": "چو آن نامه برخواند مرد دبیر"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 4,
+    "position": 1,
+    "text": "رخ تاجور گشت همچون زریر"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 5,
+    "position": 0,
+    "text": "بدو گفت کای مرد چیره‌سخن"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 6,
+    "position": 1,
+    "text": "به گفتار مشتاب و تندی مکن"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 7,
+    "position": 0,
+    "text": "بزرگی نماید همی شاه تو"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 8,
+    "position": 1,
+    "text": "چنان هم نماید همی راه تو"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 9,
+    "position": 0,
+    "text": "کسی باژ خواهد ز هندوستان"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 10,
+    "position": 1,
+    "text": "نباشم ز گوینده همداستان"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 11,
+    "position": 0,
+    "text": "به لشکر همی‌گوید این گر به گنج"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 12,
+    "position": 1,
+    "text": "وگر شهر و کشور سپردن به رنج"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 13,
+    "position": 0,
+    "text": "کلنگ‌اند شاهان و من چون عقاب"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 14,
+    "position": 1,
+    "text": "وگر خاک و من همچو دریای آب"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 15,
+    "position": 0,
+    "text": "کسی با ستاره نکوشد به جنگ"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 16,
+    "position": 1,
+    "text": "نه با آسمان جست کس نام و ننگ"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 17,
+    "position": 0,
+    "text": "هنر بهتر از گفتن نابکار"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 18,
+    "position": 1,
+    "text": "که گیرد ترا مرد داننده خوار"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 19,
+    "position": 0,
+    "text": "نه مردی نه دانش نه کشور نه شهر"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 20,
+    "position": 1,
+    "text": "ز شاهی شما را زبانست بهر"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 21,
+    "position": 0,
+    "text": "نهفته همه بوم گنج منست"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 22,
+    "position": 1,
+    "text": "نیاکان بدو هیچ نابرده دست"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 23,
+    "position": 0,
+    "text": "دگر گنج برگستوان و زره"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 24,
+    "position": 1,
+    "text": "چو گنجور ما برگشاید گره"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 25,
+    "position": 0,
+    "text": "به پیلانش باید کشیدن کلید"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 26,
+    "position": 1,
+    "text": "وگر ژنده پیلش تواند کشید"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 27,
+    "position": 0,
+    "text": "وگر گیری از تیغ و جوشن شمار"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 28,
+    "position": 1,
+    "text": "ستاره شود پیش چشم تو خوار"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 29,
+    "position": 0,
+    "text": "زمین بر نتابد سپاه مرا"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 30,
+    "position": 1,
+    "text": "همان ژنده پیلان و گاه مرا"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 31,
+    "position": 0,
+    "text": "هزار ار به هندی زنی در هزار"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 32,
+    "position": 1,
+    "text": "بود کس که خواند مرا شهریار"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 33,
+    "position": 0,
+    "text": "همان کوه و دریای گوهر مراست"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 34,
+    "position": 1,
+    "text": "به من دارد اکنون جهان پشت راست"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 35,
+    "position": 0,
+    "text": "همان چشمهٔ عنبر و عود و مشک"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 36,
+    "position": 1,
+    "text": "دگر گنج کافور ناگشته خشک"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 37,
+    "position": 0,
+    "text": "دگر داروی مردم دردمند"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 38,
+    "position": 1,
+    "text": "به روی زمین هرک گردد نژند"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 39,
+    "position": 0,
+    "text": "همه بوم ما را بدین‌سان برست"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 40,
+    "position": 1,
+    "text": "اگر زر و سیم است و گر گوهر‌ست"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 41,
+    "position": 0,
+    "text": "چو هشتاد شاهند با تاج زر"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 42,
+    "position": 1,
+    "text": "به فرمان من تنگ بسته کمر"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 43,
+    "position": 0,
+    "text": "همه بوم را گرد دریاست راه"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 44,
+    "position": 1,
+    "text": "نیاید بدین خاک‌بر دیو گاه"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 45,
+    "position": 0,
+    "text": "ز قنوج تا مرز دریای چین"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 46,
+    "position": 1,
+    "text": "ز سقلاب تا پیش ایران زمین"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 47,
+    "position": 0,
+    "text": "بزرگان همه زیردست منند"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 48,
+    "position": 1,
+    "text": "به بیچارگی در پرست منند"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 49,
+    "position": 0,
+    "text": "به هند و به چین و ختن پاسبان"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 50,
+    "position": 1,
+    "text": "نرانند جز نام من بر زبان"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 51,
+    "position": 0,
+    "text": "همه تاج ما را ستاینده‌اند"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 52,
+    "position": 1,
+    "text": "پرستندگی را فزاینده‌اند"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 53,
+    "position": 0,
+    "text": "به مشکوی من دخت فغفور چین"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 54,
+    "position": 1,
+    "text": "مرا خواند اندر جهان‌آفرین"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 55,
+    "position": 0,
+    "text": "پسر دارم از وی یکی شیردل"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 56,
+    "position": 1,
+    "text": "که بستاند از که به شمشیر دل"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 57,
+    "position": 0,
+    "text": "ز هنگام کاوس تا کیقباد"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 58,
+    "position": 1,
+    "text": "ازین بوم و بر کس نکرده‌ست یاد"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 59,
+    "position": 0,
+    "text": "همان نامبردار سیصد هزار"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 60,
+    "position": 1,
+    "text": "ز لشکر که خواند مرا شهریار"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 61,
+    "position": 0,
+    "text": "ز پیوستگانم هزار و دویست"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 62,
+    "position": 1,
+    "text": "کزیشان کسی را به من راه نیست"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 63,
+    "position": 0,
+    "text": "همه زاد بر زاد خویش منند"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 64,
+    "position": 1,
+    "text": "که در هند بر پای پیش منند"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 65,
+    "position": 0,
+    "text": "که در بیشه شیران به هنگام جنگ"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 66,
+    "position": 1,
+    "text": "ز آورد ایشان بخاید دو چنگ"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 67,
+    "position": 0,
+    "text": "گر آیین بدی هیچ آزاده را"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 68,
+    "position": 1,
+    "text": "که کشتی به تندی فرستاده را"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 69,
+    "position": 0,
+    "text": "سرت را جدا کردمی از تنت"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 70,
+    "position": 1,
+    "text": "شدی مویه‌گر بر تو پیراهنت"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 71,
+    "position": 0,
+    "text": "بدو گفت بهرام کای نامدار"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 72,
+    "position": 1,
+    "text": "اگر مهتری کام کژی مخار"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 73,
+    "position": 0,
+    "text": "مرا شاه من گفت کو را بگوی"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 74,
+    "position": 1,
+    "text": "که گر بخردی راه کژی مجوی"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 75,
+    "position": 0,
+    "text": "ز درگه دو دانا پدیدار کن"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 76,
+    "position": 1,
+    "text": "زبان‌آور و کامران بر سخن"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 77,
+    "position": 0,
+    "text": "گر ایدونک زیشان به رای و خرد"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 78,
+    "position": 1,
+    "text": "یکی بر یکی زان ما بگذرد"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 79,
+    "position": 0,
+    "text": "مرا نیز با مرز تو کار نیست"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 80,
+    "position": 1,
+    "text": "که نزدیک بخرد سخن خوار نیست"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 81,
+    "position": 0,
+    "text": "وگرنه ز مردان جنگاوران"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 82,
+    "position": 1,
+    "text": "کسی کو گراید به گرز گران"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 83,
+    "position": 0,
+    "text": "گزین کن ز هندوستان صد سوار"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 84,
+    "position": 1,
+    "text": "که با یک تن از ما کند کارزار"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 85,
+    "position": 0,
+    "text": "نخواهیم ما باژ از مرز تو"
+  },
+  {
+    "poem_id": 1801,
+    "vorder": 86,
+    "position": 1,
+    "text": "چو پیدا شدی مردی و ارز تو"
+  }
+]

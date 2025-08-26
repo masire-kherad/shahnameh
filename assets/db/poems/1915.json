@@ -1,0 +1,542 @@
+[
+  {
+    "poem_id": 1915,
+    "vorder": 1,
+    "position": 0,
+    "text": "کنون شیون باربد گوش دار"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 2,
+    "position": 1,
+    "text": "سر مهتران را به آغوش دار"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 3,
+    "position": 0,
+    "text": "چو آگاه شد باربد زانک شاه"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 4,
+    "position": 1,
+    "text": "بپرداخت بیداد و بی‌کام گاه"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 5,
+    "position": 0,
+    "text": "ز جهرم بیامد سوی طیسفون"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 6,
+    "position": 1,
+    "text": "پر از آب مژگان و دل پر ز خون"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 7,
+    "position": 0,
+    "text": "بیامد بدان خانه او را بدید"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 8,
+    "position": 1,
+    "text": "شده لعل رخسار او شنبلید"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 9,
+    "position": 0,
+    "text": "زمانی همی‌بود در پیش شاه"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 10,
+    "position": 1,
+    "text": "خروشان بیامد سوی بارگاه"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 11,
+    "position": 0,
+    "text": "همی پهلوانی برو مویه کرد"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 12,
+    "position": 1,
+    "text": "دو رخساره زرد و دلی پر ز درد"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 13,
+    "position": 0,
+    "text": "چنان بد که زاریش بشنید شاه"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 14,
+    "position": 1,
+    "text": "همان کس کجا داشت او را نگاه"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 15,
+    "position": 0,
+    "text": "نگهبان که بودند گریان شدند"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 16,
+    "position": 1,
+    "text": "چو بر آتش مهر بریان شدند"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 17,
+    "position": 0,
+    "text": "همی‌گفت الایا، ردا، خسروا"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 18,
+    "position": 1,
+    "text": "بزرگا، سترگا، تناور گَوا"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 19,
+    "position": 0,
+    "text": "کجات آن بزرگی و آن دستگاه"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 20,
+    "position": 1,
+    "text": "کجات آن همه فر و تخت و کلاه"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 21,
+    "position": 0,
+    "text": "کجات آن همه برز و بالا و تاج"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 22,
+    "position": 1,
+    "text": "کجات آن همه یاره و تخت عاج"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 23,
+    "position": 0,
+    "text": "کجات آن همه مردی و زور و فر"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 24,
+    "position": 1,
+    "text": "جهان را همی‌داشتی زیر پر"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 25,
+    "position": 0,
+    "text": "کجا آن شبستان و رامشگران"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 26,
+    "position": 1,
+    "text": "کجا آن بر و بارگاه سران"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 27,
+    "position": 0,
+    "text": "کجا افسر و کاویانی درفش"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 28,
+    "position": 1,
+    "text": "کجا آن همه تیغهای بنفش"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 29,
+    "position": 0,
+    "text": "کجا آن دلیران جنگ آوران"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 30,
+    "position": 1,
+    "text": "کجا آن رد و موبد و مهتران"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 31,
+    "position": 0,
+    "text": "کجا آن همه بزم وساز شکار"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 32,
+    "position": 1,
+    "text": "کجا آن خرامیدن کارزار"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 33,
+    "position": 0,
+    "text": "کجا آن غلامان زرین کمر"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 34,
+    "position": 1,
+    "text": "کجا آن همه رای وآیین وفر"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 35,
+    "position": 0,
+    "text": "کجا آن سرافراز جانوسپار"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 36,
+    "position": 1,
+    "text": "که با تخت زر بود و با گوشوار"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 37,
+    "position": 0,
+    "text": "کجا آن همه لشکر و بوم و بر"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 38,
+    "position": 1,
+    "text": "کجا آن سرافرازی و تخت زر"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 39,
+    "position": 0,
+    "text": "کجا آن سر خود و زرین زره"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 40,
+    "position": 1,
+    "text": "ز گوهر فگنده گره بر گره"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 41,
+    "position": 0,
+    "text": "کجا اسپ شبدیز و زرین رکیب"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 42,
+    "position": 1,
+    "text": "که زیر تو اندر بدی ناشکیب"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 43,
+    "position": 0,
+    "text": "کجا آن سواران زرین ستام"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 44,
+    "position": 1,
+    "text": "که دشمن بدی تیغشان را نیام"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 45,
+    "position": 0,
+    "text": "کجا آن همه راز و آن بخردی"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 46,
+    "position": 1,
+    "text": "کجا آن همه فره ایزدی"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 47,
+    "position": 0,
+    "text": "کجا آن همه بخشش روز بزم"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 48,
+    "position": 1,
+    "text": "کجا آن همه کوشش روز رزم"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 49,
+    "position": 0,
+    "text": "کجا آن همه راهوار استران"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 50,
+    "position": 1,
+    "text": "عماری زرین و فرمانبران"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 51,
+    "position": 0,
+    "text": "هیونان و بالا وپیل سپید"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 52,
+    "position": 1,
+    "text": "همه گشته از جان تو ناامید"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 53,
+    "position": 0,
+    "text": "کجا آن سخنها به شیرین زبان"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 54,
+    "position": 1,
+    "text": "کجا آن دل و رای و روشن روان"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 55,
+    "position": 0,
+    "text": "ز هر چیز تنها چرا ماندی"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 56,
+    "position": 1,
+    "text": "ز دفتر چنین روز کی خواندی"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 57,
+    "position": 0,
+    "text": "مبادا که گستاخ باشی به دهر"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 58,
+    "position": 1,
+    "text": "که زهرش فزون آمد از پای زهر"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 59,
+    "position": 0,
+    "text": "پسر خواستی تا بود یار و پشت"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 60,
+    "position": 1,
+    "text": "کنون از پسر رنجت آمد به مشت"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 61,
+    "position": 0,
+    "text": "ز فرزند، شاهان به نیرو شوند"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 62,
+    "position": 1,
+    "text": "ز رنج زمانه بی آهو شوند"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 63,
+    "position": 0,
+    "text": "شهنشاه را چونک نیرو بکاست"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 64,
+    "position": 1,
+    "text": "چو بالای فرزند او گشت راست"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 65,
+    "position": 0,
+    "text": "هر آنکس که او کار خسرو شنود"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 66,
+    "position": 1,
+    "text": "به گیتی نبایدش گستاخ بود"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 67,
+    "position": 0,
+    "text": "همه بوم ایران تو ویران شمر"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 68,
+    "position": 1,
+    "text": "کنام پلنگان و شیران شمر"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 69,
+    "position": 0,
+    "text": "سر تخم ساسانیان بود شاه"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 70,
+    "position": 1,
+    "text": "که چون او نبیند دگر تاج و گاه"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 71,
+    "position": 0,
+    "text": "شد این تخمه ویران و ایران همان"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 72,
+    "position": 1,
+    "text": "برآمد همه کامهٔ بدگمان"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 73,
+    "position": 0,
+    "text": "فزون زین نباشد کسی را سپاه"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 74,
+    "position": 1,
+    "text": "ز لشکر که آمدش فریادخواه"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 75,
+    "position": 0,
+    "text": "گزند آمد از پاسبان بزرگ"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 76,
+    "position": 1,
+    "text": "کنون اندر آید سوی رخنه گرگ"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 77,
+    "position": 0,
+    "text": "نباشد سپاه تو هم پایدار"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 78,
+    "position": 1,
+    "text": "چو برخیزد از چار سو کارزار"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 79,
+    "position": 0,
+    "text": "روان تو را دادگر یار باد"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 80,
+    "position": 1,
+    "text": "سر بد سگالان نگونسار باد"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 81,
+    "position": 0,
+    "text": "به یزدان و نام تو ای شهریار"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 82,
+    "position": 1,
+    "text": "به نوروز و مهر و به خُرم بهار"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 83,
+    "position": 0,
+    "text": "که گر دست من زین سپس نیز رود"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 84,
+    "position": 1,
+    "text": "بساید مبادا به من بر درود"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 85,
+    "position": 0,
+    "text": "بسوزم همه آلت خویش را"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 86,
+    "position": 1,
+    "text": "بدان تا نبینم بداندیش را"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 87,
+    "position": 0,
+    "text": "ببرید هر چارانگشت خویش"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 88,
+    "position": 1,
+    "text": "بریده همی‌داشت در مشت خویش"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 89,
+    "position": 0,
+    "text": "چو در خانه شد آتشی بر فروخت"
+  },
+  {
+    "poem_id": 1915,
+    "vorder": 90,
+    "position": 1,
+    "text": "همه آلت خویش یکسر بسوخت"
+  }
+]

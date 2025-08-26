@@ -1,0 +1,602 @@
+[
+  {
+    "poem_id": 1462,
+    "vorder": 1,
+    "position": 0,
+    "text": "چو یک بهره از تیرهْ‌شب در گذشت"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 2,
+    "position": 1,
+    "text": "شباهنگ بر چرخ گردان بگشت"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 3,
+    "position": 0,
+    "text": "سخن گفتن آمد نهفته به راز"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 4,
+    "position": 1,
+    "text": "درِ خوابگهْ نرم کردند باز"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 5,
+    "position": 0,
+    "text": "یکی بنده شمعی مُعَنبَر به دست"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 6,
+    "position": 1,
+    "text": "خرامان بیامد به بالین مست"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 7,
+    "position": 0,
+    "text": "پسِ پرده اندرْ یکی ماه روی"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 8,
+    "position": 1,
+    "text": "چو خورشید تابان پُر از رنگ و بوی"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 9,
+    "position": 0,
+    "text": "دو ابرو کمان و دو گیسو کمند"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 10,
+    "position": 1,
+    "text": "به بالا به کردارِ سروِ بلند"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 11,
+    "position": 0,
+    "text": "روانش خرد بود تنْ جانِ پاک"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 12,
+    "position": 1,
+    "text": "تو گفتی که بهره ندارد ز خاک"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 13,
+    "position": 0,
+    "text": "از او رستم شیرْدل خیره مانْد"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 14,
+    "position": 1,
+    "text": "بَر او بَر جهانْ‌آفرین را بخوانْد"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 15,
+    "position": 0,
+    "text": "بپرسید زو گفت نام تو چیست؟"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 16,
+    "position": 1,
+    "text": "چه جویی شبِ تیره؟ کامِ تو چیست؟"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 17,
+    "position": 0,
+    "text": "چنین داد پاسخ که تهمینه‌ام"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 18,
+    "position": 1,
+    "text": "تو گویی که از غم به دو نیمه‌ام"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 19,
+    "position": 0,
+    "text": "یکی دختِ شاه سَمَنگان منم"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 20,
+    "position": 1,
+    "text": "ز پشت هُژَبر و پلنگان منم"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 21,
+    "position": 0,
+    "text": "به گیتی ز خوبان مرا جفت نیست"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 22,
+    "position": 1,
+    "text": "چو من زیر چرخِ کبود اندکيست"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 23,
+    "position": 0,
+    "text": "کس از پرده بیرون ندیدی مرا"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 24,
+    "position": 1,
+    "text": "نه هرگز کس آوا شنیدی مرا"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 25,
+    "position": 0,
+    "text": "به کردارِ افسانه از هر کسی"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 26,
+    "position": 1,
+    "text": "شنیدم همی داستانَت بسی"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 27,
+    "position": 0,
+    "text": "که از شیر و دیو و نهنگ و پلنگ"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 28,
+    "position": 1,
+    "text": "نترسی و هستی چنین تیزچنگ"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 29,
+    "position": 0,
+    "text": "شب تیره تنها به توران شوی"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 30,
+    "position": 1,
+    "text": "بگردی بر آن مرز و هم نَغنُوی"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 31,
+    "position": 0,
+    "text": "به تنها یکی گورْ بریان کنی"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 32,
+    "position": 1,
+    "text": "هوا را به شمشیرْ گریان کنی"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 33,
+    "position": 0,
+    "text": "هرآنکس که گرز تو بیند به چنگ"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 34,
+    "position": 1,
+    "text": "بدَرّد دلِ شیر و چنگِ پلنگ"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 35,
+    "position": 0,
+    "text": "برهنه چو تیغ تو بیند عقاب"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 36,
+    "position": 1,
+    "text": "نیارد به نَخچیر کردن شتاب"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 37,
+    "position": 0,
+    "text": "نشانِ کمندِ تو دارد هُژَبر"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 38,
+    "position": 1,
+    "text": "ز بیم سَنان تو خون بارد ابر"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 39,
+    "position": 0,
+    "text": "چو این داستانها شنیدم ز تو"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 40,
+    "position": 1,
+    "text": "بسی لب به دندان گَزیدم ز تو"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 41,
+    "position": 0,
+    "text": "بجُستم همی کفت و یال و برت"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 42,
+    "position": 1,
+    "text": "بدین شهر کرد ایزد آبشخورت"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 43,
+    "position": 0,
+    "text": "ترا اَم کنون گر بخواهی مرا"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 44,
+    "position": 1,
+    "text": "نبیند جزین مرغ و ماهی مرا"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 45,
+    "position": 0,
+    "text": "یکی آنک بر تو چنین گشته‌ام"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 46,
+    "position": 1,
+    "text": "خرد را ز بهر هوا کشته‌ام"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 47,
+    "position": 0,
+    "text": "ودیگر که از تو مگر کردگار"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 48,
+    "position": 1,
+    "text": "نشانَد یکی پورم اندر کنار"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 49,
+    "position": 0,
+    "text": "مگر چون تو باشد به مردی و زور"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 50,
+    "position": 1,
+    "text": "سپهرش دهد بهره کیوان و هور"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 51,
+    "position": 0,
+    "text": "سه دیگر که اسپت به جای آورم"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 52,
+    "position": 1,
+    "text": "سمنگان همه زیر پای آورم"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 53,
+    "position": 0,
+    "text": "چو رستم برانسان پری چهره دید"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 54,
+    "position": 1,
+    "text": "ز هر دانشی نزد او بهره دید"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 55,
+    "position": 0,
+    "text": "و دیگر که از رخش داد آگهی"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 56,
+    "position": 1,
+    "text": "ندید ایچ فرجام جز فرهی"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 57,
+    "position": 0,
+    "text": "بفرمود تا موبدی پرهنر"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 58,
+    "position": 1,
+    "text": "بیاید بخواهد ورا از پدر"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 59,
+    "position": 0,
+    "text": "چو بشنید شاه این سخن شاد شد"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 60,
+    "position": 1,
+    "text": "بسان یکی سرو آزاد شد"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 61,
+    "position": 0,
+    "text": "بدان پهلوان داد آن دخت خویش"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 62,
+    "position": 1,
+    "text": "بدان سان که بودست آیین و کیش"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 63,
+    "position": 0,
+    "text": "به خشنودی و رای و فرمان اوی"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 64,
+    "position": 1,
+    "text": "به خوبی بیاراست پیمان اوی"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 65,
+    "position": 0,
+    "text": "چو بسپرد دختر بدان پهلوان"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 66,
+    "position": 1,
+    "text": "همه شاد گشتند پیر و جوان"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 67,
+    "position": 0,
+    "text": "ز شادی بسی زر برافشاندند"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 68,
+    "position": 1,
+    "text": "ابر پهلوان آفرین خواندند"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 69,
+    "position": 0,
+    "text": "که این ماه نو بر تو فرخنده باد"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 70,
+    "position": 1,
+    "text": "سر بدسگالان تو کنده باد"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 71,
+    "position": 0,
+    "text": "چو انباز او گشت با او براز"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 72,
+    "position": 1,
+    "text": "ببود آن شب تیره دیر و دراز"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 73,
+    "position": 0,
+    "text": "چو خورشید تابان ز چرخ بلند"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 74,
+    "position": 1,
+    "text": "همی خواست افگند رخشان کمند"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 75,
+    "position": 0,
+    "text": "به بازوی رستم یکی مهره بود"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 76,
+    "position": 1,
+    "text": "که آن مهره اندر جهان شهره بود"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 77,
+    "position": 0,
+    "text": "بدو داد و گفتش که این را بدار"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 78,
+    "position": 1,
+    "text": "اگر دختر آرد ترا روزگار"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 79,
+    "position": 0,
+    "text": "بگیر و بگیسوی او بر بدوز"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 80,
+    "position": 1,
+    "text": "به نیک اختر و فال گیتی فروز"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 81,
+    "position": 0,
+    "text": "ور ایدونک آید ز اختر پسر"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 82,
+    "position": 1,
+    "text": "ببندش ببازو نشان پدر"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 83,
+    "position": 0,
+    "text": "به بالای سام نریمان بود"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 84,
+    "position": 1,
+    "text": "به مردی و خوی کریمان بود"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 85,
+    "position": 0,
+    "text": "فرود آرد از ابر پران عقاب"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 86,
+    "position": 1,
+    "text": "نتابد به تندی بر او آفتاب"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 87,
+    "position": 0,
+    "text": "همی بود آن شب بر ماه روی"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 88,
+    "position": 1,
+    "text": "همی گفت از هر سخن پیش اوی"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 89,
+    "position": 0,
+    "text": "چو خورشید رخشنده شد بر سپهر"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 90,
+    "position": 1,
+    "text": "بیاراست روی زمین را به مهر"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 91,
+    "position": 0,
+    "text": "به پدرود کردن گرفتش به بر"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 92,
+    "position": 1,
+    "text": "بسی بوسه دادش به چشم و به سر"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 93,
+    "position": 0,
+    "text": "پری چهره گریان ازو بازگشت"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 94,
+    "position": 1,
+    "text": "ابا انده و درد انباز گشت"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 95,
+    "position": 0,
+    "text": "بر رستم آمد گرانمایه شاه"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 96,
+    "position": 1,
+    "text": "بپرسیدش از خواب و آرامگاه"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 97,
+    "position": 0,
+    "text": "چو این گفته شد مژده دادش به رخش"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 98,
+    "position": 1,
+    "text": "برو شادمان شد دل تاج‌بخش"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 99,
+    "position": 0,
+    "text": "بیامد بمالید و زین برنهاد"
+  },
+  {
+    "poem_id": 1462,
+    "vorder": 100,
+    "position": 1,
+    "text": "شد از رخش رخشان و از شاه شاد"
+  }
+]

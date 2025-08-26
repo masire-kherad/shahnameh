@@ -1,0 +1,686 @@
+[
+  {
+    "poem_id": 1771,
+    "vorder": 1,
+    "position": 0,
+    "text": "دگر روز چون بردمید آفتاب"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 2,
+    "position": 1,
+    "text": "ببالید کوه و بپالود خواب"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 3,
+    "position": 0,
+    "text": "به نزدیک منذر شدند این گروه"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 4,
+    "position": 1,
+    "text": "که بهرام شه بود زیشان ستوه"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 5,
+    "position": 0,
+    "text": "که خواهشگری کن به نزدیک شاه"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 6,
+    "position": 1,
+    "text": "ز کردار ما تا ببخشد گناه"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 7,
+    "position": 0,
+    "text": "که چونان بدیم از بد یزدگرد"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 8,
+    "position": 1,
+    "text": "که خون در تن نامداران فسرد"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 9,
+    "position": 0,
+    "text": "ز بس زشت گفتار و کردار اوی"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 10,
+    "position": 1,
+    "text": "ز بیدادی و درد و آزار اوی"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 11,
+    "position": 0,
+    "text": "دل ما به بهرام ازان بود سرد"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 12,
+    "position": 1,
+    "text": "که از شاه بودیم یکسر به درد"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 13,
+    "position": 0,
+    "text": "بشد منذر و شاه را کرد نرم"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 14,
+    "position": 1,
+    "text": "بگسترد پیشش سخنهای گرم"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 15,
+    "position": 0,
+    "text": "ببخشید اگر چندشان بُد گناه"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 16,
+    "position": 1,
+    "text": "که با گوهر و دادگر بود شاه"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 17,
+    "position": 0,
+    "text": "بیاراست ایوان شاهنشهی"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 18,
+    "position": 1,
+    "text": "برفت آنک بودند یکسر مهی"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 19,
+    "position": 0,
+    "text": "چو جای بزرگی بپرداختند"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 20,
+    "position": 1,
+    "text": "کرا بود شایسته بنشاختند"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 21,
+    "position": 0,
+    "text": "به هر جای خوانی بیاراستند"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 22,
+    "position": 1,
+    "text": "می و رود و رامشگران خواستند"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 23,
+    "position": 0,
+    "text": "دوم روز رفتند دیگر گروه"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 24,
+    "position": 1,
+    "text": "سپهبد نیامد ز خوردن ستوه"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 25,
+    "position": 0,
+    "text": "سیم روز جشن و می و سور بود"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 26,
+    "position": 1,
+    "text": "غم از کاخ شاه جهان دور بود"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 27,
+    "position": 0,
+    "text": "بگفت آنک نعمان و منذر چه کرد"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 28,
+    "position": 1,
+    "text": "ز بهر من این پاک‌زاده دو مرد"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 29,
+    "position": 0,
+    "text": "همه مهتران خواندند آفرین"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 30,
+    "position": 1,
+    "text": "بران دشت آباد و مردان کین"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 31,
+    "position": 0,
+    "text": "ازان پس در گنج بگشاد شاه"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 32,
+    "position": 1,
+    "text": "به دینار و دیبا بیاراست گاه"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 33,
+    "position": 0,
+    "text": "به اسپ و سنان و به خفتان جنگ"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 34,
+    "position": 1,
+    "text": "ز خود و ز هر گوهری رنگ‌رنگ"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 35,
+    "position": 0,
+    "text": "سراسر به نعمان و منذر سپرد"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 36,
+    "position": 1,
+    "text": "جوانوی رفت آن بدیشان شمرد"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 37,
+    "position": 0,
+    "text": "کس اندازهٔ بخشش او نداشت"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 38,
+    "position": 1,
+    "text": "همان تاو با کوشش او نداشت"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 39,
+    "position": 0,
+    "text": "همان تازیان را بسی هدیه داد"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 40,
+    "position": 1,
+    "text": "از ایوان شاهی برفتند شاد"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 41,
+    "position": 0,
+    "text": "بیاورد پس خلعت خسروی"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 42,
+    "position": 1,
+    "text": "همان اسپ و هم جامهٔ پهلوی"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 43,
+    "position": 0,
+    "text": "به خسرو سپردند و بنواختش"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 44,
+    "position": 1,
+    "text": "بر گاه فرخنده بنشاختش"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 45,
+    "position": 0,
+    "text": "شهنشاه خسرو به نرسی رسید"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 46,
+    "position": 1,
+    "text": "ز تخت اندر آمد به کرسی رسید"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 47,
+    "position": 0,
+    "text": "برادرش بد یک‌دل و یک‌زبان"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 48,
+    "position": 1,
+    "text": "ازو کهتر آن نامدار جوان"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 49,
+    "position": 0,
+    "text": "ورا پهلوان کرد بر لشکرش"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 50,
+    "position": 1,
+    "text": "بدان تا به آیین بود کشورش"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 51,
+    "position": 0,
+    "text": "سپه را سراسر به نرسی سپرد"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 52,
+    "position": 1,
+    "text": "به بخشش همی پادشاهی ببرد"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 53,
+    "position": 0,
+    "text": "در گنج بگشاد و روزی بداد"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 54,
+    "position": 1,
+    "text": "سپاهش به دینار گشتند شاد"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 55,
+    "position": 0,
+    "text": "بفرمود پس تا گشسپ دبیر"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 56,
+    "position": 1,
+    "text": "بیامد بر شاه مردم پذیر"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 57,
+    "position": 0,
+    "text": "کجا بود دانا بدان روزگار"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 58,
+    "position": 1,
+    "text": "شمار جهان داشت اندر کنار"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 59,
+    "position": 0,
+    "text": "جوانوی بیدار با او بهم"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 60,
+    "position": 1,
+    "text": "که نزدیک او بد شمار درم"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 61,
+    "position": 0,
+    "text": "ز باقی که بد نزد ایرانیان"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 62,
+    "position": 1,
+    "text": "بفرمود تا بگسلد از میان"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 63,
+    "position": 0,
+    "text": "دبیران دانا به دیوان شدند"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 64,
+    "position": 1,
+    "text": "ز بهر درم پیش کیوان شدند"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 65,
+    "position": 0,
+    "text": "ز باقی که بد بر جهان سربسر"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 66,
+    "position": 1,
+    "text": "همه برگرفتند یک با دگر"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 67,
+    "position": 0,
+    "text": "نود بار و سه بار کرده شمار"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 68,
+    "position": 1,
+    "text": "به ایران درم بد هزاران هزار"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 69,
+    "position": 0,
+    "text": "ببخشید و دیوان بر آتش نهاد"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 70,
+    "position": 1,
+    "text": "همه شهر ایران بدو گشت شاد"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 71,
+    "position": 0,
+    "text": "چو آگاه شد زان سخن هرکسی"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 72,
+    "position": 1,
+    "text": "همی آفرین خواند هرکس بسی"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 73,
+    "position": 0,
+    "text": "برفتند یکسر به آتشکده"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 74,
+    "position": 1,
+    "text": "به ایوان نوروز و جشن سده"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 75,
+    "position": 0,
+    "text": "همی مشک بر آتش افشاندند"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 76,
+    "position": 1,
+    "text": "به بهرام بر آفرین خواندند"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 77,
+    "position": 0,
+    "text": "وزان پس بفرمود کارآگهان"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 78,
+    "position": 1,
+    "text": "یکی تا بگردند گرد جهان"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 79,
+    "position": 0,
+    "text": "کسی را کجا رانده بد یزدگرد"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 80,
+    "position": 1,
+    "text": "بجست و به یک شهرشان کرد گرد"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 81,
+    "position": 0,
+    "text": "بدان تا شود نامهٔ شهریار"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 82,
+    "position": 1,
+    "text": "که آزادگان را کند خواستار"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 83,
+    "position": 0,
+    "text": "فرستاد خلعت به هر مهتری"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 84,
+    "position": 1,
+    "text": "ببخشید به اندازه‌شان کشوری"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 85,
+    "position": 0,
+    "text": "رد و موبد و مرزبان هرک بود"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 86,
+    "position": 1,
+    "text": "که آواز بهرام زان سان شنود"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 87,
+    "position": 0,
+    "text": "سراسر به درگاه شاه آمدند"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 88,
+    "position": 1,
+    "text": "گشاده‌دل و نیکخواه آمدند"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 89,
+    "position": 0,
+    "text": "بفرمود تا هرک بد دادجوی"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 90,
+    "position": 1,
+    "text": "سوی موبد موبد آورد روی"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 91,
+    "position": 0,
+    "text": "چو فرمانش آمد ز گیتی به جای"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 92,
+    "position": 1,
+    "text": "منادیگری کرد بر در به پای"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 93,
+    "position": 0,
+    "text": "که ای زیردستان بیدار شاه"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 94,
+    "position": 1,
+    "text": "ز غم دور باشید و دور از گناه"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 95,
+    "position": 0,
+    "text": "وزین پس بران کس کنید آفرین"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 96,
+    "position": 1,
+    "text": "که از داد آباد دارد زمین"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 97,
+    "position": 0,
+    "text": "ز گیتی به یزدان پناهید و بس"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 98,
+    "position": 1,
+    "text": "که دارنده اویست و فریادرس"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 99,
+    "position": 0,
+    "text": "هرانکس که بگزید فرمان ما"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 100,
+    "position": 1,
+    "text": "نپیچد سر از رای و پیمان ما"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 101,
+    "position": 0,
+    "text": "برو نیکویها برافزون کنیم"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 102,
+    "position": 1,
+    "text": "ز دل کینه و آز بیرون کنیم"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 103,
+    "position": 0,
+    "text": "هرانکس که از داد بگریزد اوی"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 104,
+    "position": 1,
+    "text": "به بادآفره در بیاویزد اوی"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 105,
+    "position": 0,
+    "text": "گر ایدونک نیرو دهد کردگار"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 106,
+    "position": 1,
+    "text": "به کام دل ما شود روزگار"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 107,
+    "position": 0,
+    "text": "برین نیکویها فزایش بود"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 108,
+    "position": 1,
+    "text": "شما را بر ما ستایش بود"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 109,
+    "position": 0,
+    "text": "همه شهر ایران به گفتار اوی"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 110,
+    "position": 1,
+    "text": "برفتند شادان‌دل و تازه‌روی"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 111,
+    "position": 0,
+    "text": "بدانگه که شد پادشاهیش راست"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 112,
+    "position": 1,
+    "text": "فزون گشت شادی و انده بکاست"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 113,
+    "position": 0,
+    "text": "همه روز نخچیر بد کار اوی"
+  },
+  {
+    "poem_id": 1771,
+    "vorder": 114,
+    "position": 1,
+    "text": "دگر اسپ و میدان و چوگان و گوی"
+  }
+]

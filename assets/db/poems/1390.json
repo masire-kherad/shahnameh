@@ -1,0 +1,878 @@
+[
+  {
+    "poem_id": 1390,
+    "vorder": 1,
+    "position": 0,
+    "text": "چو آمد ز درگاه مهراب شاد"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 2,
+    "position": 1,
+    "text": "همی کرد از زال بسیار یاد"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 3,
+    "position": 0,
+    "text": "گرانمایه سیندخت را خفته دید"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 4,
+    "position": 1,
+    "text": "رخش پژمریده دل آشفته دید"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 5,
+    "position": 0,
+    "text": "بپرسید و گفتا چه بودت بگوی"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 6,
+    "position": 1,
+    "text": "چرا پژمرید آن چو گلبرگ روی"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 7,
+    "position": 0,
+    "text": "چنین داد پاسخ به مهراب باز"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 8,
+    "position": 1,
+    "text": "که اندیشه اندر دلم شد دراز"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 9,
+    "position": 0,
+    "text": "ازین کاخ آباد و این خواسته"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 10,
+    "position": 1,
+    "text": "وزین تازی اسپان آراسته"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 11,
+    "position": 0,
+    "text": "وزین بندگان سپهبدپرست"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 12,
+    "position": 1,
+    "text": "ازین تاج و این خسروانی نشست"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 13,
+    "position": 0,
+    "text": "وزین چهره و سرو بالای ما"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 14,
+    "position": 1,
+    "text": "وزین نام و این دانش و رای ما"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 15,
+    "position": 0,
+    "text": "بدین آبداری و این راستی"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 16,
+    "position": 1,
+    "text": "زمان تا زمان آورد کاستی"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 17,
+    "position": 0,
+    "text": "به ناکام باید به دشمن سپرد"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 18,
+    "position": 1,
+    "text": "همه رنج ما باد باید شمرد"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 19,
+    "position": 0,
+    "text": "یکی تنگ تابوت ازین بهر ماست"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 20,
+    "position": 1,
+    "text": "درختی که تریاک او زهر ماست"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 21,
+    "position": 0,
+    "text": "بکشتیم و دادیم آبش به رنج"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 22,
+    "position": 1,
+    "text": "بیاویختیم از برش تاج و گنج"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 23,
+    "position": 0,
+    "text": "چو بر شد به خورشید و شد سایه‌دار"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 24,
+    "position": 1,
+    "text": "به خاک اندر آمد سر مایه‌دار"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 25,
+    "position": 0,
+    "text": "برینست فرجام و انجام ما"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 26,
+    "position": 1,
+    "text": "بدان تا کجا باشد آرام ما"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 27,
+    "position": 0,
+    "text": "به سیندخت مهراب گفت این سخن"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 28,
+    "position": 1,
+    "text": "نوآوردی و نو نگردد کهن"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 29,
+    "position": 0,
+    "text": "سرای سپنجی بدین سان بود"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 30,
+    "position": 1,
+    "text": "خرد یافته زو هراسان بود"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 31,
+    "position": 0,
+    "text": "یکی اندر آید دگر بگذرد"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 32,
+    "position": 1,
+    "text": "گذر نی که چرخش همی بسپرد"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 33,
+    "position": 0,
+    "text": "به شادی و انده نگردد دگر"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 34,
+    "position": 1,
+    "text": "برین نیست پیکار با دادگر"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 35,
+    "position": 0,
+    "text": "بدو گفت سیندخت این داستان"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 36,
+    "position": 1,
+    "text": "بروی دگر بر نهد باستان"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 37,
+    "position": 0,
+    "text": "خرد یافته موبد نیک بخت"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 38,
+    "position": 1,
+    "text": "به فرزند زد داستان درخت"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 39,
+    "position": 0,
+    "text": "زدم داستان تا ز راه خرد"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 40,
+    "position": 1,
+    "text": "سپهبد به گفتار من بنگرد"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 41,
+    "position": 0,
+    "text": "فرو برد سرو سهی داد خم"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 42,
+    "position": 1,
+    "text": "به نرگس گل سرخ را داد نم"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 43,
+    "position": 0,
+    "text": "که گردون به سر بر چنان نگذرد"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 44,
+    "position": 1,
+    "text": "که ما را همی باید ای پرخرد"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 45,
+    "position": 0,
+    "text": "چنان دان که رودابه را پور سام"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 46,
+    "position": 1,
+    "text": "نهانی نهادست هر گونه دام"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 47,
+    "position": 0,
+    "text": "ببردست روشن دلش را ز راه"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 48,
+    "position": 1,
+    "text": "یکی چاره مان کرد باید نگاه"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 49,
+    "position": 0,
+    "text": "بسی دادمش پند و سودش نکرد"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 50,
+    "position": 1,
+    "text": "دلش خیره بینم همی روی زرد"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 51,
+    "position": 0,
+    "text": "چو بشنید مهراب بر پای جست"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 52,
+    "position": 1,
+    "text": "نهاد از بر دست شمشیر دست"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 53,
+    "position": 0,
+    "text": "تنش گشت لرزان و رخ لاجورد"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 54,
+    "position": 1,
+    "text": "پر از خون جگر دل پر از باد سرد"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 55,
+    "position": 0,
+    "text": "همی گفت رودابه را رود خون"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 56,
+    "position": 1,
+    "text": "بروی زمین بر کنم هم کنون"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 57,
+    "position": 0,
+    "text": "چو این دید سیندخت برپای جست"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 58,
+    "position": 1,
+    "text": "کمر کرد بر گردگاهش دو دست"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 59,
+    "position": 0,
+    "text": "چنین گفت کز کهتر اکنون یکی"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 60,
+    "position": 1,
+    "text": "سخن بشنو و گوش دار اندکی"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 61,
+    "position": 0,
+    "text": "ازان پس همان کن که رای آیدت"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 62,
+    "position": 1,
+    "text": "روان و خرد رهنمای آیدت"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 63,
+    "position": 0,
+    "text": "بپیچید و بنداخت او را بدست"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 64,
+    "position": 1,
+    "text": "خروشی برآورد چون پیل مست"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 65,
+    "position": 0,
+    "text": "مرا گفت چون دختر آمد پدید"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 66,
+    "position": 1,
+    "text": "ببایستش اندر زمان سر برید"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 67,
+    "position": 0,
+    "text": "نکشتم بگشتم ز راه نیا"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 68,
+    "position": 1,
+    "text": "کنون ساخت بر من چنین کیمیا"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 69,
+    "position": 0,
+    "text": "پسر کو ز راه پدر بگذرد"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 70,
+    "position": 1,
+    "text": "دلیرش ز پشت پدر نشمرد"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 71,
+    "position": 0,
+    "text": "همم بیم جانست و هم جای ننگ"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 72,
+    "position": 1,
+    "text": "چرا بازداری سرم را ز جنگ"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 73,
+    "position": 0,
+    "text": "اگر سام یل با منوچهر شاه"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 74,
+    "position": 1,
+    "text": "بیابند بر ما یکی دستگاه"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 75,
+    "position": 0,
+    "text": "ز کابل برآید به خورشید دود"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 76,
+    "position": 1,
+    "text": "نه آباد ماند نه کشت و درود"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 77,
+    "position": 0,
+    "text": "چنین گفت سیندخت با مرزبان"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 78,
+    "position": 1,
+    "text": "کزین در مگردان به خیره زبان"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 79,
+    "position": 0,
+    "text": "کزین آگهی یافت سام سوار"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 80,
+    "position": 1,
+    "text": "به دل ترس و تیمار و سختی مدار"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 81,
+    "position": 0,
+    "text": "وی از گرگساران بدین گشت باز"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 82,
+    "position": 1,
+    "text": "گشاده شدست این سخن نیست راز"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 83,
+    "position": 0,
+    "text": "چنین گفت مهراب کای ماه‌روی"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 84,
+    "position": 1,
+    "text": "سخن هیچ با من به کژی مگوی"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 85,
+    "position": 0,
+    "text": "چنین خود کی اندر خورد با خرد"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 86,
+    "position": 1,
+    "text": "که مر خاک را باد فرمان برد"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 87,
+    "position": 0,
+    "text": "مرا دل بدین نیستی دردمند"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 88,
+    "position": 1,
+    "text": "اگر ایمنی یابمی از گزند"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 89,
+    "position": 0,
+    "text": "که باشد که پیوند سام سوار"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 90,
+    "position": 1,
+    "text": "نخواهد ز اهواز تا قندهار"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 91,
+    "position": 0,
+    "text": "بدو گفت سیندخت کای سرفراز"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 92,
+    "position": 1,
+    "text": "به گفتار کژی مبادم نیاز"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 93,
+    "position": 0,
+    "text": "گزند تو پیدا گزند منست"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 94,
+    "position": 1,
+    "text": "دل درمند تو بند منست"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 95,
+    "position": 0,
+    "text": "چنین است و این بر دلم شد درست"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 96,
+    "position": 1,
+    "text": "همین بدگمانی مرا از نخست"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 97,
+    "position": 0,
+    "text": "اگر باشد این نیست کاری شگفت"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 98,
+    "position": 1,
+    "text": "که چندین بد اندیشه باید گرفت"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 99,
+    "position": 0,
+    "text": "فریدون به سرو یمن گشت شاه"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 100,
+    "position": 1,
+    "text": "جهانجوی دستان همین دید راه"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 101,
+    "position": 0,
+    "text": "هرانگه که بیگانه شد خویش تو"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 102,
+    "position": 1,
+    "text": "شود تیره رای بداندیش تو"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 103,
+    "position": 0,
+    "text": "به سیندخت فرمود پس نامدار"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 104,
+    "position": 1,
+    "text": "که رودابه را خیز پیش من آر"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 105,
+    "position": 0,
+    "text": "بترسید سیندخت ازان تیز مرد"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 106,
+    "position": 1,
+    "text": "که او را ز درد اندر آرد به گرد"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 107,
+    "position": 0,
+    "text": "بدو گفت پیمانت خواهم نخست"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 108,
+    "position": 1,
+    "text": "به چاره دلش را ز کینه بشست"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 109,
+    "position": 0,
+    "text": "زبان داد سیندخت را نامجوی"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 110,
+    "position": 1,
+    "text": "که رودابه را بد نیارد بروی"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 111,
+    "position": 0,
+    "text": "بدو گفت بنگر که شاه زمین"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 112,
+    "position": 1,
+    "text": "دل از ما کند زین سخن پر ز کین"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 113,
+    "position": 0,
+    "text": "نه ماند بر و بوم و نه مام و باب"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 114,
+    "position": 1,
+    "text": "شود پست رودابه با رودآب"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 115,
+    "position": 0,
+    "text": "چو بشنید سیندخت سر پیش اوی"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 116,
+    "position": 1,
+    "text": "فرو برد و بر خاک بنهاد روی"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 117,
+    "position": 0,
+    "text": "بر دختر آمد پر از خنده لب"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 118,
+    "position": 1,
+    "text": "گشاده رخ روزگون زیر شب"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 119,
+    "position": 0,
+    "text": "همی مژده دادش که جنگی پلنگ"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 120,
+    "position": 1,
+    "text": "ز گور ژیان کرد کوتاه چنگ"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 121,
+    "position": 0,
+    "text": "کنون زود پیرایه بگشای و رو"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 122,
+    "position": 1,
+    "text": "به پیش پدر شو به زاری بنو"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 123,
+    "position": 0,
+    "text": "بدو گفت رودابه پیرایه چیست"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 124,
+    "position": 1,
+    "text": "به جای سر مایه بی‌مایه چیست"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 125,
+    "position": 0,
+    "text": "روان مرا پور سامست جفت"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 126,
+    "position": 1,
+    "text": "چرا آشکارا بباید نهفت"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 127,
+    "position": 0,
+    "text": "به پیش پدر شد چو خورشید شرق"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 128,
+    "position": 1,
+    "text": "به یاقوت و زر اندرون گشته غرق"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 129,
+    "position": 0,
+    "text": "بهشتی بد آراسته پرنگار"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 130,
+    "position": 1,
+    "text": "چو خورشید تابان به خرم بهار"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 131,
+    "position": 0,
+    "text": "پدر چون ورا دید خیره بماند"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 132,
+    "position": 1,
+    "text": "جهان آفرین را نهانی بخواند"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 133,
+    "position": 0,
+    "text": "بدو گفت ای شسته مغز از خرد"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 134,
+    "position": 1,
+    "text": "ز پرگوهران این کی اندر خورد"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 135,
+    "position": 0,
+    "text": "که با اهرمن جفت گردد پری"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 136,
+    "position": 1,
+    "text": "که مه تاج بادت مه انگشتری"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 137,
+    "position": 0,
+    "text": "چو بشنید رودابه آن گفت‌وگوی"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 138,
+    "position": 1,
+    "text": "دژم گشت و چون زعفران کرد روی"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 139,
+    "position": 0,
+    "text": "سیه مژه بر نرگسان دژم"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 140,
+    "position": 1,
+    "text": "فرو خوابنید و نزد هیچ دم"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 141,
+    "position": 0,
+    "text": "پدر دل پر از خشم و سر پر ز جنگ"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 142,
+    "position": 1,
+    "text": "همی رفت غران بسان پلنگ"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 143,
+    "position": 0,
+    "text": "سوی خانه شد دختر دل‌شده"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 144,
+    "position": 1,
+    "text": "رخان معصفر بزر آژده"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 145,
+    "position": 0,
+    "text": "به یزدان گرفتند هر دو پناه"
+  },
+  {
+    "poem_id": 1390,
+    "vorder": 146,
+    "position": 1,
+    "text": "هم این دل شده ماه و هم پیشگاه"
+  }
+]

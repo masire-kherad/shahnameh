@@ -1,0 +1,914 @@
+[
+  {
+    "poem_id": 1409,
+    "vorder": 1,
+    "position": 0,
+    "text": "سپیده چو از کوه سر برکشید"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 2,
+    "position": 1,
+    "text": "طلایه به پیش دهستان رسید"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 3,
+    "position": 0,
+    "text": "میان دو لشکر دو فرسنگ بود"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 4,
+    "position": 1,
+    "text": "همه ساز و آرایش جنگ بود"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 5,
+    "position": 0,
+    "text": "یکی ترک بد نام او بارمان"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 6,
+    "position": 1,
+    "text": "همی خفته را گفت بیدار مان"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 7,
+    "position": 0,
+    "text": "بیامد سپه را همی بنگرید"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 8,
+    "position": 1,
+    "text": "سراپردهٔ شاه نوذر بدید"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 9,
+    "position": 0,
+    "text": "بشد نزد سالار توران سپاه"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 10,
+    "position": 1,
+    "text": "نشان داد ازان لشکر و بارگاه"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 11,
+    "position": 0,
+    "text": "وزان پس به سالار بیدار گفت"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 12,
+    "position": 1,
+    "text": "که ما را هنر چند باید نهفت؟"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 13,
+    "position": 0,
+    "text": "به دستوریِ شاه من شیروار"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 14,
+    "position": 1,
+    "text": "بجویم ازان انجمن کارزار"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 15,
+    "position": 0,
+    "text": "ببینند پیدا ز من دستبُرد"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 16,
+    "position": 1,
+    "text": "جز از من کسی را نخوانند گُرد"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 17,
+    "position": 0,
+    "text": "چنین گفت اغریرث هوشمند"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 18,
+    "position": 1,
+    "text": "که گر بارمان را رسد زین گزند"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 19,
+    "position": 0,
+    "text": "دل مرزبانان شکسته شود"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 20,
+    "position": 1,
+    "text": "برین انجمن کار بسته شود"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 21,
+    "position": 0,
+    "text": "یکی مرد بی‌نام باید گزید"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 22,
+    "position": 1,
+    "text": "که انگشت ازان پس نباید گزید"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 23,
+    "position": 0,
+    "text": "پرآژنگ شد روی پور پشنگ"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 24,
+    "position": 1,
+    "text": "ز گفتار اغریرث آمدش ننگ"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 25,
+    "position": 0,
+    "text": "بروی دژم گفت با بارمان"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 26,
+    "position": 1,
+    "text": "که جوشن بپوش و به زه کن کمان"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 27,
+    "position": 0,
+    "text": "تو باشی بران انجمن سرفراز"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 28,
+    "position": 1,
+    "text": "به انگشت دندان نیاید به گاز"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 29,
+    "position": 0,
+    "text": "بشد بارمان تا به دشت نبرد"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 30,
+    "position": 1,
+    "text": "سوی قارن کاوه آواز کرد"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 31,
+    "position": 0,
+    "text": "کزین لشکر نوذر نامدار"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 32,
+    "position": 1,
+    "text": "که داری که با من کند کارزار"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 33,
+    "position": 0,
+    "text": "نگه کرد قارن به مردان مرد"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 34,
+    "position": 1,
+    "text": "ازان انجمن تا که جوید نبرد"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 35,
+    "position": 0,
+    "text": "کس از نامدارانش پاسخ نداد"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 36,
+    "position": 1,
+    "text": "مگر پیرگشته دلاور قباد"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 37,
+    "position": 0,
+    "text": "دژم گشت سالار بسیار هوش"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 38,
+    "position": 1,
+    "text": "ز گفت برادر برآمد به جوش"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 39,
+    "position": 0,
+    "text": "ز خشمش سرشک اندر آمد به چشم"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 40,
+    "position": 1,
+    "text": "از آن لشکر گشن بد جای خشم"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 41,
+    "position": 0,
+    "text": "ز چندان جوان مردم جنگجوی"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 42,
+    "position": 1,
+    "text": "یکی پیر جوید همی رزم اوی"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 43,
+    "position": 0,
+    "text": "دل قارن آزرده گشت از قباد"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 44,
+    "position": 1,
+    "text": "میان دلیران زبان برگشاد"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 45,
+    "position": 0,
+    "text": "که سال تو اکنون به جایی رسید"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 46,
+    "position": 1,
+    "text": "که از جنگ دستت بباید کشید"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 47,
+    "position": 0,
+    "text": "تویی مایه‌ور کدخدای سپاه"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 48,
+    "position": 1,
+    "text": "همی بر تو گردد همه رای شاه"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 49,
+    "position": 0,
+    "text": "بخون گر شود لعل، مویی سپید؛"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 50,
+    "position": 1,
+    "text": "شوند این دلیران همه ناامید"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 51,
+    "position": 0,
+    "text": "شکست اندرآید بدین رزم‌گاه"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 52,
+    "position": 1,
+    "text": "پر از درد گردد دل نیک‌خواه"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 53,
+    "position": 0,
+    "text": "نگه کن که با قارن رزم زن!"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 54,
+    "position": 1,
+    "text": "چه گوید قباد اندران انجمن:"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 55,
+    "position": 0,
+    "text": "«بدان ای برادر که تن مرگ راست"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 56,
+    "position": 1,
+    "text": "سر رزم زن سودن ترگ راست"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 57,
+    "position": 0,
+    "text": "ز گاه خجسته منوچهر باز"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 58,
+    "position": 1,
+    "text": "از امروز بودم تن اندر گداز"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 59,
+    "position": 0,
+    "text": "کسی زنده بر آسمان نگذرد"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 60,
+    "position": 1,
+    "text": "شکارست و مرگش همی بشکرد"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 61,
+    "position": 0,
+    "text": "یکی را برآید به شمشیر هوش"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 62,
+    "position": 1,
+    "text": "بدانگه که آید دو لشگر به جوش"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 63,
+    "position": 0,
+    "text": "تنش کرگس و شیر درنده راست"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 64,
+    "position": 1,
+    "text": "سرش نیزه و تیغ برنده راست"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 65,
+    "position": 0,
+    "text": "یکی را به بستر برآید زمان"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 66,
+    "position": 1,
+    "text": "همی رفت باید ز بن بی‌گمان"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 67,
+    "position": 0,
+    "text": "اگر من روم زین جهان فراخ"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 68,
+    "position": 1,
+    "text": "برادر به جایست با برز و شاخ"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 69,
+    "position": 0,
+    "text": "یکی دخمهٔ خسروانی کند"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 70,
+    "position": 1,
+    "text": "پس از رفتنم مهربانی کند"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 71,
+    "position": 0,
+    "text": "سرم را به کافور و مشک و گلاب"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 72,
+    "position": 1,
+    "text": "تنم را بدان جای جاوید خواب"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 73,
+    "position": 0,
+    "text": "سپار ای برادر تو پدرود باش"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 74,
+    "position": 1,
+    "text": "همیشه خرد تار و تو پود باش»"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 75,
+    "position": 0,
+    "text": "بگفت این و بگرفت نیزه به دست"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 76,
+    "position": 1,
+    "text": "به آوردگه رفت چون پیل مست"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 77,
+    "position": 0,
+    "text": "چنین گفت با رزم زن بارمان"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 78,
+    "position": 1,
+    "text": "که آورد پیشم سرت را زمان"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 79,
+    "position": 0,
+    "text": "ببایست ماندن که خود روزگار"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 80,
+    "position": 1,
+    "text": "همی کرد با جان تو کارزار"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 81,
+    "position": 0,
+    "text": "چنین گفت مر بارمان را قباد"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 82,
+    "position": 1,
+    "text": "که یکچند گیتی مرا داد داد"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 83,
+    "position": 0,
+    "text": "به جایی توان مرد کاید زمان"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 84,
+    "position": 1,
+    "text": "بیاید زمان یک زمان بی‌گمان"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 85,
+    "position": 0,
+    "text": "بگفت و برانگیخت شبدیز را"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 86,
+    "position": 1,
+    "text": "بداد آرمیدن دل تیز را"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 87,
+    "position": 0,
+    "text": "ز شبگیر تا سایه گسترد هور"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 88,
+    "position": 1,
+    "text": "همی این برآن آن برین کرد زور"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 89,
+    "position": 0,
+    "text": "به فرجام پیروز شد بارمان"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 90,
+    "position": 1,
+    "text": "به میدان جنگ اندر آمد دمان"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 91,
+    "position": 0,
+    "text": "یکی خشت زد بر سرین قباد"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 92,
+    "position": 1,
+    "text": "که بند کمرگاه او برگشاد"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 93,
+    "position": 0,
+    "text": "ز اسپ اندر آمد نگونسار سر"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 94,
+    "position": 1,
+    "text": "شد آن شیردل پیر سالار سر"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 95,
+    "position": 0,
+    "text": "بشد بارمان نزد افراسیاب"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 96,
+    "position": 1,
+    "text": "شکفته دو رخسار با جاه و آب"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 97,
+    "position": 0,
+    "text": "یکی خلعتش داد کاندر جهان"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 98,
+    "position": 1,
+    "text": "کس از کهتران نستد آن از مهان"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 99,
+    "position": 0,
+    "text": "چو او کشته شد قارن رزمجوی"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 100,
+    "position": 1,
+    "text": "سپه را بیاورد و بنهاد روی"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 101,
+    "position": 0,
+    "text": "دو لشکر به کردار دریای چین"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 102,
+    "position": 1,
+    "text": "تو گفتی که شد جنب جنبان زمین"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 103,
+    "position": 0,
+    "text": "درخشیدن تیغ الماس گون"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 104,
+    "position": 1,
+    "text": "شده لعل و آهار داده به خون"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 105,
+    "position": 0,
+    "text": "به گرد اندرون همچو دریای آب"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 106,
+    "position": 1,
+    "text": "که شنگرف بارد برو آفتاب"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 107,
+    "position": 0,
+    "text": "پر از نالهٔ کوس شد مغز میغ"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 108,
+    "position": 1,
+    "text": "پر از آب شنگرف شد جان تیغ"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 109,
+    "position": 0,
+    "text": "به هر سو که قارن برافگند اسپ"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 110,
+    "position": 1,
+    "text": "همی تافت آهن چو آذرگشسپ"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 111,
+    "position": 0,
+    "text": "تو گفتی که الماس مرجان فشاند"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 112,
+    "position": 1,
+    "text": "چه مرجان که در کین همی جان فشاند"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 113,
+    "position": 0,
+    "text": "ز قارن چو افراسیاب آن بدید"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 114,
+    "position": 1,
+    "text": "بزد اسپ و لشکر سوی او کشید"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 115,
+    "position": 0,
+    "text": "یکی رزم تا شب برآمد ز کوه"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 116,
+    "position": 1,
+    "text": "بکردند و نامد دل از کین ستوه"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 117,
+    "position": 0,
+    "text": "چو شب تیره شد قارن رزمخواه"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 118,
+    "position": 1,
+    "text": "بیاورد سوی دهستان سپاه"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 119,
+    "position": 0,
+    "text": "بر نوذر آمد به پرده سرای"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 120,
+    "position": 1,
+    "text": "ز خون برادر شده دل ز جای"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 121,
+    "position": 0,
+    "text": "ورا دید نوذر فروریخت آب"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 122,
+    "position": 1,
+    "text": "ازان مژهٔ سیرنادیده خواب"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 123,
+    "position": 0,
+    "text": "چنین گفت کز مرگ سام سوار"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 124,
+    "position": 1,
+    "text": "ندیدم روان را چنین سوگوار"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 125,
+    "position": 0,
+    "text": "چو خورشید بادا روان قباد"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 126,
+    "position": 1,
+    "text": "ترا زین جهان جاودان بهر باد"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 127,
+    "position": 0,
+    "text": "کزین رزم وز مرگمان چاره نیست"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 128,
+    "position": 1,
+    "text": "زمی را جز از گور گهواره نیست"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 129,
+    "position": 0,
+    "text": "چنین گفت قارن که تا زاده‌ام"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 130,
+    "position": 1,
+    "text": "تن پرهنر مرگ را داده‌ام"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 131,
+    "position": 0,
+    "text": "فریدون نهاد این کله بر سرم"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 132,
+    "position": 1,
+    "text": "که بر کین ایرج زمین بسپرم"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 133,
+    "position": 0,
+    "text": "هنوز آن کمربند نگشاده‌ام"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 134,
+    "position": 1,
+    "text": "همان تیغ پولاد ننهاده‌ام"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 135,
+    "position": 0,
+    "text": "برادر شد آن مرد سنگ و خرد"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 136,
+    "position": 1,
+    "text": "سرانجام من هم برین بگذرد"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 137,
+    "position": 0,
+    "text": "انوشه بدی تو که امروز جنگ"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 138,
+    "position": 1,
+    "text": "به تنگ اندر آورد پور پشنگ"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 139,
+    "position": 0,
+    "text": "چو از لشکرش گشت لختی تباه"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 140,
+    "position": 1,
+    "text": "از آسودگان خواست چندی سپاه"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 141,
+    "position": 0,
+    "text": "مرا دید با گَرزهٔ گاوروی"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 142,
+    "position": 1,
+    "text": "بیامد به نزدیک من جنگجوی"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 143,
+    "position": 0,
+    "text": "به رویش بران گونه اندر شدم"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 144,
+    "position": 1,
+    "text": "که با دیدگانش برابر شدم"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 145,
+    "position": 0,
+    "text": "یکی جادوی ساخت با من به جنگ"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 146,
+    "position": 1,
+    "text": "که با چشم روشن نماند آب و رنگ"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 147,
+    "position": 0,
+    "text": "شب آمد جهان سر به سر تیره گشت"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 148,
+    "position": 1,
+    "text": "مرا بازو از کوفتن خیره گشت"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 149,
+    "position": 0,
+    "text": "تو گفتی زمانه سرآید همی"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 150,
+    "position": 1,
+    "text": "هوا زیر خاک اندر آید همی"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 151,
+    "position": 0,
+    "text": "ببایست برگشتن از رزمگاه"
+  },
+  {
+    "poem_id": 1409,
+    "vorder": 152,
+    "position": 1,
+    "text": "که گرد سپه بود و شب شد سیاه"
+  }
+]

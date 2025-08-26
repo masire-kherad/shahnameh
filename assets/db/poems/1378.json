@@ -1,0 +1,506 @@
+[
+  {
+    "poem_id": 1378,
+    "vorder": 1,
+    "position": 0,
+    "text": "منوچهر یک هفته با درد بود"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 2,
+    "position": 1,
+    "text": "دو چشمش پر آب و رخش زرد بود"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 3,
+    "position": 0,
+    "text": "به هشتم بیامد منوچهر شاه"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 4,
+    "position": 1,
+    "text": "به سر بر نهاد آن کیانی کلاه"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 5,
+    "position": 0,
+    "text": "همه پهلوانان روی زمین"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 6,
+    "position": 1,
+    "text": "بر او یکسره خواندند آفرین"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 7,
+    "position": 0,
+    "text": "چو دیهیم شاهی به سر بر نهاد"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 8,
+    "position": 1,
+    "text": "جهان را سراسر همه مژده داد"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 9,
+    "position": 0,
+    "text": "به داد و به آیین و مردانگی"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 10,
+    "position": 1,
+    "text": "به نیکی و پاکی و فرزانگی"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 11,
+    "position": 0,
+    "text": "منم گفت بر تخت گردان سپهر"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 12,
+    "position": 1,
+    "text": "همم خشم و جنگ است و هم داد و مهر"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 13,
+    "position": 0,
+    "text": "زمین بنده و چرخ یار من است"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 14,
+    "position": 1,
+    "text": "سر تاجداران شکار من است"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 15,
+    "position": 0,
+    "text": "همم دین و هم فرهٔ ایزدیست"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 16,
+    "position": 1,
+    "text": "همم بخت نیکی و هم بخردیست"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 17,
+    "position": 0,
+    "text": "شب تار جویندهٔ کین منم"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 18,
+    "position": 1,
+    "text": "همان آتش تیز برزین منم"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 19,
+    "position": 0,
+    "text": "خداوند شمشیر و زرّینه کفش"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 20,
+    "position": 1,
+    "text": "فرازندهٔ کاویانی درفش"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 21,
+    "position": 0,
+    "text": "فروزندهٔ میغ و برّنده تیغ"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 22,
+    "position": 1,
+    "text": "به جنگ اندرون جان ندارم دریغ"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 23,
+    "position": 0,
+    "text": "گه بزم دریا دو دست من است"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 24,
+    "position": 1,
+    "text": "دم آتش از بر نشست من است"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 25,
+    "position": 0,
+    "text": "بدان را ز بد دست کوته کنم"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 26,
+    "position": 1,
+    "text": "زمین را به کین رنگ دیبه کنم"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 27,
+    "position": 0,
+    "text": "گراینده گرز و نماینده تاج"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 28,
+    "position": 1,
+    "text": "فروزندهٔ ملک بر تخت عاج"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 29,
+    "position": 0,
+    "text": "ابا این هنرها یکی بنده‌ام"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 30,
+    "position": 1,
+    "text": "جهان آفرین را پرستنده‌ام"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 31,
+    "position": 0,
+    "text": "همه دست بر روی گریان زنیم"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 32,
+    "position": 1,
+    "text": "همه داستان‌ها ز یزدان زنیم"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 33,
+    "position": 0,
+    "text": "کز او تاج و تخت است ز اویم سپاه"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 34,
+    "position": 1,
+    "text": "از اویم سپاس و بدویم پناه"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 35,
+    "position": 0,
+    "text": "به راه فریدون فرّخ رویم"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 36,
+    "position": 1,
+    "text": "نیامان کهن بود گر ما نویم"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 37,
+    "position": 0,
+    "text": "هر آن کس که در هفت کشور زمین"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 38,
+    "position": 1,
+    "text": "بگردد ز راه و بتابد ز دین"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 39,
+    "position": 0,
+    "text": "نمایندهٔ رنج درویش را"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 40,
+    "position": 1,
+    "text": "زبون داشتن مردم خویش را"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 41,
+    "position": 0,
+    "text": "برافراختن سر به بیشی و گنج"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 42,
+    "position": 1,
+    "text": "به رنجور مردم نماینده رنج"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 43,
+    "position": 0,
+    "text": "همه نزد من سر به سر کافرند"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 44,
+    "position": 1,
+    "text": "و ز آهرمن بدکنش بدترند"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 45,
+    "position": 0,
+    "text": "هر آن کس که او جز بر این دین بود"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 46,
+    "position": 1,
+    "text": "ز یزدان و از منش نفرین بود"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 47,
+    "position": 0,
+    "text": "و زان پس به شمشیر یازیم دست"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 48,
+    "position": 1,
+    "text": "کنم سر به سر کشور و مرز پست"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 49,
+    "position": 0,
+    "text": "همه پهلوانان روی زمین"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 50,
+    "position": 1,
+    "text": "منوچهر را خواندند آفرین"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 51,
+    "position": 0,
+    "text": "که فرّخ نیای تو ای نیک‌خواه"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 52,
+    "position": 1,
+    "text": "تو را داد شاهی و تخت و کلاه"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 53,
+    "position": 0,
+    "text": "تو را باد جاوید تخت ردان"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 54,
+    "position": 1,
+    "text": "همان تاج و هم فرهٔ موبدان"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 55,
+    "position": 0,
+    "text": "دل ما یکایک به فرمان تو است"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 56,
+    "position": 1,
+    "text": "همان جان ما زیر پیمان تو است"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 57,
+    "position": 0,
+    "text": "جهان پهلوان سام بر پای خاست"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 58,
+    "position": 1,
+    "text": "چنین گفت کای خسرو داد راست"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 59,
+    "position": 0,
+    "text": "ز شاهان مرا دیده بر دیدن است"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 60,
+    "position": 1,
+    "text": "ز تو داد و از ما پسندیدن است"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 61,
+    "position": 0,
+    "text": "پدر بر پدر شاه ایران تویی"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 62,
+    "position": 1,
+    "text": "گزین سواران و شیران تویی"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 63,
+    "position": 0,
+    "text": "تو را پاک یزدان نگه‌دار باد"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 64,
+    "position": 1,
+    "text": "دلت شادمان بخت بیدار باد"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 65,
+    "position": 0,
+    "text": "تو از باستان یادگار منی"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 66,
+    "position": 1,
+    "text": "به تخت کئی بر بهار منی"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 67,
+    "position": 0,
+    "text": "به رزم اندرون شیر پاینده‌ای"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 68,
+    "position": 1,
+    "text": "به بزم اندرون شید تابنده‌ای"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 69,
+    "position": 0,
+    "text": "زمین و زمان خاک پای تو باد"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 70,
+    "position": 1,
+    "text": "همان تخت پیروزه جای تو باد"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 71,
+    "position": 0,
+    "text": "تو شستی به شمشیر هندی زمین"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 72,
+    "position": 1,
+    "text": "به آرام بنشین و رامش گزین"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 73,
+    "position": 0,
+    "text": "از این پس همه نوبت ماست رزم"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 74,
+    "position": 1,
+    "text": "تو را جای تخت است و شادی و بزم"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 75,
+    "position": 0,
+    "text": "شوم گرد گیتی برآیم یکی"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 76,
+    "position": 1,
+    "text": "ز دشمن به بند آورم اندکی"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 77,
+    "position": 0,
+    "text": "مرا پهلوانی نیای تو داد"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 78,
+    "position": 1,
+    "text": "دلم را خرد مهر و رای تو داد"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 79,
+    "position": 0,
+    "text": "بر او آفرین کرد بس شهریار"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 80,
+    "position": 1,
+    "text": "بسی دادش از گوهر شاهوار"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 81,
+    "position": 0,
+    "text": "چو از پیش تختش گرازید سام"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 82,
+    "position": 1,
+    "text": "پسش پهلوانان نهادند گام"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 83,
+    "position": 0,
+    "text": "خرامید و شد سوی آرامگاه"
+  },
+  {
+    "poem_id": 1378,
+    "vorder": 84,
+    "position": 1,
+    "text": "همی کرد گیتی به آیین و راه"
+  }
+]

@@ -1,0 +1,830 @@
+[
+  {
+    "poem_id": 1357,
+    "vorder": 1,
+    "position": 0,
+    "text": "جهاندار ضحاک از آن گفت‌گوی"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 2,
+    "position": 1,
+    "text": "به جوش آمد و زود بنهاد روی"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 3,
+    "position": 0,
+    "text": "چو شب گردش روز پرگار زد"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 4,
+    "position": 1,
+    "text": "فروزنده را مهره در قار زد"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 5,
+    "position": 0,
+    "text": "بفرمود تا برنهادند زین"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 6,
+    "position": 1,
+    "text": "بر آن بادپایان باریک بین"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 7,
+    "position": 0,
+    "text": "بیامد دمان با سپاهی گران"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 8,
+    "position": 1,
+    "text": "همه نره دیوان جنگاوران"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 9,
+    "position": 0,
+    "text": "ز بی‌راه مر کاخ را بام و در"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 10,
+    "position": 1,
+    "text": "گرفت و به کین اندر آورد سر"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 11,
+    "position": 0,
+    "text": "سپاه فریدون چو آگه شدند"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 12,
+    "position": 1,
+    "text": "همه سوی آن راه بی‌ره شدند"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 13,
+    "position": 0,
+    "text": "ز اسپان جنگی فرو ریختند"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 14,
+    "position": 1,
+    "text": "در آن جای تنگی برآویختند"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 15,
+    "position": 0,
+    "text": "همه بام و در مردم شهر بود"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 16,
+    "position": 1,
+    "text": "کسی کش ز جنگاوری بهر بود"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 17,
+    "position": 0,
+    "text": "همه در هوای فریدون بدند"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 18,
+    "position": 1,
+    "text": "که از درد ضحاک پرخون بدند"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 19,
+    "position": 0,
+    "text": "ز دیوارها خشت وز بام سنگ"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 20,
+    "position": 1,
+    "text": "به کوی اندرون تیغ و تیر و خدنگ"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 21,
+    "position": 0,
+    "text": "ببارید چون ژاله ز ابر سیاه"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 22,
+    "position": 1,
+    "text": "پئی را نبد بر زمین جایگاه"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 23,
+    "position": 0,
+    "text": "به شهر اندرون هر که برنا بدند"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 24,
+    "position": 1,
+    "text": "چه پیران که در جنگ دانا بدند"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 25,
+    "position": 0,
+    "text": "سوی لشکر آفریدون شدند"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 26,
+    "position": 1,
+    "text": "ز نیرنگ ضحاک بیرون شدند"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 27,
+    "position": 0,
+    "text": "خروشی برآمد ز آتشکده"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 28,
+    "position": 1,
+    "text": "که بر تخت اگر شاه باشد دده"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 29,
+    "position": 0,
+    "text": "همه پیر و برناش فرمان بریم"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 30,
+    "position": 1,
+    "text": "یکایک ز گفتار او نگذریم"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 31,
+    "position": 0,
+    "text": "نخواهیم بر گاه ضحاک را"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 32,
+    "position": 1,
+    "text": "مر آن اژدهادوش ناپاک را"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 33,
+    "position": 0,
+    "text": "سپاهی و شهری به کردار کوه"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 34,
+    "position": 1,
+    "text": "سراسر به جنگ اندر آمد گروه"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 35,
+    "position": 0,
+    "text": "از آن شهر روشن یکی تیره گرد"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 36,
+    "position": 1,
+    "text": "برآمد که خورشید شد لاجورد"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 37,
+    "position": 0,
+    "text": "پس آنگاه ضحاک شد چاره‌جوی"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 38,
+    "position": 1,
+    "text": "ز لشکر سوی کاخ بنهاد روی"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 39,
+    "position": 0,
+    "text": "به آهن سراسر بپوشید تن"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 40,
+    "position": 1,
+    "text": "بدان تا نداند کسش ز انجمن"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 41,
+    "position": 0,
+    "text": "به چنگ اندرون شست‌یازی کمند"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 42,
+    "position": 1,
+    "text": "برآمد بر بام کاخ بلند"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 43,
+    "position": 0,
+    "text": "بدید آن سیه نرگس شهرناز"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 44,
+    "position": 1,
+    "text": "پر از جادویی با فریدون به راز"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 45,
+    "position": 0,
+    "text": "دو رخساره روز و دو زلفش چو شب"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 46,
+    "position": 1,
+    "text": "گشاده به نفرین ضحاک لب"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 47,
+    "position": 0,
+    "text": "به مغز اندرش آتش رشک خاست"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 48,
+    "position": 1,
+    "text": "به ایوان کمند اندر افگند راست"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 49,
+    "position": 0,
+    "text": "نه از تخت یاد و نه جان ارجمند"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 50,
+    "position": 1,
+    "text": "فرود آمد از بام کاخ بلند"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 51,
+    "position": 0,
+    "text": "به دست اندرش آبگون دشنه بود"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 52,
+    "position": 1,
+    "text": "به خون پریچهرگان تشنه بود"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 53,
+    "position": 0,
+    "text": "ز بالا چو پی بر زمین برنهاد"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 54,
+    "position": 1,
+    "text": "بیآمد فریدون به کردار باد"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 55,
+    "position": 0,
+    "text": "بر آن گُرزهٔ گاوسر دست برد"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 56,
+    "position": 1,
+    "text": "بزد بر سرش، ترگ بشکست خرد"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 57,
+    "position": 0,
+    "text": "بیآمد سروش خجسته دمان"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 58,
+    "position": 1,
+    "text": "مزن گفت کاو را نیامد زمان"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 59,
+    "position": 0,
+    "text": "همیدون شکسته ببندش چو سنگ"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 60,
+    "position": 1,
+    "text": "ببر تا دو کوه آیدت پیش تنگ"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 61,
+    "position": 0,
+    "text": "به کوه اندرون به بود بند او"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 62,
+    "position": 1,
+    "text": "نیاید برش خویش و پیوند او"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 63,
+    "position": 0,
+    "text": "فریدون چو بشنید نآسود دیر"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 64,
+    "position": 1,
+    "text": "کمندی بیاراست از چرم شیر"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 65,
+    "position": 0,
+    "text": "به تندی ببستش دو دست و میان"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 66,
+    "position": 1,
+    "text": "که نگشاید آن بند پیل ژیان"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 67,
+    "position": 0,
+    "text": "نشست از بر تخت زرین او"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 68,
+    "position": 1,
+    "text": "بیفگند ناخوب آیین او"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 69,
+    "position": 0,
+    "text": "بفرمود کردن به در بر خروش"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 70,
+    "position": 1,
+    "text": "که هر کس که دارید بیدار هوش"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 71,
+    "position": 0,
+    "text": "نباید که باشید با ساز جنگ"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 72,
+    "position": 1,
+    "text": "نه زین گونه جوید کسی نام و ننگ"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 73,
+    "position": 0,
+    "text": "سپاهی نباید که با پیشه‌ور"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 74,
+    "position": 1,
+    "text": "به یک روی جویند هر دو هنر"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 75,
+    "position": 0,
+    "text": "یکی کارورز و یکی گُرزدار"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 76,
+    "position": 1,
+    "text": "سزاوار هر کس پدید است کار"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 77,
+    "position": 0,
+    "text": "چو این کار آن جوید آن کار این"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 78,
+    "position": 1,
+    "text": "پرآشوب گردد سراسر زمین"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 79,
+    "position": 0,
+    "text": "به بند اندر است آن که ناپاک بود"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 80,
+    "position": 1,
+    "text": "جهان را ز کردار او باک بود"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 81,
+    "position": 0,
+    "text": "شما دیر مانید و خرم بوید"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 82,
+    "position": 1,
+    "text": "به رامش سوی ورزش خود شوید"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 83,
+    "position": 0,
+    "text": "شنیدند یکسر سخنهای شاه"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 84,
+    "position": 1,
+    "text": "از آن مرد پرهیز با دستگاه"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 85,
+    "position": 0,
+    "text": "وز آن پس همه نامداران شهر"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 86,
+    "position": 1,
+    "text": "کسی کش بد از تاج وز گنج بهر"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 87,
+    "position": 0,
+    "text": "برفتند با رامش و خواسته"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 88,
+    "position": 1,
+    "text": "همه دل به فرمانش آراسته"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 89,
+    "position": 0,
+    "text": "فریدون فرزانه بنواختشان"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 90,
+    "position": 1,
+    "text": "بر اندازه بر پایگه ساختشان"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 91,
+    "position": 0,
+    "text": "همی پندشان داد و کرد آفرین"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 92,
+    "position": 1,
+    "text": "همی یاد کرد از جهان‌آفرین"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 93,
+    "position": 0,
+    "text": "همی گفت کاین جایگاه من است"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 94,
+    "position": 1,
+    "text": "به نیک اختر بومتان روشن است"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 95,
+    "position": 0,
+    "text": "که یزدان پاک از میان گروه"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 96,
+    "position": 1,
+    "text": "برانگیخت ما را ز البرز کوه"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 97,
+    "position": 0,
+    "text": "بدان تا جهان از بد اژدها"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 98,
+    "position": 1,
+    "text": "به فرمان گُرز من آید رها"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 99,
+    "position": 0,
+    "text": "چو بخشایش آورد نیکی‌دهش"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 100,
+    "position": 1,
+    "text": "به نیکی بباید سپردن رهش"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 101,
+    "position": 0,
+    "text": "منم کدخدای جهان سر به سر"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 102,
+    "position": 1,
+    "text": "نشاید نشستن به یک جای بر"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 103,
+    "position": 0,
+    "text": "وگر نه من ایدر همی بودمی"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 104,
+    "position": 1,
+    "text": "بسی با شما روز پیمودمی"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 105,
+    "position": 0,
+    "text": "مهان پیش او خاک دادند بوس"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 106,
+    "position": 1,
+    "text": "ز درگاه برخاست آوای کوس"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 107,
+    "position": 0,
+    "text": "دمادم برون رفت لشکر ز شهر"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 108,
+    "position": 1,
+    "text": "وز آن شهر نایافته هیچ بهر"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 109,
+    "position": 0,
+    "text": "ببردند ضحاک را بسته خوار"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 110,
+    "position": 1,
+    "text": "به پشت هیونی برافگنده زار"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 111,
+    "position": 0,
+    "text": "همی راند از این گونه تا شیرخوان"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 112,
+    "position": 1,
+    "text": "جهان را چو این بشنوی پیر خوان"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 113,
+    "position": 0,
+    "text": "بسا روزگارا که بر کوه و دشت"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 114,
+    "position": 1,
+    "text": "گذشته‌ست و بسیار خواهد گذشت"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 115,
+    "position": 0,
+    "text": "بر آن گونه ضحاک را بسته سخت"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 116,
+    "position": 1,
+    "text": "سوی شیرخوان برد بیداربخت"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 117,
+    "position": 0,
+    "text": "همی راند او را به کوه اندرون"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 118,
+    "position": 1,
+    "text": "همی خواست کآرد سرش را نگون"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 119,
+    "position": 0,
+    "text": "بیآمد هم آن گه خجسته سروش"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 120,
+    "position": 1,
+    "text": "به خوبی یکی راز گفتش به گوش"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 121,
+    "position": 0,
+    "text": "که این بسته را تا دماوند کوه"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 122,
+    "position": 1,
+    "text": "ببر همچنان تازیان بی‌گروه"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 123,
+    "position": 0,
+    "text": "مبر جز کسی را که نگزیردت"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 124,
+    "position": 1,
+    "text": "به هنگام سختی به بر گیردت"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 125,
+    "position": 0,
+    "text": "بیآورد ضحاک را چون نوند"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 126,
+    "position": 1,
+    "text": "به کوه دماوند کردش به بند"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 127,
+    "position": 0,
+    "text": "به کوه اندرون تنگ جایش گزید"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 128,
+    "position": 1,
+    "text": "نگه کرد غاری بنش ناپدید"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 129,
+    "position": 0,
+    "text": "بیآورد مسمارهای گران"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 130,
+    "position": 1,
+    "text": "به جایی که مغزش نبود اندران"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 131,
+    "position": 0,
+    "text": "فرو بست دستش بر آن کوه باز"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 132,
+    "position": 1,
+    "text": "بدان تا بماند به سختی دراز"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 133,
+    "position": 0,
+    "text": "ببستش بر آن گونه آویخته"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 134,
+    "position": 1,
+    "text": "وز او خون دل بر زمین ریخته"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 135,
+    "position": 0,
+    "text": "از او نام ضحاک چون خاک شد"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 136,
+    "position": 1,
+    "text": "جهان از بد او همه پاک شد"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 137,
+    "position": 0,
+    "text": "گسسته شد از خویش و پیوند او"
+  },
+  {
+    "poem_id": 1357,
+    "vorder": 138,
+    "position": 1,
+    "text": "بمانده بدان گونه در بند او"
+  }
+]

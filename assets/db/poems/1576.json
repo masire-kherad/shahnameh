@@ -1,0 +1,698 @@
+[
+  {
+    "poem_id": 1576,
+    "vorder": 1,
+    "position": 0,
+    "text": "ز بلبل شنیدم یکی داستان"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 2,
+    "position": 1,
+    "text": "که برخواند از گفتهٔ باستان"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 3,
+    "position": 0,
+    "text": "که چون مست باز آمد اسفندیار"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 4,
+    "position": 1,
+    "text": "دژم گشته از خانهٔ شهریار"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 5,
+    "position": 0,
+    "text": "کتایون قیصر که بد مادرش"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 6,
+    "position": 1,
+    "text": "گرفته شب و روز اندر برش"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 7,
+    "position": 0,
+    "text": "چو از خواب بیدار شد تیره شب"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 8,
+    "position": 1,
+    "text": "یکی جام می خواست و بگشاد لب"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 9,
+    "position": 0,
+    "text": "چنین گفت با مادر اسفندیار"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 10,
+    "position": 1,
+    "text": "که با من همی بد کند شهریار"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 11,
+    "position": 0,
+    "text": "مرا گفت چون کین لهراسپ شاه"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 12,
+    "position": 1,
+    "text": "بخواهی به مردی ز ارجاسپ شاه"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 13,
+    "position": 0,
+    "text": "همان خواهران را بیاری ز بند"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 14,
+    "position": 1,
+    "text": "کنی نام ما را به گیتی بلند"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 15,
+    "position": 0,
+    "text": "جهان از بدان پاک بی‌خو کنی"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 16,
+    "position": 1,
+    "text": "بکوشی و آرایشی نو کنی"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 17,
+    "position": 0,
+    "text": "همه پادشاهی و لشکر تراست"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 18,
+    "position": 1,
+    "text": "همان گنج با تخت و افسر تراست"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 19,
+    "position": 0,
+    "text": "کنون چون برآرد سپهر آفتاب"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 20,
+    "position": 1,
+    "text": "سر شاه بیدار گردد ز خواب"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 21,
+    "position": 0,
+    "text": "بگویم پدر را سخنها که گفت"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 22,
+    "position": 1,
+    "text": "ندارد ز من راستیها نهفت"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 23,
+    "position": 0,
+    "text": "وگر هیچ تاب اندر آرد به چهر"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 24,
+    "position": 1,
+    "text": "به یزدان که بر پای دارد سپهر"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 25,
+    "position": 0,
+    "text": "که بی‌کام او تاج بر سر نهم"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 26,
+    "position": 1,
+    "text": "همه کشور ایرانیان را دهم"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 27,
+    "position": 0,
+    "text": "ترا بانوی شهر ایران کنم"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 28,
+    "position": 1,
+    "text": "به زور و به دل جنگ شیران کنم"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 29,
+    "position": 0,
+    "text": "غمی شد ز گفتار او مادرش"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 30,
+    "position": 1,
+    "text": "همه پرنیان خار شد بر برش"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 31,
+    "position": 0,
+    "text": "بدانست کان تاج و تخت و کلاه"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 32,
+    "position": 1,
+    "text": "نبخشد ورا نامبردار شاه"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 33,
+    "position": 0,
+    "text": "بدو گفت کای رنج دیده پسر"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 34,
+    "position": 1,
+    "text": "ز گیتی چه جوید دل تاجور"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 35,
+    "position": 0,
+    "text": "مگر گنج و فرمان و رای و سپاه"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 36,
+    "position": 1,
+    "text": "تو داری برین بر فزونی مخواه"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 37,
+    "position": 0,
+    "text": "یکی تاج دارد پدر بر پسر"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 38,
+    "position": 1,
+    "text": "تو داری دگر لشکر و بوم و بر"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 39,
+    "position": 0,
+    "text": "چو او بگذرد تاج و تختش تراست"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 40,
+    "position": 1,
+    "text": "بزرگی و شاهی و بختش تراست"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 41,
+    "position": 0,
+    "text": "چه نیکوتر از نره شیر ژیان"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 42,
+    "position": 1,
+    "text": "به پیش پدر بر کمر بر میان"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 43,
+    "position": 0,
+    "text": "چنین گفت با مادر اسفندیار"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 44,
+    "position": 1,
+    "text": "که نیکو زد این داستان هوشیار"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 45,
+    "position": 0,
+    "text": "که پیش زنان راز هرگز مگوی"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 46,
+    "position": 1,
+    "text": "چو گویی سخن بازیابی به کوی"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 47,
+    "position": 0,
+    "text": "مکن هیچ کاری به فرمان زن"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 48,
+    "position": 1,
+    "text": "که هرگز نبینی زنی رای زن"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 49,
+    "position": 0,
+    "text": "پر از شرم و تشویر شد مادرش"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 50,
+    "position": 1,
+    "text": "ز گفته پشیمانی آمد برش"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 51,
+    "position": 0,
+    "text": "بشد پیش گشتاسپ اسفندیار"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 52,
+    "position": 1,
+    "text": "همی بود با رامش و میگسار"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 53,
+    "position": 0,
+    "text": "دو روز و دو شب بادهٔ خام خورد"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 54,
+    "position": 1,
+    "text": "بر ماهرویش دل آرام کرد"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 55,
+    "position": 0,
+    "text": "سیم روز گشتاسپ آگاه شد"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 56,
+    "position": 1,
+    "text": "که فرزند جویندهٔ گاه شد"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 57,
+    "position": 0,
+    "text": "همی در دل اندیشه بفزایدش"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 58,
+    "position": 1,
+    "text": "همی تاج و تخت آرزو آیدش"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 59,
+    "position": 0,
+    "text": "بخواند آن زمان شاه جاماسپ را"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 60,
+    "position": 1,
+    "text": "همان فال گویان لهراسپ را"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 61,
+    "position": 0,
+    "text": "برفتند با زیجها برکنار"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 62,
+    "position": 1,
+    "text": "بپرسید شاه از گو اسفندیار"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 63,
+    "position": 0,
+    "text": "که او را بود زندگانی دراز؟"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 64,
+    "position": 1,
+    "text": "نشیند به شادی و آرام و ناز؟"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 65,
+    "position": 0,
+    "text": "به سر بر نهد تاج شاهنشهی؟"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 66,
+    "position": 1,
+    "text": "برو پای دارد بهیّ و مهی؟"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 67,
+    "position": 0,
+    "text": "چو بشنید دانای ایران سخن"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 68,
+    "position": 1,
+    "text": "نگه کرد آن زیجهای کهن"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 69,
+    "position": 0,
+    "text": "ز دانش بروها پر از تاب کرد"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 70,
+    "position": 1,
+    "text": "ز تیمار مژگان پر از آب کرد"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 71,
+    "position": 0,
+    "text": "همی گفت بد روز و بد اخترم"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 72,
+    "position": 1,
+    "text": "ببارید آتش همی بر سرم"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 73,
+    "position": 0,
+    "text": "مرا کاشکی پیش فرخ زریر"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 74,
+    "position": 1,
+    "text": "زمانه فگندی به چنگال شیر"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 75,
+    "position": 0,
+    "text": "وگر خود نکشتی پدر مر مرا"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 76,
+    "position": 1,
+    "text": "نگشتی به جاماسپ بداخترا"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 77,
+    "position": 0,
+    "text": "ورا هم ندیدی به خاک اندرون"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 78,
+    "position": 1,
+    "text": "بران سان فگنده پیش پر ز خون"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 79,
+    "position": 0,
+    "text": "چو اسفندیاری که از چنگ اوی"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 80,
+    "position": 1,
+    "text": "بدرد دل شیر ز آهنگ اوی"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 81,
+    "position": 0,
+    "text": "ز دشمن جهان سربسر پاک کرد"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 82,
+    "position": 1,
+    "text": "به رزم اندرون نیستش هم نبرد"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 83,
+    "position": 0,
+    "text": "جهان از بداندیش بی‌بیم کرد"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 84,
+    "position": 1,
+    "text": "تن اژدها را به دو نیم کرد"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 85,
+    "position": 0,
+    "text": "ازاین پس غم او بباید کشید"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 86,
+    "position": 1,
+    "text": "بسی شور و تلخی بباید چشید"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 87,
+    "position": 0,
+    "text": "بدو گفت شاه ای پسندیده مرد"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 88,
+    "position": 1,
+    "text": "سخن گوی وز راه دانش مگرد"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 89,
+    "position": 0,
+    "text": "هلا زود بشتاب و با من بگوی"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 90,
+    "position": 1,
+    "text": "کزین پرسشم تلخی آمد به روی"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 91,
+    "position": 0,
+    "text": "گر او چون زریر سپهبد بود"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 92,
+    "position": 1,
+    "text": "مرا زیستن زین سپس بد بود"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 93,
+    "position": 0,
+    "text": "ورا در جهان هوش بر دست کیست"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 94,
+    "position": 1,
+    "text": "کزان درد ما را بباید گریست"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 95,
+    "position": 0,
+    "text": "بدو گفت جاماسپ کای شهریار"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 96,
+    "position": 1,
+    "text": "تواین روز را خوار مایه مدار"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 97,
+    "position": 0,
+    "text": "ورا هوش در زاولستان بود"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 98,
+    "position": 1,
+    "text": "به دست تهم پور دستان بود"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 99,
+    "position": 0,
+    "text": "به جاماسپ گفت آنگهی شهریار"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 100,
+    "position": 1,
+    "text": "به من بر بگردد بد روزگار؟"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 101,
+    "position": 0,
+    "text": "که گر من سر تاج شاهنشهی"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 102,
+    "position": 1,
+    "text": "سپارم بدو تاج و تخت مهی"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 103,
+    "position": 0,
+    "text": "نبیند بر و بوم زاولستان"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 104,
+    "position": 1,
+    "text": "نداند کس او را به کاولستان"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 105,
+    "position": 0,
+    "text": "شود ایمن از گردش روزگار؟"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 106,
+    "position": 1,
+    "text": "بود اختر نیکش آموزگار؟"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 107,
+    "position": 0,
+    "text": "چنین داد پاسخ ستاره شمر"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 108,
+    "position": 1,
+    "text": "که بر چرخ گردان نیابد گذر"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 109,
+    "position": 0,
+    "text": "ازین بر شده تیز چنگ اژدها"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 110,
+    "position": 1,
+    "text": "به مردی و دانش که آمد رها"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 111,
+    "position": 0,
+    "text": "بباشد همه بودنی بی‌گمان"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 112,
+    "position": 1,
+    "text": "نجستست ازو مرد دانا زمان"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 113,
+    "position": 0,
+    "text": "دل شاه زان در پراندیشه شد"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 114,
+    "position": 1,
+    "text": "سرش را غم و درد هم پیشه شد"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 115,
+    "position": 0,
+    "text": "بد اندیشه و گردش روزگار"
+  },
+  {
+    "poem_id": 1576,
+    "vorder": 116,
+    "position": 1,
+    "text": "همی بر بدی بودش آموزگار"
+  }
+]

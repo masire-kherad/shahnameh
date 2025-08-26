@@ -1,0 +1,506 @@
+[
+  {
+    "poem_id": 1712,
+    "vorder": 1,
+    "position": 0,
+    "text": "بیامد به شبگیر دستور شاه"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 2,
+    "position": 1,
+    "text": "همی کرد کودک به میدان سپاه"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 3,
+    "position": 0,
+    "text": "یکی جامه و چهر و بالا یکی"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 4,
+    "position": 1,
+    "text": "که پیدا نبد این ازان اندکی"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 5,
+    "position": 0,
+    "text": "به میدان تو گفتی یکی سور بود"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 6,
+    "position": 1,
+    "text": "میان اندرون شاه شاپور بود"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 7,
+    "position": 0,
+    "text": "چو کودک به زخم اندر آورد گوی"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 8,
+    "position": 1,
+    "text": "فزونی همی جست هر یک بدوی"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 9,
+    "position": 0,
+    "text": "بیامد به میدان پگاه اردشیر"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 10,
+    "position": 1,
+    "text": "تنی چند از ویژگان ناگزیر"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 11,
+    "position": 0,
+    "text": "نگه کرد و چون کودکان را بدید"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 12,
+    "position": 1,
+    "text": "یکی باد سرد از جگر برکشید"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 13,
+    "position": 0,
+    "text": "به انگشت بنمود با کدخدای"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 14,
+    "position": 1,
+    "text": "که آمد یکی اردشیری به جای"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 15,
+    "position": 0,
+    "text": "بدو راهبر گفت کای پادشا"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 16,
+    "position": 1,
+    "text": "دلت شد به فرزند خود بر گواه"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 17,
+    "position": 0,
+    "text": "یکی بنده را گفت شاه اردشیر"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 18,
+    "position": 1,
+    "text": "که رو گوی ایشان به چوگان بگیر"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 19,
+    "position": 0,
+    "text": "همی باش با کودکان تازه‌روی"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 20,
+    "position": 1,
+    "text": "به چوگان به پیش من انداز گوی"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 21,
+    "position": 0,
+    "text": "ازان کودکان تا که آید دلیر"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 22,
+    "position": 1,
+    "text": "میان سواران به کردار شیر"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 23,
+    "position": 0,
+    "text": "ز دیدار من گوی بیرون برد"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 24,
+    "position": 1,
+    "text": "ازین انجمن کس به کس نشمرد"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 25,
+    "position": 0,
+    "text": "بود بی‌گمان پاک فرزند من"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 26,
+    "position": 1,
+    "text": "ز تخم و بر و پاک پیوند من"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 27,
+    "position": 0,
+    "text": "به فرمان بشد بندهٔ شهریار"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 28,
+    "position": 1,
+    "text": "بزد گوی و افگند پیش سوار"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 29,
+    "position": 0,
+    "text": "دوان کودکان از پی او چو تیر"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 30,
+    "position": 1,
+    "text": "چو گشتند نزدیک با اردشیر"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 31,
+    "position": 0,
+    "text": "بماندند ناکام بر جای خویش"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 32,
+    "position": 1,
+    "text": "چو شاپور گرد اندر آمد به پیش"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 33,
+    "position": 0,
+    "text": "ز پیش پدر گوی بربود و برد"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 34,
+    "position": 1,
+    "text": "چو شد دور مر کودکان را سپرد"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 35,
+    "position": 0,
+    "text": "ز شادی چنان شد دل اردشیر"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 36,
+    "position": 1,
+    "text": "که گردد جوان مردم گشته پیر"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 37,
+    "position": 0,
+    "text": "سوارانش از خاک برداشتند"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 38,
+    "position": 1,
+    "text": "همی دست بر دست بگذاشتند"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 39,
+    "position": 0,
+    "text": "شهنشاه زان پس گرفتش به بر"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 40,
+    "position": 1,
+    "text": "همی آفرین خواند بر دادگر"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 41,
+    "position": 0,
+    "text": "سر و چشم و رویش ببوسید و گفت"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 42,
+    "position": 1,
+    "text": "که چونین شگفتی نشاید نهفت"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 43,
+    "position": 0,
+    "text": "به دل هرگز این یاد نگذاشتم"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 44,
+    "position": 1,
+    "text": "که شاپور را کشته پنداشتم"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 45,
+    "position": 0,
+    "text": "چو یزدان مرا شهریاری فزود"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 46,
+    "position": 1,
+    "text": "ز من در جهان یادگاری فزود"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 47,
+    "position": 0,
+    "text": "به فرمان او بر نیابی گذر"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 48,
+    "position": 1,
+    "text": "وگر برتر آری ز خورشید سر"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 49,
+    "position": 0,
+    "text": "گهر خواست از گنج و دینار خواست"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 50,
+    "position": 1,
+    "text": "گرانمایه یاقوت بسیار خواست"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 51,
+    "position": 0,
+    "text": "برو زر و گوهر بسی ریختند"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 52,
+    "position": 1,
+    "text": "زبر مشک و عنبر بسی بیختند"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 53,
+    "position": 0,
+    "text": "ز دینار شد تارکش ناپدید"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 54,
+    "position": 1,
+    "text": "ز گوهر کسی چهرهٔ او ندید"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 55,
+    "position": 0,
+    "text": "به دستور بر نیز گوهر فشاند"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 56,
+    "position": 1,
+    "text": "به کرسی زر پیکرش برنشاند"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 57,
+    "position": 0,
+    "text": "ببخشید چندان ورا خواسته"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 58,
+    "position": 1,
+    "text": "که شد کاخ و ایوانش آراسته"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 59,
+    "position": 0,
+    "text": "بفرمود تا دختر اردوان"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 60,
+    "position": 1,
+    "text": "به ایوان شود شاد و روشن‌روان"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 61,
+    "position": 0,
+    "text": "ببخشید کرده گناه ورا"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 62,
+    "position": 1,
+    "text": "ز زنگار بزدود ماه ورا"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 63,
+    "position": 0,
+    "text": "بیاورد فرهنگیان را به شهر"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 64,
+    "position": 1,
+    "text": "کسی کو ز فرزانگی داشت بهر"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 65,
+    "position": 0,
+    "text": "نوشتن بیاموختش پهلوی"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 66,
+    "position": 1,
+    "text": "نشست سرافرازی و خسروی"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 67,
+    "position": 0,
+    "text": "همان جنگ را گرد کرده عنان"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 68,
+    "position": 1,
+    "text": "ز بالا به دشمن نمودن سنان"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 69,
+    "position": 0,
+    "text": "ز می خوردن و بخشش و کار بزم"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 70,
+    "position": 1,
+    "text": "سپه جستن و کوشش روز رزم"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 71,
+    "position": 0,
+    "text": "وزان پس دگر کرد میخ درم"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 72,
+    "position": 1,
+    "text": "همان میخ دینار و هر بیش و کم"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 73,
+    "position": 0,
+    "text": "به یک روی بد نام شاه اردشیر"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 74,
+    "position": 1,
+    "text": "به روی دگر نام فرخ وزیر"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 75,
+    "position": 0,
+    "text": "گران خوار بد نام دستور شاه"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 76,
+    "position": 1,
+    "text": "جهاندیده مردی نماینده راه"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 77,
+    "position": 0,
+    "text": "نوشتند بر نامه‌ها هم‌چنین"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 78,
+    "position": 1,
+    "text": "بدو داد فرمان و مهر و نگین"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 79,
+    "position": 0,
+    "text": "ببخشید گنجی به درویش مرد"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 80,
+    "position": 1,
+    "text": "که خوردش نبودی به جز کارکرد"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 81,
+    "position": 0,
+    "text": "نگه کرد جایی که بد خارستان"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 82,
+    "position": 1,
+    "text": "ازو کرد خرم یکی شارستان"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 83,
+    "position": 0,
+    "text": "کجا گندشاپور خواندی ورا"
+  },
+  {
+    "poem_id": 1712,
+    "vorder": 84,
+    "position": 1,
+    "text": "جزین نام نامی نراندی ورا"
+  }
+]

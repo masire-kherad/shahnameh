@@ -1,0 +1,974 @@
+[
+  {
+    "poem_id": 87980,
+    "vorder": 1,
+    "position": 0,
+    "text": "چو لشکر بیامد به راه چرم"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 2,
+    "position": 1,
+    "text": "کلات از بر و زیر آب میم"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 3,
+    "position": 0,
+    "text": "همی یاد کردند رزم فرود"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 4,
+    "position": 1,
+    "text": "پشیمانی و درد و تیمار بود"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 5,
+    "position": 0,
+    "text": "همه دل پر از درد و از بیم شاه"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 6,
+    "position": 1,
+    "text": "دو دیده پر از خون و تن پر گناه"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 7,
+    "position": 0,
+    "text": "چنان شرمگین نزد شاه آمدند"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 8,
+    "position": 1,
+    "text": "جگر خسته و پر گناه آمدند"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 9,
+    "position": 0,
+    "text": "برادرش را کشته بر بی‌گناه"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 10,
+    "position": 1,
+    "text": "به دشمن سپرده نگین و کلاه"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 11,
+    "position": 0,
+    "text": "همه یکسره دست کرده به کش"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 12,
+    "position": 1,
+    "text": "برفتند پیشش پرستار فش"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 13,
+    "position": 0,
+    "text": "بدیشان نگه کرد خسرو به خشم"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 14,
+    "position": 1,
+    "text": "دلش پر ز درد و پر از خون دو چشم"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 15,
+    "position": 0,
+    "text": "به یزدان چنین گفت کای دادگر"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 16,
+    "position": 1,
+    "text": "تو دادی مرا هوش و رای و هنر"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 17,
+    "position": 0,
+    "text": "همی شرم دارم من از تو کنون"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 18,
+    "position": 1,
+    "text": "تو آگه‌تری بی‌شک از چند و چون"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 19,
+    "position": 0,
+    "text": "وگرنه بفرمودمی تا هزار"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 20,
+    "position": 1,
+    "text": "زدندی به میدان پیکار دار"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 21,
+    "position": 0,
+    "text": "تن طوس را دار بودی نشست"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 22,
+    "position": 1,
+    "text": "هرانکس که با او میان را ببست"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 23,
+    "position": 0,
+    "text": "ز کین پدر بودم اندر خروش"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 24,
+    "position": 1,
+    "text": "دلی داشتم پر غم و درد و جوش"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 25,
+    "position": 0,
+    "text": "کنون کینه نو شد ز کین فرود"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 26,
+    "position": 1,
+    "text": "سر طوس نوذر بباید درود"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 27,
+    "position": 0,
+    "text": "بگفتم که سوی کلات و چرم"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 28,
+    "position": 1,
+    "text": "مرو گر فشانند بر سر درم"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 29,
+    "position": 0,
+    "text": "کزان ره فرودست و با مادرست"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 30,
+    "position": 1,
+    "text": "سپهبد نژادست و کنداور است"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 31,
+    "position": 0,
+    "text": "دمان طوس نامرد ناهوشیار"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 32,
+    "position": 1,
+    "text": "چرا برد لشکر به سوی حصار"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 33,
+    "position": 0,
+    "text": "کنون لاجرم کردگار سپهر"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 34,
+    "position": 1,
+    "text": "ز طوس و ز لشکر ببرید مهر"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 35,
+    "position": 0,
+    "text": "بد آمد به گودرزیان بر ز طوس"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 36,
+    "position": 1,
+    "text": "که نفرین بر او باد و بر پیل و کوس"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 37,
+    "position": 0,
+    "text": "همی خلعت و پندها دادمش"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 38,
+    "position": 1,
+    "text": "به جنگ برادر فرستادمش"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 39,
+    "position": 0,
+    "text": "جهانگیر چون طوس نوذر مباد"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 40,
+    "position": 1,
+    "text": "چنو پهلوان پیش لشکر مباد"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 41,
+    "position": 0,
+    "text": "دریغ آن فرود سیاوش دریغ"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 42,
+    "position": 1,
+    "text": "که با زور و دل بود و با گرز و تیغ"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 43,
+    "position": 0,
+    "text": "به سان پدر کشته شد بی‌گناه"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 44,
+    "position": 1,
+    "text": "به دست سپهدار من با سپاه"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 45,
+    "position": 0,
+    "text": "به گیتی نباشد کم از طوس کس"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 46,
+    "position": 1,
+    "text": "که او از در بند چاهست و بس"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 47,
+    "position": 0,
+    "text": "نه در سرش مغز و نه در تنش رگ"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 48,
+    "position": 1,
+    "text": "چه طوس فرومایه پیشم چه سگ"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 49,
+    "position": 0,
+    "text": "ز خون برادر به کین پدر"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 50,
+    "position": 1,
+    "text": "همی گشت پیچان و خسته جگر"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 51,
+    "position": 0,
+    "text": "سپه را همه خوار کرد و براند"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 52,
+    "position": 1,
+    "text": "ز مژگان همی خون به رخ برفشاند"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 53,
+    "position": 0,
+    "text": "در بار دادن بر ایشان ببست"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 54,
+    "position": 1,
+    "text": "روانش به مرگ برادر بخست"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 55,
+    "position": 0,
+    "text": "بزرگان ایران به ماتم شدند"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 56,
+    "position": 1,
+    "text": "دلیران به درگاه رستم شدند"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 57,
+    "position": 0,
+    "text": "به پوزش که این بودنی کار بود"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 58,
+    "position": 1,
+    "text": "که را بود آهنگ رزم فرود"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 59,
+    "position": 0,
+    "text": "بدانگه کجا کشته شد پور طوس"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 60,
+    "position": 1,
+    "text": "سر سرکشان خیره گشت از فسوس"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 61,
+    "position": 0,
+    "text": "همان نیز داماد او ریونیز"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 62,
+    "position": 1,
+    "text": "نبود از بد بخت مانند چیز"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 63,
+    "position": 0,
+    "text": "که دانست نام و نژاد فرود"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 64,
+    "position": 1,
+    "text": "کجا شاه را دل بخواهد شخود"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 65,
+    "position": 0,
+    "text": "تو خواهشگری کن که برناست شاه"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 66,
+    "position": 1,
+    "text": "مگر سر بپیچد ز کین سپاه"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 67,
+    "position": 0,
+    "text": "نه فرزند کاوس‌کی ریونیز"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 68,
+    "position": 1,
+    "text": "به جنگ اندرون کشته شد زار نیز"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 69,
+    "position": 0,
+    "text": "که کهتر پسر بود و پرخاشجوی"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 70,
+    "position": 1,
+    "text": "دریغ آنچنان خسرو ماهروی"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 71,
+    "position": 0,
+    "text": "چنین است انجام و فرجام جنگ"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 72,
+    "position": 1,
+    "text": "یکی تاج یابد یکی گور تنگ"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 73,
+    "position": 0,
+    "text": "چو شد روی گیتی ز خورشید زرد"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 74,
+    "position": 1,
+    "text": "به خم اندر آمد شب لاژورد"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 75,
+    "position": 0,
+    "text": "تهمتن بیامد به نزدیک شاه"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 76,
+    "position": 1,
+    "text": "ببوسید خاک از در پیشگاه"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 77,
+    "position": 0,
+    "text": "چنین گفت مر شاه را پیلتن"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 78,
+    "position": 1,
+    "text": "که بادا سرت برتر از انجمن"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 79,
+    "position": 0,
+    "text": "به خواهشگری آمدم نزد شاه"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 80,
+    "position": 1,
+    "text": "همان از پی طوس و بهر سپاه"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 81,
+    "position": 0,
+    "text": "چنان دان که کس بی‌بهانه نمرد"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 82,
+    "position": 1,
+    "text": "از این در سخنها بباید شمرد"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 83,
+    "position": 0,
+    "text": "و دیگر کزان بدگمان بد سپاه"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 84,
+    "position": 1,
+    "text": "که فرخ برادر نبد نزد شاه"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 85,
+    "position": 0,
+    "text": "همان طوس تندست و هشیار نیست"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 86,
+    "position": 1,
+    "text": "و دیگر که جان پسر خوار نیست"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 87,
+    "position": 0,
+    "text": "چو در پیش او کشته شد ریونیز"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 88,
+    "position": 1,
+    "text": "زرسپ آن جوان سرافراز نیز"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 89,
+    "position": 0,
+    "text": "گر او برفروزد نباشد شگفت"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 90,
+    "position": 1,
+    "text": "جهانجوی را کین نباید گرفت"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 91,
+    "position": 0,
+    "text": "بدو گفت خسرو که ای پهلوان"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 92,
+    "position": 1,
+    "text": "دلم پر ز تیمار شد زان جوان"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 93,
+    "position": 0,
+    "text": "کنون پند تو داروی جان بود"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 94,
+    "position": 1,
+    "text": "وگرچه دل از درد پیچان بود"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 95,
+    "position": 0,
+    "text": "به پوزش بیامد سپهدار طوس"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 96,
+    "position": 1,
+    "text": "به پیش سپهبد زمین داد بوس"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 97,
+    "position": 0,
+    "text": "همی آفرین کرد بر شهریار"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 98,
+    "position": 1,
+    "text": "که نوشه بدی تا بود روزگار"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 99,
+    "position": 0,
+    "text": "زمین بندهٔ تاج و تخت تو باد"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 100,
+    "position": 1,
+    "text": "فلک مایهٔ فر و بخت تو باد"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 101,
+    "position": 0,
+    "text": "منم دل پر از غم ز کردار خویش"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 102,
+    "position": 1,
+    "text": "به غم بسته جان را ز تیمار خویش"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 103,
+    "position": 0,
+    "text": "همان نیز جانم پر از شرم شاه"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 104,
+    "position": 1,
+    "text": "زبان پر ز پوزش روان پر گناه"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 105,
+    "position": 0,
+    "text": "ز پاکیزه جان فرود و زرسپ"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 106,
+    "position": 1,
+    "text": "همی برفروزم چو آذرگشسپ"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 107,
+    "position": 0,
+    "text": "اگر من گنهکارم از انجمن"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 108,
+    "position": 1,
+    "text": "همی پیچم از کردهٔ خویشتن"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 109,
+    "position": 0,
+    "text": "به ویژه ز بهرام وز ریونیز"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 110,
+    "position": 1,
+    "text": "همی جان خویشم نیاید بچیز"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 111,
+    "position": 0,
+    "text": "اگر شاه خشنود گردد ز من"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 112,
+    "position": 1,
+    "text": "وزین نامور بی‌گناه انجمن"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 113,
+    "position": 0,
+    "text": "شوم کین این ننگ بازآورم"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 114,
+    "position": 1,
+    "text": "سر شیب را برفراز آورم"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 115,
+    "position": 0,
+    "text": "همه رنج لشکر به تن برنهم"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 116,
+    "position": 1,
+    "text": "اگر جان ستانم اگر جان دهم"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 117,
+    "position": 0,
+    "text": "از این پس به تخت و کله ننگرم"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 118,
+    "position": 1,
+    "text": "جز از ترگ رومی نبیند سرم"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 119,
+    "position": 0,
+    "text": "ز گفتار او شاد شد شهریار"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 120,
+    "position": 1,
+    "text": "دلش تازه شد چون گل اندر بهار"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 121,
+    "position": 0,
+    "text": "چو تاج خور روشن آمد پدید"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 122,
+    "position": 1,
+    "text": "سپیده ز خم کمان بردمید"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 123,
+    "position": 0,
+    "text": "سپهبد بیامد به نزدیک شاه"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 124,
+    "position": 1,
+    "text": "ابا او بزرگان ایران سپاه"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 125,
+    "position": 0,
+    "text": "بدیشان چنین گفت شاه جهان"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 126,
+    "position": 1,
+    "text": "که هرگز پی کین نگردد نهان"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 127,
+    "position": 0,
+    "text": "ز تور و ز سلم اندر آمد سخن"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 128,
+    "position": 1,
+    "text": "ازان کین پیشین و رزم کهن"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 129,
+    "position": 0,
+    "text": "چنین ننگ بر شاه ایران نبود"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 130,
+    "position": 1,
+    "text": "زمین پر ز خون دلیران نبود"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 131,
+    "position": 0,
+    "text": "همه کوه پر خون گودرزیان"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 132,
+    "position": 1,
+    "text": "به زنار خونین ببسته میان"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 133,
+    "position": 0,
+    "text": "همان مرغ و ماهی بر ایشان بزار"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 134,
+    "position": 1,
+    "text": "بگرید به دریا و بر کوهسار"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 135,
+    "position": 0,
+    "text": "از ایران همه دشت تورانیان"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 136,
+    "position": 1,
+    "text": "سر و دست و پایست و پشت و میان"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 137,
+    "position": 0,
+    "text": "شما را همه شادمانیست رای"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 138,
+    "position": 1,
+    "text": "به کینه نجنبد همی دل ز جای"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 139,
+    "position": 0,
+    "text": "دلیران همه دست کرده به کش"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 140,
+    "position": 1,
+    "text": "به پیش خداوند خورشیدفش"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 141,
+    "position": 0,
+    "text": "همه همگنان خاک دادند بوس"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 142,
+    "position": 1,
+    "text": "چو رهام و گرگین، چو گودرز و طوس"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 143,
+    "position": 0,
+    "text": "چو خراد با زنگهٔ شاوران"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 144,
+    "position": 1,
+    "text": "دگر بیژن و گیو و کنداوران"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 145,
+    "position": 0,
+    "text": "که ای شاه نیک‌اختر و شیردل"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 146,
+    "position": 1,
+    "text": "ببرده ز شیران به شمشیر دل"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 147,
+    "position": 0,
+    "text": "همه یک به یک پیش تو بنده‌ایم"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 148,
+    "position": 1,
+    "text": "ز تشویر خسرو سرافگنده‌ایم"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 149,
+    "position": 0,
+    "text": "اگر جنگ فرمان دهد شهریار"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 150,
+    "position": 1,
+    "text": "همه سرفشانیم در کارزار"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 151,
+    "position": 0,
+    "text": "سپهدار پس گیو را پیش خواند"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 152,
+    "position": 1,
+    "text": "به تخت گرانمایگان برنشاند"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 153,
+    "position": 0,
+    "text": "فراوانش بستود و بنواختش"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 154,
+    "position": 1,
+    "text": "بسی خلعت و نیکوی ساختش"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 155,
+    "position": 0,
+    "text": "بدو گفت کاندر جهان رنج من"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 156,
+    "position": 1,
+    "text": "تو بردی و بی‌بهری از گنج من"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 157,
+    "position": 0,
+    "text": "نباید که بی رای تو پیل و کوس"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 158,
+    "position": 1,
+    "text": "سوی جنگ راند سپهدار طوس"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 159,
+    "position": 0,
+    "text": "به تندی مکن سهمگین کار خرد"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 160,
+    "position": 1,
+    "text": "که روشن‌روان باد بهرام گرد"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 161,
+    "position": 0,
+    "text": "ز گفتار بدگوی وز نام و ننگ"
+  },
+  {
+    "poem_id": 87980,
+    "vorder": 162,
+    "position": 1,
+    "text": "جهان کرد بر خویشتن تار و تنگ"
+  }
+]

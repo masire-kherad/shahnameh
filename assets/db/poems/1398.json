@@ -1,0 +1,914 @@
+[
+  {
+    "poem_id": 1398,
+    "vorder": 1,
+    "position": 0,
+    "text": "زمانی پر اندیشه شد زال زر"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 2,
+    "position": 1,
+    "text": "برآورد یال و بگسترد بر"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 3,
+    "position": 0,
+    "text": "وزان پس به پاسخ زبان برگشاد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 4,
+    "position": 1,
+    "text": "همه پرسش موبدان کرد یاد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 5,
+    "position": 0,
+    "text": "نخست از ده و دو درخت بلند"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 6,
+    "position": 1,
+    "text": "که هر یک همی شاخ سی برکشند"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 7,
+    "position": 0,
+    "text": "به سالی ده و دو بود ماه نو"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 8,
+    "position": 1,
+    "text": "چو شاه نو آیین ابر گاه نو"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 9,
+    "position": 0,
+    "text": "به سی روز مه را سرآید شمار"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 10,
+    "position": 1,
+    "text": "برین سان بود گردش روزگار"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 11,
+    "position": 0,
+    "text": "کنون آنکه گفتی ز کار دو اسپ"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 12,
+    "position": 1,
+    "text": "فروزان به کردار آذرگشسپ"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 13,
+    "position": 0,
+    "text": "سپید و سیاهست هر دو زمان"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 14,
+    "position": 1,
+    "text": "پس یکدگر تیز هر دو دوان"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 15,
+    "position": 0,
+    "text": "شب و روز باشد که می‌بگذرد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 16,
+    "position": 1,
+    "text": "دم چرخ بر ما همی بشمرد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 17,
+    "position": 0,
+    "text": "سدیگر که گفتی که آن سی سوار"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 18,
+    "position": 1,
+    "text": "کجا برگذشتند بر شهریار"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 19,
+    "position": 0,
+    "text": "ازان سی سواران یکی کم شود"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 20,
+    "position": 1,
+    "text": "به گاه شمردن همان سی بود"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 21,
+    "position": 0,
+    "text": "نگفتی سخن جز ز نقصان ماه"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 22,
+    "position": 1,
+    "text": "که یک شب کم آید همی گاه گاه"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 23,
+    "position": 0,
+    "text": "کنون از نیام این سخن برکشیم"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 24,
+    "position": 1,
+    "text": "دو بن سرو کان مرغ دارد نشیم"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 25,
+    "position": 0,
+    "text": "ز برج بره تا ترازو جهان"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 26,
+    "position": 1,
+    "text": "همی تیرگی دارد اندر نهان"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 27,
+    "position": 0,
+    "text": "چنین تا ز گردش به ماهی شود"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 28,
+    "position": 1,
+    "text": "پر از تیرگی و سیاهی شود"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 29,
+    "position": 0,
+    "text": "دو سرو ای دو بازوی چرخ بلند"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 30,
+    "position": 1,
+    "text": "کزو نیمه شادب و نیمی نژند"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 31,
+    "position": 0,
+    "text": "برو مرغ پران چو خورشید دان"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 32,
+    "position": 1,
+    "text": "جهان را ازو بیم و امید دان"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 33,
+    "position": 0,
+    "text": "دگر شارستان بر سر کوهسار"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 34,
+    "position": 1,
+    "text": "سرای درنگست و جای قرار"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 35,
+    "position": 0,
+    "text": "همین خارستان چون سرای سپنج"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 36,
+    "position": 1,
+    "text": "کزو ناز و گنجست و هم درد و رنج"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 37,
+    "position": 0,
+    "text": "همی دم زدن بر تو بر بشمرد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 38,
+    "position": 1,
+    "text": "هم او برفرازد هم او بشکرد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 39,
+    "position": 0,
+    "text": "برآید یکی باد با زلزله"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 40,
+    "position": 1,
+    "text": "ز گیتی برآید خروش و خله"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 41,
+    "position": 0,
+    "text": "همه رنج ما ماند زی خارستان"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 42,
+    "position": 1,
+    "text": "گذر کرد باید سوی شارستان"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 43,
+    "position": 0,
+    "text": "کسی دیگر از رنج ما برخورد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 44,
+    "position": 1,
+    "text": "نپاید برو نیز و هم بگذرد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 45,
+    "position": 0,
+    "text": "چنین رفت از آغاز یکسر سخن"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 46,
+    "position": 1,
+    "text": "همین باشد و نو نگردد کهن"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 47,
+    "position": 0,
+    "text": "اگر توشه‌مان نیکنامی بود"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 48,
+    "position": 1,
+    "text": "روانها بران سر گرامی بود"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 49,
+    "position": 0,
+    "text": "و گر آز ورزیم و پیچان شویم"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 50,
+    "position": 1,
+    "text": "پدید آید آنگه که بیجان شویم"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 51,
+    "position": 0,
+    "text": "گر ایوان ما سر به کیوان برست"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 52,
+    "position": 1,
+    "text": "ازان بهرهٔ ما یکی چادرست"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 53,
+    "position": 0,
+    "text": "چو پوشند بر روی ما خون و خاک"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 54,
+    "position": 1,
+    "text": "همه جای بیمست و تیمار و باک"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 55,
+    "position": 0,
+    "text": "بیابان و آن مرد با تیز داس"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 56,
+    "position": 1,
+    "text": "کجا خشک و تر زو دل اندر هراس"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 57,
+    "position": 0,
+    "text": "تر و خشک یکسان همی بدرود"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 58,
+    "position": 1,
+    "text": "وگر لابه سازی سخن نشنود"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 59,
+    "position": 0,
+    "text": "دروگر زمانست و ما چون گیا"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 60,
+    "position": 1,
+    "text": "همانش نبیره همانش نیا"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 61,
+    "position": 0,
+    "text": "به پیر و جوان یک به یک ننگرد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 62,
+    "position": 1,
+    "text": "شکاری که پیش آیدش بشکرد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 63,
+    "position": 0,
+    "text": "جهان را چنینست ساز و نهاد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 64,
+    "position": 1,
+    "text": "که جز مرگ را کس ز مادر نزاد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 65,
+    "position": 0,
+    "text": "ازین در درآید بدان بگذرد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 66,
+    "position": 1,
+    "text": "زمانه برو دم همی بشمرد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 67,
+    "position": 0,
+    "text": "چو زال این سخنها بکرد آشکار"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 68,
+    "position": 1,
+    "text": "ازو شادمان شد دل شهریار"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 69,
+    "position": 0,
+    "text": "به شادی یکی انجمن برشگفت"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 70,
+    "position": 1,
+    "text": "شهنشاه گیتی زهازه گرفت"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 71,
+    "position": 0,
+    "text": "یکی جشنگاهی بیاراست شاه"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 72,
+    "position": 1,
+    "text": "چنان چون شب چارده چرخ ماه"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 73,
+    "position": 0,
+    "text": "کشیدند می تا جهان تیره گشت"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 74,
+    "position": 1,
+    "text": "سرمیگساران ز می خیره گشت"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 75,
+    "position": 0,
+    "text": "خروشیدن مرد بالای گاه"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 76,
+    "position": 1,
+    "text": "یکایک برآمد ز درگاه شاه"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 77,
+    "position": 0,
+    "text": "برفتند گردان همه شاد و مست"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 78,
+    "position": 1,
+    "text": "گرفته یکی دست دیگر به دست"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 79,
+    "position": 0,
+    "text": "چو برزد زبانه ز کوه آفتاب"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 80,
+    "position": 1,
+    "text": "سر نامدران برآمد ز خواب"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 81,
+    "position": 0,
+    "text": "بیامد کمربسته زال دلیر"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 82,
+    "position": 1,
+    "text": "به پیش شهنشاه چون نره شیر"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 83,
+    "position": 0,
+    "text": "به دستوری بازگشتن ز در"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 84,
+    "position": 1,
+    "text": "شدن نزد سالار فرخ پدر"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 85,
+    "position": 0,
+    "text": "به شاه جهان گفت کای نیکخوی"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 86,
+    "position": 1,
+    "text": "مرا چهر سام آمدست آرزوی"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 87,
+    "position": 0,
+    "text": "ببوسیدم این پایهٔ تخت عاج"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 88,
+    "position": 1,
+    "text": "دلم گشت روشن بدین برز و تاج"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 89,
+    "position": 0,
+    "text": "بدو گفت شاه ای جوانمرد گرد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 90,
+    "position": 1,
+    "text": "یک امروز نیزت بباید سپرد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 91,
+    "position": 0,
+    "text": "ترا بویهٔ دخت مهراب خاست"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 92,
+    "position": 1,
+    "text": "دلت راهش سام زابل کجاست"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 93,
+    "position": 0,
+    "text": "بفرمود تا سنج و هندی درای"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 94,
+    "position": 1,
+    "text": "به میدان گذارند با کره نای"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 95,
+    "position": 0,
+    "text": "ابا نیزه و گرز و تیر و کمان"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 96,
+    "position": 1,
+    "text": "برفتند گردان همه شادمان"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 97,
+    "position": 0,
+    "text": "کمانها گرفتند و تیر خدنگ"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 98,
+    "position": 1,
+    "text": "نشانه نهادند چون روز جنگ"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 99,
+    "position": 0,
+    "text": "بپیچید هر یک به چیزی عنان"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 100,
+    "position": 1,
+    "text": "به گرز و به تیغ و به تیر و سنان"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 101,
+    "position": 0,
+    "text": "درختی گشن بد به میدان شاه"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 102,
+    "position": 1,
+    "text": "گذشته برو سال بسیار و ماه"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 103,
+    "position": 0,
+    "text": "کمان را بمالید دستان سام"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 104,
+    "position": 1,
+    "text": "برانگیخت اسپ و برآورد نام"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 105,
+    "position": 0,
+    "text": "بزد بر میان درخت سهی"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 106,
+    "position": 1,
+    "text": "گذاره شد آن تیر شاهنشهی"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 107,
+    "position": 0,
+    "text": "هم اندر تگ اسپ یک چوبه تیر"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 108,
+    "position": 1,
+    "text": "بینداخت و بگذاشت چون نره شیر"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 109,
+    "position": 0,
+    "text": "سپر برگرفتند ژوپین‌وران"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 110,
+    "position": 1,
+    "text": "بگشتند با خشتهای گران"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 111,
+    "position": 0,
+    "text": "سپر خواست از ریدک ترک زال"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 112,
+    "position": 1,
+    "text": "برانگیخت اسپ و برآورد یال"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 113,
+    "position": 0,
+    "text": "کمان را بینداخت و ژوپین گرفت"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 114,
+    "position": 1,
+    "text": "به ژوپین شکار نوآیین گرفت"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 115,
+    "position": 0,
+    "text": "بزد خشت بر سه سپر گیل‌وار"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 116,
+    "position": 1,
+    "text": "گشاده به دیگر سو افگند خوار"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 117,
+    "position": 0,
+    "text": "به گردنکشان گفت شاه جهان"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 118,
+    "position": 1,
+    "text": "که با او که جوید نبرد از مهان"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 119,
+    "position": 0,
+    "text": "یکی برگراییدش اندر نبرد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 120,
+    "position": 1,
+    "text": "که از تیر و ژوپین برآورد گرد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 121,
+    "position": 0,
+    "text": "همه برکشیدند گردان سلیح"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 122,
+    "position": 1,
+    "text": "بدل خشمناک و زبان پر مزیح"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 123,
+    "position": 0,
+    "text": "به آورد رفتند پیچان عنان"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 124,
+    "position": 1,
+    "text": "ابا نیزه و آب داده سنان"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 125,
+    "position": 0,
+    "text": "چنان شد که مرد اندر آمد به مرد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 126,
+    "position": 1,
+    "text": "برانگیخت زال اسپ و برخاست گرد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 127,
+    "position": 0,
+    "text": "نگه کرد تا کیست زیشان سوار"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 128,
+    "position": 1,
+    "text": "عنان پیچ و گردنکش و نامدار"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 129,
+    "position": 0,
+    "text": "ز گرد اندر آمد بسان نهنگ"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 130,
+    "position": 1,
+    "text": "گرفتش کمربند او را به چنگ"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 131,
+    "position": 0,
+    "text": "چنان خوارش از پشت زین برگرفت"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 132,
+    "position": 1,
+    "text": "که شاه و سپه ماند اندر شگفت"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 133,
+    "position": 0,
+    "text": "به آواز گفتند گردنکشان"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 134,
+    "position": 1,
+    "text": "که مردم نبیند کسی زین نشان"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 135,
+    "position": 0,
+    "text": "هر آن کس که با او بجوید نبرد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 136,
+    "position": 1,
+    "text": "کند جامه مادر برو لاژورد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 137,
+    "position": 0,
+    "text": "ز شیران نزاید چنین نیز گرد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 138,
+    "position": 1,
+    "text": "چه گرد از نهنگانش باید شمرد"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 139,
+    "position": 0,
+    "text": "خنک سام یل کش چنین یادگار"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 140,
+    "position": 1,
+    "text": "بماند به گیتی دلیر و سوار"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 141,
+    "position": 0,
+    "text": "برو آفرین کرد شاه بزرگ"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 142,
+    "position": 1,
+    "text": "همان نامور مهتران سترگ"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 143,
+    "position": 0,
+    "text": "بزرگان سوی کاخ شاه آمدند"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 144,
+    "position": 1,
+    "text": "کمر بسته و با کلاه آمدند"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 145,
+    "position": 0,
+    "text": "یکی خلعت آراست شاه جهان"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 146,
+    "position": 1,
+    "text": "که گشتند ازان خیره یکسر مهان"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 147,
+    "position": 0,
+    "text": "چه از تاج پرمایه و تخت زر"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 148,
+    "position": 1,
+    "text": "چه از یاره و طوق و زرین کمر"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 149,
+    "position": 0,
+    "text": "همان جامه‌های گرانمایه نیز"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 150,
+    "position": 1,
+    "text": "پرستنده و اسپ و هر گونه چیز"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 151,
+    "position": 0,
+    "text": "به زال سپهبد سپرد آن زمان"
+  },
+  {
+    "poem_id": 1398,
+    "vorder": 152,
+    "position": 1,
+    "text": "همه چیزها از کران تا کران"
+  }
+]

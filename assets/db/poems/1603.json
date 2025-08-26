@@ -1,0 +1,914 @@
+[
+  {
+    "poem_id": 1603,
+    "vorder": 1,
+    "position": 0,
+    "text": "چنین گفت با رستم اسفندیار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 2,
+    "position": 1,
+    "text": "که اکنون سرآمد مرا روزگار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 3,
+    "position": 0,
+    "text": "تو اکنون مپرهیز و خیز ایدر آی"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 4,
+    "position": 1,
+    "text": "که ما را دگرگونه‌تر گشت رای"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 5,
+    "position": 0,
+    "text": "مگر بشنوی پند و اندرز من"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 6,
+    "position": 1,
+    "text": "بدانی سر مایه و ارز من"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 7,
+    "position": 0,
+    "text": "بکوشی و آن را بجای آوری"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 8,
+    "position": 1,
+    "text": "بزرگی برین رهنمای آوری"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 9,
+    "position": 0,
+    "text": "تهمتن به گفتار او داد گوش"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 10,
+    "position": 1,
+    "text": "پیاده بیامد برش با خروش"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 11,
+    "position": 0,
+    "text": "همی ریخت از دیدگان آب گرم"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 12,
+    "position": 1,
+    "text": "همی مویه کردش به آوای نرم"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 13,
+    "position": 0,
+    "text": "چو دستان خبر یافت از رزمگاه"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 14,
+    "position": 1,
+    "text": "ز ایوان چو باد اندر آمد به راه"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 15,
+    "position": 0,
+    "text": "ز خانه بیامد به دشت نبرد"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 16,
+    "position": 1,
+    "text": "دو دیده پر از آب و دل پر ز درد"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 17,
+    "position": 0,
+    "text": "زواره فرامرز چون بیهشان"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 18,
+    "position": 1,
+    "text": "برفتند چندی ز گردنکشان"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 19,
+    "position": 0,
+    "text": "خروشی برآمد ز آوردگاه"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 20,
+    "position": 1,
+    "text": "که تاریک شد روی خورشید و ماه"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 21,
+    "position": 0,
+    "text": "به رستم چنین گفت زال ای پسر"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 22,
+    "position": 1,
+    "text": "ترا بیش گریم به درد جگر"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 23,
+    "position": 0,
+    "text": "که ایدون شنیدم ز دانای چین"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 24,
+    "position": 1,
+    "text": "ز اخترشناسان ایران زمین"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 25,
+    "position": 0,
+    "text": "که هرکس که او خون اسفندیار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 26,
+    "position": 1,
+    "text": "بریزد سرآید برو روزگار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 27,
+    "position": 0,
+    "text": "بدین گیتیش شوربختی بود"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 28,
+    "position": 1,
+    "text": "وگر بگذرد رنج و سختی بود"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 29,
+    "position": 0,
+    "text": "چنین گفت با رستم اسفندیار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 30,
+    "position": 1,
+    "text": "که از تو ندیدم بد روزگار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 31,
+    "position": 0,
+    "text": "زمانه چنین بود و بود آنچ بود"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 32,
+    "position": 1,
+    "text": "سخن هرچ گویم بباید شنود"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 33,
+    "position": 0,
+    "text": "بهانه تو بودی پدر بد زمان"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 34,
+    "position": 1,
+    "text": "نه رستم نه سیمرغ و تیر و کمان"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 35,
+    "position": 0,
+    "text": "مرا گفت رو سیستان را بسوز"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 36,
+    "position": 1,
+    "text": "نخواهم کزین پس بود نیمروز"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 37,
+    "position": 0,
+    "text": "بکوشید تا لشکر و تاج و گنج"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 38,
+    "position": 1,
+    "text": "بدو ماند و من بمانم به رنج"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 39,
+    "position": 0,
+    "text": "کنون بهمن این نامور پور من"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 40,
+    "position": 1,
+    "text": "خردمند و بیدار دستور من"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 41,
+    "position": 0,
+    "text": "بمیرم پدروارش اندر پذیر"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 42,
+    "position": 1,
+    "text": "همه هرچ گویم ترا یادگیر"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 43,
+    "position": 0,
+    "text": "به زابلستان در ورا شاد دار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 44,
+    "position": 1,
+    "text": "سخنهای بدگوی را یاد دار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 45,
+    "position": 0,
+    "text": "بیاموزش آرایش کارزار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 46,
+    "position": 1,
+    "text": "نشستنگه بزم و دشت شکار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 47,
+    "position": 0,
+    "text": "می و رامش و زخم چوگان و کار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 48,
+    "position": 1,
+    "text": "بزرگی و برخوردن از روزگار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 49,
+    "position": 0,
+    "text": "چنین گفت جاماسپ گم بوده نام"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 50,
+    "position": 1,
+    "text": "که هرگز به گیتی مبیناد کام"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 51,
+    "position": 0,
+    "text": "که بهمن ز من یادگاری بود"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 52,
+    "position": 1,
+    "text": "سرافرازتر شهریاری بود"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 53,
+    "position": 0,
+    "text": "تهمتن چو بشنید بر پای خاست"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 54,
+    "position": 1,
+    "text": "ببر زد به فرمان او دست راست"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 55,
+    "position": 0,
+    "text": "که تو بگذری زین سخن نگذرم"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 56,
+    "position": 1,
+    "text": "سخن هرچ گفتی به جای آورم"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 57,
+    "position": 0,
+    "text": "نشانمش بر نامور تخت عاج"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 58,
+    "position": 1,
+    "text": "نهم بر سرش بر دلارای تاج"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 59,
+    "position": 0,
+    "text": "ز رستم چو بشنید گویا سخن"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 60,
+    "position": 1,
+    "text": "بدو گفت نوگیر چون شد کهن"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 61,
+    "position": 0,
+    "text": "چنان دان که یزدان گوای منست"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 62,
+    "position": 1,
+    "text": "برین دین به رهنمای منست"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 63,
+    "position": 0,
+    "text": "کزین نیکویها که تو کرده‌ای"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 64,
+    "position": 1,
+    "text": "ز شاهان پیشین که پرورده‌ای"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 65,
+    "position": 0,
+    "text": "کنون نیک نامت به بد بازگشت"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 66,
+    "position": 1,
+    "text": "ز من روی گیتی پرآواز گشت"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 67,
+    "position": 0,
+    "text": "غم آمد روان ترا بهره زین"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 68,
+    "position": 1,
+    "text": "چنین بود رای جهان‌آفرین"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 69,
+    "position": 0,
+    "text": "چنین گفت پس با پشوتن که من"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 70,
+    "position": 1,
+    "text": "نجویم همی زین جهان جز کفن"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 71,
+    "position": 0,
+    "text": "چو من بگذرم زین سپنجی سرای"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 72,
+    "position": 1,
+    "text": "تو لشکر بیارای و شو باز جای"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 73,
+    "position": 0,
+    "text": "چو رفتی به ایران پدر را بگوی"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 74,
+    "position": 1,
+    "text": "که چون کام یابی بهانه مجوی"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 75,
+    "position": 0,
+    "text": "زمانه سراسر به کام تو گشت"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 76,
+    "position": 1,
+    "text": "همه مرزها پر ز نام تو گشت"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 77,
+    "position": 0,
+    "text": "امیدم نه این بود نزدیک تو"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 78,
+    "position": 1,
+    "text": "سزا این بد از جان تاریک تو"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 79,
+    "position": 0,
+    "text": "جهان راست کردم به شمشیر داد"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 80,
+    "position": 1,
+    "text": "به بد کس نیارست کرد از تو یاد"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 81,
+    "position": 0,
+    "text": "به ایران چو دین بهی راست شد"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 82,
+    "position": 1,
+    "text": "بزرگی و شاهی مرا خواست شد"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 83,
+    "position": 0,
+    "text": "به پیش سران پندها دادیم"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 84,
+    "position": 1,
+    "text": "نهانی به کشتن فرستادیم"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 85,
+    "position": 0,
+    "text": "کنون زین سخن یافتی کام دل"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 86,
+    "position": 1,
+    "text": "بیارای و بنشین به آرام دل"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 87,
+    "position": 0,
+    "text": "چو ایمن شدی مرگ را دور کن"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 88,
+    "position": 1,
+    "text": "به ایوان شاهی یکی سور کن"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 89,
+    "position": 0,
+    "text": "ترا تخت سختی و کوشش مرا"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 90,
+    "position": 1,
+    "text": "ترا نام تابوت و پوشش مرا"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 91,
+    "position": 0,
+    "text": "چه گفت آن جهاندیده دهقان پیر"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 92,
+    "position": 1,
+    "text": "که نگریزد از مرگ پیکان تیر"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 93,
+    "position": 0,
+    "text": "مشو ایمن از گنج و تاج و سپاه"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 94,
+    "position": 1,
+    "text": "روانم ترا چشم دارد به راه"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 95,
+    "position": 0,
+    "text": "چو آیی بهم پیش داور شویم"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 96,
+    "position": 1,
+    "text": "بگوییم و گفتار او بشنویم"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 97,
+    "position": 0,
+    "text": "کزو بازگردی به مادر بگوی"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 98,
+    "position": 1,
+    "text": "که سیر آمد از رزم پرخاشجوی"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 99,
+    "position": 0,
+    "text": "که با تیر او گبر چون باد بود"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 100,
+    "position": 1,
+    "text": "گذر کرده بر کوه پولاد بود"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 101,
+    "position": 0,
+    "text": "پس من تو زود آیی ای مهربان"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 102,
+    "position": 1,
+    "text": "تو از من مرنج و مرنجان روان"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 103,
+    "position": 0,
+    "text": "برهنه مکن روی بر انجمن"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 104,
+    "position": 1,
+    "text": "مبین نیز چهر من اندر کفن"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 105,
+    "position": 0,
+    "text": "ز دیدار زاری بیفزایدت"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 106,
+    "position": 1,
+    "text": "کس از بخردان نیز نستایدت"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 107,
+    "position": 0,
+    "text": "همان خواهران را و جفت مرا"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 108,
+    "position": 1,
+    "text": "که جویا بدندی نهفت مرا"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 109,
+    "position": 0,
+    "text": "بگویی بدان پرهنر بخردان"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 110,
+    "position": 1,
+    "text": "که پدرود باشید تا جاودان"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 111,
+    "position": 0,
+    "text": "ز تاج پدر بر سرم بد رسید"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 112,
+    "position": 1,
+    "text": "در گنج را جان من شد کلید"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 113,
+    "position": 0,
+    "text": "فرستادم اینک به نزدیک او"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 114,
+    "position": 1,
+    "text": "که شرم آورد جان تاریک او"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 115,
+    "position": 0,
+    "text": "بگفت این و برزد یکی تیز دم"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 116,
+    "position": 1,
+    "text": "که بر من ز گشتاسپ آمد ستم"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 117,
+    "position": 0,
+    "text": "هم‌انگه برفت از تنش جان پاک"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 118,
+    "position": 1,
+    "text": "تن خسته افگنده بر تیره خاک"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 119,
+    "position": 0,
+    "text": "تهمتن بنزد پشوتن رسید"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 120,
+    "position": 1,
+    "text": "همه جامه بر تن سراسر درید"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 121,
+    "position": 0,
+    "text": "بر و جامه رستم همی پاره کرد"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 122,
+    "position": 1,
+    "text": "سرش پر ز خاک و دلش پر ز درد"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 123,
+    "position": 0,
+    "text": "همی گفت زار ای نبرده سوار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 124,
+    "position": 1,
+    "text": "نیا شاه جنگی پدر شهریار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 125,
+    "position": 0,
+    "text": "به خوبی شده در جهان نام من"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 126,
+    "position": 1,
+    "text": "ز گشتاسپ بد شد سرانجام من"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 127,
+    "position": 0,
+    "text": "چو بسیار بگریست با کشته گفت"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 128,
+    "position": 1,
+    "text": "که ای در جهان شاه بی‌یار و جفت"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 129,
+    "position": 0,
+    "text": "روان تو بادا میان بهشت"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 130,
+    "position": 1,
+    "text": "بداندیش تو بدرود هرچ کشت"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 131,
+    "position": 0,
+    "text": "زواره بدو گفت کای نامدار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 132,
+    "position": 1,
+    "text": "نبایست پذرفت زو زینهار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 133,
+    "position": 0,
+    "text": "ز دهقان تو نشنیدی آن داستان"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 134,
+    "position": 1,
+    "text": "که یاد آرد از گفتهٔ باستان"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 135,
+    "position": 0,
+    "text": "که گر پروری بچهٔ نره‌شیر"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 136,
+    "position": 1,
+    "text": "شود تیزدندان و گردد دلیر"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 137,
+    "position": 0,
+    "text": "چو سر برکشد زود جوید شکار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 138,
+    "position": 1,
+    "text": "نخست اندر آید به پروردگار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 139,
+    "position": 0,
+    "text": "دو پهلو برآشفته از خشم بد"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 140,
+    "position": 1,
+    "text": "نخستین ازان بد به زابل رسد"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 141,
+    "position": 0,
+    "text": "چو شد کشته شاهی چو اسفندیار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 142,
+    "position": 1,
+    "text": "ببینند ازین پس بد روزگار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 143,
+    "position": 0,
+    "text": "ز بهمن رسد بد به زابلستان"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 144,
+    "position": 1,
+    "text": "بپیچند پیران کابلستان"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 145,
+    "position": 0,
+    "text": "نگه کن که چون او شود تاجدار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 146,
+    "position": 1,
+    "text": "به پیش آورد کین اسفندیار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 147,
+    "position": 0,
+    "text": "بدو گفت رستم که با آسمان"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 148,
+    "position": 1,
+    "text": "نتابد بداندیش و نیکی گمان"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 149,
+    "position": 0,
+    "text": "من آن برگزیدم که چشم خرد"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 150,
+    "position": 1,
+    "text": "بدو بنگرد نام یاد آورد"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 151,
+    "position": 0,
+    "text": "گر او بد کند پیچد از روزگار"
+  },
+  {
+    "poem_id": 1603,
+    "vorder": 152,
+    "position": 1,
+    "text": "تو چشم بلا را به تندی مخار"
+  }
+]

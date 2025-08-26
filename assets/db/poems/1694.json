@@ -1,0 +1,626 @@
+[
+  {
+    "poem_id": 1694,
+    "vorder": 1,
+    "position": 0,
+    "text": "چنان بد که بی‌ماه روی اردوان"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 2,
+    "position": 1,
+    "text": "نبودی شب و روز روشن‌روان"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 3,
+    "position": 0,
+    "text": "ز دیبا نبرداشتی دوش و یال"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 4,
+    "position": 1,
+    "text": "مگر چهر گلنار دیدی به فال"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 5,
+    "position": 0,
+    "text": "چو آمدش هنگام برخاستن"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 6,
+    "position": 1,
+    "text": "به دیبا سر گاهش آراستن"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 7,
+    "position": 0,
+    "text": "کنیزک نیامد به بالین اوی"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 8,
+    "position": 1,
+    "text": "برآشفت و پیچان شد از کین اوی"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 9,
+    "position": 0,
+    "text": "بدربر سپاه ایستاده به پای"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 10,
+    "position": 1,
+    "text": "بیاراسته تخت و تاج و سرای"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 11,
+    "position": 0,
+    "text": "ز درگاه برخاست سالار بار"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 12,
+    "position": 1,
+    "text": "بیامد بر نامور شهریار"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 13,
+    "position": 0,
+    "text": "بدو گفت گردنکشان بر درند"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 14,
+    "position": 1,
+    "text": "هر آنکس کجا مهتر کشورند"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 15,
+    "position": 0,
+    "text": "پرستندگان را چنین گفت شاه"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 16,
+    "position": 1,
+    "text": "که گلنار چون راه و آیین نگاه"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 17,
+    "position": 0,
+    "text": "ندارد نیاید به بالین من"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 18,
+    "position": 1,
+    "text": "که داند بدین داستان دین من"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 19,
+    "position": 0,
+    "text": "بیامد هم‌انگاه مهتر دبیر"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 20,
+    "position": 1,
+    "text": "که رفتست بیگاه دوش اردشیر"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 21,
+    "position": 0,
+    "text": "وز آخور ببردست خنگ و سیاه"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 22,
+    "position": 1,
+    "text": "که بد بارهٔ نامبردار شاه"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 23,
+    "position": 0,
+    "text": "هم‌انگاه شد شاه را دلپذیر"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 24,
+    "position": 1,
+    "text": "که گنجور او رفت با اردشیر"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 25,
+    "position": 0,
+    "text": "دل مرد جنگی برآمد ز جای"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 26,
+    "position": 1,
+    "text": "برآشفت و زود اندر آمد به پای"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 27,
+    "position": 0,
+    "text": "سواران جنگی فراوان ببرد"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 28,
+    "position": 1,
+    "text": "تو گفتی همی باره آتش سپرد"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 29,
+    "position": 0,
+    "text": "بره‌بر یکی نامور دید جای"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 30,
+    "position": 1,
+    "text": "بسی اندرو مردم و چارپای"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 31,
+    "position": 0,
+    "text": "بپرسید زیشان که شبگیر هور"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 32,
+    "position": 1,
+    "text": "شنیدی شما بانگ نعل ستور"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 33,
+    "position": 0,
+    "text": "یکی گفت زیشان که اندر گذشت"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 34,
+    "position": 1,
+    "text": "دو تن بر دو باره درآمد به دشت"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 35,
+    "position": 0,
+    "text": "همی برگذشتند پویان به راه"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 36,
+    "position": 1,
+    "text": "یکی بارهٔ خنگ و دیگر سیاه"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 37,
+    "position": 0,
+    "text": "به دم سواران یکی غرم پاک"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 38,
+    "position": 1,
+    "text": "چو اسپی همی بر پراگند خاک"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 39,
+    "position": 0,
+    "text": "به دستور گفت آن زمان اردوان"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 40,
+    "position": 1,
+    "text": "که این غرم باری چرا شد دوان"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 41,
+    "position": 0,
+    "text": "چنین داد پاسخ که آن فر اوست"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 42,
+    "position": 1,
+    "text": "به شاهی و نیک‌اختری پر اوست"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 43,
+    "position": 0,
+    "text": "گر این غرم دریابد او را متاز"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 44,
+    "position": 1,
+    "text": "که این کار گردد بمابر دراز"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 45,
+    "position": 0,
+    "text": "فرود آمد آن جایگه اردوان"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 46,
+    "position": 1,
+    "text": "بخورد و برآسود و آمد دوان"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 47,
+    "position": 0,
+    "text": "همی تاختند از پس اردشیر"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 48,
+    "position": 1,
+    "text": "به پیش اندرون اردوان و وزیر"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 49,
+    "position": 0,
+    "text": "جوان با کنیزک چو باد دمان"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 50,
+    "position": 1,
+    "text": "نپردخت از تاختن یک زمان"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 51,
+    "position": 0,
+    "text": "کرا یار باشد سپهر بلند"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 52,
+    "position": 1,
+    "text": "بروبر ز دشمن نیاید گزند"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 53,
+    "position": 0,
+    "text": "ازان تاختن رنجه شد اردشیر"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 54,
+    "position": 1,
+    "text": "بدید از بلندی یکی آبگیر"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 55,
+    "position": 0,
+    "text": "جوانمرد پویان به گلنار گفت"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 56,
+    "position": 1,
+    "text": "که اکنون که با رنج گشتیم جفت"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 57,
+    "position": 0,
+    "text": "بباید بدین چشمه آمد فرود"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 58,
+    "position": 1,
+    "text": "که شد باره و مرد بی‌تار و پود"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 59,
+    "position": 0,
+    "text": "بباشیم بر آب و چیزی خوریم"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 60,
+    "position": 1,
+    "text": "ازان پس بر آسودگی بگذریم"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 61,
+    "position": 0,
+    "text": "چو هر دو رسیدند نزدیک آب"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 62,
+    "position": 1,
+    "text": "به زردی دو رخساره چون آفتاب"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 63,
+    "position": 0,
+    "text": "همی خواست کاید فرود اردشیر"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 64,
+    "position": 1,
+    "text": "دو مرد جوان دید بر آبگیر"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 65,
+    "position": 0,
+    "text": "جوانان به آواز گفتند زود"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 66,
+    "position": 1,
+    "text": "عنان و رکیبت بباید بسود"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 67,
+    "position": 0,
+    "text": "که رستی ز کام و دم اژدها"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 68,
+    "position": 1,
+    "text": "کنون آب خوردن نیارد بها"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 69,
+    "position": 0,
+    "text": "نباید که آیی به خوردن فرود"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 70,
+    "position": 1,
+    "text": "تن خویش را داد باید درود"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 71,
+    "position": 0,
+    "text": "چو از پندگوی آن شنید اردشیر"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 72,
+    "position": 1,
+    "text": "به گلنار گفت این سخن یادگیر"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 73,
+    "position": 0,
+    "text": "رکیبش گران شد سبک شد عنان"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 74,
+    "position": 1,
+    "text": "به گردن برآورد رخشان سنان"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 75,
+    "position": 0,
+    "text": "پس‌اندر چو باد دمان اردوان"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 76,
+    "position": 1,
+    "text": "همی تاخت با رنج و تیره‌روان"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 77,
+    "position": 0,
+    "text": "بدانگه که بگذشت نیمی ز روز"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 78,
+    "position": 1,
+    "text": "فلک را بپیمود گیتی فروز"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 79,
+    "position": 0,
+    "text": "یکی شارستان دید با رنگ و بوی"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 80,
+    "position": 1,
+    "text": "بسی مردم آمد به نزدیک اوی"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 81,
+    "position": 0,
+    "text": "چنین گفت با موبدان نامدار"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 82,
+    "position": 1,
+    "text": "که کی برگذشت آن دلاور سوار"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 83,
+    "position": 0,
+    "text": "چنین داد پاسخ بدو رهنمای"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 84,
+    "position": 1,
+    "text": "که ای شاه نیک‌اختر و پاک‌رای"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 85,
+    "position": 0,
+    "text": "بدانگه که خورشید برگشت زرد"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 86,
+    "position": 1,
+    "text": "بگسترد شب چادر لاژورد"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 87,
+    "position": 0,
+    "text": "بدین شهر بگذشت پویان دو تن"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 88,
+    "position": 1,
+    "text": "پر از گرد وبی‌آب گشته دهن"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 89,
+    "position": 0,
+    "text": "یکی غرم بود از پس یک سوار"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 90,
+    "position": 1,
+    "text": "که چون او ندیدم به ایوان نگار"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 91,
+    "position": 0,
+    "text": "چنین گفت با اردوان کدخدای"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 92,
+    "position": 1,
+    "text": "کز ایدر مگر بازگردی به جای"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 93,
+    "position": 0,
+    "text": "سپه سازی و ساز جنگ آوری"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 94,
+    "position": 1,
+    "text": "که اکنون دگرگونه شد داوری"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 95,
+    "position": 0,
+    "text": "که بختش پس پشت او برنشست"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 96,
+    "position": 1,
+    "text": "ازین تاختن باد ماند به دست"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 97,
+    "position": 0,
+    "text": "یکی نامه بنویس نزد پسر"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 98,
+    "position": 1,
+    "text": "به نامه بگوی این سخن در به در"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 99,
+    "position": 0,
+    "text": "نشانی مگر یابد از اردشیر"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 100,
+    "position": 1,
+    "text": "نباید که او دو شد از غرم شیر"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 101,
+    "position": 0,
+    "text": "چو بشنید زو اردوان این سخن"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 102,
+    "position": 1,
+    "text": "بدانست کآواز او شد کهن"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 103,
+    "position": 0,
+    "text": "بدان شارستان اندر آمد فرود"
+  },
+  {
+    "poem_id": 1694,
+    "vorder": 104,
+    "position": 1,
+    "text": "همی داد نیکی دهش را درود"
+  }
+]

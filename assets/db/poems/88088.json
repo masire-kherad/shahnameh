@@ -1,0 +1,566 @@
+[
+  {
+    "poem_id": 88088,
+    "vorder": 1,
+    "position": 0,
+    "text": "شب و روز یک هفته بر پای بود"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 2,
+    "position": 1,
+    "text": "تن آنجا و جانش دگر جای بود"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 3,
+    "position": 0,
+    "text": "سر هفته را گشت خسرو نوان"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 4,
+    "position": 1,
+    "text": "به جای پرستش نماندش توان"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 5,
+    "position": 0,
+    "text": "به هشتم ز جای پرستش برفت"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 6,
+    "position": 1,
+    "text": "بر تخت شاهی خرامید تفت"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 7,
+    "position": 0,
+    "text": "همه پهلوانان ایران سپاه"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 8,
+    "position": 1,
+    "text": "شگفتی فرومانده از کار شاه"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 9,
+    "position": 0,
+    "text": "از آن نامداران روز نبرد"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 10,
+    "position": 1,
+    "text": "همی هر کسی دیگر اندیشه کرد"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 11,
+    "position": 0,
+    "text": "چو بر تخت شد نامور شهریار"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 12,
+    "position": 1,
+    "text": "بیامد به درگاه سالار بار"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 13,
+    "position": 0,
+    "text": "بفرمود تا پرده برداشتند"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 14,
+    "position": 1,
+    "text": "سپه را ز درگاه بگذاشتند"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 15,
+    "position": 0,
+    "text": "برفتند با دست کرده به کش"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 16,
+    "position": 1,
+    "text": "بزرگان پیل افکن شیر فش"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 17,
+    "position": 0,
+    "text": "چو طوس و چو گودرز و گیو دلیر"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 18,
+    "position": 1,
+    "text": "چو گرگین و بیژن چو رهام شیر"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 19,
+    "position": 0,
+    "text": "چو دیدند بردند پیشش نماز"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 20,
+    "position": 1,
+    "text": "از آن پس همه برگشادند راز"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 21,
+    "position": 0,
+    "text": "که شاها دلیرا گوا داورا"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 22,
+    "position": 1,
+    "text": "جهاندار و بر مهتران مهترا"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 23,
+    "position": 0,
+    "text": "چو تو شاه ننشست بر تخت عاج"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 24,
+    "position": 1,
+    "text": "فروغ از تو گیرد همی مهر و تاج"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 25,
+    "position": 0,
+    "text": "فرازندهٔ نیزه و تیغ و اسب"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 26,
+    "position": 1,
+    "text": "فروزندهٔ فرخ آذرگشسب"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 27,
+    "position": 0,
+    "text": "نترسی ز رنج و ننازی به گنج"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 28,
+    "position": 1,
+    "text": "به گیتی ز گنجت فزونست رنج"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 29,
+    "position": 0,
+    "text": "همه پهلوانان ترا بنده‌ایم"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 30,
+    "position": 1,
+    "text": "سراسر به دیدار تو زنده‌ایم"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 31,
+    "position": 0,
+    "text": "همه دشمنان را سپردی به خاک"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 32,
+    "position": 1,
+    "text": "نماندت به گیتی ز کس بیم و باک"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 33,
+    "position": 0,
+    "text": "به هر کشوری لشکر و گنج توست"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 34,
+    "position": 1,
+    "text": "به جایی که پی برنهی رنج توست"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 35,
+    "position": 0,
+    "text": "ندانیم کاندیشهٔ شهریار"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 36,
+    "position": 1,
+    "text": "چرا تیره شد اندر این روزگار"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 37,
+    "position": 0,
+    "text": "ترا ز این جهان روز برخوردنست"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 38,
+    "position": 1,
+    "text": "نه هنگام تیمار و پژمردنست"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 39,
+    "position": 0,
+    "text": "گر از ما به چیزی بیازرد شاه"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 40,
+    "position": 1,
+    "text": "از آزار او نیست ما را گناه"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 41,
+    "position": 0,
+    "text": "بگوید به ما تا دلش خوش کنیم"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 42,
+    "position": 1,
+    "text": "پر از خون دل و رخ پر آتش کنیم"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 43,
+    "position": 0,
+    "text": "وگر دشمنی دارد اندر نهان"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 44,
+    "position": 1,
+    "text": "بگوید به ما شهریار جهان"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 45,
+    "position": 0,
+    "text": "همه تاجداران که بودند شاه"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 46,
+    "position": 1,
+    "text": "بدین داشتند ارج گنج و سپاه"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 47,
+    "position": 0,
+    "text": "که گر سر ستانند و گر سر دهند"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 48,
+    "position": 1,
+    "text": "چو ترگ دلیران به سر برنهند"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 49,
+    "position": 0,
+    "text": "نهانی که دارد بگوید به ما"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 50,
+    "position": 1,
+    "text": "همان چارهٔ آن بجوید ز ما"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 51,
+    "position": 0,
+    "text": "بدیشان چنین گفت پس شهریار"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 52,
+    "position": 1,
+    "text": "که با کس ندارید کس کارزار"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 53,
+    "position": 0,
+    "text": "به گیتی ز دشمن مرا نیست رنج"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 54,
+    "position": 1,
+    "text": "نشد نیز جایی پراکنده گنج"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 55,
+    "position": 0,
+    "text": "نه آزار دارم ز کار سپاه"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 56,
+    "position": 1,
+    "text": "نه اندر شما هست مرد گناه"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 57,
+    "position": 0,
+    "text": "ز دشمن چو کین پدر خواستم"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 58,
+    "position": 1,
+    "text": "به داد و به دین گیتی آراستم"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 59,
+    "position": 0,
+    "text": "به گیتی پی خاک تیره نماند"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 60,
+    "position": 1,
+    "text": "که مهر نگین مرا برنخواند"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 61,
+    "position": 0,
+    "text": "شما تیغها در نیام آورید"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 62,
+    "position": 1,
+    "text": "می سرخ و سیمینه جام آورید"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 63,
+    "position": 0,
+    "text": "به جای چرنگ کمان نای و چنگ"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 64,
+    "position": 1,
+    "text": "بسازید با باده و بوی و رنگ"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 65,
+    "position": 0,
+    "text": "به یک هفته من پیش یزدان به پای"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 66,
+    "position": 1,
+    "text": "ببودم به اندیشه و پاک‌رای"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 67,
+    "position": 0,
+    "text": "یکی آرزو دارم اندر نهان"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 68,
+    "position": 1,
+    "text": "همی خواهم از کردگار جهان"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 69,
+    "position": 0,
+    "text": "بگویم گشاده چو پاسخ دهید"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 70,
+    "position": 1,
+    "text": "به پاسخ مرا روز فرخ نهید"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 71,
+    "position": 0,
+    "text": "شما پیش یزدان نیایش کنید"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 72,
+    "position": 1,
+    "text": "بر این کام و شادی ستایش کنید"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 73,
+    "position": 0,
+    "text": "که او داد بر نیک و بد دستگاه"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 74,
+    "position": 1,
+    "text": "ستایش مر او را که بنمود راه"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 75,
+    "position": 0,
+    "text": "از آن پس به من شادمانی کنید"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 76,
+    "position": 1,
+    "text": "ز بدها روان بی‌گمانی کنید"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 77,
+    "position": 0,
+    "text": "بدانید کاین چرخ ناپایدار"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 78,
+    "position": 1,
+    "text": "نداند همی کهتر از شهریار"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 79,
+    "position": 0,
+    "text": "همی بدرود پیر و برنا به هم"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 80,
+    "position": 1,
+    "text": "از او داد بینیم و زو هم ستم"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 81,
+    "position": 0,
+    "text": "همه پهلوانان ز نزدیک شاه"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 82,
+    "position": 1,
+    "text": "برون آمدند از غمان جان تباه"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 83,
+    "position": 0,
+    "text": "به سالار بار آن زمان گفت شاه"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 84,
+    "position": 1,
+    "text": "که بنشین پس پردهٔ بارگاه"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 85,
+    "position": 0,
+    "text": "کسی را مده بار در پیش من"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 86,
+    "position": 1,
+    "text": "ز بیگانه و مردم خویش من"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 87,
+    "position": 0,
+    "text": "بیامد به جای پرستش به شب"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 88,
+    "position": 1,
+    "text": "به دادار دارنده بگشاد لب"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 89,
+    "position": 0,
+    "text": "همی گفت ای برتر از برتری"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 90,
+    "position": 1,
+    "text": "فزایندهٔ پاکی و مهتری"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 91,
+    "position": 0,
+    "text": "تو باشی به مینو مرا رهنمای"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 92,
+    "position": 1,
+    "text": "مگر بگذرم ز این سپنجی سرای"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 93,
+    "position": 0,
+    "text": "نکردی دلم هیچ نایافته"
+  },
+  {
+    "poem_id": 88088,
+    "vorder": 94,
+    "position": 1,
+    "text": "روان جای روشن دلان تافته"
+  }
+]

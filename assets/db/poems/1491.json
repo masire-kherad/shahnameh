@@ -1,0 +1,950 @@
+[
+  {
+    "poem_id": 1491,
+    "vorder": 1,
+    "position": 0,
+    "text": "چو از سروبن دور گشت آفتاب"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 2,
+    "position": 1,
+    "text": "سر شهریار اندرآمد به خواب"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 3,
+    "position": 0,
+    "text": "چه خوابی که چندین زمان برگذشت"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 4,
+    "position": 1,
+    "text": "نه جنبید و بیدار هرگز نگشت"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 5,
+    "position": 0,
+    "text": "چو از شاه شد گاه و میدان تهی"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 6,
+    "position": 1,
+    "text": "نه خورشید با او نه سرو سهی"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 7,
+    "position": 0,
+    "text": "چپ و راست هر سو بتابم همی"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 8,
+    "position": 1,
+    "text": "سر و پای گیتی نیابم همی"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 9,
+    "position": 0,
+    "text": "یکی بد کند نیک پیش آیدش"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 10,
+    "position": 1,
+    "text": "جهان بنده و بخت خویش آیدش"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 11,
+    "position": 0,
+    "text": "یکی جز به نیکی جهان نسپرد"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 12,
+    "position": 1,
+    "text": "همی از نژندی فرو پژمرد"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 13,
+    "position": 0,
+    "text": "مدار ایچ تیمار با او به هم"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 14,
+    "position": 1,
+    "text": "به گیتی مکن جان و دل را دژم"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 15,
+    "position": 0,
+    "text": "ز خان سیاوش برآمد خروش"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 16,
+    "position": 1,
+    "text": "جهانی ز گرسیوز آمد به جوش"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 17,
+    "position": 0,
+    "text": "ز سر ماهرویان گسسته کمند"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 18,
+    "position": 1,
+    "text": "خراشیده روی و بمانده نژند"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 19,
+    "position": 0,
+    "text": "همه بندگان موی کردند باز"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 20,
+    "position": 1,
+    "text": "فرنگیس مشکین کمند دراز"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 21,
+    "position": 0,
+    "text": "برید و میان را به گیسو ببست"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 22,
+    "position": 1,
+    "text": "به فندق گل ارغوانرا بخست"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 23,
+    "position": 0,
+    "text": "به آواز بر جان افراسیاب"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 24,
+    "position": 1,
+    "text": "همی کرد نفرین و می‌ریخت آب"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 25,
+    "position": 0,
+    "text": "خروشش به گوش سپهبد رسید"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 26,
+    "position": 1,
+    "text": "چو آن ناله و زار نفرین شنید"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 27,
+    "position": 0,
+    "text": "به گرسیوز بدنشان شاه گفت"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 28,
+    "position": 1,
+    "text": "که او را به کوی آورید از نهفت"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 29,
+    "position": 0,
+    "text": "ز پرده به درگه بریدش کشان"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 30,
+    "position": 1,
+    "text": "بر روزبانان مردم کشان"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 31,
+    "position": 0,
+    "text": "بدان تا بگیرند موی سرش"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 32,
+    "position": 1,
+    "text": "بدرند بر بر همه چادرش"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 33,
+    "position": 0,
+    "text": "زنندش همی چوب تا تخم کین"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 34,
+    "position": 1,
+    "text": "بریزد برین بوم توران زمین"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 35,
+    "position": 0,
+    "text": "نخواهم ز بیخ سیاوش درخت"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 36,
+    "position": 1,
+    "text": "نه شاخ و نه برگ و نه تاج و نه تخت"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 37,
+    "position": 0,
+    "text": "همه نامداران آن انجمن"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 38,
+    "position": 1,
+    "text": "گرفتند نفرین برو تن به تن"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 39,
+    "position": 0,
+    "text": "که از شاه و دستور وز لشکری"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 40,
+    "position": 1,
+    "text": "ازین‌گونه نشیند کس داوری"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 41,
+    "position": 0,
+    "text": "بیامد پر از خون دو رخ پیلسم"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 42,
+    "position": 1,
+    "text": "روان پر ز داغ و رخان پر ز نم"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 43,
+    "position": 0,
+    "text": "به نزدیک لهاک و فرشیدورد"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 44,
+    "position": 1,
+    "text": "سراسر سخنها همه یاد کرد"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 45,
+    "position": 0,
+    "text": "که دوزخ به از بوم افراسیاب"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 46,
+    "position": 1,
+    "text": "نباید بدین کشور آرام و خواب"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 47,
+    "position": 0,
+    "text": "بتازیم و نزدیک پیران شویم"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 48,
+    "position": 1,
+    "text": "به تیمار و درد اسیران شویم"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 49,
+    "position": 0,
+    "text": "سه اسپ گرانمایه کردند زین"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 50,
+    "position": 1,
+    "text": "همی برنوشتند گفتی زمین"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 51,
+    "position": 0,
+    "text": "به پیران رسیدند هر سه سوار"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 52,
+    "position": 1,
+    "text": "رخان پر ز خون همچو ابر بهار"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 53,
+    "position": 0,
+    "text": "برو بر شمردند یکسر سخن"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 54,
+    "position": 1,
+    "text": "که بخت از بدیها چه افگند بن"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 55,
+    "position": 0,
+    "text": "یکی زاریی خاست کاندر جهان"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 56,
+    "position": 1,
+    "text": "نبیند کسی از کهان و مهان"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 57,
+    "position": 0,
+    "text": "سیاووش را دست بسته چو سنگ"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 58,
+    "position": 1,
+    "text": "فگندند در گردنش پالهنگ"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 59,
+    "position": 0,
+    "text": "به دشتش کشیدند پر آب روی"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 60,
+    "position": 1,
+    "text": "پیاده دوان در به پیش گروی"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 61,
+    "position": 0,
+    "text": "تن پیل وارش بران گرم خاک"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 62,
+    "position": 1,
+    "text": "فگندند و از کس نکردند باک"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 63,
+    "position": 0,
+    "text": "یکی تشت بنهاد پیشش گروی"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 64,
+    "position": 1,
+    "text": "بپیچید چون گوسفندانش روی"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 65,
+    "position": 0,
+    "text": "برید آن سر شاهوارش ز تن"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 66,
+    "position": 1,
+    "text": "فگندش چو سرو سهی بر چمن"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 67,
+    "position": 0,
+    "text": "همه شهر پر زاری و ناله گشت"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 68,
+    "position": 1,
+    "text": "به چشم اندرون آب چون ژاله گشت"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 69,
+    "position": 0,
+    "text": "چو پیران به گفتار بنهاد گوش"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 70,
+    "position": 1,
+    "text": "ز تخت اندرافتاد و زو رفت هوش"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 71,
+    "position": 0,
+    "text": "همی جامه را بر برش کرد چاک"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 72,
+    "position": 1,
+    "text": "همی کند موی و همی ریخت خاک"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 73,
+    "position": 0,
+    "text": "بدو پیلسم گفت بشتاب زود"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 74,
+    "position": 1,
+    "text": "که دردی بدین درد و سختی فزود"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 75,
+    "position": 0,
+    "text": "فرنگیس رانیز خواهند کشت"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 76,
+    "position": 1,
+    "text": "مکن هیچ‌گونه برین کار پشت"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 77,
+    "position": 0,
+    "text": "به درگاه بردند مویش کشان"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 78,
+    "position": 1,
+    "text": "بر روزبانان مردم کشان"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 79,
+    "position": 0,
+    "text": "جهانی بدو کرده دیده پرآب"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 80,
+    "position": 1,
+    "text": "ز کردار بدگوهر افراسیاب"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 81,
+    "position": 0,
+    "text": "که این هول کاریست بادرد و بیم"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 82,
+    "position": 1,
+    "text": "که اکنون فرنگیس را بر دو نیم"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 83,
+    "position": 0,
+    "text": "زنند و شود پادشاهی تباه"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 84,
+    "position": 1,
+    "text": "مر او را نخواند کسی نیز شاه"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 85,
+    "position": 0,
+    "text": "ز آخر بیاورد پس پهلوان"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 86,
+    "position": 1,
+    "text": "ده اسپ سوار آزموده جوان"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 87,
+    "position": 0,
+    "text": "خود و گرد رویین و فرشیدورد"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 88,
+    "position": 1,
+    "text": "برآورد زان راه ناگاه گرد"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 89,
+    "position": 0,
+    "text": "بدو روز و دو شب بدرگه رسید"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 90,
+    "position": 1,
+    "text": "درنامور پرجفا پیشه دید"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 91,
+    "position": 0,
+    "text": "فرنگیس را دید چون بیهشان"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 92,
+    "position": 1,
+    "text": "گرفته ورا روزبانان کشان"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 93,
+    "position": 0,
+    "text": "به چنگال هر یک یکی تیغ تیز"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 94,
+    "position": 1,
+    "text": "ز درگاه برخواسته رستخیز"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 95,
+    "position": 0,
+    "text": "همانگاه پیران بیامد چو باد"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 96,
+    "position": 1,
+    "text": "کسی کش خرد بود گشتند شاد"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 97,
+    "position": 0,
+    "text": "چو چشم گرامی به پیران رسید"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 98,
+    "position": 1,
+    "text": "شد از خون دیده رخش ناپدید"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 99,
+    "position": 0,
+    "text": "بدو گفت با من چه بد ساختی"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 100,
+    "position": 1,
+    "text": "چرا خیره بر آتش انداختی"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 101,
+    "position": 0,
+    "text": "ز اسپ اندر افتاد پیران به خاک"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 102,
+    "position": 1,
+    "text": "همه جامهٔ پهلوی کرده چاک"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 103,
+    "position": 0,
+    "text": "بفرمود تا روزبانان در"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 104,
+    "position": 1,
+    "text": "زمانی ز فرمان بتابند سر"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 105,
+    "position": 0,
+    "text": "بیامد دمان پیش افراسیاب"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 106,
+    "position": 1,
+    "text": "دل از درد خسته دو دیده پر آب"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 107,
+    "position": 0,
+    "text": "بدو گفت شاها انوشه بدی"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 108,
+    "position": 1,
+    "text": "روان را به دیدار توشه بدی"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 109,
+    "position": 0,
+    "text": "چه آمد ز بد بر تو ای نیکخوی"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 110,
+    "position": 1,
+    "text": "که آوردت این روز بد آرزوی"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 111,
+    "position": 0,
+    "text": "چرا بر دلت چیره شد رای دیو"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 112,
+    "position": 1,
+    "text": "ببرد از رخت شرم گیهان خدیو"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 113,
+    "position": 0,
+    "text": "بکشتی سیاووش را بی‌گناه"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 114,
+    "position": 1,
+    "text": "به خاک اندر انداختی نام و جاه"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 115,
+    "position": 0,
+    "text": "به ایران رسد زین بدی آگهی"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 116,
+    "position": 1,
+    "text": "که شد خشک پالیز سرو سهی"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 117,
+    "position": 0,
+    "text": "بسا تاجداران ایران زمین"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 118,
+    "position": 1,
+    "text": "که با لشکر آیند پردرد و کین"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 119,
+    "position": 0,
+    "text": "جهان آرمیده ز دست بدی"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 120,
+    "position": 1,
+    "text": "شده آشکارا ره ایزدی"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 121,
+    "position": 0,
+    "text": "فریبنده دیوی ز دوزخ بجست"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 122,
+    "position": 1,
+    "text": "بیامد دل شاه ترکان بخست"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 123,
+    "position": 0,
+    "text": "بران اهرمن نیز نفرین سزد"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 124,
+    "position": 1,
+    "text": "که پیچد روانت سوی راه بد"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 125,
+    "position": 0,
+    "text": "پشیمان شوی زین به روز دراز"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 126,
+    "position": 1,
+    "text": "بپیچی زمانی به گرم و گداز"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 127,
+    "position": 0,
+    "text": "ندانم که این گفتن بد ز کیست"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 128,
+    "position": 1,
+    "text": "و زین آفریننده را رای چیست"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 129,
+    "position": 0,
+    "text": "چو دیوانه از جای برخاستی"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 130,
+    "position": 1,
+    "text": "چنین خیره بد را بیاراستی"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 131,
+    "position": 0,
+    "text": "کنون زو گذشتی به فرزند خویش"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 132,
+    "position": 1,
+    "text": "رسیدی به پیچاره پیوند خویش"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 133,
+    "position": 0,
+    "text": "نجوید همانا فرنگیس بخت"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 134,
+    "position": 1,
+    "text": "نه اورنگ شاهی نه تاج و نه تخت"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 135,
+    "position": 0,
+    "text": "به فرزند با کودکی در نهان"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 136,
+    "position": 1,
+    "text": "درفشی مکن خویشتن در جهان"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 137,
+    "position": 0,
+    "text": "که تا زنده‌ای بر تو نفرین بود"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 138,
+    "position": 1,
+    "text": "پس از زندگی دوزخ آیین بود"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 139,
+    "position": 0,
+    "text": "اگر شاه روشن کند جان من"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 140,
+    "position": 1,
+    "text": "فرستد ورا سوی ایوان من"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 141,
+    "position": 0,
+    "text": "گر ایدونک اندیشه زین کودک است"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 142,
+    "position": 1,
+    "text": "همانا که این درد و رنج اندک است"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 143,
+    "position": 0,
+    "text": "بمان تا جدا گردد از کالبد"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 144,
+    "position": 1,
+    "text": "بپیش تو آرم بدو ساز بد"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 145,
+    "position": 0,
+    "text": "بدو گفت زینسان که گفتی بساز"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 146,
+    "position": 1,
+    "text": "مرا کردی از خون او بی‌نیاز"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 147,
+    "position": 0,
+    "text": "سپهدار پیران بدان شاد شد"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 148,
+    "position": 1,
+    "text": "از اندیشه و درد آزاد شد"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 149,
+    "position": 0,
+    "text": "بیامد به درگاه و او را ببرد"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 150,
+    "position": 1,
+    "text": "بسی نیز بر روزبانان شمرد"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 151,
+    "position": 0,
+    "text": "بی‌آزار بردش به سوی ختن"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 152,
+    "position": 1,
+    "text": "خروشان همه درگه و انجمن"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 153,
+    "position": 0,
+    "text": "چو آمد به ایوان به گلشهر گفت"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 154,
+    "position": 1,
+    "text": "که این خوب رخ را بباید نهفت"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 155,
+    "position": 0,
+    "text": "تو بر پیش این نامور زینهار"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 156,
+    "position": 1,
+    "text": "بباش و بدارش پرستاروار"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 157,
+    "position": 0,
+    "text": "برین نیز بگذشت یک چند روز"
+  },
+  {
+    "poem_id": 1491,
+    "vorder": 158,
+    "position": 1,
+    "text": "گران شد فرنگیس گیتی فروز"
+  }
+]

@@ -1,0 +1,626 @@
+[
+  {
+    "poem_id": 88089,
+    "vorder": 1,
+    "position": 0,
+    "text": "چو یک هفته بگذشت ننمود روی"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 2,
+    "position": 1,
+    "text": "برآمد یکی غلغل و گفتگوی"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 3,
+    "position": 0,
+    "text": "همه پهلوانان شدند انجمن"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 4,
+    "position": 1,
+    "text": "بزرگان فرزانه و رای زن"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 5,
+    "position": 0,
+    "text": "چو گودرز و چون طوس نوذرنژاد"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 6,
+    "position": 1,
+    "text": "سخن رفت چندی ز بیداد و داد"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 7,
+    "position": 0,
+    "text": "ز کردار شاهان برتر منش"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 8,
+    "position": 1,
+    "text": "ز یزدان پرستان وز بدکنش"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 9,
+    "position": 0,
+    "text": "همه داستانها زدند از مهان"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 10,
+    "position": 1,
+    "text": "بزرگان و فرزانگان جهان"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 11,
+    "position": 0,
+    "text": "پدر گیو را گفت کای نیکبخت"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 12,
+    "position": 1,
+    "text": "همیشه پرستندهٔ تاج و تخت"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 13,
+    "position": 0,
+    "text": "از ایران بسی رنج برداشتی"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 14,
+    "position": 1,
+    "text": "بر و بوم و پیوند بگذاشتی"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 15,
+    "position": 0,
+    "text": "به پیش آمد اکنون یکی تیره کار"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 16,
+    "position": 1,
+    "text": "که آن را نشاید که داریم خوار"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 17,
+    "position": 0,
+    "text": "بباید شدن سوی زابلستان"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 18,
+    "position": 1,
+    "text": "سواری فرستی به کابلستان"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 19,
+    "position": 0,
+    "text": "به زابل به رستم بگویی که شاه"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 20,
+    "position": 1,
+    "text": "ز یزدان بپیچید و گم کرد راه"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 21,
+    "position": 0,
+    "text": "در بار بر نامداران ببست"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 22,
+    "position": 1,
+    "text": "همانا که با دیو دارد نشست"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 23,
+    "position": 0,
+    "text": "بسی پوزش و خواهش آراستیم"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 24,
+    "position": 1,
+    "text": "همی زان سخن کام او خواستیم"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 25,
+    "position": 0,
+    "text": "فراوان شنید ایچ پاسخ نداد"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 26,
+    "position": 1,
+    "text": "دلش خیره بینیم و سر پر ز باد"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 27,
+    "position": 0,
+    "text": "بترسیم کو هیچو کاووس شاه"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 28,
+    "position": 1,
+    "text": "شود کژ و دیوش بپیچد ز راه"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 29,
+    "position": 0,
+    "text": "شما پهلوانید و داناترید"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 30,
+    "position": 1,
+    "text": "به هر بودنی بر تواناترید"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 31,
+    "position": 0,
+    "text": "کنون هرکه او هست پاکیزه‌رای"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 32,
+    "position": 1,
+    "text": "ز قنوج وز دنور و مرغ و مای"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 33,
+    "position": 0,
+    "text": "ستاره‌شناسان کابلستان"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 34,
+    "position": 1,
+    "text": "همه پاکرویان زابلستان"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 35,
+    "position": 0,
+    "text": "بیارید ز این در یکی انجمن"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 36,
+    "position": 1,
+    "text": "به ایران خرامید با خویشتن"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 37,
+    "position": 0,
+    "text": "شد این پادشاهی پر از گفتگوی"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 38,
+    "position": 1,
+    "text": "چو پوشید خسرو ز ما رای و روی"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 39,
+    "position": 0,
+    "text": "فگندیم هرگونه رایی ز بن"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 40,
+    "position": 1,
+    "text": "ز دستان گشاید همی این سخن"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 41,
+    "position": 0,
+    "text": "سخنهای گودرز بشنید گیو"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 42,
+    "position": 1,
+    "text": "ز لشکر گزین کرد مردان نیو"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 43,
+    "position": 0,
+    "text": "برآشفت و اندیشه اندر گرفت"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 44,
+    "position": 1,
+    "text": "ز ایران ره سیستان برگرفت"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 45,
+    "position": 0,
+    "text": "چو نزدیک دستان و رستم رسید"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 46,
+    "position": 1,
+    "text": "بگفت آن شگفتی که دید و شنید"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 47,
+    "position": 0,
+    "text": "غمی گشت پس نامور زال گفت"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 48,
+    "position": 1,
+    "text": "که گشتیم با رنج بسیار جفت"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 49,
+    "position": 0,
+    "text": "به رستم چنین گفت کز بخردان"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 50,
+    "position": 1,
+    "text": "ستاره‌شناسان و هم موبدان"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 51,
+    "position": 0,
+    "text": "ز زابل بخوان و ز کابل بخواه"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 52,
+    "position": 1,
+    "text": "بدان تا بیایند با ما به راه"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 53,
+    "position": 0,
+    "text": "شدند انجمن موبدان و ردان"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 54,
+    "position": 1,
+    "text": "ستاره‌شناسان و هم بخردان"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 55,
+    "position": 0,
+    "text": "همه سوی دستان نهادند روی"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 56,
+    "position": 1,
+    "text": "ز زابل به ایران نهادند روی"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 57,
+    "position": 0,
+    "text": "جهاندار بر پای بد هفت روز"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 58,
+    "position": 1,
+    "text": "به هشتم چو بفروخت گیتی‌فروز"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 59,
+    "position": 0,
+    "text": "ز در پرده برداشت سالار بار"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 60,
+    "position": 1,
+    "text": "نشست از بر تخت زر شهریار"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 61,
+    "position": 0,
+    "text": "همه پهلوانان ابا موبدان"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 62,
+    "position": 1,
+    "text": "برفتند نزدیک شاه جهان"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 63,
+    "position": 0,
+    "text": "فراوان ببودند پیشش به پای"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 64,
+    "position": 1,
+    "text": "بزرگان با دانش و رهنمای"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 65,
+    "position": 0,
+    "text": "جهاندار چون دید بنواختشان"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 66,
+    "position": 1,
+    "text": "به رسم کیان پایگه ساختشان"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 67,
+    "position": 0,
+    "text": "از آن نامداران خسروپرست"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 68,
+    "position": 1,
+    "text": "کس از پای ننشست و نگشاد دست"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 69,
+    "position": 0,
+    "text": "گشادند لب کی سپهر روان"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 70,
+    "position": 1,
+    "text": "جهاندار با داد و روشن‌روان"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 71,
+    "position": 0,
+    "text": "توانایی و فر شاهی تراست"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 72,
+    "position": 1,
+    "text": "ز خورشید تا پشت ماهی تراست"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 73,
+    "position": 0,
+    "text": "همه بودنیها به روشن‌روان"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 74,
+    "position": 1,
+    "text": "بدانی به کردار و دانش جوان"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 75,
+    "position": 0,
+    "text": "همه بندگانیم در پیش شاه"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 76,
+    "position": 1,
+    "text": "چه کردیم و بر ما چرا بست راه"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 77,
+    "position": 0,
+    "text": "اگر غم ز دریاست خشکی کنیم"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 78,
+    "position": 1,
+    "text": "همه چادر خاک مشکی کنیم"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 79,
+    "position": 0,
+    "text": "وگر کوه باشد ز بن برکنیم"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 80,
+    "position": 1,
+    "text": "به خنجر دل دشمنان بشکنیم"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 81,
+    "position": 0,
+    "text": "وگر چارهٔ این برآید به گنج"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 82,
+    "position": 1,
+    "text": "نبیند ز گنج درم نیز رنج"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 83,
+    "position": 0,
+    "text": "همه پاسبانان گنج توایم"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 84,
+    "position": 1,
+    "text": "پر از درد گریان ز رنج توایم"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 85,
+    "position": 0,
+    "text": "چنین داد پاسخ جهاندار باز"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 86,
+    "position": 1,
+    "text": "که از پهلوانان نیم بی‌نیاز"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 87,
+    "position": 0,
+    "text": "ولیکن ندارم همی دل به رنج"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 88,
+    "position": 1,
+    "text": "ز نیروی دست و ز مردان و گنج"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 89,
+    "position": 0,
+    "text": "نه در کشوری دشمن آمد پدید"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 90,
+    "position": 1,
+    "text": "که تیمار آن بد بباید کشید"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 91,
+    "position": 0,
+    "text": "یکی آرزو خواست روشن دلم"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 92,
+    "position": 1,
+    "text": "همی دل از آن آرزو نگسلم"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 93,
+    "position": 0,
+    "text": "بدان آرزو دارم اکنون امید"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 94,
+    "position": 1,
+    "text": "شب تیره تا گاه روز سپید"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 95,
+    "position": 0,
+    "text": "چو یابم بگویم همه راز خویش"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 96,
+    "position": 1,
+    "text": "برآرم نهان کرده آواز خویش"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 97,
+    "position": 0,
+    "text": "شما بازگردید پیروز و شاد"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 98,
+    "position": 1,
+    "text": "بد اندیشه بر دل مدارید یاد"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 99,
+    "position": 0,
+    "text": "همه پهلوانان آزادمرد"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 100,
+    "position": 1,
+    "text": "بر او خواندند آفرینی به درد"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 101,
+    "position": 0,
+    "text": "چو ایشان برفتند پیروز شاه"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 102,
+    "position": 1,
+    "text": "بفرمود تا پردهٔ بارگاه"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 103,
+    "position": 0,
+    "text": "فروهشت و بنشست گریان به درد"
+  },
+  {
+    "poem_id": 88089,
+    "vorder": 104,
+    "position": 1,
+    "text": "همی بود پیچان و رخ لاژورد"
+  }
+]

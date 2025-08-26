@@ -1,0 +1,998 @@
+[
+  {
+    "poem_id": 1850,
+    "vorder": 1,
+    "position": 0,
+    "text": "همی‌بود بندوی بسته چو یوز"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 2,
+    "position": 1,
+    "text": "به زندان بهرام هفتاد روز"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 3,
+    "position": 0,
+    "text": "نگهبان بندوی بهرام بود"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 4,
+    "position": 1,
+    "text": "کزان بند او نیک ناکام بود"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 5,
+    "position": 0,
+    "text": "ورا نیز بندوی بفریفتی"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 6,
+    "position": 1,
+    "text": "ببند اندر از چاره نشکیفتی"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 7,
+    "position": 0,
+    "text": "که از شاه ایران مشو ناامید"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 8,
+    "position": 1,
+    "text": "اگر تیره شد روز گردد سپید"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 9,
+    "position": 0,
+    "text": "اگرچه شود بخت او دیرساز"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 10,
+    "position": 1,
+    "text": "شود بخت پیروز با خوشنواز"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 11,
+    "position": 0,
+    "text": "جهان آفرین برتن کیقباد"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 12,
+    "position": 1,
+    "text": "ببخشید و گیتی بدو باز داد"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 13,
+    "position": 0,
+    "text": "نماند به بهرام هم تاج وتخت"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 14,
+    "position": 1,
+    "text": "چه اندیشد این مردم نیک بخت"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 15,
+    "position": 0,
+    "text": "ز دهقان نژاد ایچ مردم مباد"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 16,
+    "position": 1,
+    "text": "که خیره دهد خویشتن رابباد"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 17,
+    "position": 0,
+    "text": "بانگشت بشمر کنون تا دوماه"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 18,
+    "position": 1,
+    "text": "که از روم بینی به ایران سپاه"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 19,
+    "position": 0,
+    "text": "بدین تاج و تخت آتش اندرزنند"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 20,
+    "position": 1,
+    "text": "همه ز یورش بر سرش بشکنند"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 21,
+    "position": 0,
+    "text": "بدو گفت بهرام گر شهریار"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 22,
+    "position": 1,
+    "text": "مرا داد خواهد به جان زینهار"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 23,
+    "position": 0,
+    "text": "زپند توآرایش جان کنم"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 24,
+    "position": 1,
+    "text": "همه هرچ گویی توفرمان کنم"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 25,
+    "position": 0,
+    "text": "یکی سخت سوگند خواهم بماه"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 26,
+    "position": 1,
+    "text": "به آذرگشسپ و بتخت و کلاه"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 27,
+    "position": 0,
+    "text": "که گر خسرو آید برین مرز وبوم"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 28,
+    "position": 1,
+    "text": "سپاه آرد از پیش قیصر ز روم"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 29,
+    "position": 0,
+    "text": "به خواهی مرا زو به جان زینهار"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 30,
+    "position": 1,
+    "text": "نگیری تو این کار دشوار خوار"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 31,
+    "position": 0,
+    "text": "ازو بر تن من نیاید زیان"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 32,
+    "position": 1,
+    "text": "نگردد به گفتار ایرانیان"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 33,
+    "position": 0,
+    "text": "بگفت این و پس دفتر زند خواست"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 34,
+    "position": 1,
+    "text": "به سوگند بندوی رابند خواست"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 35,
+    "position": 0,
+    "text": "چو بندوی بگرفت استا و زند"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 36,
+    "position": 1,
+    "text": "چنین گفت کز کردگار بلند"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 37,
+    "position": 0,
+    "text": "مبیناد بندوی جز درد ورنج"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 38,
+    "position": 1,
+    "text": "مباد ایمن اندر سرای سپنج"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 39,
+    "position": 0,
+    "text": "که آنگه که خسرو بیاید زجای"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 40,
+    "position": 1,
+    "text": "ببینم من او را نشینم ز پای"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 41,
+    "position": 0,
+    "text": "مگر کو به نزد تو انگشتری"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 42,
+    "position": 1,
+    "text": "فرستد همان افسر مهتری"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 43,
+    "position": 0,
+    "text": "چوبشنید بهرام سوگند او"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 44,
+    "position": 1,
+    "text": "بدید آن دل پاک و پیوند او"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 45,
+    "position": 0,
+    "text": "بدو گفت کاکنون همه راز خویش"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 46,
+    "position": 1,
+    "text": "بگویم بر افرازم آواز خویش"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 47,
+    "position": 0,
+    "text": "بسازم یکی دام چوبینه را"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 48,
+    "position": 1,
+    "text": "بچاره فراز آورم کینه را"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 49,
+    "position": 0,
+    "text": "به زهراب شمشیر در بزمگاه"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 50,
+    "position": 1,
+    "text": "بکوشش توانمش کردن تباه"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 51,
+    "position": 0,
+    "text": "بدریای آب اندرون نم نماند"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 52,
+    "position": 1,
+    "text": "که بهرام را شاه بایست خواند"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 53,
+    "position": 0,
+    "text": "بدو گفت بندوی کای کاردان"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 54,
+    "position": 1,
+    "text": "خردمند و بیدار و بسیاردان"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 55,
+    "position": 0,
+    "text": "بدین زودی اندر جهاندار شاه"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 56,
+    "position": 1,
+    "text": "بیاید نشیند برین پیشگاه"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 57,
+    "position": 0,
+    "text": "تودانی که من هرچ گویم بدوی"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 58,
+    "position": 1,
+    "text": "نپیچد ز گفتار این بنده روی"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 59,
+    "position": 0,
+    "text": "بخواهم گناهی که رفت از تو پیش"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 60,
+    "position": 1,
+    "text": "ببخشد به گفتار من تاج خویش"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 61,
+    "position": 0,
+    "text": "اگر خود برآنی که گویی همی"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 62,
+    "position": 1,
+    "text": "به دل رای کژی نجویی همی"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 63,
+    "position": 0,
+    "text": "ز بند این دو پای من آزاد کن"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 64,
+    "position": 1,
+    "text": "نخستین ز خسرو برین یادکن"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 65,
+    "position": 0,
+    "text": "گشاده شود زین سخن راز تو"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 66,
+    "position": 1,
+    "text": "بگوش آیدش روشن آواز تو"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 67,
+    "position": 0,
+    "text": "چو بشنید بهرام شد تازه روی"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 68,
+    "position": 1,
+    "text": "هم اندر زمان بند برداشت زوی"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 69,
+    "position": 0,
+    "text": "چو روشن شد آن چادر مشک رنگ"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 70,
+    "position": 1,
+    "text": "سپیده بدو اندر آویخت چنگ"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 71,
+    "position": 0,
+    "text": "ببندوی گفت ار دلم نشکند"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 72,
+    "position": 1,
+    "text": "چو چوبینه امروز چوگان زند"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 73,
+    "position": 0,
+    "text": "سگالیده‌ام دوش با پنج یار"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 74,
+    "position": 1,
+    "text": "که از تارک او برآرمم دمار"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 75,
+    "position": 0,
+    "text": "چوشد روز بهرام چوبینه روی"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 76,
+    "position": 1,
+    "text": "به میدان نهاد و بچوگان و گوی"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 77,
+    "position": 0,
+    "text": "فرستاده آمد ز بهرام زود"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 78,
+    "position": 1,
+    "text": "به نزدیک پور سیاوش چودود"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 79,
+    "position": 0,
+    "text": "زره خواست و پوشید زیرقبای"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 80,
+    "position": 1,
+    "text": "ز درگاه باسپ اندر آورد پای"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 81,
+    "position": 0,
+    "text": "زنی بود بهرام یل را نه پاک"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 82,
+    "position": 1,
+    "text": "که بهرام را خواستی زیر خاک"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 83,
+    "position": 0,
+    "text": "به دل دوست بهرام چوبینه بود"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 84,
+    "position": 1,
+    "text": "که از شوی جانش پر از کینه بود"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 85,
+    "position": 0,
+    "text": "فرستاد نزدیک بهرام کس"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 86,
+    "position": 1,
+    "text": "که تن را نگه دار و فریاد رس"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 87,
+    "position": 0,
+    "text": "که بهرام پوشید پنهان زره"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 88,
+    "position": 1,
+    "text": "برافگند بند زره را گره"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 89,
+    "position": 0,
+    "text": "ندانم که در دل چه دارد ز بد"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 90,
+    "position": 1,
+    "text": "تو زو خویشتن دور داری سزد"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 91,
+    "position": 0,
+    "text": "چو بشنید چوبینه گفتار زن"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 92,
+    "position": 1,
+    "text": "که با او همی‌گفت چوگان مزن"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 93,
+    "position": 0,
+    "text": "هرآنکس که رفتی به میدان اوی"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 94,
+    "position": 1,
+    "text": "چو نزدیک گشتی بچوگان و گوی"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 95,
+    "position": 0,
+    "text": "زدی دست بر پشت اونرم نرم"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 96,
+    "position": 1,
+    "text": "سخن گفتن خوب و آواز گرم"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 97,
+    "position": 0,
+    "text": "چنین تا به پور سیاوش رسید"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 98,
+    "position": 1,
+    "text": "زره در برش آشکارا بدید"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 99,
+    "position": 0,
+    "text": "بدو گفت ای بتر از خار گز"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 100,
+    "position": 1,
+    "text": "به میدان که پوشد زره زیر خز"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 101,
+    "position": 0,
+    "text": "بگفت این و شمشیر کین برکشید"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 102,
+    "position": 1,
+    "text": "سراپای او پاک بر هم درید"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 103,
+    "position": 0,
+    "text": "چوبندوی زان کشتن آگاه شد"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 104,
+    "position": 1,
+    "text": "برو تابش روز کوتاه شد"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 105,
+    "position": 0,
+    "text": "بپوشید پس جوشن و برنشست"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 106,
+    "position": 1,
+    "text": "میان یلی لرزلرزان ببست"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 107,
+    "position": 0,
+    "text": "ابا چند تن رفت لرزان به راه"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 108,
+    "position": 1,
+    "text": "گریزان شد از بیم بهرامشاه"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 109,
+    "position": 0,
+    "text": "گرفت او ازان شهر راه گریز"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 110,
+    "position": 1,
+    "text": "بدان تا نبینند ازو رستخیز"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 111,
+    "position": 0,
+    "text": "به منزل رسیدند و بفزود خیل"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 112,
+    "position": 1,
+    "text": "گرفتند تازان ره اردبیل"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 113,
+    "position": 0,
+    "text": "زمیدان چو بهرام بیرون کشید"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 114,
+    "position": 1,
+    "text": "همی دامن ازخشم در خون کشید"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 115,
+    "position": 0,
+    "text": "ازان پس بفرمود مهروی را"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 116,
+    "position": 1,
+    "text": "که باشد نگهدار بندوی را"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 117,
+    "position": 0,
+    "text": "ببهرام گفتند کای شهریار"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 118,
+    "position": 1,
+    "text": "دلت را ببندوی رنجه مدار"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 119,
+    "position": 0,
+    "text": "که اوچون ازین کشتن آگاه شد"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 120,
+    "position": 1,
+    "text": "همانا که با باد همراه شد"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 121,
+    "position": 0,
+    "text": "پشیمان شد از کشتن یار خویش"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 122,
+    "position": 1,
+    "text": "کزان تیره دانست بازار خویش"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 123,
+    "position": 0,
+    "text": "چنین گفت کآنکس که دشمن ز دوست"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 124,
+    "position": 1,
+    "text": "نداند مبادا ورا مغز و پوست"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 125,
+    "position": 0,
+    "text": "یکی خفته بر تیغ دندان پیل"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 126,
+    "position": 1,
+    "text": "یکی ایمن از موج دریای نیل"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 127,
+    "position": 0,
+    "text": "دگر آنک بر پادشا شد دلیر"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 128,
+    "position": 1,
+    "text": "چهارم که بگرفت بازوی شیر"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 129,
+    "position": 0,
+    "text": "ببخشای برجان این هر چهار"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 130,
+    "position": 1,
+    "text": "کزیشان بپیچد سر روزگار"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 131,
+    "position": 0,
+    "text": "دگر هرک جنباند او کوه را"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 132,
+    "position": 1,
+    "text": "بران یارگر خواهد انبوه را"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 133,
+    "position": 0,
+    "text": "تن خویشتن را بدان رنجه داشت"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 134,
+    "position": 1,
+    "text": "وزان رنج تن باد در پنجه داشت"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 135,
+    "position": 0,
+    "text": "بکشتی ویران گذشتن برآب"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 136,
+    "position": 1,
+    "text": "به آید که بر کارکردن شتاب"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 137,
+    "position": 0,
+    "text": "اگر چشمه خواهی که بینی بچشم"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 138,
+    "position": 1,
+    "text": "شوی خیره زو بازگردی بخشم"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 139,
+    "position": 0,
+    "text": "کسی راکجا کور بد رهنمون"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 140,
+    "position": 1,
+    "text": "بماند به راه دراز اندرون"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 141,
+    "position": 0,
+    "text": "هرآنکس که گیرد بدست اژدها"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 142,
+    "position": 1,
+    "text": "شد او کشته و اژدها زو رها"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 143,
+    "position": 0,
+    "text": "وگر آزمون را کسی خورد زهر"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 144,
+    "position": 1,
+    "text": "ازان خوردنش درد و مرگست بهر"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 145,
+    "position": 0,
+    "text": "نکشتیم بندوی را از نخست"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 146,
+    "position": 1,
+    "text": "ز دستم رها شد در چاره جست"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 147,
+    "position": 0,
+    "text": "برین کرده خویش باید گریست"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 148,
+    "position": 1,
+    "text": "ببینیم تا رای یزدان بچیست"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 149,
+    "position": 0,
+    "text": "وزان روی بندوی و اندک سپاه"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 150,
+    "position": 1,
+    "text": "چوباد دمان بر گرفتند راه"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 151,
+    "position": 0,
+    "text": "همی‌برد هرکس که بد بردنی"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 152,
+    "position": 1,
+    "text": "به راهی که موسیل بود ارمنی"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 153,
+    "position": 0,
+    "text": "بیابان بی‌راه و جای دده"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 154,
+    "position": 1,
+    "text": "سراپرده‌ای دید جایی زده"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 155,
+    "position": 0,
+    "text": "نگه کرد موسیل بود ارمنی"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 156,
+    "position": 1,
+    "text": "هم آب روان یافت هم خوردنی"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 157,
+    "position": 0,
+    "text": "جهان جوی بندوی تنها برفت"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 158,
+    "position": 1,
+    "text": "سوی خیمه‌ها روی بنهاد تفت"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 159,
+    "position": 0,
+    "text": "چو مو سیل را دید بردش نماز"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 160,
+    "position": 1,
+    "text": "بگفتند با او زمانی دراز"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 161,
+    "position": 0,
+    "text": "بدو گفت موسیل زایدر مرو"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 162,
+    "position": 1,
+    "text": "که آگاهی آید تو را نوبنو"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 163,
+    "position": 0,
+    "text": "که در روم آباد خسرو چه کرد"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 164,
+    "position": 1,
+    "text": "همی آشتی نو کند گر نبرد"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 165,
+    "position": 0,
+    "text": "چو بشنید بندوی آنجا بماند"
+  },
+  {
+    "poem_id": 1850,
+    "vorder": 166,
+    "position": 1,
+    "text": "وزان دشت یاران خود رابخواند"
+  }
+]

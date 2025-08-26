@@ -1,0 +1,518 @@
+[
+  {
+    "poem_id": 1609,
+    "vorder": 1,
+    "position": 0,
+    "text": "چو با خستگی چشمها برگشاد"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 2,
+    "position": 1,
+    "text": "بدید آن بداندیش روی شغاد"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 3,
+    "position": 0,
+    "text": "بدانست کان چاره و راه اوست"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 4,
+    "position": 1,
+    "text": "شغاد فریبنده بدخواه اوست"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 5,
+    "position": 0,
+    "text": "بدو گفت کای مرد بدبخت و شوم"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 6,
+    "position": 1,
+    "text": "ز کار تو ویران شد آباد بوم"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 7,
+    "position": 0,
+    "text": "پشیمانی آید ترا زین سخن"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 8,
+    "position": 1,
+    "text": "بپیچی ازین بد نگردی کهن"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 9,
+    "position": 0,
+    "text": "برو با فرامرز و یکتاه باش"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 10,
+    "position": 1,
+    "text": "به جان و دل او را نکوخواه باش"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 11,
+    "position": 0,
+    "text": "چنین پاسخ آورد ناکس شغاد"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 12,
+    "position": 1,
+    "text": "که گردون گردان ترا داد داد"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 13,
+    "position": 0,
+    "text": "تو چندین چه نازی به خون ریختن"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 14,
+    "position": 1,
+    "text": "به ایران به تاراج و آویختن"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 15,
+    "position": 0,
+    "text": "ز کابل نخوا هی دگر بار سیم"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 16,
+    "position": 1,
+    "text": "نه شاهان شوند از تو زین پس به بیم"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 17,
+    "position": 0,
+    "text": "که آمد که بر تو سرآید زمان"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 18,
+    "position": 1,
+    "text": "شوی کشته در دام آهرمنان"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 19,
+    "position": 0,
+    "text": "هم‌انگه سپهدار کابل ز راه"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 20,
+    "position": 1,
+    "text": "به دشت اندر آمد ز نخچیرگاه"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 21,
+    "position": 0,
+    "text": "گو پیلتن را چنان خسته دید"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 22,
+    "position": 1,
+    "text": "همان خستگیهاش نابسته دید"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 23,
+    "position": 0,
+    "text": "بدو گفت کای نامدار سپاه"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 24,
+    "position": 1,
+    "text": "چه بودت برین دشت نخچیرگاه"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 25,
+    "position": 0,
+    "text": "شوم زود چندی پزشک آورم"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 26,
+    "position": 1,
+    "text": "ز درد تو خونین سرشک آورم"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 27,
+    "position": 0,
+    "text": "مگر خستگیهات گردد درست"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 28,
+    "position": 1,
+    "text": "نباید مرا رخ به خوناب شست"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 29,
+    "position": 0,
+    "text": "تهمتن چنین داد پاسخ بدوی"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 30,
+    "position": 1,
+    "text": "که ای مرد بدگوهر چاره‌جوی"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 31,
+    "position": 0,
+    "text": "سر آمد مرا روزگار پزشک"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 32,
+    "position": 1,
+    "text": "تو بر من مپالای خونین سرشک"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 33,
+    "position": 0,
+    "text": "فراوان نمانی سرآید زمان"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 34,
+    "position": 1,
+    "text": "کسی زنده برنگذرد باسمان"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 35,
+    "position": 0,
+    "text": "نه من بیش دارم ز جمشید فر"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 36,
+    "position": 1,
+    "text": "که ببرید بیور میانش به ار"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 37,
+    "position": 0,
+    "text": "نه از آفریدون وز کیقباد"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 38,
+    "position": 1,
+    "text": "بزرگان و شاهان فرخ‌نژاد"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 39,
+    "position": 0,
+    "text": "گلوی سیاوش به خنجر برید"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 40,
+    "position": 1,
+    "text": "گروی زره چون زمانش رسید"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 41,
+    "position": 0,
+    "text": "همه شهریاران ایران بدند"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 42,
+    "position": 1,
+    "text": "به رزم اندرون نره شیران بدند"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 43,
+    "position": 0,
+    "text": "برفتند و ما دیرتر ماندیم"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 44,
+    "position": 1,
+    "text": "چو شیر ژیان برگذر ماندیم"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 45,
+    "position": 0,
+    "text": "فرامرز پور جهان‌بین من"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 46,
+    "position": 1,
+    "text": "بیاید بخواهد ز تو کین من"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 47,
+    "position": 0,
+    "text": "چنین گفت پس با شغاد پلید"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 48,
+    "position": 1,
+    "text": "که اکنون که بر من چنین بد رسید"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 49,
+    "position": 0,
+    "text": "ز ترکش برآور کمان مرا"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 50,
+    "position": 1,
+    "text": "به کار آور آن ترجمان مرا"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 51,
+    "position": 0,
+    "text": "به زه کن بنه پیش من با دو تیر"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 52,
+    "position": 1,
+    "text": "نباید که آن شیر نخچیرگیر"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 53,
+    "position": 0,
+    "text": "ز دشت اندر آید ز بهر شکار"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 54,
+    "position": 1,
+    "text": "من اینجا فتاده چنین نابکار"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 55,
+    "position": 0,
+    "text": "ببیند مرا زو گزند آیدم"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 56,
+    "position": 1,
+    "text": "کمانی بود سودمند آیدم"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 57,
+    "position": 0,
+    "text": "ندرد مگر ژنده شیری تنم"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 58,
+    "position": 1,
+    "text": "زمانی بود تن به خاک افگنم"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 59,
+    "position": 0,
+    "text": "شغاد آمد آن چرخ را برکشید"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 60,
+    "position": 1,
+    "text": "به زه کرد و یک بارش اندر کشید"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 61,
+    "position": 0,
+    "text": "بخندید و پیش تهمتن نهاد"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 62,
+    "position": 1,
+    "text": "به مرگ برادر همی بود شاد"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 63,
+    "position": 0,
+    "text": "تهمتن به سختی کمان برگرفت"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 64,
+    "position": 1,
+    "text": "بدان خستگی تیرش اندر گرفت"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 65,
+    "position": 0,
+    "text": "برادر ز تیرش بترسید سخت"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 66,
+    "position": 1,
+    "text": "بیامد سپر کرد تن را درخت"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 67,
+    "position": 0,
+    "text": "درختی بدید از برابر چنار"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 68,
+    "position": 1,
+    "text": "بروبر گذشته بسی روزگار"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 69,
+    "position": 0,
+    "text": "میانش تهی بار و برگش بجای"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 70,
+    "position": 1,
+    "text": "نهان شد پسش مرد ناپاک رای"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 71,
+    "position": 0,
+    "text": "چو رستم چنان دید بفراخت دست"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 72,
+    "position": 1,
+    "text": "چنان خسته از تیر بگشاد شست"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 73,
+    "position": 0,
+    "text": "درخت و برادر بهم بر بدوخت"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 74,
+    "position": 1,
+    "text": "به هنگام رفتن دلش برفروخت"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 75,
+    "position": 0,
+    "text": "شغاد از پس زخم او آه کرد"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 76,
+    "position": 1,
+    "text": "تهمتن برو درد کوتاه کرد"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 77,
+    "position": 0,
+    "text": "بدو گفت رستم ز یزدان سپاس"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 78,
+    "position": 1,
+    "text": "که بودم همه ساله یزدان‌شناس"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 79,
+    "position": 0,
+    "text": "ازان پس که جانم رسیده به لب"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 80,
+    "position": 1,
+    "text": "برین کین ما بر نبگذشت شب"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 81,
+    "position": 0,
+    "text": "مرا زور دادی که از مرگ پیش"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 82,
+    "position": 1,
+    "text": "ازین بی‌وفا خواستم کین خویش"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 83,
+    "position": 0,
+    "text": "بگفت این و جانش برآمد ز تن"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 84,
+    "position": 1,
+    "text": "برو زار و گریان شدند انجمن"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 85,
+    "position": 0,
+    "text": "زواره به چاهی دگر در بمرد"
+  },
+  {
+    "poem_id": 1609,
+    "vorder": 86,
+    "position": 1,
+    "text": "سواری نماند از بزرگان و خرد"
+  }
+]
