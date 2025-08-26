@@ -148,17 +148,18 @@ const styles = StyleSheet.create({
   },
   path: {
     position: 'absolute',
-    width: 8,
-    height: 80,
-    top: 100,
+    width: 10,
+    height: 180,
+    top: 90,
     zIndex: -1,
+    borderRadius: 5,
   },
   pathOdd: {
     [I18nManager.isRTL ? 'right' : 'left']: '50%',
-    transform: [{ translateX: I18nManager.isRTL ? 4 : -4 }, { rotate: '25deg' }],
+    transform: [{ translateX: I18nManager.isRTL ? 5 : -5 }, { rotate: '15deg' }],
   },
   pathEven: {
     [I18nManager.isRTL ? 'left' : 'right']: '50%',
-    transform: [{ translateX: I18nManager.isRTL ? -4 : 4 }, { rotate: '-25deg' }],
+    transform: [{ translateX: I18nManager.isRTL ? -5 : 5 }, { rotate: '-15deg' }],
   },
 });
