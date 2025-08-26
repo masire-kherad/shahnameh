@@ -20,6 +20,7 @@ const MAPPING = {
   'chevron.right': 'chevron-right',
   'person.fill': 'person',
   'checkmark.circle.fill': 'check-circle',
+  'heart.fill': 'favorite',
 } as IconMapping;
 
 /**

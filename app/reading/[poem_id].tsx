@@ -4,7 +4,14 @@ import { useLocalSearchParams, useRouter, Stack } from 'expo-router';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { getPoem } from '@/services/dataService';
-import { markPoemAsComplete, getCompletedPoems } from '@/services/progressService';
+import {
+  markPoemAsComplete,
+  getCompletedPoems,
+  unmarkPoemAsComplete,
+  isFavorite,
+  addFavorite,
+  removeFavorite,
+} from '@/services/progressService';
 import { Poem, Verse } from '@/types/shahname';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 
@@ -19,6 +26,7 @@ export default function ReadingScreen() {
   const [poem, setPoem] = useState<Poem | null>(null);
   const [couplets, setCouplets] = useState<Couplet[]>([]);
   const [isCompleted, setIsCompleted] = useState(false);
+  const [isFav, setIsFav] = useState(false);
 
   useEffect(() => {
     const loadData = async () => {
@@ -31,6 +39,9 @@ export default function ReadingScreen() {
       if (completedPoems[poemIdNum]) {
         setIsCompleted(true);
       }
+
+      const favoriteStatus = await isFavorite(poemIdNum);
+      setIsFav(favoriteStatus);
 
       const currentPoem = getPoem(poemIdNum);
 
@@ -51,13 +62,30 @@ export default function ReadingScreen() {
     loadData();
   }, [poem_id]);
 
-  const handleComplete = async () => {
+  const handleToggleComplete = async () => {
     const poemIdNum = Number(poem_id);
     if (isNaN(poemIdNum)) {
       return;
     }
-    await markPoemAsComplete(poemIdNum);
-    router.back();
+    if (isCompleted) {
+      await unmarkPoemAsComplete(poemIdNum);
+    } else {
+      await markPoemAsComplete(poemIdNum);
+    }
+    setIsCompleted(!isCompleted);
+  };
+
+  const handleToggleFavorite = async () => {
+    const poemIdNum = Number(poem_id);
+    if (isNaN(poemIdNum)) {
+      return;
+    }
+    if (isFav) {
+      await removeFavorite(poemIdNum);
+    } else {
+      await addFavorite(poemIdNum);
+    }
+    setIsFav(!isFav);
   };
 
   if (!poem) {
@@ -91,9 +119,19 @@ export default function ReadingScreen() {
           ))}
         </View>
 
-        <Pressable style={styles.completeButton} onPress={handleComplete}>
-          <ThemedText style={styles.completeButtonText}>تکمیل</ThemedText>
-        </Pressable>
+        <View style={styles.actionsContainer}>
+          <Pressable
+            style={[styles.button, styles.completeButton, isCompleted && styles.unCompleteButton]}
+            onPress={handleToggleComplete}
+          >
+            <ThemedText style={styles.buttonText}>
+              {isCompleted ? 'علامت به عنوان تکمیل نشده' : 'تکمیل'}
+            </ThemedText>
+          </Pressable>
+          <Pressable style={styles.button} onPress={handleToggleFavorite}>
+            <IconSymbol name="heart.fill" size={24} color={isFav ? '#e74c3c' : '#fff'} />
+          </Pressable>
+        </View>
       </ScrollView>
     </ImageBackground>
   );
@@ -130,14 +168,26 @@ const styles = StyleSheet.create({
     lineHeight: 30,
     textAlign: 'right',
   },
-  completeButton: {
-    backgroundColor: '#6EBF8B',
-    padding: 16,
-    borderRadius: 8,
+  actionsContainer: {
+    flexDirection: 'row',
+    justifyContent: 'space-around',
     alignItems: 'center',
     marginBottom: 48,
   },
-  completeButtonText: {
+  button: {
+    padding: 16,
+    borderRadius: 8,
+    alignItems: 'center',
+  },
+  completeButton: {
+    backgroundColor: '#6EBF8B',
+    flex: 1,
+    marginRight: 8,
+  },
+  unCompleteButton: {
+    backgroundColor: '#e74c3c',
+  },
+  buttonText: {
     color: '#fff',
     fontSize: 18,
     fontWeight: 'bold',

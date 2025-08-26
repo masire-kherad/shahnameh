@@ -38,6 +38,7 @@ export default function RootLayout() {
         <Stack.Screen name="profile" options={{ title: 'پروفایل' }} />
         <Stack.Screen name="category/[cat_id]" options={{ title: 'فهرست اشعار' }} />
         <Stack.Screen name="reading/[poem_id]" options={{ title: '' }} />
+        <Stack.Screen name="favorites" options={{ title: 'علاقه‌مندی‌ها' }} />
         <Stack.Screen name="+not-found" />
       </Stack>
       <StatusBar style="auto" />

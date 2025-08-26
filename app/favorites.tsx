@@ -3,11 +3,11 @@ import { StyleSheet, ScrollView, Text, View, ImageBackground, Pressable } from '
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { getPoems, getCategories } from '@/services/dataService';
-import { getCompletedPoems, CompletedPoems } from '@/services/progressService';
+import { getFavorites } from '@/services/progressService';
 import { Poem, Category } from '@/types/shahname';
 import { router } from 'expo-router';
 
-export default function ProfileScreen() {
+export default function FavoritesScreen() {
   const [poems, setPoems] = useState<Poem[]>([]);
   const [categories, setCategories] = useState<Category[]>([]);
 
@@ -15,9 +15,9 @@ export default function ProfileScreen() {
     const loadData = async () => {
       const poemsData = getPoems();
       const categoriesData = getCategories();
-      const completedData = await getCompletedPoems();
-      const completedPoemsList = poemsData.filter(poem => completedData[poem.id]);
-      setPoems(completedPoemsList);
+      const favoritesData = await getFavorites();
+      const favoritePoemsList = poemsData.filter(poem => favoritesData[poem.id]);
+      setPoems(favoritePoemsList);
       setCategories(categoriesData);
     };
     loadData();
@@ -36,12 +36,8 @@ export default function ProfileScreen() {
       <View style={styles.overlay} />
       <ScrollView>
         <ThemedView style={styles.titleContainer}>
-          <ThemedText type="title">اشعار تکمیل شده</ThemedText>
+          <ThemedText type="title">علاقه‌مندی‌ها</ThemedText>
         </ThemedView>
-
-        <Pressable style={styles.favoritesButton} onPress={() => router.push('/favorites')}>
-          <ThemedText style={styles.favoritesButtonText}>علاقه‌مندی‌ها</ThemedText>
-        </Pressable>
 
         {poems.map((poem) => (
           <Pressable key={poem.id} onPress={() => router.push(`/reading/${poem.id}`)}>
@@ -73,7 +69,7 @@ const styles = StyleSheet.create({
     padding: 16,
     marginBottom: 12,
     borderRadius: 8,
-    backgroundColor: '#6EBF8B',
+    backgroundColor: '#3498db',
   },
   poemText: {
     fontSize: 18,
@@ -84,17 +80,5 @@ const styles = StyleSheet.create({
     fontSize: 14,
     textAlign: 'center',
     marginTop: 4,
-  },
-  favoritesButton: {
-    backgroundColor: '#3498db',
-    padding: 16,
-    borderRadius: 8,
-    alignItems: 'center',
-    marginBottom: 24,
-  },
-  favoritesButtonText: {
-    color: '#fff',
-    fontSize: 18,
-    fontWeight: 'bold',
   },
 });
