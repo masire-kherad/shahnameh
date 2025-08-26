@@ -166,7 +166,7 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
             fill="none"
           />
         </Svg>
-        <ThemedText type="title" style={[styles.title, { color: Colors.dark.text }]}>نقشه راه</ThemedText>
+        <ThemedText type="title" style={[styles.title, { color: Colors.dark.text }]}>مسیر خرد</ThemedText>
         {categories.map((category, index) => {
           const { x, y } = nodePositions[index];
           const progress = getCategoryProgress(category.id);
@@ -215,6 +215,7 @@ const styles = StyleSheet.create({
   title: {
     textAlign: 'center',
     marginBottom: 40,
+    paddingTop: 5,
     paddingHorizontal: 40,
   },
   nodeContainer: {
