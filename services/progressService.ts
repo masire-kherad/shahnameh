@@ -1,40 +1,11 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const COMPLETED_POEMS_KEY = 'completed_poems';
-const SCORE_KEY = 'score';
 
 // == Types ==
 export type CompletedPoems = Record<number, boolean>;
 
 // == Functions ==
-
-/**
- * Retrieves the user's score from AsyncStorage.
- * @returns {Promise<number>} The user's score, or 0 if not set.
- */
-export const getScore = async (): Promise<number> => {
-  try {
-    const score = await AsyncStorage.getItem(SCORE_KEY);
-    return score ? parseInt(score, 10) : 0;
-  } catch (e) {
-    console.error('Failed to get score.', e);
-    return 0;
-  }
-};
-
-/**
- * Adds a specified number of points to the user's score.
- * @param {number} pointsToAdd - The number of points to add.
- */
-export const addScore = async (pointsToAdd: number) => {
-  try {
-    const currentScore = await getScore();
-    const newScore = currentScore + pointsToAdd;
-    await AsyncStorage.setItem(SCORE_KEY, newScore.toString());
-  } catch (e) {
-    console.error('Failed to add score.', e);
-  }
-};
 
 /**
  * Retrieves the set of completed poem IDs from AsyncStorage.

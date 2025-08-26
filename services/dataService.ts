@@ -24,21 +24,6 @@ export const getPoem = (poemId: number) => {
   return { ...poem, verses };
 };
 
-export const getRoadmap = () => {
-  const shahnamehCategory = categories.find(c => c.text === 'شاهنامه');
-  if (!shahnamehCategory) {
-    return [];
-  }
-
-  const mainSections = categories.filter(c => c.parent_id === shahnamehCategory.id);
-
-  const roadmap = mainSections.map(section => {
-    const sectionPoems = poems.filter(p => p.cat_id === section.id);
-    return {
-      ...section,
-      poems: sectionPoems,
-    };
-  });
-
-  return roadmap;
+export const getPoems = () => {
+  return poems;
 };
