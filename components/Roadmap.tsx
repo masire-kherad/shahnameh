@@ -1,23 +1,42 @@
 import React from 'react';
 import { View, Text, ScrollView, StyleSheet, Pressable, I18nManager } from 'react-native';
-import { Category } from '@/types/shahname';
+import { Category, Poem } from '@/types/shahname';
 import { router } from 'expo-router';
 import { View as MotiView } from 'moti';
+import { useColorScheme } from '@/hooks/useColorScheme';
+import { Colors } from '@/constants/Colors';
+import { CompletedPoems } from '@/services/progressService';
+import { ThemedText } from './ThemedText';
 
 interface RoadmapProps {
   categories: Category[];
+  poems: Poem[];
+  completedPoems: CompletedPoems;
 }
 
-export default function Roadmap({ categories }: RoadmapProps) {
+export default function Roadmap({ categories, poems, completedPoems }: RoadmapProps) {
+  const colorScheme = useColorScheme();
+  const colors = Colors[colorScheme ?? 'light'].persian;
+
   const handleCategoryPress = (catId: number) => {
     router.push(`/category/${catId}`);
   };
 
+  const isCategoryCompleted = (catId: number) => {
+    const categoryPoems = poems.filter(p => p.cat_id === catId);
+    if (categoryPoems.length === 0) return false;
+    return categoryPoems.every(p => completedPoems[p.id]);
+  };
+
   return (
     <ScrollView contentContainerStyle={styles.container}>
+      <ThemedText type="title" style={styles.title}>نقشه راه</ThemedText>
       {categories.map((category, index) => {
         const isOdd = index % 2 !== 0;
         const positionStyle = isOdd ? styles.odd : styles.even;
+        const completed = isCategoryCompleted(category.id);
+        const nodeColor = completed ? colors.completed : colors.node;
+        const pathColor = completed ? colors.completed : colors.path;
 
         return (
           <MotiView
@@ -28,12 +47,12 @@ export default function Roadmap({ categories }: RoadmapProps) {
             style={[styles.nodeContainer, positionStyle]}
           >
             <Pressable onPress={() => handleCategoryPress(category.id)}>
-              <View style={styles.node}>
+              <View style={[styles.node, { backgroundColor: nodeColor }]}>
                 <Text style={styles.nodeText}>{category.text}</Text>
               </View>
             </Pressable>
             {index < categories.length - 1 && (
-              <View style={[styles.path, isOdd ? styles.pathOdd : styles.pathEven]} />
+              <View style={[styles.path, { backgroundColor: pathColor }, isOdd ? styles.pathOdd : styles.pathEven]} />
             )}
           </MotiView>
         );
@@ -46,6 +65,10 @@ const styles = StyleSheet.create({
   container: {
     paddingVertical: 20,
     paddingHorizontal: 40,
+  },
+  title: {
+    textAlign: 'center',
+    marginBottom: 40,
   },
   nodeContainer: {
     alignItems: 'center',
@@ -61,7 +84,6 @@ const styles = StyleSheet.create({
     width: 100,
     height: 100,
     borderRadius: 50,
-    backgroundColor: '#A1CEDC',
     justifyContent: 'center',
     alignItems: 'center',
     shadowColor: '#000',
@@ -78,18 +100,17 @@ const styles = StyleSheet.create({
   },
   path: {
     position: 'absolute',
-    width: 4,
-    height: 60,
-    backgroundColor: '#A1CEDC',
+    width: 8,
+    height: 80,
     top: 100,
     zIndex: -1,
   },
   pathOdd: {
     [I18nManager.isRTL ? 'right' : 'left']: '50%',
-    transform: [{ translateX: I18nManager.isRTL ? 2 : -2 }, { rotate: '20deg' }],
+    transform: [{ translateX: I18nManager.isRTL ? 4 : -4 }, { rotate: '25deg' }],
   },
   pathEven: {
     [I18nManager.isRTL ? 'left' : 'right']: '50%',
-    transform: [{ translateX: I18nManager.isRTL ? -2 : 2 }, { rotate: '-20deg' }],
+    transform: [{ translateX: I18nManager.isRTL ? -4 : 4 }, { rotate: '-25deg' }],
   },
 });
