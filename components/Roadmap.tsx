@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, ScrollView, StyleSheet, Pressable, I18nManager } from 'react-native';
+import { View, Text, ScrollView, StyleSheet, Pressable, I18nManager, Image } from 'react-native';
 import { Category, Poem } from '@/types/shahname';
 import { router } from 'expo-router';
 import { View as MotiView } from 'moti';
@@ -14,6 +14,12 @@ interface RoadmapProps {
   poems: Poem[];
   completedPoems: CompletedPoems;
 }
+
+const images = [
+  require('@/assets/images/ferdousi.png'),
+  require('@/assets/images/rostam.jpg'),
+  require('@/assets/images/shahdokht.png'),
+];
 
 export default function Roadmap({ categories, poems, completedPoems }: RoadmapProps) {
   const colorScheme = useColorScheme();
@@ -41,8 +47,8 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
         const progress = getCategoryProgress(category.id);
         const progressValue = progress.total > 0 ? progress.completed / progress.total : 0;
         const isCompleted = progress.total > 0 && progress.completed === progress.total;
-        const nodeColor = isCompleted ? colors.completed : colors.node;
         const pathColor = isCompleted ? colors.completed : colors.path;
+        const imageSource = images[index % images.length];
 
         return (
           <MotiView
@@ -53,10 +59,9 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
             style={[styles.nodeContainer, positionStyle]}
           >
             <Pressable onPress={() => handleCategoryPress(category.id)}>
-              <View style={[styles.node, { backgroundColor: nodeColor }]}>
-                <Text style={styles.nodeText}>{category.text}</Text>
-              </View>
+              <Image source={imageSource} style={styles.nodeImage} />
             </Pressable>
+            <Text style={styles.nodeText}>{category.text}</Text>
             <View style={styles.progressContainer}>
               <HorizontalProgressBar
                 progress={progressValue}
@@ -98,23 +103,19 @@ const styles = StyleSheet.create({
   even: {
     alignSelf: I18nManager.isRTL ? 'flex-start' : 'flex-end',
   },
-  node: {
+  nodeImage: {
     width: 100,
     height: 100,
     borderRadius: 50,
-    justifyContent: 'center',
-    alignItems: 'center',
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
-    elevation: 5,
+    borderWidth: 4,
+    borderColor: '#fff',
   },
   nodeText: {
     color: '#fff',
     fontSize: 16,
     fontWeight: 'bold',
     textAlign: 'center',
+    marginTop: 8,
   },
   progressContainer: {
     width: 100,
