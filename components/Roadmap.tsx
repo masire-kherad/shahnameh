@@ -16,6 +16,7 @@ interface RoadmapProps {
 }
 
 const categoryImages: { [key: string]: any } = {
+  aghaz: require('@/assets/images/Person/Ferdousi.png'),
   qmars: require('@/assets/images/Person/Qmars.png'),
   hushang: require('@/assets/images/Person/Hooshang.png'),
   tahmoores: require('@/assets/images/Person/Tahmores.png'),
