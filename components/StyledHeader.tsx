@@ -21,8 +21,8 @@ export default function StyledHeader({ title }: StyledHeaderProps) {
 
   return (
     <BlurView intensity={80} tint="dark" style={[styles.header, { paddingTop: insets.top + 12 }]}>
-      <ThemedText type="title" style={{ color: Colors.dark.text }}>{title}</ThemedText>
-      {pathname !== '/profile' && (
+      <ThemedText type="title" style={{ color: Colors.dark.text, paddingTop: 5 }}>{title}</ThemedText>
+      {pathname !== '/profile' && pathname !== '/favorites' && (
         <Pressable onPress={handleProfilePress}>
           <IconSymbol name="person.fill" size={28} color={Colors.dark.text} />
         </Pressable>

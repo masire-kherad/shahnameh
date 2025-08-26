@@ -30,7 +30,7 @@ export default function FavoritesScreen() {
 
   return (
     <ImageBackground
-      source={require('@/assets/images/rostam.jpg')}
+      source={require('@/assets/images/Person/Ferdousi.png')}
       style={styles.container}
     >
       <View style={styles.overlay} />
