@@ -4,6 +4,7 @@ import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { getCategories, getPoems } from '@/services/dataService';
 import { Category, Poem } from '@/types/shahname';
+import { BlurView } from 'expo-blur';
 import { router } from 'expo-router';
 import { getCompletedPoems, CompletedPoems } from '@/services/progressService';
 import { IconSymbol } from '@/components/ui/IconSymbol';
@@ -31,22 +32,12 @@ export default function HomeScreen() {
     loadData();
   }, []);
 
-  const handleProfilePress = () => {
-    router.push('/profile');
-  };
-
   return (
     <ImageBackground
       source={require('@/assets/images/rostam.jpg')}
       style={[styles.container, { paddingTop: insets.top }]}
     >
       <View style={styles.overlay} />
-      <ThemedView style={styles.header}>
-        <ThemedText type="title">شاهنامه</ThemedText>
-        <Pressable onPress={handleProfilePress}>
-          <IconSymbol name="person.fill" size={28} color={Colors[colorScheme ?? 'light'].text} />
-        </Pressable>
-      </ThemedView>
       <Roadmap categories={categories} poems={poems} completedPoems={completedPoems} />
     </ImageBackground>
   );
@@ -59,12 +50,5 @@ const styles = StyleSheet.create({
   overlay: {
     ...StyleSheet.absoluteFillObject,
     backgroundColor: 'rgba(0,0,0,0.5)',
-  },
-  header: {
-    flexDirection: 'row',
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    marginBottom: 24,
-    paddingHorizontal: 16,
   },
 });

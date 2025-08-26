@@ -34,7 +34,7 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
 
   return (
     <ScrollView contentContainerStyle={styles.container}>
-      <ThemedText type="title" style={styles.title}>نقشه راه</ThemedText>
+      <ThemedText type="title" style={[styles.title, { color: Colors.dark.text }]}>نقشه راه</ThemedText>
       {categories.map((category, index) => {
         const isOdd = index % 2 !== 0;
         const positionStyle = isOdd ? styles.odd : styles.even;
