@@ -1,0 +1,602 @@
+[
+  {
+    "poem_id": 1878,
+    "vorder": 1,
+    "position": 0,
+    "text": "چنین تا خبرها به ایران رسید"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 2,
+    "position": 1,
+    "text": "بر پادشاه دلیران رسید"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 3,
+    "position": 0,
+    "text": "که بهرام را پادشاهی و گنج"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 4,
+    "position": 1,
+    "text": "ازان تو بیش است نابرده رنج"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 5,
+    "position": 0,
+    "text": "پراز درد و غم شد ز تیمار اوی"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 6,
+    "position": 1,
+    "text": "دلش گشت پیچان ز کردار اوی"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 7,
+    "position": 0,
+    "text": "همی رای زد با بزرگان بهم"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 8,
+    "position": 1,
+    "text": "بسی گفت و انداخت از بیش و کم"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 9,
+    "position": 0,
+    "text": "شب تیره فرمود تا شد دبیر"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 10,
+    "position": 1,
+    "text": "سرخامه را کرد پیکان تیر"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 11,
+    "position": 0,
+    "text": "به خاقان چینی یکی نامه کرد"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 12,
+    "position": 1,
+    "text": "تو گفتی که از خنجرش خامه کرد"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 13,
+    "position": 0,
+    "text": "نخست آفرین کرد بر کردگار"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 14,
+    "position": 1,
+    "text": "توانا و دانا و به روزگار"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 15,
+    "position": 0,
+    "text": "برازندهٔ هور و کیوان و ماه"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 16,
+    "position": 1,
+    "text": "نشاننده شاه بر پیش گاه"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 17,
+    "position": 0,
+    "text": "گزایندهٔ هرکه جوید بدی"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 18,
+    "position": 1,
+    "text": "فزایندهٔ دانش ایزدی"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 19,
+    "position": 0,
+    "text": "ز نادانی و دانش وراستی"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 20,
+    "position": 1,
+    "text": "ز کمی و کژی و از کاستی"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 21,
+    "position": 0,
+    "text": "بیابی چو گویی که یزدان یکیست"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 22,
+    "position": 1,
+    "text": "ورا یار وهمتا و انباز نیست"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 23,
+    "position": 0,
+    "text": "بیابد هر آنکس که نیکی بجست"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 24,
+    "position": 1,
+    "text": "مباد آنک او دست بد را بشست"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 25,
+    "position": 0,
+    "text": "یکی بنده بد شاه را ناسپاس"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 26,
+    "position": 1,
+    "text": "نه مهتر شناس و نه یزدان شناس"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 27,
+    "position": 0,
+    "text": "یکی خرد و بیکار و بی‌نام بود"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 28,
+    "position": 1,
+    "text": "پدر بر کشیدش که هنگام بود"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 29,
+    "position": 0,
+    "text": "نهان نیست کردار او در جهان"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 30,
+    "position": 1,
+    "text": "میان کهان و میان مهان"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 31,
+    "position": 0,
+    "text": "کس او را نپذرفت کش مایه بود"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 32,
+    "position": 1,
+    "text": "وگر در خرد برترین پایه بود"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 33,
+    "position": 0,
+    "text": "بنزد تو آمد بپذرفتیش"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 34,
+    "position": 1,
+    "text": "چو پر مایگان دست بگرفتیش"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 35,
+    "position": 0,
+    "text": "کس این راه برگیرد از راستان ؟"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 36,
+    "position": 1,
+    "text": "نیم من بدین کار هم داستان"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 37,
+    "position": 0,
+    "text": "چو این نامه آرند نزدیک تو"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 38,
+    "position": 1,
+    "text": "پر اندیشه کن رای تاریک تو"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 39,
+    "position": 0,
+    "text": "گر آن بنده را پای کرده ببند"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 40,
+    "position": 1,
+    "text": "فرستی بر ما شوی سودمند"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 41,
+    "position": 0,
+    "text": "وگر نه فرستم ز ایران سپاه"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 42,
+    "position": 1,
+    "text": "به توران کنم روز روشن سیاه"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 43,
+    "position": 0,
+    "text": "چوآن نامه نزدیک خاقان رسید"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 44,
+    "position": 1,
+    "text": "بران گونه گفتار خسرو شنید"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 45,
+    "position": 0,
+    "text": "فرستاده را گفت فردا پگاه"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 46,
+    "position": 1,
+    "text": "چو آیی بدر پاسخ نامه خواه"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 47,
+    "position": 0,
+    "text": "فرستاده آمد دلی پر شتاب"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 48,
+    "position": 1,
+    "text": "نبد زان سپس جای آرام و خواب"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 49,
+    "position": 0,
+    "text": "همی‌بود تا شمع رخشان بدید"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 50,
+    "position": 1,
+    "text": "به درگاه خاقان چینی دوید"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 51,
+    "position": 0,
+    "text": "بیاورد خاقان هم آنگه دبیر"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 52,
+    "position": 1,
+    "text": "ابا خامه و مشک و چینی حریر"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 53,
+    "position": 0,
+    "text": "به پاسخ نوشت آفرین نهان"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 54,
+    "position": 1,
+    "text": "ز من بنده بر کردگار جهان"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 55,
+    "position": 0,
+    "text": "دگر گفت کان نامه برخواندم"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 56,
+    "position": 1,
+    "text": "فرستاده را پیش بنشاندم"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 57,
+    "position": 0,
+    "text": "توبا بندگان گوی زین سان سخن"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 58,
+    "position": 1,
+    "text": "نزیبد از آن خاندان کهن"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 59,
+    "position": 0,
+    "text": "که مه را ندارند یکسر به مه"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 60,
+    "position": 1,
+    "text": "نه که را شناسند بر جای که"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 61,
+    "position": 0,
+    "text": "همه چین و توران سراسر مراست"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 62,
+    "position": 1,
+    "text": "به هیتال بر نیز فرمان رواست"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 63,
+    "position": 0,
+    "text": "نیم تا بدم مرد پیمان شکن"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 64,
+    "position": 1,
+    "text": "تو با من چنین داستانها مزن"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 65,
+    "position": 0,
+    "text": "چو من دست بهرام گیرم بدست"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 66,
+    "position": 1,
+    "text": "وزان پس به مهر اندرم آرم شکست"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 67,
+    "position": 0,
+    "text": "نخواند مرا داور از آب پاک"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 68,
+    "position": 1,
+    "text": "جز از پاک ایزد مرا نیست باک"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 69,
+    "position": 0,
+    "text": "تو را گر بزرگی بیفزایدی"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 70,
+    "position": 1,
+    "text": "خرد بیشتر زین بدی شایدی"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 71,
+    "position": 0,
+    "text": "بران نامه بر مهر بنهاد و گفت"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 72,
+    "position": 1,
+    "text": "که با باد باید که باشید جفت"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 73,
+    "position": 0,
+    "text": "فرستاده آمد به نزدیک شاه"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 74,
+    "position": 1,
+    "text": "به یک ماه کمتر بپیمود راه"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 75,
+    "position": 0,
+    "text": "چو برخواند آن نامه را شهریار"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 76,
+    "position": 1,
+    "text": "بپیچید و ترسان شد از روزگار"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 77,
+    "position": 0,
+    "text": "فرستاد و ایرانیان را بخواند"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 78,
+    "position": 1,
+    "text": "سخن های خاقان سراسر براند"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 79,
+    "position": 0,
+    "text": "همان نامه بنمود و برخواندند"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 80,
+    "position": 1,
+    "text": "بزرگان به اندیشه درماندند"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 81,
+    "position": 0,
+    "text": "چنین یافت پاسخ ز ایرانیان"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 82,
+    "position": 1,
+    "text": "که ای فر و اورند و تاج کیان"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 83,
+    "position": 0,
+    "text": "چنین کارها بر دل آسان مگیر"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 84,
+    "position": 1,
+    "text": "یکی رای زن با خردمند پیر"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 85,
+    "position": 0,
+    "text": "به نامه چنین کار آسان مکن"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 86,
+    "position": 1,
+    "text": "مکن تیره این فر و شمع کهن"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 87,
+    "position": 0,
+    "text": "گزین کن از ایران یکی مرد پیر"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 88,
+    "position": 1,
+    "text": "خردمند و زیبا و گرد و دبیر"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 89,
+    "position": 0,
+    "text": "کز ایدر به نزدیک خاقان شود"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 90,
+    "position": 1,
+    "text": "سخن گوید و راه او بشنود"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 91,
+    "position": 0,
+    "text": "بگوید که بهرام روز نخست"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 92,
+    "position": 1,
+    "text": "که بود و پس از پهلوانی چه جست"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 93,
+    "position": 0,
+    "text": "همی بود تا کار او گشت راست"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 94,
+    "position": 1,
+    "text": "خداوند را زان سپس بنده خواست"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 95,
+    "position": 0,
+    "text": "چو نیکو نگردد به یک ماه‌کار"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 96,
+    "position": 1,
+    "text": "تمامی بسالی برد روزگار"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 97,
+    "position": 0,
+    "text": "چو بهرام داماد خاقان بود"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 98,
+    "position": 1,
+    "text": "ازو بد سرودن نه آسان بود"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 99,
+    "position": 0,
+    "text": "به خوبی سخن گفت باید بسی"
+  },
+  {
+    "poem_id": 1878,
+    "vorder": 100,
+    "position": 1,
+    "text": "نهانی نباید که داند کسی"
+  }
+]

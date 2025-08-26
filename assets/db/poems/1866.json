@@ -1,0 +1,974 @@
+[
+  {
+    "poem_id": 1866,
+    "vorder": 1,
+    "position": 0,
+    "text": "چوخورشید برزد سراز تیره کوه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 2,
+    "position": 1,
+    "text": "خروشی برآمد زهر دو گروه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 3,
+    "position": 0,
+    "text": "که گفتی زمین گشت گردان سپهر"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 4,
+    "position": 1,
+    "text": "گر از تیغها تیره شد روی مهر"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 5,
+    "position": 0,
+    "text": "بیاراسته میمن و میسره"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 6,
+    "position": 1,
+    "text": "زمین کوه گشت آهنین یکسره"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 7,
+    "position": 0,
+    "text": "از آواز اسپان و بانگ سپاه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 8,
+    "position": 1,
+    "text": "بیابان همی‌جست بر کوه راه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 9,
+    "position": 0,
+    "text": "چو بهرام جنگی بدان بنگرید"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 10,
+    "position": 1,
+    "text": "یکی خنجر آبگون برکشید"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 11,
+    "position": 0,
+    "text": "نیامد به دل‌ش اندرون ترس و بیم"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 12,
+    "position": 1,
+    "text": "دل شیر دربیشه شد بدو نیم"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 13,
+    "position": 0,
+    "text": "به ایرانیان گفت صف برکشید"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 14,
+    "position": 1,
+    "text": "همه کشور دوک لشکر کشید"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 15,
+    "position": 0,
+    "text": "همی‌گشت گرد سپه یک تنه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 16,
+    "position": 1,
+    "text": "که دارد نگه میسر و میمنه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 17,
+    "position": 0,
+    "text": "یلان سینه را گفت برقلبگاه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 18,
+    "position": 1,
+    "text": "همی‌باش تا پیش روی سپاه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 19,
+    "position": 0,
+    "text": "که از لشکر امروز جنگی منم"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 20,
+    "position": 1,
+    "text": "بگاه گریزش درنگی منم"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 21,
+    "position": 0,
+    "text": "نگه کرد خسرو بدان رزمگاه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 22,
+    "position": 1,
+    "text": "جهان دید یکسر زلشکر سیاه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 23,
+    "position": 0,
+    "text": "رخ شید تابان چوکام هژبر"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 24,
+    "position": 1,
+    "text": "همی تیغ بارید گفتی ز ابر"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 25,
+    "position": 0,
+    "text": "نیاطوس و بندوی و گستهم وشاه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 26,
+    "position": 1,
+    "text": "ببالا گذشتند زان رزمگاه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 27,
+    "position": 0,
+    "text": "نشستند بر کوه دوک آن سران"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 28,
+    "position": 1,
+    "text": "نهاده دو دیده بفرمانبران"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 29,
+    "position": 0,
+    "text": "ازان کوه لشکر همی‌دید شاه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 30,
+    "position": 1,
+    "text": "چپ وراست و قلب و جناح سپاه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 31,
+    "position": 0,
+    "text": "چوبرخاست آواز کوس از دو روی"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 32,
+    "position": 1,
+    "text": "برفتند مردان پر خاشجوی"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 33,
+    "position": 0,
+    "text": "تو گفتی زمین کوه آهن شدست"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 34,
+    "position": 1,
+    "text": "سپهر از بر خاک دشمن شدست"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 35,
+    "position": 0,
+    "text": "چو خسرو بران گونه پیکار دید"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 36,
+    "position": 1,
+    "text": "فلک تار دید و زمین قار دید"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 37,
+    "position": 0,
+    "text": "به یزدان همی‌گفت برپهلوی"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 38,
+    "position": 1,
+    "text": "که از برتران پاک و برتر توی"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 39,
+    "position": 0,
+    "text": "که برگردد امروز از رزم شاد"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 40,
+    "position": 1,
+    "text": "که داند چنین جز تو ای پاک وراد"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 41,
+    "position": 0,
+    "text": "کرابخت خواهد شدن کندرو"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 42,
+    "position": 1,
+    "text": "سر نیزه که شود خار و خو"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 43,
+    "position": 0,
+    "text": "دل و جان خسرو پراندیشه بود"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 44,
+    "position": 1,
+    "text": "جهان پیش چشمش یکی بیشه بود"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 45,
+    "position": 0,
+    "text": "که بگسست کوت ازمیان سپاه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 46,
+    "position": 1,
+    "text": "ز آهن بکردار کوهی سیاه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 47,
+    "position": 0,
+    "text": "بیامد دمان تامیان گروه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 48,
+    "position": 1,
+    "text": "چو نزدیک ترشد بران برز کوه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 49,
+    "position": 0,
+    "text": "به خسرو چنین گفت کای سرفراز"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 50,
+    "position": 1,
+    "text": "نگه کن بدان بنده دیوساز"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 51,
+    "position": 0,
+    "text": "که بااو برزم اندر آویختی"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 52,
+    "position": 1,
+    "text": "چواو کامران شد تو بگریختی"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 53,
+    "position": 0,
+    "text": "ببین از چپ لشکر ودست راست"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 54,
+    "position": 1,
+    "text": "که تا از میان دلیران کجاست"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 55,
+    "position": 0,
+    "text": "کنون تا بیاموزمش کارزار"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 56,
+    "position": 1,
+    "text": "ببیند دل و رزم مردان کار"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 57,
+    "position": 0,
+    "text": "چو بشنید خسرو زکوت این سخن"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 58,
+    "position": 1,
+    "text": "دلش گشت پردرد و کین کهن"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 59,
+    "position": 0,
+    "text": "کجا گفت کز بنده بگریختی"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 60,
+    "position": 1,
+    "text": "سلیح سواران فروریختی"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 61,
+    "position": 0,
+    "text": "ورا زان سخن هیچ پاسخ نداد"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 62,
+    "position": 1,
+    "text": "دلش گشت پرخون و سر پر ز باد"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 63,
+    "position": 0,
+    "text": "چنین گفت پس کوت را شهریار"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 64,
+    "position": 1,
+    "text": "که روپیش آن مرد ابلق سوار"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 65,
+    "position": 0,
+    "text": "چوبیند تو را پیشت آید به جنگ"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 66,
+    "position": 1,
+    "text": "تومگریز تا لب نخایی زننگ"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 67,
+    "position": 0,
+    "text": "چوبشنید کوت این سخن بازگشت"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 68,
+    "position": 1,
+    "text": "چنان شد که با باد انباز گشت"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 69,
+    "position": 0,
+    "text": "همی‌رفت جوشان ونیزه بدست"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 70,
+    "position": 1,
+    "text": "به آوردگه رفت چون پیل مست"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 71,
+    "position": 0,
+    "text": "چو نزدیک شد خواست بهرام را"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 72,
+    "position": 1,
+    "text": "برافراخت زانگونه زونام را"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 73,
+    "position": 0,
+    "text": "یلان سینه بهرام را بانگ کرد"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 74,
+    "position": 1,
+    "text": "که بیدارباش ای سوار نبرد"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 75,
+    "position": 0,
+    "text": "که آمد یکی دیو چون پیل مست"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 76,
+    "position": 1,
+    "text": "کمندی بفتراک و نیزه بدست"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 77,
+    "position": 0,
+    "text": "چو بهرام بشنید تیغ از نیام"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 78,
+    "position": 1,
+    "text": "برآهخت چون باد و برگفت نام"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 79,
+    "position": 0,
+    "text": "چوخسرو چنان دید برپای خاست"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 80,
+    "position": 1,
+    "text": "ازان کوه‌سر سر برآورد راست"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 81,
+    "position": 0,
+    "text": "نهاده بکوت و به بهرام چشم"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 82,
+    "position": 1,
+    "text": "دو دیده پر از آب و دل پر ز خشم"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 83,
+    "position": 0,
+    "text": "چو رومی به نیزه درآمد زجای"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 84,
+    "position": 1,
+    "text": "جهانجوی بر جای بفشارد پای"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 85,
+    "position": 0,
+    "text": "چو نیزه نیامد برو کارگر"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 86,
+    "position": 1,
+    "text": "بروی اندر آورد جنگی سپر"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 87,
+    "position": 0,
+    "text": "یکی تیغ زد بر سر و گردنش"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 88,
+    "position": 1,
+    "text": "که تاسینه ببرید تیره تنش"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 89,
+    "position": 0,
+    "text": "چو آواز تیغش به خسرو رسید"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 90,
+    "position": 1,
+    "text": "بخندید کان زخم بهرام دید"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 91,
+    "position": 0,
+    "text": "نیاطوس جنگی بتابید چشم"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 92,
+    "position": 1,
+    "text": "ازان خندهٔ خسرو آمد بخشم"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 93,
+    "position": 0,
+    "text": "به خسرو چنین گفت کای نامدار"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 94,
+    "position": 1,
+    "text": "نه نیکو بود خنده درکارزار"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 95,
+    "position": 0,
+    "text": "تو رانیست از روم جز کیمیا"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 96,
+    "position": 1,
+    "text": "دلت خیره بینم بکین نیا"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 97,
+    "position": 0,
+    "text": "چو کوت هزاره به ایران و روم"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 98,
+    "position": 1,
+    "text": "نبینند هرگز به آباد بوم"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 99,
+    "position": 0,
+    "text": "بخندی کنون زانک اوکشته شد"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 100,
+    "position": 1,
+    "text": "چنان دان که بخت تو برگشته شد"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 101,
+    "position": 0,
+    "text": "بدو گفت خسرو من از کشتنش"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 102,
+    "position": 1,
+    "text": "نخندم همی وز بریده تنش"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 103,
+    "position": 0,
+    "text": "چنان دان که هرکس که دارد فسوس"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 104,
+    "position": 1,
+    "text": "همو یابد از چرخ گردنده کوس"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 105,
+    "position": 0,
+    "text": "مرا گفت کز بنده بگریختی"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 106,
+    "position": 1,
+    "text": "نبودت هنر تا نیاویختی"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 107,
+    "position": 0,
+    "text": "ازان بنده بگریختن نیست ننگ"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 108,
+    "position": 1,
+    "text": "که زخمش بدین سان بود روز جنگ"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 109,
+    "position": 0,
+    "text": "وزان روی بهرام آواز داد"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 110,
+    "position": 1,
+    "text": "که‌ای نامداران فرخ نژاد"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 111,
+    "position": 0,
+    "text": "یلان سینه و رام و ایزد گسسپ"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 112,
+    "position": 1,
+    "text": "مرین کشته را بست باید بر اسپ"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 113,
+    "position": 0,
+    "text": "فرستید ز ایدر به لشکر گهش"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 114,
+    "position": 1,
+    "text": "بدان تابریده ببیند شهش"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 115,
+    "position": 0,
+    "text": "تن کوت رازود برپشت زین"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 116,
+    "position": 1,
+    "text": "بتنگی ببستند مردان کین"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 117,
+    "position": 0,
+    "text": "دوان اسپ با مرد گردن فراز"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 118,
+    "position": 1,
+    "text": "همی‌شد به لشکر گه خویش باز"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 119,
+    "position": 0,
+    "text": "دل خسرو ازکوت شد دردمند"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 120,
+    "position": 1,
+    "text": "گشادند زان کشته بند کمند"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 121,
+    "position": 0,
+    "text": "بران زخم او بر پراگند مشک"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 122,
+    "position": 1,
+    "text": "بفرمود پس تا بکردند خشک"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 123,
+    "position": 0,
+    "text": "به کرباس بر دوختش همچنان"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 124,
+    "position": 1,
+    "text": "زره دربر و تنگ بسته میان"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 125,
+    "position": 0,
+    "text": "به نزدیک قیصر فرستاد باز"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 126,
+    "position": 1,
+    "text": "که شمشیر این بندهٔ دیوساز"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 127,
+    "position": 0,
+    "text": "برین گونه برد همی روز جنگ"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 128,
+    "position": 1,
+    "text": "ازو گر هزیمت شدم نیست ننگ"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 129,
+    "position": 0,
+    "text": "همه رو میان دلشکسته شدند"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 130,
+    "position": 1,
+    "text": "به دل پاک بی‌جنگ خسته شدند"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 131,
+    "position": 0,
+    "text": "همی‌ریخت بطریق خونین سرشک"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 132,
+    "position": 1,
+    "text": "همی رخ پر از آب و دل پر ز رشک"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 133,
+    "position": 0,
+    "text": "بیامد ز گردنکشان ده هزار"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 134,
+    "position": 1,
+    "text": "همه جاثلیقان گرد و سوار"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 135,
+    "position": 0,
+    "text": "یکی حمله بردند زان سان که کوه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 136,
+    "position": 1,
+    "text": "بدرید ز آواز رومی گروه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 137,
+    "position": 0,
+    "text": "چکاچک برخاست و بانگ سران"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 138,
+    "position": 1,
+    "text": "همان زخم شمشیر و گرز گران"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 139,
+    "position": 0,
+    "text": "توگفتی که دریا بجوشد همی"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 140,
+    "position": 1,
+    "text": "سپهر روان بر خروشد همی"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 141,
+    "position": 0,
+    "text": "ز بس کشته اندر میان سپاه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 142,
+    "position": 1,
+    "text": "بماندند بر جای بربسته راه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 143,
+    "position": 0,
+    "text": "ازان رومیان کشته شد لشکری"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 144,
+    "position": 1,
+    "text": "هرآنکس که بود از دلیران سری"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 145,
+    "position": 0,
+    "text": "دل خسرو از درد ایشان بخست"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 146,
+    "position": 1,
+    "text": "تن خسته زندگان راببست"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 147,
+    "position": 0,
+    "text": "همه کشتگان رابهم برفکند"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 148,
+    "position": 1,
+    "text": "تلی گشت برسان کوه بلند"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 149,
+    "position": 0,
+    "text": "همی‌خواندندیش بهرام چید"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 150,
+    "position": 1,
+    "text": "ببرید خسرو ز رومی امید"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 151,
+    "position": 0,
+    "text": "همی‌گفت اگر نیز رومی دو بار"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 152,
+    "position": 1,
+    "text": "کند همی برین گونه بر کارزار"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 153,
+    "position": 0,
+    "text": "جهان را تو بی‌لشکر روم دان"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 154,
+    "position": 1,
+    "text": "همان تیغ پولاد را موم دان"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 155,
+    "position": 0,
+    "text": "به سرگس چنین گفت پس شهریار"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 156,
+    "position": 1,
+    "text": "که فردا مبر جنگیان را به کار"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 157,
+    "position": 0,
+    "text": "تو فردا بیاسای تا من سپاه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 158,
+    "position": 1,
+    "text": "بیارم ز ایرانیان کینه خواه"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 159,
+    "position": 0,
+    "text": "بایرانیان گفت فردا به جنگ"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 160,
+    "position": 1,
+    "text": "شما را بباید شدن بی‌درنگ"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 161,
+    "position": 0,
+    "text": "همه ویژه گفتند کایدون کنیم"
+  },
+  {
+    "poem_id": 1866,
+    "vorder": 162,
+    "position": 1,
+    "text": "که کوه و بیابان پر از خون کنیم"
+  }
+]

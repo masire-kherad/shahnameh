@@ -1,0 +1,554 @@
+[
+  {
+    "poem_id": 1803,
+    "vorder": 1,
+    "position": 0,
+    "text": "ز بهرام شنگل شد اندرگمان"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 2,
+    "position": 1,
+    "text": "که این فر و این برز و تیر و کمان"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 3,
+    "position": 0,
+    "text": "نماند همی این فرستاده را"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 4,
+    "position": 1,
+    "text": "نه هندی نه ترکی نه آزاده را"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 5,
+    "position": 0,
+    "text": "اگر خویش شاهست گر مهترست"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 6,
+    "position": 1,
+    "text": "برادرش خوانم هم اندر خورست"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 7,
+    "position": 0,
+    "text": "بخندید و بهرام را گفت شاه"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 8,
+    "position": 1,
+    "text": "که ای پرهنر با گهر پیشگاه"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 9,
+    "position": 0,
+    "text": "برادر توی شاه را بی‌گمان"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 10,
+    "position": 1,
+    "text": "بدین بخشش و زور و تیر و کمان"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 11,
+    "position": 0,
+    "text": "که فر کیان داری و زور شیر"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 12,
+    "position": 1,
+    "text": "نباشی مگر نامداری دلیر"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 13,
+    "position": 0,
+    "text": "بدو گفت بهرام کای شاه هند"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 14,
+    "position": 1,
+    "text": "فرستادگان را مکن ناپسند"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 15,
+    "position": 0,
+    "text": "نه از تخمهٔ یزدگردم نه شاه"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 16,
+    "position": 1,
+    "text": "برادرش خوانیم باشد گناه"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 17,
+    "position": 0,
+    "text": "از ایران یکی مرد بیگانه‌ام"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 18,
+    "position": 1,
+    "text": "نه دانش پژوهم نه فرزانه‌ام"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 19,
+    "position": 0,
+    "text": "مرا بازگردان که دورست راه"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 20,
+    "position": 1,
+    "text": "نباید که یابد مرا خشم شاه"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 21,
+    "position": 0,
+    "text": "بدو گفت شنگل که تندی مکن"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 22,
+    "position": 1,
+    "text": "که با تو هنوزست ما را سخن"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 23,
+    "position": 0,
+    "text": "نبایدت کردن به رفتن شتاب"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 24,
+    "position": 1,
+    "text": "که رفتن به زودی نباشد صواب"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 25,
+    "position": 0,
+    "text": "بر ما بباش و دل آرام گیر"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 26,
+    "position": 1,
+    "text": "چو پخته نخواهی می خام گیر"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 27,
+    "position": 0,
+    "text": "پس‌انگاه دستور را پیش خواند"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 28,
+    "position": 1,
+    "text": "ز بهرام با او سخن چند راند"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 29,
+    "position": 0,
+    "text": "گر این مرد بهرام را خویش نیست"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 30,
+    "position": 1,
+    "text": "گر از پهلوان نام او بیش نیست"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 31,
+    "position": 0,
+    "text": "چو گویی دهد او تن‌اندر فریب"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 32,
+    "position": 1,
+    "text": "گر از گفت من در دل آرد نهیب"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 33,
+    "position": 0,
+    "text": "تو گویی مر او را نکوتر بود"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 34,
+    "position": 1,
+    "text": "تو آن گوی با وی که در خور بود"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 35,
+    "position": 0,
+    "text": "بگویش بران رو که باشد صواب"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 36,
+    "position": 1,
+    "text": "که پیش شه هند بفزودی آب"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 37,
+    "position": 0,
+    "text": "کنون گر بباشی به نزدیک اوی"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 38,
+    "position": 1,
+    "text": "نگه‌داری آن رای باریک اوی"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 39,
+    "position": 0,
+    "text": "هرانجا که خوشتر ولایت تراست"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 40,
+    "position": 1,
+    "text": "سپهداری و باژ و ملکت تراست"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 41,
+    "position": 0,
+    "text": "به جایی که باشد همیشه بهار"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 42,
+    "position": 1,
+    "text": "نسیم بهار آید از جویبار"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 43,
+    "position": 0,
+    "text": "گهر هست و دینار و گنج درم"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 44,
+    "position": 1,
+    "text": "چو باشد درم دل نباشد به غم"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 45,
+    "position": 0,
+    "text": "نوازنده شاهی که از مهر تو"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 46,
+    "position": 1,
+    "text": "بخندد چو بیند همی چهر تو"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 47,
+    "position": 0,
+    "text": "به سالی دو بارست بار درخت"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 48,
+    "position": 1,
+    "text": "ز قنوج برنگذرد نیک‌بخت"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 49,
+    "position": 0,
+    "text": "چو این گفته باشی به پرسش ز نام"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 50,
+    "position": 1,
+    "text": "که از نام گردد دلم شادکام"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 51,
+    "position": 0,
+    "text": "مگر رام گردد بدین مرز ما"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 52,
+    "position": 1,
+    "text": "فزون گردد از فر او ارز ما"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 53,
+    "position": 0,
+    "text": "ورا زود سالار لشکر کنیم"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 54,
+    "position": 1,
+    "text": "بدین مرز با ارز ما سر کنیم"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 55,
+    "position": 0,
+    "text": "بیامد جهاندیده دستور شاه"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 56,
+    "position": 1,
+    "text": "بگفت این به بهرام و بنمود راه"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 57,
+    "position": 0,
+    "text": "ز بهرام زان پس بپرسید نام"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 58,
+    "position": 1,
+    "text": "که بی‌نام پاسخ نبودی تمام"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 59,
+    "position": 0,
+    "text": "چو بشنید بهرام رنگ رخش"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 60,
+    "position": 1,
+    "text": "دگر شد که تا چون دهد پاسخش"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 61,
+    "position": 0,
+    "text": "به فرجام گفت ای سخن‌گوی مرد"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 62,
+    "position": 1,
+    "text": "مرا در دو کشور مکن روی زرد"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 63,
+    "position": 0,
+    "text": "من از شاه ایران نپیجم به گنج"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 64,
+    "position": 1,
+    "text": "گر از نیستی چند باشم به رنج"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 65,
+    "position": 0,
+    "text": "جزین باشد آرایش دین ما"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 66,
+    "position": 1,
+    "text": "همان گردش راه و آیین ما"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 67,
+    "position": 0,
+    "text": "هرانکس که پیچد سر از شاه خویش"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 68,
+    "position": 1,
+    "text": "به برخاستن گم کند راه خویش"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 69,
+    "position": 0,
+    "text": "فزونی نجست آنک بودش خرد"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 70,
+    "position": 1,
+    "text": "بد و نیک بر ما همی بگذرد"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 71,
+    "position": 0,
+    "text": "خداوند گیتی فریدون کجاست"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 72,
+    "position": 1,
+    "text": "که پشت زمانه بدو بود راست"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 73,
+    "position": 0,
+    "text": "کجا آن بزرگان خسرونژاد"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 74,
+    "position": 1,
+    "text": "جهاندار کیخسرو و کیقباد"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 75,
+    "position": 0,
+    "text": "دگر آنک دانی تو بهرام را"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 76,
+    "position": 1,
+    "text": "جهاندار پیروز خودکام را"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 77,
+    "position": 0,
+    "text": "اگر من ز فرمان او بگذرم"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 78,
+    "position": 1,
+    "text": "به مردی سرآرد جهان بر سرم"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 79,
+    "position": 0,
+    "text": "نماند بر و بوم هندوستان"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 80,
+    "position": 1,
+    "text": "به ایران کشد خاک جادوستان"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 81,
+    "position": 0,
+    "text": "همان به که من باز گردم بدر"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 82,
+    "position": 1,
+    "text": "ببیند مرا شاه پیروزگر"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 83,
+    "position": 0,
+    "text": "گر از نام پرسیم برزوی نام"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 84,
+    "position": 1,
+    "text": "چنین خواندم شاه و هم باب و مام"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 85,
+    "position": 0,
+    "text": "همه پاسخ من بشنگل رسان"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 86,
+    "position": 1,
+    "text": "که من دیر ماندم به شهر کسان"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 87,
+    "position": 0,
+    "text": "چو دستور بشنید پاسخ ببرد"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 88,
+    "position": 1,
+    "text": "شنیده سخن پیش او برشمرد"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 89,
+    "position": 0,
+    "text": "ز پاسخ پر آژنگ شد روی شاه"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 90,
+    "position": 1,
+    "text": "چنین گفت اگر دور ماند ز راه"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 91,
+    "position": 0,
+    "text": "یکی چاره سازم کنون من که روز"
+  },
+  {
+    "poem_id": 1803,
+    "vorder": 92,
+    "position": 1,
+    "text": "سرآید بدین مرد لشکر فروز"
+  }
+]

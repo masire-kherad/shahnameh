@@ -1,0 +1,602 @@
+[
+  {
+    "poem_id": 1448,
+    "vorder": 1,
+    "position": 0,
+    "text": "ازان پس به کاووس گوینده گفت"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 2,
+    "position": 1,
+    "text": "که او دختری دارد اندر نهفت"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 3,
+    "position": 0,
+    "text": "که از سرو بالاش زیباترست"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 4,
+    "position": 1,
+    "text": "ز مشک سیه بر سرش افسرست"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 5,
+    "position": 0,
+    "text": "به بالا بلند و به گیسو کمند"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 6,
+    "position": 1,
+    "text": "زبانش چو خنجر لبانش چو قند"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 7,
+    "position": 0,
+    "text": "بهشتیست آراسته پرنگار"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 8,
+    "position": 1,
+    "text": "چو خورشید تابان به خرم بهار"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 9,
+    "position": 0,
+    "text": "نشاید که باشد به جز جفت شاه"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 10,
+    "position": 1,
+    "text": "چه نیکو بود شاه را جفت ماه"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 11,
+    "position": 0,
+    "text": "بجنبید کاووس را دل ز جای"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 12,
+    "position": 1,
+    "text": "چنین داد پاسخ که اینست رای"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 13,
+    "position": 0,
+    "text": "گزین کرد شاه از میان گروه"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 14,
+    "position": 1,
+    "text": "یکی مرد بیدار دانش‌پژوه"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 15,
+    "position": 0,
+    "text": "گرانمایه و گرد و مغزش گران"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 16,
+    "position": 1,
+    "text": "بفرمود تا شد به هاماوران"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 17,
+    "position": 0,
+    "text": "چنین گفت رایش به من تازه کن"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 18,
+    "position": 1,
+    "text": "بیارای مغزش به شیرین سخن"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 19,
+    "position": 0,
+    "text": "بگویش که پیوند ما در جهان"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 20,
+    "position": 1,
+    "text": "بجویند کار آزموده مهان"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 21,
+    "position": 0,
+    "text": "که خورشید روشن ز تاج منست"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 22,
+    "position": 1,
+    "text": "زمین پایهٔ تخت عاج منست"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 23,
+    "position": 0,
+    "text": "هرانکس که در سایهٔ من پناه"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 24,
+    "position": 1,
+    "text": "نیابد ازو کم شود پایگاه"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 25,
+    "position": 0,
+    "text": "کنون با تو پیوند جویم همی"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 26,
+    "position": 1,
+    "text": "رخ آشتی را بشویم همی"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 27,
+    "position": 0,
+    "text": "پس پردهٔ تو یکی دخترست"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 28,
+    "position": 1,
+    "text": "شنیدم که گاه مرا درخورست"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 29,
+    "position": 0,
+    "text": "که پاکیزه تخم‌ست و پاکیزه تن"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 30,
+    "position": 1,
+    "text": "ستوده به هر شهر و هر انجمن"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 31,
+    "position": 0,
+    "text": "چو داماد یابی چو پور قباد"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 32,
+    "position": 1,
+    "text": "چنان دان که خورشید داد تو داد"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 33,
+    "position": 0,
+    "text": "بشد مرد بیدار روشن روان"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 34,
+    "position": 1,
+    "text": "به نزدیک سالار هاماوران"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 35,
+    "position": 0,
+    "text": "زبان کرد گویا و دل کرد گرم"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 36,
+    "position": 1,
+    "text": "بیاراست لب را به گفتار نرم"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 37,
+    "position": 0,
+    "text": "ز کاووس دادش فروان سلام"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 38,
+    "position": 1,
+    "text": "ازان پس بگفت آنچ بود از پیام"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 39,
+    "position": 0,
+    "text": "چو بشنید ازو شاه هاماوران"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 40,
+    "position": 1,
+    "text": "دلش گشت پر درد و سر شد گران"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 41,
+    "position": 0,
+    "text": "همی گفت هرچند کاو پادشاست"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 42,
+    "position": 1,
+    "text": "جهاندار و پیروز و فرمان رواست"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 43,
+    "position": 0,
+    "text": "مرا در جهان این یکی دخترست"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 44,
+    "position": 1,
+    "text": "که از جان شیرین گرامی‌ترست"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 45,
+    "position": 0,
+    "text": "فرستاده را گر کنم سرد و خوار"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 46,
+    "position": 1,
+    "text": "ندارم پی و مایهٔ کارزار"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 47,
+    "position": 0,
+    "text": "همان به که این درد را نیز چشم"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 48,
+    "position": 1,
+    "text": "بپوشم و بر دل بخوابیم خشم"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 49,
+    "position": 0,
+    "text": "چنین گفت با مرد شیرین سخن"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 50,
+    "position": 1,
+    "text": "که سر نیست این آرزو را نه بن"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 51,
+    "position": 0,
+    "text": "همی خواهد از من گرامی دو چیز"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 52,
+    "position": 1,
+    "text": "که آن را سه دیگر ندانیم نیز"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 53,
+    "position": 0,
+    "text": "مرا پشت گرمی بد از خواسته"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 54,
+    "position": 1,
+    "text": "به فرزند بودم دل آراسته"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 55,
+    "position": 0,
+    "text": "به من زین سپس جان نماند همی"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 56,
+    "position": 1,
+    "text": "وگر شاه ایران ستاند همی"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 57,
+    "position": 0,
+    "text": "سپارم کنون هرچ خواهد بدوی"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 58,
+    "position": 1,
+    "text": "نتابم سر از رای و فرمان اوی"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 59,
+    "position": 0,
+    "text": "غمی گشت و سودابه را پیش خواند"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 60,
+    "position": 1,
+    "text": "ز کاووس با او سخنها براند"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 61,
+    "position": 0,
+    "text": "بدو گفت کز مهتر سرفراز"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 62,
+    "position": 1,
+    "text": "که هست از مهی و بهی بی‌نیاز"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 63,
+    "position": 0,
+    "text": "فرستاده‌ای چرپ‌گوی آمدست"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 64,
+    "position": 1,
+    "text": "یکی نامه چون زند و استا به دست"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 65,
+    "position": 0,
+    "text": "همی خواهد از من که بی‌کام من"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 66,
+    "position": 1,
+    "text": "ببرد دل و خواب و آرام من"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 67,
+    "position": 0,
+    "text": "چه گویی تو اکنون هوای تو چیست"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 68,
+    "position": 1,
+    "text": "بدین کار بیدار رای تو چیست"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 69,
+    "position": 0,
+    "text": "بدو گفت سودابه زین چاره نیست"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 70,
+    "position": 1,
+    "text": "ازو بهتر امروز غمخواره نیست"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 71,
+    "position": 0,
+    "text": "کسی کاو بود شهریار جهان"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 72,
+    "position": 1,
+    "text": "بروبوم خواهد همی از مهان"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 73,
+    "position": 0,
+    "text": "ز پیوند با او چرایی دژم"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 74,
+    "position": 1,
+    "text": "کسی نشمرد شادمانی به غم"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 75,
+    "position": 0,
+    "text": "بدانست سالار هاماوران"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 76,
+    "position": 1,
+    "text": "که سودابه را آن نیامد گران"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 77,
+    "position": 0,
+    "text": "فرستاده شاه را پیش خواند"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 78,
+    "position": 1,
+    "text": "وزان نامدارانش برتر نشاند"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 79,
+    "position": 0,
+    "text": "ببستند بندی بر آیین خویش"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 80,
+    "position": 1,
+    "text": "بران سان که بود آن زمان دین خویش"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 81,
+    "position": 0,
+    "text": "به یک هفته سالار هاماوران"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 82,
+    "position": 1,
+    "text": "همی ساخت آن کار با مهتران"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 83,
+    "position": 0,
+    "text": "بیاورد پس خسرو خسته دل"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 84,
+    "position": 1,
+    "text": "پرستنده سیصد عماری چهل"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 85,
+    "position": 0,
+    "text": "هزار استر و اسپ و اشتر هزار"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 86,
+    "position": 1,
+    "text": "ز دیبا و دینار کردند بار"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 87,
+    "position": 0,
+    "text": "عماری به ماه نو آراسته"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 88,
+    "position": 1,
+    "text": "پس پشت و پیش اندرون خواسته"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 89,
+    "position": 0,
+    "text": "یکی لشکر آراسته چون بهشت"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 90,
+    "position": 1,
+    "text": "تو گفتی که روی زمین لاله کشت"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 91,
+    "position": 0,
+    "text": "چو آمد به نزدیک کاووس شاه"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 92,
+    "position": 1,
+    "text": "دل آرام با زیب و با فر و جاه"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 93,
+    "position": 0,
+    "text": "دو یاقوت خندان دو نرگس دژم"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 94,
+    "position": 1,
+    "text": "ستون دو ابرو چو سیمین قلم"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 95,
+    "position": 0,
+    "text": "نگه کرد کاووس و خیره بماند"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 96,
+    "position": 1,
+    "text": "به سودابه بر نام یزدان بخواند"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 97,
+    "position": 0,
+    "text": "یکی انجمن ساخت از بخردان"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 98,
+    "position": 1,
+    "text": "ز بیداردل پیر سر موبدان"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 99,
+    "position": 0,
+    "text": "سزا دید سودابه را جفت خویش"
+  },
+  {
+    "poem_id": 1448,
+    "vorder": 100,
+    "position": 1,
+    "text": "ببستند عهدی بر آیین و کیش"
+  }
+]

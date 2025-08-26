@@ -1,0 +1,830 @@
+[
+  {
+    "poem_id": 1854,
+    "vorder": 1,
+    "position": 0,
+    "text": "چوآمد بران شارستان شهریار"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 2,
+    "position": 1,
+    "text": "سوار آمد از قیصر نامدار"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 3,
+    "position": 0,
+    "text": "که چیزی کزین مرز باید بخواه"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 4,
+    "position": 1,
+    "text": "مدار آرزو را ز شاهان نگاه"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 5,
+    "position": 0,
+    "text": "که هرچند این پادشاهی مراست"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 6,
+    "position": 1,
+    "text": "تو را با تن خویش داریم راست"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 7,
+    "position": 0,
+    "text": "بران شارستان ایمن و شاد باش"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 8,
+    "position": 1,
+    "text": "ز هر بد که اندیشی آزاد باش"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 9,
+    "position": 0,
+    "text": "همه روم یکسر تو را کهترند"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 10,
+    "position": 1,
+    "text": "اگر چند گردنکش و مهترند"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 11,
+    "position": 0,
+    "text": "تو را تا نسازم سلیح و سپاه"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 12,
+    "position": 1,
+    "text": "نجویم خور و خواب و آرام گاه"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 13,
+    "position": 0,
+    "text": "چو بشنید خسرو بدان شاد گشت"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 14,
+    "position": 1,
+    "text": "روانش از اندیشه آزاد گشت"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 15,
+    "position": 0,
+    "text": "بفرمود گستهم و بالوی را"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 16,
+    "position": 1,
+    "text": "همان اندیان جهانجوی را"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 17,
+    "position": 0,
+    "text": "بخراد برزین وشاپور شیر"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 18,
+    "position": 1,
+    "text": "چنین گفت پس شهریار دلیر"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 19,
+    "position": 0,
+    "text": "که اسپان چو روشن شود زین کنید"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 20,
+    "position": 1,
+    "text": "ببالای آن زین زرین کنید"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 21,
+    "position": 0,
+    "text": "بپوشید زربفت چینی قبای"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 22,
+    "position": 1,
+    "text": "همه یک دلانید و پاکیزه رای"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 23,
+    "position": 0,
+    "text": "ازین شارستان سوی قیصر شوید"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 24,
+    "position": 1,
+    "text": "بگویید و گفتار او بشنوید"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 25,
+    "position": 0,
+    "text": "خردمند باشید وروشن روان"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 26,
+    "position": 1,
+    "text": "نیوشنده و چرب و شیرین زبان"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 27,
+    "position": 0,
+    "text": "گر ای دون که قیصر به میدان شود"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 28,
+    "position": 1,
+    "text": "کمان خواهد ار نی به چوگان شود"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 29,
+    "position": 0,
+    "text": "بکوشید با مرد خسروپرست"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 30,
+    "position": 1,
+    "text": "بدان تا شما را نیاید شکست"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 31,
+    "position": 0,
+    "text": "سواری بداند کز ایران برند"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 32,
+    "position": 1,
+    "text": "دلیری و نیرو ز شیران برند"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 33,
+    "position": 0,
+    "text": "بخراد برزین بفرمود شاه"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 34,
+    "position": 1,
+    "text": "که چینی حریرآر و مشک سیاه"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 35,
+    "position": 0,
+    "text": "به قیصر یکی نامه باید نوشت"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 36,
+    "position": 1,
+    "text": "چو خورشید تابان بخرم بهشت"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 37,
+    "position": 0,
+    "text": "سخنهای کوتاه و معنی بسی"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 38,
+    "position": 1,
+    "text": "که آن یاد گیرد دل هر کسی"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 39,
+    "position": 0,
+    "text": "که نزدیک او فیلسوفان بوند"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 40,
+    "position": 1,
+    "text": "بدان کوش تا یاوه‌ای نشنوند"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 41,
+    "position": 0,
+    "text": "چونامه بخواند زبان برگشای"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 42,
+    "position": 1,
+    "text": "به گفتار با تو ندارند پای"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 43,
+    "position": 0,
+    "text": "ببالوی گفت آنچ قیصر ز من"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 44,
+    "position": 1,
+    "text": "گشاید زبان بر سرانجمن"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 45,
+    "position": 0,
+    "text": "ز فرمان و سوگند و پیمان و عهد"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 46,
+    "position": 1,
+    "text": "تو اندر سخن یاد کن همچو شهد"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 47,
+    "position": 0,
+    "text": "بدان انجمن تو زبان منی"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 48,
+    "position": 1,
+    "text": "بهر نیک و بد ترجمان منی"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 49,
+    "position": 0,
+    "text": "به چیزی که برما نیاید شکست"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 50,
+    "position": 1,
+    "text": "بکوشید و با آن بسایید دست"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 51,
+    "position": 0,
+    "text": "تو پیمان گفتار من در پذیر"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 52,
+    "position": 1,
+    "text": "سخن هرچ گفتم همه یادگیر"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 53,
+    "position": 0,
+    "text": "شنیدند آواز فرخ جوان"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 54,
+    "position": 1,
+    "text": "جهاندیده گردان روشن روان"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 55,
+    "position": 0,
+    "text": "همه خواندند آفرین سر به سر"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 56,
+    "position": 1,
+    "text": "که جز تو مبادا کسی تاجور"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 57,
+    "position": 0,
+    "text": "به نزدیک قیصر نهادند روی"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 58,
+    "position": 1,
+    "text": "بزرگان روشن دل و راست گوی"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 59,
+    "position": 0,
+    "text": "چو بشنید قیصر کز ایران مهان"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 60,
+    "position": 1,
+    "text": "فرستادهٔ شهریار جهان"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 61,
+    "position": 0,
+    "text": "رسیدند نزدیک ایوان ز راه"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 62,
+    "position": 1,
+    "text": "پذیره فرستاد چندی سپاه"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 63,
+    "position": 0,
+    "text": "بیاراست کاخی به دیبای روم"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 64,
+    "position": 1,
+    "text": "همه پیکرش گوهر و زر بوم"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 65,
+    "position": 0,
+    "text": "نشست از بر نامور تخت عاج"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 66,
+    "position": 1,
+    "text": "به سر برنهاد آن دل افروز تاج"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 67,
+    "position": 0,
+    "text": "بفرمود تا پرده برداشتند"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 68,
+    "position": 1,
+    "text": "ز دهلیزشان تیز بگذاشتند"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 69,
+    "position": 0,
+    "text": "گرانمایه گستهم بد پیشرو"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 70,
+    "position": 1,
+    "text": "پس او چوبالوی و شاپور گو"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 71,
+    "position": 0,
+    "text": "چو خراد برزین و گرد اندیان"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 72,
+    "position": 1,
+    "text": "همه تاج بر سر کمر برمیان"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 73,
+    "position": 0,
+    "text": "رسیدند نزدیک قیصر فراز"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 74,
+    "position": 1,
+    "text": "چو دیدند بردند پیشش نماز"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 75,
+    "position": 0,
+    "text": "همه یک زبان آفرین خواندند"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 76,
+    "position": 1,
+    "text": "بران تخت زر گوهر افشاندند"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 77,
+    "position": 0,
+    "text": "نخستین بپرسید قیصر ز شاه"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 78,
+    "position": 1,
+    "text": "از ایران وز لشکر و رنج راه"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 79,
+    "position": 0,
+    "text": "چو بشنید خراد برزین برفت"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 80,
+    "position": 1,
+    "text": "برتخت با نامهٔ شاه تفت"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 81,
+    "position": 0,
+    "text": "بفرمان آن نامور شهریار"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 82,
+    "position": 1,
+    "text": "نهادند کرسی زرین چهار"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 83,
+    "position": 0,
+    "text": "نشست این سه پرمایهٔ نیک رای"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 84,
+    "position": 1,
+    "text": "همی‌بود خراد برزین بپای"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 85,
+    "position": 0,
+    "text": "بفرمود قیصر که بر زیرگاه"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 86,
+    "position": 1,
+    "text": "نشیند کسی کو بپیمود راه"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 87,
+    "position": 0,
+    "text": "چنین گفت خراد برزین که شاه"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 88,
+    "position": 1,
+    "text": "مرا در بزرگی ندادست راه"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 89,
+    "position": 0,
+    "text": "که در پیش قیصر بیارم نشست"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 90,
+    "position": 1,
+    "text": "چنین نامهٔ شاه ایران بدست"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 91,
+    "position": 0,
+    "text": "مگر بندگی را پسند آیمت"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 92,
+    "position": 1,
+    "text": "به پیغام او سودمند آیمت"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 93,
+    "position": 0,
+    "text": "بدو گفت قیصر که بگشای راز"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 94,
+    "position": 1,
+    "text": "چه گفت آن خردمند گردن فراز"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 95,
+    "position": 0,
+    "text": "نخست آفرین بر جهاندار کرد"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 96,
+    "position": 1,
+    "text": "جهان را بدان آفرین خوارکرد"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 97,
+    "position": 0,
+    "text": "که اویست برتر زهر برتری"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 98,
+    "position": 1,
+    "text": "توانا و داننده از هر دری"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 99,
+    "position": 0,
+    "text": "بفرمان او گردد این آسمان"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 100,
+    "position": 1,
+    "text": "کجا برترست از مکان و زمان"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 101,
+    "position": 0,
+    "text": "سپهر و ستاره همه کرده‌اند"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 102,
+    "position": 1,
+    "text": "بدین چرخ گردان برآورده‌اند"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 103,
+    "position": 0,
+    "text": "چو از خاک مر جانور بنده کرد"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 104,
+    "position": 1,
+    "text": "نخستین کیومرث را زنده کرد"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 105,
+    "position": 0,
+    "text": "چنان تا بشاه آفریدون رسید"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 106,
+    "position": 1,
+    "text": "کزان سرفرازان و را برگزید"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 107,
+    "position": 0,
+    "text": "پدید آمد آن تخمهٔ اندرجهان"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 108,
+    "position": 1,
+    "text": "ببود آشکار آنچ بودی نهان"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 109,
+    "position": 0,
+    "text": "همی‌رو چنین تا سر کی قباد"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 110,
+    "position": 1,
+    "text": "که تاج بزرگی به سر برنهاد"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 111,
+    "position": 0,
+    "text": "نیامد بدین دوده هرگز بدی"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 112,
+    "position": 1,
+    "text": "نگه داشتندی ره ایزدی"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 113,
+    "position": 0,
+    "text": "کنون بنده‌ای ناسزاوار وگست"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 114,
+    "position": 1,
+    "text": "بیامد بتخت کیان برنشست"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 115,
+    "position": 0,
+    "text": "همی‌داد خواهم ز بیدادگر"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 116,
+    "position": 1,
+    "text": "نه افسر نه تخت و کلاه و کمر"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 117,
+    "position": 0,
+    "text": "هرآنکس که او برنشیند بتخت"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 118,
+    "position": 1,
+    "text": "خرد باید و نامداری و بخت"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 119,
+    "position": 0,
+    "text": "شناسد که این تخت و این فرهی"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 120,
+    "position": 1,
+    "text": "کرا بود و دیهیم شاهنشهی"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 121,
+    "position": 0,
+    "text": "مرا اندرین کار یاری کنید"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 122,
+    "position": 1,
+    "text": "برین بی‌وفا کامگاری کنید"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 123,
+    "position": 0,
+    "text": "که پوینده گشتیم گرد جهان"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 124,
+    "position": 1,
+    "text": "بشرم آمدیم از کهان ومهان"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 125,
+    "position": 0,
+    "text": "چوقیصر بران سان سخنها شنید"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 126,
+    "position": 1,
+    "text": "برخساره شد چون گل شنبلید"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 127,
+    "position": 0,
+    "text": "گل شنبلیدش پر از ژاله شد"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 128,
+    "position": 1,
+    "text": "زبان و روانش پر ازناله شد"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 129,
+    "position": 0,
+    "text": "چوآن نامه برخواند بفزود درد"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 130,
+    "position": 1,
+    "text": "شد آن تخت برچشم او لاژورد"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 131,
+    "position": 0,
+    "text": "بخراد بر زین جهاندار گفت"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 132,
+    "position": 1,
+    "text": "که این نیست برمرد دانا نهفت"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 133,
+    "position": 0,
+    "text": "مرا خسرو از خویش و پیوند بیش"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 134,
+    "position": 1,
+    "text": "ز جان سخن گوی دارمش پیش"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 135,
+    "position": 0,
+    "text": "سلیح است و هم گنج و هم لشکرست"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 136,
+    "position": 1,
+    "text": "شما را ببین تا چه اندر خورست"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 137,
+    "position": 0,
+    "text": "اگر دیده خواهی ندارم دریغ"
+  },
+  {
+    "poem_id": 1854,
+    "vorder": 138,
+    "position": 1,
+    "text": "که دیده به از گنج دینار و تیغ"
+  }
+]

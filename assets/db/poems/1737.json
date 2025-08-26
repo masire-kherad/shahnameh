@@ -1,0 +1,866 @@
+[
+  {
+    "poem_id": 1737,
+    "vorder": 1,
+    "position": 0,
+    "text": "چنان بد که یک روز با تاج و گنج"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 2,
+    "position": 1,
+    "text": "همی داشت از بودنی دل به رنج"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 3,
+    "position": 0,
+    "text": "ز تیره شب اندر گذشته سه پاس"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 4,
+    "position": 1,
+    "text": "بفرمود تا شد ستاره‌شناس"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 5,
+    "position": 0,
+    "text": "بپرسیدش از تخت شاهنشهی"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 6,
+    "position": 1,
+    "text": "هم از رنج وز روزگار بهی"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 7,
+    "position": 0,
+    "text": "منجم بیاورد صلاب را"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 8,
+    "position": 1,
+    "text": "بینداخت آرامش و خواب را"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 9,
+    "position": 0,
+    "text": "نگه کرد روشن به قلب اسد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 10,
+    "position": 1,
+    "text": "که هست او نماینده فتح و جد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 11,
+    "position": 0,
+    "text": "بدان تا رسد پادشا را بدی"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 12,
+    "position": 1,
+    "text": "فزاید بدو فره ایزدی"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 13,
+    "position": 0,
+    "text": "چو دیدند گفتندش ای پادشا"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 14,
+    "position": 1,
+    "text": "جهانگیر و روشن‌دل و پارسا"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 15,
+    "position": 0,
+    "text": "یکی کار پیش است با رنج و درد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 16,
+    "position": 1,
+    "text": "نیارد کس آن بر توبر یاد کرد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 17,
+    "position": 0,
+    "text": "چنین داد شاپور پاسخ بدوی"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 18,
+    "position": 1,
+    "text": "که ای مرد داننده و راه‌جوی"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 19,
+    "position": 0,
+    "text": "چه چارست تا این ز من بگذرد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 20,
+    "position": 1,
+    "text": "تنم اختر بد به پی نسپرد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 21,
+    "position": 0,
+    "text": "ستاره‌شمر گفت کای شهریار"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 22,
+    "position": 1,
+    "text": "ازین گردش چرخ ناپایدار"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 23,
+    "position": 0,
+    "text": "به مردی و دانش نیابی گذر"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 24,
+    "position": 1,
+    "text": "خردمند گر مرد پرخاشخر"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 25,
+    "position": 0,
+    "text": "بباشد همه بودنی بی‌گمان"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 26,
+    "position": 1,
+    "text": "نتابیم با گردش آسمان"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 27,
+    "position": 0,
+    "text": "چنین داد پاسخ گرانمایه شاه"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 28,
+    "position": 1,
+    "text": "که دادار باشد ز هر بد نگاه"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 29,
+    "position": 0,
+    "text": "که گردان بلند آسمان آفرید"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 30,
+    "position": 1,
+    "text": "توانایی و ناتوان آفرید"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 31,
+    "position": 0,
+    "text": "بگسترد بر پادشاهیش داد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 32,
+    "position": 1,
+    "text": "همی بود یک چند بی‌رنج و شاد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 33,
+    "position": 0,
+    "text": "چو آباد شد زو همه مرز و بوم"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 34,
+    "position": 1,
+    "text": "چنان آرزو کرد کاید به روم"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 35,
+    "position": 0,
+    "text": "ببیند که قیصر سزاوار هست"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 36,
+    "position": 1,
+    "text": "ابا لشکر و گنج و نیروی دست"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 37,
+    "position": 0,
+    "text": "همان راز بگشاد با کدخدای"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 38,
+    "position": 1,
+    "text": "یک پهلوان گرد با داد و رای"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 39,
+    "position": 0,
+    "text": "همه راز و اندیشه با او بگفت"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 40,
+    "position": 1,
+    "text": "همی داشت از هرکس اندر نهفت"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 41,
+    "position": 0,
+    "text": "چنین گفت کاین پادشاهی به داد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 42,
+    "position": 1,
+    "text": "بدارید کزداد باشید شاد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 43,
+    "position": 0,
+    "text": "شتر خواست پرمایه ده کاروان"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 44,
+    "position": 1,
+    "text": "به هر کاروان بر یکی ساروان"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 45,
+    "position": 0,
+    "text": "ز دینار وز گوهران بار کرد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 46,
+    "position": 1,
+    "text": "ازان سی شتر بار دینار کرد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 47,
+    "position": 0,
+    "text": "بیامد پراندیشه ز آبادبوم"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 48,
+    "position": 1,
+    "text": "همی رفت زین سان سوی مرز روم"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 49,
+    "position": 0,
+    "text": "یکی روستا بود نزدیک شهر"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 50,
+    "position": 1,
+    "text": "که دهقان و شهری بدو بود بهر"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 51,
+    "position": 0,
+    "text": "بیامد به خان یکی کدخدای"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 52,
+    "position": 1,
+    "text": "بپرسید کاید مرا هست جای"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 53,
+    "position": 0,
+    "text": "برو آفرین کرد مهتر بسی"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 54,
+    "position": 1,
+    "text": "که چون تو نیابیم مهمان کسی"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 55,
+    "position": 0,
+    "text": "ببود آن شب و خورد و بخشید چیز"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 56,
+    "position": 1,
+    "text": "ز دهقان بسی آفرین یافت نیز"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 57,
+    "position": 0,
+    "text": "سپیده برآمد بنه برنهاد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 58,
+    "position": 1,
+    "text": "سوی خانهٔ قیصر آمد چو باد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 59,
+    "position": 0,
+    "text": "بیامد به نزدیک سالار بار"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 60,
+    "position": 1,
+    "text": "برو آفرین کرد و بردش نثار"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 61,
+    "position": 0,
+    "text": "بپرسید و گفتش چه مردی بگوی"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 62,
+    "position": 1,
+    "text": "که هم شاه‌شاخی و هم شاه‌روی"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 63,
+    "position": 0,
+    "text": "چنین داد پاسخ که ای پادشا"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 64,
+    "position": 1,
+    "text": "یکی پارسی مردم و پارسا"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 65,
+    "position": 0,
+    "text": "به بازارگانی برفتم ز جز"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 66,
+    "position": 1,
+    "text": "یکی کاروان دارم از خز و بز"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 67,
+    "position": 0,
+    "text": "کنون آمدستم بدین بارگاه"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 68,
+    "position": 1,
+    "text": "مگر نزد قیصر گشاینده راه"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 69,
+    "position": 0,
+    "text": "ازین بار چیزی کش اندر خورست"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 70,
+    "position": 1,
+    "text": "همه گوهر و آلت لشکرست"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 71,
+    "position": 0,
+    "text": "پذیرد سپارد به گنجور گنج"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 72,
+    "position": 1,
+    "text": "بدان شاد باشم ندارم به رنج"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 73,
+    "position": 0,
+    "text": "دگر را فروشم به زر و به سیم"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 74,
+    "position": 1,
+    "text": "به قیصر پناهم نپیچم ز بیم"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 75,
+    "position": 0,
+    "text": "بخرم هرانچم بباید ز روم"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 76,
+    "position": 1,
+    "text": "روم سوی ایران ز آباد بوم"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 77,
+    "position": 0,
+    "text": "ز درگاه برخاست مرد کهن"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 78,
+    "position": 1,
+    "text": "بر قیصر آمد بگفت این سخن"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 79,
+    "position": 0,
+    "text": "بفرمود تا پرده برداشتند"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 80,
+    "position": 1,
+    "text": "ز در سوی قیصرش بگذاشتند"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 81,
+    "position": 0,
+    "text": "چو شاپور نزدیک قیصر رسید"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 82,
+    "position": 1,
+    "text": "بکرد آفرینی چنان چون سزید"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 83,
+    "position": 0,
+    "text": "نگه کرد قیصر به شاپور گرد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 84,
+    "position": 1,
+    "text": "ز خوبی دل و دیده او را سپرد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 85,
+    "position": 0,
+    "text": "بفرمود تا خوان و می ساختند"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 86,
+    "position": 1,
+    "text": "ز بیگانه ایوان بپرداختند"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 87,
+    "position": 0,
+    "text": "جفادیده ایرانیی بد به روم"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 88,
+    "position": 1,
+    "text": "چنانچون بود مرد بیداد و شوم"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 89,
+    "position": 0,
+    "text": "به قیصر چنین گفت کای سرفراز"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 90,
+    "position": 1,
+    "text": "یکی نو سخن بشنو از من به راز"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 91,
+    "position": 0,
+    "text": "که این نامور مرد بازارگان"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 92,
+    "position": 1,
+    "text": "که دیبا فروشد به دینارگان"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 93,
+    "position": 0,
+    "text": "شهنشاه شاپور گویم که هست"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 94,
+    "position": 1,
+    "text": "به گفتار و دیدار و فر و نشست"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 95,
+    "position": 0,
+    "text": "چو بشنید قیصر سخن تیره شد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 96,
+    "position": 1,
+    "text": "همی چشمش از روی او خیره شد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 97,
+    "position": 0,
+    "text": "نگهبانش برکرد و با کس نگفت"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 98,
+    "position": 1,
+    "text": "همی داشت آن راز را در نهفت"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 99,
+    "position": 0,
+    "text": "چو شد مست برخاست شاپور شاه"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 100,
+    "position": 1,
+    "text": "همی داشت قیصر مر او را نگاه"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 101,
+    "position": 0,
+    "text": "بیامد نگهبان و او را گرفت"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 102,
+    "position": 1,
+    "text": "که شاپور نرسی توی ای شگفت"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 103,
+    "position": 0,
+    "text": "به جای زنان برد و دستش ببست"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 104,
+    "position": 1,
+    "text": "به مردی ز دام بلا کس نجست"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 105,
+    "position": 0,
+    "text": "چو زین باره دانش نیاید به بر"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 106,
+    "position": 1,
+    "text": "چه باید شمار ستاره‌شمر"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 107,
+    "position": 0,
+    "text": "بر مست شمعی همی سوختند"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 108,
+    "position": 1,
+    "text": "به زاریش در چرم خر دوختند"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 109,
+    "position": 0,
+    "text": "همی گفت هرکس که این شوربخت"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 110,
+    "position": 1,
+    "text": "همی پوست خر جست و بگذاشت تخت"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 111,
+    "position": 0,
+    "text": "یکی خانه‌ای بود تاریک و تنگ"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 112,
+    "position": 1,
+    "text": "ببردند بدبخت را بی‌درنگ"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 113,
+    "position": 0,
+    "text": "بدان جای تنگ اندر انداختند"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 114,
+    "position": 1,
+    "text": "در خانه را قفل بر ساختند"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 115,
+    "position": 0,
+    "text": "کلیدش به کدبانوی خانه داد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 116,
+    "position": 1,
+    "text": "تنش را بدان چرم بیگانه داد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 117,
+    "position": 0,
+    "text": "به زن گفت چندان دهش نان و آب"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 118,
+    "position": 1,
+    "text": "که از داشتن زو نگیرد شتاب"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 119,
+    "position": 0,
+    "text": "اگر زنده ماند به یک چندگاه"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 120,
+    "position": 1,
+    "text": "بداند مگر ارج تخت و کلاه"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 121,
+    "position": 0,
+    "text": "همان تخت قیصر نیایدش یاد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 122,
+    "position": 1,
+    "text": "کسی را کجا نیست قیصر نژاد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 123,
+    "position": 0,
+    "text": "زن قیصر آن خانه را در ببست"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 124,
+    "position": 1,
+    "text": "به ایوان دگر جای بودش نشست"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 125,
+    "position": 0,
+    "text": "یکی ماه‌رخ بود گنجور اوی"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 126,
+    "position": 1,
+    "text": "گزیده به هر کار دستور اوی"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 127,
+    "position": 0,
+    "text": "که ز ایرانیان داشتی او نژاد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 128,
+    "position": 1,
+    "text": "پدر بر پدر بر همی داشت یاد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 129,
+    "position": 0,
+    "text": "کلید در خانه او را سپرد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 130,
+    "position": 1,
+    "text": "به چرم اندرون بسته شاپور گرد"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 131,
+    "position": 0,
+    "text": "همان روز ازان مرز لشکر براند"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 132,
+    "position": 1,
+    "text": "ورا بسته در پوست آنجا بماند"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 133,
+    "position": 0,
+    "text": "چو قیصر به نزدیک ایران رسید"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 134,
+    "position": 1,
+    "text": "سپه یک به یک تیغ کین برکشید"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 135,
+    "position": 0,
+    "text": "از ایران همی برد رومی اسیر"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 136,
+    "position": 1,
+    "text": "نبود آن یلان را کسی دستگیر"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 137,
+    "position": 0,
+    "text": "به ایران زن و مرد و کودک نماند"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 138,
+    "position": 1,
+    "text": "همان چیز بسیار و اندک نماند"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 139,
+    "position": 0,
+    "text": "نبود آگهی در میان سپاه"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 140,
+    "position": 1,
+    "text": "نه مرده نه زنده ز شاپور شاه"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 141,
+    "position": 0,
+    "text": "گریزان همه شهر ایران ز روم"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 142,
+    "position": 1,
+    "text": "ز مردم تهی شد همه مرز و بوم"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 143,
+    "position": 0,
+    "text": "از ایران بی‌اندازه ترسا شدند"
+  },
+  {
+    "poem_id": 1737,
+    "vorder": 144,
+    "position": 1,
+    "text": "همه مرز پیش سکوبا شدند"
+  }
+]

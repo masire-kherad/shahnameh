@@ -1,0 +1,410 @@
+[
+  {
+    "poem_id": 1756,
+    "vorder": 1,
+    "position": 0,
+    "text": "جز از گوی و میدان نبودیش کار"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 2,
+    "position": 1,
+    "text": "گهی زخم چوگان و گاهی شکار"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 3,
+    "position": 0,
+    "text": "چنان بد که یک روز بی‌انجمن"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 4,
+    "position": 1,
+    "text": "به نخچیرگه رفت با چنگ زن"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 5,
+    "position": 0,
+    "text": "کجا نام آن رومی آزاده بود"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 6,
+    "position": 1,
+    "text": "که رنگ رخانش به می داده بود"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 7,
+    "position": 0,
+    "text": "به پشت هیون چمان برنشست"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 8,
+    "position": 1,
+    "text": "ابا سرو آزاده چنگی به دست"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 9,
+    "position": 0,
+    "text": "دلارام او بود و هم کام اوی"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 10,
+    "position": 1,
+    "text": "همیشه به لب داشتی نام اوی"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 11,
+    "position": 0,
+    "text": "به روز شکارش هیون خواستی"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 12,
+    "position": 1,
+    "text": "که پشتش به دیبا بیاراستی"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 13,
+    "position": 0,
+    "text": "فروهشته زو چار بودی رکیب"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 14,
+    "position": 1,
+    "text": "همی تاختی در فراز و نشیب"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 15,
+    "position": 0,
+    "text": "رکابش دو زرین دو سیمین بدی"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 16,
+    "position": 1,
+    "text": "همان هر یکی گوهر آگین بدی"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 17,
+    "position": 0,
+    "text": "همان زیر ترکش کمان مهره داشت"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 18,
+    "position": 1,
+    "text": "دلاور ز هر دانشی بهره داشت"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 19,
+    "position": 0,
+    "text": "به پیش اندر آمدش آهو دو جفت"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 20,
+    "position": 1,
+    "text": "جوانمرد خندان به آزاده گفت"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 21,
+    "position": 0,
+    "text": "که ای ماه من چون کمان را به زه"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 22,
+    "position": 1,
+    "text": "برآرم به شست اندر آرم گره"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 23,
+    "position": 0,
+    "text": "کدام آهو افگنده خواهی به تیر"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 24,
+    "position": 1,
+    "text": "که ماده جوانست و همتاش پیر"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 25,
+    "position": 0,
+    "text": "بدو گفت آزاده کای شیرمرد"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 26,
+    "position": 1,
+    "text": "به آهو نجویند مردان نبرد"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 27,
+    "position": 0,
+    "text": "تو آن ماده را نر گردان به تیر"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 28,
+    "position": 1,
+    "text": "شود ماده از تیر تو نر پیر"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 29,
+    "position": 0,
+    "text": "ازان پس هیون را برانگیز تیز"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 30,
+    "position": 1,
+    "text": "چو آهو ز چنگ تو گیرد گریز"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 31,
+    "position": 0,
+    "text": "کمان مهره انداز تا گوش خویش"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 32,
+    "position": 1,
+    "text": "نهد هم‌چنان خوار بر دوش خویش"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 33,
+    "position": 0,
+    "text": "هم‌انگه ز مهره بخاردش گوش"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 34,
+    "position": 1,
+    "text": "بی‌آزار پایش برآرد به دوش"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 35,
+    "position": 0,
+    "text": "به پیکان سر و پای و گوشش بدوز"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 36,
+    "position": 1,
+    "text": "چو خواهی که خوانمت گیتی فروز"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 37,
+    "position": 0,
+    "text": "کمان را به زه کرد بهرام گور"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 38,
+    "position": 1,
+    "text": "برانگیخت از دشت آرام شور"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 39,
+    "position": 0,
+    "text": "دو پیکان به ترکش یکی تیر داشت"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 40,
+    "position": 1,
+    "text": "به دشت اندر از بهر نخچیر داشت"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 41,
+    "position": 0,
+    "text": "هم‌انگه چو آهو شد اندر گریز"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 42,
+    "position": 1,
+    "text": "سپهبد سروهای آن نره تیز"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 43,
+    "position": 0,
+    "text": "به تیر دو پیکان ز سر برگرفت"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 44,
+    "position": 1,
+    "text": "کنیزک بدو ماند اندر شگفت"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 45,
+    "position": 0,
+    "text": "هم‌اندر زمان نر چون ماده گشت"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 46,
+    "position": 1,
+    "text": "سرش زان سروی سیه ساده گشت"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 47,
+    "position": 0,
+    "text": "همان در سروگاه ماده دو تیر"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 48,
+    "position": 1,
+    "text": "بزد همچنان مرد نخچیرگیر"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 49,
+    "position": 0,
+    "text": "دو پیکان به جای سرو در سرش"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 50,
+    "position": 1,
+    "text": "به خون اندرون لعل گشته برش"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 51,
+    "position": 0,
+    "text": "هیون را سوی جفت دیگر بتاخت"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 52,
+    "position": 1,
+    "text": "به خم کمان مهره در مهره ساخت"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 53,
+    "position": 0,
+    "text": "به گوش یکی آهو اندر فکند"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 54,
+    "position": 1,
+    "text": "پسند آمد و بود جای پسند"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 55,
+    "position": 0,
+    "text": "بخارید گوش آهو اندر زمان"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 56,
+    "position": 1,
+    "text": "به تیر اندر آورد جادو کمان"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 57,
+    "position": 0,
+    "text": "سر و گوش و پایش به پیکان بدوخت"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 58,
+    "position": 1,
+    "text": "بدان آهو آزاده را دل بسوخت"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 59,
+    "position": 0,
+    "text": "بزد دست بهرام و او را ز زین"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 60,
+    "position": 1,
+    "text": "نگونسار برزد به روی زمین"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 61,
+    "position": 0,
+    "text": "هیون از بر ماه‌چهره براند"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 62,
+    "position": 1,
+    "text": "برو دست و چنگش به خون درفشاند"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 63,
+    "position": 0,
+    "text": "چنین گفت کای بی‌خرد چنگ‌زن"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 64,
+    "position": 1,
+    "text": "چه بایست جستن به من برشکن"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 65,
+    "position": 0,
+    "text": "اگر کند بودی گشاد برم"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 66,
+    "position": 1,
+    "text": "ازین زخم ننگی شدی گوهرم"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 67,
+    "position": 0,
+    "text": "چو او زیر پای هیون در سپرد"
+  },
+  {
+    "poem_id": 1756,
+    "vorder": 68,
+    "position": 1,
+    "text": "به نخچیر زان پس کنیزک نبرد"
+  }
+]

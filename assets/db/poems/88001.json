@@ -1,0 +1,938 @@
+[
+  {
+    "poem_id": 88001,
+    "vorder": 1,
+    "position": 0,
+    "text": "گهار گهانی بدان جایگاه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 2,
+    "position": 1,
+    "text": "گوی شیرفش با درفش سیاه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 3,
+    "position": 0,
+    "text": "برآشفت چون ترگ رستم بدید"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 4,
+    "position": 1,
+    "text": "خروشی چو شیر ژیان برکشید"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 5,
+    "position": 0,
+    "text": "بدو گفت من کین ترکان چین"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 6,
+    "position": 1,
+    "text": "بخواهم ز سگزی برین دشت کین"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 7,
+    "position": 0,
+    "text": "برانگیخت اسپ از میان سپاه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 8,
+    "position": 1,
+    "text": "بیامد بر پیلتن کینه‌خواه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 9,
+    "position": 0,
+    "text": "ز نزدیک چون ترگ رستم بدید"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 10,
+    "position": 1,
+    "text": "یکی باد سرد از جگر برکشید"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 11,
+    "position": 0,
+    "text": "بدل گفت پیکار با ژنده پیل"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 12,
+    "position": 1,
+    "text": "چو غوطه است خوردن بدریای نیل"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 13,
+    "position": 0,
+    "text": "گریزی بهنگام با سر بجای"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 14,
+    "position": 1,
+    "text": "به از رزم جستن بنام و برای"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 15,
+    "position": 0,
+    "text": "گریزان بیامد سوی قلبگاه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 16,
+    "position": 1,
+    "text": "برو بر نظاره ز هر سو سپاه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 17,
+    "position": 0,
+    "text": "درفش تهمتن میان گروه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 18,
+    "position": 1,
+    "text": "بسان درخت از بر تیغ کوه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 19,
+    "position": 0,
+    "text": "همی تاخت رستم پس او چو گرد"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 20,
+    "position": 1,
+    "text": "زمین لعل گشت و هوا لاژورد"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 21,
+    "position": 0,
+    "text": "گهار گهانی بترسید سخت"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 22,
+    "position": 1,
+    "text": "کزو بود برگشتن تاج و تخت"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 23,
+    "position": 0,
+    "text": "برآورد یک بانگ برسان کوس"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 24,
+    "position": 1,
+    "text": "که بشنید آواز گودرز و طوس"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 25,
+    "position": 0,
+    "text": "همی خواست تا کارزاری کند"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 26,
+    "position": 1,
+    "text": "ندانست کین بار زاری کند"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 27,
+    "position": 0,
+    "text": "چه نیکو بود هر که خود را شناخت"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 28,
+    "position": 1,
+    "text": "چرا تا ز دشمن ببایدش تاخت"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 29,
+    "position": 0,
+    "text": "پس او گرفته گو پیلتن"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 30,
+    "position": 1,
+    "text": "که هان چارهٔ گور کن گر کفن"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 31,
+    "position": 0,
+    "text": "یکی نیزه زد بر کمربند اوی"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 32,
+    "position": 1,
+    "text": "بدرید خفتان و پیوند اوی"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 33,
+    "position": 0,
+    "text": "بینداختش همچو برگ درخت"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 34,
+    "position": 1,
+    "text": "که بر شاخ او بر زند باد سخت"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 35,
+    "position": 0,
+    "text": "نگونسار کرد آن درفش کبود"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 36,
+    "position": 1,
+    "text": "تو گفتی گهار گهانی نبود"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 37,
+    "position": 0,
+    "text": "بدیدند گردان که رستم چه کرد"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 38,
+    "position": 1,
+    "text": "چپ و راست برخاست گرد نبرد"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 39,
+    "position": 0,
+    "text": "درفش همایون ببردند و کوس"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 40,
+    "position": 1,
+    "text": "بیامد سرافراز گودرز و طوس"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 41,
+    "position": 0,
+    "text": "خروشی برآمد ز ایران سپاه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 42,
+    "position": 1,
+    "text": "چو پیروز شد گرد لشکر پناه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 43,
+    "position": 0,
+    "text": "بفرمود رستم کز ایران سوار"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 44,
+    "position": 1,
+    "text": "بر من فرستند صد نامدار"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 45,
+    "position": 0,
+    "text": "هم اکنون من آن پیل و آن تخت عاج"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 46,
+    "position": 1,
+    "text": "همان یاره و سنج و آن طوق و تاج"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 47,
+    "position": 0,
+    "text": "ستانم ز چین و بایران دهم"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 48,
+    "position": 1,
+    "text": "به پیروز شاه دلیران دهم"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 49,
+    "position": 0,
+    "text": "از ایران بیامد همی صد سوار"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 50,
+    "position": 1,
+    "text": "زره‌دار با گُرزهٔ گاوسار"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 51,
+    "position": 0,
+    "text": "چنین گفت رستم بایرانیان"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 52,
+    "position": 1,
+    "text": "که یکسر ببندند کین را میان"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 53,
+    "position": 0,
+    "text": "بجان و سر شاه و خورشید و ماه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 54,
+    "position": 1,
+    "text": "بخاک سیاوش بایران سپاه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 55,
+    "position": 0,
+    "text": "بیزدان دادار جان آفرین"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 56,
+    "position": 1,
+    "text": "که پیروزی آورد بر دشت کین"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 57,
+    "position": 0,
+    "text": "که گر نامداران ز ایران سپاه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 58,
+    "position": 1,
+    "text": "هزیمت پذیرد ز توران سپاه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 59,
+    "position": 0,
+    "text": "سرش را ز تن برکنم در زمان"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 60,
+    "position": 1,
+    "text": "ز خونش کنم جویهای روان"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 61,
+    "position": 0,
+    "text": "بدانست لشکر که او شیرخوست"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 62,
+    "position": 1,
+    "text": "بچنگش سرین گوزن آرزوست"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 63,
+    "position": 0,
+    "text": "همه سوی خاقان نهادند روی"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 64,
+    "position": 1,
+    "text": "بنیزه شده هر یکی جنگ جوی"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 65,
+    "position": 0,
+    "text": "تهمتن بپیش اندرون حمله برد"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 66,
+    "position": 1,
+    "text": "عنان را برخش تگاور سپرد"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 67,
+    "position": 0,
+    "text": "همی خون چکانید بر چرخ ماه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 68,
+    "position": 1,
+    "text": "ستاره نظاره بر آن رزمگاه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 69,
+    "position": 0,
+    "text": "ز بس گرد کز رزمگه بردمید"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 70,
+    "position": 1,
+    "text": "چنان شد که کس روی هامون ندید"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 71,
+    "position": 0,
+    "text": "ز بانگ سواران و زخم سنان"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 72,
+    "position": 1,
+    "text": "نبود ایچ پیدا رکیب از عنان"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 73,
+    "position": 0,
+    "text": "هوا گشت چون روی زنگی سیاه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 74,
+    "position": 1,
+    "text": "ز کشته ندیدند بر دشت راه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 75,
+    "position": 0,
+    "text": "همه مرز تن بود و خفتان و خود"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 76,
+    "position": 1,
+    "text": "تنان را همی داد سرها درود"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 77,
+    "position": 0,
+    "text": "ز گرد سوار ابر بر باد شد"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 78,
+    "position": 1,
+    "text": "زمین پر ز آواز پولاد شد"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 79,
+    "position": 0,
+    "text": "بسی نامدار از پی نام و ننگ"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 80,
+    "position": 1,
+    "text": "بدادند بر خیره سرها بجنگ"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 81,
+    "position": 0,
+    "text": "برآورد رستم برانسان خروش"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 82,
+    "position": 1,
+    "text": "که گفتی برآمد زمانه بجوش"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 83,
+    "position": 0,
+    "text": "چنین گفت کان پیل و آن تخت عاج"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 84,
+    "position": 1,
+    "text": "همان یاره و افسر و طوق و تاج"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 85,
+    "position": 0,
+    "text": "سپرهای چینی و پرده سرای"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 86,
+    "position": 1,
+    "text": "همان افسر و آلت چارپای"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 87,
+    "position": 0,
+    "text": "بایران سزاوار کیخسروست"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 88,
+    "position": 1,
+    "text": "که او در جهان شهریار نوست"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 89,
+    "position": 0,
+    "text": "که چون او بگیتی سرافراز شاه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 90,
+    "position": 1,
+    "text": "نبود و ندیدست خورشید و ماه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 91,
+    "position": 0,
+    "text": "شما را چه کارست با تاج زر"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 92,
+    "position": 1,
+    "text": "بدین زور و این کوشش و این هنر"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 93,
+    "position": 0,
+    "text": "همه دستها سوی بند آورید"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 94,
+    "position": 1,
+    "text": "میان را بخم کمند آورید"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 95,
+    "position": 0,
+    "text": "شما را ز من زندگانی بسست"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 96,
+    "position": 1,
+    "text": "که تاج و نگین بهر دیگر کسست"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 97,
+    "position": 0,
+    "text": "فرستم بنزدیک شاه زمین"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 98,
+    "position": 1,
+    "text": "چه منشور و شنگل چه خاقان چین"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 99,
+    "position": 0,
+    "text": "و گرنه من این خاک آوردگاه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 100,
+    "position": 1,
+    "text": "بنعل ستوران برآرم بماه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 101,
+    "position": 0,
+    "text": "بدشنام بگشاد خاقان زبان"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 102,
+    "position": 1,
+    "text": "بدو گفت کای بدتن بدروان"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 103,
+    "position": 0,
+    "text": "مه ایران مه آن شاه و آن انجمن"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 104,
+    "position": 1,
+    "text": "همی زینهاریت باید چو من"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 105,
+    "position": 0,
+    "text": "تو سگزی که از هر کسی بتری"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 106,
+    "position": 1,
+    "text": "همی شاه چین بایدت لشکری"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 107,
+    "position": 0,
+    "text": "یکی تیر باران بکردند سخت"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 108,
+    "position": 1,
+    "text": "چو باد خزان برجهد بر درخت"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 109,
+    "position": 0,
+    "text": "هوا را بپوشید پر عقاب"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 110,
+    "position": 1,
+    "text": "نبیند چنان رزم جنگی بخواب"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 111,
+    "position": 0,
+    "text": "چو گودرز باران الماس دید"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 112,
+    "position": 1,
+    "text": "ز تیمار رستم دلش بردمید"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 113,
+    "position": 0,
+    "text": "برهام گفت ای درنگی مایست"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 114,
+    "position": 1,
+    "text": "برو با کمان وز سواری دویست"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 115,
+    "position": 0,
+    "text": "کمانهای چاچی و تیر خدنگ"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 116,
+    "position": 1,
+    "text": "نگه‌دار پشت تهمتن بجنگ"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 117,
+    "position": 0,
+    "text": "بگیو آن زمان گفت برکش سپاه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 118,
+    "position": 1,
+    "text": "برین دشت زین بیش دشمن مخواه"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 119,
+    "position": 0,
+    "text": "نه هنگام آرام و آسایش است"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 120,
+    "position": 1,
+    "text": "نه نیز از در رای و آرایش است"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 121,
+    "position": 0,
+    "text": "برو با دلیران سوی دست راست"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 122,
+    "position": 1,
+    "text": "نگه کن که پیران و هومان کجاست"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 123,
+    "position": 0,
+    "text": "تهمتن نگر پیش خاقان چین"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 124,
+    "position": 1,
+    "text": "همی آسمان برزند بر زمین"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 125,
+    "position": 0,
+    "text": "برآشفت رهام همچون پلنگ"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 126,
+    "position": 1,
+    "text": "بیامد بپشت تهمتن بجنگ"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 127,
+    "position": 0,
+    "text": "چنین گفت رستم برهام شیر"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 128,
+    "position": 1,
+    "text": "که ترسم که رخشم شد از کار سیر"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 129,
+    "position": 0,
+    "text": "چنو سست گردد پیاده شوم"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 130,
+    "position": 1,
+    "text": "بخون و خوی آهار داده شوم"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 131,
+    "position": 0,
+    "text": "یکی لشکرست این چو مور و ملخ"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 132,
+    "position": 1,
+    "text": "تو با پیل و با پیلبانان مچخ"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 133,
+    "position": 0,
+    "text": "همه پاک در پیش خسرو بریم"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 134,
+    "position": 1,
+    "text": "ز شگنان و چین هدیهٔ نو بریم"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 135,
+    "position": 0,
+    "text": "و زان جایگه برخروشید و گفت"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 136,
+    "position": 1,
+    "text": "که با روم و چین اهرمن باد جفت"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 137,
+    "position": 0,
+    "text": "ایا گم شده بخت بیچارگان"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 138,
+    "position": 1,
+    "text": "همه زار و با درد غمخوارگان"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 139,
+    "position": 0,
+    "text": "شما را ز رستم نبود آگهی"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 140,
+    "position": 1,
+    "text": "مگر مغزتان از خرد شد تهی"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 141,
+    "position": 0,
+    "text": "کجا اژدها را ندارد بمرد"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 142,
+    "position": 1,
+    "text": "همی پیل جوید بروز نبرد"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 143,
+    "position": 0,
+    "text": "شما را سر از رزم من سیر نیست"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 144,
+    "position": 1,
+    "text": "مرا هدیه جز گُرز و شمشیر نیست"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 145,
+    "position": 0,
+    "text": "ز فتراک بگشاد پیچان کمند"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 146,
+    "position": 1,
+    "text": "خم خام در کوههٔ زین فگند"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 147,
+    "position": 0,
+    "text": "برانگیخت رخش و برآمد خروش"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 148,
+    "position": 1,
+    "text": "همی اژدها را بدرید گوش"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 149,
+    "position": 0,
+    "text": "بهر سو که خام اندر انداختی"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 150,
+    "position": 1,
+    "text": "زمین از دلیران بپرداختی"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 151,
+    "position": 0,
+    "text": "هرانگه که او مهتری را ز زین"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 152,
+    "position": 1,
+    "text": "ربودی بخم کمند از کمین"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 153,
+    "position": 0,
+    "text": "بدین رزمگه بر سرافراز طوس"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 154,
+    "position": 1,
+    "text": "بابر اندر افراختی بوق و کوس"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 155,
+    "position": 0,
+    "text": "ببستی از ایران کسی دست اوی"
+  },
+  {
+    "poem_id": 88001,
+    "vorder": 156,
+    "position": 1,
+    "text": "ز هامون نهادی سوی کوه روی"
+  }
+]

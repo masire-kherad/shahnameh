@@ -1,0 +1,758 @@
+[
+  {
+    "poem_id": 1869,
+    "vorder": 1,
+    "position": 0,
+    "text": "چو خورشید روشن بیاراست گاه"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 2,
+    "position": 1,
+    "text": "طلایه بیامد ز نزدیک شاه"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 3,
+    "position": 0,
+    "text": "به پرده سرای اندرون کس ندید"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 4,
+    "position": 1,
+    "text": "همان خیمه بر پای بر بس ندید"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 5,
+    "position": 0,
+    "text": "طلایه بیامد بگفت این به شاه"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 6,
+    "position": 1,
+    "text": "دل شاه شد تنگ زان رزمخواه"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 7,
+    "position": 0,
+    "text": "گزین کرد زان جنگیان سه هزار"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 8,
+    "position": 1,
+    "text": "زره دار و برگستوان ور سوار"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 9,
+    "position": 0,
+    "text": "به نستود فرمود تا برنشست"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 10,
+    "position": 1,
+    "text": "میان یلی تاختن را ببست"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 11,
+    "position": 0,
+    "text": "همی‌راند نستود دل پر ز درد"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 12,
+    "position": 1,
+    "text": "نبد مرد بهرام روز نبرد"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 13,
+    "position": 0,
+    "text": "همان نیز بهرام با لشکرش"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 14,
+    "position": 1,
+    "text": "نبود ایمن از راه وز کشورش"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 15,
+    "position": 0,
+    "text": "همی‌راند بی‌راه دل پر ز بیم"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 16,
+    "position": 1,
+    "text": "همی‌برد با خویشتن زر و سیم"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 17,
+    "position": 0,
+    "text": "یلان سینه و گرد ایزد گشسپ"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 18,
+    "position": 1,
+    "text": "ز یک سوی لشکر همی‌راند اسپ"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 19,
+    "position": 0,
+    "text": "به بی‌راه لشکر همی‌راندند"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 20,
+    "position": 1,
+    "text": "سخنهای شاهان همی‌خواندند"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 21,
+    "position": 0,
+    "text": "پدید آمد از دور یک پاره ده"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 22,
+    "position": 1,
+    "text": "کجا ده نبود از در مرد مه"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 23,
+    "position": 0,
+    "text": "همی‌راند بهرام پیش اندرون"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 24,
+    "position": 1,
+    "text": "پشیمان شده دل پر از درد و خون"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 25,
+    "position": 0,
+    "text": "چو از تشنگی خشک شدشان دهن"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 26,
+    "position": 1,
+    "text": "بیامد به خان یکی پیرزن"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 27,
+    "position": 0,
+    "text": "زبان را به چربی بیاراستند"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 28,
+    "position": 1,
+    "text": "وزان پیرزن آب و نان خواستند"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 29,
+    "position": 0,
+    "text": "زن پیر گفتار ایشان شنید"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 30,
+    "position": 1,
+    "text": "یکی کهنه غربیل پیش آورید"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 31,
+    "position": 0,
+    "text": "برو بر به گسترده یک پاره مشک"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 32,
+    "position": 1,
+    "text": "نهاده به غربیل بر نان کشک"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 33,
+    "position": 0,
+    "text": "یلان سینه برسم به بهرام داد"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 34,
+    "position": 1,
+    "text": "نیامد همی در غم از واژ یاد"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 35,
+    "position": 0,
+    "text": "گرفتند واژ و بخوردند نان"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 36,
+    "position": 1,
+    "text": "نظاره بدان نامداران زنان"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 37,
+    "position": 0,
+    "text": "چو کشکین بخوردند می خواستند"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 38,
+    "position": 1,
+    "text": "زبانها به زمزم بیاراستند"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 39,
+    "position": 0,
+    "text": "زن پیر گفت ار میت آرزوست"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 40,
+    "position": 1,
+    "text": "میست و یکی نیز کهنه کدوست"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 41,
+    "position": 0,
+    "text": "بریدم کدو را که نوبد سرش"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 42,
+    "position": 1,
+    "text": "یکی جام کردم نهادم برش"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 43,
+    "position": 0,
+    "text": "بدو گفت بهرام چون می بود"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 44,
+    "position": 1,
+    "text": "ازان خوبتر جامها کی بود"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 45,
+    "position": 0,
+    "text": "زن پیر رفت و بیاورد جام"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 46,
+    "position": 1,
+    "text": "ازان جام بهرام شد شادکام"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 47,
+    "position": 0,
+    "text": "یکی جام پر بر کفش برنهاد"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 48,
+    "position": 1,
+    "text": "بدان تا شود پیرزن نیز شاد"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 49,
+    "position": 0,
+    "text": "بدو گفت کای مام با فرهی"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 50,
+    "position": 1,
+    "text": "ز کار جهان چیستت آگهی"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 51,
+    "position": 0,
+    "text": "بدو پیرزن گفت چندان سخن"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 52,
+    "position": 1,
+    "text": "شنیدم کزان گشت مغزم کهن"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 53,
+    "position": 0,
+    "text": "ز شهر آمد امروز بسیار کس"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 54,
+    "position": 1,
+    "text": "همی جنگ چوبینه گویند و بس"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 55,
+    "position": 0,
+    "text": "که شد لشکر او به نزدیک شاه"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 56,
+    "position": 1,
+    "text": "سپهبد گریزان بشد بی‌سپاه"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 57,
+    "position": 0,
+    "text": "بدو گفت بهرام کای پاک زن"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 58,
+    "position": 1,
+    "text": "مرا اندرین داستانی بزن"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 59,
+    "position": 0,
+    "text": "که این از خرد بود بهرام را"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 60,
+    "position": 1,
+    "text": "وگر برگزید از هوا کام را"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 61,
+    "position": 0,
+    "text": "بدو پیرزن گفت کای شهره مرد"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 62,
+    "position": 1,
+    "text": "چرا دیو چشم تو را تیره کرد"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 63,
+    "position": 0,
+    "text": "ندانی که بهرام پور گشسپ"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 64,
+    "position": 1,
+    "text": "چوبا پور هرمز بر انگیزد اسپ"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 65,
+    "position": 0,
+    "text": "بخندد برو هرک دارد خرد"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 66,
+    "position": 1,
+    "text": "کس اورا ز گردنکشان نشمرد"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 67,
+    "position": 0,
+    "text": "بدو گفت بهرام گر آرزوی"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 68,
+    "position": 1,
+    "text": "چنین کرد گو می‌خوران در کدوی"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 69,
+    "position": 0,
+    "text": "برین گونه غربیل بر نان جو"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 70,
+    "position": 1,
+    "text": "همی‌دار در پیش تا جو درو"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 71,
+    "position": 0,
+    "text": "بران هم خورش یک شب آرام یافت"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 72,
+    "position": 1,
+    "text": "همی کام دل جست و ناکام یافت"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 73,
+    "position": 0,
+    "text": "چو خورشید برچرخ بگشاد راز"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 74,
+    "position": 1,
+    "text": "سپهدار جنگی بزد طبل باز"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 75,
+    "position": 0,
+    "text": "بیاورد چندانک بودش سپاه"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 76,
+    "position": 1,
+    "text": "گرانمایگان برگرفتند راه"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 77,
+    "position": 0,
+    "text": "بره بر یکی نیستان بود نو"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 78,
+    "position": 1,
+    "text": "بسی اندرو مردم نی‌درو"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 79,
+    "position": 0,
+    "text": "چو از دور دیدند بهرام را"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 80,
+    "position": 1,
+    "text": "چنان لشکرگشن و خودکام را"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 81,
+    "position": 0,
+    "text": "به بهرام گفتند انوشه بدی"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 82,
+    "position": 1,
+    "text": "ز راه نیستان چرا آمدی"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 83,
+    "position": 0,
+    "text": "که بی‌مر سپاهست پیش اندرون"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 84,
+    "position": 1,
+    "text": "همه جنگ را دست شسته به خون"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 85,
+    "position": 0,
+    "text": "چنین گفت بهرام کایدر سوار"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 86,
+    "position": 1,
+    "text": "نباشد جز از لشکر شهریار"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 87,
+    "position": 0,
+    "text": "فرود آمدند اندران نیستان"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 88,
+    "position": 1,
+    "text": "همه جنگ را تنگ بسته میان"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 89,
+    "position": 0,
+    "text": "شنیدم که چون ما ز پرده سرای"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 90,
+    "position": 1,
+    "text": "بسی چیدن راه کردیم رای"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 91,
+    "position": 0,
+    "text": "جهاندار بگزید نستود را"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 92,
+    "position": 1,
+    "text": "جهان جوی بی‌تار و بی‌پود را"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 93,
+    "position": 0,
+    "text": "ابا سه هزار از سواران مرد"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 94,
+    "position": 1,
+    "text": "کجا پای دارند روز نبرد"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 95,
+    "position": 0,
+    "text": "بدان تا بیاید پس ما دمان"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 96,
+    "position": 1,
+    "text": "چو بینم مر او را سرآرم زمان"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 97,
+    "position": 0,
+    "text": "همه اسپ را تنگها برکشید"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 98,
+    "position": 1,
+    "text": "همه گرد این بیشه لشکر کشید"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 99,
+    "position": 0,
+    "text": "سواران سبک برکشیدند تنگ"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 100,
+    "position": 1,
+    "text": "گرفتند شمشیر هندی به چنگ"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 101,
+    "position": 0,
+    "text": "همه نیستان آتش اندر زدند"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 102,
+    "position": 1,
+    "text": "سپه را یکایک بهم بر زدند"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 103,
+    "position": 0,
+    "text": "نیستان سراسر شد افروخته"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 104,
+    "position": 1,
+    "text": "یکی کشته و دیگری سوخته"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 105,
+    "position": 0,
+    "text": "چونستود را دید بهرام گرد"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 106,
+    "position": 1,
+    "text": "عنان بارهٔ تیزتگ را سپرد"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 107,
+    "position": 0,
+    "text": "ز زین برگرفتش به خم کمند"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 108,
+    "position": 1,
+    "text": "بیاورد و کردش هم آنگه ببند"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 109,
+    "position": 0,
+    "text": "همی‌خواست نستود زو زینهار"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 110,
+    "position": 1,
+    "text": "همی‌گفت کای نامور شهریار"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 111,
+    "position": 0,
+    "text": "چرا ریخت خواهی همی خون من"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 112,
+    "position": 1,
+    "text": "ببخشای بر بخت وارون من"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 113,
+    "position": 0,
+    "text": "مکش مر مرا تا دوان پیش تو"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 114,
+    "position": 1,
+    "text": "بیایم بوم زار درویش تو"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 115,
+    "position": 0,
+    "text": "بدو گفت بهرام من چون تو مرد"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 116,
+    "position": 1,
+    "text": "نخواهم که باشد به دشت نبرد"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 117,
+    "position": 0,
+    "text": "نبرم سرت را که ننگ آیدم"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 118,
+    "position": 1,
+    "text": "که چون تو سواری به جنگ آیدم"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 119,
+    "position": 0,
+    "text": "چو یابی رهایی ز دستم بپوی"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 120,
+    "position": 1,
+    "text": "ز من هرچ دیدی به خسرو بگوی"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 121,
+    "position": 0,
+    "text": "چو بشنید نستود روی زمین"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 122,
+    "position": 1,
+    "text": "ببوسید و بسیار کرد آفرین"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 123,
+    "position": 0,
+    "text": "وزان بیشه بهرام شد تابری"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 124,
+    "position": 1,
+    "text": "ابا او دلیران فرخنده پی"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 125,
+    "position": 0,
+    "text": "ببود و برآسود و ز آنجا برفت"
+  },
+  {
+    "poem_id": 1869,
+    "vorder": 126,
+    "position": 1,
+    "text": "به نزدیک خاقان خرامید تفت"
+  }
+]

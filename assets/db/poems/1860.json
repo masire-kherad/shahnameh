@@ -1,0 +1,758 @@
+[
+  {
+    "poem_id": 1860,
+    "vorder": 1,
+    "position": 0,
+    "text": "چو خورشید گردنده بی‌رنگ شد"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 2,
+    "position": 1,
+    "text": "ستاره به برج شباهنگ شد"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 3,
+    "position": 0,
+    "text": "بفرمود قیصر به نیرنگ ساز"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 4,
+    "position": 1,
+    "text": "که پیش آرد اندیشه‌های دراز"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 5,
+    "position": 0,
+    "text": "بسازید جای شگفتی طلسم"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 6,
+    "position": 1,
+    "text": "که کس بازنشناسد او را به جسم"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 7,
+    "position": 0,
+    "text": "نشسته زنی خوب برتخت ناز"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 8,
+    "position": 1,
+    "text": "پراز شرم با جامه‌های طراز"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 9,
+    "position": 0,
+    "text": "ازین روی و زان رو پرستندگان"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 10,
+    "position": 1,
+    "text": "پس پشت و پیش اندرش بندگان"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 11,
+    "position": 0,
+    "text": "نشسته بران تخت بی گفت وگوی"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 12,
+    "position": 1,
+    "text": "بگریان زنی ماند آن خوب روی"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 13,
+    "position": 0,
+    "text": "زمان تا زمان دست برآختی"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 14,
+    "position": 1,
+    "text": "سرشکی ز مژگان بینداختی"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 15,
+    "position": 0,
+    "text": "هرآنکس که دیدی مر او را ز دور"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 16,
+    "position": 1,
+    "text": "زنی یافتی شیفته پر ز نور"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 17,
+    "position": 0,
+    "text": "که بگریستی بر مسیحا بزار"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 18,
+    "position": 1,
+    "text": "دو رخ زرد و مژگان چو ابر بهار"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 19,
+    "position": 0,
+    "text": "طلسم بزرگان چو آمد بجای"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 20,
+    "position": 1,
+    "text": "بر قیصر آمد یکی رهنمای"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 21,
+    "position": 0,
+    "text": "ز دانا چو بشنید قیصر برفت"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 22,
+    "position": 1,
+    "text": "به پیش طلسم آمد آنگاه تفت"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 23,
+    "position": 0,
+    "text": "ازان جادویی در شگفتی بماند"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 24,
+    "position": 1,
+    "text": "فرستاد و گستهم را پیش خواند"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 25,
+    "position": 0,
+    "text": "بگستهم گفت ای گو نامدار"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 26,
+    "position": 1,
+    "text": "یکی دختری داشتم چون نگار"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 27,
+    "position": 0,
+    "text": "ببالید و آمدش هنگام شوی"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 28,
+    "position": 1,
+    "text": "یکی خویش بد مرو را نامجوی"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 29,
+    "position": 0,
+    "text": "به راه مسیحا بدو دادمش"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 30,
+    "position": 1,
+    "text": "ز بی‌دانشی روی بگشادمش"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 31,
+    "position": 0,
+    "text": "فرستادم او رابخان جوان"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 32,
+    "position": 1,
+    "text": "سوی آسمان شد روان جوان"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 33,
+    "position": 0,
+    "text": "کنون او نشستست با سوک و درد"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 34,
+    "position": 1,
+    "text": "شده روز روشن برو لاژورد"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 35,
+    "position": 0,
+    "text": "نه پندم پذیرد نه گوید سخن"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 36,
+    "position": 1,
+    "text": "جهان نو از رنج او شد کهن"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 37,
+    "position": 0,
+    "text": "یکی رنج بردار و او راببین"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 38,
+    "position": 1,
+    "text": "سخنهای دانندگان برگزین"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 39,
+    "position": 0,
+    "text": "جوانی و از گوهر پهلوان"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 40,
+    "position": 1,
+    "text": "مگر با تو او برگشاید زبان"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 41,
+    "position": 0,
+    "text": "بدو گفت گستهم کایدون کنم"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 42,
+    "position": 1,
+    "text": "مگر از دلش رنج بیرون کنم"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 43,
+    "position": 0,
+    "text": "بنزد طلسم آمد آن نامدار"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 44,
+    "position": 1,
+    "text": "گشاده دل و بر سخن کامگار"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 45,
+    "position": 0,
+    "text": "چوآمد به نزدیک تختش فراز"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 46,
+    "position": 1,
+    "text": "طلسم از بر تخت بردش نماز"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 47,
+    "position": 0,
+    "text": "گرانمایه گستهم بنشست خوار"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 48,
+    "position": 1,
+    "text": "سخن گفت با دختر سوکوار"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 49,
+    "position": 0,
+    "text": "دلاور نخست اندر آمد بپند"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 50,
+    "position": 1,
+    "text": "سخنها که او را بدی سودمند"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 51,
+    "position": 0,
+    "text": "بدو گفت کای دخت قیصر نژاد"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 52,
+    "position": 1,
+    "text": "خردمند نخروشد از کار داد"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 53,
+    "position": 0,
+    "text": "رهانیست از مرگ پران عقاب"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 54,
+    "position": 1,
+    "text": "چه در بیشه شیر و چه ماهی در آب"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 55,
+    "position": 0,
+    "text": "همه باد بد گفتن پهلوان"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 56,
+    "position": 1,
+    "text": "که زن بی‌زبان بود و تن بی‌روان"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 57,
+    "position": 0,
+    "text": "به انگشت خود هر زمانی سرشک"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 58,
+    "position": 1,
+    "text": "بینداختی پیش گویا پزشک"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 59,
+    "position": 0,
+    "text": "چوگستهم ازو در شگفتی بماند"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 60,
+    "position": 1,
+    "text": "فرستاد قیصر کس او را بخواند"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 61,
+    "position": 0,
+    "text": "چه دیدی بدوگفت از دخترم"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 62,
+    "position": 1,
+    "text": "کزو تیره گردد همی افسرم"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 63,
+    "position": 0,
+    "text": "بدو گفت بسیار دادمش پند"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 64,
+    "position": 1,
+    "text": "نبد پند من پیش او کاربند"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 65,
+    "position": 0,
+    "text": "دگر روز قیصر به بالوی گفت"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 66,
+    "position": 1,
+    "text": "که امروز با اندیان باش جفت"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 67,
+    "position": 0,
+    "text": "همان نیز شاپور مهتر نژاد"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 68,
+    "position": 1,
+    "text": "کند جان ما رابدین دخت شاد"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 69,
+    "position": 0,
+    "text": "شوی پیش این دختر سوکوار"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 70,
+    "position": 1,
+    "text": "سخن گویی ازنامور شهریار"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 71,
+    "position": 0,
+    "text": "مگر پاسخی یابی از دخترم"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 72,
+    "position": 1,
+    "text": "کزو آتش آید همی برسرم"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 73,
+    "position": 0,
+    "text": "مگر بشنود پند و اندرزتان"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 74,
+    "position": 1,
+    "text": "بداند سرماهی وارزتان"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 75,
+    "position": 0,
+    "text": "برآنم که امروز پاسخ دهد"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 76,
+    "position": 1,
+    "text": "چوپاسخ به آواز فرخ دهد"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 77,
+    "position": 0,
+    "text": "شود رسته زین انده سوکوار"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 78,
+    "position": 1,
+    "text": "که خوناب بارد همی برکنار"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 79,
+    "position": 0,
+    "text": "برفت آن گرامی سه آزادمرد"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 80,
+    "position": 1,
+    "text": "سخن گوی وهریک بننگ نبرد"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 81,
+    "position": 0,
+    "text": "ازیشان کسی روی پاسخ ندید"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 82,
+    "position": 1,
+    "text": "زن بی‌زبان خامشی برگزید"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 83,
+    "position": 0,
+    "text": "ازان چاره نزدیک قیصر شدند"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 84,
+    "position": 1,
+    "text": "ببیچارگی نزد داور شدند"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 85,
+    "position": 0,
+    "text": "که هرچند گفتیم ودادیم پند"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 86,
+    "position": 1,
+    "text": "نبد پند ما مر ورا سودمند"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 87,
+    "position": 0,
+    "text": "چنین گفت قیصر که بد روزگار"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 88,
+    "position": 1,
+    "text": "که ما سوکواریم زین سوکوار"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 89,
+    "position": 0,
+    "text": "ازان نامداران چو چاره نیافت"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 90,
+    "position": 1,
+    "text": "سوی رای خراد بر زین شتافت"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 91,
+    "position": 0,
+    "text": "بدو گفت کای نامدار دبیر"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 92,
+    "position": 1,
+    "text": "گزین سر تخمهٔ اردشیر"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 93,
+    "position": 0,
+    "text": "یکی سوی این دختر اندر شوی"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 94,
+    "position": 1,
+    "text": "مگر یک ره آواز او بشنوی"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 95,
+    "position": 0,
+    "text": "فرستاد با او یکی استوار"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 96,
+    "position": 1,
+    "text": "ز ایوان به نزدیک آن سوکوار"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 97,
+    "position": 0,
+    "text": "چوخراد بر زین بیامد برش"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 98,
+    "position": 1,
+    "text": "نگه کرد روی و سر و افسرش"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 99,
+    "position": 0,
+    "text": "همی‌بود پیشش زمانی دراز"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 100,
+    "position": 1,
+    "text": "طلسم فریبنده بردش نماز"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 101,
+    "position": 0,
+    "text": "بسی گفت و زن هیچ پاسخ نداد"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 102,
+    "position": 1,
+    "text": "پراندیشه شد مرد مهتر نژاد"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 103,
+    "position": 0,
+    "text": "سراپای زن راهمی‌بنگرید"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 104,
+    "position": 1,
+    "text": "پرستندگان را بر او بدید"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 105,
+    "position": 0,
+    "text": "همی‌گفت گر زن زغم بیهش است"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 106,
+    "position": 1,
+    "text": "پرستنده باری چرا خامش است"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 107,
+    "position": 0,
+    "text": "اگر خود سرشکست در چشم اوی"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 108,
+    "position": 1,
+    "text": "سزیدی اگر کم شدی خشم اوی"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 109,
+    "position": 0,
+    "text": "به پیش برش بر چکاند همی"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 110,
+    "position": 1,
+    "text": "چپ وراست جنبش نداند همی"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 111,
+    "position": 0,
+    "text": "سرشکش که انداخت یک جای رفت"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 112,
+    "position": 1,
+    "text": "نه جنبان شدش دست ونه پای رفت"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 113,
+    "position": 0,
+    "text": "اگرخود درین کالبد جان بدی"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 114,
+    "position": 1,
+    "text": "جز از دست جاییش جنبان بدی"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 115,
+    "position": 0,
+    "text": "سرشکش سوی دیگر انداختی"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 116,
+    "position": 1,
+    "text": "وگر دست جای دگر آختی"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 117,
+    "position": 0,
+    "text": "نبینم همی جنبش جان و جسم"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 118,
+    "position": 1,
+    "text": "نباشد جز از فیلسوفی طلسم"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 119,
+    "position": 0,
+    "text": "بر قیصر آمد بخندید وگفت"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 120,
+    "position": 1,
+    "text": "که این ماه رخ را خرد نیست جفت"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 121,
+    "position": 0,
+    "text": "طلسمست کاین رومیان ساختند"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 122,
+    "position": 1,
+    "text": "که بالوی و گستهم نشناختند"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 123,
+    "position": 0,
+    "text": "بایرانیان بربخندی همی"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 124,
+    "position": 1,
+    "text": "وگر چشم ما را ببندی همی"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 125,
+    "position": 0,
+    "text": "چواین بشنود شاه خندان شود"
+  },
+  {
+    "poem_id": 1860,
+    "vorder": 126,
+    "position": 1,
+    "text": "گشاده رخ و سیم دندان شود"
+  }
+]

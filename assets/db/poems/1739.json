@@ -1,0 +1,626 @@
+[
+  {
+    "poem_id": 1739,
+    "vorder": 1,
+    "position": 0,
+    "text": "چو بر زد سر از برج شیر آفتاب"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 2,
+    "position": 1,
+    "text": "ببالید روز و بپالود خواب"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 3,
+    "position": 0,
+    "text": "به جشن آمدند آنک بودی به شهر"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 4,
+    "position": 1,
+    "text": "بزرگان جوینده از جشن بهر"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 5,
+    "position": 0,
+    "text": "کنیزک سوی چاره بنهاد روی"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 6,
+    "position": 1,
+    "text": "چنانچون بود مردم چاره‌جوی"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 7,
+    "position": 0,
+    "text": "چو ایوان خالی به چنگ آمدش"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 8,
+    "position": 1,
+    "text": "دل شیر و چنگ و پلنگ آمدش"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 9,
+    "position": 0,
+    "text": "دو اسپ گرانمایه ز آخر ببرد"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 10,
+    "position": 1,
+    "text": "گزیده سلیح سواران گرد"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 11,
+    "position": 0,
+    "text": "ز دینار چندانک بایست نیز"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 12,
+    "position": 1,
+    "text": "ز خوشاب و یاقوت و هرگونه چیز"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 13,
+    "position": 0,
+    "text": "چو آمد همه ساز رفتن به جای"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 14,
+    "position": 1,
+    "text": "شب آمد دو تن راست کردند رای"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 15,
+    "position": 0,
+    "text": "سوی شهر ایران نهادند روی"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 16,
+    "position": 1,
+    "text": "دو خرم نهان شاد و آرامجوی"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 17,
+    "position": 0,
+    "text": "شب و روز یکسر همی تاختند"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 18,
+    "position": 1,
+    "text": "به خواب و به خوردن نپرداختند"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 19,
+    "position": 0,
+    "text": "برین‌گونه از شهر بر خورستان"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 20,
+    "position": 1,
+    "text": "همی راند تا کشور سورستان"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 21,
+    "position": 0,
+    "text": "چو اسب و تن از تاختن گشت سست"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 22,
+    "position": 1,
+    "text": "فرود آمدن را همی جای جست"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 23,
+    "position": 0,
+    "text": "دهی خرم آمد به پیشش به راه"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 24,
+    "position": 1,
+    "text": "پر از باغ و میدان و پر جشنگاه"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 25,
+    "position": 0,
+    "text": "تن از رنج خسته گریزان ز بد"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 26,
+    "position": 1,
+    "text": "بیامد در باغبانی بزد"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 27,
+    "position": 0,
+    "text": "بیامد دمان مرد پالیزبان"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 28,
+    "position": 1,
+    "text": "که هم نیک‌دل بود و هم میزبان"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 29,
+    "position": 0,
+    "text": "دو تن دیده با نیزه و درع و خود"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 30,
+    "position": 1,
+    "text": "ز شاپور پرسید هست این درود"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 31,
+    "position": 0,
+    "text": "بدین بیگهی از کجا خاستی"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 32,
+    "position": 1,
+    "text": "چنین تاختن را بیاراستی"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 33,
+    "position": 0,
+    "text": "بدو گفت شاپور کای نیک‌خواه"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 34,
+    "position": 1,
+    "text": "سخن چند پرسی ز گم کرده راه"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 35,
+    "position": 0,
+    "text": "یک مرد ایرانیم راه‌جوی"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 36,
+    "position": 1,
+    "text": "گریزان بدین مرز بنهاده روی"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 37,
+    "position": 0,
+    "text": "پر از دردم از قیصر و لشکرش"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 38,
+    "position": 1,
+    "text": "مبادا که بینم سر و افسرش"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 39,
+    "position": 0,
+    "text": "گر امشب مرا میزبانی کنی"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 40,
+    "position": 1,
+    "text": "هشیواری و مرزبانی کنی"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 41,
+    "position": 0,
+    "text": "برآنم که روزی به کار آیدت"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 42,
+    "position": 1,
+    "text": "درختی که کشتی به بار آیدت"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 43,
+    "position": 0,
+    "text": "بدو باغبان گفت کین خان تست"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 44,
+    "position": 1,
+    "text": "تن باغبان نیز مهمان تست"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 45,
+    "position": 0,
+    "text": "بدان چیز کاید مرا دست‌رس"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 46,
+    "position": 1,
+    "text": "بکوشم بیارم نگویم به کس"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 47,
+    "position": 0,
+    "text": "فرود آمد از باره شاپور شاه"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 48,
+    "position": 1,
+    "text": "کنیزک همی رفت با او به راه"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 49,
+    "position": 0,
+    "text": "خورش ساخت چندان زن باغبان"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 50,
+    "position": 1,
+    "text": "ز هر گونه چندانک بودش توان"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 51,
+    "position": 0,
+    "text": "چو نان خورده شد کار می ساختند"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 52,
+    "position": 1,
+    "text": "سبک مایه جایی بپرداختند"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 53,
+    "position": 0,
+    "text": "سبک باغبان می به شاپور داد"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 54,
+    "position": 1,
+    "text": "که بردار ازان کس که آیدت یاد"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 55,
+    "position": 0,
+    "text": "بدو گفت شاپور کای میزبان"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 56,
+    "position": 1,
+    "text": "سخن‌گوی و پرمایه پالیزبان"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 57,
+    "position": 0,
+    "text": "کسی کو می آرد نخست او خورد"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 58,
+    "position": 1,
+    "text": "چو بیشش بود سالیان و خرد"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 59,
+    "position": 0,
+    "text": "تو از من به سال اندکی برتری"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 60,
+    "position": 1,
+    "text": "تو باید که چون می دهی می خوری"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 61,
+    "position": 0,
+    "text": "بدو باغبان گفت کای پرهنر"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 62,
+    "position": 1,
+    "text": "نخست آن خورد می که با زیب‌تر"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 63,
+    "position": 0,
+    "text": "تو باید که باشی برین پیش رو"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 64,
+    "position": 1,
+    "text": "که پیری به فرهنگ و بر سال نو"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 65,
+    "position": 0,
+    "text": "همی بود تاج آید از موی تو"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 66,
+    "position": 1,
+    "text": "همی رنگ عاج آید از روی تو"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 67,
+    "position": 0,
+    "text": "بخندید شاپور و بستد نبید"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 68,
+    "position": 1,
+    "text": "یکی باد سرد از جگر برکشید"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 69,
+    "position": 0,
+    "text": "به پالیزبان گفت کای پاک‌دین"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 70,
+    "position": 1,
+    "text": "چه آگاهی استت ز ایران زمین"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 71,
+    "position": 0,
+    "text": "چنین دادپاسخ که ای برمنش"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 72,
+    "position": 1,
+    "text": "ز تو دور بادا بد بدکنش"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 73,
+    "position": 0,
+    "text": "به بدخواه ما باد چندان زیان"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 74,
+    "position": 1,
+    "text": "که از قیصر آمد به ایرانیان"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 75,
+    "position": 0,
+    "text": "از ایران پراگنده شد هرک بود"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 76,
+    "position": 1,
+    "text": "نماند اندران بوم کشت و درود"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 77,
+    "position": 0,
+    "text": "ز بس غارت و کشتن مرد و زن"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 78,
+    "position": 1,
+    "text": "پراگنده گشت آن بزرگ انجمن"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 79,
+    "position": 0,
+    "text": "وزیشان بسی نیز ترسا شدند"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 80,
+    "position": 1,
+    "text": "به زنار پیش سکوبا شدند"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 81,
+    "position": 0,
+    "text": "بس جاثلیقی به سر بر کلاه"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 82,
+    "position": 1,
+    "text": "به دور از بر و بوم و آرامگاه"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 83,
+    "position": 0,
+    "text": "بدو گفت شاپور شاه اورمزد"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 84,
+    "position": 1,
+    "text": "که رخشان بدی همچو ماه اورمزد"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 85,
+    "position": 0,
+    "text": "کجا شد که قیصر چنین چیره شد"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 86,
+    "position": 1,
+    "text": "ز بخت آب ایرانیان تیره شد"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 87,
+    "position": 0,
+    "text": "بدو باغبان گفت کای سرفراز"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 88,
+    "position": 1,
+    "text": "ترا جاودان مهتری باد و ناز"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 89,
+    "position": 0,
+    "text": "ازو مرده و زنده جایی نشان"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 90,
+    "position": 1,
+    "text": "نیامد به ایران بدان سرکشان"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 91,
+    "position": 0,
+    "text": "هرانکس که بودند ز آبادبوم"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 92,
+    "position": 1,
+    "text": "اسیرند سرتاسر اکنون به روم"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 93,
+    "position": 0,
+    "text": "برین زار بگریست پالیزبان"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 94,
+    "position": 1,
+    "text": "که بود آن زمان شاه را میزبان"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 95,
+    "position": 0,
+    "text": "بدو میزان گفت کایدر سه روز"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 96,
+    "position": 1,
+    "text": "بباشی بود خانه گیتی فروز"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 97,
+    "position": 0,
+    "text": "که دانا زد این داستان از نخست"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 98,
+    "position": 1,
+    "text": "که هرکس که آزرم مهمان نجست"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 99,
+    "position": 0,
+    "text": "نباشد خرد هیچ نزدیک اوی"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 100,
+    "position": 1,
+    "text": "نیاز آورد بخت تاریک اوی"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 101,
+    "position": 0,
+    "text": "بباش و بیاسای و می خور به کام"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 102,
+    "position": 1,
+    "text": "چو گردد دلت رام بر گوی نام"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 103,
+    "position": 0,
+    "text": "بدو گفت شاپور کری رواست"
+  },
+  {
+    "poem_id": 1739,
+    "vorder": 104,
+    "position": 1,
+    "text": "به مابر کنون میزبان پادشاست"
+  }
+]

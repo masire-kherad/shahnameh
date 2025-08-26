@@ -1,0 +1,650 @@
+[
+  {
+    "poem_id": 1433,
+    "vorder": 1,
+    "position": 0,
+    "text": "ازان پس جهانجوی خسته جگر"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 2,
+    "position": 1,
+    "text": "برون کرد مردی چو مرغی به پر"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 3,
+    "position": 0,
+    "text": "سوی زابلستان فرستاد زود"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 4,
+    "position": 1,
+    "text": "به نزدیک دستان و رستم درود"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 5,
+    "position": 0,
+    "text": "کنون چشم شد تیره و تیره بخت"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 6,
+    "position": 1,
+    "text": "به خاک اندر آمد سر تاج و تخت"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 7,
+    "position": 0,
+    "text": "جگر خسته در چنگ آهرمنم"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 8,
+    "position": 1,
+    "text": "همی بگسلد زار جان از تنم"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 9,
+    "position": 0,
+    "text": "چو از پندهای تو یادآورم"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 10,
+    "position": 1,
+    "text": "همی از جگر سرد باد آورم"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 11,
+    "position": 0,
+    "text": "نرفتم به گفتار تو هوشمند"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 12,
+    "position": 1,
+    "text": "ز کم دانشی بر من آمد گزند"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 13,
+    "position": 0,
+    "text": "اگر تو نبندی بدین بد میان"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 14,
+    "position": 1,
+    "text": "همه سود را مایه باشد زیان"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 15,
+    "position": 0,
+    "text": "چو پوینده نزدیک دستان رسید"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 16,
+    "position": 1,
+    "text": "بگفت آنچ دانست و دید و شنید"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 17,
+    "position": 0,
+    "text": "هم آن گنج و هم لشکر نامدار"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 18,
+    "position": 1,
+    "text": "بیاراسته چون گل اندر بهار"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 19,
+    "position": 0,
+    "text": "همه چرخ گردان به دیوان سپرد"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 20,
+    "position": 1,
+    "text": "تو گویی که باد اندر آمد ببرد"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 21,
+    "position": 0,
+    "text": "چو بشنید بر تن بدرید پوست"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 22,
+    "position": 1,
+    "text": "ز دشمن نهان داشت این هم ز دوست"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 23,
+    "position": 0,
+    "text": "به روشن دل از دور بدها بدید"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 24,
+    "position": 1,
+    "text": "که زین بر زمانه چه خواهد رسید"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 25,
+    "position": 0,
+    "text": "به رستم چنین گفت دستان سام"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 26,
+    "position": 1,
+    "text": "که شمشیر کوته شد اندر نیام"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 27,
+    "position": 0,
+    "text": "نشاید کزین پس چمیم و چریم"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 28,
+    "position": 1,
+    "text": "وگر تخت را خویشتن پروریم"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 29,
+    "position": 0,
+    "text": "که شاه جهان در دم اژدهاست"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 30,
+    "position": 1,
+    "text": "به ایرانیان بر چه مایه بلاست"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 31,
+    "position": 0,
+    "text": "کنون کرد باید ترا رخش زین"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 32,
+    "position": 1,
+    "text": "بخواهی به تیغ جهان بخش کین"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 33,
+    "position": 0,
+    "text": "همانا که از بهر این روزگار"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 34,
+    "position": 1,
+    "text": "ترا پرورانید پروردگار"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 35,
+    "position": 0,
+    "text": "نشاید بدین کار آهرمنی"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 36,
+    "position": 1,
+    "text": "که آسایش آری و گر دم زنی"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 37,
+    "position": 0,
+    "text": "برت را به ببر بیان سخت کن"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 38,
+    "position": 1,
+    "text": "سر از خواب و اندیشه پردخت کن"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 39,
+    "position": 0,
+    "text": "هران تن که چشمش سنان تو دید"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 40,
+    "position": 1,
+    "text": "که گوید که او را روان آرمید"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 41,
+    "position": 0,
+    "text": "اگر جنگ دریا کنی خون شود"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 42,
+    "position": 1,
+    "text": "از آوای تو کوه هامون شود"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 43,
+    "position": 0,
+    "text": "نباید که ارژنگ و دیو سپید"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 44,
+    "position": 1,
+    "text": "به جان از تو دارند هرگز امید"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 45,
+    "position": 0,
+    "text": "کنون گردن شاه مازندران"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 46,
+    "position": 1,
+    "text": "همه خرد بشکن بگرز گران"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 47,
+    "position": 0,
+    "text": "چنین پاسخش داد رستم که راه"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 48,
+    "position": 1,
+    "text": "درازست و من چون شوم کینه خواه"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 49,
+    "position": 0,
+    "text": "ازین پادشاهی بدان گفت زال"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 50,
+    "position": 1,
+    "text": "دو راهست و هر دو به رنج و وبال"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 51,
+    "position": 0,
+    "text": "یکی از دو راه آنک کاووس رفت"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 52,
+    "position": 1,
+    "text": "دگر کوه و بالا و منزل دو هفت"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 53,
+    "position": 0,
+    "text": "پر از دیو و شیرست و پر تیرگی"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 54,
+    "position": 1,
+    "text": "بماند بدو چشمت از خیرگی"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 55,
+    "position": 0,
+    "text": "تو کوتاه بگزین شگفتی ببین"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 56,
+    "position": 1,
+    "text": "که یار تو باشد جهان‌آفرین"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 57,
+    "position": 0,
+    "text": "اگرچه به رنجست هم بگذرد"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 58,
+    "position": 1,
+    "text": "پی رخش فرخ زمین بسپرد"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 59,
+    "position": 0,
+    "text": "شب تیره تا برکشد روز چاک"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 60,
+    "position": 1,
+    "text": "نیایش کنم پیش یزدان پاک"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 61,
+    "position": 0,
+    "text": "مگر باز بینم بر و یال تو"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 62,
+    "position": 1,
+    "text": "همان پهلوی چنگ و گوپال تو"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 63,
+    "position": 0,
+    "text": "و گر هوش تو نیز بر دست دیو"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 64,
+    "position": 1,
+    "text": "برآید به فرمان گیهان خدیو"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 65,
+    "position": 0,
+    "text": "تواند کسی این سخن بازداشت"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 66,
+    "position": 1,
+    "text": "چنان کاو گذارد بباید گذاشت"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 67,
+    "position": 0,
+    "text": "نخواهد همی ماند ایدر کسی"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 68,
+    "position": 1,
+    "text": "بخوانند اگرچه بماند بسی"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 69,
+    "position": 0,
+    "text": "کسی کاو جهان را بنام بلند"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 70,
+    "position": 1,
+    "text": "گذارد به رفتن نباشد نژند"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 71,
+    "position": 0,
+    "text": "چنین گفت رستم به فرخ پدر"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 72,
+    "position": 1,
+    "text": "که من بسته دارم به فرمان کمر"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 73,
+    "position": 0,
+    "text": "ولیکن بدوزخ چمیدن به پای"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 74,
+    "position": 1,
+    "text": "بزرگان پیشین ندیدند رای"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 75,
+    "position": 0,
+    "text": "همان از تن خویش نابوده سیر"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 76,
+    "position": 1,
+    "text": "نیاید کسی پیش درنده شیر"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 77,
+    "position": 0,
+    "text": "کنون من کمربسته و رفته‌گیر"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 78,
+    "position": 1,
+    "text": "نخواهم جز از دادگر دستگیر"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 79,
+    "position": 0,
+    "text": "تن و جان فدای سپهبد کنم"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 80,
+    "position": 1,
+    "text": "طلسم دل جادوان بشکنم"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 81,
+    "position": 0,
+    "text": "هرانکس که زنده است ز ایرانیان"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 82,
+    "position": 1,
+    "text": "بیارم ببندم کمر بر میان"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 83,
+    "position": 0,
+    "text": "نه ارژنگ مانم نه دیو سپید"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 84,
+    "position": 1,
+    "text": "نه سنجه نه پولاد غندی نه بید"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 85,
+    "position": 0,
+    "text": "به نام جهان‌آفرین یک خدای"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 86,
+    "position": 1,
+    "text": "که رستم نگرداند از رخش پای"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 87,
+    "position": 0,
+    "text": "مگر دست ارژنگ بسته چو سنگ"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 88,
+    "position": 1,
+    "text": "فگنده به گردنش در پالهنگ"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 89,
+    "position": 0,
+    "text": "سر و مغز پولاد را زیر پای"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 90,
+    "position": 1,
+    "text": "پی رخش برده زمین را ز جای"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 91,
+    "position": 0,
+    "text": "بپوشید ببر و برآورد یال"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 92,
+    "position": 1,
+    "text": "برو آفرین خواند بسیار زال"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 93,
+    "position": 0,
+    "text": "چو رستم برخش اندر آورد پای"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 94,
+    "position": 1,
+    "text": "رخش رنگ بر جای و دل هم به جای"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 95,
+    "position": 0,
+    "text": "بیامد پر از آب رودابه روی"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 96,
+    "position": 1,
+    "text": "همی زار بگریست دستان بروی"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 97,
+    "position": 0,
+    "text": "بدو گفت کای مادر نیکخوی"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 98,
+    "position": 1,
+    "text": "نه بگزیدم این راه برآرزوی"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 99,
+    "position": 0,
+    "text": "مرا در غم خود گذاری همی"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 100,
+    "position": 1,
+    "text": "به یزدان چه امیدداری همی"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 101,
+    "position": 0,
+    "text": "چنین آمدم بخشش روزگار"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 102,
+    "position": 1,
+    "text": "تو جان و تن من به زنهار دار"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 103,
+    "position": 0,
+    "text": "به پدرود کردنش رفتند پیش"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 104,
+    "position": 1,
+    "text": "که دانست کش باز بینند بیش"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 105,
+    "position": 0,
+    "text": "زمانه بدین سان همی بگذرد"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 106,
+    "position": 1,
+    "text": "دمش مرد دانا همی بشمرد"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 107,
+    "position": 0,
+    "text": "هران روز بد کز تو اندر گذشت"
+  },
+  {
+    "poem_id": 1433,
+    "vorder": 108,
+    "position": 1,
+    "text": "بر آنی کزو گیتی آباد گشت"
+  }
+]

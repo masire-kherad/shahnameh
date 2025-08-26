@@ -1,0 +1,818 @@
+[
+  {
+    "poem_id": 1610,
+    "vorder": 1,
+    "position": 0,
+    "text": "ازان نامداران سواری بجست"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 2,
+    "position": 1,
+    "text": "گهی شد پیاده گهی برنشست"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 3,
+    "position": 0,
+    "text": "چو آمد سوی زابلستان بگفت"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 4,
+    "position": 1,
+    "text": "که پیل ژیان گشت با خاک جفت"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 5,
+    "position": 0,
+    "text": "زواره همان و سپاهش همان"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 6,
+    "position": 1,
+    "text": "سواری نجست از بد بدگمان"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 7,
+    "position": 0,
+    "text": "خروشی برآمد ز زابلستان"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 8,
+    "position": 1,
+    "text": "ز بدخواه وز شاه کابلستان"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 9,
+    "position": 0,
+    "text": "همی ریخت زال از بر یال خاک"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 10,
+    "position": 1,
+    "text": "همی‌کرد روی و بر خویش چاک"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 11,
+    "position": 0,
+    "text": "همی‌گفت زار ای گو پیلتن"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 12,
+    "position": 1,
+    "text": "نخواهد که پوشد تنم جز کفن"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 13,
+    "position": 0,
+    "text": "گو سرفراز اژدهای دلیر"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 14,
+    "position": 1,
+    "text": "زواره که بد نامبردار شیر"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 15,
+    "position": 0,
+    "text": "شغاد آن به نفرین شوریده‌بخت"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 16,
+    "position": 1,
+    "text": "بکند از بن این خسروانی درخت"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 17,
+    "position": 0,
+    "text": "که داند که با پیل روباه شوم"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 18,
+    "position": 1,
+    "text": "همی کین سگالد بران مرز و بوم"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 19,
+    "position": 0,
+    "text": "که دارد به یاد این چنین روزگار"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 20,
+    "position": 1,
+    "text": "که داند شنیدن ز آموزگار"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 21,
+    "position": 0,
+    "text": "که چون رستمی پیش بینم به خاک"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 22,
+    "position": 1,
+    "text": "به گفتار روباه گردد هلاک"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 23,
+    "position": 0,
+    "text": "چرا پیش ایشان نمردم به زار"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 24,
+    "position": 1,
+    "text": "چرا ماندم اندر جهان یادگار"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 25,
+    "position": 0,
+    "text": "چرا بایدم زندگانی و گاه"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 26,
+    "position": 1,
+    "text": "چرا بایدم خواب و آرامگاه"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 27,
+    "position": 0,
+    "text": "پس‌انگه بسی مویه آغاز کرد"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 28,
+    "position": 1,
+    "text": "چو بر پور پهلو همی ساز کرد"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 29,
+    "position": 0,
+    "text": "گوا شیرگیرا یلا مهترا"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 30,
+    "position": 1,
+    "text": "دلاور جهاندیده کنداورا"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 31,
+    "position": 0,
+    "text": "کجات آن دلیری و مردانگی"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 32,
+    "position": 1,
+    "text": "کجات آن بزرگی و فرزانگی"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 33,
+    "position": 0,
+    "text": "کجات آن دل و رای و روشن‌روان"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 34,
+    "position": 1,
+    "text": "کجات آن بر و برز و یال گران"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 35,
+    "position": 0,
+    "text": "کجات آن بزرگ اژدهافش درفش"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 36,
+    "position": 1,
+    "text": "کجا تیر و گوپال و تیغ بنفش"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 37,
+    "position": 0,
+    "text": "نماندی به گیتی و رفتی به خاک"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 38,
+    "position": 1,
+    "text": "که بادا سر دشمنت در مغاک"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 39,
+    "position": 0,
+    "text": "پس انگه فرامرز را با سپاه"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 40,
+    "position": 1,
+    "text": "فرستاد تا رزم جوید ز شاه"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 41,
+    "position": 0,
+    "text": "تن کشته از چاه باز آورد"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 42,
+    "position": 1,
+    "text": "جهان را به زاری نیاز آورد"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 43,
+    "position": 0,
+    "text": "فرامرز چون پیش کابل رسید"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 44,
+    "position": 1,
+    "text": "به شهر اندرون نامداری ندید"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 45,
+    "position": 0,
+    "text": "گریزان همه شهر و گریان شده"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 46,
+    "position": 1,
+    "text": "ز سوک جهانگیر بریان شده"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 47,
+    "position": 0,
+    "text": "بیامد بران دشت نخچیرگاه"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 48,
+    "position": 1,
+    "text": "به جایی کجا کنده بودند چاه"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 49,
+    "position": 0,
+    "text": "چو روی پدر دید پور دلیر"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 50,
+    "position": 1,
+    "text": "خروشی برآورد بر سان شیر"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 51,
+    "position": 0,
+    "text": "بدان گونه بر خاک تن پر ز خون"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 52,
+    "position": 1,
+    "text": "به روی زمین بر فگنده نگون"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 53,
+    "position": 0,
+    "text": "همی گفت کای پهلوان بلند"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 54,
+    "position": 1,
+    "text": "به رویت که آورد زین سان گزند"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 55,
+    "position": 0,
+    "text": "که نفرین بران مرد بی‌باک باد"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 56,
+    "position": 1,
+    "text": "به جای کله بر سرش خاک باد"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 57,
+    "position": 0,
+    "text": "به یزدان و جان تو ای نامدار"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 58,
+    "position": 1,
+    "text": "به خاک نریمان و سام سوار"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 59,
+    "position": 0,
+    "text": "که هرگز نبیند تنم جز زره"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 60,
+    "position": 1,
+    "text": "بیوسنده و برفگنده گرد"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 61,
+    "position": 0,
+    "text": "بدان تا که کین گو پیلتن"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 62,
+    "position": 1,
+    "text": "بخواهم ازان بی‌وفا انجمن"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 63,
+    "position": 0,
+    "text": "هم‌انکس که با او بدین کین میان"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 64,
+    "position": 1,
+    "text": "ببستند و آمد به ما بر زبان"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 65,
+    "position": 0,
+    "text": "نمانم ز ایشان یکی را به جای"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 66,
+    "position": 1,
+    "text": "هم‌انکس که بود اندرین رهنمای"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 67,
+    "position": 0,
+    "text": "بفرمود تا تختهای گران"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 68,
+    "position": 1,
+    "text": "بیارند از هر سوی در گران"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 69,
+    "position": 0,
+    "text": "ببردند بسیار با هوی و تخت"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 70,
+    "position": 1,
+    "text": "نهادند بر تخت زیبا درخت"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 71,
+    "position": 0,
+    "text": "گشاد آن میان بستن پهلوی"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 72,
+    "position": 1,
+    "text": "برآهیخت زو جامهٔ خسروی"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 73,
+    "position": 0,
+    "text": "نخستین بشستندش از خون گرم"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 74,
+    "position": 1,
+    "text": "بر و یال و ریش و تنش نرم‌نرم"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 75,
+    "position": 0,
+    "text": "همی عنبر و زعفران سوختند"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 76,
+    "position": 1,
+    "text": "همه خستگیهاش بردوختند"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 77,
+    "position": 0,
+    "text": "همی ریخت بر تارکش بر گلاب"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 78,
+    "position": 1,
+    "text": "بگسترد بر تنش کافور ناب"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 79,
+    "position": 0,
+    "text": "به دیبا تنش را بیاراستند"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 80,
+    "position": 1,
+    "text": "ازان پس گل و مشک و می خواستند"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 81,
+    "position": 0,
+    "text": "کفن‌دوز بر وی ببارید خون"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 82,
+    "position": 1,
+    "text": "به شانه زد آن ریش کافورگون"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 83,
+    "position": 0,
+    "text": "نبد جا تنش را همی بر دو تخت"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 84,
+    "position": 1,
+    "text": "تنی بود با سایه گستر درخت"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 85,
+    "position": 0,
+    "text": "یکی نغز تابوت کردند ساج"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 86,
+    "position": 1,
+    "text": "برو میخ زرین و پیکر ز عاج"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 87,
+    "position": 0,
+    "text": "همه درزهایش گرفته به قیر"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 88,
+    "position": 1,
+    "text": "برآلوده بر قیر مشک و عبیر"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 89,
+    "position": 0,
+    "text": "ز جاهی برادرش را برکشید"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 90,
+    "position": 1,
+    "text": "همی دوخت جایی کجا خسته دید"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 91,
+    "position": 0,
+    "text": "زبر مشک و کافور و زیرش گلاب"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 92,
+    "position": 1,
+    "text": "ازان سان همی ریخت بر جای خواب"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 93,
+    "position": 0,
+    "text": "ازان پس تن رخش را برکشید"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 94,
+    "position": 1,
+    "text": "بشست و برو جامه‌ها گسترید"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 95,
+    "position": 0,
+    "text": "بشستند و کردند دیبا کفن"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 96,
+    "position": 1,
+    "text": "بجستند جایی یکی نارون"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 97,
+    "position": 0,
+    "text": "برفتند بیداردل درگران"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 98,
+    "position": 1,
+    "text": "بریدند ازو تختهای گران"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 99,
+    "position": 0,
+    "text": "دو روز اندران کار شد روزگار"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 100,
+    "position": 1,
+    "text": "تن رخش بر پیل کردند بار"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 101,
+    "position": 0,
+    "text": "ز کابلستان تا به زابلستان"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 102,
+    "position": 1,
+    "text": "زمین شد به کردار غلغلستان"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 103,
+    "position": 0,
+    "text": "زن و مرد بد ایستاده به پای"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 104,
+    "position": 1,
+    "text": "تنی را نبد بر زمین نیز جای"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 105,
+    "position": 0,
+    "text": "دو تابوت بر دست بگذاشتند"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 106,
+    "position": 1,
+    "text": "ز انبوه چون باد پنداشتند"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 107,
+    "position": 0,
+    "text": "بده روز و ده شب به زابل رسید"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 108,
+    "position": 1,
+    "text": "کسش بر زمین بر نهاده ندید"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 109,
+    "position": 0,
+    "text": "زمانه شد از درد او با خروش"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 110,
+    "position": 1,
+    "text": "تو گفتی که هامون برآمد به جوش"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 111,
+    "position": 0,
+    "text": "کسی نیز نشنید آواز کس"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 112,
+    "position": 1,
+    "text": "همه بومها مویه کردند و بس"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 113,
+    "position": 0,
+    "text": "به باغ اندرون دخمه‌ای ساختند"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 114,
+    "position": 1,
+    "text": "سرش را به ابر اندر افراختند"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 115,
+    "position": 0,
+    "text": "برابر نهادند زرین دو تخت"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 116,
+    "position": 1,
+    "text": "بران خوابنیده گو نیکبخت"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 117,
+    "position": 0,
+    "text": "هرانکس که بود از پرستندگان"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 118,
+    "position": 1,
+    "text": "از آزاد وز پاکدل بندگان"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 119,
+    "position": 0,
+    "text": "همی مشک باگل برآمیختند"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 120,
+    "position": 1,
+    "text": "به پای گو پیلتن ریختند"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 121,
+    "position": 0,
+    "text": "همی هرکسی گفت کای نامدار"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 122,
+    "position": 1,
+    "text": "چرا خواستی مشک و عنبر نثار"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 123,
+    "position": 0,
+    "text": "نخواهی همی پادشاهی و بزم"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 124,
+    "position": 1,
+    "text": "نپوشی همی نیز خفتان رزم"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 125,
+    "position": 0,
+    "text": "نبخشی همی گنج و دینار نیز"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 126,
+    "position": 1,
+    "text": "همانا که شد پیش تو خوار چیز"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 127,
+    "position": 0,
+    "text": "کنون شاد باشی به خرم بهشت"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 128,
+    "position": 1,
+    "text": "که یزدانت از داد و مردی سرشت"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 129,
+    "position": 0,
+    "text": "در دخمه بستند و گشتند باز"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 130,
+    "position": 1,
+    "text": "شد آن نامور شیر گردن‌فراز"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 131,
+    "position": 0,
+    "text": "چه جویی همی زین سرای سپنج"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 132,
+    "position": 1,
+    "text": "کز آغاز رنجست و فرجام رنج"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 133,
+    "position": 0,
+    "text": "بریزی به خاک از همه ز آهنی"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 134,
+    "position": 1,
+    "text": "اگر دین‌پرستی ور آهرمنی"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 135,
+    "position": 0,
+    "text": "تو تا زنده‌ای سوی نیکی گرای"
+  },
+  {
+    "poem_id": 1610,
+    "vorder": 136,
+    "position": 1,
+    "text": "مگر کام یابی به دیگر سرای"
+  }
+]

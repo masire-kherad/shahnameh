@@ -1,0 +1,986 @@
+[
+  {
+    "poem_id": 1449,
+    "vorder": 1,
+    "position": 0,
+    "text": "غمی بد دل شاه هاماوران"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 2,
+    "position": 1,
+    "text": "ز هرگونه‌ای چاره جست اندران"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 3,
+    "position": 0,
+    "text": "چو یک هفته بگذشت هشتم پگاه"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 4,
+    "position": 1,
+    "text": "فرستاده آمد به نزدیک شاه"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 5,
+    "position": 0,
+    "text": "که گر شاه بیند که مهمان خویش"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 6,
+    "position": 1,
+    "text": "بیاید خرامان به ایوان خویش"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 7,
+    "position": 0,
+    "text": "شود شهر هاماوران ارجمند"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 8,
+    "position": 1,
+    "text": "چو بینند رخشنده‌گاه بلند"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 9,
+    "position": 0,
+    "text": "بدین‌گونه با او همی چاره جست"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 10,
+    "position": 1,
+    "text": "نهان بند او بود رایش درست"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 11,
+    "position": 0,
+    "text": "مگر شهر و دختر بماند بدوی"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 12,
+    "position": 1,
+    "text": "نباشدش بر سر یکی باژجوی"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 13,
+    "position": 0,
+    "text": "بدانست سودابه رای پدر"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 14,
+    "position": 1,
+    "text": "که با سور پرخاش دارد به سر"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 15,
+    "position": 0,
+    "text": "به کاووس کی گفت کاین رای نیست"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 16,
+    "position": 1,
+    "text": "ترا خود به هاماوران جای نیست"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 17,
+    "position": 0,
+    "text": "ترا بی‌بهانه به چنگ آورند"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 18,
+    "position": 1,
+    "text": "نباید که با سور جنگ آورند"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 19,
+    "position": 0,
+    "text": "ز بهر منست این همه گفت‌وگوی"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 20,
+    "position": 1,
+    "text": "ترا زین شدن انده آید به‌روی"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 21,
+    "position": 0,
+    "text": "ز سودابه گفتار باور نکرد"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 22,
+    "position": 1,
+    "text": "نیامدش زیشان کسی را بمرد"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 23,
+    "position": 0,
+    "text": "بشد با دلیران و کندآوران"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 24,
+    "position": 1,
+    "text": "به مهمانی شاه هاماوران"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 25,
+    "position": 0,
+    "text": "یکی شهر بد شاه را شاهه نام"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 26,
+    "position": 1,
+    "text": "همه از در جشن و سور و خرام"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 27,
+    "position": 0,
+    "text": "بدان شهر بودش سرای و نشست"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 28,
+    "position": 1,
+    "text": "همه شهر سرتاسر آذین ببست"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 29,
+    "position": 0,
+    "text": "چو در شاهه شد شاه گردن‌فراز"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 30,
+    "position": 1,
+    "text": "همه شهر بردند پیشش نماز"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 31,
+    "position": 0,
+    "text": "همه گوهر و زعفران ریختند"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 32,
+    "position": 1,
+    "text": "به دینار و عنبر برآمیختند"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 33,
+    "position": 0,
+    "text": "به شهر اندر آوای رود و سرود"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 34,
+    "position": 1,
+    "text": "به هم برکشیدند چون تار و پود"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 35,
+    "position": 0,
+    "text": "چو دیدش سپهدار هاماوران"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 36,
+    "position": 1,
+    "text": "پیاده شدش پیش با مهتران"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 37,
+    "position": 0,
+    "text": "ز ایوان سالار تا پیش در"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 38,
+    "position": 1,
+    "text": "همه در و یاقوت بارید و زر"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 39,
+    "position": 0,
+    "text": "به زرین طبق‌ها فروریختند"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 40,
+    "position": 1,
+    "text": "به سر مشک و عنبر همی بیختند"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 41,
+    "position": 0,
+    "text": "به کاخ اندرون تخت زرین نهاد"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 42,
+    "position": 1,
+    "text": "نشست از بر تخت کاووس شاد"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 43,
+    "position": 0,
+    "text": "همی بود یک هفته با می به دست"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 44,
+    "position": 1,
+    "text": "خوش و خرم آمدش جای نشست"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 45,
+    "position": 0,
+    "text": "شب و روز بر پیش چون کهتران"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 46,
+    "position": 1,
+    "text": "میان بسته بد شاه هاماوران"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 47,
+    "position": 0,
+    "text": "ببسته همه لشکرش را میان"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 48,
+    "position": 1,
+    "text": "پرستنده بر پیش ایرانیان"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 49,
+    "position": 0,
+    "text": "بدین‌گونه تا یکسر ایمن شدند"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 50,
+    "position": 1,
+    "text": "ز چون و چرا و نهیب و گزند"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 51,
+    "position": 0,
+    "text": "همه گفته بودند و آراسته"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 52,
+    "position": 1,
+    "text": "سگالیده از جای برخاسته"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 53,
+    "position": 0,
+    "text": "ز بربر برین‌گونه آگه شدند"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 54,
+    "position": 1,
+    "text": "سگالش چنین بود همره شدند"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 55,
+    "position": 0,
+    "text": "شبی بانگ بوق آمد و تاختن"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 56,
+    "position": 1,
+    "text": "کسی را نبد آرزو ساختن"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 57,
+    "position": 0,
+    "text": "ز بربرستان چون بیامد سپاه"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 58,
+    "position": 1,
+    "text": "به هاماوران شاددل گشت شاه"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 59,
+    "position": 0,
+    "text": "گرفتند ناگاه کاووس را"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 60,
+    "position": 1,
+    "text": "چو گودرز و چون گیو و چون طوس را"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 61,
+    "position": 0,
+    "text": "چو گوید درین مردم پیش‌بین"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 62,
+    "position": 1,
+    "text": "چه دانی تو ای کاردان اندرین"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 63,
+    "position": 0,
+    "text": "چو پیوستهٔ خون نباشد کسی"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 64,
+    "position": 1,
+    "text": "نباید برو بودن ایمن بسی"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 65,
+    "position": 0,
+    "text": "بود نیز پیوسته خونی که مهر"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 66,
+    "position": 1,
+    "text": "ببرد ز تو تا بگرددت چهر"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 67,
+    "position": 0,
+    "text": "چو مهر کسی را بخواهی ستود"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 68,
+    "position": 1,
+    "text": "بباید به سود و زیان آزمود"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 69,
+    "position": 0,
+    "text": "پسر گر به جاه از تو برتر شود"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 70,
+    "position": 1,
+    "text": "هم از رشک مهر تو لاغر شود"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 71,
+    "position": 0,
+    "text": "چنین است گیهان ناپاک رای"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 72,
+    "position": 1,
+    "text": "به هر باد خیره بجنبد ز جای"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 73,
+    "position": 0,
+    "text": "چو کاووس بر خیرگی بسته شد"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 74,
+    "position": 1,
+    "text": "به هاماوران رای پیوسته شد"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 75,
+    "position": 0,
+    "text": "یکی کوه بودش سر اندر سحاب"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 76,
+    "position": 1,
+    "text": "برآوردهٔ ایزد از قعر آب"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 77,
+    "position": 0,
+    "text": "یکی دژ برآورده از کوهسار"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 78,
+    "position": 1,
+    "text": "تو گفتی سپهرستش اندر کنار"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 79,
+    "position": 0,
+    "text": "بدان دژ فرستاد کاووس را"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 80,
+    "position": 1,
+    "text": "همان گیو و گودرز و هم طوس را"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 81,
+    "position": 0,
+    "text": "همان مهتران دگر را به بند"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 82,
+    "position": 1,
+    "text": "ابا شاه کاووس در دژ فگند"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 83,
+    "position": 0,
+    "text": "ز گردان نگهبان دژ شد هزار"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 84,
+    "position": 1,
+    "text": "همه نامداران خنجر‌گذار"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 85,
+    "position": 0,
+    "text": "سراپردهٔ او به تاراج داد"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 86,
+    "position": 1,
+    "text": "به پرمایگان بدره و تاج داد"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 87,
+    "position": 0,
+    "text": "برفتند پوشیده رویان دو خیل"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 88,
+    "position": 1,
+    "text": "عماری یکی درمیانش جلیل"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 89,
+    "position": 0,
+    "text": "که سودابه را باز جای آورند"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 90,
+    "position": 1,
+    "text": "سراپرده را زیر پای آورند"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 91,
+    "position": 0,
+    "text": "چو سودابه پوشیدگان را بدید"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 92,
+    "position": 1,
+    "text": "ز بر جامهٔ خسروی بردرید"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 93,
+    "position": 0,
+    "text": "به مشکین کمند اندرآویخت چنگ"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 94,
+    "position": 1,
+    "text": "به فندق گلان را به خون داد رنگ"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 95,
+    "position": 0,
+    "text": "بدیشان چنین گفت کاین کارکرد"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 96,
+    "position": 1,
+    "text": "ستوده ندارند مردان مرد"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 97,
+    "position": 0,
+    "text": "چرا روز جنگش نکردند بند"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 98,
+    "position": 1,
+    "text": "که جامه‌اش زره بود و تختش سمند"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 99,
+    "position": 0,
+    "text": "سپهدار چون گیو و گودرز و طوس"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 100,
+    "position": 1,
+    "text": "بدرید دلتان ز آوای کوس"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 101,
+    "position": 0,
+    "text": "همی تخت زرین کمینگه کنید"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 102,
+    "position": 1,
+    "text": "ز پیوستگی دست کوته کنید"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 103,
+    "position": 0,
+    "text": "فرستادگان را سگان کرد نام"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 104,
+    "position": 1,
+    "text": "همی ریخت خونابه بر گل مدام"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 105,
+    "position": 0,
+    "text": "جدایی نخواهم ز کاووس گفت"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 106,
+    "position": 1,
+    "text": "وگرچه لحد باشد او را نهفت"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 107,
+    "position": 0,
+    "text": "چو کاووس را بند باید کشید"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 108,
+    "position": 1,
+    "text": "مرا بی‌گنه سر بباید برید"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 109,
+    "position": 0,
+    "text": "بگفتند گفتار او با پدر"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 110,
+    "position": 1,
+    "text": "پر از کین شدش سر پر از خون جگر"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 111,
+    "position": 0,
+    "text": "به حصنش فرستاد نزدیک شوی"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 112,
+    "position": 1,
+    "text": "جگر خسته از غم به خون شسته روی"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 113,
+    "position": 0,
+    "text": "نشستن به یک خانه با شهریار"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 114,
+    "position": 1,
+    "text": "پرستنده او بود و هم غمگسار"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 115,
+    "position": 0,
+    "text": "چو بسته شد آن شاه دیهیم‌جوی"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 116,
+    "position": 1,
+    "text": "سپاهش به ایران نهادند روی"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 117,
+    "position": 0,
+    "text": "پراگنده شد در جهان آگهی"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 118,
+    "position": 1,
+    "text": "که گم شد ز پالیز سرو سهی"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 119,
+    "position": 0,
+    "text": "چو بر تخت زرین ندیدند شاه"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 120,
+    "position": 1,
+    "text": "بجستن گرفتند هر کس کلاه"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 121,
+    "position": 0,
+    "text": "ز ترکان و از دشت نیزه‌وران"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 122,
+    "position": 1,
+    "text": "ز هر سو بیامد سپاهی گران"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 123,
+    "position": 0,
+    "text": "گران لشکری ساخت افراسیاب"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 124,
+    "position": 1,
+    "text": "برآمد سر از خورد و آرام و خواب"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 125,
+    "position": 0,
+    "text": "از ایران برآمد ز هر سو خروش"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 126,
+    "position": 1,
+    "text": "شد آرام گیتی پر از جنگ‌وجوش"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 127,
+    "position": 0,
+    "text": "برآشفت افراسیاب آن زمان"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 128,
+    "position": 1,
+    "text": "برآویخت با لشکر تازیان"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 129,
+    "position": 0,
+    "text": "به جنگ اندرون بود لشکر سه ماه"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 130,
+    "position": 1,
+    "text": "بدادند سرها ز بهر کلاه"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 131,
+    "position": 0,
+    "text": "چنین است رسم سرای سپنج"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 132,
+    "position": 1,
+    "text": "گهی ناز و نوش و گهی درد و رنج"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 133,
+    "position": 0,
+    "text": "سرانجام نیک و بدش بگذرد"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 134,
+    "position": 1,
+    "text": "شکارست مرگش همی بشکرد"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 135,
+    "position": 0,
+    "text": "شکست آمد از ترک بر تازیان"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 136,
+    "position": 1,
+    "text": "ز بهر فزونی سرآمد زیان"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 137,
+    "position": 0,
+    "text": "سپاه اندر ایران پراگنده شد"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 138,
+    "position": 1,
+    "text": "زن و مرد و کودک همه بنده شد"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 139,
+    "position": 0,
+    "text": "همه در گرفتند ز ایران پناه"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 140,
+    "position": 1,
+    "text": "به ایرانیان گشت گیتی سیاه"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 141,
+    "position": 0,
+    "text": "دو بهره سوی زاولستان شدند"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 142,
+    "position": 1,
+    "text": "به خواهش بر پور دستان شدند"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 143,
+    "position": 0,
+    "text": "که ما را ز بدها تو باشی پناه"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 144,
+    "position": 1,
+    "text": "چو گم شد سر تاج کاووس شاه"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 145,
+    "position": 0,
+    "text": "دریغ‌ست ایران که ویران شود"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 146,
+    "position": 1,
+    "text": "کنام پلنگان و شیران شود"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 147,
+    "position": 0,
+    "text": "همه جای جنگی سواران بدی"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 148,
+    "position": 1,
+    "text": "نشستنگه شهریاران بدی"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 149,
+    "position": 0,
+    "text": "کنون جای سختی و رنج و بلاست"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 150,
+    "position": 1,
+    "text": "نشستنگه تیزچنگ اژدهاست"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 151,
+    "position": 0,
+    "text": "کسی کز پلنگان بخوردست شیر"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 152,
+    "position": 1,
+    "text": "بدین رنج ما را بود دستگیر"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 153,
+    "position": 0,
+    "text": "کنون چاره‌ای باید انداختن"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 154,
+    "position": 1,
+    "text": "دل خویش ازین رنج پرداختن"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 155,
+    "position": 0,
+    "text": "ببارید رستم ز چشم آب زرد"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 156,
+    "position": 1,
+    "text": "دلش گشت پرخون و جان پر ز درد"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 157,
+    "position": 0,
+    "text": "چنین داد پاسخ که من با سپاه"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 158,
+    "position": 1,
+    "text": "میان بسته‌ام جنگ را کینه خواه"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 159,
+    "position": 0,
+    "text": "چو یابم ز کاووس شاه آگهی"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 160,
+    "position": 1,
+    "text": "کنم شهر ایران ز ترکان تهی"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 161,
+    "position": 0,
+    "text": "پس آگاهی آمد ز کاووس شاه"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 162,
+    "position": 1,
+    "text": "ز بند کمین‌گاه و کار سپاه"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 163,
+    "position": 0,
+    "text": "سپه را یکایک ز کابل بخواند"
+  },
+  {
+    "poem_id": 1449,
+    "vorder": 164,
+    "position": 1,
+    "text": "میان بسته بر جنگ و لشکر براند"
+  }
+]

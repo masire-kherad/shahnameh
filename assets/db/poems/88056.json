@@ -1,0 +1,650 @@
+[
+  {
+    "poem_id": 88056,
+    "vorder": 1,
+    "position": 0,
+    "text": "چو از دور لهاک و فرشیدورد"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 2,
+    "position": 1,
+    "text": "گذشتند پویان ز دشت نبرد"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 3,
+    "position": 0,
+    "text": "به یک ساعت از هفت فرسنگ راه"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 4,
+    "position": 1,
+    "text": "برفتند ایمن ز ایران سپاه"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 5,
+    "position": 0,
+    "text": "یکی بیشه دیدند و آب روان"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 6,
+    "position": 1,
+    "text": "بدو اندرون سایهٔ کاروان"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 7,
+    "position": 0,
+    "text": "به بیشه درون مرغ و نخچیر و شیر"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 8,
+    "position": 1,
+    "text": "درخت از بر و سبزه و آب زیر"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 9,
+    "position": 0,
+    "text": "به نخچیر کردن فرود آمدند"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 10,
+    "position": 1,
+    "text": "وز آن تشنگی سوی رود آمدند"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 11,
+    "position": 0,
+    "text": "چو آب اندر آمد ببایست نان"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 12,
+    "position": 1,
+    "text": "به اندوه و شادی نبندد دهان"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 13,
+    "position": 0,
+    "text": "بگشتند بر گرد آن مرغزار"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 14,
+    "position": 1,
+    "text": "فگندند بسیار مایه شکار"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 15,
+    "position": 0,
+    "text": "برافروختند آتش و زان کباب"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 16,
+    "position": 1,
+    "text": "بخوردند و کردند سر سوی خواب"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 17,
+    "position": 0,
+    "text": "چو بد روزگار دلیران دژم"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 18,
+    "position": 1,
+    "text": "کجا خواب سازد بر ایشان ستم"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 19,
+    "position": 0,
+    "text": "فرو خفت لهاک و فرشیدورد"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 20,
+    "position": 1,
+    "text": "به سر بر همی پاسبانیش کرد"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 21,
+    "position": 0,
+    "text": "برآمد چو شب تیره شد ماهتاب"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 22,
+    "position": 1,
+    "text": "دو غمگین سر اندر نهاده به خواب"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 23,
+    "position": 0,
+    "text": "رسید اندر آن جایگه گستهم"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 24,
+    "position": 1,
+    "text": "که بودند یاران توران به هم"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 25,
+    "position": 0,
+    "text": "نوند اسب او بوی اسبان شنید"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 26,
+    "position": 1,
+    "text": "خروشی برآورد و اندر دمید"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 27,
+    "position": 0,
+    "text": "سبک اسب لهاک هم ز این نشان"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 28,
+    "position": 1,
+    "text": "خروشی برآورد چون بیهشان"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 29,
+    "position": 0,
+    "text": "دمان سوی لهاک فرشیدورد"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 30,
+    "position": 1,
+    "text": "ز خواب خوش آمدش بیدار کرد"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 31,
+    "position": 0,
+    "text": "بدو گفت برخیز ز این خواب خوش"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 32,
+    "position": 1,
+    "text": "به مردی سر بخت خود را بکش"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 33,
+    "position": 0,
+    "text": "که دانا زد این داستان بزرگ"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 34,
+    "position": 1,
+    "text": "که شیری که بگریزد از چنگ گرگ"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 35,
+    "position": 0,
+    "text": "نباید که گرگ از پسش در کشد"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 36,
+    "position": 1,
+    "text": "که او را همان بخت خود برکشد"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 37,
+    "position": 0,
+    "text": "چه مایه بپیوند و چندی شتافت"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 38,
+    "position": 1,
+    "text": "کس از روز بد هم رهایی نیافت"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 39,
+    "position": 0,
+    "text": "هلا زود بشتاب کآمد سپاه"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 40,
+    "position": 1,
+    "text": "از ایران و بر ما گرفتند راه"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 41,
+    "position": 0,
+    "text": "نشستند بر باره هر دو سوار"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 42,
+    "position": 1,
+    "text": "کشیدند پویان از آن مرغزار"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 43,
+    "position": 0,
+    "text": "ز بیشه به بالا نهادند روی"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 44,
+    "position": 1,
+    "text": "دو خونی دلاور دو پرخاشجوی"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 45,
+    "position": 0,
+    "text": "به هامون کشیدند هر دو سوار"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 46,
+    "position": 1,
+    "text": "پراندیشه تا چون بسیچند کار"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 47,
+    "position": 0,
+    "text": "پدید آمد از دور پس گستهم"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 48,
+    "position": 1,
+    "text": "ندیدند با او سواری به هم"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 49,
+    "position": 0,
+    "text": "دلیران چو سر را برافراختند"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 50,
+    "position": 1,
+    "text": "مر او را چو دیدند بشناختند"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 51,
+    "position": 0,
+    "text": "گرفتند یک با دگر گفت و گوی"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 52,
+    "position": 1,
+    "text": "که یک تن سوی ما نهادست روی"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 53,
+    "position": 0,
+    "text": "نیابد رهایی ز ما گستهم"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 54,
+    "position": 1,
+    "text": "مگر بخت بد کرد خواهد ستم"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 55,
+    "position": 0,
+    "text": "جز از گستهم نیست کامد به جنگ"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 56,
+    "position": 1,
+    "text": "درفش دلیران گرفته به چنگ"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 57,
+    "position": 0,
+    "text": "گریزان بباید شد از پیش اوی"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 58,
+    "position": 1,
+    "text": "مگر کاندر آرد بدین دشت روی"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 59,
+    "position": 0,
+    "text": "وز آنجا به هامون نهادند روی"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 60,
+    "position": 1,
+    "text": "پس اندر دمان گستهم کینه‌جوی"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 61,
+    "position": 0,
+    "text": "بیامد چو نزدیک ایشان رسید"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 62,
+    "position": 1,
+    "text": "چو شیر ژیان نعره‌ای برکشید"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 63,
+    "position": 0,
+    "text": "بر ایشان ببارید تیر خدنگ"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 64,
+    "position": 1,
+    "text": "چو فرشیدورد اندر آمد به جنگ"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 65,
+    "position": 0,
+    "text": "یکی تیر زد بر سرش گستهم"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 66,
+    "position": 1,
+    "text": "که با خون برآمیخت مغزش به هم"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 67,
+    "position": 0,
+    "text": "نگون گشت و هم در زمان جان بداد"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 68,
+    "position": 1,
+    "text": "شد آن نامور گرد ویسه نژاد"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 69,
+    "position": 0,
+    "text": "چو لهاک روی برادر بدید"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 70,
+    "position": 1,
+    "text": "بدانست کز کارزار آرمید"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 71,
+    "position": 0,
+    "text": "بلرزید وز درد او خیره شد"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 72,
+    "position": 1,
+    "text": "جهان پیش چشم‌اندرش تیره شد"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 73,
+    "position": 0,
+    "text": "ز روشن‌روانش به سیری رسید"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 74,
+    "position": 1,
+    "text": "کمان را به زه کرد و اندر کشید"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 75,
+    "position": 0,
+    "text": "شدند آن زمان خسته هر دو سوار"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 76,
+    "position": 1,
+    "text": "به شمشیر برساختند کارزار"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 77,
+    "position": 0,
+    "text": "یکایک بر او گستهم دست یافت"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 78,
+    "position": 1,
+    "text": "ز کینه چنان خسته اندر شتافت"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 79,
+    "position": 0,
+    "text": "به گردنش بر زد یکی تیغ تیز"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 80,
+    "position": 1,
+    "text": "برآورد ناگاه زو رستخیز"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 81,
+    "position": 0,
+    "text": "سرش زیر پای اندر آمد چو گوی"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 82,
+    "position": 1,
+    "text": "که آید همی زخم چوگان بر اوی"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 83,
+    "position": 0,
+    "text": "چنین است کردار گردان سپهر"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 84,
+    "position": 1,
+    "text": "ببرد ز پروردهٔ خویش مهر"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 85,
+    "position": 0,
+    "text": "چو سر جوییش پای یابی نخست"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 86,
+    "position": 1,
+    "text": "وگر پای جویی سرش پیش تست"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 87,
+    "position": 0,
+    "text": "به زین بر چنان خسته بد گستهم"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 88,
+    "position": 1,
+    "text": "که بگسست خواهد تو گفتی ز هم"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 89,
+    "position": 0,
+    "text": "بیامد خمیده به زین اندرون"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 90,
+    "position": 1,
+    "text": "همی راند اسب و همی ریخت خون"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 91,
+    "position": 0,
+    "text": "و زآنجا سوی چشمه‌ساری رسید"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 92,
+    "position": 1,
+    "text": "هم آب روان دید و هم سایه دید"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 93,
+    "position": 0,
+    "text": "فرود آمد و اسب را بر درخت"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 94,
+    "position": 1,
+    "text": "ببست و به آب اندر آمد ز بخت"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 95,
+    "position": 0,
+    "text": "بخورد آب بسیار و کرد آفرین"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 96,
+    "position": 1,
+    "text": "ببستش تو گفتی سراسر زمین"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 97,
+    "position": 0,
+    "text": "بپیچید و غلتید بر تیره خاک"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 98,
+    "position": 1,
+    "text": "سراسر همه تن به شمشیر چاک"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 99,
+    "position": 0,
+    "text": "همی گفت کای روشن کردگار"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 100,
+    "position": 1,
+    "text": "پدید آر زان لشکر نامدار"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 101,
+    "position": 0,
+    "text": "به دلسوزگی بیژن گیو را"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 102,
+    "position": 1,
+    "text": "وگرنه دلاور یکی نیو را"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 103,
+    "position": 0,
+    "text": "که گر مرده گر زنده ز این جایگاه"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 104,
+    "position": 1,
+    "text": "برد مر مرا سوی ایران سپاه"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 105,
+    "position": 0,
+    "text": "سر نامداران توران سپاه"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 106,
+    "position": 1,
+    "text": "ببرد برد پیش بیدار شاه"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 107,
+    "position": 0,
+    "text": "بدان تا بداند که من جز به نام"
+  },
+  {
+    "poem_id": 88056,
+    "vorder": 108,
+    "position": 1,
+    "text": "نمردم به گیتی همین است کام"
+  }
+]

@@ -1,0 +1,734 @@
+[
+  {
+    "poem_id": 87990,
+    "vorder": 1,
+    "position": 0,
+    "text": "چو شد روی گیتی چو دریای قیر"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 2,
+    "position": 1,
+    "text": "نه ناهید پیدا نه بهرام و تیر"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 3,
+    "position": 0,
+    "text": "بیامد دمان دیده‌بان پیش طوس"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 4,
+    "position": 1,
+    "text": "دوان و شده روی چون سندروس"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 5,
+    "position": 0,
+    "text": "چنین گفت کای پهلوان سپاه"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 6,
+    "position": 1,
+    "text": "از ایران سپاه آمد از نزد شاه"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 7,
+    "position": 0,
+    "text": "سپهبد بخندید با مهتران"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 8,
+    "position": 1,
+    "text": "که ای نامداران و کنداوران"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 9,
+    "position": 0,
+    "text": "چو یار آمد اکنون نسازیم جنگ"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 10,
+    "position": 1,
+    "text": "گهی با شتابیم و گه با درنگ"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 11,
+    "position": 0,
+    "text": "بنیروی یزدان گو پیلتن"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 12,
+    "position": 1,
+    "text": "بیاری بیاید بدین انجمن"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 13,
+    "position": 0,
+    "text": "ازان دیده‌بان گشت روشن‌روان"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 14,
+    "position": 1,
+    "text": "همه مژده دادند پیر و جوان"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 15,
+    "position": 0,
+    "text": "طلایه فرستاد بر دشت جنگ"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 16,
+    "position": 1,
+    "text": "خروش آمد از کوه و آوای زنگ"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 17,
+    "position": 0,
+    "text": "چو خورشید بر چرخ گنبد کشید"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 18,
+    "position": 1,
+    "text": "شب تار شد از جهان ناپدید"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 19,
+    "position": 0,
+    "text": "یکی انجمن کرد خاقان چین"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 20,
+    "position": 1,
+    "text": "بدیبا بیاراست روی زمین"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 21,
+    "position": 0,
+    "text": "بپیران چنین گفت کامروز جنگ"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 22,
+    "position": 1,
+    "text": "بسازیم و روزی نباید درنگ"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 23,
+    "position": 0,
+    "text": "یکی با سرافراز گردنکشان"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 24,
+    "position": 1,
+    "text": "خنیده سواران دشمن کشان"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 25,
+    "position": 0,
+    "text": "ببینیم کایرانیان برچیند"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 26,
+    "position": 1,
+    "text": "بدین رزمگه اندرون با کیند"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 27,
+    "position": 0,
+    "text": "چنین گفت پیران که خاقان چین"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 28,
+    "position": 1,
+    "text": "خردمند شاهیست با آفرین"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 29,
+    "position": 0,
+    "text": "بران رفت باید که او را هواست"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 30,
+    "position": 1,
+    "text": "که رای تو بر ما همه پادشاست"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 31,
+    "position": 0,
+    "text": "وزان پس برآمد ز پرده‌سرای"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 32,
+    "position": 1,
+    "text": "خروشیدن کوس با کرنای"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 33,
+    "position": 0,
+    "text": "سنانهای رخشان و جوشان سپاه"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 34,
+    "position": 1,
+    "text": "شده روی کشور ز لشکر سیاه"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 35,
+    "position": 0,
+    "text": "ز پیلان نهادند بر پنج زین"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 36,
+    "position": 1,
+    "text": "بیاراست دیگر بدیبای چین"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 37,
+    "position": 0,
+    "text": "زبرجد نشانده بزین اندرون"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 38,
+    "position": 1,
+    "text": "ز دیبای زربفت پیروزه‌گون"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 39,
+    "position": 0,
+    "text": "بزرین رکیب و جناغ پلنگ"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 40,
+    "position": 1,
+    "text": "بزرین و سیمین جرسها و زنگ"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 41,
+    "position": 0,
+    "text": "ز افسر سر پیلبان پرنگار"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 42,
+    "position": 1,
+    "text": "همه پاک با طوق و با گوشوار"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 43,
+    "position": 0,
+    "text": "هوا شد ز بس پرنیانی درفش"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 44,
+    "position": 1,
+    "text": "چو بازار چین سرخ و زرد و بنفش"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 45,
+    "position": 0,
+    "text": "سپاهی برفت اندران دشت رزم"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 46,
+    "position": 1,
+    "text": "کزیشان همی آرزو خواست بزم"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 47,
+    "position": 0,
+    "text": "زمین شد بکردار چشم خروس"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 48,
+    "position": 1,
+    "text": "ز بس رنگ و آرایش و پیل و کوس"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 49,
+    "position": 0,
+    "text": "برفتند شاهان لشکر ز جای"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 50,
+    "position": 1,
+    "text": "هوا پر شد از نالهٔ کرنای"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 51,
+    "position": 0,
+    "text": "چو از دور طوس سپهبد بدید"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 52,
+    "position": 1,
+    "text": "سپاه آنچ بودش رده برکشید"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 53,
+    "position": 0,
+    "text": "ببستند گردان ایران میان"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 54,
+    "position": 1,
+    "text": "بیاورد گیو اختر کاویان"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 55,
+    "position": 0,
+    "text": "از آوردگه تا سر تیغ کوه"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 56,
+    "position": 1,
+    "text": "سپه بود از ایران گروها گروه"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 57,
+    "position": 0,
+    "text": "چو کاموس و منشور و خاقان چین"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 58,
+    "position": 1,
+    "text": "چو بیورد و چون شنگل بافرین"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 59,
+    "position": 0,
+    "text": "نظاره بکوه هماون شدند"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 60,
+    "position": 1,
+    "text": "نه بر آرزو پیش دشمن شدند"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 61,
+    "position": 0,
+    "text": "چو از دور خاقان چین بنگرید"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 62,
+    "position": 1,
+    "text": "خروش سواران ایران شنید"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 63,
+    "position": 0,
+    "text": "پسند آمدش گفت کاینت سپاه"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 64,
+    "position": 1,
+    "text": "سوران رزم آور و کینه‌خواه"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 65,
+    "position": 0,
+    "text": "سپهدار پیران دگرگونه گفت"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 66,
+    "position": 1,
+    "text": "هنرهای مردان نشاید نهفت"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 67,
+    "position": 0,
+    "text": "سپهدار کو چاه پوشد بخار"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 68,
+    "position": 1,
+    "text": "برو اسپ تازد بروز شکار"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 69,
+    "position": 0,
+    "text": "ازان به که بر خیره روز نبرد"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 70,
+    "position": 1,
+    "text": "هنرهای دشمن کند زیر گرد"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 71,
+    "position": 0,
+    "text": "ندیدم سواران و گردنکشان"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 72,
+    "position": 1,
+    "text": "بگردی و مردانگی زین نشان"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 73,
+    "position": 0,
+    "text": "بپیران چنین گفت خاقان چین"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 74,
+    "position": 1,
+    "text": "که اکنون چه سازیم بر دشت کین"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 75,
+    "position": 0,
+    "text": "ورا گفت پیران کز اندک سپاه"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 76,
+    "position": 1,
+    "text": "نگیرند یاد اندرین رزمگاه"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 77,
+    "position": 0,
+    "text": "کشیدی چنین رنج و راه دراز"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 78,
+    "position": 1,
+    "text": "سپردی و دیدی نشیب و فراز"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 79,
+    "position": 0,
+    "text": "بمان تا سه روز اندرین رزمگاه"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 80,
+    "position": 1,
+    "text": "بباشیم و آسوده گردد سپاه"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 81,
+    "position": 0,
+    "text": "سپه را کنم زان سپس به دو نیم"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 82,
+    "position": 1,
+    "text": "سرآمد کنون روز پیکار و بیم"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 83,
+    "position": 0,
+    "text": "بتازند شبگیر تا نیمروز"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 84,
+    "position": 1,
+    "text": "نبرده سواران گیتی‌فروز"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 85,
+    "position": 0,
+    "text": "بژوپین و خنجر بتیر و کمان"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 86,
+    "position": 1,
+    "text": "همی رزم جویند با بدگمان"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 87,
+    "position": 0,
+    "text": "دگر نیمهٔ روز دیگر گروه"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 88,
+    "position": 1,
+    "text": "بکوشند تا شب برآید ز کوه"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 89,
+    "position": 0,
+    "text": "شب تیره آسودگان را بجنگ"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 90,
+    "position": 1,
+    "text": "برم تا بریشان شود کار تنگ"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 91,
+    "position": 0,
+    "text": "نمانم که آرام گیرند هیچ"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 92,
+    "position": 1,
+    "text": "سواران من با سپاه و بسیچ"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 93,
+    "position": 0,
+    "text": "بدو گفت کاموس کین رای نیست"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 94,
+    "position": 1,
+    "text": "بدین مولش اندر مرا جای نیست"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 95,
+    "position": 0,
+    "text": "بدین مایه مردم بدین گونه جنگ"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 96,
+    "position": 1,
+    "text": "چه باید بدین گونه چندین درنگ"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 97,
+    "position": 0,
+    "text": "بسازیم یکبار و جنگ‌آوریم"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 98,
+    "position": 1,
+    "text": "بریشان در و کوه تنگ آوریم"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 99,
+    "position": 0,
+    "text": "بایران گذاریم ز ایدر سپاه"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 100,
+    "position": 1,
+    "text": "نمانیم تخت و نه تاج و نه شاه"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 101,
+    "position": 0,
+    "text": "بر و بومشان پاک و یران کنیم"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 102,
+    "position": 1,
+    "text": "نه جنگ یلان جنگ شیران کنیم"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 103,
+    "position": 0,
+    "text": "زن و کودک خرد و پیر و جوان"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 104,
+    "position": 1,
+    "text": "نه شاه و کنارنگ و نه پهلوان"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 105,
+    "position": 0,
+    "text": "بایران نمانم بر و بوم و جای"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 106,
+    "position": 1,
+    "text": "نه کاخ و نه ایوان و نه چارپای"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 107,
+    "position": 0,
+    "text": "ببد روز چندین چه باید گذاشت"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 108,
+    "position": 1,
+    "text": "غم و درد و تیمار بیهوده داشت"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 109,
+    "position": 0,
+    "text": "یک امشب گشاده مدارید راه"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 110,
+    "position": 1,
+    "text": "که ایشان برانند زین رزمگاه"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 111,
+    "position": 0,
+    "text": "چو باد سپیده دمان بردمد"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 112,
+    "position": 1,
+    "text": "سپه جمله باید که اندر چمد"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 113,
+    "position": 0,
+    "text": "تلی کشته بینی ببالای کوه"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 114,
+    "position": 1,
+    "text": "تو فردا ز گردان ایران گروه"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 115,
+    "position": 0,
+    "text": "بدانسان که ایرانیان سربسر"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 116,
+    "position": 1,
+    "text": "ازین پی نبینند جز مویه گر"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 117,
+    "position": 0,
+    "text": "بدو گفت خاقان جزین رای نیست"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 118,
+    "position": 1,
+    "text": "بگیتی چو تو لشکر آرای نیست"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 119,
+    "position": 0,
+    "text": "همه نامدارن بدین هم سخن"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 120,
+    "position": 1,
+    "text": "که کاموس شیراوژن افگند بن"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 121,
+    "position": 0,
+    "text": "برفتند وز جای برخاستند"
+  },
+  {
+    "poem_id": 87990,
+    "vorder": 122,
+    "position": 1,
+    "text": "همه شب همی لشکر آراستند"
+  }
+]

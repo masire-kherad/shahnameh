@@ -1,0 +1,506 @@
+[
+  {
+    "poem_id": 1591,
+    "vorder": 1,
+    "position": 0,
+    "text": "چو از رستم اسفندیار این شنید"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 2,
+    "position": 1,
+    "text": "بخندید و شادان دلش بردمید"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 3,
+    "position": 0,
+    "text": "بدو گفت ازین رنج و کردار تو"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 4,
+    "position": 1,
+    "text": "شنیدم همه درد و تیمار تو"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 5,
+    "position": 0,
+    "text": "کنون کارهایی که من کرده‌ام"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 6,
+    "position": 1,
+    "text": "ز گردنکشان سر برآورده‌ام"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 7,
+    "position": 0,
+    "text": "نخستین کمر بستم از بهر دین"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 8,
+    "position": 1,
+    "text": "تهی کردم از بت‌پرستان زمین"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 9,
+    "position": 0,
+    "text": "کس از جنگجویان گیتی ندید"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 10,
+    "position": 1,
+    "text": "که از کشتگان خاک شد ناپدید"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 11,
+    "position": 0,
+    "text": "نژاد من از تخم گشتاسپست"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 12,
+    "position": 1,
+    "text": "که گشتاسپ از تخم لهراسپست"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 13,
+    "position": 0,
+    "text": "که لهراسپ بد پور اورند شاه"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 14,
+    "position": 1,
+    "text": "که او را بدی از مهان تاج و گاه"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 15,
+    "position": 0,
+    "text": "هم اورند از گوهر کی‌پشین"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 16,
+    "position": 1,
+    "text": "که کردی پدر بر پشین آفرین"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 17,
+    "position": 0,
+    "text": "پشین بود از تخمهٔ کیقباد"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 18,
+    "position": 1,
+    "text": "خردمند شاهی دلش پر ز داد"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 19,
+    "position": 0,
+    "text": "همی رو چنین تا فریدون شاه"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 20,
+    "position": 1,
+    "text": "که شاه جهان بود و زیبای گاه"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 21,
+    "position": 0,
+    "text": "همان مادرم دختر قیصرست"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 22,
+    "position": 1,
+    "text": "کجا بر سر رومیان افسرست"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 23,
+    "position": 0,
+    "text": "همان قیصر از سلم دارد نژاد"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 24,
+    "position": 1,
+    "text": "ز تخم فریدون با فر و داد"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 25,
+    "position": 0,
+    "text": "همان سلم پور فریدون گرد"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 26,
+    "position": 1,
+    "text": "که از خسروان نام شاهی ببرد"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 27,
+    "position": 0,
+    "text": "بگویم من و کس نگوید که نیست"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 28,
+    "position": 1,
+    "text": "که بی‌راه بسیار و راه اندکیست"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 29,
+    "position": 0,
+    "text": "تو آنی که پیش نیاکان من"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 30,
+    "position": 1,
+    "text": "بزرگان بیدار و پاکان من"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 31,
+    "position": 0,
+    "text": "پرستنده بودی همی با نیا"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 32,
+    "position": 1,
+    "text": "نجویم همی زین سخن کیمیا"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 33,
+    "position": 0,
+    "text": "بزرگی ز شاهان من یافتی"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 34,
+    "position": 1,
+    "text": "چو در بندگی تیز بشتافتی"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 35,
+    "position": 0,
+    "text": "ترا بازگویم همه هرچ هست"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 36,
+    "position": 1,
+    "text": "یکی گر دروغست بنمای دست"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 37,
+    "position": 0,
+    "text": "که تا شاه گشتاسپ را داد تخت"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 38,
+    "position": 1,
+    "text": "میان بسته دارم به مردی و بخت"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 39,
+    "position": 0,
+    "text": "هرانکس که رفت از پی دین به چین"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 40,
+    "position": 1,
+    "text": "بکردند زان پس برو آفرین"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 41,
+    "position": 0,
+    "text": "ازان پس که ما را به گفت گُرَزم"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 42,
+    "position": 1,
+    "text": "ببستم پدر دور کردم ز بزم"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 43,
+    "position": 0,
+    "text": "به لهراسپ از بند من بد رسید"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 44,
+    "position": 1,
+    "text": "شد از ترک روی زمین ناپدید"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 45,
+    "position": 0,
+    "text": "بیاورد جاماسپ آهنگران"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 46,
+    "position": 1,
+    "text": "که ما را گشاید ز بند گران"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 47,
+    "position": 0,
+    "text": "همان کار آهنگران دیر بود"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 48,
+    "position": 1,
+    "text": "مرا دل بر آهنگ شمشیر بود"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 49,
+    "position": 0,
+    "text": "دلم تنگ شد بانگشان بر زدم"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 50,
+    "position": 1,
+    "text": "تن از دست آهنگران بستدم"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 51,
+    "position": 0,
+    "text": "برافراختم سر ز جای نشست"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 52,
+    "position": 1,
+    "text": "غل و بند بر هم شکستم به دست"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 53,
+    "position": 0,
+    "text": "گریزان شد ارجاسپ از پیش من"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 54,
+    "position": 1,
+    "text": "بران سان یکی نامدار انجمن"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 55,
+    "position": 0,
+    "text": "به مردی ببستم کمر بر میان"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 56,
+    "position": 1,
+    "text": "همی رفتم از پس چو شیر ژیان"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 57,
+    "position": 0,
+    "text": "شنیدی که در هفتخوان پیش من"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 58,
+    "position": 1,
+    "text": "چه آمد ز شیران و از اهرمن"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 59,
+    "position": 0,
+    "text": "به چاره به رویین‌دژ اندر شدم"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 60,
+    "position": 1,
+    "text": "جهانی بران گونه بر هم زدم"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 61,
+    "position": 0,
+    "text": "بجستم همه کین ایرانیان"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 62,
+    "position": 1,
+    "text": "به خون بزرگان ببستم میان"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 63,
+    "position": 0,
+    "text": "به توران و چین آنچ من کرده‌ام"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 64,
+    "position": 1,
+    "text": "همان رنج و سختی که من برده‌ام"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 65,
+    "position": 0,
+    "text": "همانا ندیدست گور از پلنگ"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 66,
+    "position": 1,
+    "text": "نه از شست ملاح کام نهنگ"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 67,
+    "position": 0,
+    "text": "ز هنگام تور و فریدون گرد"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 68,
+    "position": 1,
+    "text": "کس اندر جهان نام این دژ نبرد"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 69,
+    "position": 0,
+    "text": "یکی تیره دژ بر سر کوه بود"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 70,
+    "position": 1,
+    "text": "که از برتری دور از انبوه بود"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 71,
+    "position": 0,
+    "text": "چو رفتم همه بت‌پرستان بدند"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 72,
+    "position": 1,
+    "text": "سراسیمه برسان مستان بدند"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 73,
+    "position": 0,
+    "text": "به مردی من آن باره را بستدم"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 74,
+    "position": 1,
+    "text": "بتان را همه بر زمین بر زدم"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 75,
+    "position": 0,
+    "text": "برافراختم آتش زردهشت"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 76,
+    "position": 1,
+    "text": "که با مجمر آورده بود از بهشت"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 77,
+    "position": 0,
+    "text": "به پیروزی دادگر یک خدای"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 78,
+    "position": 1,
+    "text": "به ایران چنان آمدم باز جای"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 79,
+    "position": 0,
+    "text": "که ما را به هر جای دشمن نماند"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 80,
+    "position": 1,
+    "text": "به بتخانه‌ها در برهمن نماند"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 81,
+    "position": 0,
+    "text": "به تنها تن خویش جستم نبرد"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 82,
+    "position": 1,
+    "text": "به پرخاش تیمار من کس نخورد"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 83,
+    "position": 0,
+    "text": "سخنها به ما بر کنون شد دراز"
+  },
+  {
+    "poem_id": 1591,
+    "vorder": 84,
+    "position": 1,
+    "text": "اگر تشنه‌ای جام می را فراز"
+  }
+]

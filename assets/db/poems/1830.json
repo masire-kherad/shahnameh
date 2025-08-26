@@ -1,0 +1,4202 @@
+[
+  {
+    "poem_id": 1830,
+    "vorder": 1,
+    "position": 0,
+    "text": "چنان بد که کسری بدان روزگار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 2,
+    "position": 1,
+    "text": "برفت از مداین ز بهر شکار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 3,
+    "position": 0,
+    "text": "همی‌تاخت با غرم و آهو به دشت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 4,
+    "position": 1,
+    "text": "پراگند شد غرم و او مانده گشت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 5,
+    "position": 0,
+    "text": "ز هامون بر مرغزاری رسید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 6,
+    "position": 1,
+    "text": "درخت و گیا دید و هم سایه دید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 7,
+    "position": 0,
+    "text": "همی‌راند با شاه بوزرجمهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 8,
+    "position": 1,
+    "text": "ز بهر پرستش هم از بهر مهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 9,
+    "position": 0,
+    "text": "فرود آمد از بارگی شاه نرم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 10,
+    "position": 1,
+    "text": "بدان تاکند برگیا چشم گرم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 11,
+    "position": 0,
+    "text": "ندید از پرستندگان هیچکس"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 12,
+    "position": 1,
+    "text": "یکی خوب رخ ماند با شاه بس"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 13,
+    "position": 0,
+    "text": "بغلتید چندی بران مرغزار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 14,
+    "position": 1,
+    "text": "نهاده سرش مهربان برکنار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 15,
+    "position": 0,
+    "text": "همیشه ببازوی آن شاه بر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 16,
+    "position": 1,
+    "text": "یکی بند بازو بدی پرگهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 17,
+    "position": 0,
+    "text": "برهنه شد از جامه بازوی او"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 18,
+    "position": 1,
+    "text": "یکی مرغ رفت از هوا سوی او"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 19,
+    "position": 0,
+    "text": "فرودآمد از ابر مرغ سیاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 20,
+    "position": 1,
+    "text": "ز پرواز شد تا ببالین شاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 21,
+    "position": 0,
+    "text": "ببازو نگه کرد وگوهر بدید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 22,
+    "position": 1,
+    "text": "کسی رابه نزدیک او برندید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 23,
+    "position": 0,
+    "text": "همه لشکرش گرد آن مرغزار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 24,
+    "position": 1,
+    "text": "همی‌گشت هرکس ز بهر شکار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 25,
+    "position": 0,
+    "text": "همان شاه تنها بخواب اندرون"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 26,
+    "position": 1,
+    "text": "نه بر گرد او برکسی رهنمون"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 27,
+    "position": 0,
+    "text": "چومرغ سیه بند بازوی بدید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 28,
+    "position": 1,
+    "text": "سر درز آن گوهران بردرید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 29,
+    "position": 0,
+    "text": "چوبدرید گوهر یکایک بخورد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 30,
+    "position": 1,
+    "text": "همان در خوشاب و یاقوت زرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 31,
+    "position": 0,
+    "text": "بخورد و ز بالین او بر پرید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 32,
+    "position": 1,
+    "text": "همانگه ز دیدار شد ناپدید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 33,
+    "position": 0,
+    "text": "دژم گشت زان کار بوزرجمهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 34,
+    "position": 1,
+    "text": "فروماند از کارگردان سپهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 35,
+    "position": 0,
+    "text": "بدانست کآمد بتنگی نشیب"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 36,
+    "position": 1,
+    "text": "زمانه بگیرد فریب و نهیب"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 37,
+    "position": 0,
+    "text": "چوبیدارشد شاه و او را بدید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 38,
+    "position": 1,
+    "text": "کزان سان همی لب بدندان گزید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 39,
+    "position": 0,
+    "text": "گمانی چنان برد کو را بخواب"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 40,
+    "position": 1,
+    "text": "خورش کرد بر پرورش برشتاب"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 41,
+    "position": 0,
+    "text": "بدو گفت کای سگ تو را این که گفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 42,
+    "position": 1,
+    "text": "که پالایش طبع بتوان نهفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 43,
+    "position": 0,
+    "text": "نه من اورمزدم و گر بهمنم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 44,
+    "position": 1,
+    "text": "ز خاکست وز باد و آتش تنم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 45,
+    "position": 0,
+    "text": "جهاندار چندی زبان رنجه کرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 46,
+    "position": 1,
+    "text": "ندید ایچ پاسخ جز ار باد سرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 47,
+    "position": 0,
+    "text": "بپژمرد بر جای بوزرجمهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 48,
+    "position": 1,
+    "text": "ز شاه و ز کردار گردان سپهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 49,
+    "position": 0,
+    "text": "که بس زود دید آن نشان نشیب"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 50,
+    "position": 1,
+    "text": "خردمند خامش بماند از نهیب"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 51,
+    "position": 0,
+    "text": "همه گرد بر گرد آن مرغزار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 52,
+    "position": 1,
+    "text": "سپه بود و اندر میان شهریار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 53,
+    "position": 0,
+    "text": "نشست از بر اسب کسری بخشم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 54,
+    "position": 1,
+    "text": "ز ره تا در کاخ نگشاد چشم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 55,
+    "position": 0,
+    "text": "همه ره ز دانا همی لب گزید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 56,
+    "position": 1,
+    "text": "فرود آمد از باره چندی ژکید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 57,
+    "position": 0,
+    "text": "بفرمود تا روی سندان کنند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 58,
+    "position": 1,
+    "text": "بداننده بر کاخ زندان کنند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 59,
+    "position": 0,
+    "text": "دران کاخ بنشست بوزرجمهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 60,
+    "position": 1,
+    "text": "ازو برگسسته جهاندار مهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 61,
+    "position": 0,
+    "text": "یکی خویش بودش دلیر وجوان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 62,
+    "position": 1,
+    "text": "پرستندهٔ شاه نوشین‌روان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 63,
+    "position": 0,
+    "text": "بهرجای با شاه در کاخ بود"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 64,
+    "position": 1,
+    "text": "به گفتار با شاه گستاخ بود"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 65,
+    "position": 0,
+    "text": "بپرسید یک روز بوزرجمهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 66,
+    "position": 1,
+    "text": "ز پروردهٔ شاه خورشید چهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 67,
+    "position": 0,
+    "text": "که او را پرستش همی چون کنی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 68,
+    "position": 1,
+    "text": "بیاموز تا کوشش افزون کنی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 69,
+    "position": 0,
+    "text": "پرستنده گفت ای سر موبدان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 70,
+    "position": 1,
+    "text": "چنان دان که امروز شاه ردان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 71,
+    "position": 0,
+    "text": "چو از خوان برفت آب بگساردم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 72,
+    "position": 1,
+    "text": "زمین ز آبدستان مگر یافت نم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 73,
+    "position": 0,
+    "text": "نگه سوی من بنده زان گونه کرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 74,
+    "position": 1,
+    "text": "که گفتم سرآمد مرا خواب وخورد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 75,
+    "position": 0,
+    "text": "جهاندار چون گشت بامن درشت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 76,
+    "position": 1,
+    "text": "مراسست شد آبدستان بمشت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 77,
+    "position": 0,
+    "text": "بدو دانشی گفت آب آر خیز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 78,
+    "position": 1,
+    "text": "چنان چون که بر دست شاه آب ریز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 79,
+    "position": 0,
+    "text": "بیاورد مرد جوان آب گرم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 80,
+    "position": 1,
+    "text": "همی‌ریخت بر دست او نرم نرم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 81,
+    "position": 0,
+    "text": "بدو گفت کین بار بر دستشوی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 82,
+    "position": 1,
+    "text": "تو با آب جو هیچ تندی مجوی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 83,
+    "position": 0,
+    "text": "چولب را ببالاید از بوی خوش"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 84,
+    "position": 1,
+    "text": "تو از ریخت آبدستان نکش"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 85,
+    "position": 0,
+    "text": "چو روز دگر شاه نوشین‌روان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 86,
+    "position": 1,
+    "text": "بهنگام خوردن بیاورد خوان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 87,
+    "position": 0,
+    "text": "پرستنده را دل پراندیشه گشت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 88,
+    "position": 1,
+    "text": "بدان تا دگر بار بنهاد تشت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 89,
+    "position": 0,
+    "text": "چنان هم چو داناش فرموده بود"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 90,
+    "position": 1,
+    "text": "نه کم کرد ازان نیز و نه برفزود"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 91,
+    "position": 0,
+    "text": "به گفتار دانا فرو ریخت آب"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 92,
+    "position": 1,
+    "text": "نه نرم ونه از ریختن برشتاب"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 93,
+    "position": 0,
+    "text": "بدو گفت شاه ای فزاینده مهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 94,
+    "position": 1,
+    "text": "که گفت این تو راگفت بوزرجمهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 95,
+    "position": 0,
+    "text": "مرا اندرین دانش او داد راه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 96,
+    "position": 1,
+    "text": "که بیند همی این جهاندار شاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 97,
+    "position": 0,
+    "text": "بدو گفت رو پیش دانا بگوی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 98,
+    "position": 1,
+    "text": "کزان نامور جاه و آن آبروی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 99,
+    "position": 0,
+    "text": "چراجستی از برتری کمتری"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 100,
+    "position": 1,
+    "text": "ببد گوهر و ناسزا داوری"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 101,
+    "position": 0,
+    "text": "پرستنده بشنید و آمد دوان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 102,
+    "position": 1,
+    "text": "برخال شد تند وخسته روان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 103,
+    "position": 0,
+    "text": "ز شاه آنچ بشیند با او بگفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 104,
+    "position": 1,
+    "text": "چنین یافت زو پاسخ اندر نهفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 105,
+    "position": 0,
+    "text": "که حال من از حال شاه جهان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 106,
+    "position": 1,
+    "text": "فراوان بهست آشکار و نهان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 107,
+    "position": 0,
+    "text": "پرستنده برگشت و پاسخ ببرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 108,
+    "position": 1,
+    "text": "سخنها یکایک برو برشمرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 109,
+    "position": 0,
+    "text": "فراوان ز پاسخ برآشفت شاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 110,
+    "position": 1,
+    "text": "ورا بند فرمود و تاریک چاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 111,
+    "position": 0,
+    "text": "دگر باره پرسید زان پیشکار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 112,
+    "position": 1,
+    "text": "که چون دارد آن کم خرد روزگار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 113,
+    "position": 0,
+    "text": "پرستنده آمد پر از آب چهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 114,
+    "position": 1,
+    "text": "بگفت آن سخنها به بوزرجمهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 115,
+    "position": 0,
+    "text": "چنین داد پاسخ بدو نیکخواه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 116,
+    "position": 1,
+    "text": "که روز من آسانتر از روز شاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 117,
+    "position": 0,
+    "text": "فرستاده برگشت وآمد چو باد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 118,
+    "position": 1,
+    "text": "همه پاسخش کرد بر شاه یاد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 119,
+    "position": 0,
+    "text": "ز پاسخ بر آشفت و شد چون پلنگ"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 120,
+    "position": 1,
+    "text": "ز آهن تنوری بفرمود تنگ"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 121,
+    "position": 0,
+    "text": "ز پیکان وز میخ گرد اندرش"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 122,
+    "position": 1,
+    "text": "هم از بند آهن نهفته سرش"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 123,
+    "position": 0,
+    "text": "بدو اندرون جای دانا گزید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 124,
+    "position": 1,
+    "text": "دل از مهر دانا بیکسو کشید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 125,
+    "position": 0,
+    "text": "نبد روزش آرام و شب جای خواب"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 126,
+    "position": 1,
+    "text": "تنش پر ز سختی دلش پرشتاب"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 127,
+    "position": 0,
+    "text": "چهارم چنین گفت شاه جهان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 128,
+    "position": 1,
+    "text": "ابا پیشکارش سخن درنهان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 129,
+    "position": 0,
+    "text": "که یک بار نزدیک دانا گذار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 130,
+    "position": 1,
+    "text": "ببر زود پیغام و پاسخ بیار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 131,
+    "position": 0,
+    "text": "بگویش که چون‌بینی اکنون تنت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 132,
+    "position": 1,
+    "text": "که از میخ تیزست پیراهنت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 133,
+    "position": 0,
+    "text": "پرستنده آمد بداد آن پیام"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 134,
+    "position": 1,
+    "text": "که بشنید زان مهر خویش کام"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 135,
+    "position": 0,
+    "text": "چنین داد پاسخ بمرد جوان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 136,
+    "position": 1,
+    "text": "که روزم به از روز نوشین‌روان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 137,
+    "position": 0,
+    "text": "چو برگشت و پاسخ بیاورد مرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 138,
+    "position": 1,
+    "text": "ز گفتار شد شاه را روی زرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 139,
+    "position": 0,
+    "text": "ز ایوان یکی راستگوی گزید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 140,
+    "position": 1,
+    "text": "که گفتار دانا بداند شنید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 141,
+    "position": 0,
+    "text": "ابا او یکی مرد شمشیر زن"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 142,
+    "position": 1,
+    "text": "که دژخیم بود اندران انجمن"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 143,
+    "position": 0,
+    "text": "که رو تو بدین بد نهان را بگوی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 144,
+    "position": 1,
+    "text": "که گر پاسخت را بود رنگ و بوی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 145,
+    "position": 0,
+    "text": "و گرنه که دژخیم با تیغ تیز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 146,
+    "position": 1,
+    "text": "نماید تو را گردش رستخیز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 147,
+    "position": 0,
+    "text": "که گفتی که زندان به از تخت شاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 148,
+    "position": 1,
+    "text": "تنوری پر از میخ با بند و چاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 149,
+    "position": 0,
+    "text": "بیامد بگفت آنچ بشنید مرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 150,
+    "position": 1,
+    "text": "شد از درد دانا دلش پر ز درد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 151,
+    "position": 0,
+    "text": "بدان پاکدل گفت بوزرجمهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 152,
+    "position": 1,
+    "text": "که ننمود هرگز بمابخت چهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 153,
+    "position": 0,
+    "text": "چه با گنج و تختی چه با رنج سخت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 154,
+    "position": 1,
+    "text": "ببندیم هر دو بناکام رخت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 155,
+    "position": 0,
+    "text": "نه این پای دارد بگیتی نه آن"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 156,
+    "position": 1,
+    "text": "سرآید همی نیک و بد بی‌گمان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 157,
+    "position": 0,
+    "text": "ز سختی گذر کردن آسان بود"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 158,
+    "position": 1,
+    "text": "دل تاجداران هراسان بود"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 159,
+    "position": 0,
+    "text": "خردمند ودژخیم باز آمدند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 160,
+    "position": 1,
+    "text": "بر شاه گردن فراز آمدند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 161,
+    "position": 0,
+    "text": "شنیده بگفتند با شهریار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 162,
+    "position": 1,
+    "text": "دلش گشت زان پاسخ او فگار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 163,
+    "position": 0,
+    "text": "به ایوانش بردند زان تنگ جای"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 164,
+    "position": 1,
+    "text": "به دستوری پاکدل رهنمای"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 165,
+    "position": 0,
+    "text": "برین نیز بگذشت چندی سپهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 166,
+    "position": 1,
+    "text": "پر آژنگ شد روی بوزرجمهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 167,
+    "position": 0,
+    "text": "دلش تنگتر گشت و باریک شد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 168,
+    "position": 1,
+    "text": "دوچمش ز اندیشه تاریک شد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 169,
+    "position": 0,
+    "text": "چو با گنج رنجش برابر نبود"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 170,
+    "position": 1,
+    "text": "بفرسود ازان درد و در غم بسود"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 171,
+    "position": 0,
+    "text": "چنان بد که قیصر بدان چندگاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 172,
+    "position": 1,
+    "text": "رسولی فرستاد نزدیک شاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 173,
+    "position": 0,
+    "text": "ابا نامه و هدیه و با نثار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 174,
+    "position": 1,
+    "text": "یکی درج و قفلی برو استوار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 175,
+    "position": 0,
+    "text": "که با شاه کنداوران و ردان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 176,
+    "position": 1,
+    "text": "فراوان بود پاکدل موبدان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 177,
+    "position": 0,
+    "text": "بدین قفل و این درج نابرده دست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 178,
+    "position": 1,
+    "text": "نهفته بگویند چیزی که هست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 179,
+    "position": 0,
+    "text": "فرستیم باژ ار بگویند راست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 180,
+    "position": 1,
+    "text": "جز از باژ چیزی که آیین ماست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 181,
+    "position": 0,
+    "text": "گرای دون که زین دانش ناگزیر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 182,
+    "position": 1,
+    "text": "بماند دل موبد تیزویر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 183,
+    "position": 0,
+    "text": "نباید که خواهد ز ما باژ شاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 184,
+    "position": 1,
+    "text": "نراند بدین پادشاهی سپاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 185,
+    "position": 0,
+    "text": "برین گونه دارم ز قیصر پیام"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 186,
+    "position": 1,
+    "text": "تو پاسخ گزار آنچ آیدت کام"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 187,
+    "position": 0,
+    "text": "فرستاده راگفت شاه جهان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 188,
+    "position": 1,
+    "text": "که این هم نباشد ز یزدان نهان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 189,
+    "position": 0,
+    "text": "من از فر او این بجای آورم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 190,
+    "position": 1,
+    "text": "همان مرد پاکیزه رای آورم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 191,
+    "position": 0,
+    "text": "یکی هفته ایدر ز می شاد باش"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 192,
+    "position": 1,
+    "text": "برامش دل آرای وآزاد باش"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 193,
+    "position": 0,
+    "text": "ازان پس بران داستان خیره ماند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 194,
+    "position": 1,
+    "text": "بزرگان و فرزانگانرا بخواند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 195,
+    "position": 0,
+    "text": "نگه کرد هریک زهر باره‌ای"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 196,
+    "position": 1,
+    "text": "که سازد مر آن بند را چاره‌ای"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 197,
+    "position": 0,
+    "text": "بدان درج و قفلی چنان بی‌کلید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 198,
+    "position": 1,
+    "text": "نگه کرد و هر موبدی بنگرید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 199,
+    "position": 0,
+    "text": "ز دانش سراسر بیکسو شدند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 200,
+    "position": 1,
+    "text": "بنادانی خویش خستو شدند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 201,
+    "position": 0,
+    "text": "چو گشتند یک انجمن ناتوان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 202,
+    "position": 1,
+    "text": "غمی شد دل شاه نوشین‌روان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 203,
+    "position": 0,
+    "text": "همی‌گفت کاین راز گردان سپهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 204,
+    "position": 1,
+    "text": "بیارد باندیشه بوزرجمهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 205,
+    "position": 0,
+    "text": "شد از درد دانا دلش پر ز درد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 206,
+    "position": 1,
+    "text": "برو پر ز چین کرد و رخساره زرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 207,
+    "position": 0,
+    "text": "شهنشاه چون دید ز اندیشه رنج"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 208,
+    "position": 1,
+    "text": "بفرمود تا جامه دستی ز گنج"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 209,
+    "position": 0,
+    "text": "بیاورد گنجور و اسبی گزین"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 210,
+    "position": 1,
+    "text": "نشست شهنشاه کردند زین"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 211,
+    "position": 0,
+    "text": "به نزدیک دانا فرستاد و گفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 212,
+    "position": 1,
+    "text": "که رنجی که دیدی نشاید نهفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 213,
+    "position": 0,
+    "text": "چنین راند بر سر سپهر بلند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 214,
+    "position": 1,
+    "text": "که آید ز ما بر تو چندی گزند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 215,
+    "position": 0,
+    "text": "زیان تو مغز مرا کرد تیز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 216,
+    "position": 1,
+    "text": "همی با تن خویش کردی ستیز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 217,
+    "position": 0,
+    "text": "یکی کار پیش آمدم ناگزیر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 218,
+    "position": 1,
+    "text": "کزان بسته آمد دل تیزویر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 219,
+    "position": 0,
+    "text": "یکی درج زرین سرش بسته خشک"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 220,
+    "position": 1,
+    "text": "نهاده برو قفل و مهری ز مشک"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 221,
+    "position": 0,
+    "text": "فرستاد قیصر بر ما ز روم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 222,
+    "position": 1,
+    "text": "یکی موبدی نامبردار بوم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 223,
+    "position": 0,
+    "text": "فرستاده گوید که سالار گفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 224,
+    "position": 1,
+    "text": "که این راز پیدا کنید از نهفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 225,
+    "position": 0,
+    "text": "که این درج را چیست اندر نهان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 226,
+    "position": 1,
+    "text": "بگویند فرزانگان جهان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 227,
+    "position": 0,
+    "text": "به دل گفتم این راز پوشیده چهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 228,
+    "position": 1,
+    "text": "ببیند مگر جان بوزرجمهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 229,
+    "position": 0,
+    "text": "چوبشنید بوزرجمهر این سخن"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 230,
+    "position": 1,
+    "text": "دلش پرشد از رنج و درد کهن"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 231,
+    "position": 0,
+    "text": "ز زندان بیامد سرو تن بشست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 232,
+    "position": 1,
+    "text": "به پیش جهانداور آمد نخست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 233,
+    "position": 0,
+    "text": "همی‌بود ترسان ز آزار شاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 234,
+    "position": 1,
+    "text": "جهاندار پر خشم و او بیگناه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 235,
+    "position": 0,
+    "text": "شب تیره و روز پیدا نبود"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 236,
+    "position": 1,
+    "text": "بدان سان که پیغام خسرو شنود"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 237,
+    "position": 0,
+    "text": "چو خورشید بنمود تاج از فراز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 238,
+    "position": 1,
+    "text": "بپوشید روی شب تیره باز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 239,
+    "position": 0,
+    "text": "باختر نگه کرد بوزرجمهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 240,
+    "position": 1,
+    "text": "چو خورشید رخشنده بد بر سپهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 241,
+    "position": 0,
+    "text": "به آب خرد چشم دل را بشست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 242,
+    "position": 1,
+    "text": "ز دانندگان استواری بجست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 243,
+    "position": 0,
+    "text": "بدو گفت بازار من خیره گشت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 244,
+    "position": 1,
+    "text": "چو چشمم ازین رنج‌ها تیره گشت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 245,
+    "position": 0,
+    "text": "نگه کن که پیشت که آید به راه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 246,
+    "position": 1,
+    "text": "ز حالش بپرس ایچ نامش مخواه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 247,
+    "position": 0,
+    "text": "به راه آمد از خانه بوزرجمهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 248,
+    "position": 1,
+    "text": "همی‌رفت پویان زنی خوب‌چهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 249,
+    "position": 0,
+    "text": "خردمند بینا به دانا بگفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 250,
+    "position": 1,
+    "text": "سخن هرچ بر چشم او بد نهفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 251,
+    "position": 0,
+    "text": "چنین گفت پرسنده را راه‌جوی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 252,
+    "position": 1,
+    "text": "که بپژوه تا دارد این ماه شوی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 253,
+    "position": 0,
+    "text": "زن پاکدامن به پرسنده گفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 254,
+    "position": 1,
+    "text": "که شوی‌ست و هم کودک اندر نهفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 255,
+    "position": 0,
+    "text": "چو بشنید داننده گفتار زن"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 256,
+    "position": 1,
+    "text": "بخندید بر بارهٔ گامزن"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 257,
+    "position": 0,
+    "text": "همانگه زنی دیگر آمد پدید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 258,
+    "position": 1,
+    "text": "بپرسید چون ترجمانش بدید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 259,
+    "position": 0,
+    "text": "که‌ای زن تو را بچه و شوی هست‌؟"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 260,
+    "position": 1,
+    "text": "وگر یک تنی باد داری به‌دست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 261,
+    "position": 0,
+    "text": "بدو گفت شوی‌ست اگر بچه نیست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 262,
+    "position": 1,
+    "text": "چو پاسخ شنیدی بر من مایست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 263,
+    "position": 0,
+    "text": "همانگه سه‌دیگر زن آمد پدید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 264,
+    "position": 1,
+    "text": "بیامد بر او بگفت و شنید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 265,
+    "position": 0,
+    "text": "که ای خوب‌رخ کیست انباز تو‌؟"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 266,
+    "position": 1,
+    "text": "برین کش خرامیدن و ناز تو"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 267,
+    "position": 0,
+    "text": "مرا گفت هرگز نبوده‌ست شوی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 268,
+    "position": 1,
+    "text": "نخواهم که پیدا کنم نیز روی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 269,
+    "position": 0,
+    "text": "چو بشنید بوزرجمهر این سخن"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 270,
+    "position": 1,
+    "text": "نگر تا چه اندیشه افگند بن"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 271,
+    "position": 0,
+    "text": "بیامد دژم‌روی تازان به راه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 272,
+    "position": 1,
+    "text": "چو بردند جوینده را نزد شاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 273,
+    "position": 0,
+    "text": "بفرمود تا رفت نزدیک تخت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 274,
+    "position": 1,
+    "text": "دل شاه کسری غمی گشت سخت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 275,
+    "position": 0,
+    "text": "که داننده را چشم بینا ندید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 276,
+    "position": 1,
+    "text": "بسی باد سرد از جگر بر کشید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 277,
+    "position": 0,
+    "text": "همی‌کرد پوزش ازان کار شاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 278,
+    "position": 1,
+    "text": "کزو داشت آزار بر بی‌گناه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 279,
+    "position": 0,
+    "text": "پس از روم و قیصر زبان برگشاد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 280,
+    "position": 1,
+    "text": "همی‌کرد زان قفل و زان درج یاد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 281,
+    "position": 0,
+    "text": "به شاه جهان گفت بوزرجمهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 282,
+    "position": 1,
+    "text": "که تابان بدی تا بتابد سپهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 283,
+    "position": 0,
+    "text": "یکی انجمن درج در پیش شاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 284,
+    "position": 1,
+    "text": "به پیش بزرگان جوینده راه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 285,
+    "position": 0,
+    "text": "به نیروی یزدان که اندیشه داد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 286,
+    "position": 1,
+    "text": "روان مرا راستی پیشه داد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 287,
+    "position": 0,
+    "text": "بگویم به دُرج اندرون هرچ هست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 288,
+    "position": 1,
+    "text": "نسایم بران قفل وآن درج دست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 289,
+    "position": 0,
+    "text": "اگر تیره شد چشم‌، دل روشن است"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 290,
+    "position": 1,
+    "text": "روان را ز دانش همی جوشن است"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 291,
+    "position": 0,
+    "text": "ز گفتار او شاد شد شهریار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 292,
+    "position": 1,
+    "text": "دلش تازه شد چون گل اندر بهار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 293,
+    "position": 0,
+    "text": "ز اندیشه شد شاه را پشت راست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 294,
+    "position": 1,
+    "text": "فرستاده و درج را پیش خواست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 295,
+    "position": 0,
+    "text": "همه موبدان وردان را بخواند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 296,
+    "position": 1,
+    "text": "بسی دانشی پیش دانا نشاند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 297,
+    "position": 0,
+    "text": "ازان پس فرستاده را گفت شاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 298,
+    "position": 1,
+    "text": "که پیغام بگزار و پاسخ بخواه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 299,
+    "position": 0,
+    "text": "چو بشنید رومی زبان برگشاد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 300,
+    "position": 1,
+    "text": "سخن‌های قیصر همه کرد یاد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 301,
+    "position": 0,
+    "text": "که گفت از جهاندار پیروز جنگ"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 302,
+    "position": 1,
+    "text": "خرد باید و دانش و نام و ننگ"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 303,
+    "position": 0,
+    "text": "تو را فر و برز جهاندار هست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 304,
+    "position": 1,
+    "text": "بزرگی و دانایی و زور دست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 305,
+    "position": 0,
+    "text": "همان بخرد و موبد راه‌جوی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 306,
+    "position": 1,
+    "text": "گو بر منش کو بود شاه جوی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 307,
+    "position": 0,
+    "text": "همه پاک در بارگاه تواند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 308,
+    "position": 1,
+    "text": "وگر در جهان نیک‌خواه تواند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 309,
+    "position": 0,
+    "text": "همین درج با قفل و مهر و نشان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 310,
+    "position": 1,
+    "text": "ببینند بیدار دل سرکشان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 311,
+    "position": 0,
+    "text": "بگویند روشن که زیر نهفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 312,
+    "position": 1,
+    "text": "چه چیزست وآن با خرد هست جفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 313,
+    "position": 0,
+    "text": "فرستیم زین پس به تو باژ و ساو"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 314,
+    "position": 1,
+    "text": "که این مرز دارند با باژ تاو"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 315,
+    "position": 0,
+    "text": "وگر باز مانند ازین مایه چیز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 316,
+    "position": 1,
+    "text": "نخواهند ازین مرزها باژ نیز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 317,
+    "position": 0,
+    "text": "چو دانا ز گوینده پاسخ شنید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 318,
+    "position": 1,
+    "text": "زبان برگشاد آفرین گسترید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 319,
+    "position": 0,
+    "text": "که همواره شاه جهان شاد باد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 320,
+    "position": 1,
+    "text": "سخن‌دان و با بخت و با داد باد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 321,
+    "position": 0,
+    "text": "سپاس از خداوند خورشید و ماه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 322,
+    "position": 1,
+    "text": "روان را به دانش نماینده راه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 323,
+    "position": 0,
+    "text": "نداند جز او آشکارا و راز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 324,
+    "position": 1,
+    "text": "به دانش مرا آز و او بی‌نیاز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 325,
+    "position": 0,
+    "text": "سه دُرست رخشان به درج اندرون"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 326,
+    "position": 1,
+    "text": "غلافش بود ز آنچ گفتم برون"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 327,
+    "position": 0,
+    "text": "یکی سفته و دیگری نیم سفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 328,
+    "position": 1,
+    "text": "دگر آنک آهن ندیده‌ست جفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 329,
+    "position": 0,
+    "text": "چو بشنید دانای رومی کلید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 330,
+    "position": 1,
+    "text": "بیاورد و نوشین‌روان بنگرید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 331,
+    "position": 0,
+    "text": "نهفته یکی حقه بُد در میان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 332,
+    "position": 1,
+    "text": "به حقه درون پردهٔ پرنیان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 333,
+    "position": 0,
+    "text": "سه گوهر بدان حقه اندر نهفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 334,
+    "position": 1,
+    "text": "چنان هم که دانای ایران بگفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 335,
+    "position": 0,
+    "text": "نخستین ز گوهر یکی سفته بود"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 336,
+    "position": 1,
+    "text": "دوم نیم سفت و سیم نابسود"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 337,
+    "position": 0,
+    "text": "همه موبدان آفرین خواندند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 338,
+    "position": 1,
+    "text": "بدان دانشی گوهر افشاندند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 339,
+    "position": 0,
+    "text": "شهنشاه رخساره بی‌تاب کرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 340,
+    "position": 1,
+    "text": "دهانش پر از در خوشاب کرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 341,
+    "position": 0,
+    "text": "ز کار گذشته دلش تنگ شد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 342,
+    "position": 1,
+    "text": "بپیچید و رویش پر آژنگ شد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 343,
+    "position": 0,
+    "text": "که با او چرا کرد چندان جفا"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 344,
+    "position": 1,
+    "text": "ازان پس کزو دید مهر و وفا"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 345,
+    "position": 0,
+    "text": "چو دانا رخ شاه پژمرده یافت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 346,
+    "position": 1,
+    "text": "روانش به درد اندر آزرده یافت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 347,
+    "position": 0,
+    "text": "برآورد گوینده راز از نهفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 348,
+    "position": 1,
+    "text": "گذشته همه پیش کسری بگفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 349,
+    "position": 0,
+    "text": "ازان بند بازوی و مرغ سیاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 350,
+    "position": 1,
+    "text": "از اندیشه گوهر و خواب شاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 351,
+    "position": 0,
+    "text": "بدو گفت کاین بودنی کار بود"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 352,
+    "position": 1,
+    "text": "ندارد پشیمانی و درد سود"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 353,
+    "position": 0,
+    "text": "چو آرد بد و نیک رای سپهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 354,
+    "position": 1,
+    "text": "چه شاه و چه موبد چه بوزرجمهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 355,
+    "position": 0,
+    "text": "ز تخمی که یزدان به اختر بکشت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 356,
+    "position": 1,
+    "text": "ببایدش بر تارک ما نبشت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 357,
+    "position": 0,
+    "text": "دل شاه نوشین‌روان شاد باد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 358,
+    "position": 1,
+    "text": "همیشه ز درد و غم آزاد باد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 359,
+    "position": 0,
+    "text": "اگر چند باشد سرافراز شاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 360,
+    "position": 1,
+    "text": "به دستور گردد دلارای گاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 361,
+    "position": 0,
+    "text": "شکارست کار شهنشاه و رزم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 362,
+    "position": 1,
+    "text": "می و شادی و بخشش و داد و بزم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 363,
+    "position": 0,
+    "text": "بداند که شاهان چه کردند پیش"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 364,
+    "position": 1,
+    "text": "بورزد بدان هم نشان رای خویش"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 365,
+    "position": 0,
+    "text": "ز آگندن گنج و رنج سپاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 366,
+    "position": 1,
+    "text": "ز آزرم گفتار وز دادخواه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 367,
+    "position": 0,
+    "text": "دل و جان دستور باشد به رنج"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 368,
+    "position": 1,
+    "text": "ز اندیشهٔ کدخدایی و گنج"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 369,
+    "position": 0,
+    "text": "چنین بود تا گاه نوشین‌روان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 370,
+    "position": 1,
+    "text": "همو بود شاه و همو پهلوان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 371,
+    "position": 0,
+    "text": "همو بود جنگی و موبد همو"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 372,
+    "position": 1,
+    "text": "سپهبد همو بود و بخرد همو"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 373,
+    "position": 0,
+    "text": "به هرجای کارآگهان داشتی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 374,
+    "position": 1,
+    "text": "جهان را به دستور نگذاشتی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 375,
+    "position": 0,
+    "text": "ز بسیار و اندک ز کار جهان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 376,
+    "position": 1,
+    "text": "بد و نیک زو کس نکردی نهان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 377,
+    "position": 0,
+    "text": "ز کار آگهان موبدی نیکخواه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 378,
+    "position": 1,
+    "text": "چنان بد که برخاست بر پیش گاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 379,
+    "position": 0,
+    "text": "که گاهی گنه بگذرانی همی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 380,
+    "position": 1,
+    "text": "به بد نام آنکس نخوانی همی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 381,
+    "position": 0,
+    "text": "هم این را دگر باره آویزش است"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 382,
+    "position": 1,
+    "text": "گنهکار اگر چند با پوزش است"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 383,
+    "position": 0,
+    "text": "به پاسخ چنین بود توقیع شاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 384,
+    "position": 1,
+    "text": "که آنکس که خستو شود بر گناه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 385,
+    "position": 0,
+    "text": "چو بیمار زارست و ما چون پزشک"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 386,
+    "position": 1,
+    "text": "ز دارو گریزان و ریزان سرشک"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 387,
+    "position": 0,
+    "text": "به یک دارو ار او نگردد درست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 388,
+    "position": 1,
+    "text": "زوان از پزشکی نخواهیم شست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 389,
+    "position": 0,
+    "text": "دگر موبدی گفت انوشه بدی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 390,
+    "position": 1,
+    "text": "به داد و دهش نیز توشه بدی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 391,
+    "position": 0,
+    "text": "سپهدار گرگان برفت از نهفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 392,
+    "position": 1,
+    "text": "به بیشه درآمد زمانی بخفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 393,
+    "position": 0,
+    "text": "بنه برد از گیل و او برهنه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 394,
+    "position": 1,
+    "text": "همی‌بازگردد ز بهر بنه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 395,
+    "position": 0,
+    "text": "به توقیع پاسخ چنین داد باز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 396,
+    "position": 1,
+    "text": "که هستیم ازان لشکری بی‌نیاز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 397,
+    "position": 0,
+    "text": "کجا پاسپانی کند بر سپاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 398,
+    "position": 1,
+    "text": "ز بد خویشتن را ندارد نگاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 399,
+    "position": 0,
+    "text": "دگر گفت انوشه بدی جاودان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 400,
+    "position": 1,
+    "text": "نشست و خور و خواب با موبدان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 401,
+    "position": 0,
+    "text": "یکی نامور مایه‌دار ایدرست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 402,
+    "position": 1,
+    "text": "که گنجش ز گنج تو افزون‌ترست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 403,
+    "position": 0,
+    "text": "چنین داد پاسخ که آری رواست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 404,
+    "position": 1,
+    "text": "که از فره پادشاهی ماست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 405,
+    "position": 0,
+    "text": "دگر گفت کای شهریار بلند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 406,
+    "position": 1,
+    "text": "انوشه بدی وز بدی بی‌گزند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 407,
+    "position": 0,
+    "text": "اسیران رومی که آورده‌اند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 408,
+    "position": 1,
+    "text": "بسی شیرخواره درو برده‌اند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 409,
+    "position": 0,
+    "text": "به توقیع گفت آنچه هستند خرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 410,
+    "position": 1,
+    "text": "ز دست اسیران نباید شمرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 411,
+    "position": 0,
+    "text": "سوی مادران‌شان فرستید باز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 412,
+    "position": 1,
+    "text": "به دل شاد وز خواسته بی‌نیاز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 413,
+    "position": 0,
+    "text": "نبشتند کز روم صد مایه‌ور"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 414,
+    "position": 1,
+    "text": "همی بازخرند خویشان به زر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 415,
+    "position": 0,
+    "text": "اگر باز خرند گفت از هراس"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 416,
+    "position": 1,
+    "text": "به هر مایه‌دار‌ی یک مایه کاس"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 417,
+    "position": 0,
+    "text": "فروشید و افزون مجویید نیز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 418,
+    "position": 1,
+    "text": "که ما بی‌نیازیم ز ایشان به‌چیز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 419,
+    "position": 0,
+    "text": "به شمشیر خواهیم ز ایشان گهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 420,
+    "position": 1,
+    "text": "همان بدره و برده و سیم و زر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 421,
+    "position": 0,
+    "text": "بگفتند کز مایه‌دار‌ان شهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 422,
+    "position": 1,
+    "text": "دو بازارگانند کز شب دو بهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 423,
+    "position": 0,
+    "text": "یکی را نیاید سر اندر به‌خواب"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 424,
+    "position": 1,
+    "text": "از آواز مستان و چنگ و رباب"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 425,
+    "position": 0,
+    "text": "چنین داد پاسخ کزین نیست رنج"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 426,
+    "position": 1,
+    "text": "جز ایشان هرآنکس که دارند گنج"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 427,
+    "position": 0,
+    "text": "همه همچنان شاد و خرم زیند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 428,
+    "position": 1,
+    "text": "که‌آزاد باشند و بی‌غم زیند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 429,
+    "position": 0,
+    "text": "نوشتند خطی که‌انوشه بدی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 430,
+    "position": 1,
+    "text": "همیشه ز تو دور دست بدی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 431,
+    "position": 0,
+    "text": "به ایوان چنین گفت شاه یمن"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 432,
+    "position": 1,
+    "text": "که نوشین‌روان چون گشاید دهن"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 433,
+    "position": 0,
+    "text": "همه مردگان را کند بیش یاد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 434,
+    "position": 1,
+    "text": "پر از غم شود زنده را جان شاد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 435,
+    "position": 0,
+    "text": "چنین داد پاسخ که از مرده یاد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 436,
+    "position": 1,
+    "text": "کند هرک دارد خرد با نژاد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 437,
+    "position": 0,
+    "text": "هرآنکس که از مردگان دل بشست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 438,
+    "position": 1,
+    "text": "نباشد ورا نیکویها درست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 439,
+    "position": 0,
+    "text": "یکی گفت کای شاه کهتر پسر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 440,
+    "position": 1,
+    "text": "نگردد همی گرد داد پدر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 441,
+    "position": 0,
+    "text": "بریزد همی بر زمین بر درم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 442,
+    "position": 1,
+    "text": "که باشد فروشندهٔ او دژم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 443,
+    "position": 0,
+    "text": "چنین داد پاسخ که این نارواست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 444,
+    "position": 1,
+    "text": "بهای زمین هم فروشنده راست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 445,
+    "position": 0,
+    "text": "دگر گفت کای شاه برتر‌منش"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 446,
+    "position": 1,
+    "text": "که دوری ز بیغاره و سرزنش"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 447,
+    "position": 0,
+    "text": "دلی داشتی پیش ازین پر ز شرم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 448,
+    "position": 1,
+    "text": "چرا شد برین سان بی‌آزرم و گرم‌؟"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 449,
+    "position": 0,
+    "text": "چنین داد پاسخ که دندان نبود"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 450,
+    "position": 1,
+    "text": "مکیدن جز از شیر پستان نبود"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 451,
+    "position": 0,
+    "text": "چو دندان برآمد ببالید پشت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 452,
+    "position": 1,
+    "text": "همی گوشت جویم چو گشتم درشت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 453,
+    "position": 0,
+    "text": "یکی گفت گیرم کنون مهتری"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 454,
+    "position": 1,
+    "text": "به‌رای و به‌دانش ز ما مهتری"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 455,
+    "position": 0,
+    "text": "چرا برگذشتی ز شاهنشهان‌؟"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 456,
+    "position": 1,
+    "text": "دو دیده به‌رای تو دارد جهان‌‌"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 457,
+    "position": 0,
+    "text": "چنین داد پاسخ که ما را خرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 458,
+    "position": 1,
+    "text": "ز دیدار ایشان همی‌بگذرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 459,
+    "position": 0,
+    "text": "هش و دانش و رای دستور ماست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 460,
+    "position": 1,
+    "text": "زمین گنج و اندیشه گنجور ماست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 461,
+    "position": 0,
+    "text": "دگر گفت باز‌ِ تو ای شهریار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 462,
+    "position": 1,
+    "text": "عقابی گرفته‌ست روز شکار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 463,
+    "position": 0,
+    "text": "چنین گفت کاو را بکوبید پشت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 464,
+    "position": 1,
+    "text": "که با مهتر خود چرا شد درشت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 465,
+    "position": 0,
+    "text": "بیاویز پایش ز دار بلند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 466,
+    "position": 1,
+    "text": "بدان تا بدو بازگردد گزند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 467,
+    "position": 0,
+    "text": "که از کهتران نیز در کارزار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 468,
+    "position": 1,
+    "text": "فزونی نجویند با شهریار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 469,
+    "position": 0,
+    "text": "دگر نامداری ز کارآگهان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 470,
+    "position": 1,
+    "text": "چنین گفت کای شهریار جهان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 471,
+    "position": 0,
+    "text": "به شبگیر برزین بشد با سپاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 472,
+    "position": 1,
+    "text": "ستاره‌شناسی بیامد ز راه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 473,
+    "position": 0,
+    "text": "چنین گفت کای مرد گردن‌فراز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 474,
+    "position": 1,
+    "text": "چنین لشکری گشن وزین گونه ساز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 475,
+    "position": 0,
+    "text": "چو برگاشت او پشت بر شهریار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 476,
+    "position": 1,
+    "text": "نبیند کس او را بدین روزگار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 477,
+    "position": 0,
+    "text": "به‌توقیع گفت آنک گردان سپهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 478,
+    "position": 1,
+    "text": "گشاده‌ست با رای او چهر و مهر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 479,
+    "position": 0,
+    "text": "به برزین سالار و گنج و سپاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 480,
+    "position": 1,
+    "text": "نگردد تباه اختر هور و ماه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 481,
+    "position": 0,
+    "text": "دگر موبدی گفت کز شهریار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 482,
+    "position": 1,
+    "text": "چنین بود پیمان به یک روزگار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 483,
+    "position": 0,
+    "text": "که مردی گزینند فرخ نژاد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 484,
+    "position": 1,
+    "text": "که در پادشاهی بگردد به‌داد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 485,
+    "position": 0,
+    "text": "رساند بدین بارگاه آگهی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 486,
+    "position": 1,
+    "text": "ز بسیار و اندک بدی گر بهی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 487,
+    "position": 0,
+    "text": "گشسب سرافراز مردی‌ست پیر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 488,
+    "position": 1,
+    "text": "سزد گر بود داد را دستگیر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 489,
+    "position": 0,
+    "text": "چنین داد پاسخ که او را ز آز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 490,
+    "position": 1,
+    "text": "کمر بر میان است دور از نیاز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 491,
+    "position": 0,
+    "text": "کسی را گزینید کز رنج خویش"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 492,
+    "position": 1,
+    "text": "به‌پرهیز و باشدش گنج خویش"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 493,
+    "position": 0,
+    "text": "جهاندیده مردی درشت و درست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 494,
+    "position": 1,
+    "text": "که او رای درویش سازد نخست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 495,
+    "position": 0,
+    "text": "یکی گفت سالار خوالیگران"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 496,
+    "position": 1,
+    "text": "همی‌نالد از شاه وز مهتران"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 497,
+    "position": 0,
+    "text": "که آن چیز کاو خود کند آرزوی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 498,
+    "position": 1,
+    "text": "سپارد همه کاسه بر چار سوی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 499,
+    "position": 0,
+    "text": "نبوید نیازد بدو نیز دست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 500,
+    "position": 1,
+    "text": "بلرزد دل مرد خسرو‌پرست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 501,
+    "position": 0,
+    "text": "چنین داد پاسخ که از بیش خورد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 502,
+    "position": 1,
+    "text": "مگر آرزو بازگردد به دَرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 503,
+    "position": 0,
+    "text": "دگر گفت هرکس نکوهش کند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 504,
+    "position": 1,
+    "text": "شهنشاه را چون پژوهش کند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 505,
+    "position": 0,
+    "text": "که بی‌لشکر گشن بیرون شود"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 506,
+    "position": 1,
+    "text": "دل دوستداران پر از خون شود"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 507,
+    "position": 0,
+    "text": "مگر دشمنی بد سگالد بدوی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 508,
+    "position": 1,
+    "text": "بیاید به چاره بنالد بدوی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 509,
+    "position": 0,
+    "text": "چنین داد پاسخ که داد و خرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 510,
+    "position": 1,
+    "text": "تن پادشا را همی‌پرورد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 511,
+    "position": 0,
+    "text": "اگر دادگر چند بی‌کس بود"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 512,
+    "position": 1,
+    "text": "ورا پاسبان راستی بس بود"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 513,
+    "position": 0,
+    "text": "دگر گفت کای با خرد گشته جفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 514,
+    "position": 1,
+    "text": "به میدان خراسان سالار گفت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 515,
+    "position": 0,
+    "text": "که گرزاسب را بازکرد او ز کار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 516,
+    "position": 1,
+    "text": "چه گفت اندرین کار او شهریار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 517,
+    "position": 0,
+    "text": "چنین داد پاسخ که فرمان ما"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 518,
+    "position": 1,
+    "text": "نورزید و بنهفت پیمان ما"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 519,
+    "position": 0,
+    "text": "بفرمودمش تا به ارزانیان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 520,
+    "position": 1,
+    "text": "گشاید در گنج سود و زیان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 521,
+    "position": 0,
+    "text": "کسی کودهش کاست باشد به کار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 522,
+    "position": 1,
+    "text": "بپوشد همه فره شهریار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 523,
+    "position": 0,
+    "text": "دگر گفت با هرکسی پادشا"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 524,
+    "position": 1,
+    "text": "بزرگ است و بخشنده و پارسا"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 525,
+    "position": 0,
+    "text": "پرستار دیرینه مهرک چه کرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 526,
+    "position": 1,
+    "text": "که روزیش اندک شد و روی‌زرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 527,
+    "position": 0,
+    "text": "چنین داد پاسخ که او شد درشت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 528,
+    "position": 1,
+    "text": "بران کردهٔ خویش بنهاد پشت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 529,
+    "position": 0,
+    "text": "بیامد به درگاه و بنشست مست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 530,
+    "position": 1,
+    "text": "همیشه جز از می‌ ندارد به دست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 531,
+    "position": 0,
+    "text": "ز کارآگهان موبدی گفت شاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 532,
+    "position": 1,
+    "text": "چو راند سوی جنگ قیصر سپاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 533,
+    "position": 0,
+    "text": "نخواهد جز ایرانیان را به جنگ"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 534,
+    "position": 1,
+    "text": "جهان شد به ایران بر از روم تنگ"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 535,
+    "position": 0,
+    "text": "چنین داد پاسخ که آن دشمنی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 536,
+    "position": 1,
+    "text": "به طبع است و پرخاش آهرمنی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 537,
+    "position": 0,
+    "text": "دگر باره پرسید موبد که شاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 538,
+    "position": 1,
+    "text": "ز شاهان دگرگونه خواهد سپاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 539,
+    "position": 0,
+    "text": "کدامست وچون بایدت مرد جنگ‌؟"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 540,
+    "position": 1,
+    "text": "ز مردان شیرافگن تیز چنگ‌؟"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 541,
+    "position": 0,
+    "text": "چنین داد پاسخ که جنگی سوار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 542,
+    "position": 1,
+    "text": "نباید که سیر آید از کارزار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 543,
+    "position": 0,
+    "text": "همان بزمش آید همان رزمگاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 544,
+    "position": 1,
+    "text": "به رخشنده روز و شبان سیاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 545,
+    "position": 0,
+    "text": "نگردد بهنگام نیروش کم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 546,
+    "position": 1,
+    "text": "ز بسیار و اندک نباشد دژم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 547,
+    "position": 0,
+    "text": "دگر گفت کای شاه نوشین‌روان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 548,
+    "position": 1,
+    "text": "همیشه بزی شاد و روشن‌روان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 549,
+    "position": 0,
+    "text": "بدر بر یکی مرد بد از نسا"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 550,
+    "position": 1,
+    "text": "پرستنده و کاردار بسا"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 551,
+    "position": 0,
+    "text": "درم ماند بر وی سیصد هزار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 552,
+    "position": 1,
+    "text": "به دیوان چو کردند با او شمار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 553,
+    "position": 0,
+    "text": "بنالد همی کاین درم خورده شد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 554,
+    "position": 1,
+    "text": "بر او مهتر و کهتر آزرده شد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 555,
+    "position": 0,
+    "text": "چو آگاه شد زان سخن شهریار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 556,
+    "position": 1,
+    "text": "که موبد درم خواست از کاردار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 557,
+    "position": 0,
+    "text": "چنین گفت کز خورده منمای رنج"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 558,
+    "position": 1,
+    "text": "ببخشید چیزی مر او را ز گنج"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 559,
+    "position": 0,
+    "text": "دگر گفت جنگی‌سواری بخَست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 560,
+    "position": 1,
+    "text": "بدان خستگی دیر ماند و برست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 561,
+    "position": 0,
+    "text": "به پیش صف رومیان حمله برد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 562,
+    "position": 1,
+    "text": "بمرد او وزو کودکان ماند خُرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 563,
+    "position": 0,
+    "text": "چه فرمان دهد شهریار جهان‌؟"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 564,
+    "position": 1,
+    "text": "ز کار چنان خرد کودک نوان‌؟"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 565,
+    "position": 0,
+    "text": "بفرمود کان کودکان‌را چهار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 566,
+    "position": 1,
+    "text": "ز گنج درم داد باید هزار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 567,
+    "position": 0,
+    "text": "هرآنکس که شد کشته در کارزار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 568,
+    "position": 1,
+    "text": "کزو خرد کودک بود یادگار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 569,
+    "position": 0,
+    "text": "چو نامش ز دفتر بخواند دبیر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 570,
+    "position": 1,
+    "text": "برد پیش کودک درم ناگزیر"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 571,
+    "position": 0,
+    "text": "چنین هم به سال اندرون چار بار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 572,
+    "position": 1,
+    "text": "مبادا که باشد ازین کار خوار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 573,
+    "position": 0,
+    "text": "دگر گفت انوشه بدی سال و ماه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 574,
+    "position": 1,
+    "text": "به مرو اندرون پهلوان سپاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 575,
+    "position": 0,
+    "text": "فراوان درم گرد کرد و بخورد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 576,
+    "position": 1,
+    "text": "پراگنده گشتند زان مرز مرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 577,
+    "position": 0,
+    "text": "چنین داد پاسخ که آن خواسته"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 578,
+    "position": 1,
+    "text": "که از شهر مردم کند کاسته"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 579,
+    "position": 0,
+    "text": "چرا باید از خون درویش گنج"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 580,
+    "position": 1,
+    "text": "که او شاد باشد تن و جان به رنج"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 581,
+    "position": 0,
+    "text": "ازان کس که بستد بدو باز‌ده"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 582,
+    "position": 1,
+    "text": "ازان پس به مرو اندر آواز ده"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 583,
+    "position": 0,
+    "text": "بفرمای داری زدن بر درش"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 584,
+    "position": 1,
+    "text": "به بیداری کشور و لشکرش"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 585,
+    "position": 0,
+    "text": "ستمکاره را زنده بر دار کن"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 586,
+    "position": 1,
+    "text": "دو پایش زبر‌، سر نگونسار کن"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 587,
+    "position": 0,
+    "text": "بدان تا کس از پهلوانان ما"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 588,
+    "position": 1,
+    "text": "نپیچد دل و جان ز پیمان ما"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 589,
+    "position": 0,
+    "text": "دگر گفت کای شاه یزدان‌پرست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 590,
+    "position": 1,
+    "text": "بدر بر بسی مردم زیردست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 591,
+    "position": 0,
+    "text": "همی‌داد او را ستایش کنند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 592,
+    "position": 1,
+    "text": "جهان‌آفرین را نیایش کنند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 593,
+    "position": 0,
+    "text": "چنین داد پاسخ که یزدان سپاس"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 594,
+    "position": 1,
+    "text": "که از ما کسی نیست اندر هراس"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 595,
+    "position": 0,
+    "text": "فزون کرد باید بدیشان نگاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 596,
+    "position": 1,
+    "text": "اگر با گناهند و گر بی‌گناه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 597,
+    "position": 0,
+    "text": "دگر گفت کای شاه با فر و هوش"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 598,
+    "position": 1,
+    "text": "جهان شد پُر آواز خنیا و نوش"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 599,
+    "position": 0,
+    "text": "توانگر و گر مردم زیردست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 600,
+    "position": 1,
+    "text": "شب آید شود پر ز آوای مست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 601,
+    "position": 0,
+    "text": "چنین داد پاسخ که اندر جهان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 602,
+    "position": 1,
+    "text": "به ما شاد بادا کهان و مهان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 603,
+    "position": 0,
+    "text": "دگر گفت کای شاه برترمنش"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 604,
+    "position": 1,
+    "text": "همی زشتگویت کند سرزنش"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 605,
+    "position": 0,
+    "text": "که چندین گزافه ببخشید گنج"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 606,
+    "position": 1,
+    "text": "ز گرد آوریدن ندیده‌ست رنج"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 607,
+    "position": 0,
+    "text": "چنین داد پاسخ که آن خواسته"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 608,
+    "position": 1,
+    "text": "کزو گنج ما باشد آراسته"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 609,
+    "position": 0,
+    "text": "اگر بازگیریم ز ارزانیان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 610,
+    "position": 1,
+    "text": "همه سود فرجام گردد زیان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 611,
+    "position": 0,
+    "text": "دگر گفت کای شهریار بلند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 612,
+    "position": 1,
+    "text": "که هرگز مبادا به جانت گزند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 613,
+    "position": 0,
+    "text": "جهودان و ترسا تو را دشمنند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 614,
+    "position": 1,
+    "text": "دو رویند و با کیش آهرمنند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 615,
+    "position": 0,
+    "text": "چنین داد پاسخ که شاه سترگ"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 616,
+    "position": 1,
+    "text": "ابی زینهاری نباشد بزرگ"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 617,
+    "position": 0,
+    "text": "دگر گفت کای نامور شهریار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 618,
+    "position": 1,
+    "text": "ز گنج تو افزون ز سیصد هزار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 619,
+    "position": 0,
+    "text": "درم داده‌ای مرد درویش را"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 620,
+    "position": 1,
+    "text": "بسی پروریده تن خویش را"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 621,
+    "position": 0,
+    "text": "چنین گفت کاین هم به فرمان ماست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 622,
+    "position": 1,
+    "text": "به ارزانیان چیز‌بخشی رواست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 623,
+    "position": 0,
+    "text": "دگر گفت کای شاه نادیده رنج"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 624,
+    "position": 1,
+    "text": "ز بخشش فراوان تهی ماند گنج"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 625,
+    "position": 0,
+    "text": "چنین داد پاسخ که دست فراخ"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 626,
+    "position": 1,
+    "text": "همی مرد را نو کند یال و شاخ"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 627,
+    "position": 0,
+    "text": "جهاندار چون گشت یزدان‌پرست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 628,
+    "position": 1,
+    "text": "نیازد به‌بد در جهان نیز دست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 629,
+    "position": 0,
+    "text": "جهان تنگ دیدیم بر تنگخوی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 630,
+    "position": 1,
+    "text": "مرا آز و زفتی نبد آرزوی"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 631,
+    "position": 0,
+    "text": "چنین گفت موبد که ای شهریار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 632,
+    "position": 1,
+    "text": "فراخان سالار سیصد هزار"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 633,
+    "position": 0,
+    "text": "درم بستد از بلخ‌ِ بامی به‌رنج"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 634,
+    "position": 1,
+    "text": "سپرده نهادند یکسر به گنج"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 635,
+    "position": 0,
+    "text": "چنین داد پاسخ که ما را درم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 636,
+    "position": 1,
+    "text": "نباید که باشد کسی زو دژم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 637,
+    "position": 0,
+    "text": "که رنج آید از بیشی گنج ما"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 638,
+    "position": 1,
+    "text": "نه چونین بود داد از پادشا"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 639,
+    "position": 0,
+    "text": "از آنکس که بستد بدو هم دهید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 640,
+    "position": 1,
+    "text": "ز گنج آنچ خواهد بران سر نهید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 641,
+    "position": 0,
+    "text": "که درد دل مردم زیردست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 642,
+    "position": 1,
+    "text": "نخواهد جهاندار یزدان‌پرست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 643,
+    "position": 0,
+    "text": "پی کاخ آباد را بر کنید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 644,
+    "position": 1,
+    "text": "به گل بام او را توانگر کنید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 645,
+    "position": 0,
+    "text": "شود کاخ ویران تو را ز هرچ بود"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 646,
+    "position": 1,
+    "text": "بماند پس از مرگ نفرین و دود"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 647,
+    "position": 0,
+    "text": "ز دیوان ما نام او بسترید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 648,
+    "position": 1,
+    "text": "بدر بر چنو را به‌کس مشمرید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 649,
+    "position": 0,
+    "text": "دگر گفت کای شاه فرخ نژاد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 650,
+    "position": 1,
+    "text": "بسی‌گیری از جم و کاوس یاد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 651,
+    "position": 0,
+    "text": "بدان گفت تا از پس مرگ من"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 652,
+    "position": 1,
+    "text": "نگردد نهان افسر و ترگ من"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 653,
+    "position": 0,
+    "text": "دگر گفت کز بهمن سرفراز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 654,
+    "position": 1,
+    "text": "چرا شاه ایران بپوشید راز‌؟"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 655,
+    "position": 0,
+    "text": "چنین داد پاسخ که او را خرد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 656,
+    "position": 1,
+    "text": "بپیچد همی وز هوا برخورد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 657,
+    "position": 0,
+    "text": "یکی گفت کای شاه کهتر نواز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 658,
+    "position": 1,
+    "text": "چرا گشتی اکنون چنین دیر یاز"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 659,
+    "position": 0,
+    "text": "چنین داد پاسخ که با بخردان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 660,
+    "position": 1,
+    "text": "همانم همان نیز با موبدان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 661,
+    "position": 0,
+    "text": "چو آواز آهرمن آید به گوش"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 662,
+    "position": 1,
+    "text": "نماند به دل رای و با مغز هوش"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 663,
+    "position": 0,
+    "text": "بپرسید موبد ز شاه زمین"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 664,
+    "position": 1,
+    "text": "سخن راند از پادشاهی و دین"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 665,
+    "position": 0,
+    "text": "که بی‌دین جهان به که بی‌پادشا"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 666,
+    "position": 1,
+    "text": "خردمند باشد برین بر گوا"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 667,
+    "position": 0,
+    "text": "چنین داد پاسخ که گفتم همین"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 668,
+    "position": 1,
+    "text": "شنید این سخن مردم پاک‌دین"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 669,
+    "position": 0,
+    "text": "جهاندار بی‌دین جهان را ندید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 670,
+    "position": 1,
+    "text": "مگر هر کسی دین دیگر گزید"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 671,
+    "position": 0,
+    "text": "یکی بت‌پرست و یکی پاک‌دین"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 672,
+    "position": 1,
+    "text": "یکی گفت نفرین به از آفرین"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 673,
+    "position": 0,
+    "text": "ز گفتار ویران نگردد جهان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 674,
+    "position": 1,
+    "text": "بگو آنچ رایت بود در نهان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 675,
+    "position": 0,
+    "text": "هرآنگه که شد تخت بی‌پادشا"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 676,
+    "position": 1,
+    "text": "خردمندی و دین نیارد بها"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 677,
+    "position": 0,
+    "text": "یکی گفت کای شاه خرم نهان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 678,
+    "position": 1,
+    "text": "سخن راندی چند پیش مهان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 679,
+    "position": 0,
+    "text": "یکی آنکه گفتی زمانه منم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 680,
+    "position": 1,
+    "text": "بد و نیک او را بهانه منم"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 681,
+    "position": 0,
+    "text": "کسی کاو کند آفرین بر جهان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 682,
+    "position": 1,
+    "text": "به ما بازگردد درودش نهان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 683,
+    "position": 0,
+    "text": "چنین داد پاسخ که آری رواست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 684,
+    "position": 1,
+    "text": "که تاج زمانه سر پادشاست"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 685,
+    "position": 0,
+    "text": "جهان را چنین شهریاران سرند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 686,
+    "position": 1,
+    "text": "ازیرا چنین بر سران افسرند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 687,
+    "position": 0,
+    "text": "گذشتم ز توقیع نوشین‌روان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 688,
+    "position": 1,
+    "text": "جهان پیر و اندیشه من جوان"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 689,
+    "position": 0,
+    "text": "مرا طبع نشگفت اگر تیز گشت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 690,
+    "position": 1,
+    "text": "به پیری چنین آتش‌آمیز گشت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 691,
+    "position": 0,
+    "text": "ز منبر چو محمود گوید خطیب"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 692,
+    "position": 1,
+    "text": "بدین محمد گراید صلیب"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 693,
+    "position": 0,
+    "text": "همی‌گفتم این نامه را چند گاه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 694,
+    "position": 1,
+    "text": "نهان بد ز خورشید و کیوان و ماه"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 695,
+    "position": 0,
+    "text": "چو تاج سخن نام محمود گشت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 696,
+    "position": 1,
+    "text": "ستایش به آفاق موجود گشت"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 697,
+    "position": 0,
+    "text": "زمانه بنام وی آباد باد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 698,
+    "position": 1,
+    "text": "سپهر از سر تاج او شاد باد"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 699,
+    "position": 0,
+    "text": "جهان بستد از بت‌پرستان هند"
+  },
+  {
+    "poem_id": 1830,
+    "vorder": 700,
+    "position": 1,
+    "text": "به تیغی که دارد چو رومی پرند"
+  }
+]

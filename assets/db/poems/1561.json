@@ -1,0 +1,890 @@
+[
+  {
+    "poem_id": 1561,
+    "vorder": 1,
+    "position": 0,
+    "text": "سخن گوی دهقان چو بنهاد خوان"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 2,
+    "position": 1,
+    "text": "یکی داستان راند از هفتخوان"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 3,
+    "position": 0,
+    "text": "ز رویین دژ و کار اسفندیار"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 4,
+    "position": 1,
+    "text": "ز راه و ز آموزش گرگسار"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 5,
+    "position": 0,
+    "text": "چنین گفت کو چون بیامد به بلخ"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 6,
+    "position": 1,
+    "text": "زبان و روان پر ز گفتار تلخ"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 7,
+    "position": 0,
+    "text": "همی راند تا پیشش آمد دو راه"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 8,
+    "position": 1,
+    "text": "سراپرده و خیمه زد با سپاه"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 9,
+    "position": 0,
+    "text": "بفرمود تا خوان بیاراستند"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 10,
+    "position": 1,
+    "text": "می و رود و رامشگران خواستند"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 11,
+    "position": 0,
+    "text": "برفتند گردان لشکر همه"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 12,
+    "position": 1,
+    "text": "نشستند بر خوان شاه رمه"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 13,
+    "position": 0,
+    "text": "یکی جام زرین به کف برگرفت"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 14,
+    "position": 1,
+    "text": "ز گشتاسپ آنگه سخن برگرفت"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 15,
+    "position": 0,
+    "text": "وز آن پس بفرمود تا گرگسار"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 16,
+    "position": 1,
+    "text": "شود داغ دل پیش اسفندیار"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 17,
+    "position": 0,
+    "text": "بفرمود تا جام زرین چهار"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 18,
+    "position": 1,
+    "text": "دمادم ببستند بر گرگسار"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 19,
+    "position": 0,
+    "text": "از آن پس بدو گفت کای تیره‌بخت"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 20,
+    "position": 1,
+    "text": "رسانم ترا من به تاج و به تخت"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 21,
+    "position": 0,
+    "text": "گر ایدون که هرچت بپرسیم راست"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 22,
+    "position": 1,
+    "text": "بگویی همه شهر ترکان تراست"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 23,
+    "position": 0,
+    "text": "چو پیروز گردم سپارم ترا"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 24,
+    "position": 1,
+    "text": "به خورشید تابان برآرم ترا"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 25,
+    "position": 0,
+    "text": "نیازارم آن را که پیوند تست"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 26,
+    "position": 1,
+    "text": "هم آن را که پیوند فرزند تست"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 27,
+    "position": 0,
+    "text": "وگر هیچ گردی به گرد دروغ"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 28,
+    "position": 1,
+    "text": "نگیرد بر من دروغت فروغ"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 29,
+    "position": 0,
+    "text": "میانت به خنجر کنم به دو نیم"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 30,
+    "position": 1,
+    "text": "دل انجمن گردد از تو به بیم"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 31,
+    "position": 0,
+    "text": "چنین داد پاسخ ورا گرگسار"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 32,
+    "position": 1,
+    "text": "که ای نامور فرخ اسفندیار"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 33,
+    "position": 0,
+    "text": "ز من نشنود شاه جز گفت راست"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 34,
+    "position": 1,
+    "text": "تو آن کن که از پادشاهی سزاست"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 35,
+    "position": 0,
+    "text": "بدو گفت رویین دژ اکنون کجاست"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 36,
+    "position": 1,
+    "text": "که آن مرز از این بوم ایران جداست"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 37,
+    "position": 0,
+    "text": "بدو چند راهست و فرسنگ چند"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 38,
+    "position": 1,
+    "text": "کدام آنک ازو هست بیم و گزند"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 39,
+    "position": 0,
+    "text": "سپه چند باشد همیشه در اوی"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 40,
+    "position": 1,
+    "text": "ز بالای دژ هرچه دانی بگوی"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 41,
+    "position": 0,
+    "text": "چنین داد پاسخ ورا گرگسار"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 42,
+    "position": 1,
+    "text": "که ای شیردل خسرو شهریار"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 43,
+    "position": 0,
+    "text": "سه راهست ز ایدر بدان شارستان"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 44,
+    "position": 1,
+    "text": "که ارجاسپ خواندش پیکارستان"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 45,
+    "position": 0,
+    "text": "یکی در سه ماه و یکی در دو ماه"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 46,
+    "position": 1,
+    "text": "گر ایدون خورش تنگ باشد به راه"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 47,
+    "position": 0,
+    "text": "گیا هست و آبشخور چارپای"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 48,
+    "position": 1,
+    "text": "فرود آمدن را نیابی تو جای"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 49,
+    "position": 0,
+    "text": "سه دیگر به نزدیک یک هفته راه"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 50,
+    "position": 1,
+    "text": "به هشتم به رویین دژ آید سپاه"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 51,
+    "position": 0,
+    "text": "پر از شیر و گرگست و پر اژدها"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 52,
+    "position": 1,
+    "text": "که از چنگشان کس نیابد رها"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 53,
+    "position": 0,
+    "text": "فریب زن جادو و گرگ و شیر"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 54,
+    "position": 1,
+    "text": "فزونست از اژدهای دلیر"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 55,
+    "position": 0,
+    "text": "یکی را ز دریا برآرد به ماه"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 56,
+    "position": 1,
+    "text": "یکی را نگون اندر آرد به چاه"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 57,
+    "position": 0,
+    "text": "بیابان و سیمرغ و سرمای سخت"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 58,
+    "position": 1,
+    "text": "که چون باد خیزد به درد درخت"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 59,
+    "position": 0,
+    "text": "از آن پس چو رویین دژ آید پدید"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 60,
+    "position": 1,
+    "text": "نه دژ دید از آن سان کسی نه شنید"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 61,
+    "position": 0,
+    "text": "سر باره برتر ز ابر سیاه"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 62,
+    "position": 1,
+    "text": "بدو در فراوان سلیح و سپاه"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 63,
+    "position": 0,
+    "text": "به گرد اندرش رود و آب روان"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 64,
+    "position": 1,
+    "text": "که از دیدنش خیره گردد روان"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 65,
+    "position": 0,
+    "text": "به کشتی بر او بگذرد شهریار"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 66,
+    "position": 1,
+    "text": "چو آید به هامون ز بهر شکار"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 67,
+    "position": 0,
+    "text": "به صد سال گر ماند اندر حصار"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 68,
+    "position": 1,
+    "text": "ز هامون نیایدش چیزی به کار"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 69,
+    "position": 0,
+    "text": "هم‌اندر دژش کشتمند و گیا"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 70,
+    "position": 1,
+    "text": "درخت برومند و هم آسیا"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 71,
+    "position": 0,
+    "text": "چو اسفندیار آن سخنها شنید"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 72,
+    "position": 1,
+    "text": "زمانی بپیچید و دم درکشید"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 73,
+    "position": 0,
+    "text": "بدو گفت ما را جز این راه نیست"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 74,
+    "position": 1,
+    "text": "به گیتی به از راه کوتاه نیست"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 75,
+    "position": 0,
+    "text": "چنین گفت با نامور گرگسار"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 76,
+    "position": 1,
+    "text": "که این هفتخوان هرگز ای شهریار"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 77,
+    "position": 0,
+    "text": "به زور و به آواز نگذشت کس"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 78,
+    "position": 1,
+    "text": "مگر کز تن خویش کردست بس"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 79,
+    "position": 0,
+    "text": "بدو نامور گفت گر با منی"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 80,
+    "position": 1,
+    "text": "ببینی دل و زور آهرمنی"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 81,
+    "position": 0,
+    "text": "به پیشم چه گویی چه آید نخست"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 82,
+    "position": 1,
+    "text": "که باید ز پیکار او راه جست"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 83,
+    "position": 0,
+    "text": "چنین داد پاسخ ورا گرگسار"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 84,
+    "position": 1,
+    "text": "که ای نامور مرد ناباک دار"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 85,
+    "position": 0,
+    "text": "نخستین به پیش تو آید دو گرگ"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 86,
+    "position": 1,
+    "text": "نر و ماده هریک چو پیلی سترگ"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 87,
+    "position": 0,
+    "text": "دو دندان به کردار پیل ژیان"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 88,
+    "position": 1,
+    "text": "بر و کتف فربه و لاغر میان"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 89,
+    "position": 0,
+    "text": "به سان گوزنان به سر بر سروی"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 90,
+    "position": 1,
+    "text": "همی رزم شیران کند آرزوی"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 91,
+    "position": 0,
+    "text": "بفرمود تا همچنانش به بند"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 92,
+    "position": 1,
+    "text": "به خرگاه بردند ناسودمند"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 93,
+    "position": 0,
+    "text": "بیاراست خرم یکی بزمگاه"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 94,
+    "position": 1,
+    "text": "به سر بر نظاره بر آن جشنگاه"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 95,
+    "position": 0,
+    "text": "چو خورشید بنمود تاج از فراز"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 96,
+    "position": 1,
+    "text": "هوا با زمین نیز بگشاد راز"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 97,
+    "position": 0,
+    "text": "ز درگاه برخاست آوای کوس"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 98,
+    "position": 1,
+    "text": "زمین آهنین شد سپهر آبنوس"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 99,
+    "position": 0,
+    "text": "سوی هفتخوان رخ به توران نهاد"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 100,
+    "position": 1,
+    "text": "همی رفت با لشکر آباد و شاد"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 101,
+    "position": 0,
+    "text": "چو از راه نزدیک منزل رسید"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 102,
+    "position": 1,
+    "text": "ز لشکر یکی نامور برگزید"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 103,
+    "position": 0,
+    "text": "پشوتن یکی مرد بیدار بود"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 104,
+    "position": 1,
+    "text": "سپه را ز دشمن نگهدار بود"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 105,
+    "position": 0,
+    "text": "بدو گفت لشکر به آیین بدار"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 106,
+    "position": 1,
+    "text": "همی پیچم از گفتهٔ گرگسار"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 107,
+    "position": 0,
+    "text": "منم پیش رو گر به من بد رسد"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 108,
+    "position": 1,
+    "text": "بدین کهتران بد نیاید سزد"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 109,
+    "position": 0,
+    "text": "بیامد بپوشید خفتان جنگ"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 110,
+    "position": 1,
+    "text": "ببست از بر پشت شبرنگ تنگ"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 111,
+    "position": 0,
+    "text": "سپهبد چو آمد به نزدیک گرگ"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 112,
+    "position": 1,
+    "text": "چه گرگ آن سرافراز پیل سترگ"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 113,
+    "position": 0,
+    "text": "بدیدند گرگان بر و یال اوی"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 114,
+    "position": 1,
+    "text": "میان یلی چنگ و گوپال اوی"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 115,
+    "position": 0,
+    "text": "ز هامون سوی او نهادند روی"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 116,
+    "position": 1,
+    "text": "دو پیل سرافراز و دو جنگجوی"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 117,
+    "position": 0,
+    "text": "کمان را به زه کرد مرد دلیر"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 118,
+    "position": 1,
+    "text": "بغرید بر سان غرنده شیر"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 119,
+    "position": 0,
+    "text": "بر آهرمنان تیرباران گرفت"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 120,
+    "position": 1,
+    "text": "به تندی کمان سواران گرفت"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 121,
+    "position": 0,
+    "text": "ز پیکان پولاد گشتند سست"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 122,
+    "position": 1,
+    "text": "نیامد یکی پیش او تن درست"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 123,
+    "position": 0,
+    "text": "نگه کرد روشن‌دل اسفندیار"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 124,
+    "position": 1,
+    "text": "بدید آن که دد سست برگشت کار"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 125,
+    "position": 0,
+    "text": "یکی تیغ زهرآبگون برکشید"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 126,
+    "position": 1,
+    "text": "عنان را گران کرد و سر درکشید"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 127,
+    "position": 0,
+    "text": "سراسر به شمشیرشان کرد چاک"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 128,
+    "position": 1,
+    "text": "گل انگیخت از خون ایشان ز خاک"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 129,
+    "position": 0,
+    "text": "فرود آمد از نامور بارگی"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 130,
+    "position": 1,
+    "text": "به یزدان نمود او ز بیچارگی"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 131,
+    "position": 0,
+    "text": "سلیح و تن از خون ایشان بشست"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 132,
+    "position": 1,
+    "text": "بر آن خارستان پاک جایی بجست"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 133,
+    "position": 0,
+    "text": "پر آژنگ رخ سوی خورشید کرد"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 134,
+    "position": 1,
+    "text": "دلی پر ز درد و سری پر ز گرد"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 135,
+    "position": 0,
+    "text": "همی گفت کای داور دادگر"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 136,
+    "position": 1,
+    "text": "تو دادی مرا هوش و زور و هنر"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 137,
+    "position": 0,
+    "text": "تو کردی تن گرگ را خاک جای"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 138,
+    "position": 1,
+    "text": "تو باشی به هر نیک و بد رهنمای"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 139,
+    "position": 0,
+    "text": "چو آمد سپاه و پشوتن فراز"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 140,
+    "position": 1,
+    "text": "بدیدند یل را به جای نماز"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 141,
+    "position": 0,
+    "text": "بماندند زان کار گردان شگفت"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 142,
+    "position": 1,
+    "text": "سپه یکسر اندیشه اندر گرفت"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 143,
+    "position": 0,
+    "text": "که این گرگ خوانیم گر پیل مست"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 144,
+    "position": 1,
+    "text": "که جاوید باد این دل و تیغ و دست"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 145,
+    "position": 0,
+    "text": "که بی فره اورنگ شاهی مباد"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 146,
+    "position": 1,
+    "text": "بزرگی و رسم سپاهی مباد"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 147,
+    "position": 0,
+    "text": "برفتند گردان فرخنده رای"
+  },
+  {
+    "poem_id": 1561,
+    "vorder": 148,
+    "position": 1,
+    "text": "برابر کشیدند پرده‌سرای"
+  }
+]

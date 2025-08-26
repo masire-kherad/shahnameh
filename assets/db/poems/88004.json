@@ -1,0 +1,686 @@
+[
+  {
+    "poem_id": 88004,
+    "vorder": 1,
+    "position": 0,
+    "text": "دبیر جهاندیده را پیش خواند"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 2,
+    "position": 1,
+    "text": "سخن هرچ بایست با او براند"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 3,
+    "position": 0,
+    "text": "بفرمود تا نامهٔ خسروی"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 4,
+    "position": 1,
+    "text": "ز عنبر نوشتند بر پهلوی"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 5,
+    "position": 0,
+    "text": "سرنامه کرد آفرین خدای"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 6,
+    "position": 1,
+    "text": "کجا هست و باشد همیشه بجای"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 7,
+    "position": 0,
+    "text": "برازندهٔ ماه و کیوان و هور"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 8,
+    "position": 1,
+    "text": "نگارندهٔ فر و دیهیم و زور"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 9,
+    "position": 0,
+    "text": "سپهر و زمان و زمین آفرید"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 10,
+    "position": 1,
+    "text": "روان و خرد داد و دین آفرید"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 11,
+    "position": 0,
+    "text": "وزو آفرین باد بر شهریار"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 12,
+    "position": 1,
+    "text": "زمانه مبادا ازو یادگار"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 13,
+    "position": 0,
+    "text": "رسیدم بفرمان میان دو کوه"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 14,
+    "position": 1,
+    "text": "سپاه دو کشور شده همگروه"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 15,
+    "position": 0,
+    "text": "همانا که شمشیرزن صد هزار"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 16,
+    "position": 1,
+    "text": "ز دشمن فزون بود در کارزار"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 17,
+    "position": 0,
+    "text": "کشانی و شگنی و چینی و هند"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 18,
+    "position": 1,
+    "text": "سپاهی ز چین تا بدریای سند"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 19,
+    "position": 0,
+    "text": "ز کشمیر تا دامن رود شهد"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 20,
+    "position": 1,
+    "text": "سراپرده و پیل دیدیم و مهد"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 21,
+    "position": 0,
+    "text": "نترسیدم از دولت شهریار"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 22,
+    "position": 1,
+    "text": "کزین رزمگاه اندر آید نهار"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 23,
+    "position": 0,
+    "text": "چهل روز با هم همی جنگ بود"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 24,
+    "position": 1,
+    "text": "تو گفتی بریشان جهان تنگ بود"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 25,
+    "position": 0,
+    "text": "همه شهریاران کشور بدند"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 26,
+    "position": 1,
+    "text": "نه بر باد «و» با بخت لاغر بدند"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 27,
+    "position": 0,
+    "text": "میان دو کوه از بر راغ و دشت"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 28,
+    "position": 1,
+    "text": "ز خون و ز کشته نشاید گذشت"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 29,
+    "position": 0,
+    "text": "همانا که فرسنگ باشد چهل"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 30,
+    "position": 1,
+    "text": "پراگنده از خون زمین بود گل"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 31,
+    "position": 0,
+    "text": "سرانجام ازین دولت دیریاز"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 32,
+    "position": 1,
+    "text": "سخن گویم این نامه گردد دراز"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 33,
+    "position": 0,
+    "text": "همه شهریاران که دارند بند"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 34,
+    "position": 1,
+    "text": "ز پیلان گرفتم بخم کمند"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 35,
+    "position": 0,
+    "text": "سوی جنگ دارم کنون رای و روی"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 36,
+    "position": 1,
+    "text": "مگر پیش گرز من آید گروی"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 37,
+    "position": 0,
+    "text": "زبانها پر از آفرین تو باد"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 38,
+    "position": 1,
+    "text": "سر چرخ گردان زمین تو باد"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 39,
+    "position": 0,
+    "text": "چو نامه بمهر اندر آمد بداد"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 40,
+    "position": 1,
+    "text": "بمهتر فریبرز خسرو نژاد"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 41,
+    "position": 0,
+    "text": "ابا شاه و پیل و هیونی هزار"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 42,
+    "position": 1,
+    "text": "ازان رزمگه برنهادند بار"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 43,
+    "position": 0,
+    "text": "فریبرز کاوس شادان برفت"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 44,
+    "position": 1,
+    "text": "بنزدیک خسرو بسیچید و تفت"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 45,
+    "position": 0,
+    "text": "همی رفت با او گو پیلتن"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 46,
+    "position": 1,
+    "text": "بزرگان و گردان آن انجمن"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 47,
+    "position": 0,
+    "text": "به پدرود کردن گرفتش کنار"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 48,
+    "position": 1,
+    "text": "ببارید آب از غم شهریار"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 49,
+    "position": 0,
+    "text": "وزان جایگه سوی لشکر کشید"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 50,
+    "position": 1,
+    "text": "چو جعد دو زلف شب آمد پدید"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 51,
+    "position": 0,
+    "text": "نشستند با آرامش و رود و می"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 52,
+    "position": 1,
+    "text": "یکی دست رود و دگر دست نی"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 53,
+    "position": 0,
+    "text": "برفتند هر کس بآرام خویش"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 54,
+    "position": 1,
+    "text": "گرفته ببر هر کسی کام خویش"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 55,
+    "position": 0,
+    "text": "چو خورشید با رنگ دیبای زرد"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 56,
+    "position": 1,
+    "text": "ستم کرد بر تودهٔ لاژورد"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 57,
+    "position": 0,
+    "text": "همانگه ز دهلیز پرده‌سرای"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 58,
+    "position": 1,
+    "text": "برآمد خروشیدن کرنای"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 59,
+    "position": 0,
+    "text": "تهمتن میان تاختن را ببست"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 60,
+    "position": 1,
+    "text": "بران بارهٔ تیزتگ برنشست"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 61,
+    "position": 0,
+    "text": "بفرمود تا توشه برداشتند"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 62,
+    "position": 1,
+    "text": "همی راه دشوار بگذاشتند"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 63,
+    "position": 0,
+    "text": "بیابان گرفتند و راه دراز"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 64,
+    "position": 1,
+    "text": "بیامد چنان لشکری رزمساز"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 65,
+    "position": 0,
+    "text": "چنین گفت با طوس و گودرز و گیو"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 66,
+    "position": 1,
+    "text": "که ای نامداران و گردان نیو"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 67,
+    "position": 0,
+    "text": "من این بار چنگ اندر آرم بچنگ"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 68,
+    "position": 1,
+    "text": "بداندیشگان را شود کار تنگ"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 69,
+    "position": 0,
+    "text": "که دانست کین چاره‌گر مرد سند"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 70,
+    "position": 1,
+    "text": "سپاه آرد از چین و سقلاب و هند"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 71,
+    "position": 0,
+    "text": "من او را چنان مست و بیهش کنم"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 72,
+    "position": 1,
+    "text": "تنش خاک گور سیاوش کنم"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 73,
+    "position": 0,
+    "text": "که از هند و سقلاب و توران و چین"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 74,
+    "position": 1,
+    "text": "نخوانند ازین پس برو آفرین"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 75,
+    "position": 0,
+    "text": "بزد کوس وز دشت برخاست گرد"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 76,
+    "position": 1,
+    "text": "هوا پر ز گرد و زمین پر ز مرد"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 77,
+    "position": 0,
+    "text": "ازان نامداران پرخاشجوی"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 78,
+    "position": 1,
+    "text": "بابر اندر آمد یکی گفت و گوی"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 79,
+    "position": 0,
+    "text": "دو منزل برفتند زان جایگاه"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 80,
+    "position": 1,
+    "text": "که از کشته بد روی گیتی سیاه"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 81,
+    "position": 0,
+    "text": "یکی بیشه دیدند و آمد فرود"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 82,
+    "position": 1,
+    "text": "سیه شد ز لشکر همه دشت و رود"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 83,
+    "position": 0,
+    "text": "همی بود با رامش و می بدست"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 84,
+    "position": 1,
+    "text": "یکی شاد و خرم یکی خفته مست"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 85,
+    "position": 0,
+    "text": "فرستاده آمد ز هر کشوری"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 86,
+    "position": 1,
+    "text": "ز هر نامداری و هر مهتری"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 87,
+    "position": 0,
+    "text": "بسی هدیه و ساز و چندی نثار"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 88,
+    "position": 1,
+    "text": "ببردند نزدیک آن نامدار"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 89,
+    "position": 0,
+    "text": "چو بگذشت ازین داستان روز چند"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 90,
+    "position": 1,
+    "text": "ز گردش بیاسود چرخ بلند"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 91,
+    "position": 0,
+    "text": "کس آمد بر شاه ایران سپاه"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 92,
+    "position": 1,
+    "text": "که آمد فریبرز کاوس شاه"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 93,
+    "position": 0,
+    "text": "پذیره شدش شاه کنداوران"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 94,
+    "position": 1,
+    "text": "ابا بوق و کوس و سپاهی گران"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 95,
+    "position": 0,
+    "text": "فریبرز نزدیک خسرو رسید"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 96,
+    "position": 1,
+    "text": "زمین را ببوسید کو را بدید"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 97,
+    "position": 0,
+    "text": "نگه کرد خسرو بران بستگان"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 98,
+    "position": 1,
+    "text": "هیونان و پیلان و آن خستگان"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 99,
+    "position": 0,
+    "text": "عنان را بپیچید و آمد براه"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 100,
+    "position": 1,
+    "text": "ز سر برگرفت آن کیانی کلاه"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 101,
+    "position": 0,
+    "text": "فرود آمد و پیش یزدان بخاک"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 102,
+    "position": 1,
+    "text": "بغلتید و گفت ای جهاندار پاک"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 103,
+    "position": 0,
+    "text": "ستمکاره‌ای کرد بر من ستم"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 104,
+    "position": 1,
+    "text": "مرا بی‌پدر کرد با درد و غم"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 105,
+    "position": 0,
+    "text": "تو از درد و سختی رهانیدیم"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 106,
+    "position": 1,
+    "text": "همی تاج را پرورانیدیم"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 107,
+    "position": 0,
+    "text": "زمین و زمان پیش من بنده شد"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 108,
+    "position": 1,
+    "text": "جهانی ز گنج من آگنده شد"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 109,
+    "position": 0,
+    "text": "سپاس از تو دارم نه از انجمن"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 110,
+    "position": 1,
+    "text": "یکی جان رستم تو مستان ز من"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 111,
+    "position": 0,
+    "text": "بزد اسپ و زان جایگه بازگشت"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 112,
+    "position": 1,
+    "text": "بران پیل وان بستگان برگذشت"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 113,
+    "position": 0,
+    "text": "بسی آفرین کرد بر پهلوان"
+  },
+  {
+    "poem_id": 88004,
+    "vorder": 114,
+    "position": 1,
+    "text": "که او باد شادان و روشن‌روان"
+  }
+]

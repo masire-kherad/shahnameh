@@ -1,0 +1,602 @@
+[
+  {
+    "poem_id": 1496,
+    "vorder": 1,
+    "position": 0,
+    "text": "چنان دید گودرز یک شب به خواب"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 2,
+    "position": 1,
+    "text": "که ابری برآمد ز ایران پرآب"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 3,
+    "position": 0,
+    "text": "بر آن ابر باران خجسته سروش"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 4,
+    "position": 1,
+    "text": "به گودرز گفتی که بگشای گوش"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 5,
+    "position": 0,
+    "text": "چو خواهی که یابی ز تنگی رها"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 6,
+    "position": 1,
+    "text": "وز این نامور ترک نر اژدها"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 7,
+    "position": 0,
+    "text": "به توران یکی نامداری نو است"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 8,
+    "position": 1,
+    "text": "کجا نام آن شاه کیخسرو است"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 9,
+    "position": 0,
+    "text": "ز پشت سیاوش یکی شهریار"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 10,
+    "position": 1,
+    "text": "هنرمند و از گوهر نامدار"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 11,
+    "position": 0,
+    "text": "از این تخمه از گوهر کیقباد"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 12,
+    "position": 1,
+    "text": "ز مادر سوی تور دارد نژاد"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 13,
+    "position": 0,
+    "text": "چو آید به ایران پی فرخش"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 14,
+    "position": 1,
+    "text": "ز چرخ آنچه پرسد دهد پاسخش"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 15,
+    "position": 0,
+    "text": "میان را ببندد به کین پدر"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 16,
+    "position": 1,
+    "text": "کند کشور تور زیر و زبر"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 17,
+    "position": 0,
+    "text": "به دریای قلزم به جوش آرد آب"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 18,
+    "position": 1,
+    "text": "نخارد سر از کین افراسیاب"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 19,
+    "position": 0,
+    "text": "همه ساله در جوشن کین بود"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 20,
+    "position": 1,
+    "text": "شب و روز در جنگ بر زین بود"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 21,
+    "position": 0,
+    "text": "ز گردان ایران و گردنکشان"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 22,
+    "position": 1,
+    "text": "نیابد جز از گیو از او کس نشان"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 23,
+    "position": 0,
+    "text": "چنین است فرمان گردان سپهر"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 24,
+    "position": 1,
+    "text": "بدو دارد از داد گسترده مهر"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 25,
+    "position": 0,
+    "text": "چو از خواب گودرز بیدار شد"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 26,
+    "position": 1,
+    "text": "نیایش کنان پیش دادار شد"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 27,
+    "position": 0,
+    "text": "بمالید بر خاک ریش سپید"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 28,
+    "position": 1,
+    "text": "ز شاه جهاندار شد پرامید"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 29,
+    "position": 0,
+    "text": "چو خورشید پیدا شد از پشت زاغ"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 30,
+    "position": 1,
+    "text": "برآمد به کردار زرین چراغ"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 31,
+    "position": 0,
+    "text": "سپهبد نشست از بر تخت عاج"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 32,
+    "position": 1,
+    "text": "بیاراست ایوان به کرسی ساج"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 33,
+    "position": 0,
+    "text": "پر اندیشه مر گیو را پیش خواند"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 34,
+    "position": 1,
+    "text": "وز آن خواب چندی سخنها براند"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 35,
+    "position": 0,
+    "text": "بدو گفت فرخ پی و روز تو"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 36,
+    "position": 1,
+    "text": "همان اختر گیتی افروز تو"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 37,
+    "position": 0,
+    "text": "تو تا زادی از مادر پاکدین"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 38,
+    "position": 1,
+    "text": "پر از آفرین شد سراسر زمین"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 39,
+    "position": 0,
+    "text": "به فرمان یزدان خجسته سروش"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 40,
+    "position": 1,
+    "text": "مرا روی بنمود در خواب دوش"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 41,
+    "position": 0,
+    "text": "نشسته بر ابری پر از باد و نم"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 42,
+    "position": 1,
+    "text": "بشستی جهان را سراسر ز غم"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 43,
+    "position": 0,
+    "text": "مرا دید و گفت این همه غم چراست"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 44,
+    "position": 1,
+    "text": "جهانی پر از کین و بی‌نم چراست"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 45,
+    "position": 0,
+    "text": "ازیرا که بی‌فر و برزست شاه"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 46,
+    "position": 1,
+    "text": "ندارد همی راه شاهان نگاه"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 47,
+    "position": 0,
+    "text": "چو کیخسرو آید ز توران زمین"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 48,
+    "position": 1,
+    "text": "سوی دشمنان افگند رنج و کین"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 49,
+    "position": 0,
+    "text": "نبیند کس او را ز گردان نیو"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 50,
+    "position": 1,
+    "text": "مگر نامور پور گودرز گیو"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 51,
+    "position": 0,
+    "text": "چنین کرد بخشش سپهر بلند"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 52,
+    "position": 1,
+    "text": "که از تو گشاید غم و رنج بند"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 53,
+    "position": 0,
+    "text": "همی نام جستی میان دو صف"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 54,
+    "position": 1,
+    "text": "کنون نام جاویدت آمد به کف"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 55,
+    "position": 0,
+    "text": "که تا در جهان مردم است و سخن"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 56,
+    "position": 1,
+    "text": "چنین نام هرگز نگردد کهن"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 57,
+    "position": 0,
+    "text": "زمین را همان با سپهر بلند"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 58,
+    "position": 1,
+    "text": "به دست تو خواهد گشادن ز بند"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 59,
+    "position": 0,
+    "text": "به رنج است گنج و به نام است رنج"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 60,
+    "position": 1,
+    "text": "همانا که نامت به آید ز گنج"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 61,
+    "position": 0,
+    "text": "اگر جاودانه نمانی به جای"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 62,
+    "position": 1,
+    "text": "همی نام به زین سپنجی سرای"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 63,
+    "position": 0,
+    "text": "جهان را یکی شهریار آوری"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 64,
+    "position": 1,
+    "text": "درخت وفا را به بار آوری"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 65,
+    "position": 0,
+    "text": "بدو گفت گیو ای پدر بنده‌ام"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 66,
+    "position": 1,
+    "text": "بکوشم به رای تو تا زنده‌ام"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 67,
+    "position": 0,
+    "text": "خریدارم این را گر آید به جای"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 68,
+    "position": 1,
+    "text": "به فرخنده نام و پی رهنمای"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 69,
+    "position": 0,
+    "text": "به ایوان شد و ساز رفتن گرفت"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 70,
+    "position": 1,
+    "text": "ز خواب پدر مانده اندر شگفت"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 71,
+    "position": 0,
+    "text": "چو خورشید رخشنده آمد پدید"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 72,
+    "position": 1,
+    "text": "زمین شد به سان گل شنبلید"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 73,
+    "position": 0,
+    "text": "بیامد کمربسته گیو دلیر"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 74,
+    "position": 1,
+    "text": "یکی بارکش بادپایی به زیر"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 75,
+    "position": 0,
+    "text": "به گودرز گفت ای جهان پهلوان"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 76,
+    "position": 1,
+    "text": "دلیر و سرافراز و روشن روان"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 77,
+    "position": 0,
+    "text": "کمندی و اسپی مرا یار بس"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 78,
+    "position": 1,
+    "text": "نشاید کشیدن بدان مرز کس"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 79,
+    "position": 0,
+    "text": "چو مردم برم خواستار آیدم"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 80,
+    "position": 1,
+    "text": "از آن پس مگر کارزار آیدم"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 81,
+    "position": 0,
+    "text": "مرا دشت و کوه است یک چند جای"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 82,
+    "position": 1,
+    "text": "مگر پیشم آید یکی رهنمای"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 83,
+    "position": 0,
+    "text": "به پیروزبخت جهان پهلوان"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 84,
+    "position": 1,
+    "text": "نیایم جز از شاد و روشن روان"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 85,
+    "position": 0,
+    "text": "تو مر بیژن خرد را در کنار"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 86,
+    "position": 1,
+    "text": "بپرور نگهدارش از روزگار"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 87,
+    "position": 0,
+    "text": "ندانم که دیدار باشد جز این"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 88,
+    "position": 1,
+    "text": "که داند چنین جز جهان آفرین"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 89,
+    "position": 0,
+    "text": "تو پدرود باش و مرا یاد دار"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 90,
+    "position": 1,
+    "text": "روان را ز درد من آزاد دار"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 91,
+    "position": 0,
+    "text": "چو شویی ز بهر پرستش رخان"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 92,
+    "position": 1,
+    "text": "به من بر جهان آفرین را بخوان"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 93,
+    "position": 0,
+    "text": "مگر باشدم دادگر رهنمای"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 94,
+    "position": 1,
+    "text": "به نزدیک آن نامور کدخدای"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 95,
+    "position": 0,
+    "text": "به فرمان بیاراست آمد برون"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 96,
+    "position": 1,
+    "text": "پدر دل پر از درد و رخ پر ز خون"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 97,
+    "position": 0,
+    "text": "پدر پیر سر بود و برنا دلیر"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 98,
+    "position": 1,
+    "text": "دهن جنگ را باز کرده چو شیر"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 99,
+    "position": 0,
+    "text": "ندانست کاو باز بیند پسر"
+  },
+  {
+    "poem_id": 1496,
+    "vorder": 100,
+    "position": 1,
+    "text": "ز رفتن دلش بود زیر و زبر"
+  }
+]

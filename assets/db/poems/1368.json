@@ -1,0 +1,602 @@
+[
+  {
+    "poem_id": 1368,
+    "vorder": 1,
+    "position": 0,
+    "text": "فریدون نهاده دو دیده به راه"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 2,
+    "position": 1,
+    "text": "سپاه و کلاه آرزومند شاه"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 3,
+    "position": 0,
+    "text": "چو هنگام برگشتن شاه بود"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 4,
+    "position": 1,
+    "text": "پدر زان سخن خود کی آگاه بود"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 5,
+    "position": 0,
+    "text": "همی شاه را تخت پیروزه ساخت"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 6,
+    "position": 1,
+    "text": "همی تاج را گوهر اندر نشاخت"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 7,
+    "position": 0,
+    "text": "پذیره شدن را بیاراستند"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 8,
+    "position": 1,
+    "text": "می و رود و رامشگران خواستند"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 9,
+    "position": 0,
+    "text": "تبیره ببردند و پیل از درش"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 10,
+    "position": 1,
+    "text": "ببستند آذین به هر کشورش"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 11,
+    "position": 0,
+    "text": "به زین اندرون بود شاه و سپاه"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 12,
+    "position": 1,
+    "text": "یکی گرد تیره برآمد ز راه"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 13,
+    "position": 0,
+    "text": "هیونی برون آمد از تیره گرد"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 14,
+    "position": 1,
+    "text": "نشسته برو سوگواری به درد"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 15,
+    "position": 0,
+    "text": "خروشی برآورد دل سوگوار"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 16,
+    "position": 1,
+    "text": "یکی زر تابوتش اندر کنار"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 17,
+    "position": 0,
+    "text": "به تابوت زر اندرون پرنیان"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 18,
+    "position": 1,
+    "text": "نهاده سر ایرج اندر میان"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 19,
+    "position": 0,
+    "text": "ابا ناله و آه و با روی زرد"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 20,
+    "position": 1,
+    "text": "به پیش فریدون شد آن شوخ مرد"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 21,
+    "position": 0,
+    "text": "ز تابوت زر تخته برداشتند"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 22,
+    "position": 1,
+    "text": "که گفتار او خوار پنداشتند"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 23,
+    "position": 0,
+    "text": "ز تابوت چون پرنیان برکشید"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 24,
+    "position": 1,
+    "text": "سر ایرج آمد بریده پدید"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 25,
+    "position": 0,
+    "text": "بیافتاد ز اسپ آفریدون به خاک"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 26,
+    "position": 1,
+    "text": "سپه سر به سر جامه کردند چاک"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 27,
+    "position": 0,
+    "text": "سیه شد رخ و دیدگان شد سپید"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 28,
+    "position": 1,
+    "text": "که دیدن دگرگونه بودش امید"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 29,
+    "position": 0,
+    "text": "چو خسرو بران‌گونه آمد ز راه"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 30,
+    "position": 1,
+    "text": "چنین بازگشت از پذیره سپاه"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 31,
+    "position": 0,
+    "text": "دریده درفش و نگونسار کوس"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 32,
+    "position": 1,
+    "text": "رخ نامداران به رنگ آبنوس"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 33,
+    "position": 0,
+    "text": "تبیره سیه کرده و روی پیل"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 34,
+    "position": 1,
+    "text": "پراکنده بر تازی اسپانش نیل"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 35,
+    "position": 0,
+    "text": "پیاده سپهبد پیاده سپاه"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 36,
+    "position": 1,
+    "text": "پر از خاک سر برگرفتند راه"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 37,
+    "position": 0,
+    "text": "خروشیدن پهلوانان به درد"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 38,
+    "position": 1,
+    "text": "کنان گوشت تن را بران رادمرد"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 39,
+    "position": 0,
+    "text": "برین گونه گردد به ما بر سپهر"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 40,
+    "position": 1,
+    "text": "بخواهد ربودن چو بنمود چهر"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 41,
+    "position": 0,
+    "text": "مبر خود به مهر زمانه گمان"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 42,
+    "position": 1,
+    "text": "نه نیکو بود راستی در کمان"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 43,
+    "position": 0,
+    "text": "چو دشمنش گیری نمایدت مهر"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 44,
+    "position": 1,
+    "text": "و گر دوست خوانی نبینیش چهر"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 45,
+    "position": 0,
+    "text": "یکی پند گویم ترا من درست"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 46,
+    "position": 1,
+    "text": "دل از مهر گیتی ببایدت شست"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 47,
+    "position": 0,
+    "text": "سپه داغ دل شاه با های و هوی"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 48,
+    "position": 1,
+    "text": "سوی باغ ایرج نهادند روی"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 49,
+    "position": 0,
+    "text": "به روزی کجا جشن شاهان بدی"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 50,
+    "position": 1,
+    "text": "وزان پیشتر بزمگاهان بدی"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 51,
+    "position": 0,
+    "text": "فریدون سر شاه پور جوان"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 52,
+    "position": 1,
+    "text": "بیامد ببر برگرفته نوان"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 53,
+    "position": 0,
+    "text": "بر آن تخت شاهنشهی بنگرید"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 54,
+    "position": 1,
+    "text": "سر شاه را نزدر تاج دید"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 55,
+    "position": 0,
+    "text": "همان حوض شاهان و سرو سهی"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 56,
+    "position": 1,
+    "text": "درخت گلفشان و بید و بهی"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 57,
+    "position": 0,
+    "text": "تهی دید از آزادگان جشنگاه"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 58,
+    "position": 1,
+    "text": "به کیوان برآورده گرد سیاه"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 59,
+    "position": 0,
+    "text": "همی سوخت باغ و همی خست روی"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 60,
+    "position": 1,
+    "text": "همی ریخت اشک و همی کند موی"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 61,
+    "position": 0,
+    "text": "میان را به زنار خونین ببست"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 62,
+    "position": 1,
+    "text": "فکند آتش اندر سرای نشست"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 63,
+    "position": 0,
+    "text": "گلستانش برکند و سروان بسوخت"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 64,
+    "position": 1,
+    "text": "به یکبارگی چشم شادی بدوخت"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 65,
+    "position": 0,
+    "text": "نهاده سر ایرج اندر کنار"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 66,
+    "position": 1,
+    "text": "سر خویشتن کرد زی کردگار"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 67,
+    "position": 0,
+    "text": "همی گفت کای داور دادگر"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 68,
+    "position": 1,
+    "text": "بدین بی‌گنه کشته اندر نگر"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 69,
+    "position": 0,
+    "text": "به خنجر سرش کنده در پیش من"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 70,
+    "position": 1,
+    "text": "تنش خورده شیران آن انجمن"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 71,
+    "position": 0,
+    "text": "دل هر دو بیداد از آن سان بسوز"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 72,
+    "position": 1,
+    "text": "که هرگز نبینند جز تیره روز"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 73,
+    "position": 0,
+    "text": "به داغی جگرشان کنی آژده"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 74,
+    "position": 1,
+    "text": "که بخشایش آرد بریشان دده"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 75,
+    "position": 0,
+    "text": "همی خواهم از روشن کردگار"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 76,
+    "position": 1,
+    "text": "که چندان زمان یابم از روزگار"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 77,
+    "position": 0,
+    "text": "که از تخم ایرج یکی نامور"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 78,
+    "position": 1,
+    "text": "بیاید برین کین ببندد کمر"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 79,
+    "position": 0,
+    "text": "چو دیدم چنین زان سپس شایدم"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 80,
+    "position": 1,
+    "text": "اگر خاک بالا بپیمایدم"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 81,
+    "position": 0,
+    "text": "برین‌گونه بگریست چندان بزار"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 82,
+    "position": 1,
+    "text": "همی تا گیا رستش اندر کنار"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 83,
+    "position": 0,
+    "text": "زمین بستر و خاک بالین او"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 84,
+    "position": 1,
+    "text": "شده تیره روشن جهان‌بین او"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 85,
+    "position": 0,
+    "text": "در بار بسته گشاده زبان"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 86,
+    "position": 1,
+    "text": "همی گفت کای داور راستان"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 87,
+    "position": 0,
+    "text": "کس از تاجداران بدین‌سان نمرد"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 88,
+    "position": 1,
+    "text": "که مردست این نامبردار گرد"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 89,
+    "position": 0,
+    "text": "سرش را بریده به زار اهرمن"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 90,
+    "position": 1,
+    "text": "تنش را شده کام شیران کفن"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 91,
+    "position": 0,
+    "text": "خروشی به زاری و چشمی پرآب"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 92,
+    "position": 1,
+    "text": "ز هر دام و دد برده آرام و خواب"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 93,
+    "position": 0,
+    "text": "سراسر همه کشورش مرد و زن"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 94,
+    "position": 1,
+    "text": "به هر جای کرده یکی انجمن"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 95,
+    "position": 0,
+    "text": "همه دیده پرآب و دل پر ز خون"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 96,
+    "position": 1,
+    "text": "نشسته به تیمار و گرم اندرون"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 97,
+    "position": 0,
+    "text": "همه جامه کرده کبود و سیاه"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 98,
+    "position": 1,
+    "text": "نشسته به اندوه در سوگ شاه"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 99,
+    "position": 0,
+    "text": "چه مایه چنین روز بگذاشتند"
+  },
+  {
+    "poem_id": 1368,
+    "vorder": 100,
+    "position": 1,
+    "text": "همه زندگی مرگ پنداشتند"
+  }
+]

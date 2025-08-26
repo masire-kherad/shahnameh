@@ -1,0 +1,554 @@
+[
+  {
+    "poem_id": 1634,
+    "vorder": 1,
+    "position": 0,
+    "text": "چو دارا ز پیش سکندر برفت"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 2,
+    "position": 1,
+    "text": "به هر سو سواران فرستاد تفت"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 3,
+    "position": 0,
+    "text": "از ایران سران و مهان را بخواند"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 4,
+    "position": 1,
+    "text": "درم داد و روزی دهان را بخواند"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 5,
+    "position": 0,
+    "text": "سر ماه را لشکر آباد کرد"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 6,
+    "position": 1,
+    "text": "سر نامداران پر از باد کرد"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 7,
+    "position": 0,
+    "text": "دگر باره از آب زان سو گذشت"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 8,
+    "position": 1,
+    "text": "بیاراست لشکر بران پهن دشت"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 9,
+    "position": 0,
+    "text": "سکندر چو بشنید لشکر براند"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 10,
+    "position": 1,
+    "text": "پذیره شد و سازش آنجا بماند"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 11,
+    "position": 0,
+    "text": "سپه را چو روی اندرآمد به روی"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 12,
+    "position": 1,
+    "text": "زمان و زمین گشت پرخاشجوی"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 13,
+    "position": 0,
+    "text": "سه روز اندران رزمشان شد درنگ"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 14,
+    "position": 1,
+    "text": "چنان گشت کز کشته شد جای تنگ"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 15,
+    "position": 0,
+    "text": "فراوان ز ایرانیان کشته شد"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 16,
+    "position": 1,
+    "text": "جهانگیر را روز برگشته شد"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 17,
+    "position": 0,
+    "text": "پر از درد برگشت ز آوردگاه"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 18,
+    "position": 1,
+    "text": "چو یاری ندادش خداوند ماه"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 19,
+    "position": 0,
+    "text": "سکندر بیامد پس او چو گرد"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 20,
+    "position": 1,
+    "text": "بسی از جهان‌آفرین یاد کرد"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 21,
+    "position": 0,
+    "text": "خروشی برآمد ز پیش سپاه"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 22,
+    "position": 1,
+    "text": "که ای زیردستان گم کرده راه"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 23,
+    "position": 0,
+    "text": "شما را ز من بیم و آزار نیست"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 24,
+    "position": 1,
+    "text": "سپاه مرا با شما کار نیست"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 25,
+    "position": 0,
+    "text": "بباشید ایمن به ایوان خویش"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 26,
+    "position": 1,
+    "text": "به یزدان سپرده تن و جان خویش"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 27,
+    "position": 0,
+    "text": "به جان و تن از رومیان رسته‌اید"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 28,
+    "position": 1,
+    "text": "اگر چه به خون دستها شسته‌اید"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 29,
+    "position": 0,
+    "text": "چو ایرانیان ایمنی یافتند"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 30,
+    "position": 1,
+    "text": "همه رخ سوی رومیان تافتند"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 31,
+    "position": 0,
+    "text": "سکندر بیامد به دشت نبرد"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 32,
+    "position": 1,
+    "text": "همه خواسته سربسر گرد کرد"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 33,
+    "position": 0,
+    "text": "ببخشید بر لشکرش خواسته"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 34,
+    "position": 1,
+    "text": "به نیرو سپاهی شد آراسته"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 35,
+    "position": 0,
+    "text": "ببود اندران بوم و بر چار ماه"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 36,
+    "position": 1,
+    "text": "چو آسوده شد شهریار و سپاه"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 37,
+    "position": 0,
+    "text": "جهاندار دارا به جهرم رسید"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 38,
+    "position": 1,
+    "text": "که آنجا بدی گنجها را کلید"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 39,
+    "position": 0,
+    "text": "همه مهتران پیش باز آمدند"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 40,
+    "position": 1,
+    "text": "پر از درد و گرم و گداز آمدند"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 41,
+    "position": 0,
+    "text": "خروشان پسر چو پدر را ندید"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 42,
+    "position": 1,
+    "text": "پدر همچنین چون پسر را ندید"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 43,
+    "position": 0,
+    "text": "همه شهر ایران پر از ناله بود"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 44,
+    "position": 1,
+    "text": "به چشم اندرون آب چون ژاله بود"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 45,
+    "position": 0,
+    "text": "ز جهرم بیامد به شهر صطخر"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 46,
+    "position": 1,
+    "text": "که آزادگان را بران بود فخر"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 47,
+    "position": 0,
+    "text": "فرستاده‌ای رفت بر هر سوی"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 48,
+    "position": 1,
+    "text": "به هر نامداری و هر پهلوی"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 49,
+    "position": 0,
+    "text": "سپاه انجمن شد به ایوان شاه"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 50,
+    "position": 1,
+    "text": "نهادند زرین یکی زیرگاه"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 51,
+    "position": 0,
+    "text": "چو دارا بران کرسی زر نشست"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 52,
+    "position": 1,
+    "text": "برفتند گردان خسروپرست"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 53,
+    "position": 0,
+    "text": "به ایرانیان گفت کای مهتران"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 54,
+    "position": 1,
+    "text": "خردمند و شیران و جنگاوران"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 55,
+    "position": 0,
+    "text": "ببینید تا رای پیکار چیست"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 56,
+    "position": 1,
+    "text": "همی گفت با درد و چندی گریست"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 57,
+    "position": 0,
+    "text": "چنین گفت کامروز مردن به نام"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 58,
+    "position": 1,
+    "text": "به از زنده دشمن بدو شادکام"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 59,
+    "position": 0,
+    "text": "نیاکان و شاهان ما تا بدند"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 60,
+    "position": 1,
+    "text": "به هر سال باژی همی بستدند"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 61,
+    "position": 0,
+    "text": "به هر کار ما را زبون بود روم"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 62,
+    "position": 1,
+    "text": "کنون بخت آزادگان گشت شوم"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 63,
+    "position": 0,
+    "text": "همه پادشاهی سکندر گرفت"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 64,
+    "position": 1,
+    "text": "جهاندار شد تخت و افسر گرفت"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 65,
+    "position": 0,
+    "text": "چنین هم نماند بیاید کنون"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 66,
+    "position": 1,
+    "text": "همه پارس گردد چو دریای خون"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 67,
+    "position": 0,
+    "text": "زن و کودک و مرد گردند اسیر"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 68,
+    "position": 1,
+    "text": "نماند برین بوم برنا و پیر"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 69,
+    "position": 0,
+    "text": "مرا گر شوید اندرین یارمند"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 70,
+    "position": 1,
+    "text": "بگردانم این رنج و درد و گزند"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 71,
+    "position": 0,
+    "text": "شکار بزرگان بدند این گروه"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 72,
+    "position": 1,
+    "text": "همه گشته از شهر ایران ستوه"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 73,
+    "position": 0,
+    "text": "کنون ما شکاریم و ایشان پلنگ"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 74,
+    "position": 1,
+    "text": "به هر کارزاری گریزان ز جنگ"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 75,
+    "position": 0,
+    "text": "اگر پشت یکسر به پشت آورید"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 76,
+    "position": 1,
+    "text": "بر و بوم ایشان به مشت آورید"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 77,
+    "position": 0,
+    "text": "کسی کاندرین جنگ سستی کند"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 78,
+    "position": 1,
+    "text": "بکوشد که تا جان‌پرستی کند"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 79,
+    "position": 0,
+    "text": "مدارید ازین پس به گیتی امید"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 80,
+    "position": 1,
+    "text": "که شد روم ضحاک و ما جمشید"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 81,
+    "position": 0,
+    "text": "همی گفت گریان و دل پر ز درد"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 82,
+    "position": 1,
+    "text": "دو رخساره زرد و دو لب لاژورد"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 83,
+    "position": 0,
+    "text": "بزرگان داننده برخاستند"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 84,
+    "position": 1,
+    "text": "همه پاسخش را بیاراستند"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 85,
+    "position": 0,
+    "text": "خروشی برآمد ز ایران به زار"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 86,
+    "position": 1,
+    "text": "که گیتی نخواهیم بی‌شهریار"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 87,
+    "position": 0,
+    "text": "همه روی یکسر به جنگ آوریم"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 88,
+    "position": 1,
+    "text": "جهان بر بداندیش تنگ آوریم"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 89,
+    "position": 0,
+    "text": "ببندیم دامن یک اندر دگر"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 90,
+    "position": 1,
+    "text": "اگر خاک یابیم اگر بوم و بر"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 91,
+    "position": 0,
+    "text": "سلیح و درم داد لشکرش را"
+  },
+  {
+    "poem_id": 1634,
+    "vorder": 92,
+    "position": 1,
+    "text": "همان نامداران کشورش را"
+  }
+]

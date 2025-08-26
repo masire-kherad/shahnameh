@@ -1,0 +1,746 @@
+[
+  {
+    "poem_id": 1772,
+    "vorder": 1,
+    "position": 0,
+    "text": "چنان بد که روزی به نخچیر شیر"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 2,
+    "position": 1,
+    "text": "همی‌رفت با چند گرد دلیر"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 3,
+    "position": 0,
+    "text": "بشد پیر مردی عصایی به دست"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 4,
+    "position": 1,
+    "text": "بدو گفت کای شاه یزدان‌پرست"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 5,
+    "position": 0,
+    "text": "به راهام مردیست پرسیم و زر"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 6,
+    "position": 1,
+    "text": "جهودی فریبنده و بدگهر"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 7,
+    "position": 0,
+    "text": "به آزادگی لنبک آبکش"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 8,
+    "position": 1,
+    "text": "به آرایش خوان و گفتار خوش"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 9,
+    "position": 0,
+    "text": "بپرسید زان کهتران کاین کیند"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 10,
+    "position": 1,
+    "text": "به گفتار این پیر سر بر چیند"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 11,
+    "position": 0,
+    "text": "چنین گفت با او یکی نامدار"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 12,
+    "position": 1,
+    "text": "که ای با گهر نامور شهریار"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 13,
+    "position": 0,
+    "text": "سقاایست این لنبک آبکش"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 14,
+    "position": 1,
+    "text": "جوانمرد و با خوان و گفتار خوش"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 15,
+    "position": 0,
+    "text": "به یک نیم روز آب دارد نگاه"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 16,
+    "position": 1,
+    "text": "دگر نیمه مهمان بجوید ز راه"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 17,
+    "position": 0,
+    "text": "نماند به فردا از امروز چیز"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 18,
+    "position": 1,
+    "text": "نخواهد که در خانه باشد به نیز"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 19,
+    "position": 0,
+    "text": "به راهام بی‌بر جهودیست زفت"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 20,
+    "position": 1,
+    "text": "کجا زفتی او نشاید نهفت"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 21,
+    "position": 0,
+    "text": "درم دارد و گنج و دینار نیز"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 22,
+    "position": 1,
+    "text": "همان فرش دیبا و هرگونه چیز"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 23,
+    "position": 0,
+    "text": "منادیگری را بفرمود شاه"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 24,
+    "position": 1,
+    "text": "که شو بانگ زن پیش بازارگاه"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 25,
+    "position": 0,
+    "text": "که هرکس که از لنبک آبکش"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 26,
+    "position": 1,
+    "text": "خرد آب خوردن نباشدش خوش"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 27,
+    "position": 0,
+    "text": "همی بود تا زرد گشت آفتاب"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 28,
+    "position": 1,
+    "text": "نشست از بر باره بی‌زور و تاب"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 29,
+    "position": 0,
+    "text": "سوی خانهٔ لنبک آمد چو باد"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 30,
+    "position": 1,
+    "text": "بزد حلقه بر درش و آواز داد"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 31,
+    "position": 0,
+    "text": "که من سرکشی‌ام ز ایران سپاه"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 32,
+    "position": 1,
+    "text": "چو شب تیره شد بازماندم ز شاه"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 33,
+    "position": 0,
+    "text": "درین خانه امشب درنگم دهی"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 34,
+    "position": 1,
+    "text": "همه مردمی باشد و فرهی"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 35,
+    "position": 0,
+    "text": "ببد شاد لنبک ز آواز اوی"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 36,
+    "position": 1,
+    "text": "وزان خوب گفتار دمساز اوی"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 37,
+    "position": 0,
+    "text": "بدو گفت زود اندر آی ای سوار"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 38,
+    "position": 1,
+    "text": "که خشنود باد ز تو شهریار"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 39,
+    "position": 0,
+    "text": "اگر با تو ده تن بدی به بدی"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 40,
+    "position": 1,
+    "text": "همه یک به یک بر سرم مه بدی"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 41,
+    "position": 0,
+    "text": "فرود آمد از باره بهرامشاه"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 42,
+    "position": 1,
+    "text": "همی داشت آن باره لنبک نگاه"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 43,
+    "position": 0,
+    "text": "بمالید شادان به چیزی تنش"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 44,
+    "position": 1,
+    "text": "یکی رشته بنهاد بر گردنش"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 45,
+    "position": 0,
+    "text": "چو بنشست بهرام لنبک دوید"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 46,
+    "position": 1,
+    "text": "یکی شهره شطرنج پیش آورید"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 47,
+    "position": 0,
+    "text": "یکی کاسه آورد پر خوردنی"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 48,
+    "position": 1,
+    "text": "بیاورد هرگونه آوردنی"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 49,
+    "position": 0,
+    "text": "به بهرام گفت ای گرانمایه مرد"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 50,
+    "position": 1,
+    "text": "بنه مهره بازی از بهر خورد"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 51,
+    "position": 0,
+    "text": "بدید آنک کلنبک بدو داد شاه"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 52,
+    "position": 1,
+    "text": "بخندید و بنهاد بر پیش گاه"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 53,
+    "position": 0,
+    "text": "چو نان خورده شد میزبان در زمان"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 54,
+    "position": 1,
+    "text": "بیاورد جامی ز می شادمان"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 55,
+    "position": 0,
+    "text": "همی خورد بهرام تا گشت مست"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 56,
+    "position": 1,
+    "text": "به خوردنش آنگه بیازید دست"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 57,
+    "position": 0,
+    "text": "شگفت آمد او را ازان جشن اوی"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 58,
+    "position": 1,
+    "text": "وزان خوب گفتار وزان تازه روی"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 59,
+    "position": 0,
+    "text": "بخفت آن شب و بامداد پگاه"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 60,
+    "position": 1,
+    "text": "از آواز او چشم بگشاد شاه"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 61,
+    "position": 0,
+    "text": "چنین گفت لنبک به بهرام گور"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 62,
+    "position": 1,
+    "text": "که شب بی نوا بد همانا ستور"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 63,
+    "position": 0,
+    "text": "یک امروز مهمان من باش وبس"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 64,
+    "position": 1,
+    "text": "وگر یار خواهی بخوانیم کس"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 65,
+    "position": 0,
+    "text": "بیاریم چیزی که باید به جای"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 66,
+    "position": 1,
+    "text": "یک امروز با ما به شادی بپای"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 67,
+    "position": 0,
+    "text": "چنین گفت با آبکش شهریار"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 68,
+    "position": 1,
+    "text": "که امروز چندان نداریم کار"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 69,
+    "position": 0,
+    "text": "که ناچار ز ایدر بباید شدن"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 70,
+    "position": 1,
+    "text": "هم اینجا به نزد تو خواهم بدن"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 71,
+    "position": 0,
+    "text": "بسی آفرین کرد لنبک بروی"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 72,
+    "position": 1,
+    "text": "ز گفتار او تازه‌تر کرد روی"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 73,
+    "position": 0,
+    "text": "بشد لنبک و آب چندی کشید"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 74,
+    "position": 1,
+    "text": "خریدار آبش نیامد پدید"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 75,
+    "position": 0,
+    "text": "غمی گشت و پیراهنش درکشید"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 76,
+    "position": 1,
+    "text": "یکی آبکش را به بر برکشید"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 77,
+    "position": 0,
+    "text": "بها بستد و گوشت بخرید زود"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 78,
+    "position": 1,
+    "text": "بیامد سوی خانه چون باد و دود"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 79,
+    "position": 0,
+    "text": "بپخت و بخوردند و می خواستند"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 80,
+    "position": 1,
+    "text": "یکی مجلس دیگر آراستند"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 81,
+    "position": 0,
+    "text": "بیود آن شب تیره با می به دست"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 82,
+    "position": 1,
+    "text": "همان لنبک آبکش می‌پرست"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 83,
+    "position": 0,
+    "text": "چو شب روز شد تیز لنبک برفت"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 84,
+    "position": 1,
+    "text": "بیامد به نزدیک بهرام تفت"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 85,
+    "position": 0,
+    "text": "بدو گفت روز سیم شادباش"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 86,
+    "position": 1,
+    "text": "ز رنج و غم و کوشش آزاد باش"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 87,
+    "position": 0,
+    "text": "بزن دست با من یک امروز نیز"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 88,
+    "position": 1,
+    "text": "چنان دان که بخشیده‌ای زر و چیز"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 89,
+    "position": 0,
+    "text": "بدو گفت بهرام کین خود مباد"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 90,
+    "position": 1,
+    "text": "که روز سه دیگر نباشیم شاد"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 91,
+    "position": 0,
+    "text": "برو آبکش آفرین خواند و گفت"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 92,
+    "position": 1,
+    "text": "که بیداردل باش و با بخت جفت"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 93,
+    "position": 0,
+    "text": "به بازار شد مشک و آلت ببرد"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 94,
+    "position": 1,
+    "text": "گروگان به پرمایه مردی سپرد"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 95,
+    "position": 0,
+    "text": "خرید آنچ بایست و آمد دوان"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 96,
+    "position": 1,
+    "text": "به نزدیک بهرام شد شادمان"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 97,
+    "position": 0,
+    "text": "بدو گفت یاری ده اندر خورش"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 98,
+    "position": 1,
+    "text": "که مرد از خورشها کند پرورش"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 99,
+    "position": 0,
+    "text": "ازو بستد آن گوشت بهرام زود"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 100,
+    "position": 1,
+    "text": "برید و بر آتش خورشها فزود"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 101,
+    "position": 0,
+    "text": "چو نان خورده شد می‌گرفتند و جام"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 102,
+    "position": 1,
+    "text": "نخست از شهنشاه بردند نام"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 103,
+    "position": 0,
+    "text": "چو می خورده شد خواب را جای کرد"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 104,
+    "position": 1,
+    "text": "به بالین او شمع بر پای کرد"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 105,
+    "position": 0,
+    "text": "به روز چهارم چو بفروخت هور"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 106,
+    "position": 1,
+    "text": "شد از خواب بیدار بهرام گور"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 107,
+    "position": 0,
+    "text": "بشد میزبان گفت کای نامدار"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 108,
+    "position": 1,
+    "text": "ببودی درین خانهٔ تنگ و تار"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 109,
+    "position": 0,
+    "text": "بدین خانه اندر تن‌آسان نه‌ای"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 110,
+    "position": 1,
+    "text": "گر از شاه ایران هراسان نه‌ای"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 111,
+    "position": 0,
+    "text": "دو هفته بدین خانهٔ بی‌نوا"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 112,
+    "position": 1,
+    "text": "بباشی گر آید دلت را هوا"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 113,
+    "position": 0,
+    "text": "برو آفرین کرد بهرامشاه"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 114,
+    "position": 1,
+    "text": "که شادان و خرم بدی سال و ماه"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 115,
+    "position": 0,
+    "text": "سه روز اندرین خانه بودیم شاد"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 116,
+    "position": 1,
+    "text": "که شاهان گیتی گرفتیم یاد"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 117,
+    "position": 0,
+    "text": "به جایی بگویم سخنهای تو"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 118,
+    "position": 1,
+    "text": "که روشن شود زو دل و رای تو"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 119,
+    "position": 0,
+    "text": "که این میزبانی ترا بر دهد"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 120,
+    "position": 1,
+    "text": "چو افزون دهی تخت و افسر دهد"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 121,
+    "position": 0,
+    "text": "بیامد چو گرد اسپ را زین نهاد"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 122,
+    "position": 1,
+    "text": "به نخچیرگه رفت زان خانه شاد"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 123,
+    "position": 0,
+    "text": "همی کرد نخچیر تا شب ز کوه"
+  },
+  {
+    "poem_id": 1772,
+    "vorder": 124,
+    "position": 1,
+    "text": "برآمد سبک بازگشت از گروه"
+  }
+]

@@ -1,0 +1,626 @@
+[
+  {
+    "poem_id": 1920,
+    "vorder": 1,
+    "position": 0,
+    "text": "فرایین چو تاج کیان برنهاد"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 2,
+    "position": 1,
+    "text": "همی‌گفت چیزی که آمدش یاد"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 3,
+    "position": 0,
+    "text": "همی‌گفت شاهی کنم یک زمان"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 4,
+    "position": 1,
+    "text": "نشینم برین تخت بر شادمان"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 5,
+    "position": 0,
+    "text": "به از بندگی توختن شست سال"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 6,
+    "position": 1,
+    "text": "برآورده رنج و فرو برده یال"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 7,
+    "position": 0,
+    "text": "پس از من پسر بر نشیند بگاه"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 8,
+    "position": 1,
+    "text": "نهد بر سر آن خسروانی کلاه"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 9,
+    "position": 0,
+    "text": "نهانی بدو گفت مهتر پسر"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 10,
+    "position": 1,
+    "text": "که اکنون به گیتی توی تاجور"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 11,
+    "position": 0,
+    "text": "مباش ایمن و گنج را چاره کن"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 12,
+    "position": 1,
+    "text": "جهان بان شدی کار یکباره کن"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 13,
+    "position": 0,
+    "text": "چو از تخمهٔ شهریاران کسی"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 14,
+    "position": 1,
+    "text": "بیاید نمانی تو ایدر بسی"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 15,
+    "position": 0,
+    "text": "وزان پس چنین گفت کهتر پسر"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 16,
+    "position": 1,
+    "text": "که اکنون به گیتی توی تاجور"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 17,
+    "position": 0,
+    "text": "سزاوار شاهی سپاهست و گنج"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 18,
+    "position": 1,
+    "text": "چو با گنج باشی نمانی به رنج"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 19,
+    "position": 0,
+    "text": "فریدون که بد آبتینش پدر"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 20,
+    "position": 1,
+    "text": "مر او را که بد پیش او تاجور"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 21,
+    "position": 0,
+    "text": "جهان را بسه پور فرخنده داد"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 22,
+    "position": 1,
+    "text": "که اندر جهان او بد از داد شاد"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 23,
+    "position": 0,
+    "text": "به مرد و به گنج این جهان را بدار"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 24,
+    "position": 1,
+    "text": "نزاید ز مادر کسی شهریار"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 25,
+    "position": 0,
+    "text": "ورا خوش نیامد بدین سان سخن"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 26,
+    "position": 1,
+    "text": "به مهتر پسر گفت خامی مکن"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 27,
+    "position": 0,
+    "text": "عرض را به دیوان شاهی نشاند"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 28,
+    "position": 1,
+    "text": "سپه را سراسر به درگاه خواند"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 29,
+    "position": 0,
+    "text": "شب تیره تا روز دینار داد"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 30,
+    "position": 1,
+    "text": "بسی خلعت ناسزاوار داد"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 31,
+    "position": 0,
+    "text": "به دو هفته از گنج شاه اردشیر"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 32,
+    "position": 1,
+    "text": "نماند از بهایی یکی پر تیر"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 33,
+    "position": 0,
+    "text": "هر آنگه که رفتی به می سوی باغ"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 34,
+    "position": 1,
+    "text": "نبردی جز از شمع عنبر چراغ"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 35,
+    "position": 0,
+    "text": "همان تشت زرین و سیمین بدی"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 36,
+    "position": 1,
+    "text": "چو زرین بدی گوهر آگین بدی"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 37,
+    "position": 0,
+    "text": "چو هشتاد در پیش و هشتاد پس"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 38,
+    "position": 1,
+    "text": "پس شمع یاران فریادرس"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 39,
+    "position": 0,
+    "text": "همه شب بدی خوردن آیین اوی"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 40,
+    "position": 1,
+    "text": "دل مهتران پرشد ازکین اوی"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 41,
+    "position": 0,
+    "text": "شب تیره همواره گردان بدی"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 42,
+    "position": 1,
+    "text": "به پالیزها گر به میدان بدی"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 43,
+    "position": 0,
+    "text": "نماندش به ایران یکی دوستدار"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 44,
+    "position": 1,
+    "text": "شکست اندر آمد به آموزگار"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 45,
+    "position": 0,
+    "text": "فرایین همان ناجوانمرد گشت"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 46,
+    "position": 1,
+    "text": "ابی داد و بی‌بخشش و خرد گشت"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 47,
+    "position": 0,
+    "text": "همی زر بر چشم بر دوختی"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 48,
+    "position": 1,
+    "text": "جهان را به دینار بفروختی"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 49,
+    "position": 0,
+    "text": "همی‌ریخت خون سر بی‌گناه"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 50,
+    "position": 1,
+    "text": "از آن پس برآشفت به روی سپاه"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 51,
+    "position": 0,
+    "text": "به دشنام لبها بیاراستند"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 52,
+    "position": 1,
+    "text": "جهانی همه مرگ او خواستند"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 53,
+    "position": 0,
+    "text": "شب تیره هرمزد شهران گراز"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 54,
+    "position": 1,
+    "text": "سخنها همی‌گفت چندان به راز"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 55,
+    "position": 0,
+    "text": "گزیده سواری ز شهر صطخر"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 56,
+    "position": 1,
+    "text": "که آن مهتران را بدو بود فخر"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 57,
+    "position": 0,
+    "text": "به ایرانیان گفت کای مهتران"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 58,
+    "position": 1,
+    "text": "شد این روزگار فرایین گران"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 59,
+    "position": 0,
+    "text": "همی‌دارد او مهتران را سبک"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 60,
+    "position": 1,
+    "text": "چرا شد چنین مغز و دلتان تنگ"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 61,
+    "position": 0,
+    "text": "همه دیده‌ها زو شده پر سرشک"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 62,
+    "position": 1,
+    "text": "جگر پر ز خون شد بباید پزشک"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 63,
+    "position": 0,
+    "text": "چنین داد پاسخ مرا او را سپاه"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 64,
+    "position": 1,
+    "text": "که چون کس نماند از در پیشگاه"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 65,
+    "position": 0,
+    "text": "نه کس را همی‌آید از رشک یاد"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 66,
+    "position": 1,
+    "text": "که پردازدی دل بدین بد نژاد"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 67,
+    "position": 0,
+    "text": "بدیشان چنین گفت شهران گراز"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 68,
+    "position": 1,
+    "text": "که این کار ایرانیان شد دراز"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 69,
+    "position": 0,
+    "text": "گر ایدون که بر من نسازید بد"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 70,
+    "position": 1,
+    "text": "کنید آنک از داد و گردی سزد"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 71,
+    "position": 0,
+    "text": "هم اکنون به نیروی یزدان پاک"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 72,
+    "position": 1,
+    "text": "مر او را ز باره در آرم به خاک"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 73,
+    "position": 0,
+    "text": "چنین یافت پاسخ ز ایرانیان"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 74,
+    "position": 1,
+    "text": "که بر تو مبادا که آید زیان"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 75,
+    "position": 0,
+    "text": "همه لشکر امروز یار توایم"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 76,
+    "position": 1,
+    "text": "گرت زین بد آید حصار توایم"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 77,
+    "position": 0,
+    "text": "چو بشنید ز ایشان ز ترکش نخست"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 78,
+    "position": 1,
+    "text": "یکی تیر پولاد پیکان بجست"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 79,
+    "position": 0,
+    "text": "برانگیخت از جای اسپ سیاه"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 80,
+    "position": 1,
+    "text": "همی‌داشت لشکر مر او را نگاه"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 81,
+    "position": 0,
+    "text": "کمان رابه بازو همی‌درکشید"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 82,
+    "position": 1,
+    "text": "گهی در بروگاه بر سرکشید"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 83,
+    "position": 0,
+    "text": "به شورش‌گری تیر بازه ببست"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 84,
+    "position": 1,
+    "text": "چو شد غرقه پیکانش بگشاد شست"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 85,
+    "position": 0,
+    "text": "بزد تیر ناگاه بر پشت اوی"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 86,
+    "position": 1,
+    "text": "بیفتاد تازانه از مشت اوی"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 87,
+    "position": 0,
+    "text": "همه تیرتا پر در خون گذشت"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 88,
+    "position": 1,
+    "text": "سرآهن ازناف بیرون گذشت"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 89,
+    "position": 0,
+    "text": "ز باره در افتاد سر سرنگون"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 90,
+    "position": 1,
+    "text": "روان گشت زان زخم او جوی خون"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 91,
+    "position": 0,
+    "text": "بپیچید و برزد یکی باد سرد"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 92,
+    "position": 1,
+    "text": "به زاری بران خاک دل پر ز درد"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 93,
+    "position": 0,
+    "text": "سپه تیغها بر کشیدند پاک"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 94,
+    "position": 1,
+    "text": "برآمد شب تیره از دشت خاک"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 95,
+    "position": 0,
+    "text": "همه شب همی خنجر انداختند"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 96,
+    "position": 1,
+    "text": "یکی از دگر باز نشناختند"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 97,
+    "position": 0,
+    "text": "همی این از آن بستد و آن ازین"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 98,
+    "position": 1,
+    "text": "یکی یافت نفرین دگر آفرین"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 99,
+    "position": 0,
+    "text": "پراگنده گشت آن سپاه بزرگ"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 100,
+    "position": 1,
+    "text": "چومیشان بددل که بینند گرگ"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 101,
+    "position": 0,
+    "text": "فراوان بماندند بی شهریار"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 102,
+    "position": 1,
+    "text": "نیامد کسی تاج را خواستار"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 103,
+    "position": 0,
+    "text": "بجستند فرزند شاهان بسی"
+  },
+  {
+    "poem_id": 1920,
+    "vorder": 104,
+    "position": 1,
+    "text": "ندیدند زان نامداران کسی"
+  }
+]

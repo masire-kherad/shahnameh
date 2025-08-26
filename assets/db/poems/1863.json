@@ -1,0 +1,638 @@
+[
+  {
+    "poem_id": 1863,
+    "vorder": 1,
+    "position": 0,
+    "text": "بهشتم بیاراست خورشید چهر"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 2,
+    "position": 1,
+    "text": "سپه را بکردار گردان سپهر"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 3,
+    "position": 0,
+    "text": "ز درگاه برخاست آوای کوس"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 4,
+    "position": 1,
+    "text": "هواشد زگرد سپاه آبنوس"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 5,
+    "position": 0,
+    "text": "سپاهی گزین کرد زآزادگان"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 6,
+    "position": 1,
+    "text": "بیامد سوی آذرابادگان"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 7,
+    "position": 0,
+    "text": "دو هفته برآمد بفرمان شاه"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 8,
+    "position": 1,
+    "text": "بلشکر گه آمد دمادم سپاه"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 9,
+    "position": 0,
+    "text": "سرا پردهٔ شاه بردشت دوک"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 10,
+    "position": 1,
+    "text": "چنان لشکری گشن وراهی سه دوک"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 11,
+    "position": 0,
+    "text": "نیاطوس را داد لشکر همه"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 12,
+    "position": 1,
+    "text": "بدو گفت مهتر تویی بررمه"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 13,
+    "position": 0,
+    "text": "وزان جایگه با سواران گرد"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 14,
+    "position": 1,
+    "text": "عنان بارهٔ تیزتگ راسپرد"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 15,
+    "position": 0,
+    "text": "سوی راه چیچست بنهاد روی"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 16,
+    "position": 1,
+    "text": "همی‌راند شادان دل وراه جوی"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 17,
+    "position": 0,
+    "text": "بجایی که موسیل بود ارمنی"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 18,
+    "position": 1,
+    "text": "که کردی میان بزرگان منی"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 19,
+    "position": 0,
+    "text": "به لشکر گهش یار بندوی بود"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 20,
+    "position": 1,
+    "text": "که بندوی خال جهانجوی بود"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 21,
+    "position": 0,
+    "text": "برفت این دوگرد ازمیان سپاه"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 22,
+    "position": 1,
+    "text": "ز لشکر نگه کرد خسرو به راه"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 23,
+    "position": 0,
+    "text": "به گستهم گفت آن دلاور دومرد"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 24,
+    "position": 1,
+    "text": "چنین اسپ تازان به دشت نبرد"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 25,
+    "position": 0,
+    "text": "برو سوی ایشان ببین تاکیند"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 26,
+    "position": 1,
+    "text": "برین گونه تازان زبهر چیند"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 27,
+    "position": 0,
+    "text": "چنین گفت گستهم کای شهریار"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 28,
+    "position": 1,
+    "text": "برانم که آن مرد ابلق سوار"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 29,
+    "position": 0,
+    "text": "برادرم بندوی کنداورست"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 30,
+    "position": 1,
+    "text": "همان یارش ازلشکری دیگرست"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 31,
+    "position": 0,
+    "text": "چنین گفت خسرو بگستهم شیر"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 32,
+    "position": 1,
+    "text": "که این کی بود ای سوار دلیر"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 33,
+    "position": 0,
+    "text": "کجاکار بندوی باشد درشت"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 34,
+    "position": 1,
+    "text": "مگر پاک یزدان بود یاروپشت"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 35,
+    "position": 0,
+    "text": "اگر زنده خواهی به زندان بود"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 36,
+    "position": 1,
+    "text": "وگر کشته بردار میدان بود"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 37,
+    "position": 0,
+    "text": "بدو گفت گستهم شاها درست"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 38,
+    "position": 1,
+    "text": "بدان سونگه کن که اوخال تست"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 39,
+    "position": 0,
+    "text": "گرآید به نزدیک وباشد جزاوی"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 40,
+    "position": 1,
+    "text": "ز گستهم گوینده جز جان مجوی"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 41,
+    "position": 0,
+    "text": "هم آنگه رسیدند نزدیک شاه"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 42,
+    "position": 1,
+    "text": "پیاده شدند اندران سایه گاه"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 43,
+    "position": 0,
+    "text": "چو رفتند نزدیک خسرو فراز"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 44,
+    "position": 1,
+    "text": "ستودند و بردند پیشش نماز"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 45,
+    "position": 0,
+    "text": "بپرسید خسرو به بندوی گفت"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 46,
+    "position": 1,
+    "text": "که گفتم تو راخاک یابم نهفت"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 47,
+    "position": 0,
+    "text": "به خسرو بگفت آنچ بر وی رسید"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 48,
+    "position": 1,
+    "text": "همان مردمی کو ز بهرام دید"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 49,
+    "position": 0,
+    "text": "وزان چاره جستن دران روزگار"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 50,
+    "position": 1,
+    "text": "وزان پوشش جامهٔ شهریار"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 51,
+    "position": 0,
+    "text": "همی‌گفت وخسرو فراوان گریست"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 52,
+    "position": 1,
+    "text": "ازان پس بدو گفت کاین مردکیست"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 53,
+    "position": 0,
+    "text": "بدو گفت کای شاه خورشید چهر"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 54,
+    "position": 1,
+    "text": "تو موسیل را چون نپرسی ز مهر"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 55,
+    "position": 0,
+    "text": "که تا تو ز ایران شدستی بروم"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 56,
+    "position": 1,
+    "text": "نخفتست هرگز بآباد بوم"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 57,
+    "position": 0,
+    "text": "سراپرده ودشت جای وی است"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 58,
+    "position": 1,
+    "text": "نه خرگاه وخیمه سرای وی است"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 59,
+    "position": 0,
+    "text": "فراوان سپاهست بااوبهم"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 60,
+    "position": 1,
+    "text": "سلیح بزرگی وگنج درم"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 61,
+    "position": 0,
+    "text": "کنون تا تو رفتی برین راه بود"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 62,
+    "position": 1,
+    "text": "نیازش ببرگشتن شاه بود"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 63,
+    "position": 0,
+    "text": "جهاندار خسرو به موسیل گفت"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 64,
+    "position": 1,
+    "text": "که رنج تو کی ماند اندرنهفت"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 65,
+    "position": 0,
+    "text": "بکوشیم تا روز تو به شود"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 66,
+    "position": 1,
+    "text": "همان نامت از مهتران مه شود"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 67,
+    "position": 0,
+    "text": "بدو گفت موسیل کای شهریار"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 68,
+    "position": 1,
+    "text": "بمن بریکی تازه کن روزگار"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 69,
+    "position": 0,
+    "text": "که آیم ببوسم رکیب تو را"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 70,
+    "position": 1,
+    "text": "ستایش کنم فر و زیب تو را"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 71,
+    "position": 0,
+    "text": "بدو گفت خسرو که با رنج تو"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 72,
+    "position": 1,
+    "text": "درفشان کنم زین سخن گنج تو"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 73,
+    "position": 0,
+    "text": "برون کرد یک پای خویش از رکیب"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 74,
+    "position": 1,
+    "text": "شد آن مرد بیدار دل ناشکیب"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 75,
+    "position": 0,
+    "text": "ببوسید پای و رکیب ورا"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 76,
+    "position": 1,
+    "text": "همی خیره گشت از نهیب ورا"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 77,
+    "position": 0,
+    "text": "چو بیکار شد مرد خسروپرست"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 78,
+    "position": 1,
+    "text": "جهانجوی فرمود تا بر نشست"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 79,
+    "position": 0,
+    "text": "وزان دشت بی بر انگیخت اسپ"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 80,
+    "position": 1,
+    "text": "همی‌تاخت تا پیش آذر گشسپ"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 81,
+    "position": 0,
+    "text": "نوان اندر آمد به آتشکده"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 82,
+    "position": 1,
+    "text": "دلش بود یکسر بدرد آژده"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 83,
+    "position": 0,
+    "text": "بشد هیربد زند و استا بدست"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 84,
+    "position": 1,
+    "text": "به پیش جهاندار یزدان پرست"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 85,
+    "position": 0,
+    "text": "گشاد از میان شاه زرین کمر"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 86,
+    "position": 1,
+    "text": "بر آتش بر آگند چندی گهر"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 87,
+    "position": 0,
+    "text": "نیایش کنان پیش آذر بگشت"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 88,
+    "position": 1,
+    "text": "بنالید وز هیربد برگذشت"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 89,
+    "position": 0,
+    "text": "همی‌گفت کای داور داد وپاک"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 90,
+    "position": 1,
+    "text": "سردشمنان اندر آور بخاک"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 91,
+    "position": 0,
+    "text": "تودانی که برداد نالم همی"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 92,
+    "position": 1,
+    "text": "همه راه نیکی سگالم همی"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 93,
+    "position": 0,
+    "text": "تومپسند بیداد بیدادگر"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 94,
+    "position": 1,
+    "text": "بگفت این و بر بست زرین کمر"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 95,
+    "position": 0,
+    "text": "سوی دشت دوک اندر آورد روی"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 96,
+    "position": 1,
+    "text": "همی‌شد خلیده دل و راه‌جوی"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 97,
+    "position": 0,
+    "text": "چو آمد به لشکر گه خویش باز"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 98,
+    "position": 1,
+    "text": "همان تیره گشت آن شب دیریاز"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 99,
+    "position": 0,
+    "text": "فرستاد بیدار کارآگهان"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 100,
+    "position": 1,
+    "text": "که تا باز جویند کارجهان"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 101,
+    "position": 0,
+    "text": "چو آگاه شد لشکر نیمروز"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 102,
+    "position": 1,
+    "text": "که آمد ز ره شاه گیتی فروز"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 103,
+    "position": 0,
+    "text": "همه کوس بستند بر پشت پیل"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 104,
+    "position": 1,
+    "text": "زمین شد به کردار دریای نیل"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 105,
+    "position": 0,
+    "text": "ازان آگهی سر به سر نو شدند"
+  },
+  {
+    "poem_id": 1863,
+    "vorder": 106,
+    "position": 1,
+    "text": "بیاری به نزدیک خسرو شدند"
+  }
+]

@@ -1,0 +1,926 @@
+[
+  {
+    "poem_id": 88023,
+    "vorder": 1,
+    "position": 0,
+    "text": "چو آگاهی آمد بشاه دلیر"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 2,
+    "position": 1,
+    "text": "که از بیشه پیروز برگشت شیر"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 3,
+    "position": 0,
+    "text": "چو بیژن شد از بند و زندان رها"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 4,
+    "position": 1,
+    "text": "ز بند بداندیش نراژدها"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 5,
+    "position": 0,
+    "text": "سپاهی ز توران بهم برشکست"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 6,
+    "position": 1,
+    "text": "همه لشکر دشمنان کرد پست"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 7,
+    "position": 0,
+    "text": "بشادی به پیش جهان‌آفرین"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 8,
+    "position": 1,
+    "text": "بمالید روی و کله بر زمین"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 9,
+    "position": 0,
+    "text": "چو گودرز و گیو آگهی یافتند"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 10,
+    "position": 1,
+    "text": "سوی شاه پیروز بشتافتند"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 11,
+    "position": 0,
+    "text": "برآمد خروش و بیامد سپاه"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 12,
+    "position": 1,
+    "text": "تبیره‌زنان برگرفتند راه"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 13,
+    "position": 0,
+    "text": "دمنده دمان گاودم بر درش"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 14,
+    "position": 1,
+    "text": "برآمد خروشیدن از لشکرش"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 15,
+    "position": 0,
+    "text": "سیه کرده میدانش اسبان بسم"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 16,
+    "position": 1,
+    "text": "همه شهر آوای رویینه‌خم"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 17,
+    "position": 0,
+    "text": "بیک دست بربسته شیر و پلنگ"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 18,
+    "position": 1,
+    "text": "بزنجیر دیگر سواران جنگ"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 19,
+    "position": 0,
+    "text": "گرازان سواران دمان و دنان"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 20,
+    "position": 1,
+    "text": "بدندان زمین ژنده پیلان کنان"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 21,
+    "position": 0,
+    "text": "بپیش سپاه اندرون بوق و کوس"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 22,
+    "position": 1,
+    "text": "درفش از پس پشت گودرز و طوس"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 23,
+    "position": 0,
+    "text": "پذیره شدن پیش پهلو سپاه"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 24,
+    "position": 1,
+    "text": "بدین گونه فرمود بیدار شاه"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 25,
+    "position": 0,
+    "text": "برفتند لشکر گروها گروه"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 26,
+    "position": 1,
+    "text": "زمین شد ز گردان بکردار کوه"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 27,
+    "position": 0,
+    "text": "چو آمد پدیدار از انبوه نیو"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 28,
+    "position": 1,
+    "text": "پیاده شد از باره گودرز و گیو"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 29,
+    "position": 0,
+    "text": "ز اسب اندرآمد جهان پهلوان"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 30,
+    "position": 1,
+    "text": "بپرسیدش از رنج‌دیده گوان"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 31,
+    "position": 0,
+    "text": "برو آفرین کرد گودرز و گیو"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 32,
+    "position": 1,
+    "text": "که ای نامبردار و سالار نیو"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 33,
+    "position": 0,
+    "text": "دلیر از تو گردد بهر جای شیر"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 34,
+    "position": 1,
+    "text": "سپهر از تو هرگز مگرداد سیر"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 35,
+    "position": 0,
+    "text": "ترا جاودان باد یزدان پناه"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 36,
+    "position": 1,
+    "text": "بکام تو گرداد خورشید و ماه"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 37,
+    "position": 0,
+    "text": "همه بنده کردی تو این دوده را"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 38,
+    "position": 1,
+    "text": "زتو یافتم پور گم‌بوده را"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 39,
+    "position": 0,
+    "text": "ز درد و غمان رستگان تویم"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 40,
+    "position": 1,
+    "text": "بایران کمربستگان تویم"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 41,
+    "position": 0,
+    "text": "بر اسبان نشستند یکسر مهان"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 42,
+    "position": 1,
+    "text": "گرازان بنزدیک شاه جهان"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 43,
+    "position": 0,
+    "text": "چو نزدیک شهر جهاندار شاه"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 44,
+    "position": 1,
+    "text": "فرازآمد آن گرد لشکرپناه"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 45,
+    "position": 0,
+    "text": "پذیره شدش نامدار جهان"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 46,
+    "position": 1,
+    "text": "نگهدار ایران و شاه مهان"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 47,
+    "position": 0,
+    "text": "چو رستم بفر جهاندار شاه"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 48,
+    "position": 1,
+    "text": "نگه کرد کآمد پذیره براه"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 49,
+    "position": 0,
+    "text": "پیاده شد و برد پیشش نماز"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 50,
+    "position": 1,
+    "text": "غمی گشته از رنج و راه دراز"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 51,
+    "position": 0,
+    "text": "جهاندار خسرو گرفتش ببر"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 52,
+    "position": 1,
+    "text": "که ای دست مردی و جان هنر"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 53,
+    "position": 0,
+    "text": "تهمتن سبک دست بیژن گرفت"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 54,
+    "position": 1,
+    "text": "چنانکش ز شاه و پدر بپذرفت"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 55,
+    "position": 0,
+    "text": "بیاورد و بسپرد و بر پای خاست"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 56,
+    "position": 1,
+    "text": "چنان پشت خمیده را کرد راست"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 57,
+    "position": 0,
+    "text": "ازان پس اسیران توران هزار"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 58,
+    "position": 1,
+    "text": "بیاورد بسته بر شهریار"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 59,
+    "position": 0,
+    "text": "برو آفرین کرد خسرو بمهر"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 60,
+    "position": 1,
+    "text": "که جاوید بادا بکامت سپهر"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 61,
+    "position": 0,
+    "text": "خنک زال کش بگذرد روزگار"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 62,
+    "position": 1,
+    "text": "بماند بگیتی ترا یادگار"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 63,
+    "position": 0,
+    "text": "خجسته بر و بوم زابل که شیر"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 64,
+    "position": 1,
+    "text": "همی پروراند گوان و دلیر"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 65,
+    "position": 0,
+    "text": "خنک شهر ایران و فرخ گوان"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 66,
+    "position": 1,
+    "text": "که دارند چون تو یکی پهلوان"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 67,
+    "position": 0,
+    "text": "وزین هر سه برتر سر و بخت من"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 68,
+    "position": 1,
+    "text": "که چون تو پرستد همی تخت من"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 69,
+    "position": 0,
+    "text": "به خورشید ماند همی کار تو"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 70,
+    "position": 1,
+    "text": "بگیتی پراگنده کردار تو"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 71,
+    "position": 0,
+    "text": "بگیو آنگهی گفت شاه جهان"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 72,
+    "position": 1,
+    "text": "که نیکست با کردگارت نهان"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 73,
+    "position": 0,
+    "text": "که بر دست رستم جهان‌آفرین"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 74,
+    "position": 1,
+    "text": "بتو داد پیروز پور گزین"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 75,
+    "position": 0,
+    "text": "گرفت آفرین گیو بر شهریار"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 76,
+    "position": 1,
+    "text": "که شادان بدی تا بود روزگار"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 77,
+    "position": 0,
+    "text": "سر رستمت جاودان سبز باد"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 78,
+    "position": 1,
+    "text": "دل زال فرخ بدو باد شاد"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 79,
+    "position": 0,
+    "text": "بفرمود خسرو که بنهید خوان"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 80,
+    "position": 1,
+    "text": "بزرگان برترمنش را بخوان"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 81,
+    "position": 0,
+    "text": "چو از خوان سالار برخاستند"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 82,
+    "position": 1,
+    "text": "نشستنگه می بیاراستند"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 83,
+    "position": 0,
+    "text": "فروزندهٔ مجلس و میگسار"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 84,
+    "position": 1,
+    "text": "نوازندهٔ چنگ با پیشکار"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 85,
+    "position": 0,
+    "text": "همه بر سران افسران گران"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 86,
+    "position": 1,
+    "text": "بزر اندرون پیکر از گوهران"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 87,
+    "position": 0,
+    "text": "همه رخ چو دیبای رومی برنگ"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 88,
+    "position": 1,
+    "text": "خروشان ز چنگ و پریزاده چنگ"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 89,
+    "position": 0,
+    "text": "طبقهای سیمین پر از مشک ناب"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 90,
+    "position": 1,
+    "text": "بپیش اندرون آبگیری گلاب"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 91,
+    "position": 0,
+    "text": "همی تافت ازفر شاهنشهی"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 92,
+    "position": 1,
+    "text": "چو ماه دو هفته ز سرو سهی"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 93,
+    "position": 0,
+    "text": "همه پهلوانان خسروپرست"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 94,
+    "position": 1,
+    "text": "برفتند زایوان سالار مست"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 95,
+    "position": 0,
+    "text": "بشبگیر چون رستم آمد بدر"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 96,
+    "position": 1,
+    "text": "گشاده‌دل و تنگ بسته کمر"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 97,
+    "position": 0,
+    "text": "بدستوری بازگشتن بجای"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 98,
+    "position": 1,
+    "text": "همی زد هشیوار با شاه رای"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 99,
+    "position": 0,
+    "text": "یکی دست جامه بفرمود شاه"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 100,
+    "position": 1,
+    "text": "گهر بافته با قبا و کلاه"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 101,
+    "position": 0,
+    "text": "یکی جام پر گوهر شاهوار"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 102,
+    "position": 1,
+    "text": "صد اسب و صد اشتر بزین و ببار"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 103,
+    "position": 0,
+    "text": "دو پنجه پری‌روی بسته کمر"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 104,
+    "position": 1,
+    "text": "دو پنجه پرستار با طوق زر"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 105,
+    "position": 0,
+    "text": "همه پیش شاه جهان کدخدای"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 106,
+    "position": 1,
+    "text": "بیاورد و کردند یک سر بپای"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 107,
+    "position": 0,
+    "text": "همه رستم زابلی را سپرد"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 108,
+    "position": 1,
+    "text": "زمین را ببوسید و برخاست گرد"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 109,
+    "position": 0,
+    "text": "بسربر نهاد آن کلاه کیان"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 110,
+    "position": 1,
+    "text": "ببست آن کیانی کمر برمیان"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 111,
+    "position": 0,
+    "text": "ابر شاه کرد آفرین و برفت"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 112,
+    "position": 1,
+    "text": "ره سیستان را بسیچید تفت"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 113,
+    "position": 0,
+    "text": "بزرگان که بودند با او بهم"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 114,
+    "position": 1,
+    "text": "برزم و ببزم و بشادی و غم"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 115,
+    "position": 0,
+    "text": "براندازه‌شان یک بیک هدیه داد"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 116,
+    "position": 1,
+    "text": "از ایوان خسرو برفتند شاد"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 117,
+    "position": 0,
+    "text": "چو از کار کردن بپردخت شاه"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 118,
+    "position": 1,
+    "text": "برام بنشست بر پیشگاه"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 119,
+    "position": 0,
+    "text": "بفرمود تا بیژن آمدش پیش"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 120,
+    "position": 1,
+    "text": "سخن گفت زان رنج و تیمار خویش"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 121,
+    "position": 0,
+    "text": "ازان تنگ زندان و رنج زوار"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 122,
+    "position": 1,
+    "text": "فراوان سخن گفت با شهریار"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 123,
+    "position": 0,
+    "text": "وزان گردش روزگاران بد"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 124,
+    "position": 1,
+    "text": "همه داستان پیش خسرو بزد"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 125,
+    "position": 0,
+    "text": "بپیچید و بخشایش آورد سخت"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 126,
+    "position": 1,
+    "text": "ز درد و غم دخت گم بوده بخت"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 127,
+    "position": 0,
+    "text": "بفرمود صد جامه دیبای روم"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 128,
+    "position": 1,
+    "text": "همه پیکرش گوهر و زر و بوم"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 129,
+    "position": 0,
+    "text": "یکی تاج و ده بدره دینار نیز"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 130,
+    "position": 1,
+    "text": "پرستنده و فرش و هرگونه چیز"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 131,
+    "position": 0,
+    "text": "به بیژن بفرمود کاین خواسته"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 132,
+    "position": 1,
+    "text": "ببر سوی ترک روان‌کاسته"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 133,
+    "position": 0,
+    "text": "برنجش مفرسا و سردش مگوی"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 134,
+    "position": 1,
+    "text": "نگر تا چه آوردی او را بروی"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 135,
+    "position": 0,
+    "text": "تو با او جهان را بشادی گذار"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 136,
+    "position": 1,
+    "text": "نگه کن بدین گردش روزگار"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 137,
+    "position": 0,
+    "text": "یکی را برآرد بچرخ بلند"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 138,
+    "position": 1,
+    "text": "ز تیمار و دردش کند بی‌گزند"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 139,
+    "position": 0,
+    "text": "وزانجاش گردان برد سوی خاک"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 140,
+    "position": 1,
+    "text": "همه جای بیمست و تیمار و باک"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 141,
+    "position": 0,
+    "text": "هم آن را که پرورده باشد بناز"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 142,
+    "position": 1,
+    "text": "بیفگند خیره بچاه نیاز"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 143,
+    "position": 0,
+    "text": "یکی را ز چاه آورد سوی گاه"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 144,
+    "position": 1,
+    "text": "نهد بر سرش بر ز گوهر کلاه"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 145,
+    "position": 0,
+    "text": "جهان را ز کردار بد شرم نیست"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 146,
+    "position": 1,
+    "text": "کسی را برش آب و آزرم نیست"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 147,
+    "position": 0,
+    "text": "همیشه بهر نیک و بد دسترس"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 148,
+    "position": 1,
+    "text": "ولیکن نجوید خود آزرم کس"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 149,
+    "position": 0,
+    "text": "چنینست کار سرای سپنج"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 150,
+    "position": 1,
+    "text": "گهی ناز و نوش و گهی درد و رنج"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 151,
+    "position": 0,
+    "text": "ز بهر درم تا نباشی بدرد"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 152,
+    "position": 1,
+    "text": "بی‌آزار بهتر دل رادمرد"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 153,
+    "position": 0,
+    "text": "بدین کار بیژن سخن ساختم"
+  },
+  {
+    "poem_id": 88023,
+    "vorder": 154,
+    "position": 1,
+    "text": "بپیران و گودرز پرداختم"
+  }
+]
