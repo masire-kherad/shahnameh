@@ -3,7 +3,7 @@ import { StyleSheet, ScrollView, View, Pressable } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-import { getShahnamehData } from '@/services/dataService';
+import { getPoem } from '@/services/dataService';
 import { markPoemAsComplete, addScore } from '@/services/progressService';
 import { Poem, Verse } from '@/types/shahname';
 
@@ -24,12 +24,11 @@ export default function ReadingScreen() {
       return;
     }
 
-    const { poems, verses } = getShahnamehData();
-    const currentPoem = poems.find(p => p.id === poemIdNum);
+    const currentPoem = getPoem(poemIdNum);
 
     if (currentPoem) {
       setPoem(currentPoem);
-      const poemVerses = verses.filter(v => v.poem_id === poemIdNum).sort((a, b) => a.vorder - b.vorder);
+      const poemVerses = currentPoem.verses.sort((a, b) => a.vorder - b.vorder);
 
       const groupedCouplets: Couplet[] = [];
       for (let i = 0; i < poemVerses.length; i += 2) {
