@@ -1,11 +1,12 @@
 import React, { useEffect, useState } from 'react';
 import { StyleSheet, ScrollView, View, Pressable, ImageBackground } from 'react-native';
-import { useLocalSearchParams, useRouter } from 'expo-router';
+import { useLocalSearchParams, useRouter, Stack } from 'expo-router';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { getPoem } from '@/services/dataService';
-import { markPoemAsComplete } from '@/services/progressService';
+import { markPoemAsComplete, getCompletedPoems } from '@/services/progressService';
 import { Poem, Verse } from '@/types/shahname';
+import { IconSymbol } from '@/components/ui/IconSymbol';
 
 type Couplet = {
   line1: string;
@@ -17,28 +18,37 @@ export default function ReadingScreen() {
   const router = useRouter();
   const [poem, setPoem] = useState<Poem | null>(null);
   const [couplets, setCouplets] = useState<Couplet[]>([]);
+  const [isCompleted, setIsCompleted] = useState(false);
 
   useEffect(() => {
-    const poemIdNum = Number(poem_id);
-    if (isNaN(poemIdNum)) {
-      return;
-    }
-
-    const currentPoem = getPoem(poemIdNum);
-
-    if (currentPoem) {
-      setPoem(currentPoem);
-      const poemVerses = currentPoem.verses.sort((a, b) => a.vorder - b.vorder);
-
-      const groupedCouplets: Couplet[] = [];
-      for (let i = 0; i < poemVerses.length; i += 2) {
-        groupedCouplets.push({
-          line1: poemVerses[i]?.text || '',
-          line2: poemVerses[i + 1]?.text || '',
-        });
+    const loadData = async () => {
+      const poemIdNum = Number(poem_id);
+      if (isNaN(poemIdNum)) {
+        return;
       }
-      setCouplets(groupedCouplets);
-    }
+
+      const completedPoems = await getCompletedPoems();
+      if (completedPoems[poemIdNum]) {
+        setIsCompleted(true);
+      }
+
+      const currentPoem = getPoem(poemIdNum);
+
+      if (currentPoem) {
+        setPoem(currentPoem);
+        const poemVerses = currentPoem.verses.sort((a, b) => a.vorder - b.vorder);
+
+        const groupedCouplets: Couplet[] = [];
+        for (let i = 0; i < poemVerses.length; i += 2) {
+          groupedCouplets.push({
+            line1: poemVerses[i]?.text || '',
+            line2: poemVerses[i + 1]?.text || '',
+          });
+        }
+        setCouplets(groupedCouplets);
+      }
+    };
+    loadData();
   }, [poem_id]);
 
   const handleComplete = async () => {
@@ -60,14 +70,18 @@ export default function ReadingScreen() {
 
   return (
     <ImageBackground
-      source={require('@/assets/images/corner.jpg')}
+      source={require('@/assets/images/rostam.jpg')}
       style={styles.container}
     >
+      <View style={styles.overlay} />
+      <Stack.Screen options={{ title: poem.title }} />
       <ScrollView>
-        <ThemedView style={styles.headerContainer}>
-          <ThemedText type="title">{poem.title}</ThemedText>
-        </ThemedView>
-
+        {isCompleted && (
+          <ThemedView style={styles.headerContainer}>
+            <IconSymbol name="checkmark.circle.fill" size={24} color={'#6EBF8B'} />
+            <ThemedText>خوانده شده</ThemedText>
+          </ThemedView>
+        )}
         <View style={styles.coupletsContainer}>
           {couplets.map((couplet, index) => (
             <ThemedView key={index} style={styles.couplet}>
@@ -90,8 +104,15 @@ const styles = StyleSheet.create({
     flex: 1,
     padding: 16,
   },
+  overlay: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: 'rgba(0,0,0,0.5)',
+  },
   headerContainer: {
+    flexDirection: 'row',
     alignItems: 'center',
+    justifyContent: 'center',
+    gap: 8,
     marginBottom: 24,
   },
   coupletsContainer: {

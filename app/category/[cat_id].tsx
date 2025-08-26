@@ -37,9 +37,10 @@ export default function CategoryScreen() {
 
   return (
     <ImageBackground
-      source={require('@/assets/images/corner.jpg')}
+      source={require('@/assets/images/rostam.jpg')}
       style={styles.container}
     >
+      <View style={styles.overlay} />
       <Stack.Screen options={{ title: categoryName }} />
       <ScrollView>
         {poems.map((poem, index) => {
@@ -61,6 +62,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
+  },
+  overlay: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: 'rgba(0,0,0,0.5)',
   },
   poemItem: {
     padding: 16,

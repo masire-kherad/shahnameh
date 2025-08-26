@@ -30,9 +30,10 @@ export default function HomeScreen() {
 
   return (
     <ImageBackground
-      source={require('@/assets/images/corner.jpg')}
+      source={require('@/assets/images/rostam.jpg')}
       style={[styles.container, { paddingTop: insets.top }]}
     >
+      <View style={styles.overlay} />
       <ThemedView style={styles.header}>
         <ThemedText type="title">شاهنامه</ThemedText>
         <Pressable onPress={handleProfilePress}>
@@ -47,6 +48,10 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+  },
+  overlay: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: 'rgba(0,0,0,0.5)',
   },
   header: {
     flexDirection: 'row',

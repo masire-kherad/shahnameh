@@ -22,9 +22,10 @@ export default function ProfileScreen() {
 
   return (
     <ImageBackground
-      source={require('@/assets/images/corner.jpg')}
+      source={require('@/assets/images/rostam.jpg')}
       style={styles.container}
     >
+      <View style={styles.overlay} />
       <ScrollView>
         <ThemedView style={styles.titleContainer}>
           <ThemedText type="title">اشعار تکمیل شده</ThemedText>
@@ -44,6 +45,10 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
+  },
+  overlay: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: 'rgba(0,0,0,0.5)',
   },
   titleContainer: {
     alignItems: 'center',
