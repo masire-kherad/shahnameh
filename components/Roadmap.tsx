@@ -1,5 +1,5 @@
-import React, { useMemo } from 'react';
-import { View, Text, ScrollView, StyleSheet, Pressable, Image, useWindowDimensions } from 'react-native';
+import React, { useMemo, useState } from 'react';
+import { View, Text, ScrollView, StyleSheet, Pressable, Image, useWindowDimensions, Modal, ImageSourcePropType } from 'react-native';
 import Svg, { Path } from 'react-native-svg';
 import { Category, Poem } from '@/types/shahname';
 import { router } from 'expo-router';
@@ -44,28 +44,28 @@ const categoryImages: { [key: string]: any } = {
   ashkanian: require('@/assets/images/Person/Ashkanian.png'),
   ardeshir: require('@/assets/images/Person/Ardeshir.png'),
   shapoor: require('@/assets/images/Person/Shapour.png'),
-  oormazd: require('@/assets/images/Person/OverMozd.jpg'),
-  bahram: require('@/assets/images/Person/Bahram.jpg'),
-  bahramian: require('@/assets/images/Person/BahramBahramian.jpg'),
-  nrsi: require('@/assets/images/Person/NarsiBahram.jpg'),
-  oorner: require('@/assets/images/Person/OvermozdNarsi.jpg'),
-  zolaktaf: require('@/assets/images/Person/ShapourZavaloktaf.jpg'),
-  nekookar: require('@/assets/images/Person/ArdeshirNikookar.jpg'),
-  shapoor3: require('@/assets/images/Person/ShapourSevom.jpg'),
-  bahpoor: require('@/assets/images/Person/BahramShapour.jpg'),
-  bahgoor: require('@/assets/images/Person/BahramGoor.jpg'),
-  yazdgerd: require('@/assets/images/Person/YazdgerdBerahgar.jpg'), //todo:bug
+  oormazd: require('@/assets/images/Person/OverMozd.JPG'),
+  bahram: require('@/assets/images/Person/Bahram.JPG'),
+  bahramian: require('@/assets/images/Person/BahramBahramian.JPG'),
+  nrsi: require('@/assets/images/Person/NarsiBahram.JPG'),
+  oorner: require('@/assets/images/Person/OvermozdNarsi.JPG'),
+  zolaktaf: require('@/assets/images/Person/ShapourZavaloktaf.JPG'),
+  nekookar: require('@/assets/images/Person/ArdeshirNikookar.JPG'),
+  shapoor3: require('@/assets/images/Person/ShapourSevom.JPG'),
+  bahpoor: require('@/assets/images/Person/BahramShapour.JPG'),
+  bahgoor: require('@/assets/images/Person/BahramGoor.JPG'),
+  yazdgerd: require('@/assets/images/Person/Yazdgerd.png'),
   qobad: require('@/assets/images/Person/Kqobad.png'),
-  anooshirvan: require('@/assets/images/Person/KasraNoshinRavan.jpg'),
-  hormozd: require('@/assets/images/Person/Hormozd.jpg'),
-  parviz: require('@/assets/images/Person/KhosroParviz.jpg'),
-  shirooye: require('@/assets/images/Person/Shiroye.jpg'),
-  ardeshiroo: require('@/assets/images/Person/ArdeshirShiroy.jpg'),
-  farayeen: require('@/assets/images/Person/Faraein.jpg'),
-  pooran: require('@/assets/images/Person/PoranDokht.jpg'),
-  azarmdokht: require('@/assets/images/Person/ArazmDokht.jpg'),
-  farrokh: require('@/assets/images/Person/FarokhZad.jpg'),
-  yazdgerd3: require('@/assets/images/Person/YazdgerdBerahgar.jpg'),
+  anooshirvan: require('@/assets/images/Person/KasraNoshinRavan.JPG'),
+  hormozd: require('@/assets/images/Person/Hormozd.JPG'),
+  parviz: require('@/assets/images/Person/KhosroParviz.JPG'),
+  shirooye: require('@/assets/images/Person/Shiroye.JPG'),
+  ardeshiroo: require('@/assets/images/Person/ArdeshirShiroy.JPG'),
+  farayeen: require('@/assets/images/Person/Faraein.JPG'),
+  pooran: require('@/assets/images/Person/PoranDokht.JPG'),
+  azarmdokht: require('@/assets/images/Person/ArazmDokht.JPG'),
+  farrokh: require('@/assets/images/Person/FarokhZad.JPG'),
+  yazdgerd3: require('@/assets/images/Person/Yazdgerd.png'),
   '12rokh': require('@/assets/images/Person/12Rokh.png'),
   akvan: require('@/assets/images/Person/AkvanDiv.png'),
   bizhan: require('@/assets/images/Person/BizhanVaMonizhe.png'),
@@ -79,6 +79,8 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
   const colorScheme = useColorScheme();
   const colors = Colors[colorScheme ?? 'light'].persian;
   const { width: windowWidth } = useWindowDimensions();
+  const [modalVisible, setModalVisible] = useState(false);
+  const [selectedImage, setSelectedImage] = useState<ImageSourcePropType | null>(null);
 
   const nodePositions = useMemo(() => {
     const positions = [];
@@ -117,6 +119,11 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
     router.push(`/category/${catId}`);
   };
 
+  const handleLongPress = (image: ImageSourcePropType) => {
+    setSelectedImage(image);
+    setModalVisible(true);
+  };
+
   const getCategoryProgress = (catId: number) => {
     const categoryPoems = poems.filter(p => p.cat_id === catId);
     const completedCategoryPoems = categoryPoems.filter(p => completedPoems[p.id]);
@@ -136,6 +143,19 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
 
   return (
     <View style={{ flex: 1 }}>
+      <Modal
+        animationType="fade"
+        transparent={true}
+        visible={modalVisible}
+        onRequestClose={() => {
+          setModalVisible(!modalVisible);
+        }}
+      >
+        <Pressable style={styles.modalBackdrop} onPress={() => setModalVisible(false)}>
+          {selectedImage && <Image source={selectedImage} style={styles.modalImage} />}
+        </Pressable>
+      </Modal>
+
       <ScrollView contentContainerStyle={[styles.container, { height: contentHeight }]}>
         <Svg height={contentHeight} width={windowWidth} style={StyleSheet.absoluteFill}>
           <Path
@@ -145,7 +165,7 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
             fill="none"
           />
         </Svg>
-        <ThemedText type="title" style={[styles.title, { color: Colors.dark.text }]}>مسیر خرد</ThemedText>
+        <ThemedText type="title" style={[styles.title, { color: Colors.dark.text }]}>نقشه راه</ThemedText>
         {categories.map((category, index) => {
           const { x, y } = nodePositions[index];
           const progress = getCategoryProgress(category.id);
@@ -160,7 +180,10 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
               transition={{ delay: index * 100 }}
               style={[styles.nodeContainer, { position: 'absolute', top: y - 50, left: x - 50 }]}
             >
-              <Pressable onPress={() => handleCategoryPress(category.id)}>
+              <Pressable
+                onPress={() => handleCategoryPress(category.id)}
+                onLongPress={() => handleLongPress(imageSource)}
+              >
                 <Image source={imageSource} style={styles.nodeImage} />
               </Pressable>
               <Text style={styles.nodeText}>{category.text}</Text>
@@ -190,7 +213,6 @@ const styles = StyleSheet.create({
   },
   title: {
     textAlign: 'center',
-    paddingTop: 5,
     marginBottom: 40,
     paddingHorizontal: 40,
   },
@@ -221,5 +243,16 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 12,
     marginTop: 4,
+  },
+  modalBackdrop: {
+    flex: 1,
+    backgroundColor: 'rgba(0,0,0,0.7)',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  modalImage: {
+    width: 300,
+    height: 300,
+    borderRadius: 20,
   },
 });
