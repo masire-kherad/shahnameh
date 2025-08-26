@@ -1,8 +1,8 @@
 import * as FileSystem from 'expo-file-system';
 import { Asset } from 'expo-asset';
-import { openDatabase, SQLiteDatabase } from 'expo-sqlite';
+import * as SQLite from 'expo-sqlite';
 
-async function openDb(): Promise<SQLiteDatabase> {
+async function openDb(): Promise<SQLite.SQLiteDatabase> {
   const dbName = 'ferdousi.gdb';
   const dbAsset = require('../assets/db/ferdousi.gdb');
   const dbUri = Asset.fromModule(dbAsset).uri;
@@ -19,7 +19,7 @@ async function openDb(): Promise<SQLiteDatabase> {
     await FileSystem.downloadAsync(dbUri, localDbUri);
   }
 
-  return openDatabase(dbName);
+  return SQLite.openDatabaseSync(dbName);
 }
 
 const db = openDb();
