@@ -17,7 +17,7 @@ try {
 export default function RootLayout() {
   const colorScheme = useColorScheme();
   const [loaded] = useFonts({
-    Vazirmatn: require('../assets/fonts/Vazirmatn-Regular.woff2'),
+    Vazirmatn: require('../assets/fonts/Vazirmatn-Regular.ttf'),
   });
 
   if (!loaded) {
