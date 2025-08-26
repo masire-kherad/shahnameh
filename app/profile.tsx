@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, ScrollView, Text, View } from 'react-native';
+import { StyleSheet, ScrollView, Text, View, ImageBackground } from 'react-native';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { getPoems } from '@/services/dataService';
@@ -21,17 +21,22 @@ export default function ProfileScreen() {
   }, []);
 
   return (
-    <ScrollView style={styles.container}>
-      <ThemedView style={styles.titleContainer}>
-        <ThemedText type="title">Completed Poems</ThemedText>
-      </ThemedView>
-
-      {poems.map((poem) => (
-        <ThemedView key={poem.id} style={styles.poemItem}>
-          <Text style={styles.poemText}>{poem.title}</Text>
+    <ImageBackground
+      source={require('@/assets/images/corner.jpg')}
+      style={styles.container}
+    >
+      <ScrollView>
+        <ThemedView style={styles.titleContainer}>
+          <ThemedText type="title">اشعار تکمیل شده</ThemedText>
         </ThemedView>
-      ))}
-    </ScrollView>
+
+        {poems.map((poem) => (
+          <ThemedView key={poem.id} style={styles.poemItem}>
+            <ThemedText style={styles.poemText}>{poem.title}</ThemedText>
+          </ThemedView>
+        ))}
+      </ScrollView>
+    </ImageBackground>
   );
 }
 
@@ -48,10 +53,9 @@ const styles = StyleSheet.create({
     padding: 16,
     marginBottom: 12,
     borderRadius: 8,
-    backgroundColor: '#6EBF8B', // Completed color
+    backgroundColor: '#6EBF8B',
   },
   poemText: {
-    color: '#fff',
     fontSize: 18,
     fontWeight: 'bold',
     textAlign: 'center',

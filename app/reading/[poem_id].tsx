@@ -1,10 +1,10 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, ScrollView, View, Pressable } from 'react-native';
+import { StyleSheet, ScrollView, View, Pressable, ImageBackground } from 'react-native';
 import { useLocalSearchParams, useRouter } from 'expo-router';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { getPoem } from '@/services/dataService';
-import { markPoemAsComplete, addScore } from '@/services/progressService';
+import { markPoemAsComplete } from '@/services/progressService';
 import { Poem, Verse } from '@/types/shahname';
 
 type Couplet = {
@@ -47,7 +47,6 @@ export default function ReadingScreen() {
       return;
     }
     await markPoemAsComplete(poemIdNum);
-    await addScore(10); // Award 10 points
     router.back();
   };
 
@@ -60,24 +59,29 @@ export default function ReadingScreen() {
   }
 
   return (
-    <ScrollView style={styles.container}>
-      <ThemedView style={styles.headerContainer}>
-        <ThemedText type="title">{poem.title}</ThemedText>
-      </ThemedView>
+    <ImageBackground
+      source={require('@/assets/images/corner.jpg')}
+      style={styles.container}
+    >
+      <ScrollView>
+        <ThemedView style={styles.headerContainer}>
+          <ThemedText type="title">{poem.title}</ThemedText>
+        </ThemedView>
 
-      <View style={styles.coupletsContainer}>
-        {couplets.map((couplet, index) => (
-          <View key={index} style={styles.couplet}>
-            <ThemedText style={styles.verseText}>{couplet.line1}</ThemedText>
-            <ThemedText style={styles.verseText}>{couplet.line2}</ThemedText>
-          </View>
-        ))}
-      </View>
+        <View style={styles.coupletsContainer}>
+          {couplets.map((couplet, index) => (
+            <ThemedView key={index} style={styles.couplet}>
+              <ThemedText style={styles.verseText}>{couplet.line1}</ThemedText>
+              <ThemedText style={styles.verseText}>{couplet.line2}</ThemedText>
+            </ThemedView>
+          ))}
+        </View>
 
-      <Pressable style={styles.completeButton} onPress={handleComplete}>
-        <ThemedText style={styles.completeButtonText}>تکمیل</ThemedText>
-      </Pressable>
-    </ScrollView>
+        <Pressable style={styles.completeButton} onPress={handleComplete}>
+          <ThemedText style={styles.completeButtonText}>تکمیل</ThemedText>
+        </Pressable>
+      </ScrollView>
+    </ImageBackground>
   );
 }
 
@@ -96,7 +100,6 @@ const styles = StyleSheet.create({
   couplet: {
     marginBottom: 16,
     padding: 12,
-    backgroundColor: '#f9f9f9',
     borderRadius: 8,
     borderRightWidth: 4,
     borderRightColor: '#A1CEDC',

@@ -29,8 +29,8 @@ export default function RootLayout() {
     <ThemeProvider value={colorScheme === 'dark' ? DarkTheme : DefaultTheme}>
       <Stack>
         <Stack.Screen name="index" options={{ headerShown: false }} />
-        <Stack.Screen name="profile" options={{ title: 'Profile' }} />
-        <Stack.Screen name="category/[cat_id]" options={{ title: 'Category' }} />
+        <Stack.Screen name="profile" options={{ title: 'پروفایل' }} />
+        <Stack.Screen name="category/[cat_id]" options={{ title: 'فهرست اشعار' }} />
         <Stack.Screen name="+not-found" />
       </Stack>
       <StatusBar style="auto" />

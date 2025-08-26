@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, View, Pressable } from 'react-native';
+import { StyleSheet, View, Pressable, ImageBackground } from 'react-native';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { getCategories } from '@/services/dataService';
@@ -9,10 +9,12 @@ import { IconSymbol } from '@/components/ui/IconSymbol';
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { Colors } from '@/constants/Colors';
 import Roadmap from '@/components/Roadmap';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
 
 export default function HomeScreen() {
   const [categories, setCategories] = useState<Category[]>([]);
   const colorScheme = useColorScheme();
+  const insets = useSafeAreaInsets();
 
   useEffect(() => {
     const loadData = () => {
@@ -27,7 +29,10 @@ export default function HomeScreen() {
   };
 
   return (
-    <View style={styles.container}>
+    <ImageBackground
+      source={require('@/assets/images/corner.jpg')}
+      style={[styles.container, { paddingTop: insets.top }]}
+    >
       <ThemedView style={styles.header}>
         <ThemedText type="title">شاهنامه</ThemedText>
         <Pressable onPress={handleProfilePress}>
@@ -35,14 +40,13 @@ export default function HomeScreen() {
         </Pressable>
       </ThemedView>
       <Roadmap categories={categories} />
-    </View>
+    </ImageBackground>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    paddingTop: 16,
   },
   header: {
     flexDirection: 'row',

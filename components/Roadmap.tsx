@@ -1,5 +1,5 @@
 import React from 'react';
-import { View, Text, ScrollView, StyleSheet, Pressable } from 'react-native';
+import { View, Text, ScrollView, StyleSheet, Pressable, I18nManager } from 'react-native';
 import { Category } from '@/types/shahname';
 import { router } from 'expo-router';
 import { View as MotiView } from 'moti';
@@ -52,10 +52,10 @@ const styles = StyleSheet.create({
     marginBottom: 40,
   },
   odd: {
-    alignSelf: 'flex-start',
+    alignSelf: I18nManager.isRTL ? 'flex-end' : 'flex-start',
   },
   even: {
-    alignSelf: 'flex-end',
+    alignSelf: I18nManager.isRTL ? 'flex-start' : 'flex-end',
   },
   node: {
     width: 100,
@@ -85,11 +85,11 @@ const styles = StyleSheet.create({
     zIndex: -1,
   },
   pathOdd: {
-    left: '50%',
-    transform: [{ translateX: -2 }, { rotate: '20deg' }],
+    [I18nManager.isRTL ? 'right' : 'left']: '50%',
+    transform: [{ translateX: I18nManager.isRTL ? 2 : -2 }, { rotate: '20deg' }],
   },
   pathEven: {
-    right: '50%',
-    transform: [{ translateX: 2 }, { rotate: '-20deg' }],
+    [I18nManager.isRTL ? 'left' : 'right']: '50%',
+    transform: [{ translateX: I18nManager.isRTL ? -2 : 2 }, { rotate: '-20deg' }],
   },
 });
