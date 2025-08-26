@@ -7,6 +7,7 @@ import { useColorScheme } from '@/hooks/useColorScheme';
 import { Colors } from '@/constants/Colors';
 import { CompletedPoems } from '@/services/progressService';
 import { ThemedText } from './ThemedText';
+import CircularProgress from './CircularProgress';
 
 interface RoadmapProps {
   categories: Category[];
@@ -38,6 +39,7 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
         const isOdd = index % 2 !== 0;
         const positionStyle = isOdd ? styles.odd : styles.even;
         const progress = getCategoryProgress(category.id);
+        const progressValue = progress.total > 0 ? progress.completed / progress.total : 0;
         const isCompleted = progress.total > 0 && progress.completed === progress.total;
         const nodeColor = isCompleted ? colors.completed : colors.node;
         const pathColor = isCompleted ? colors.completed : colors.path;
@@ -50,16 +52,24 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
             transition={{ delay: index * 100 }}
             style={[styles.nodeContainer, positionStyle]}
           >
-            <Pressable onPress={() => handleCategoryPress(category.id)}>
-              <View style={[styles.node, { backgroundColor: nodeColor }]}>
-                <Text style={styles.nodeText}>{category.text}</Text>
-                {progress.total > 0 && (
-                  <Text style={styles.progressText}>
-                    {progress.completed} / {progress.total}
-                  </Text>
-                )}
-              </View>
-            </Pressable>
+            <CircularProgress
+              size={110}
+              strokeWidth={8}
+              progress={progressValue}
+              bgColor={colors.background}
+              progressColor={colors.path}
+            >
+              <Pressable onPress={() => handleCategoryPress(category.id)}>
+                <View style={[styles.node, { backgroundColor: nodeColor }]}>
+                  <Text style={styles.nodeText}>{category.text}</Text>
+                </View>
+              </Pressable>
+            </CircularProgress>
+            {progress.total > 0 && (
+              <Text style={styles.progressText}>
+                {progress.completed} / {progress.total}
+              </Text>
+            )}
             {index < categories.length - 1 && (
               <View style={[styles.path, { backgroundColor: pathColor }, isOdd ? styles.pathOdd : styles.pathEven]} />
             )}
@@ -81,7 +91,7 @@ const styles = StyleSheet.create({
   },
   nodeContainer: {
     alignItems: 'center',
-    marginBottom: 40,
+    marginBottom: 60,
   },
   odd: {
     alignSelf: I18nManager.isRTL ? 'flex-end' : 'flex-start',
@@ -110,7 +120,7 @@ const styles = StyleSheet.create({
   progressText: {
     color: '#fff',
     fontSize: 14,
-    marginTop: 4,
+    marginTop: 8,
   },
   path: {
     position: 'absolute',
