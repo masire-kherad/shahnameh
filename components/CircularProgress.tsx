@@ -34,6 +34,7 @@ export default function CircularProgress({
     position: 'absolute',
     justifyContent: 'center',
     alignItems: 'center',
+    zIndex: 2,
   };
 
   const halfCircleContainer = {
@@ -50,8 +51,9 @@ export default function CircularProgress({
     height: size,
     borderRadius: halfSize,
     borderWidth: strokeWidth,
+    borderColor: progressColor,
     position: 'absolute',
-    left: -halfSize,
+    left: 0,
     top: 0,
   };
 
@@ -60,12 +62,12 @@ export default function CircularProgress({
 
   return (
     <View style={[styles.container, containerStyle]}>
+      <View style={[styles.background, { backgroundColor: bgColor, width: size, height: size, borderRadius: halfSize }]} />
       <View style={[halfCircleContainer, { transform: [{ rotate: '180deg' }] }]}>
         <View
           style={[
             halfCircle,
             {
-              borderColor: progressColor,
               transform: [{ rotate: `${secondHalfRotate}deg` }],
             },
           ]}
@@ -76,13 +78,11 @@ export default function CircularProgress({
           style={[
             halfCircle,
             {
-              borderColor: progressColor,
               transform: [{ rotate: `${firstHalfRotate}deg` }],
             },
           ]}
         />
       </View>
-      <View style={[styles.background, { backgroundColor: bgColor, width: size, height: size, borderRadius: halfSize }]} />
       <View style={innerCircleStyle}>{children}</View>
     </View>
   );
@@ -95,6 +95,6 @@ const styles = StyleSheet.create({
   },
   background: {
     ...StyleSheet.absoluteFillObject,
-    zIndex: -1,
+    zIndex: 1,
   },
 });
