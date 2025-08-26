@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, ScrollView, Text, View, Pressable } from 'react-native';
+import { StyleSheet, View, Pressable } from 'react-native';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { getCategories } from '@/services/dataService';
@@ -8,6 +8,7 @@ import { router } from 'expo-router';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { Colors } from '@/constants/Colors';
+import Roadmap from '@/components/Roadmap';
 
 export default function HomeScreen() {
   const [categories, setCategories] = useState<Category[]>([]);
@@ -21,10 +22,6 @@ export default function HomeScreen() {
     loadData();
   }, []);
 
-  const handleCategoryPress = (catId: number) => {
-    router.push(`/category/${catId}`);
-  };
-
   const handleProfilePress = () => {
     router.push('/profile');
   };
@@ -37,17 +34,7 @@ export default function HomeScreen() {
           <IconSymbol name="person.fill" size={28} color={Colors[colorScheme ?? 'light'].text} />
         </Pressable>
       </ThemedView>
-      <ScrollView>
-        {categories.map((category) => {
-          return (
-            <Pressable key={category.id} onPress={() => handleCategoryPress(category.id)}>
-              <ThemedView style={styles.categoryItem}>
-                <Text style={styles.categoryText}>{category.text}</Text>
-              </ThemedView>
-            </Pressable>
-          );
-        })}
-      </ScrollView>
+      <Roadmap categories={categories} />
     </View>
   );
 }
@@ -55,24 +42,13 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 16,
+    paddingTop: 16,
   },
   header: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
     marginBottom: 24,
-  },
-  categoryItem: {
-    padding: 16,
-    marginBottom: 12,
-    borderRadius: 8,
-    backgroundColor: '#A1CEDC',
-  },
-  categoryText: {
-    color: '#fff',
-    fontSize: 18,
-    fontWeight: 'bold',
-    textAlign: 'center',
+    paddingHorizontal: 16,
   },
 });
