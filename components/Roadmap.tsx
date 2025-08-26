@@ -15,11 +15,21 @@ interface RoadmapProps {
   completedPoems: CompletedPoems;
 }
 
-const images = [
-  require('@/assets/images/ferdousi.png'),
-  require('@/assets/images/rostam.jpg'),
-  require('@/assets/images/shahdokht.png'),
-];
+const categoryImages: { [key: string]: any } = {
+  qmars: require('@/assets/images/Person/Qmars.png'),
+  hushang: require('@/assets/images/Person/Hooshang.png'),
+  tahmoores: require('@/assets/images/Person/Tahmores.png'),
+  jamshid: require('@/assets/images/Person/Jamshid.png'),
+  zahak: require('@/assets/images/Person/Zahak.png'),
+  fereydoon: require('@/assets/images/Person/Fereidoon.png'),
+  manoochehr: require('@/assets/images/Person/Manoochehr.png'),
+  nozar: require('@/assets/images/Person/Nozar.png'),
+  zutahmasb: require('@/assets/images/Person/ZooTahmasp.png'),
+  garshasp: require('@/assets/images/Person/Garshasp.png'),
+  kqobad: require('@/assets/images/Person/Kqobad.png'),
+};
+
+const defaultImage = require('@/assets/images/icon.png');
 
 export default function Roadmap({ categories, poems, completedPoems }: RoadmapProps) {
   const colorScheme = useColorScheme();
@@ -38,6 +48,14 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
     };
   };
 
+  const getCategoryImage = (category: Category) => {
+    const key = category.url.split('/').pop();
+    if (key && categoryImages[key]) {
+      return categoryImages[key];
+    }
+    return defaultImage;
+  };
+
   return (
     <ScrollView contentContainerStyle={styles.container}>
       <ThemedText type="title" style={[styles.title, { color: Colors.dark.text }]}>نقشه راه</ThemedText>
@@ -48,7 +66,7 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
         const progressValue = progress.total > 0 ? progress.completed / progress.total : 0;
         const isCompleted = progress.total > 0 && progress.completed === progress.total;
         const pathColor = isCompleted ? colors.completed : colors.path;
-        const imageSource = images[index % images.length];
+        const imageSource = getCategoryImage(category);
 
         return (
           <MotiView
