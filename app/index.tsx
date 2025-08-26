@@ -32,7 +32,7 @@ export default function HomeScreen() {
 
   return (
     <ImageBackground
-      source={require('@/assets/images/bg.jpg')}
+      source={require('@/assets/images/bg.png')}
       style={styles.container}
     >
       <View style={styles.overlay} />
