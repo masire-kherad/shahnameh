@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, ScrollView, View, Pressable, ImageBackground } from 'react-native';
+import { StyleSheet, ScrollView, View, Pressable, ImageBackground, ImageSourcePropType } from 'react-native';
 import { useLocalSearchParams, useRouter, Stack } from 'expo-router';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-import { getPoem } from '@/services/dataService';
+import { getPoem, getCategories } from '@/services/dataService';
 import {
   markPoemAsComplete,
   getCompletedPoems,
@@ -12,12 +12,79 @@ import {
   addFavorite,
   removeFavorite,
 } from '@/services/progressService';
-import { Poem, Verse } from '@/types/shahname';
+import { Poem, Verse, Category } from '@/types/shahname';
 import { IconSymbol } from '@/components/ui/IconSymbol';
+import BendedRoad from '@/components/BendedRoad';
 
 type Couplet = {
   line1: string;
   line2: string;
+};
+
+const categoryImages: { [key: string]: any } = {
+  aghaz: require('@/assets/images/Person/Ferdousi.png'),
+  qmars: require('@/assets/images/Person/Qmars.png'),
+  hushang: require('@/assets/images/Person/Hooshang.png'),
+  tahmoores: require('@/assets/images/Person/Tahmores.png'),
+  jamshid: require('@/assets/images/Person/Jamshid.png'),
+  zahak: require('@/assets/images/Person/Zahak.png'),
+  fereydoon: require('@/assets/images/Person/Fereidoon.png'),
+  manoochehr: require('@/assets/images/Person/Manoochehr.png'),
+  nozar: require('@/assets/images/Person/Nozar.png'),
+  zutahmasb: require('@/assets/images/Person/ZooTahmasp.png'),
+  garshasp: require('@/assets/images/Person/Garshasp.png'),
+  kqobad: require('@/assets/images/Person/Kqobad.png'),
+  kkavoos: require('@/assets/images/Person/KeyKavous.png'),
+  kkhosro: require('@/assets/images/Person/KeyKhosro.png'),
+  lohrasp: require('@/assets/images/Person/Lahrasp.png'),
+  goshtasp: require('@/assets/images/Person/Gashtasp.png'),
+  esfandyar: require('@/assets/images/Person/Esfandiar.png'),
+  shqad: require('@/assets/images/Person/Shoghad.png'),
+  bahman: require('@/assets/images/Person/BahmanEsfandiar.png'),
+  homa: require('@/assets/images/Person/HomayeChehrzad.png'),
+  darab: require('@/assets/images/Person/Darab.png'),
+  dara: require('@/assets/images/Person/DarayeDarab.png'),
+  eskandar: require('@/assets/images/Person/Eskandar.png'),
+  ashkanian: require('@/assets/images/Person/Ashkanian.png'),
+  ardeshir: require('@/assets/images/Person/Ardeshir.png'),
+  shapoor: require('@/assets/images/Person/Shapour.png'),
+  oormazd: require('@/assets/images/Person/OverMozd.JPG'),
+  bahram: require('@/assets/images/Person/Bahram.JPG'),
+  bahramian: require('@/assets/images/Person/BahramBahramian.JPG'),
+  nrsi: require('@/assets/images/Person/NarsiBahram.JPG'),
+  oorner: require('@/assets/images/Person/OvermozdNarsi.JPG'),
+  zolaktaf: require('@/assets/images/Person/ShapourZavaloktaf.JPG'),
+  nekookar: require('@/assets/images/Person/ArdeshirNikookar.JPG'),
+  shapoor3: require('@/assets/images/Person/ShapourSevom.JPG'),
+  bahpoor: require('@/assets/images/Person/BahramShapour.JPG'),
+  bahgoor: require('@/assets/images/Person/BahramGoor.JPG'),
+  yazdgerd: require('@/assets/images/Person/Yazdgerd.png'),
+  qobad: require('@/assets/images/Person/Kqobad.png'),
+  anooshirvan: require('@/assets/images/Person/KasraNoshinRavan.JPG'),
+  hormozd: require('@/assets/images/Person/Hormozd.JPG'),
+  parviz: require('@/assets/images/Person/KhosroParviz.JPG'),
+  shirooye: require('@/assets/images/Person/Shiroye.JPG'),
+  ardeshiroo: require('@/assets/images/Person/ArdeshirShiroy.JPG'),
+  farayeen: require('@/assets/images/Person/Faraein.JPG'),
+  pooran: require('@/assets/images/Person/PoranDokht.JPG'),
+  azarmdokht: require('@/assets/images/Person/ArazmDokht.JPG'),
+  farrokh: require('@/assets/images/Person/FarokhZad.JPG'),
+  yazdgerd3: require('@/assets/images/Person/Yazdgerd.png'),
+  '12rokh': require('@/assets/images/Person/12Rokh.png'),
+  akvan: require('@/assets/images/Person/AkvanDiv.png'),
+  bizhan: require('@/assets/images/Person/BizhanVaMonizhe.png'),
+  kamoos: require('@/assets/images/Person/Kashani.png'),
+  khaghan: require('@/assets/images/Person/Khaghan.png'),
+};
+
+const defaultImage = require('@/assets/images/icon.png');
+
+const getCategoryImage = (category: Category) => {
+  const key = category.url.split('/').pop();
+  if (key && categoryImages[key]) {
+    return categoryImages[key];
+  }
+  return defaultImage;
 };
 
 export default function ReadingScreen() {
@@ -27,6 +94,7 @@ export default function ReadingScreen() {
   const [couplets, setCouplets] = useState<Couplet[]>([]);
   const [isCompleted, setIsCompleted] = useState(false);
   const [isFav, setIsFav] = useState(false);
+  const [categoryImage, setCategoryImage] = useState<ImageSourcePropType>(defaultImage);
 
   useEffect(() => {
     const loadData = async () => {
@@ -57,6 +125,12 @@ export default function ReadingScreen() {
           });
         }
         setCouplets(groupedCouplets);
+
+        const categories = getCategories();
+        const category = categories.find(c => c.id === currentPoem.cat_id);
+        if (category) {
+          setCategoryImage(getCategoryImage(category));
+        }
       }
     };
     loadData();
@@ -97,43 +171,42 @@ export default function ReadingScreen() {
   }
 
   return (
-    <ImageBackground
-      source={require('@/assets/images/rostam.jpg')}
-      style={styles.container}
-    >
-      <View style={styles.overlay} />
-      <Stack.Screen options={{ title: poem.title }} />
-      <ScrollView>
-        {isCompleted && (
-          <ThemedView style={styles.headerContainer}>
-            <IconSymbol name="checkmark.circle.fill" size={24} color={'#6EBF8B'} />
-            <ThemedText>خوانده شده</ThemedText>
-          </ThemedView>
-        )}
-        <View style={styles.coupletsContainer}>
-          {couplets.map((couplet, index) => (
-            <ThemedView key={index} style={styles.couplet}>
-              <ThemedText style={styles.verseText}>{couplet.line1}</ThemedText>
-              <ThemedText style={styles.verseText}>{couplet.line2}</ThemedText>
+    <BendedRoad imageSource={categoryImage}>
+      <View style={styles.container}>
+        <View style={styles.overlay} />
+        <Stack.Screen options={{ title: poem.title }} />
+        <ScrollView>
+          {isCompleted && (
+            <ThemedView style={styles.headerContainer}>
+              <IconSymbol name="checkmark.circle.fill" size={24} color={'#6EBF8B'} />
+              <ThemedText style={styles.headerText}>خوانده شده</ThemedText>
             </ThemedView>
-          ))}
-        </View>
+          )}
+          <View style={styles.coupletsContainer}>
+            {couplets.map((couplet, index) => (
+              <ThemedView key={index} style={styles.couplet}>
+                <ThemedText style={styles.verseText}>{couplet.line1}</ThemedText>
+                <ThemedText style={styles.verseText}>{couplet.line2}</ThemedText>
+              </ThemedView>
+            ))}
+          </View>
 
-        <View style={styles.actionsContainer}>
-          <Pressable
-            style={[styles.button, styles.completeButton, isCompleted && styles.unCompleteButton]}
-            onPress={handleToggleComplete}
-          >
-            <ThemedText style={styles.buttonText}>
-              {isCompleted ? 'علامت به عنوان تکمیل نشده' : 'تکمیل'}
-            </ThemedText>
-          </Pressable>
-          <Pressable style={styles.button} onPress={handleToggleFavorite}>
-            <IconSymbol name="heart.fill" size={24} color={isFav ? '#e74c3c' : '#fff'} />
-          </Pressable>
-        </View>
-      </ScrollView>
-    </ImageBackground>
+          <View style={styles.actionsContainer}>
+            <Pressable
+              style={[styles.button, styles.completeButton, isCompleted && styles.unCompleteButton]}
+              onPress={handleToggleComplete}
+            >
+              <ThemedText style={styles.buttonText}>
+                {isCompleted ? 'علامت به عنوان تکمیل نشده' : 'تکمیل'}
+              </ThemedText>
+            </Pressable>
+            <Pressable style={styles.button} onPress={handleToggleFavorite}>
+              <IconSymbol name="heart.fill" size={24} color={isFav ? '#e74c3c' : '#fff'} />
+            </Pressable>
+          </View>
+        </ScrollView>
+      </View>
+    </BendedRoad>
   );
 }
 
@@ -152,6 +225,10 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     gap: 8,
     marginBottom: 24,
+    backgroundColor: 'transparent',
+  },
+  headerText: {
+    color: '#fff',
   },
   coupletsContainer: {
     marginBottom: 24,
@@ -162,11 +239,13 @@ const styles = StyleSheet.create({
     borderRadius: 8,
     borderRightWidth: 4,
     borderRightColor: '#A1CEDC',
+    backgroundColor: 'rgba(0,0,0,0.1)',
   },
   verseText: {
     fontSize: 18,
     lineHeight: 30,
     textAlign: 'right',
+    color: '#fff',
   },
   actionsContainer: {
     flexDirection: 'row',
