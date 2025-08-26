@@ -26,39 +26,64 @@ export default function CircularProgress({
     height: size,
   };
 
-  const firstHalfStyle = {
-    ...styles.half,
-    transform: [
-      { translateX: halfSize },
-      { rotate: `${progressDegrees > 180 ? 180 : progressDegrees}deg` },
-      { translateX: -halfSize },
-    ],
-  };
-
-  const secondHalfStyle = {
-    ...styles.half,
-    transform: [
-      { translateX: halfSize },
-      { rotate: `${progressDegrees > 180 ? progressDegrees : 180}deg` },
-      { translateX: -halfSize },
-    ],
-  };
-
   const innerCircleStyle = {
     width: size - strokeWidth * 2,
     height: size - strokeWidth * 2,
     borderRadius: (size - strokeWidth * 2) / 2,
-    backgroundColor: bgColor,
+    backgroundColor: 'transparent',
+    position: 'absolute',
+    justifyContent: 'center',
+    alignItems: 'center',
   };
+
+  const halfCircleContainer = {
+    width: halfSize,
+    height: size,
+    overflow: 'hidden',
+    position: 'absolute',
+    left: 0,
+    top: 0,
+  };
+
+  const halfCircle = {
+    width: size,
+    height: size,
+    borderRadius: halfSize,
+    borderWidth: strokeWidth,
+    position: 'absolute',
+    left: -halfSize,
+    top: 0,
+  };
+
+  const firstHalfRotate = progressDegrees > 180 ? 180 : progressDegrees;
+  const secondHalfRotate = progressDegrees > 180 ? progressDegrees - 180 : 0;
 
   return (
     <View style={[styles.container, containerStyle]}>
-      <View style={[styles.background, { backgroundColor: bgColor, borderRadius: halfSize }]} />
-      <View style={[styles.progressLayer, secondHalfStyle, { backgroundColor: progressColor }]} />
-      <View style={[styles.progressLayer, firstHalfStyle, { backgroundColor: progress > 0.5 ? progressColor : bgColor }]} />
-      <View style={[styles.innerCircle, innerCircleStyle]}>
-        {children}
+      <View style={[halfCircleContainer, { transform: [{ rotate: '180deg' }] }]}>
+        <View
+          style={[
+            halfCircle,
+            {
+              borderColor: progressColor,
+              transform: [{ rotate: `${secondHalfRotate}deg` }],
+            },
+          ]}
+        />
       </View>
+      <View style={halfCircleContainer}>
+        <View
+          style={[
+            halfCircle,
+            {
+              borderColor: progressColor,
+              transform: [{ rotate: `${firstHalfRotate}deg` }],
+            },
+          ]}
+        />
+      </View>
+      <View style={[styles.background, { backgroundColor: bgColor, width: size, height: size, borderRadius: halfSize }]} />
+      <View style={innerCircleStyle}>{children}</View>
     </View>
   );
 }
@@ -70,21 +95,6 @@ const styles = StyleSheet.create({
   },
   background: {
     ...StyleSheet.absoluteFillObject,
-  },
-  progressLayer: {
-    ...StyleSheet.absoluteFillObject,
-    borderTopRightRadius: 0,
-    borderBottomRightRadius: 0,
-  },
-  innerCircle: {
-    justifyContent: 'center',
-    alignItems: 'center',
-  },
-  half: {
-    position: 'absolute',
-    left: 0,
-    top: 0,
-    width: '50%',
-    height: '100%',
+    zIndex: -1,
   },
 });
