@@ -7,7 +7,7 @@ import { useColorScheme } from '@/hooks/useColorScheme';
 import { Colors } from '@/constants/Colors';
 import { CompletedPoems } from '@/services/progressService';
 import { ThemedText } from './ThemedText';
-import CircularProgress from './CircularProgress';
+import HorizontalProgressBar from './HorizontalProgressBar';
 
 interface RoadmapProps {
   categories: Category[];
@@ -52,24 +52,23 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
             transition={{ delay: index * 100 }}
             style={[styles.nodeContainer, positionStyle]}
           >
-            <CircularProgress
-              size={110}
-              strokeWidth={8}
-              progress={progressValue}
-              bgColor={colors.background}
-              progressColor={colors.path}
-            >
-              <Pressable onPress={() => handleCategoryPress(category.id)}>
-                <View style={[styles.node, { backgroundColor: nodeColor }]}>
-                  <Text style={styles.nodeText}>{category.text}</Text>
-                </View>
-              </Pressable>
-            </CircularProgress>
-            {progress.total > 0 && (
-              <Text style={styles.progressText}>
-                {progress.completed} / {progress.total}
-              </Text>
-            )}
+            <Pressable onPress={() => handleCategoryPress(category.id)}>
+              <View style={[styles.node, { backgroundColor: nodeColor }]}>
+                <Text style={styles.nodeText}>{category.text}</Text>
+              </View>
+            </Pressable>
+            <View style={styles.progressContainer}>
+              <HorizontalProgressBar
+                progress={progressValue}
+                bgColor={colors.background}
+                progressColor={colors.path}
+              />
+              {progress.total > 0 && (
+                <Text style={styles.progressText}>
+                  {progress.completed} / {progress.total}
+                </Text>
+              )}
+            </View>
             {index < categories.length - 1 && (
               <View style={[styles.path, { backgroundColor: pathColor }, isOdd ? styles.pathOdd : styles.pathEven]} />
             )}
@@ -117,10 +116,15 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
   },
+  progressContainer: {
+    width: 100,
+    marginTop: 8,
+    alignItems: 'center',
+  },
   progressText: {
     color: '#fff',
-    fontSize: 14,
-    marginTop: 8,
+    fontSize: 12,
+    marginTop: 4,
   },
   path: {
     position: 'absolute',
