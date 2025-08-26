@@ -2,14 +2,22 @@ import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native
 import { useFonts } from 'expo-font';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
+import { I18nManager } from 'react-native';
 import 'react-native-reanimated';
 
 import { useColorScheme } from '@/hooks/useColorScheme';
 
+try {
+  I18nManager.allowRTL(true);
+  I18nManager.forceRTL(true);
+} catch (e) {
+  console.log(e);
+}
+
 export default function RootLayout() {
   const colorScheme = useColorScheme();
   const [loaded] = useFonts({
-    SpaceMono: require('../assets/fonts/SpaceMono-Regular.ttf'),
+    Vazirmatn: require('../assets/fonts/Vazirmatn-Regular.woff2'),
   });
 
   if (!loaded) {
