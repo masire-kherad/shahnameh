@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, ScrollView, Text, View, ImageBackground, Pressable } from 'react-native';
+import { StyleSheet, ScrollView, Text, View, Image, Pressable } from 'react-native';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { getPoems, getCategories } from '@/services/dataService';
-import { getCompletedPoems, CompletedPoems } from '@/services/progressService';
+import { getCompletedPoems } from '@/services/progressService';
 import { Poem, Category } from '@/types/shahname';
 import { router } from 'expo-router';
 
@@ -29,12 +29,13 @@ export default function ProfileScreen() {
   };
 
   return (
-    <ImageBackground
-      source={require('@/assets/images/rostam.jpg')}
-      style={styles.container}
-    >
-      <View style={styles.overlay} />
+    <View style={styles.container}>
       <ScrollView>
+        <View style={styles.profileHeader}>
+          <Image source={require('@/assets/images/Person/Ferdousi.png')} style={styles.profileImage} />
+          <ThemedText type="title">پروفایل</ThemedText>
+        </View>
+
         <ThemedView style={styles.titleContainer}>
           <ThemedText type="title">اشعار تکمیل شده</ThemedText>
         </ThemedView>
@@ -52,7 +53,7 @@ export default function ProfileScreen() {
           </Pressable>
         ))}
       </ScrollView>
-    </ImageBackground>
+    </View>
   );
 }
 
@@ -60,14 +61,22 @@ const styles = StyleSheet.create({
   container: {
     flex: 1,
     padding: 16,
+    backgroundColor: '#000',
   },
-  overlay: {
-    ...StyleSheet.absoluteFillObject,
-    backgroundColor: 'rgba(0,0,0,0.5)',
+  profileHeader: {
+    alignItems: 'center',
+    marginBottom: 24,
+  },
+  profileImage: {
+    width: 150,
+    height: 150,
+    borderRadius: 75,
+    marginBottom: 16,
   },
   titleContainer: {
     alignItems: 'center',
     marginBottom: 24,
+    backgroundColor: 'transparent',
   },
   poemItem: {
     padding: 16,

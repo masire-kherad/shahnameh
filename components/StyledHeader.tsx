@@ -5,7 +5,7 @@ import { ThemedText } from './ThemedText';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Colors } from '@/constants/Colors';
 import { IconSymbol } from './ui/IconSymbol';
-import { router } from 'expo-router';
+import { router, usePathname } from 'expo-router';
 
 interface StyledHeaderProps {
   title: string;
@@ -13,6 +13,8 @@ interface StyledHeaderProps {
 
 export default function StyledHeader({ title }: StyledHeaderProps) {
   const insets = useSafeAreaInsets();
+  const pathname = usePathname();
+
   const handleProfilePress = () => {
     router.push('/profile');
   };
@@ -20,9 +22,11 @@ export default function StyledHeader({ title }: StyledHeaderProps) {
   return (
     <BlurView intensity={80} tint="dark" style={[styles.header, { paddingTop: insets.top + 12 }]}>
       <ThemedText type="title" style={{ color: Colors.dark.text }}>{title}</ThemedText>
-      <Pressable onPress={handleProfilePress}>
-        <IconSymbol name="person.fill" size={28} color={Colors.dark.text} />
-      </Pressable>
+      {pathname !== '/profile' && (
+        <Pressable onPress={handleProfilePress}>
+          <IconSymbol name="person.fill" size={28} color={Colors.dark.text} />
+        </Pressable>
+      )}
     </BlurView>
   );
 }
