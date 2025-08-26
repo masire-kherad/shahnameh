@@ -1,40 +1,11 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
 
 const COMPLETED_POEMS_KEY = 'completed_poems';
-const SCORE_KEY = 'score';
 
 // == Types ==
 export type CompletedPoems = Record<number, boolean>;
 
 // == Functions ==
-
-/**
- * Retrieves the user's score from AsyncStorage.
- * @returns {Promise<number>} The user's score, or 0 if not set.
- */
-export const getScore = async (): Promise<number> => {
-  try {
-    const score = await AsyncStorage.getItem(SCORE_KEY);
-    return score ? parseInt(score, 10) : 0;
-  } catch (e) {
-    console.error('Failed to get score.', e);
-    return 0;
-  }
-};
-
-/**
- * Adds a specified number of points to the user's score.
- * @param {number} pointsToAdd - The number of points to add.
- */
-export const addScore = async (pointsToAdd: number) => {
-  try {
-    const currentScore = await getScore();
-    const newScore = currentScore + pointsToAdd;
-    await AsyncStorage.setItem(SCORE_KEY, newScore.toString());
-  } catch (e) {
-    console.error('Failed to add score.', e);
-  }
-};
 
 /**
  * Retrieves the set of completed poem IDs from AsyncStorage.
@@ -61,5 +32,58 @@ export const markPoemAsComplete = async (poemId: number) => {
     await AsyncStorage.setItem(COMPLETED_POEMS_KEY, JSON.stringify(completedPoems));
   } catch (e) {
     console.error('Failed to mark poem as complete.', e);
+  }
+};
+
+/**
+ * Marks a poem as not complete and saves it to AsyncStorage.
+ * @param {number} poemId - The ID of the poem to mark as not complete.
+ */
+export const unmarkPoemAsComplete = async (poemId: number) => {
+  try {
+    const completedPoems = await getCompletedPoems();
+    delete completedPoems[poemId];
+    await AsyncStorage.setItem(COMPLETED_POEMS_KEY, JSON.stringify(completedPoems));
+  } catch (e) {
+    console.error('Failed to unmark poem as complete.', e);
+  }
+};
+
+const FAVORITE_POEMS_KEY = 'favorite_poems';
+
+export type FavoritePoems = Record<number, boolean>;
+
+export const getFavorites = async (): Promise<FavoritePoems> => {
+  try {
+    const favorites = await AsyncStorage.getItem(FAVORITE_POEMS_KEY);
+    return favorites ? JSON.parse(favorites) : {};
+  } catch (e) {
+    console.error('Failed to get favorites.', e);
+    return {};
+  }
+};
+
+export const isFavorite = async (poemId: number): Promise<boolean> => {
+  const favorites = await getFavorites();
+  return !!favorites[poemId];
+};
+
+export const addFavorite = async (poemId: number) => {
+  try {
+    const favorites = await getFavorites();
+    favorites[poemId] = true;
+    await AsyncStorage.setItem(FAVORITE_POEMS_KEY, JSON.stringify(favorites));
+  } catch (e) {
+    console.error('Failed to add favorite.', e);
+  }
+};
+
+export const removeFavorite = async (poemId: number) => {
+  try {
+    const favorites = await getFavorites();
+    delete favorites[poemId];
+    await AsyncStorage.setItem(FAVORITE_POEMS_KEY, JSON.stringify(favorites));
+  } catch (e) {
+    console.error('Failed to remove favorite.', e);
   }
 };
