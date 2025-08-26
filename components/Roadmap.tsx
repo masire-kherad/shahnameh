@@ -22,10 +22,13 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
     router.push(`/category/${catId}`);
   };
 
-  const isCategoryCompleted = (catId: number) => {
+  const getCategoryProgress = (catId: number) => {
     const categoryPoems = poems.filter(p => p.cat_id === catId);
-    if (categoryPoems.length === 0) return false;
-    return categoryPoems.every(p => completedPoems[p.id]);
+    const completedCategoryPoems = categoryPoems.filter(p => completedPoems[p.id]);
+    return {
+      total: categoryPoems.length,
+      completed: completedCategoryPoems.length,
+    };
   };
 
   return (
@@ -34,9 +37,10 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
       {categories.map((category, index) => {
         const isOdd = index % 2 !== 0;
         const positionStyle = isOdd ? styles.odd : styles.even;
-        const completed = isCategoryCompleted(category.id);
-        const nodeColor = completed ? colors.completed : colors.node;
-        const pathColor = completed ? colors.completed : colors.path;
+        const progress = getCategoryProgress(category.id);
+        const isCompleted = progress.total > 0 && progress.completed === progress.total;
+        const nodeColor = isCompleted ? colors.completed : colors.node;
+        const pathColor = isCompleted ? colors.completed : colors.path;
 
         return (
           <MotiView
@@ -49,6 +53,11 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
             <Pressable onPress={() => handleCategoryPress(category.id)}>
               <View style={[styles.node, { backgroundColor: nodeColor }]}>
                 <Text style={styles.nodeText}>{category.text}</Text>
+                {progress.total > 0 && (
+                  <Text style={styles.progressText}>
+                    {progress.completed} / {progress.total}
+                  </Text>
+                )}
               </View>
             </Pressable>
             {index < categories.length - 1 && (
@@ -97,6 +106,11 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     textAlign: 'center',
+  },
+  progressText: {
+    color: '#fff',
+    fontSize: 14,
+    marginTop: 4,
   },
   path: {
     position: 'absolute',
