@@ -9,6 +9,7 @@ import { Colors } from '@/constants/Colors';
 import { CompletedPoems } from '@/services/progressService';
 import { ThemedText } from './ThemedText';
 import HorizontalProgressBar from './HorizontalProgressBar';
+import { toFarsiNumber } from '../services/localization';
 
 interface RoadmapProps {
   categories: Category[];
@@ -171,7 +172,7 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
                 />
                 {progress.total > 0 && (
                   <Text style={styles.progressText}>
-                    {progress.completed} / {progress.total}
+                  {toFarsiNumber(progress.completed)} / {toFarsiNumber(progress.total)}
                   </Text>
                 )}
               </View>
