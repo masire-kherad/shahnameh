@@ -1,6 +1,6 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, ScrollView, View, Pressable, ImageBackground, ImageSourcePropType } from 'react-native';
-import { useLocalSearchParams, useRouter, Stack } from 'expo-router';
+import { StyleSheet, ScrollView, View, Pressable, ImageSourcePropType } from 'react-native';
+import { useLocalSearchParams, Stack } from 'expo-router';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { getPoem, getCategories } from '@/services/dataService';
@@ -90,7 +90,6 @@ const getCategoryImage = (category: Category) => {
 
 export default function ReadingScreen() {
   const { poem_id } = useLocalSearchParams();
-  const router = useRouter();
   const [poem, setPoem] = useState<Poem | null>(null);
   const [couplets, setCouplets] = useState<Couplet[]>([]);
   const [isCompleted, setIsCompleted] = useState(false);
@@ -233,13 +232,14 @@ const styles = StyleSheet.create({
   },
   coupletsContainer: {
     marginBottom: 24,
+    direction: 'ltr',
   },
   couplet: {
     marginBottom: 16,
     padding: 12,
     borderRadius: 8,
-    borderRightWidth: 4,
-    borderRightColor: '#A1CEDC',
+    borderEndWidth: 4,
+    borderEndColor: '#A1CEDC',
     backgroundColor: 'rgba(0,0,0,0.1)',
   },
   verseText: {
@@ -262,7 +262,7 @@ const styles = StyleSheet.create({
   completeButton: {
     backgroundColor: '#6EBF8B',
     flex: 1,
-    marginRight: 8,
+    marginEnd: 8,
   },
   unCompleteButton: {
     backgroundColor: '#e74c3c',
