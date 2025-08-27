@@ -12,6 +12,7 @@ export const getShahnamehData = () => {
 };
 
 import { loadPoemVerses } from './poemLoader';
+import { loadPoemSummaries } from './summaryLoader';
 
 export const getPoem = (poemId: number) => {
   const poem = poems.find(p => p.id === poemId);
@@ -22,6 +23,17 @@ export const getPoem = (poemId: number) => {
   const verses = loadPoemVerses(poemId);
 
   return { ...poem, verses };
+};
+
+export const getPoemWithSummary = (poemId: number) => {
+  const poemData = getPoem(poemId);
+  if (!poemData) {
+    return null;
+  }
+
+  const summaries = loadPoemSummaries(poemId);
+
+  return { ...poemData, summaries };
 };
 
 export const getPoems = () => {

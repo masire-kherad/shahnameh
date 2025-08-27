@@ -3,7 +3,7 @@ import { StyleSheet, ScrollView, View, Pressable, ImageSourcePropType } from 're
 import { useLocalSearchParams, Stack } from 'expo-router';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-import { getPoem, getCategories } from '@/services/dataService';
+import { getPoemWithSummary, getCategories } from '@/services/dataService';
 import {
   markPoemAsComplete,
   getCompletedPoems,
@@ -19,6 +19,8 @@ import BendedRoad from '@/components/BendedRoad';
 type Couplet = {
   line1: string;
   line2: string;
+  summary1: string;
+  summary2: string;
 };
 
 
@@ -111,17 +113,20 @@ export default function ReadingScreen() {
       const favoriteStatus = await isFavorite(poemIdNum);
       setIsFav(favoriteStatus);
 
-      const currentPoem = getPoem(poemIdNum);
+      const currentPoem = getPoemWithSummary(poemIdNum);
 
       if (currentPoem) {
         setPoem(currentPoem);
         const poemVerses = currentPoem.verses.sort((a, b) => a.vorder - b.vorder);
+        const summaries = currentPoem.summaries;
 
         const groupedCouplets: Couplet[] = [];
         for (let i = 0; i < poemVerses.length; i += 2) {
           groupedCouplets.push({
             line1: poemVerses[i]?.text || '',
             line2: poemVerses[i + 1]?.text || '',
+            summary1: summaries[i] || '',
+            summary2: summaries[i + 1] || '',
           });
         }
         setCouplets(groupedCouplets);
@@ -187,6 +192,10 @@ export default function ReadingScreen() {
               <ThemedView key={index} style={styles.couplet}>
                 <ThemedText style={styles.verseText}>{couplet.line1}</ThemedText>
                 <ThemedText style={styles.verseText}>{couplet.line2}</ThemedText>
+                <ThemedView style={styles.summaryContainer}>
+                  <ThemedText style={styles.summaryText}>{couplet.summary1}</ThemedText>
+                  <ThemedText style={styles.summaryText}>{couplet.summary2}</ThemedText>
+                </ThemedView>
               </ThemedView>
             ))}
           </View>
@@ -247,6 +256,19 @@ const styles = StyleSheet.create({
     lineHeight: 30,
     textAlign: 'right',
     color: '#fff',
+  },
+  summaryContainer: {
+    marginTop: 12,
+    paddingTop: 12,
+    borderTopWidth: 1,
+    borderTopColor: 'rgba(255,255,255,0.2)',
+    backgroundColor: 'transparent',
+  },
+  summaryText: {
+    fontSize: 16,
+    lineHeight: 24,
+    textAlign: 'right',
+    color: '#ddd',
   },
   actionsContainer: {
     flexDirection: 'row',
