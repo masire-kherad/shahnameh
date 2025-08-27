@@ -159,7 +159,7 @@ const styles = StyleSheet.create({
   },
   coupletsContainer: {
     marginBottom: 24,
-    direction: 'ltr',
+    writingDirection: 'ltr',
   },
   couplet: {
     marginBottom: 16,

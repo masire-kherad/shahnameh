@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, View, ImageBackground } from 'react-native';
+import { StyleSheet, View, ImageBackground, useWindowDimensions, Platform } from 'react-native';
 import { getCategories, getPoems } from '@/services/dataService';
 import { Category, Poem } from '@/types/shahname';
 import { useProgress } from '@/hooks/useProgress';
@@ -9,6 +9,8 @@ export default function HomeScreen() {
   const [categories, setCategories] = useState<Category[]>([]);
   const [poems, setPoems] = useState<Poem[]>([]);
   const { completedPoems } = useProgress();
+  const { width } = useWindowDimensions();
+  const containerWidth = Platform.OS === 'web' ? Math.min(width, 420) : width;
 
   useEffect(() => {
     const loadData = () => {
@@ -26,7 +28,7 @@ export default function HomeScreen() {
       style={styles.container}
     >
       <View style={styles.overlay} />
-      <Roadmap categories={categories} poems={poems} completedPoems={completedPoems} />
+      <Roadmap categories={categories} poems={poems} completedPoems={completedPoems} width={containerWidth} />
     </ImageBackground>
   );
 }
@@ -34,6 +36,8 @@ export default function HomeScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    width: '100%',
+    height: '100%',
   },
   overlay: {
     ...StyleSheet.absoluteFillObject,
