@@ -3,17 +3,20 @@ import { StyleSheet, ScrollView, View, Pressable, ImageSourcePropType } from 're
 import { useLocalSearchParams, Stack } from 'expo-router';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-import { getPoem, getCategories } from '@/services/dataService';
-import { useProgress } from '@/hooks/useProgress';
-import { Poem } from '@/types/shahname';
+import { getPoemWithSummary, getCategories } from '@/services/dataService';
+import { Poem, } from '@/types/shahname';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 import BendedRoad from '@/components/BendedRoad';
 import { defaultImage, getCategoryImage } from '@/services/personLoader';
+import { useProgress } from '@/hooks/useProgress';
 
 type Couplet = {
   line1: string;
   line2: string;
+  summary: string;
 };
+
+
 export default function ReadingScreen() {
   const { poem_id } = useLocalSearchParams();
   const [poem, setPoem] = useState<Poem | null>(null);
@@ -32,18 +35,22 @@ export default function ReadingScreen() {
         return;
       }
 
-      const currentPoem = getPoem(poemIdNum);
+      const currentPoem = getPoemWithSummary(poemIdNum);
 
       if (currentPoem) {
         setPoem(currentPoem);
         const poemVerses = currentPoem.verses.sort((a, b) => a.vorder - b.vorder);
+        const summaries = currentPoem.summaries;
 
         const groupedCouplets: Couplet[] = [];
+        let j = 0
         for (let i = 0; i < poemVerses.length; i += 2) {
           groupedCouplets.push({
             line1: poemVerses[i]?.text || '',
             line2: poemVerses[i + 1]?.text || '',
+            summary: summaries[j] || '',
           });
+          j++;
         }
         setCouplets(groupedCouplets);
 
@@ -104,6 +111,9 @@ export default function ReadingScreen() {
               <ThemedView key={index} style={styles.couplet}>
                 <ThemedText style={styles.verseText}>{couplet.line1}</ThemedText>
                 <ThemedText style={styles.verseText}>{couplet.line2}</ThemedText>
+                <ThemedView style={styles.summaryContainer}>
+                  <ThemedText style={styles.summaryText}>{couplet.summary}</ThemedText>
+                </ThemedView>
               </ThemedView>
             ))}
           </View>
@@ -164,6 +174,19 @@ const styles = StyleSheet.create({
     lineHeight: 30,
     textAlign: 'right',
     color: '#fff',
+  },
+  summaryContainer: {
+    marginTop: 12,
+    paddingTop: 12,
+    borderTopWidth: 1,
+    borderTopColor: 'rgba(255,255,255,0.2)',
+    backgroundColor: 'transparent',
+  },
+  summaryText: {
+    fontSize: 16,
+    lineHeight: 24,
+    textAlign: 'right',
+    color: '#ddd',
   },
   actionsContainer: {
     flexDirection: 'row',

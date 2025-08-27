@@ -33,7 +33,7 @@ export default function FavoritesScreen() {
       <View style={styles.overlay} />
       <ScrollView>
         <ThemedView style={styles.titleContainer}>
-          <ThemedText type="title">علاقه‌مندی‌ها</ThemedText>
+          <ThemedText type="title" style={{ padding: 15 }}>علاقه‌مندی‌ها</ThemedText>
         </ThemedView>
 
         {poems.map((poem) => (
@@ -61,6 +61,8 @@ const styles = StyleSheet.create({
   titleContainer: {
     alignItems: 'center',
     marginBottom: 24,
+    borderRadius: 15,
+    backgroundColor: 'rgba(255, 255, 255, 0.1)',
   },
   poemItem: {
     padding: 16,
