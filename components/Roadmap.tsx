@@ -16,12 +16,13 @@ interface RoadmapProps {
   categories: Category[];
   poems: Poem[];
   completedPoems: CompletedPoems;
+  width: number;
 }
 
-export default function Roadmap({ categories, poems, completedPoems }: RoadmapProps) {
+export default function Roadmap({ categories, poems, completedPoems, width: containerWidth }: RoadmapProps) {
   const colorScheme = useColorScheme();
   const colors = Colors[colorScheme ?? 'light'].persian;
-  const { width: windowWidth, height: windowHeight } = useWindowDimensions();
+  const { height: windowHeight } = useWindowDimensions();
   const [modalVisible, setModalVisible] = useState(false);
   const [selectedImage, setSelectedImage] = useState<ImageSourcePropType | null>(null);
   const [scrollY, setScrollY] = useState(0);
@@ -33,7 +34,7 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
     const nodeMarginBottom = 60;
     const verticalSpacing = nodeHeight + nodeMarginBottom + 20;
     const containerPadding = 40;
-    const contentWidth = windowWidth - 2 * containerPadding;
+    const contentWidth = containerWidth - 2 * containerPadding;
 
     for (let i = 0; i < categories.length; i++) {
       const isOdd = i % 2 !== 0;
@@ -42,23 +43,23 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
       positions.push({ offset, y });
     }
     return positions;
-  }, [categories, windowWidth]);
+  }, [categories, containerWidth]);
 
   const pathD = useMemo(() => {
     if (nodePositions.length < 2) return '';
-    let d = `M ${(I18nManager.isRTL || Platform.OS === 'android') ? windowWidth - nodePositions[0].offset : nodePositions[0].offset} ${nodePositions[0].y}`;
+    let d = `M ${(I18nManager.isRTL || Platform.OS === 'android') ? containerWidth - nodePositions[0].offset : nodePositions[0].offset} ${nodePositions[0].y}`;
     for (let i = 0; i < nodePositions.length - 1; i++) {
       const p1 = nodePositions[i];
       const p2 = nodePositions[i + 1];
-      const p1x = (I18nManager.isRTL || Platform.OS === 'android') ? windowWidth - p1.offset : p1.offset;
-      const p2x = (I18nManager.isRTL || Platform.OS === 'android') ? windowWidth - p2.offset : p2.offset;
+      const p1x = (I18nManager.isRTL || Platform.OS === 'android') ? containerWidth - p1.offset : p1.offset;
+      const p2x = (I18nManager.isRTL || Platform.OS === 'android') ? containerWidth - p2.offset : p2.offset;
       const midX = (p1x + p2x) / 2;
       const midY = (p1.y + p2.y) / 2;
       d += ` Q ${p1x} ${midY}, ${midX} ${midY}`;
       d += ` Q ${p2x} ${midY}, ${p2x} ${p2.y}`;
     }
     return d;
-  }, [nodePositions, windowWidth]);
+  }, [nodePositions, containerWidth]);
 
   const contentHeight = nodePositions.length > 0 ? nodePositions[nodePositions.length - 1].y + 200 : 0;
 
