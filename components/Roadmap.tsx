@@ -82,7 +82,6 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
   const { width: windowWidth } = useWindowDimensions();
   const [modalVisible, setModalVisible] = useState(false);
   const [selectedImage, setSelectedImage] = useState<ImageSourcePropType | null>(null);
-  const isRTL = I18nManager.isRTL;
 
   const nodePositions = useMemo(() => {
     const positions = [];
@@ -94,29 +93,28 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
 
     for (let i = 0; i < categories.length; i++) {
       const isOdd = i % 2 !== 0;
-      let x = containerPadding + (isOdd ? contentWidth - 50 : 50);
-      if (isRTL) {
-        x = windowWidth - x;
-      }
+      const offset = containerPadding + (isOdd ? contentWidth - 50 : 50);
       const y = i * verticalSpacing + 100;
-      positions.push({ x, y });
+      positions.push({ offset, y });
     }
     return positions;
-  }, [categories, windowWidth, isRTL]);
+  }, [categories, windowWidth]);
 
   const pathD = useMemo(() => {
     if (nodePositions.length < 2) return '';
-    let d = `M ${nodePositions[0].x} ${nodePositions[0].y}`;
+    let d = `M ${I18nManager.isRTL ? windowWidth - nodePositions[0].offset : nodePositions[0].offset} ${nodePositions[0].y}`;
     for (let i = 0; i < nodePositions.length - 1; i++) {
       const p1 = nodePositions[i];
       const p2 = nodePositions[i + 1];
-      const midX = (p1.x + p2.x) / 2;
+      const p1x = I18nManager.isRTL ? windowWidth - p1.offset : p1.offset;
+      const p2x = I18nManager.isRTL ? windowWidth - p2.offset : p2.offset;
+      const midX = (p1x + p2x) / 2;
       const midY = (p1.y + p2.y) / 2;
-      d += ` Q ${p1.x} ${midY}, ${midX} ${midY}`;
-      d += ` Q ${p2.x} ${midY}, ${p2.x} ${p2.y}`;
+      d += ` Q ${p1x} ${midY}, ${midX} ${midY}`;
+      d += ` Q ${p2x} ${midY}, ${p2x} ${p2.y}`;
     }
     return d;
-  }, [nodePositions]);
+  }, [nodePositions, windowWidth]);
 
   const contentHeight = nodePositions.length > 0 ? nodePositions[nodePositions.length - 1].y + 200 : 0;
 
@@ -172,7 +170,7 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
         </Svg>
         <ThemedText type="title" style={[styles.title, { color: Colors.dark.text }]}>مسیر خرد</ThemedText>
         {categories.map((category, index) => {
-          const { x, y } = nodePositions[index];
+          const { offset, y } = nodePositions[index];
           const progress = getCategoryProgress(category.id);
           const progressValue = progress.total > 0 ? progress.completed / progress.total : 0;
           const imageSource = getCategoryImage(category);
@@ -183,7 +181,7 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
               from={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: index * 100 }}
-              style={[styles.nodeContainer, { position: 'absolute', top: y - 50, [isRTL ? 'right' : 'left']: x - 50 }]}
+              style={[styles.nodeContainer, { position: 'absolute', top: y - 50, start: offset - 50 }]}
             >
               <Pressable
                 onPress={() => handleCategoryPress(category.id)}

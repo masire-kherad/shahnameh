@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, ScrollView, View, Pressable, ImageBackground, ImageSourcePropType, I18nManager } from 'react-native';
+import { StyleSheet, ScrollView, View, Pressable, ImageBackground, ImageSourcePropType } from 'react-native';
 import { useLocalSearchParams, useRouter, Stack } from 'expo-router';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
@@ -96,7 +96,6 @@ export default function ReadingScreen() {
   const [isCompleted, setIsCompleted] = useState(false);
   const [isFav, setIsFav] = useState(false);
   const [categoryImage, setCategoryImage] = useState<ImageSourcePropType>(defaultImage);
-  const isRTL = I18nManager.isRTL;
 
   useEffect(() => {
     const loadData = async () => {
@@ -186,7 +185,7 @@ export default function ReadingScreen() {
           )}
           <View style={styles.coupletsContainer}>
             {couplets.map((couplet, index) => (
-              <ThemedView key={index} style={[styles.couplet, isRTL ? { borderRightWidth: 0, borderLeftWidth: 4 } : {}]}>
+              <ThemedView key={index} style={styles.couplet}>
                 <ThemedText style={styles.verseText}>{couplet.line1}</ThemedText>
                 <ThemedText style={styles.verseText}>{couplet.line2}</ThemedText>
               </ThemedView>
@@ -195,7 +194,7 @@ export default function ReadingScreen() {
 
           <View style={styles.actionsContainer}>
             <Pressable
-              style={[styles.button, styles.completeButton, isCompleted && styles.unCompleteButton, isRTL ? { marginRight: 0, marginLeft: 8 } : {}]}
+              style={[styles.button, styles.completeButton, isCompleted && styles.unCompleteButton]}
               onPress={handleToggleComplete}
             >
               <ThemedText style={styles.buttonText}>
@@ -239,8 +238,8 @@ const styles = StyleSheet.create({
     marginBottom: 16,
     padding: 12,
     borderRadius: 8,
-    borderRightWidth: 4,
-    borderRightColor: '#A1CEDC',
+    borderEndWidth: 4,
+    borderEndColor: '#A1CEDC',
     backgroundColor: 'rgba(0,0,0,0.1)',
   },
   verseText: {
@@ -263,7 +262,7 @@ const styles = StyleSheet.create({
   completeButton: {
     backgroundColor: '#6EBF8B',
     flex: 1,
-    marginRight: 8,
+    marginEnd: 8,
   },
   unCompleteButton: {
     backgroundColor: '#e74c3c',
