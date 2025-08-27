@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, View, Pressable, Image, ImageBackground, useColorScheme, Platform } from 'react-native';
+import { StyleSheet, View, Pressable, Image, ImageBackground, useColorScheme, I18nManager, Platform } from 'react-native';
 import { BlurView } from 'expo-blur';
 import { ThemedText } from './ThemedText';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -44,24 +44,20 @@ export default function StyledHeader({ title }: StyledHeaderProps) {
   return (
     <ImageBackground
       source={require('@/assets/images/corner.jpg')}
-      style={[styles.header, { paddingTop: Platform.OS === 'web' ? 24 : insets.top + 12 }]}
+      style={[styles.header, { paddingTop: insets.top + 12 }]}
       imageStyle={styles.backgroundImage}
     >
       <BlurView intensity={80} tint={colorScheme} style={styles.blurView}>
-        <View style={styles.titleContainer}>
-            <ThemedText type="title" style={{ color: Colors[colorScheme ?? 'light'].text }}>{title}</ThemedText>
-        </View>
-        <View style={styles.actionsContainer}>
-            {pathname !== '/profile' && pathname !== '/favorites' && (
-              <Pressable onPress={handleProfilePress}>
-                {userInfo && getGenderImage() ? (
-                  <Image source={getGenderImage()} style={styles.genderImage} />
-                ) : (
-                  <IconSymbol name="person.fill" size={28} color={Colors[colorScheme ?? 'light'].text} />
-                )}
-              </Pressable>
+        <ThemedText type="title" style={{ color: Colors[colorScheme].text }}>{title}</ThemedText>
+        {pathname !== '/profile' &&  pathname !== '/favorites' && (
+          <Pressable onPress={handleProfilePress}>
+            {userInfo && getGenderImage() ? (
+              <Image source={getGenderImage()} style={styles.genderImage} />
+            ) : (
+              <IconSymbol name="person.fill" size={28} color={Colors[colorScheme].text} />
             )}
-        </View>
+          </Pressable>
+        )}
       </BlurView>
     </ImageBackground>
   );
@@ -70,29 +66,25 @@ export default function StyledHeader({ title }: StyledHeaderProps) {
 const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
   header: {
     overflow: 'hidden',
-    paddingBottom: 12,
   },
   backgroundImage: {
     resizeMode: 'cover',
     opacity: 0.1,
-    width: '100%',
-    height: '100%',
   },
   blurView: {
+    ...Platform.select({
+      ios: {
+        flexDirection: I18nManager.isRTL ? 'row-reverse' : 'row',
+      },
+      android: {
+        flexDirection: 'row',
+      },
+    }),
     justifyContent: 'space-between',
     alignItems: 'center',
     paddingHorizontal: 16,
-    flexDirection: 'row-reverse',
-    width: '100%',
-    backgroundColor: 'rgba(0, 0, 0, 0.5)',
-    backdropFilter: 'none !important'
-  },
-  titleContainer: {
-    paddingTop: 5,
-    paddingBottom: 10,
-  },
-  actionsContainer: {
-    flexDirection: 'row',
+    paddingBottom: 12,
+    backgroundColor: Colors[colorScheme].background + 'aa',
   },
   genderImage: {
     width: 35,

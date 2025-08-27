@@ -89,17 +89,14 @@ export default function Roadmap({ categories, poems, completedPoems, width: cont
         transparent={true}
         visible={modalVisible}
         onRequestClose={() => {
-          setModalVisible(!modalVisible);
+          setModalVisible(false);
         }}
       >
-        <View style={styles.modalBackdrop}>
-          <Pressable onPress={() => setModalVisible(false)} style={StyleSheet.absoluteFill} />
+        <Pressable style={styles.modalBackdrop} onPress={() => setModalVisible(false)}>
           {selectedImage &&
-            <View style={styles.modalImageContainer}>
-              <Image source={selectedImage} style={Platform.OS === 'ios' ? styles.modalImage : { width: 300, height: 300, left: -200, top: 350, borderRadius: 20 }} />
-            </View>
+              <Image source={selectedImage} style={styles.modalImage} />
           }
-        </View>
+        </Pressable>
       </Modal>
 
       <ScrollView
@@ -107,7 +104,7 @@ export default function Roadmap({ categories, poems, completedPoems, width: cont
         onScroll={(e) => setScrollY(e.nativeEvent.contentOffset.y)}
         scrollEventThrottle={16}
       >
-        <Svg height={contentHeight} width={windowWidth} style={StyleSheet.absoluteFill}>
+        <Svg height={contentHeight} width={containerWidth} style={StyleSheet.absoluteFill}>
           <Path
             d={pathD}
             stroke={colors.path}
@@ -204,12 +201,6 @@ const styles = StyleSheet.create({
     backgroundColor: 'rgba(0,0,0,0.7)',
     justifyContent: 'center',
     alignItems: 'center',
-  },
-  modalImageContainer: {
-    justifyContent: 'center',
-    alignItems: 'center',
-    width: '100%',
-    height: '100%',
   },
   modalImage: {
     width: 300,

@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, ScrollView, View, ImageBackground, Pressable } from 'react-native';
+import { StyleSheet, ScrollView, View, ImageBackground, Pressable, Platform } from 'react-native';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { getPoems, getCategories } from '@/services/dataService';
@@ -28,7 +28,10 @@ export default function FavoritesScreen() {
   return (
     <ImageBackground
       source={require('@/assets/images/Person/Ferdousi.png')}
-      style={styles.container}
+      style={[styles.container, Platform.OS === 'web' ? {
+        width: '100%',
+        height: '100%',
+      } : {}]}
     >
       <View style={styles.overlay} />
       <ScrollView>

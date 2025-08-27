@@ -73,6 +73,7 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     width: '80%',
     borderRadius: 20,
     overflow: 'hidden',
+    backgroundColor: Colors[colorScheme].background,
   },
   backgroundImage: {
     resizeMode: 'cover',
