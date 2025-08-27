@@ -176,7 +176,9 @@ const styles = StyleSheet.create({
     fontSize: 16,
     fontWeight: 'bold',
     textAlign: 'center',
-    marginTop: 8,
+    padding: 4,
+    borderRadius: 4,
+    backgroundColor: 'rgba(0, 0, 0, 0.8)',
   },
   progressContainer: {
     width: 100,
