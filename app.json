@@ -13,7 +13,7 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/Logo.png",
+        "foregroundImage": "./assets/images/adaptive-icon.png",
         "backgroundColor": "#f0bf7d"
       },
       "edgeToEdgeEnabled": true,
@@ -22,21 +22,20 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/Logo.png",
+      "favicon": "./assets/images/favicon.png",
       "splash": {
-        "image": "./assets/images/Logo.png",
+        "image": "./assets/images/splash-icon.png",
         "resizeMode": "contain",
         "backgroundColor": "#f0bf7d"
       },
       "pwa": {
-        "name": "مسیر خرد",
-        "shortName": "مسیر خرد",
+        "name": "MasireKherad",
+        "shortName": "MasireKherad",
         "themeColor": "#f0bf7d",
         "backgroundColor": "#f0bf7d",
         "display": "standalone",
         "scope": "/",
-        "startUrl": "/",
-        "preferRelatedApplications": true
+        "startUrl": "/"
       }
     },
     "plugins": [
