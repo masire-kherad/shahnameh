@@ -154,9 +154,14 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
           setModalVisible(!modalVisible);
         }}
       >
-        <Pressable style={styles.modalBackdrop} onPress={() => setModalVisible(false)}>
-          {selectedImage && <Image source={selectedImage} style={styles.modalImage} />}
-        </Pressable>
+        <View style={styles.modalBackdrop}>
+          <Pressable onPress={() => setModalVisible(false)} style={StyleSheet.absoluteFill} />
+          {selectedImage &&
+            <View style={styles.modalImageContainer}>
+              <Image source={selectedImage} style={styles.modalImage} />
+            </View>
+          }
+        </View>
       </Modal>
 
       <ScrollView contentContainerStyle={[styles.container, { height: contentHeight }]}>
@@ -251,6 +256,10 @@ const styles = StyleSheet.create({
   modalBackdrop: {
     flex: 1,
     backgroundColor: 'rgba(0,0,0,0.7)',
+    justifyContent: 'center',
+    alignItems: 'center',
+  },
+  modalImageContainer: {
     justifyContent: 'center',
     alignItems: 'center',
   },
