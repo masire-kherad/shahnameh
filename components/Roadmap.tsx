@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { View, Text, ScrollView, StyleSheet, Pressable, Image, useWindowDimensions, Modal, ImageSourcePropType } from 'react-native';
+import { View, Text, ScrollView, StyleSheet, Pressable, Image, useWindowDimensions, Modal, ImageSourcePropType, I18nManager } from 'react-native';
 import Svg, { Path } from 'react-native-svg';
 import { Category, Poem } from '@/types/shahname';
 import { router } from 'expo-router';
@@ -82,6 +82,7 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
   const { width: windowWidth } = useWindowDimensions();
   const [modalVisible, setModalVisible] = useState(false);
   const [selectedImage, setSelectedImage] = useState<ImageSourcePropType | null>(null);
+  const isRTL = I18nManager.isRTL;
 
   const nodePositions = useMemo(() => {
     const positions = [];
@@ -93,12 +94,15 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
 
     for (let i = 0; i < categories.length; i++) {
       const isOdd = i % 2 !== 0;
-      const x = containerPadding + (isOdd ? contentWidth - 50 : 50);
+      let x = containerPadding + (isOdd ? contentWidth - 50 : 50);
+      if (isRTL) {
+        x = windowWidth - x;
+      }
       const y = i * verticalSpacing + 100;
       positions.push({ x, y });
     }
     return positions;
-  }, [categories, windowWidth]);
+  }, [categories, windowWidth, isRTL]);
 
   const pathD = useMemo(() => {
     if (nodePositions.length < 2) return '';
@@ -179,7 +183,7 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
               from={{ opacity: 0, scale: 0.5 }}
               animate={{ opacity: 1, scale: 1 }}
               transition={{ delay: index * 100 }}
-              style={[styles.nodeContainer, { position: 'absolute', top: y - 50, left: x - 50 }]}
+              style={[styles.nodeContainer, { position: 'absolute', top: y - 50, [isRTL ? 'right' : 'left']: x - 50 }]}
             >
               <Pressable
                 onPress={() => handleCategoryPress(category.id)}

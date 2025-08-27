@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, View, Pressable, Image, ImageBackground, useColorScheme } from 'react-native';
+import { StyleSheet, View, Pressable, Image, ImageBackground, useColorScheme, I18nManager } from 'react-native';
 import { BlurView } from 'expo-blur';
 import { ThemedText } from './ThemedText';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -74,7 +74,7 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     opacity: 0.1,
   },
   blurView: {
-    flexDirection: 'row',
+    flexDirection: I18nManager.isRTL ? 'row-reverse' : 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
     paddingHorizontal: 16,
