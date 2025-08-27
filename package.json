@@ -40,7 +40,7 @@
     "react-native-svg": "^15.12.1",
     "react-native-web": "~0.20.0",
     "react-native-webview": "13.13.5",
-    "tslib": "^2.6.2"
+    "tslib": "2.5.0"
   },
   "devDependencies": {
     "@babel/core": "^7.25.2",
