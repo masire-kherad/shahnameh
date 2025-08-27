@@ -115,7 +115,7 @@ const styles = StyleSheet.create({
     marginBottom: 24,
   },
   favoritesButtonText: {
-    color: '#fff',
+    color: '#f0f0f0',
     fontSize: 18,
     fontWeight: 'bold',
   },

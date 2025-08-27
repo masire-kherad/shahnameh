@@ -359,7 +359,7 @@ export const loadPoemSummaries = (poemId: number): string[] => {
       summaryFile = require('../assets/db/summaries/1442.json');
       break;
     case 1443:
-.json');
+      summaryFile = require('../assets/db/summaries/1443.json');
       break;
     case 1444:
       summaryFile = require('../assets/db/summaries/1444.json');
@@ -1618,8 +1618,6 @@ export const loadPoemSummaries = (poemId: number): string[] => {
     case 1863:
       summaryFile = require('../assets/db/summaries/1863.json');
       break;
-.json');
-      break;
     case 1864:
       summaryFile = require('../assets/db/summaries/1864.json');
       break;
@@ -1972,7 +1970,7 @@ export const loadPoemSummaries = (poemId: number): string[] => {
       summaryFile = require('../assets/db/summaries/87984.json');
       break;
     case 87985:
-.json');
+      summaryFile = require('../assets/db/summaries/87985.json');
       break;
     case 87986:
       summaryFile = require('../assets/db/summaries/87986.json');
