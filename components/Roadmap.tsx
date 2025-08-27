@@ -21,9 +21,11 @@ interface RoadmapProps {
 export default function Roadmap({ categories, poems, completedPoems }: RoadmapProps) {
   const colorScheme = useColorScheme();
   const colors = Colors[colorScheme ?? 'light'].persian;
-  const { width: windowWidth } = useWindowDimensions();
+  const { width: windowWidth, height: windowHeight } = useWindowDimensions();
   const [modalVisible, setModalVisible] = useState(false);
   const [selectedImage, setSelectedImage] = useState<ImageSourcePropType | null>(null);
+  const [scrollY, setScrollY] = useState(0);
+
 
   const nodePositions = useMemo(() => {
     const positions = [];
@@ -99,7 +101,11 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
         </View>
       </Modal>
 
-      <ScrollView contentContainerStyle={[styles.container, { height: contentHeight }]}>
+      <ScrollView
+        contentContainerStyle={[styles.container, { height: contentHeight }]}
+        onScroll={(e) => setScrollY(e.nativeEvent.contentOffset.y)}
+        scrollEventThrottle={16}
+      >
         <Svg height={contentHeight} width={windowWidth} style={StyleSheet.absoluteFill}>
           <Path
             d={pathD}
@@ -114,6 +120,8 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
           const progress = getCategoryProgress(category.id);
           const progressValue = progress.total > 0 ? progress.completed / progress.total : 0;
           const imageSource = getCategoryImage(category);
+          const isVisible = y > scrollY - windowHeight / 2 && y < scrollY + windowHeight + windowHeight / 2;
+
 
           return (
             <MotiView
@@ -127,7 +135,7 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
                 onPress={() => handleCategoryPress(category.id)}
                 onLongPress={() => handleLongPress(imageSource)}
               >
-                <Image source={imageSource} style={styles.nodeImage} />
+                {isVisible ? <Image source={imageSource} style={styles.nodeImage} /> : <View style={styles.nodeImage} />}
               </Pressable>
               <Text style={styles.nodeText}>{category.text}</Text>
               <View style={styles.progressContainer}>
