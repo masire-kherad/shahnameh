@@ -28,6 +28,26 @@ export const getPoems = () => {
   return poems;
 };
 
+import AsyncStorage from '@react-native-async-storage/async-storage';
+
 export const getCategories = () => {
   return categories.filter(c => c.parent_id === 33);
+};
+
+export const setUserInfo = async (name: string, gender: 'male' | 'female') => {
+  try {
+    await AsyncStorage.setItem('userInfo', JSON.stringify({ name, gender }));
+  } catch (e) {
+    console.error('Failed to save user info.', e);
+  }
+};
+
+export const getUserInfo = async () => {
+  try {
+    const userInfo = await AsyncStorage.getItem('userInfo');
+    return userInfo ? JSON.parse(userInfo) : null;
+  } catch (e) {
+    console.error('Failed to fetch user info.', e);
+    return null;
+  }
 };

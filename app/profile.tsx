@@ -2,7 +2,7 @@ import React, { useEffect, useState } from 'react';
 import { StyleSheet, ScrollView, Text, View, Image, Pressable } from 'react-native';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-import { getPoems, getCategories } from '@/services/dataService';
+import { getPoems, getCategories, getUserInfo } from '@/services/dataService';
 import { getCompletedPoems } from '@/services/progressService';
 import { Poem, Category } from '@/types/shahname';
 import { router } from 'expo-router';
@@ -10,6 +10,7 @@ import { router } from 'expo-router';
 export default function ProfileScreen() {
   const [poems, setPoems] = useState<Poem[]>([]);
   const [categories, setCategories] = useState<Category[]>([]);
+  const [userInfo, setUserInfo] = useState(null);
 
   useEffect(() => {
     const loadData = async () => {
@@ -17,6 +18,8 @@ export default function ProfileScreen() {
       const categoriesData = getCategories();
       const completedData = await getCompletedPoems();
       const completedPoemsList = poemsData.filter(poem => completedData[poem.id]);
+      const info = await getUserInfo();
+      setUserInfo(info);
       setPoems(completedPoemsList);
       setCategories(categoriesData);
     };
@@ -28,12 +31,22 @@ export default function ProfileScreen() {
     return category ? category.text : '';
   };
 
+  const getGenderImage = () => {
+    if (userInfo?.gender === 'male') {
+      return require('@/assets/images/MaleUser.png');
+    }
+    if (userInfo?.gender === 'female') {
+      return require('@/assets/images/FemaleUser.png');
+    }
+    return require('@/assets/images/Person/Ferdousi.png');
+  };
+
   return (
     <View style={styles.container}>
       <ScrollView>
         <View style={styles.profileHeader}>
-          <Image source={require('@/assets/images/Person/Ferdousi.png')} style={styles.profileImage} />
-          <ThemedText type="title">پروفایل</ThemedText>
+          <Image source={getGenderImage()} style={styles.profileImage} />
+          <ThemedText type="title">{userInfo?.name || 'پروفایل'}</ThemedText>
         </View>
 
         <ThemedView style={styles.titleContainer}>
