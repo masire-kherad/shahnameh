@@ -1,19 +1,5 @@
 [
   {
-    "id": 32,
-    "poet_id": 4,
-    "text": "فردوسی",
-    "parent_id": 0,
-    "url": "https://ganjoor.net/ferdousi"
-  },
-  {
-    "id": 33,
-    "poet_id": 4,
-    "text": "شاهنامه",
-    "parent_id": 32,
-    "url": "https://ganjoor.net/ferdousi/shahname"
-  },
-  {
     "id": 34,
     "poet_id": 4,
     "text": "آغاز کتاب",
@@ -72,21 +58,21 @@
   {
     "id": 42,
     "poet_id": 4,
-    "text": "پادشاهی نوذر",
+    "text": "نوذر",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/nozar"
   },
   {
     "id": 43,
     "poet_id": 4,
-    "text": "پادشاهی زوطهماسپ",
+    "text": "زو طهماسب",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/zutahmasb"
   },
   {
     "id": 44,
     "poet_id": 4,
-    "text": "پادشاهی گرشاسپ",
+    "text": "گرشاسپ",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/garshasp"
   },
@@ -100,14 +86,14 @@
   {
     "id": 46,
     "poet_id": 4,
-    "text": "پادشاهی کی‌کاووس و رفتن او به مازندران",
+    "text": "کی‌کاووس و مازندران",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/kkavoos"
   },
   {
     "id": 47,
     "poet_id": 4,
-    "text": "رزم کاووس با شاه هاماوران",
+    "text": "رزم کاووس و هاماوران",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/hamavaran"
   },
@@ -121,322 +107,322 @@
   {
     "id": 49,
     "poet_id": 4,
-    "text": "داستان سیاوش",
+    "text": "سیاوش",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/siavosh"
   },
   {
     "id": 50,
     "poet_id": 4,
-    "text": "پادشاهی کیخسرو شصت سال بود",
+    "text": "کیخسرو",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/kkhosro"
   },
   {
     "id": 51,
     "poet_id": 4,
-    "text": "گفتار اندر داستان فرود سیاوش",
+    "text": "فرود سیاوش",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/forood"
   },
   {
     "id": 52,
     "poet_id": 4,
-    "text": "داستان کاموس کشانی",
+    "text": "کاموس کشانی",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/kamoos"
   },
   {
     "id": 53,
     "poet_id": 4,
-    "text": "داستان خاقان چین",
+    "text": "خاقان چین",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/khaghan"
   },
   {
     "id": 54,
     "poet_id": 4,
-    "text": "داستان اکوان دیو",
+    "text": "اکوان دیو",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/akvan"
   },
   {
     "id": 55,
     "poet_id": 4,
-    "text": "داستان بیژن و منیژه",
+    "text": "بیژن و منیژه",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/bizhan"
   },
   {
     "id": 56,
     "poet_id": 4,
-    "text": "داستان دوازده رخ",
+    "text": "دوازده رخ",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/12rokh"
   },
   {
     "id": 57,
     "poet_id": 4,
-    "text": "جنگ بزرگ کیخسرو با افراسیاب",
+    "text": "جنگ کیخسرو و افراسیاب",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/mahmood"
   },
   {
     "id": 58,
     "poet_id": 4,
-    "text": "پادشاهی لهراسپ",
+    "text": "لهراسپ",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/lohrasp"
   },
   {
     "id": 59,
     "poet_id": 4,
-    "text": "پادشاهی گشتاسپ صد و بیست سال بود",
+    "text": "گشتاسپ",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/goshtasp"
   },
   {
     "id": 60,
     "poet_id": 4,
-    "text": "داستان هفتخوان اسفندیار",
+    "text": "هفتخوان اسفندیار",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/7esfandyar"
   },
   {
     "id": 61,
     "poet_id": 4,
-    "text": "داستان رستم و اسفندیار",
+    "text": "رستم و اسفندیار",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/esfandyar"
   },
   {
     "id": 62,
     "poet_id": 4,
-    "text": "داستان رستم و شغاد",
+    "text": "رستم و شغاد",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/shqad"
   },
   {
     "id": 63,
     "poet_id": 4,
-    "text": "پادشاهی بهمن اسفندیار صد و دوازده سال بود",
+    "text": "بهمن",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/bahman"
   },
   {
     "id": 64,
     "poet_id": 4,
-    "text": "پادشاهی همای چهرزاد سی و دو سال بود",
+    "text": "همای چهرزاد",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/homa"
   },
   {
     "id": 65,
     "poet_id": 4,
-    "text": "پادشاهی داراب دوازده سال بود",
+    "text": "داراب",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/darab"
   },
   {
     "id": 66,
     "poet_id": 4,
-    "text": "پادشاهی دارای داراب چهارده سال بود",
+    "text": "دارای داراب",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/dara"
   },
   {
     "id": 67,
     "poet_id": 4,
-    "text": "پادشاهی اسکندر",
+    "text": "اسکندر",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/eskandar"
   },
   {
     "id": 68,
     "poet_id": 4,
-    "text": "پادشاهی اشکانیان",
+    "text": "اشکانیان",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/ashkanian"
   },
   {
     "id": 69,
     "poet_id": 4,
-    "text": "پادشاهی اردشیر",
+    "text": "اردشیر",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/ardeshir"
   },
   {
     "id": 70,
     "poet_id": 4,
-    "text": "پادشاهی شاپور پسر اردشیر سی و یک سال بود",
+    "text": "شاپور پسر اردشیر",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/shapoor"
   },
   {
     "id": 71,
     "poet_id": 4,
-    "text": "پادشاهی اورمزد",
+    "text": "اورمزد",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/oormazd"
   },
   {
     "id": 72,
     "poet_id": 4,
-    "text": "پادشاهی بهرام اورمزد",
+    "text": "بهرام اورمزد",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/bahram"
   },
   {
     "id": 73,
     "poet_id": 4,
-    "text": "پادشاهی بهرام نوزده سال بود",
+    "text": "بهرام",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/bahram19"
   },
   {
     "id": 74,
     "poet_id": 4,
-    "text": "پادشاهی بهرام بهرامیان",
+    "text": "بهرام بهرامیان",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/bahramian"
   },
   {
     "id": 75,
     "poet_id": 4,
-    "text": "پادشاهی نرسی بهرام",
+    "text": "نرسی بهرام",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/nrsi"
   },
   {
     "id": 76,
     "poet_id": 4,
-    "text": "پادشاهی اورمزد نرسی",
+    "text": "اورمزد نرسی",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/oorner"
   },
   {
     "id": 77,
     "poet_id": 4,
-    "text": "پادشاهی شاپور ذوالاکتاف",
+    "text": "شاپور ذوالاکتاف",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/zolaktaf"
   },
   {
     "id": 79,
     "poet_id": 4,
-    "text": "پادشاهی اردشیر نکوکار",
+    "text": "اردشیر نکوکار",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/nekookar"
   },
   {
     "id": 80,
     "poet_id": 4,
-    "text": "پادشاهی شاپور سوم",
+    "text": "شاپور سوم",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/shapoor3"
   },
   {
     "id": 81,
     "poet_id": 4,
-    "text": "پادشاهی بهرام شاپور",
+    "text": "بهرام شاپور",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/bahpoor"
   },
   {
     "id": 82,
     "poet_id": 4,
-    "text": "پادشاهی یزدگرد بزه‌گر",
+    "text": "یزدگرد بزه‌گر",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/bezehgar"
   },
   {
     "id": 83,
     "poet_id": 4,
-    "text": "پادشاهی بهرام گور",
+    "text": "بهرام گور",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/bahgoor"
   },
   {
     "id": 84,
     "poet_id": 4,
-    "text": "پادشاهی یزدگرد هجده سال بود",
+    "text": "یزدگرد",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/yazdgerd"
   },
   {
     "id": 85,
     "poet_id": 4,
-    "text": "پادشاهی قباد چهل و سه سال بود",
+    "text": "قباد",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/qobad"
   },
   {
     "id": 86,
     "poet_id": 4,
-    "text": "پادشاهی کسری نوشین روان چهل و هشت سال بود",
+    "text": "کسری نوشین روان",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/anooshirvan"
   },
   {
     "id": 87,
     "poet_id": 4,
-    "text": "پادشاهی هرمزد دوازده سال بود",
+    "text": "هرمزد",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/hormozd"
   },
   {
     "id": 88,
     "poet_id": 4,
-    "text": "پادشاهی خسرو پرویز",
+    "text": "خسرو پرویز",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/parviz"
   },
   {
     "id": 89,
     "poet_id": 4,
-    "text": "پادشاهی شیرویه",
+    "text": "شیرویه",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/shirooye"
   },
   {
     "id": 90,
     "poet_id": 4,
-    "text": "پادشاهی اردشیر شیروی",
+    "text": "اردشیر شیروی",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/ardeshiroo"
   },
   {
     "id": 92,
     "poet_id": 4,
-    "text": "پادشاهی فرایین",
+    "text": "فرایین",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/farayeen"
   },
   {
     "id": 93,
     "poet_id": 4,
-    "text": "پادشاهی پوران دخت",
+    "text": "پوران دخت",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/pooran"
   },
   {
     "id": 94,
     "poet_id": 4,
-    "text": "پادشاهی آزرم دخت",
+    "text": "آزرم دخت",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/azarmdokht"
   },
   {
     "id": 95,
     "poet_id": 4,
-    "text": "پادشاهی فرخ زاد",
+    "text": "فرخ زاد",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/farrokh"
   },
   {
     "id": 96,
     "poet_id": 4,
-    "text": "پادشاهی یزدگرد",
+    "text": "یزدگرد",
     "parent_id": 33,
     "url": "https://ganjoor.net/ferdousi/shahname/yazdgerd3"
   }

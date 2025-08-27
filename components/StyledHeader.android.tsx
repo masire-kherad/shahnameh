@@ -65,8 +65,6 @@ export default function StyledHeader({ title }: StyledHeaderProps) {
 
 const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
   header: {
-    borderBottomLeftRadius: 20,
-    borderBottomRightRadius: 20,
     overflow: 'hidden',
   },
   backgroundImage: {

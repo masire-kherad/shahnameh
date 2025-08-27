@@ -1,5 +1,5 @@
 import React, { useMemo, useState } from 'react';
-import { View, Text, ScrollView, StyleSheet, Pressable, Image, useWindowDimensions, Modal, ImageSourcePropType, I18nManager } from 'react-native';
+import { View, Text, ScrollView, StyleSheet, Pressable, Image, useWindowDimensions, Modal, ImageSourcePropType, I18nManager, Platform } from 'react-native';
 import Svg, { Path } from 'react-native-svg';
 import { Category, Poem } from '@/types/shahname';
 import { router } from 'expo-router';
@@ -102,12 +102,12 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
 
   const pathD = useMemo(() => {
     if (nodePositions.length < 2) return '';
-    let d = `M ${I18nManager.isRTL ? windowWidth - nodePositions[0].offset : nodePositions[0].offset} ${nodePositions[0].y}`;
+    let d = `M ${(I18nManager.isRTL || Platform.OS === 'android') ? windowWidth - nodePositions[0].offset : nodePositions[0].offset} ${nodePositions[0].y}`;
     for (let i = 0; i < nodePositions.length - 1; i++) {
       const p1 = nodePositions[i];
       const p2 = nodePositions[i + 1];
-      const p1x = I18nManager.isRTL ? windowWidth - p1.offset : p1.offset;
-      const p2x = I18nManager.isRTL ? windowWidth - p2.offset : p2.offset;
+      const p1x = (I18nManager.isRTL || Platform.OS === 'android') ? windowWidth - p1.offset : p1.offset;
+      const p2x = (I18nManager.isRTL || Platform.OS === 'android') ? windowWidth - p2.offset : p2.offset;
       const midX = (p1x + p2x) / 2;
       const midY = (p1.y + p2.y) / 2;
       d += ` Q ${p1x} ${midY}, ${midX} ${midY}`;
