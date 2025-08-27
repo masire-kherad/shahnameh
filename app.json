@@ -1,6 +1,6 @@
 {
   "expo": {
-    "name": "MasirKherad",
+    "name": "shahname",
     "slug": "shahname",
     "version": "1.0.0",
     "orientation": "portrait",
@@ -9,19 +9,14 @@
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
-      "supportsTablet": true,
-      "bundleIdentifier": "com.aliaslani.mm.shahname",
-      "infoPlist": {
-        "ITSAppUsesNonExemptEncryption": false
-      }
+      "supportsTablet": true
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/Logo.png",
-        "backgroundColor": "#ebbf82"
+        "foregroundImage": "./assets/images/adaptive-icon.png",
+        "backgroundColor": "#f0f0f0"
       },
-      "edgeToEdgeEnabled": true,
-      "package": "com.aliaslani.mm.shahname"
+      "edgeToEdgeEnabled": true
     },
     "web": {
       "bundler": "metro",
@@ -35,17 +30,12 @@
         {
           "image": "./assets/images/Logo.png",
           "resizeMode": "contain",
-          "backgroundColor": "#ebbf82"
+          "backgroundColor": "#f0f0f0"
         }
       ]
     ],
     "experiments": {
       "typedRoutes": true
-    },
-    "extra": {
-      "eas": {
-        "projectId": "045d8b5e-39fe-4e7e-b966-c6f556c1b74c"
-      }
     }
   }
 }
