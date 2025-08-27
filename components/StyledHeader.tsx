@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, View, Pressable, Image } from 'react-native';
+import { StyleSheet, View, Pressable, Image, ImageBackground, useColorScheme } from 'react-native';
 import { BlurView } from 'expo-blur';
 import { ThemedText } from './ThemedText';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
@@ -16,6 +16,8 @@ export default function StyledHeader({ title }: StyledHeaderProps) {
   const insets = useSafeAreaInsets();
   const pathname = usePathname();
   const [userInfo, setUserInfo] = useState(null);
+  const colorScheme = useColorScheme();
+  const styles = createStyles(colorScheme);
 
   useEffect(() => {
     const fetchUserInfo = async () => {
@@ -40,31 +42,44 @@ export default function StyledHeader({ title }: StyledHeaderProps) {
   };
 
   return (
-    <BlurView intensity={80} tint="dark" style={[styles.header, { paddingTop: insets.top + 12 }]}>
-      <ThemedText type="title" style={{ color: Colors.dark.text }}>{title}</ThemedText>
-      {pathname !== '/profile' && (
-        <Pressable onPress={handleProfilePress}>
-          {userInfo && getGenderImage() ? (
-            <Image source={getGenderImage()} style={styles.genderImage} />
-          ) : (
-            <IconSymbol name="person.fill" size={28} color={Colors.dark.text} />
-          )}
-        </Pressable>
-      )}
-    </BlurView>
+    <ImageBackground
+      source={require('@/assets/images/corner.jpg')}
+      style={[styles.header, { paddingTop: insets.top + 12 }]}
+      imageStyle={styles.backgroundImage}
+    >
+      <BlurView intensity={80} tint={colorScheme} style={styles.blurView}>
+        <ThemedText type="title" style={{ color: Colors[colorScheme].text }}>{title}</ThemedText>
+        {pathname !== '/profile' && (
+          <Pressable onPress={handleProfilePress}>
+            {userInfo && getGenderImage() ? (
+              <Image source={getGenderImage()} style={styles.genderImage} />
+            ) : (
+              <IconSymbol name="person.fill" size={28} color={Colors[colorScheme].text} />
+            )}
+          </Pressable>
+        )}
+      </BlurView>
+    </ImageBackground>
   );
 }
 
-const styles = StyleSheet.create({
+const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
   header: {
+    borderBottomLeftRadius: 20,
+    borderBottomRightRadius: 20,
+    overflow: 'hidden',
+  },
+  backgroundImage: {
+    resizeMode: 'cover',
+    opacity: 0.1,
+  },
+  blurView: {
     flexDirection: 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
     paddingHorizontal: 16,
     paddingBottom: 12,
-    borderBottomLeftRadius: 20,
-    borderBottomRightRadius: 20,
-    overflow: 'hidden',
+    backgroundColor: Colors[colorScheme].background + 'aa',
   },
   genderImage: {
     width: 35,
