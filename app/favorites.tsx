@@ -1,27 +1,24 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, ScrollView, Text, View, ImageBackground, Pressable } from 'react-native';
+import { StyleSheet, ScrollView, View, ImageBackground, Pressable } from 'react-native';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { getPoems, getCategories } from '@/services/dataService';
-import { getFavorites } from '@/services/progressService';
+import { useProgress } from '@/hooks/useProgress';
 import { Poem, Category } from '@/types/shahname';
 import { router } from 'expo-router';
 
 export default function FavoritesScreen() {
+  const { favoritePoems } = useProgress();
   const [poems, setPoems] = useState<Poem[]>([]);
   const [categories, setCategories] = useState<Category[]>([]);
 
   useEffect(() => {
-    const loadData = async () => {
-      const poemsData = getPoems();
-      const categoriesData = getCategories();
-      const favoritesData = await getFavorites();
-      const favoritePoemsList = poemsData.filter(poem => favoritesData[poem.id]);
-      setPoems(favoritePoemsList);
-      setCategories(categoriesData);
-    };
-    loadData();
-  }, []);
+    const poemsData = getPoems();
+    const categoriesData = getCategories();
+    const favoritePoemsList = poemsData.filter(poem => favoritePoems[poem.id]);
+    setPoems(favoritePoemsList);
+    setCategories(categoriesData);
+  }, [favoritePoems]);
 
   const getCategoryName = (catId: number) => {
     const category = categories.find(c => c.id === catId);

@@ -1,9 +1,9 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, ScrollView, Text, View, Pressable, ImageBackground, ImageSourcePropType } from 'react-native';
+import { StyleSheet, ScrollView, View, Pressable, ImageSourcePropType } from 'react-native';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { getPoems, getCategories } from '@/services/dataService';
-import { getCompletedPoems, CompletedPoems } from '@/services/progressService';
+import { useProgress } from '@/hooks/useProgress';
 import { Poem, Category } from '@/types/shahname';
 import { router, useLocalSearchParams, Stack } from 'expo-router';
 import BendedRoad from '@/components/BendedRoad';
@@ -77,28 +77,23 @@ const getCategoryImage = (category: Category) => {
 
 export default function CategoryScreen() {
   const { cat_id } = useLocalSearchParams();
+  const { completedPoems } = useProgress();
   const [poems, setPoems] = useState<Poem[]>([]);
   const [categoryName, setCategoryName] = useState('');
-  const [completedPoems, setCompletedPoems] = useState<CompletedPoems>({});
   const [categoryImage, setCategoryImage] = useState<ImageSourcePropType>(defaultImage);
 
   useEffect(() => {
-    const loadData = async () => {
-      if (cat_id) {
-        const poemsData = getPoems();
-        const categoriesData = getCategories();
-        const category = categoriesData.find(c => c.id === Number(cat_id));
-        if (category) {
-          setCategoryName(category.text);
-          setCategoryImage(getCategoryImage(category));
-        }
-        const filteredPoems = poemsData.filter(p => p.cat_id === Number(cat_id));
-        const completedData = await getCompletedPoems();
-        setPoems(filteredPoems);
-        setCompletedPoems(completedData);
+    if (cat_id) {
+      const poemsData = getPoems();
+      const categoriesData = getCategories();
+      const category = categoriesData.find(c => c.id === Number(cat_id));
+      if (category) {
+        setCategoryName(category.text);
+        setCategoryImage(getCategoryImage(category));
       }
-    };
-    loadData();
+      const filteredPoems = poemsData.filter(p => p.cat_id === Number(cat_id));
+      setPoems(filteredPoems);
+    }
   }, [cat_id]);
 
   const handlePoemPress = (poemId: number) => {

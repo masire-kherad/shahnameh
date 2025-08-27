@@ -4,14 +4,7 @@ import { useLocalSearchParams, Stack } from 'expo-router';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { getPoem, getCategories } from '@/services/dataService';
-import {
-  markPoemAsComplete,
-  getCompletedPoems,
-  unmarkPoemAsComplete,
-  isFavorite,
-  addFavorite,
-  removeFavorite,
-} from '@/services/progressService';
+import { useProgress } from '@/hooks/useProgress';
 import { Poem, Verse, Category } from '@/types/shahname';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 import BendedRoad from '@/components/BendedRoad';
@@ -92,24 +85,19 @@ export default function ReadingScreen() {
   const { poem_id } = useLocalSearchParams();
   const [poem, setPoem] = useState<Poem | null>(null);
   const [couplets, setCouplets] = useState<Couplet[]>([]);
-  const [isCompleted, setIsCompleted] = useState(false);
-  const [isFav, setIsFav] = useState(false);
   const [categoryImage, setCategoryImage] = useState<ImageSourcePropType>(defaultImage);
+  const { completedPoems, favoritePoems, markPoemAsComplete, unmarkPoemAsComplete, addFavorite, removeFavorite } =
+    useProgress();
+
+  const poemIdNum = Number(poem_id);
+  const isCompleted = completedPoems[poemIdNum];
+  const isFav = favoritePoems[poemIdNum];
 
   useEffect(() => {
     const loadData = async () => {
-      const poemIdNum = Number(poem_id);
       if (isNaN(poemIdNum)) {
         return;
       }
-
-      const completedPoems = await getCompletedPoems();
-      if (completedPoems[poemIdNum]) {
-        setIsCompleted(true);
-      }
-
-      const favoriteStatus = await isFavorite(poemIdNum);
-      setIsFav(favoriteStatus);
 
       const currentPoem = getPoem(poemIdNum);
 
@@ -136,30 +124,26 @@ export default function ReadingScreen() {
     loadData();
   }, [poem_id]);
 
-  const handleToggleComplete = async () => {
-    const poemIdNum = Number(poem_id);
+  const handleToggleComplete = () => {
     if (isNaN(poemIdNum)) {
       return;
     }
     if (isCompleted) {
-      await unmarkPoemAsComplete(poemIdNum);
+      unmarkPoemAsComplete(poemIdNum);
     } else {
-      await markPoemAsComplete(poemIdNum);
+      markPoemAsComplete(poemIdNum);
     }
-    setIsCompleted(!isCompleted);
   };
 
-  const handleToggleFavorite = async () => {
-    const poemIdNum = Number(poem_id);
+  const handleToggleFavorite = () => {
     if (isNaN(poemIdNum)) {
       return;
     }
     if (isFav) {
-      await removeFavorite(poemIdNum);
+      removeFavorite(poemIdNum);
     } else {
-      await addFavorite(poemIdNum);
+      addFavorite(poemIdNum);
     }
-    setIsFav(!isFav);
   };
 
   if (!poem) {
