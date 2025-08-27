@@ -1,31 +1,21 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, View, Pressable, ImageBackground } from 'react-native';
-import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
+import { StyleSheet, View, ImageBackground } from 'react-native';
 import { getCategories, getPoems } from '@/services/dataService';
 import { Category, Poem } from '@/types/shahname';
-import { BlurView } from 'expo-blur';
-import { router } from 'expo-router';
-import { getCompletedPoems, CompletedPoems } from '@/services/progressService';
-import { IconSymbol } from '@/components/ui/IconSymbol';
-import { useColorScheme } from '@/hooks/useColorScheme';
-import { Colors } from '@/constants/Colors';
+import { useProgress } from '@/hooks/useProgress';
 import Roadmap from '@/components/Roadmap';
 
 export default function HomeScreen() {
   const [categories, setCategories] = useState<Category[]>([]);
   const [poems, setPoems] = useState<Poem[]>([]);
-  const [completedPoems, setCompletedPoems] = useState<CompletedPoems>({});
-  const colorScheme = useColorScheme();
+  const { completedPoems } = useProgress();
 
   useEffect(() => {
-    const loadData = async () => {
+    const loadData = () => {
       const categoriesData = getCategories();
       const poemsData = getPoems();
-      const completedData = await getCompletedPoems();
       setCategories(categoriesData);
       setPoems(poemsData);
-      setCompletedPoems(completedData);
     };
     loadData();
   }, []);

@@ -46,11 +46,11 @@ export default function ProfileScreen() {
       <ScrollView>
         <View style={styles.profileHeader}>
           <Image source={getGenderImage()} style={styles.profileImage} />
-          <ThemedText type="title">{userInfo?.name || 'پروفایل'}</ThemedText>
+          <ThemedText type="title" style={{ paddingTop: 10 }}>{userInfo?.name || 'پروفایل'}</ThemedText>
         </View>
 
         <ThemedView style={styles.titleContainer}>
-          <ThemedText type="title">اشعار تکمیل شده</ThemedText>
+          <ThemedText type="title" style={{ paddingTop: 10 }}>اشعار تکمیل شده</ThemedText>
         </ThemedView>
 
         <Pressable style={styles.favoritesButton} onPress={() => router.push('/favorites')}>
