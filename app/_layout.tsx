@@ -2,9 +2,10 @@ import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native
 import { useFonts } from 'expo-font';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import { I18nManager, View } from 'react-native';
+import { I18nManager, Platform, View } from 'react-native';
 import 'react-native-reanimated';
-import StyledHeader from '@/components/StyledHeader';
+import StyledHeaderIos from '@/components/StyledHeader.ios';
+import StyledHeaderAndroid from '@/components/StyledHeader.android';
 import { useColorScheme } from '@/hooks/useColorScheme';
 import React, { useEffect, useState } from 'react';
 import UserInfoModal from '@/components/UserInfoModal';
@@ -52,7 +53,7 @@ export default function RootLayout() {
       <View style={{ flex: 1 }}>
         <Stack
           screenOptions={{
-            header: ({ options }) => <StyledHeader title={options.title || ''} />,
+            header: ({ options }) => Platform.OS === 'ios' ? <StyledHeaderIos title={options.title || ''} /> :  <StyledHeaderAndroid title={options.title || ''} />,
           }}
         >
           <Stack.Screen name="index" options={{ title: 'شاهنامه' }} />

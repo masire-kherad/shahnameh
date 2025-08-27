@@ -10,7 +10,7 @@ export interface Category {
   poet_id: number;
   text: string;
   parent_id: number;
-  url: string;
+  image: string;
 }
 
 export interface Poem {
