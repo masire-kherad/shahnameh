@@ -13,8 +13,8 @@
     },
     "android": {
       "adaptiveIcon": {
-        "foregroundImage": "./assets/images/adaptive-icon.png",
-        "backgroundColor": "#f0f0f0"
+        "foregroundImage": "./assets/images/Logo.png",
+        "backgroundColor": "#f0bf7d"
       },
       "edgeToEdgeEnabled": true,
       "package": "com.aliaslani.mm.shahname"
@@ -22,31 +22,20 @@
     "web": {
       "bundler": "metro",
       "output": "static",
-      "favicon": "./assets/images/favicon.png",
+      "favicon": "./assets/images/Logo.png",
       "splash": {
-        "image": "./assets/images/splash-icon.png",
+        "image": "./assets/images/Logo.png",
         "resizeMode": "contain",
-        "backgroundColor": "#ffffff"
+        "backgroundColor": "#f0bf7d"
       },
       "pwa": {
-        "name": "فالنامه",
-        "shortName": "فالنامه",
-        "themeColor": "#ffffff",
-        "backgroundColor": "#ffffff",
+        "name": "مسیر خرد",
+        "shortName": "مسیر خرد",
+        "themeColor": "#f0bf7d",
+        "backgroundColor": "#f0bf7d",
         "display": "standalone",
         "scope": "/",
         "startUrl": "/",
-        "relatedApplications": [
-          {
-            "platform": "play",
-            "url": "https://play.google.com/store/apps/details?id=com.example.app",
-            "id": "com.example.app"
-          },
-          {
-            "platform": "itunes",
-            "url": "https://apps.apple.com/app/example-app/id123456789"
-          }
-        ],
         "preferRelatedApplications": true
       }
     },
@@ -57,7 +46,7 @@
         {
           "image": "./assets/images/Logo.png",
           "resizeMode": "contain",
-          "backgroundColor": "#f0f0f0"
+          "backgroundColor": "#f0bf7d"
         }
       ]
     ],
