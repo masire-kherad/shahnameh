@@ -48,7 +48,7 @@ export default function StyledHeader({ title }: StyledHeaderProps) {
       imageStyle={styles.backgroundImage}
     >
       <BlurView intensity={80} tint={colorScheme} style={styles.blurView}>
-        <ThemedText type="title" style={{ color: Colors[colorScheme].text }}>{title}</ThemedText>
+        <ThemedText type="title" style={{ color: Colors[colorScheme].text, paddingTop: 5 }}>{title}</ThemedText>
         {pathname !== '/profile' && (
           <Pressable onPress={handleProfilePress}>
             {userInfo && getGenderImage() ? (
