@@ -1,5 +1,6 @@
-import React from 'react';
-import { View, Text, ScrollView, StyleSheet, Pressable, I18nManager, Image } from 'react-native';
+import React, { useMemo, useState } from 'react';
+import { View, Text, ScrollView, StyleSheet, Pressable, Image, useWindowDimensions, Modal, ImageSourcePropType } from 'react-native';
+import Svg, { Path } from 'react-native-svg';
 import { Category, Poem } from '@/types/shahname';
 import { router } from 'expo-router';
 import { View as MotiView } from 'moti';
@@ -8,12 +9,14 @@ import { Colors } from '@/constants/Colors';
 import { CompletedPoems } from '@/services/progressService';
 import { ThemedText } from './ThemedText';
 import HorizontalProgressBar from './HorizontalProgressBar';
+import { toFarsiNumber } from '../services/localization';
 
 interface RoadmapProps {
   categories: Category[];
   poems: Poem[];
   completedPoems: CompletedPoems;
 }
+
 
 const categoryImages: { [key: string]: any } = {
   aghaz: require('@/assets/images/Person/Ferdousi.png'),
@@ -28,6 +31,47 @@ const categoryImages: { [key: string]: any } = {
   zutahmasb: require('@/assets/images/Person/ZooTahmasp.png'),
   garshasp: require('@/assets/images/Person/Garshasp.png'),
   kqobad: require('@/assets/images/Person/Kqobad.png'),
+  kkavoos: require('@/assets/images/Person/KeyKavous.png'),
+  kkhosro: require('@/assets/images/Person/KeyKhosro.png'),
+  lohrasp: require('@/assets/images/Person/Lahrasp.png'),
+  goshtasp: require('@/assets/images/Person/Gashtasp.png'),
+  esfandyar: require('@/assets/images/Person/Esfandiar.png'),
+  shqad: require('@/assets/images/Person/Shoghad.png'),
+  bahman: require('@/assets/images/Person/BahmanEsfandiar.png'),
+  homa: require('@/assets/images/Person/HomayeChehrzad.png'),
+  darab: require('@/assets/images/Person/Darab.png'),
+  dara: require('@/assets/images/Person/DarayeDarab.png'),
+  eskandar: require('@/assets/images/Person/Eskandar.png'),
+  ashkanian: require('@/assets/images/Person/Ashkanian.png'),
+  ardeshir: require('@/assets/images/Person/Ardeshir.png'),
+  shapoor: require('@/assets/images/Person/Shapour.png'),
+  oormazd: require('@/assets/images/Person/OverMozd.jpg'),
+  bahram: require('@/assets/images/Person/Bahram.jpg'),
+  bahramian: require('@/assets/images/Person/BahramBahramian.jpg'),
+  nrsi: require('@/assets/images/Person/NarsiBahram.jpg'),
+  oorner: require('@/assets/images/Person/OvermozdNarsi.jpg'),
+  zolaktaf: require('@/assets/images/Person/ShapourZavaloktaf.jpg'),
+  nekookar: require('@/assets/images/Person/ArdeshirNikookar.jpg'),
+  shapoor3: require('@/assets/images/Person/ShapourSevom.jpg'),
+  bahpoor: require('@/assets/images/Person/BahramShapour.jpg'),
+  bahgoor: require('@/assets/images/Person/BahramGoor.jpg'),
+  yazdgerd: require('@/assets/images/Person/YazdgerdBerahgar.jpg'), //todo:bug
+  qobad: require('@/assets/images/Person/Kqobad.png'),
+  anooshirvan: require('@/assets/images/Person/KasraNoshinRavan.jpg'),
+  hormozd: require('@/assets/images/Person/Hormozd.jpg'),
+  parviz: require('@/assets/images/Person/KhosroParviz.jpg'),
+  shirooye: require('@/assets/images/Person/Shiroye.jpg'),
+  ardeshiroo: require('@/assets/images/Person/ArdeshirShiroy.jpg'),
+  farayeen: require('@/assets/images/Person/Faraein.jpg'),
+  pooran: require('@/assets/images/Person/PoranDokht.jpg'),
+  azarmdokht: require('@/assets/images/Person/ArazmDokht.jpg'),
+  farrokh: require('@/assets/images/Person/FarokhZad.jpg'),
+  yazdgerd3: require('@/assets/images/Person/YazdgerdBerahgar.jpg'),
+  '12rokh': require('@/assets/images/Person/12Rokh.png'),
+  akvan: require('@/assets/images/Person/AkvanDiv.png'),
+  bizhan: require('@/assets/images/Person/BizhanVaMonizhe.png'),
+  kamoos: require('@/assets/images/Person/Kashani.png'),
+  khaghan: require('@/assets/images/Person/Khaghan.png'),
 };
 
 const defaultImage = require('@/assets/images/icon.png');
@@ -35,9 +79,50 @@ const defaultImage = require('@/assets/images/icon.png');
 export default function Roadmap({ categories, poems, completedPoems }: RoadmapProps) {
   const colorScheme = useColorScheme();
   const colors = Colors[colorScheme ?? 'light'].persian;
+  const { width: windowWidth } = useWindowDimensions();
+  const [modalVisible, setModalVisible] = useState(false);
+  const [selectedImage, setSelectedImage] = useState<ImageSourcePropType | null>(null);
+
+  const nodePositions = useMemo(() => {
+    const positions = [];
+    const nodeHeight = 100;
+    const nodeMarginBottom = 60;
+    const verticalSpacing = nodeHeight + nodeMarginBottom + 20;
+    const containerPadding = 40;
+    const contentWidth = windowWidth - 2 * containerPadding;
+
+    for (let i = 0; i < categories.length; i++) {
+      const isOdd = i % 2 !== 0;
+      const x = containerPadding + (isOdd ? contentWidth - 50 : 50);
+      const y = i * verticalSpacing + 100;
+      positions.push({ x, y });
+    }
+    return positions;
+  }, [categories, windowWidth]);
+
+  const pathD = useMemo(() => {
+    if (nodePositions.length < 2) return '';
+    let d = `M ${nodePositions[0].x} ${nodePositions[0].y}`;
+    for (let i = 0; i < nodePositions.length - 1; i++) {
+      const p1 = nodePositions[i];
+      const p2 = nodePositions[i + 1];
+      const midX = (p1.x + p2.x) / 2;
+      const midY = (p1.y + p2.y) / 2;
+      d += ` Q ${p1.x} ${midY}, ${midX} ${midY}`;
+      d += ` Q ${p2.x} ${midY}, ${p2.x} ${p2.y}`;
+    }
+    return d;
+  }, [nodePositions]);
+
+  const contentHeight = nodePositions.length > 0 ? nodePositions[nodePositions.length - 1].y + 200 : 0;
 
   const handleCategoryPress = (catId: number) => {
     router.push(`/category/${catId}`);
+  };
+
+  const handleLongPress = (image: ImageSourcePropType) => {
+    setSelectedImage(image);
+    setModalVisible(true);
   };
 
   const getCategoryProgress = (catId: number) => {
@@ -58,69 +143,84 @@ export default function Roadmap({ categories, poems, completedPoems }: RoadmapPr
   };
 
   return (
-    <ScrollView contentContainerStyle={styles.container}>
-      <ThemedText type="title" style={[styles.title, { color: Colors.dark.text }]}>نقشه راه</ThemedText>
-      {categories.map((category, index) => {
-        const isOdd = index % 2 !== 0;
-        const positionStyle = isOdd ? styles.odd : styles.even;
-        const progress = getCategoryProgress(category.id);
-        const progressValue = progress.total > 0 ? progress.completed / progress.total : 0;
-        const isCompleted = progress.total > 0 && progress.completed === progress.total;
-        const pathColor = isCompleted ? colors.completed : colors.path;
-        const imageSource = getCategoryImage(category);
+    <View style={{ flex: 1 }}>
+      <Modal
+        animationType="fade"
+        transparent={true}
+        visible={modalVisible}
+        onRequestClose={() => {
+          setModalVisible(!modalVisible);
+        }}
+      >
+        <Pressable style={styles.modalBackdrop} onPress={() => setModalVisible(false)}>
+          {selectedImage && <Image source={selectedImage} style={styles.modalImage} />}
+        </Pressable>
+      </Modal>
 
-        return (
-          <MotiView
-            key={category.id}
-            from={{ opacity: 0, translateY: 50 }}
-            animate={{ opacity: 1, translateY: 0 }}
-            transition={{ delay: index * 100 }}
-            style={[styles.nodeContainer, positionStyle]}
-          >
-            <Pressable onPress={() => handleCategoryPress(category.id)}>
-              <Image source={imageSource} style={styles.nodeImage} />
-            </Pressable>
-            <Text style={styles.nodeText}>{category.text}</Text>
-            <View style={styles.progressContainer}>
-              <HorizontalProgressBar
-                progress={progressValue}
-                bgColor={colors.background}
-                progressColor={colors.path}
-              />
-              {progress.total > 0 && (
-                <Text style={styles.progressText}>
-                  {progress.completed} / {progress.total}
-                </Text>
-              )}
-            </View>
-            {index < categories.length - 1 && (
-              <View style={[styles.path, { backgroundColor: pathColor }, isOdd ? styles.pathOdd : styles.pathEven]} />
-            )}
-          </MotiView>
-        );
-      })}
-    </ScrollView>
+      <ScrollView contentContainerStyle={[styles.container, { height: contentHeight }]}>
+        <Svg height={contentHeight} width={windowWidth} style={StyleSheet.absoluteFill}>
+          <Path
+            d={pathD}
+            stroke={colors.path}
+            strokeWidth="8"
+            fill="none"
+          />
+        </Svg>
+        <ThemedText type="title" style={[styles.title, { color: Colors.dark.text }]}>مسیر خرد</ThemedText>
+        {categories.map((category, index) => {
+          const { x, y } = nodePositions[index];
+          const progress = getCategoryProgress(category.id);
+          const progressValue = progress.total > 0 ? progress.completed / progress.total : 0;
+          const imageSource = getCategoryImage(category);
+
+          return (
+            <MotiView
+              key={category.id}
+              from={{ opacity: 0, scale: 0.5 }}
+              animate={{ opacity: 1, scale: 1 }}
+              transition={{ delay: index * 100 }}
+              style={[styles.nodeContainer, { position: 'absolute', top: y - 50, left: x - 50 }]}
+            >
+              <Pressable
+                onPress={() => handleCategoryPress(category.id)}
+                onLongPress={() => handleLongPress(imageSource)}
+              >
+                <Image source={imageSource} style={styles.nodeImage} />
+              </Pressable>
+              <Text style={styles.nodeText}>{category.text}</Text>
+              <View style={styles.progressContainer}>
+                <HorizontalProgressBar
+                  progress={progressValue}
+                  bgColor={colors.background}
+                  progressColor={colors.path}
+                />
+                {progress.total > 0 && (
+                  <Text style={styles.progressText}>
+                  {toFarsiNumber(progress.completed)} / {toFarsiNumber(progress.total)}
+                  </Text>
+                )}
+              </View>
+            </MotiView>
+          );
+        })}
+      </ScrollView>
+    </View>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     paddingVertical: 20,
-    paddingHorizontal: 40,
   },
   title: {
     textAlign: 'center',
     marginBottom: 40,
+    paddingTop: 5,
+    paddingHorizontal: 40,
   },
   nodeContainer: {
+    width: 100,
     alignItems: 'center',
-    marginBottom: 60,
-  },
-  odd: {
-    alignSelf: I18nManager.isRTL ? 'flex-end' : 'flex-start',
-  },
-  even: {
-    alignSelf: I18nManager.isRTL ? 'flex-start' : 'flex-end',
   },
   nodeImage: {
     width: 100,
@@ -146,20 +246,15 @@ const styles = StyleSheet.create({
     fontSize: 12,
     marginTop: 4,
   },
-  path: {
-    position: 'absolute',
-    width: 10,
-    height: 180,
-    top: 90,
-    zIndex: -1,
-    borderRadius: 5,
+  modalBackdrop: {
+    flex: 1,
+    backgroundColor: 'rgba(0,0,0,0.7)',
+    justifyContent: 'center',
+    alignItems: 'center',
   },
-  pathOdd: {
-    [I18nManager.isRTL ? 'right' : 'left']: '50%',
-    transform: [{ translateX: I18nManager.isRTL ? 5 : -5 }, { rotate: '15deg' }],
-  },
-  pathEven: {
-    [I18nManager.isRTL ? 'left' : 'right']: '50%',
-    transform: [{ translateX: I18nManager.isRTL ? -5 : 5 }, { rotate: '-15deg' }],
+  modalImage: {
+    width: 300,
+    height: 300,
+    borderRadius: 20,
   },
 });
