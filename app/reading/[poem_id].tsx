@@ -1,5 +1,5 @@
 import React, { useEffect, useState } from 'react';
-import { StyleSheet, ScrollView, View, Pressable, ImageSourcePropType } from 'react-native';
+import { StyleSheet, ScrollView, View, Pressable, ImageSourcePropType, NativeSyntheticEvent, NativeScrollEvent } from 'react-native';
 import { useLocalSearchParams, Stack } from 'expo-router';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
@@ -9,6 +9,7 @@ import { IconSymbol } from '@/components/ui/IconSymbol';
 import BendedRoad from '@/components/BendedRoad';
 import { defaultImage, getCategoryImage } from '@/services/personLoader';
 import { useProgress } from '@/hooks/useProgress';
+import HorizontalProgressBar from '@/components/HorizontalProgressBar';
 
 type Couplet = {
   line1: string;
@@ -24,6 +25,7 @@ export default function ReadingScreen() {
   const [categoryImage, setCategoryImage] = useState<ImageSourcePropType>(defaultImage);
   const { completedPoems, favoritePoems, markPoemAsComplete, unmarkPoemAsComplete, addFavorite, removeFavorite } =
     useProgress();
+  const [scrollProgress, setScrollProgress] = useState(0);
 
   const poemIdNum = Number(poem_id);
   const isCompleted = completedPoems[poemIdNum];
@@ -75,6 +77,16 @@ export default function ReadingScreen() {
     }
   };
 
+  const handleScroll = (event: NativeSyntheticEvent<NativeScrollEvent>) => {
+    const { layoutMeasurement, contentOffset, contentSize } = event.nativeEvent;
+    const paddingBottom = 48;
+    const scrollableHeight = contentSize.height - layoutMeasurement.height - paddingBottom;
+    if (scrollableHeight > 0) {
+      const progress = Math.min(1, contentOffset.y / scrollableHeight);
+      setScrollProgress(progress);
+    }
+  };
+
   const handleToggleFavorite = () => {
     if (isNaN(poemIdNum)) {
       return;
@@ -99,7 +111,8 @@ export default function ReadingScreen() {
       <View style={styles.container}>
         <View style={styles.overlay} />
         <Stack.Screen options={{ title: poem.title }} />
-        <ScrollView>
+        <HorizontalProgressBar progress={scrollProgress} />
+        <ScrollView onScroll={handleScroll} scrollEventThrottle={16} style={{ paddingVertical: 20 }}>
           {isCompleted && (
             <ThemedView style={styles.headerContainer}>
               <IconSymbol name="checkmark.circle.fill" size={24} color={'#6EBF8B'} />

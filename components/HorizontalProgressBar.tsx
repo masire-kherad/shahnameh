@@ -12,7 +12,7 @@ export default function HorizontalProgressBar({
   progress,
   height = 8,
   bgColor = '#ccc',
-  progressColor = '#3498db',
+  progressColor = '#109499ff',
 }: HorizontalProgressBarProps) {
   return (
     <View style={[styles.container, { height, backgroundColor: bgColor }]}>

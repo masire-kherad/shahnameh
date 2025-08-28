@@ -49,7 +49,7 @@ export default function StyledHeader({ title }: StyledHeaderProps) {
     >
       <BlurView intensity={80} tint={colorScheme} style={styles.blurView}>
         <View style={styles.titleContainer}>
-            <ThemedText type="title" style={{ color: Colors[colorScheme ?? 'light'].text }}>{title}</ThemedText>
+            <ThemedText type="title" style={{ color: Colors[colorScheme ?? 'light'].text, fontSize: 20 }}>{title}</ThemedText>
         </View>
         <View style={styles.actionsContainer}>
             {pathname !== '/profile' && pathname !== '/favorites' && (
@@ -85,7 +85,7 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     flexDirection: 'row-reverse',
     width: '100%',
     backgroundColor: 'rgba(0, 0, 0, 0.5)',
-    backdropFilter: 'none !important'
+    backdropFilter: 'none'
   },
   titleContainer: {
     paddingTop: 5,
