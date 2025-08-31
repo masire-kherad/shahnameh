@@ -9,6 +9,7 @@ import { IconSymbol } from '@/components/ui/IconSymbol';
 import BendedRoad from '@/components/BendedRoad';
 import { defaultImage, getCategoryImage, getCharacterAnimation } from '@/services/personLoader';
 import { useProgress } from '@/hooks/useProgress';
+import { useThemeColor } from '@/hooks/useThemeColor';
 import HorizontalProgressBar from '@/components/HorizontalProgressBar';
 import LottieAnimation from '@/components/LottieAnimation';
 
@@ -32,6 +33,7 @@ export default function ReadingScreen() {
   const poemIdNum = Number(poem_id);
   const isCompleted = completedPoems[poemIdNum];
   const isFav = favoritePoems[poemIdNum];
+  const overlayColor = useThemeColor({ light: 'rgba(0,0,0,0.5)', dark: 'rgba(0,0,0,0.5)' }, 'overlay');
 
   useEffect(() => {
     const loadData = async () => {
@@ -151,7 +153,7 @@ export default function ReadingScreen() {
   if (characterAnimation) {
     return (
       <LottieAnimation animationPath={characterAnimation} progress={scrollProgress}>
-        <View style={styles.overlay} />
+        <View style={[styles.overlay, { backgroundColor: overlayColor }]} />
         {renderContent()}
       </LottieAnimation>
     );
