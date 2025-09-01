@@ -35,6 +35,10 @@ export default function CategoryScreen() {
     router.push(`/reading/${poemId}`);
   };
 
+  const handlePlayPress = () => {
+    router.push(`/scenario/${cat_id}`);
+  };
+
   return (
     <BendedRoad imageSource={categoryImage}>
       <View style={styles.container}>
@@ -52,6 +56,9 @@ export default function CategoryScreen() {
             );
           })}
         </ScrollView>
+        <Pressable style={styles.playButton} onPress={handlePlayPress}>
+          <ThemedText style={styles.playButtonText}>Play</ThemedText>
+        </Pressable>
       </View>
     </BendedRoad>
   );
@@ -82,5 +89,24 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
     color: '#f0f0f0',
+  },
+  playButton: {
+    position: 'absolute',
+    bottom: 32,
+    right: 32,
+    backgroundColor: '#f0f0f0',
+    paddingVertical: 16,
+    paddingHorizontal: 32,
+    borderRadius: 32,
+    elevation: 4,
+    shadowColor: '#000',
+    shadowOffset: { width: 0, height: 2 },
+    shadowOpacity: 0.25,
+    shadowRadius: 3.84,
+  },
+  playButtonText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#1a1a1a',
   },
 });
