@@ -4,27 +4,31 @@ import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { getPoems, getCategories } from '@/services/dataService';
 import { useProgress } from '@/hooks/useProgress';
-import { Poem } from '@/types/shahname';
+import { Poem, Category } from '@/types/shahname';
 import { router, useLocalSearchParams, Stack } from 'expo-router';
 import BendedRoad from '@/components/BendedRoad';
 import { defaultImage, getCategoryImage } from '@/services/personLoader';
+import { getScenario } from '@/services/scenarioLoader';
 
 
 export default function CategoryScreen() {
   const { cat_id } = useLocalSearchParams();
   const { completedPoems } = useProgress();
   const [poems, setPoems] = useState<Poem[]>([]);
-  const [categoryName, setCategoryName] = useState('');
+  const [category, setCategory] = useState<Category | null>(null);
+  const [isScenarioAvailable, setIsScenarioAvailable] = useState(false);
   const [categoryImage, setCategoryImage] = useState<ImageSourcePropType>(defaultImage);
 
   useEffect(() => {
     if (cat_id) {
       const poemsData = getPoems();
       const categoriesData = getCategories();
-      const category = categoriesData.find(c => c.id === Number(cat_id));
-      if (category) {
-        setCategoryName(category.text);
-        setCategoryImage(getCategoryImage(category));
+      const currentCategory = categoriesData.find(c => c.id === Number(cat_id));
+      if (currentCategory) {
+        setCategory(currentCategory);
+        setCategoryImage(getCategoryImage(currentCategory));
+        const scenario = getScenario(currentCategory.image);
+        setIsScenarioAvailable(scenario !== null);
       }
       const filteredPoems = poemsData.filter(p => p.cat_id === Number(cat_id));
       setPoems(filteredPoems);
@@ -35,12 +39,19 @@ export default function CategoryScreen() {
     router.push(`/reading/${poemId}`);
   };
 
+  const handlePlayPress = () => {
+    router.push(`/scenario/${cat_id}`);
+  };
+
   return (
     <BendedRoad imageSource={categoryImage}>
       <View style={styles.container}>
         <View style={styles.overlay} />
-        <Stack.Screen options={{ title: categoryName }} />
-        <ScrollView contentContainerStyle={styles.scrollViewContent}>
+        <Stack.Screen options={{ title: category?.text ?? 'فهرست اشعار' }} />
+        <ScrollView
+          style={styles.scrollView}
+          contentContainerStyle={styles.contentContainer}
+        >
           {poems.map((poem, index) => {
             const isCompleted = completedPoems[poem.id];
             return (
@@ -52,6 +63,15 @@ export default function CategoryScreen() {
             );
           })}
         </ScrollView>
+        {category?.text !== 'آغاز کتاب' && (
+        <Pressable
+          style={[styles.playButton, !isScenarioAvailable && styles.disabledButton]}
+          onPress={handlePlayPress}
+          disabled={!isScenarioAvailable}
+        >
+          <ThemedText style={styles.playButtonText}>بازی</ThemedText>
+        </Pressable>
+        )}
       </View>
     </BendedRoad>
   );
@@ -67,6 +87,7 @@ const styles = StyleSheet.create({
   },
   scrollViewContent: {
     padding: 16,
+    paddingBottom: 80, // Add padding to the bottom to avoid overlap with the button
   },
   poemItem: {
     padding: 16,
@@ -82,5 +103,23 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     textAlign: 'center',
     color: '#f0f0f0',
+  },
+  playButton: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    backgroundColor: '#f0f0f0',
+    paddingVertical: 24,
+    alignItems: 'center',
+    justifyContent: 'center',
+  },
+  playButtonText: {
+    fontSize: 18,
+    fontWeight: 'bold',
+    color: '#1a1a1a',
+  },
+  disabledButton: {
+    backgroundColor: '#bdc3c7',
   },
 });

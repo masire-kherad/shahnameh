@@ -7,6 +7,7 @@ import { Colors } from '@/constants/Colors';
 import { IconSymbol } from './ui/IconSymbol';
 import { router, usePathname } from 'expo-router';
 import { getUserInfo } from '@/services/dataService';
+import { useCurrency } from '@/hooks/useCurrency';
 
 interface StyledHeaderProps {
   title: string;
@@ -16,6 +17,7 @@ export default function StyledHeader({ title }: StyledHeaderProps) {
   const insets = useSafeAreaInsets();
   const pathname = usePathname();
   const [userInfo, setUserInfo] = useState(null);
+  const { balance, isLoading: isCurrencyLoading } = useCurrency();
   const colorScheme = useColorScheme();
   const styles = createStyles(colorScheme);
 
@@ -52,6 +54,11 @@ export default function StyledHeader({ title }: StyledHeaderProps) {
             <ThemedText type="title" style={{ color: Colors[colorScheme ?? 'light'].text, fontSize: 20 }}>{title}</ThemedText>
         </View>
         <View style={styles.actionsContainer}>
+            {!isCurrencyLoading && (
+              <View style={styles.currencyContainer}>
+                <ThemedText style={styles.currencyText}>{balance} زر</ThemedText>
+              </View>
+            )}
             {pathname !== '/profile' && pathname !== '/favorites' && (
               <Pressable onPress={handleProfilePress}>
                 {userInfo && getGenderImage() ? (
@@ -93,6 +100,18 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
   },
   actionsContainer: {
     flexDirection: 'row',
+    alignItems: 'center',
+  },
+  currencyContainer: {
+    marginRight: 16,
+    paddingVertical: 4,
+    paddingHorizontal: 8,
+    borderRadius: 8,
+    backgroundColor: 'rgba(255, 255, 255, 0.1)',
+  },
+  currencyText: {
+    fontWeight: 'bold',
+    color: '#ffd700',
   },
   genderImage: {
     width: 35,

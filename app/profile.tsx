@@ -1,16 +1,32 @@
-import React, { useEffect, useState } from 'react';
-import { StyleSheet, ScrollView, Text, View, Image, Pressable } from 'react-native';
+import React, { useEffect, useState, useCallback } from 'react';
+import { StyleSheet, ScrollView, Text, View, Image, Pressable, Alert } from 'react-native';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { getPoems, getCategories, getUserInfo } from '@/services/dataService';
 import { getCompletedPoems } from '@/services/progressService';
+import { useCurrency } from '@/hooks/useCurrency';
 import { Poem, Category } from '@/types/shahname';
 import { router } from 'expo-router';
+
+const DAILY_REWARD_KEY = '@daily_reward_last_collection';
 
 export default function ProfileScreen() {
   const [poems, setPoems] = useState<Poem[]>([]);
   const [categories, setCategories] = useState<Category[]>([]);
   const [userInfo, setUserInfo] = useState(null);
+  const [isRewardAvailable, setIsRewardAvailable] = useState(false);
+  const { increaseBalance } = useCurrency();
+
+  const checkDailyReward = useCallback(async () => {
+    const lastCollectionDate = await AsyncStorage.getItem(DAILY_REWARD_KEY);
+    const today = new Date().toLocaleDateString();
+    if (lastCollectionDate !== today) {
+      setIsRewardAvailable(true);
+    } else {
+      setIsRewardAvailable(false);
+    }
+  }, []);
 
   useEffect(() => {
     const loadData = async () => {
@@ -22,14 +38,25 @@ export default function ProfileScreen() {
       setUserInfo(info);
       setPoems(completedPoemsList);
       setCategories(categoriesData);
+      checkDailyReward();
     };
     loadData();
-  }, []);
+  }, [checkDailyReward]);
 
   const getCategoryName = (catId: number) => {
     const category = categories.find(c => c.id === catId);
     return category ? category.text : '';
   };
+
+  const handleClaimReward = useCallback(async () => {
+    if (isRewardAvailable) {
+      await increaseBalance(5);
+      const today = new Date().toLocaleDateString();
+      await AsyncStorage.setItem(DAILY_REWARD_KEY, today);
+      setIsRewardAvailable(false);
+      Alert.alert('پاداش روزانه', '۵ زر به شما اضافه شد!');
+    }
+  }, [isRewardAvailable, increaseBalance]);
 
   const getGenderImage = () => {
     if (userInfo?.gender === 'male') {
@@ -49,13 +76,28 @@ export default function ProfileScreen() {
           <ThemedText type="title" style={{ paddingTop: 10 }}>{userInfo?.name || 'پروفایل'}</ThemedText>
         </View>
 
+        <Pressable
+          style={[styles.dailyRewardButton, !isRewardAvailable && styles.disabledButton]}
+          onPress={handleClaimReward}
+          disabled={!isRewardAvailable}
+        >
+          <ThemedText style={styles.favoritesButtonText}>
+            {isRewardAvailable ? 'دریافت پاداش روزانه' : 'پاداش امروز را دریافت کرده‌اید'}
+          </ThemedText>
+        </Pressable>
+
         <ThemedView style={styles.titleContainer}>
           <ThemedText type="title" style={{ paddingTop: 10 }}>اشعار تکمیل شده</ThemedText>
         </ThemedView>
 
-        <Pressable style={styles.favoritesButton} onPress={() => router.push('/favorites')}>
-          <ThemedText style={styles.favoritesButtonText}>علاقه‌مندی‌ها</ThemedText>
-        </Pressable>
+        <View style={styles.navigationButtons}>
+          <Pressable style={styles.navButton} onPress={() => router.push('/favorites')}>
+            <ThemedText style={styles.favoritesButtonText}>علاقه‌مندی‌ها</ThemedText>
+          </Pressable>
+          <Pressable style={styles.navButton} onPress={() => router.push('/Info')}>
+            <ThemedText style={styles.favoritesButtonText}>راهنما</ThemedText>
+          </Pressable>
+        </View>
 
         {poems.map((poem) => (
           <Pressable key={poem.id} onPress={() => router.push(`/reading/${poem.id}`)}>
@@ -107,16 +149,32 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginTop: 4,
   },
-  favoritesButton: {
+  navigationButtons: {
+    flexDirection: 'row-reverse',
+    justifyContent: 'space-between',
+    marginBottom: 24,
+    gap: 16,
+  },
+  navButton: {
     backgroundColor: '#3498db',
     padding: 16,
     borderRadius: 8,
     alignItems: 'center',
-    marginBottom: 24,
+    flex: 1,
   },
   favoritesButtonText: {
     color: '#f0f0f0',
     fontSize: 18,
     fontWeight: 'bold',
+  },
+  dailyRewardButton: {
+    backgroundColor: '#27ae60',
+    padding: 16,
+    borderRadius: 8,
+    alignItems: 'center',
+    marginBottom: 24,
+  },
+  disabledButton: {
+    backgroundColor: '#7f8c8d',
   },
 });

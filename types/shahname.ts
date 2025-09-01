@@ -26,3 +26,35 @@ export interface Verse {
   position: 0 | 1;
   text: string;
 }
+export interface Scenario {
+  game_title: string;
+  description: string;
+  stages: Stage[];
+  endings: { [key: string]: Ending };
+}
+
+export interface Stage {
+  id: number | string;
+  type?: 'quiz';
+  title: string;
+  text: string;
+  choices?: Choice[];
+  question?: string;
+  options?: QuizOption[];
+  on_correct?: number | string;
+  on_wrong?: number | string;
+}
+
+export interface Choice {
+  option: string;
+  next_stage: number | string;
+}
+
+export interface QuizOption {
+  [key: string]: string | boolean;
+}
+
+export interface Ending {
+  title: string;
+  text: string;
+}

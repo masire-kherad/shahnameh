@@ -10,6 +10,7 @@ import BendedRoad from '@/components/BendedRoad';
 import { defaultImage, getCategoryImage } from '@/services/personLoader';
 import { useProgress } from '@/hooks/useProgress';
 import HorizontalProgressBar from '@/components/HorizontalProgressBar';
+import AudioPlayer from '@/components/AudioPlayer';
 
 type Couplet = {
   line1: string;
@@ -112,7 +113,12 @@ export default function ReadingScreen() {
         <View style={styles.overlay} />
         <Stack.Screen options={{ title: poem.title }} />
         <HorizontalProgressBar progress={scrollProgress} />
-        <ScrollView onScroll={handleScroll} scrollEventThrottle={16} style={{ paddingVertical: 20 }}>
+        <ScrollView
+          onScroll={handleScroll}
+          scrollEventThrottle={16}
+          style={styles.scrollView}
+          contentContainerStyle={styles.contentContainer}
+        >
           {isCompleted && (
             <ThemedView style={styles.headerContainer}>
               <IconSymbol name="checkmark.circle.fill" size={24} color={'#6EBF8B'} />
@@ -145,6 +151,9 @@ export default function ReadingScreen() {
             </Pressable>
           </View>
         </ScrollView>
+        <View style={styles.audioPlayerContainer}>
+          <AudioPlayer uri="https://api.ganjoor.net/api/audio/file/13743.mp3" />
+        </View>
       </View>
     </BendedRoad>
   );
@@ -153,7 +162,13 @@ export default function ReadingScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+  },
+  scrollView: {
+    flex: 1,
+  },
+  contentContainer: {
     padding: 16,
+    paddingBottom: 100, // Make space for the audio player
   },
   overlay: {
     ...StyleSheet.absoluteFillObject,
@@ -224,5 +239,11 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 18,
     fontWeight: 'bold',
+  },
+  audioPlayerContainer: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
   },
 });
