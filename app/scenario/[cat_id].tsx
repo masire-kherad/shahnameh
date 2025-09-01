@@ -14,7 +14,7 @@ import { Category } from '@/types/shahname';
 
 const ScenarioScreen = () => {
   const { cat_id } = useLocalSearchParams();
-  const balance = useCurrency((state) => state.balance);
+  const { balance, isLoading: isCurrencyLoading } = useCurrency();
   const [scenario, setScenario] = useState<Scenario | null>(null);
   const [animation, setAnimation] = useState<any>(null);
   const [progress, setProgress] = useState(0);
@@ -49,7 +49,7 @@ const ScenarioScreen = () => {
     setProgress(progress);
   };
 
-  if (!scenario || !animation) {
+  if (!scenario || !animation || isCurrencyLoading) {
     return (
       <View style={styles.loadingContainer}>
         <Text>Loading...</Text>

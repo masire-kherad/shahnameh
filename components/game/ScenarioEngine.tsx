@@ -18,7 +18,7 @@ const ScenarioEngine: React.FC<ScenarioEngineProps> = ({
 }) => {
   const [currentStageId, setCurrentStageId] = useState<number | string>(1);
   const [currentStage, setCurrentStage] = useState<Stage | null>(null);
-  const increaseBalance = useCurrency((state) => state.increaseBalance);
+  const { increaseBalance } = useCurrency();
 
   useEffect(() => {
     const stage = scenario.stages.find((s) => s.id === currentStageId);
@@ -37,9 +37,9 @@ const ScenarioEngine: React.FC<ScenarioEngineProps> = ({
     setCurrentStageId(nextStageId);
   };
 
-  const handleAnswer = (isCorrect: boolean) => {
+  const handleAnswer = async (isCorrect: boolean) => {
     if (isCorrect) {
-      increaseBalance(10); // Award 10 "zar" for a correct answer
+      await increaseBalance(10); // Award 10 "zar" for a correct answer
       if (currentStage?.on_correct) {
         setCurrentStageId(currentStage.on_correct);
       }
