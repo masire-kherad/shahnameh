@@ -85,9 +85,6 @@ const ScenarioScreen = () => {
         />
       </View>
       <View style={styles.gameContainer}>
-        <View style={styles.currencyContainer}>
-          <ThemedText style={styles.currencyText}>زر: {balance}</ThemedText>
-        </View>
         <ScenarioEngine
           scenario={scenario}
           onGameEnd={handleGameEnd}
@@ -117,19 +114,6 @@ const styles = StyleSheet.create({
   gameContainer: {
     flex: 1,
     padding: 16,
-  },
-  currencyContainer: {
-    position: 'absolute',
-    top: 16,
-    right: 16,
-    backgroundColor: 'rgba(0,0,0,0.7)',
-    padding: 8,
-    borderRadius: 8,
-  },
-  currencyText: {
-    fontSize: 18,
-    fontWeight: 'bold',
-    color: '#f0f0f0',
   },
   endingContainer: {
     flex: 1,
