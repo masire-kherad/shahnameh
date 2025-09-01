@@ -69,3 +69,13 @@ export const getCategoryImage = (category: Category) => {
     }
     return defaultImage;
   };
+export const getCharacterAnimation = (category: Category) => {
+    if (category.image && categoryAnimations[category.image]) {
+        return categoryAnimations[category.image];
+    }
+    return null;
+    };
+
+const categoryAnimations: { [key: string]: any } = {
+    qmars: require('@/assets/animations/Qmars.json'),
+    };

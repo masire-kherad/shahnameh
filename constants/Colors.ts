@@ -20,6 +20,7 @@ export const Colors = {
       completed: '#6EBF8B',
       highlight: '#eece91',
       background: '#b3c8d8',
+      overlay: 'rgba(0, 0, 0, 0.5)',
     }
   },
   dark: {
@@ -35,6 +36,7 @@ export const Colors = {
       completed: '#6EBF8B',
       highlight: '#eece91',
       background: '#ae8865',
+      overlay: 'rgba(0, 0, 0, 0.5)',
     }
   },
 };
