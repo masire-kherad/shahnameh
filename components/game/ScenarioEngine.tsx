@@ -1,5 +1,5 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, Pressable, StyleSheet } from 'react-native';
+import { View, Text, Pressable, StyleSheet, ScrollView } from 'react-native';
 import { ThemedText } from '@/components/ThemedText';
 import { Scenario, Stage, Choice } from '@/types/shahname';
 import QuizQuestion from './QuizQuestion';
@@ -55,7 +55,7 @@ const ScenarioEngine: React.FC<ScenarioEngineProps> = ({
   }
 
   return (
-    <View style={styles.container}>
+    <ScrollView style={styles.container} contentContainerStyle={styles.contentContainer}>
       <ThemedText style={styles.title}>{currentStage.title}</ThemedText>
       <ThemedText style={styles.text}>{currentStage.text}</ThemedText>
       {currentStage.type === 'quiz' ? (
@@ -75,12 +75,15 @@ const ScenarioEngine: React.FC<ScenarioEngineProps> = ({
           </Pressable>
         ))
       )}
-    </View>
+    </ScrollView>
   );
 };
 
 const styles = StyleSheet.create({
   container: {
+    flex: 1,
+  },
+  contentContainer: {
     padding: 16,
   },
   title: {
