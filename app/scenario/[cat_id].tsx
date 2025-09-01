@@ -5,6 +5,8 @@ import LottieView from 'lottie-react-native';
 import ScenarioEngine from '@/components/game/ScenarioEngine';
 import { getCharacterAnimation } from '@/services/personLoader';
 import { useCurrency } from '@/hooks/useCurrency';
+import { useColorScheme } from '@/hooks/useColorScheme';
+import { Colors } from '@/constants/Colors';
 import { Scenario, Ending } from '@/types/shahname';
 import { ThemedText } from '@/components/ThemedText';
 import { getCategories } from '@/services/dataService';
@@ -13,6 +15,7 @@ import { Category } from '@/types/shahname';
 
 
 const ScenarioScreen = () => {
+  const colorScheme = useColorScheme();
   const { cat_id } = useLocalSearchParams();
   const { balance, increaseBalance, isLoading: isCurrencyLoading } = useCurrency();
   const [scenario, setScenario] = useState<Scenario | null>(null);
@@ -59,7 +62,7 @@ const ScenarioScreen = () => {
 
   if (ending) {
     return (
-      <View style={styles.endingContainer}>
+      <View style={[styles.endingContainer, { backgroundColor: Colors[colorScheme ?? 'light'].background }]}>
         <ThemedText style={styles.endingTitle}>{ending.title}</ThemedText>
         <ThemedText style={styles.endingText}>{ending.text}</ThemedText>
         <ThemedText style={styles.earningsText}>شما {sessionEarnings} زر به دست آوردید</ThemedText>
@@ -71,7 +74,7 @@ const ScenarioScreen = () => {
   }
 
   return (
-    <View style={styles.container}>
+    <View style={[styles.container, { backgroundColor: Colors[colorScheme ?? 'light'].background }]}>
       <Stack.Screen options={{ title: category?.text || "Scenario" }} />
       <View style={styles.animationContainer}>
         <LottieView
@@ -103,7 +106,6 @@ const styles = StyleSheet.create({
   },
   container: {
     flex: 1,
-    backgroundColor: '#1a1a1a',
   },
   animationContainer: {
     flex: 1,
@@ -134,7 +136,6 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 16,
-    backgroundColor: '#1a1a1a',
   },
   endingTitle: {
     fontSize: 24,
