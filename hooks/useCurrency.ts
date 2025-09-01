@@ -24,15 +24,15 @@ export const useCurrency = () => {
     loadBalance();
   }, []);
 
-  const increaseBalance = useCallback(async (amount: number) => {
-    const newBalance = balance + amount;
-    setBalance(newBalance);
-    try {
-      await AsyncStorage.setItem(CURRENCY_STORAGE_KEY, JSON.stringify(newBalance));
-    } catch (error) {
-      console.error('Failed to save currency balance.', error);
-    }
-  }, [balance]);
+  const increaseBalance = useCallback((amount: number) => {
+    setBalance(prevBalance => {
+      const newBalance = prevBalance + amount;
+      AsyncStorage.setItem(CURRENCY_STORAGE_KEY, JSON.stringify(newBalance)).catch(error => {
+        console.error('Failed to save currency balance.', error);
+      });
+      return newBalance;
+    });
+  }, []);
 
   return { balance, increaseBalance, isLoading };
 };
