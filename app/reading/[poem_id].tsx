@@ -113,7 +113,12 @@ export default function ReadingScreen() {
         <View style={styles.overlay} />
         <Stack.Screen options={{ title: poem.title }} />
         <HorizontalProgressBar progress={scrollProgress} />
-        <ScrollView onScroll={handleScroll} scrollEventThrottle={16} style={{ paddingVertical: 20 }}>
+        <ScrollView
+          onScroll={handleScroll}
+          scrollEventThrottle={16}
+          style={styles.scrollView}
+          contentContainerStyle={styles.contentContainer}
+        >
           {isCompleted && (
             <ThemedView style={styles.headerContainer}>
               <IconSymbol name="checkmark.circle.fill" size={24} color={'#6EBF8B'} />
@@ -157,7 +162,13 @@ export default function ReadingScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+  },
+  scrollView: {
+    flex: 1,
+  },
+  contentContainer: {
     padding: 16,
+    paddingBottom: 100, // Make space for the audio player
   },
   overlay: {
     ...StyleSheet.absoluteFillObject,
