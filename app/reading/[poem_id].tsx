@@ -7,11 +7,9 @@ import { getPoemWithSummary, getCategories } from '@/services/dataService';
 import { Poem, } from '@/types/shahname';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 import BendedRoad from '@/components/BendedRoad';
-import { defaultImage, getCategoryImage, getCharacterAnimation } from '@/services/personLoader';
+import { defaultImage, getCategoryImage } from '@/services/personLoader';
 import { useProgress } from '@/hooks/useProgress';
-import { useThemeColor } from '@/hooks/useThemeColor';
 import HorizontalProgressBar from '@/components/HorizontalProgressBar';
-import LottieAnimation from '@/components/LottieAnimation';
 
 type Couplet = {
   line1: string;
@@ -25,7 +23,6 @@ export default function ReadingScreen() {
   const [poem, setPoem] = useState<Poem | null>(null);
   const [couplets, setCouplets] = useState<Couplet[]>([]);
   const [categoryImage, setCategoryImage] = useState<ImageSourcePropType>(defaultImage);
-  const [characterAnimation, setCharacterAnimation] = useState<any | null>(null);
   const { completedPoems, favoritePoems, markPoemAsComplete, unmarkPoemAsComplete, addFavorite, removeFavorite } =
     useProgress();
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -33,7 +30,6 @@ export default function ReadingScreen() {
   const poemIdNum = Number(poem_id);
   const isCompleted = completedPoems[poemIdNum];
   const isFav = favoritePoems[poemIdNum];
-  const overlayColor = useThemeColor({ light: 'rgba(0,0,0,0.5)', dark: 'rgba(0,0,0,0.5)' }, 'overlay');
 
   useEffect(() => {
     const loadData = async () => {
@@ -64,7 +60,6 @@ export default function ReadingScreen() {
         const category = categories.find(c => c.id === currentPoem.cat_id);
         if (category) {
           setCategoryImage(getCategoryImage(category));
-          setCharacterAnimation(getCharacterAnimation(category));
         }
       }
     };
@@ -111,57 +106,46 @@ export default function ReadingScreen() {
     );
   }
 
-  const renderContent = () => (
-    <View style={styles.container}>
-      <Stack.Screen options={{ title: poem.title }} />
-      <HorizontalProgressBar progress={scrollProgress} />
-      <ScrollView onScroll={handleScroll} scrollEventThrottle={16} style={{ paddingVertical: 20 }}>
-        {isCompleted && (
-          <ThemedView style={styles.headerContainer}>
-            <IconSymbol name="checkmark.circle.fill" size={24} color={'#6EBF8B'} />
-            <ThemedText style={styles.headerText}>خوانده شده</ThemedText>
-          </ThemedView>
-        )}
-        <View style={styles.coupletsContainer}>
-          {couplets.map((couplet, index) => (
-            <ThemedView key={index} style={styles.couplet}>
-              <ThemedText style={styles.verseText}>{couplet.line1}</ThemedText>
-              <ThemedText style={styles.verseText}>{couplet.line2}</ThemedText>
-              <ThemedView style={styles.summaryContainer}>
-                <ThemedText style={styles.summaryText}>{couplet.summary}</ThemedText>
-              </ThemedView>
-            </ThemedView>
-          ))}
-        </View>
-        <View style={styles.actionsContainer}>
-          <Pressable
-            style={[styles.button, styles.completeButton, isCompleted && styles.unCompleteButton]}
-            onPress={handleToggleComplete}
-          >
-            <ThemedText style={styles.buttonText}>
-              {isCompleted ? 'علامت به عنوان تکمیل نشده' : 'تکمیل'}
-            </ThemedText>
-          </Pressable>
-          <Pressable style={styles.button} onPress={handleToggleFavorite}>
-            <IconSymbol name="heart.fill" size={24} color={isFav ? '#e74c3c' : '#fff'} />
-          </Pressable>
-        </View>
-      </ScrollView>
-    </View>
-  );
-
-  if (characterAnimation) {
-    return (
-      <LottieAnimation animationPath={characterAnimation} progress={scrollProgress}>
-        <View style={[styles.overlay, { backgroundColor: overlayColor }]} />
-        {renderContent()}
-      </LottieAnimation>
-    );
-  }
-
   return (
     <BendedRoad imageSource={categoryImage}>
-      {renderContent()}
+      <View style={styles.container}>
+        <View style={styles.overlay} />
+        <Stack.Screen options={{ title: poem.title }} />
+        <HorizontalProgressBar progress={scrollProgress} />
+        <ScrollView onScroll={handleScroll} scrollEventThrottle={16} style={{ paddingVertical: 20 }}>
+          {isCompleted && (
+            <ThemedView style={styles.headerContainer}>
+              <IconSymbol name="checkmark.circle.fill" size={24} color={'#6EBF8B'} />
+              <ThemedText style={styles.headerText}>خوانده شده</ThemedText>
+            </ThemedView>
+          )}
+          <View style={styles.coupletsContainer}>
+            {couplets.map((couplet, index) => (
+              <ThemedView key={index} style={styles.couplet}>
+                <ThemedText style={styles.verseText}>{couplet.line1}</ThemedText>
+                <ThemedText style={styles.verseText}>{couplet.line2}</ThemedText>
+                <ThemedView style={styles.summaryContainer}>
+                  <ThemedText style={styles.summaryText}>{couplet.summary}</ThemedText>
+                </ThemedView>
+              </ThemedView>
+            ))}
+          </View>
+
+          <View style={styles.actionsContainer}>
+            <Pressable
+              style={[styles.button, styles.completeButton, isCompleted && styles.unCompleteButton]}
+              onPress={handleToggleComplete}
+            >
+              <ThemedText style={styles.buttonText}>
+                {isCompleted ? 'علامت به عنوان تکمیل نشده' : 'تکمیل'}
+              </ThemedText>
+            </Pressable>
+            <Pressable style={styles.button} onPress={handleToggleFavorite}>
+              <IconSymbol name="heart.fill" size={24} color={isFav ? '#e74c3c' : '#fff'} />
+            </Pressable>
+          </View>
+        </ScrollView>
+      </View>
     </BendedRoad>
   );
 }
