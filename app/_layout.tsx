@@ -71,6 +71,7 @@ export default function RootLayout() {
             <Stack.Screen name="category/[cat_id]" options={{ title: 'فهرست اشعار' }} />
             <Stack.Screen name="reading/[poem_id]" options={{ title: '' }} />
             <Stack.Screen name="scenario/[cat_id]" options={{ title: 'Scenario' }} />
+            <Stack.Screen name="Info" options={{ title: 'راهنما' }} />
             <Stack.Screen name="favorites" options={{ title: 'علاقه‌مندی‌ها' }} />
             <Stack.Screen name="+not-found" />
           </Stack>

@@ -90,9 +90,14 @@ export default function ProfileScreen() {
           <ThemedText type="title" style={{ paddingTop: 10 }}>اشعار تکمیل شده</ThemedText>
         </ThemedView>
 
-        <Pressable style={styles.favoritesButton} onPress={() => router.push('/favorites')}>
-          <ThemedText style={styles.favoritesButtonText}>علاقه‌مندی‌ها</ThemedText>
-        </Pressable>
+        <View style={styles.navigationButtons}>
+          <Pressable style={styles.navButton} onPress={() => router.push('/favorites')}>
+            <ThemedText style={styles.favoritesButtonText}>علاقه‌مندی‌ها</ThemedText>
+          </Pressable>
+          <Pressable style={styles.navButton} onPress={() => router.push('/Info')}>
+            <ThemedText style={styles.favoritesButtonText}>راهنما</ThemedText>
+          </Pressable>
+        </View>
 
         {poems.map((poem) => (
           <Pressable key={poem.id} onPress={() => router.push(`/reading/${poem.id}`)}>
@@ -144,12 +149,18 @@ const styles = StyleSheet.create({
     textAlign: 'center',
     marginTop: 4,
   },
-  favoritesButton: {
+  navigationButtons: {
+    flexDirection: 'row-reverse',
+    justifyContent: 'space-between',
+    marginBottom: 24,
+    gap: 16,
+  },
+  navButton: {
     backgroundColor: '#3498db',
     padding: 16,
     borderRadius: 8,
     alignItems: 'center',
-    marginBottom: 24,
+    flex: 1,
   },
   favoritesButtonText: {
     color: '#f0f0f0',
