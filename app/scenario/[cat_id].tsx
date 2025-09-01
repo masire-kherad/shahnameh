@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { View, Text, StyleSheet, Pressable } from 'react-native';
 import { useLocalSearchParams, router, Stack } from 'expo-router';
 import LottieView from 'lottie-react-native';
@@ -33,16 +33,16 @@ const ScenarioScreen = () => {
     }
   }, [cat_id]);
 
-  const handleGameEnd = async (gameEnding: Ending, earnings: number) => {
+  const handleGameEnd = useCallback(async (gameEnding: Ending, earnings: number) => {
     await increaseBalance(earnings);
     router.back();
-  };
+  }, [increaseBalance]);
 
-  const handleStageChange = (stageId: number | string) => {
+  const handleStageChange = useCallback((stageId: number | string) => {
     const stageIndex = scenario?.stages.findIndex((s) => s.id === stageId) || 0;
     const progress = scenario ? (stageIndex + 1) / scenario.stages.length : 0;
     setProgress(progress);
-  };
+  }, [scenario]);
 
   if (!scenario || !animation || isCurrencyLoading) {
     return (
