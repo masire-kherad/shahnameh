@@ -10,6 +10,7 @@ import BendedRoad from '@/components/BendedRoad';
 import { defaultImage, getCategoryImage } from '@/services/personLoader';
 import { useProgress } from '@/hooks/useProgress';
 import HorizontalProgressBar from '@/components/HorizontalProgressBar';
+import AudioPlayer from '@/components/AudioPlayer';
 
 type Couplet = {
   line1: string;
@@ -145,6 +146,9 @@ export default function ReadingScreen() {
             </Pressable>
           </View>
         </ScrollView>
+        <View style={styles.audioPlayerContainer}>
+          <AudioPlayer uri="https://api.ganjoor.net/api/audio/file/13743.mp3" />
+        </View>
       </View>
     </BendedRoad>
   );
@@ -224,5 +228,11 @@ const styles = StyleSheet.create({
     color: '#fff',
     fontSize: 18,
     fontWeight: 'bold',
+  },
+  audioPlayerContainer: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
   },
 });
