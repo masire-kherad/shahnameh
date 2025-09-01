@@ -57,7 +57,7 @@ export default function CategoryScreen() {
           })}
         </ScrollView>
         <Pressable style={styles.playButton} onPress={handlePlayPress}>
-          <ThemedText style={styles.playButtonText}>Play</ThemedText>
+          <ThemedText style={styles.playButtonText}>بازی</ThemedText>
         </Pressable>
       </View>
     </BendedRoad>
@@ -74,6 +74,7 @@ const styles = StyleSheet.create({
   },
   scrollViewContent: {
     padding: 16,
+    paddingBottom: 80, // Add padding to the bottom to avoid overlap with the button
   },
   poemItem: {
     padding: 16,
@@ -92,17 +93,13 @@ const styles = StyleSheet.create({
   },
   playButton: {
     position: 'absolute',
-    bottom: 32,
-    right: 32,
+    bottom: 0,
+    left: 0,
+    right: 0,
     backgroundColor: '#f0f0f0',
-    paddingVertical: 16,
-    paddingHorizontal: 32,
-    borderRadius: 32,
-    elevation: 4,
-    shadowColor: '#000',
-    shadowOffset: { width: 0, height: 2 },
-    shadowOpacity: 0.25,
-    shadowRadius: 3.84,
+    paddingVertical: 24,
+    alignItems: 'center',
+    justifyContent: 'center',
   },
   playButtonText: {
     fontSize: 18,

@@ -1,7 +1,7 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, Pressable } from 'react-native';
 import { useLocalSearchParams, router, Stack } from 'expo-router';
-import LottieAnimation from '@/components/LottieAnimation';
+import LottieView from 'lottie-react-native';
 import ScenarioEngine from '@/components/game/ScenarioEngine';
 import { getCharacterAnimation } from '@/services/personLoader';
 import { useCurrency } from '@/hooks/useCurrency';
@@ -14,11 +14,10 @@ import { Category } from '@/types/shahname';
 
 const ScenarioScreen = () => {
   const { cat_id } = useLocalSearchParams();
-  const { balance, isLoading: isCurrencyLoading } = useCurrency();
+  const { balance, increaseBalance, isLoading: isCurrencyLoading } = useCurrency();
   const [scenario, setScenario] = useState<Scenario | null>(null);
   const [animation, setAnimation] = useState<any>(null);
   const [progress, setProgress] = useState(0);
-  const [ending, setEnding] = useState<Ending | null>(null);
   const [category, setCategory] = useState<Category | null>(null);
 
 
@@ -34,13 +33,9 @@ const ScenarioScreen = () => {
     }
   }, [cat_id]);
 
-  const handleGameEnd = (gameEnding: Ending) => {
-    setEnding(gameEnding);
-  };
-
-  const handleRestart = () => {
-    setEnding(null);
-    setProgress(0);
+  const handleGameEnd = async (gameEnding: Ending, earnings: number) => {
+    await increaseBalance(earnings);
+    router.back();
   };
 
   const handleStageChange = (stageId: number | string) => {
@@ -57,23 +52,18 @@ const ScenarioScreen = () => {
     );
   }
 
-  if (ending) {
-    return (
-      <View style={styles.endingContainer}>
-        <ThemedText style={styles.endingTitle}>{ending.title}</ThemedText>
-        <ThemedText style={styles.endingText}>{ending.text}</ThemedText>
-        <Pressable onPress={handleRestart} style={styles.restartButton}>
-          <Text style={styles.restartButtonText}>Restart</Text>
-        </Pressable>
-      </View>
-    );
-  }
-
   return (
-    <LottieAnimation animationPath={animation} progress={progress}>
+    <View style={styles.container}>
       <Stack.Screen options={{ title: category?.text || "Scenario" }} />
-      <View style={styles.container}>
-        <View style={styles.overlay} />
+      <View style={styles.animationContainer}>
+        <LottieView
+          source={animation}
+          progress={progress}
+          style={styles.animation}
+          loop={false}
+        />
+      </View>
+      <View style={styles.gameContainer}>
         <View style={styles.currencyContainer}>
           <ThemedText style={styles.currencyText}>زر: {balance}</ThemedText>
         </View>
@@ -83,7 +73,7 @@ const ScenarioScreen = () => {
           onStageChange={handleStageChange}
         />
       </View>
-    </LottieAnimation>
+    </View>
   );
 };
 
@@ -95,10 +85,18 @@ const styles = StyleSheet.create({
   },
   container: {
     flex: 1,
+    backgroundColor: '#1a1a1a',
   },
-  overlay: {
-    ...StyleSheet.absoluteFillObject,
-    backgroundColor: 'rgba(0,0,0,0.5)',
+  animationContainer: {
+    flex: 1,
+  },
+  animation: {
+    width: '100%',
+    height: '100%',
+  },
+  gameContainer: {
+    flex: 1,
+    padding: 16,
   },
   currencyContainer: {
     position: 'absolute',

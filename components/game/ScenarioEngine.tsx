@@ -7,7 +7,7 @@ import { useCurrency } from '@/hooks/useCurrency';
 
 interface ScenarioEngineProps {
   scenario: Scenario;
-  onGameEnd: (ending: any) => void;
+  onGameEnd: (ending: any, earnings: number) => void;
   onStageChange: (stageId: number | string) => void;
 }
 
@@ -18,7 +18,7 @@ const ScenarioEngine: React.FC<ScenarioEngineProps> = ({
 }) => {
   const [currentStageId, setCurrentStageId] = useState<number | string>(1);
   const [currentStage, setCurrentStage] = useState<Stage | null>(null);
-  const { increaseBalance } = useCurrency();
+  const [correctAnswers, setCorrectAnswers] = useState(0);
 
   useEffect(() => {
     const stage = scenario.stages.find((s) => s.id === currentStageId);
@@ -28,18 +28,18 @@ const ScenarioEngine: React.FC<ScenarioEngineProps> = ({
     } else {
       const ending = scenario.endings[currentStageId];
       if (ending) {
-        onGameEnd(ending);
+        onGameEnd(ending, correctAnswers * 10);
       }
     }
-  }, [currentStageId, scenario, onGameEnd, onStageChange]);
+  }, [currentStageId, scenario, onGameEnd, onStageChange, correctAnswers]);
 
   const handleChoice = (nextStageId: number | string) => {
     setCurrentStageId(nextStageId);
   };
 
-  const handleAnswer = async (isCorrect: boolean) => {
+  const handleAnswer = (isCorrect: boolean) => {
     if (isCorrect) {
-      await increaseBalance(10); // Award 10 "zar" for a correct answer
+      setCorrectAnswers(correctAnswers + 1);
       if (currentStage?.on_correct) {
         setCurrentStageId(currentStage.on_correct);
       }
