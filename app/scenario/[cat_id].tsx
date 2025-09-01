@@ -15,7 +15,8 @@ import { Category } from '@/types/shahname';
 
 
 const ScenarioScreen = () => {
-  const colorScheme = useColorScheme();
+  const colorScheme = useColorScheme() ?? 'light';
+  const styles = createStyles(colorScheme);
   const { cat_id } = useLocalSearchParams();
   const { balance, increaseBalance, isLoading: isCurrencyLoading } = useCurrency();
   const [scenario, setScenario] = useState<Scenario | null>(null);
@@ -62,7 +63,7 @@ const ScenarioScreen = () => {
 
   if (ending) {
     return (
-      <View style={[styles.endingContainer, { backgroundColor: Colors[colorScheme ?? 'light'].background }]}>
+      <View style={styles.endingContainer}>
         <ThemedText style={styles.endingTitle}>{ending.title}</ThemedText>
         <ThemedText style={styles.endingText}>{ending.text}</ThemedText>
         <ThemedText style={styles.earningsText}>شما {sessionEarnings} زر به دست آوردید</ThemedText>
@@ -74,7 +75,7 @@ const ScenarioScreen = () => {
   }
 
   return (
-    <View style={[styles.container, { backgroundColor: Colors[colorScheme ?? 'light'].background }]}>
+    <View style={styles.container}>
       <Stack.Screen options={{ title: category?.text || "Scenario" }} />
       <View style={styles.animationContainer}>
         <LottieView
@@ -89,21 +90,23 @@ const ScenarioScreen = () => {
           scenario={scenario}
           onGameEnd={handleGameEnd}
           onStageChange={handleStageChange}
-          colorScheme={colorScheme ?? 'light'}
+          colorScheme={colorScheme}
         />
       </View>
     </View>
   );
 };
 
-const styles = StyleSheet.create({
+const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
   loadingContainer: {
     flex: 1,
     justifyContent: 'center',
     alignItems: 'center',
+    backgroundColor: Colors[colorScheme].background,
   },
   container: {
     flex: 1,
+    backgroundColor: Colors[colorScheme].background,
   },
   animationContainer: {
     flex: 1,
@@ -121,6 +124,7 @@ const styles = StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 16,
+    backgroundColor: Colors[colorScheme].background,
   },
   endingTitle: {
     fontSize: 24,
@@ -140,14 +144,14 @@ const styles = StyleSheet.create({
     marginBottom: 32,
   },
   returnButton: {
-    backgroundColor: Colors[colorScheme ?? 'light'].tint,
+    backgroundColor: Colors[colorScheme].tint,
     paddingVertical: 12,
     paddingHorizontal: 32,
     borderRadius: 8,
   },
   returnButtonText: {
     fontSize: 16,
-    color: Colors[colorScheme ?? 'light'].background,
+    color: Colors[colorScheme].background,
     fontWeight: 'bold',
   },
 });
