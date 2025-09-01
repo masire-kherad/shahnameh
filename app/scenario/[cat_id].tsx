@@ -127,13 +127,11 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 16,
     textAlign: 'center',
-    color: '#f0f0f0',
   },
   endingText: {
     fontSize: 18,
     textAlign: 'center',
     marginBottom: 24,
-    color: '#f0f0f0',
   },
   earningsText: {
     fontSize: 20,
@@ -142,14 +140,14 @@ const styles = StyleSheet.create({
     marginBottom: 32,
   },
   returnButton: {
-    backgroundColor: '#f0f0f0',
+    backgroundColor: Colors[colorScheme ?? 'light'].tint,
     paddingVertical: 12,
     paddingHorizontal: 32,
     borderRadius: 8,
   },
   returnButtonText: {
     fontSize: 16,
-    color: '#1a1a1a',
+    color: Colors[colorScheme ?? 'light'].background,
     fontWeight: 'bold',
   },
 });

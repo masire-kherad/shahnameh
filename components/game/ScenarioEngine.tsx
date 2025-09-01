@@ -102,10 +102,12 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     textAlign: 'center',
   },
   choiceButton: {
-    backgroundColor: Colors[colorScheme].background + 'aa',
-    padding: 12,
-    borderRadius: 8,
-    marginBottom: 8,
+    backgroundColor: Colors[colorScheme].background,
+    borderWidth: 1,
+    borderColor: Colors[colorScheme].tint,
+    padding: 16,
+    borderRadius: 16,
+    marginBottom: 12,
   },
   choiceText: {
     fontSize: 16,
