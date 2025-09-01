@@ -19,6 +19,8 @@ const ScenarioScreen = () => {
   const [animation, setAnimation] = useState<any>(null);
   const [progress, setProgress] = useState(0);
   const [category, setCategory] = useState<Category | null>(null);
+  const [ending, setEnding] = useState<Ending | null>(null);
+  const [sessionEarnings, setSessionEarnings] = useState(0);
 
 
   useEffect(() => {
@@ -34,8 +36,11 @@ const ScenarioScreen = () => {
   }, [cat_id]);
 
   const handleGameEnd = useCallback(async (gameEnding: Ending, earnings: number) => {
-    await increaseBalance(earnings);
-    router.back();
+    if (earnings > 0) {
+      await increaseBalance(earnings);
+    }
+    setEnding(gameEnding);
+    setSessionEarnings(earnings);
   }, [increaseBalance]);
 
   const handleStageChange = useCallback((stageId: number | string) => {
@@ -48,6 +53,19 @@ const ScenarioScreen = () => {
     return (
       <View style={styles.loadingContainer}>
         <Text>Loading...</Text>
+      </View>
+    );
+  }
+
+  if (ending) {
+    return (
+      <View style={styles.endingContainer}>
+        <ThemedText style={styles.endingTitle}>{ending.title}</ThemedText>
+        <ThemedText style={styles.endingText}>{ending.text}</ThemedText>
+        <ThemedText style={styles.earningsText}>شما {sessionEarnings} زر به دست آوردید</ThemedText>
+        <Pressable onPress={() => router.back()} style={styles.returnButton}>
+          <Text style={styles.returnButtonText}>بازگشت</Text>
+        </Pressable>
       </View>
     );
   }
@@ -131,12 +149,19 @@ const styles = StyleSheet.create({
     marginBottom: 24,
     color: '#f0f0f0',
   },
-  restartButton: {
+  earningsText: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#ffd700', // Gold color for earnings
+    marginBottom: 32,
+  },
+  returnButton: {
     backgroundColor: '#f0f0f0',
-    padding: 12,
+    paddingVertical: 12,
+    paddingHorizontal: 32,
     borderRadius: 8,
   },
-  restartButtonText: {
+  returnButtonText: {
     fontSize: 16,
     color: '#1a1a1a',
     fontWeight: 'bold',
