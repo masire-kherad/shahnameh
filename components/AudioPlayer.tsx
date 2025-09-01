@@ -1,4 +1,4 @@
-import React, { useState } from 'react';
+import React, { useState, useMemo } from 'react';
 import { View, Pressable, StyleSheet, Text } from 'react-native';
 import { useAudioPlayer, useAudioPlayerStatus } from 'expo-audio';
 import Slider from '@react-native-community/slider';
@@ -9,7 +9,8 @@ interface AudioPlayerProps {
 }
 
 const AudioPlayer: React.FC<AudioPlayerProps> = ({ uri }) => {
-  const player = useAudioPlayer({ uri }, 250); // Update status every 250ms
+  const source = useMemo(() => ({ uri }), [uri]);
+  const player = useAudioPlayer(source, 250); // Update status every 250ms
   const status = useAudioPlayerStatus(player);
   const [isSeeking, setIsSeeking] = useState(false);
   const [seekPosition, setSeekPosition] = useState(0);
