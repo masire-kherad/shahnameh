@@ -89,6 +89,7 @@ const ScenarioScreen = () => {
           scenario={scenario}
           onGameEnd={handleGameEnd}
           onStageChange={handleStageChange}
+          colorScheme={colorScheme ?? 'light'}
         />
       </View>
     </View>

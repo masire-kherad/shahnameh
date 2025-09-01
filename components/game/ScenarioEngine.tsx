@@ -3,19 +3,22 @@ import { View, Text, Pressable, StyleSheet, ScrollView } from 'react-native';
 import { ThemedText } from '@/components/ThemedText';
 import { Scenario, Stage, Choice } from '@/types/shahname';
 import QuizQuestion from './QuizQuestion';
-import { useCurrency } from '@/hooks/useCurrency';
+import { Colors } from '@/constants/Colors';
 
 interface ScenarioEngineProps {
   scenario: Scenario;
   onGameEnd: (ending: any, earnings: number) => void;
   onStageChange: (stageId: number | string) => void;
+  colorScheme: 'light' | 'dark';
 }
 
 const ScenarioEngine: React.FC<ScenarioEngineProps> = ({
   scenario,
   onGameEnd,
   onStageChange,
+  colorScheme,
 }) => {
+  const styles = createStyles(colorScheme);
   const [currentStageId, setCurrentStageId] = useState<number | string>(1);
   const [currentStage, setCurrentStage] = useState<Stage | null>(null);
   const [correctAnswers, setCorrectAnswers] = useState(0);
@@ -63,6 +66,7 @@ const ScenarioEngine: React.FC<ScenarioEngineProps> = ({
           question={currentStage.question!}
           options={currentStage.options!}
           onAnswer={handleAnswer}
+          colorScheme={colorScheme}
         />
       ) : (
         currentStage.choices?.map((choice, index) => (
@@ -71,7 +75,7 @@ const ScenarioEngine: React.FC<ScenarioEngineProps> = ({
             onPress={() => handleChoice(choice.next_stage)}
             style={styles.choiceButton}
           >
-            <Text style={styles.choiceText}>{choice.option}</Text>
+            <ThemedText style={styles.choiceText}>{choice.option}</ThemedText>
           </Pressable>
         ))
       )}
@@ -79,7 +83,7 @@ const ScenarioEngine: React.FC<ScenarioEngineProps> = ({
   );
 };
 
-const styles = StyleSheet.create({
+const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
   container: {
     flex: 1,
   },
@@ -91,23 +95,20 @@ const styles = StyleSheet.create({
     fontWeight: 'bold',
     marginBottom: 16,
     textAlign: 'center',
-    color: '#f0f0f0',
   },
   text: {
     fontSize: 18,
     marginBottom: 24,
     textAlign: 'center',
-    color: '#f0f0f0',
   },
   choiceButton: {
-    backgroundColor: 'rgba(255,255,255,0.2)',
+    backgroundColor: Colors[colorScheme].background + 'aa',
     padding: 12,
     borderRadius: 8,
     marginBottom: 8,
   },
   choiceText: {
     fontSize: 16,
-    color: '#f0f0f0',
     textAlign: 'center',
   },
 });
