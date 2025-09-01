@@ -8,6 +8,7 @@ import { useCurrency } from '@/hooks/useCurrency';
 import { Scenario, Ending } from '@/types/shahname';
 import { ThemedText } from '@/components/ThemedText';
 import { getCategories } from '@/services/dataService';
+import { getScenario } from '@/services/scenarioLoader';
 import { Category } from '@/types/shahname';
 
 
@@ -26,7 +27,7 @@ const ScenarioScreen = () => {
     const currentCategory = categories.find((c) => c.id === Number(cat_id));
     if (currentCategory) {
         setCategory(currentCategory)
-        const scenarioData = require(`@/assets/db/Scenarios/${currentCategory.image}.json`);
+        const scenarioData = getScenario(currentCategory.image);
         setScenario(scenarioData);
         const animationPath = getCharacterAnimation(currentCategory);
         setAnimation(animationPath);
