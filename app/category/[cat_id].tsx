@@ -56,9 +56,11 @@ export default function CategoryScreen() {
             );
           })}
         </ScrollView>
+        {categoryName !== 'آغاز کتاب' && (
         <Pressable style={styles.playButton} onPress={handlePlayPress}>
           <ThemedText style={styles.playButtonText}>بازی</ThemedText>
         </Pressable>
+        )}
       </View>
     </BendedRoad>
   );
