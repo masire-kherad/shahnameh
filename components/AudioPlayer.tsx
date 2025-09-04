@@ -78,15 +78,11 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ uri }) => {
   return (
     <View style={styles.container}>
       <Pressable onPress={handlePlayPause} disabled={isLoading || disabled}>
-        {Platform.OS === 'web' ? (
-          <Text style={styles.webButton}>{isPlaying ? 'Pause' : 'Play'}</Text>
-        ) : (
           <IconSymbol
             name={isPlaying ? 'pause.circle.fill' : 'play.circle.fill'}
             size={40}
             color={isLoading || disabled ? '#ccc' : '#fff'}
           />
-        )}
       </Pressable>
       <View style={styles.sliderContainer}>
         <Text style={styles.timeText}>{formatTime(isSeeking ? seekPosition : position)}</Text>

@@ -1,13 +1,13 @@
-import React, { useEffect, useState } from 'react';
-import { StyleSheet, View, Pressable, Image, ImageBackground, useColorScheme, Platform } from 'react-native';
-import { BlurView } from 'expo-blur';
-import { ThemedText } from './ThemedText';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { Colors } from '@/constants/Colors';
-import { IconSymbol } from './ui/IconSymbol';
-import { router, usePathname } from 'expo-router';
-import { getUserInfo } from '@/services/dataService';
 import { useCurrency } from '@/hooks/useCurrency';
+import { getUserInfo } from '@/services/dataService';
+import { BlurView } from 'expo-blur';
+import { router, usePathname } from 'expo-router';
+import React, { useEffect, useState } from 'react';
+import { Image, ImageBackground, Platform, Pressable, StyleSheet, useColorScheme, View } from 'react-native';
+import { useSafeAreaInsets } from 'react-native-safe-area-context';
+import { ThemedText } from './ThemedText';
+import { IconSymbol } from './ui/IconSymbol';
 
 interface StyledHeaderProps {
   title: string;
@@ -54,11 +54,6 @@ export default function StyledHeader({ title }: StyledHeaderProps) {
             <ThemedText type="title" style={{ color: Colors[colorScheme ?? 'light'].text, fontSize: 20 }}>{title}</ThemedText>
         </View>
         <View style={styles.actionsContainer}>
-            {!isCurrencyLoading && (
-              <View style={styles.currencyContainer}>
-                <ThemedText style={styles.currencyText}>{balance} زر</ThemedText>
-              </View>
-            )}
             {pathname !== '/profile' && pathname !== '/favorites' && (
               <Pressable onPress={handleProfilePress}>
                 {userInfo && getGenderImage() ? (
@@ -67,6 +62,11 @@ export default function StyledHeader({ title }: StyledHeaderProps) {
                   <IconSymbol name="person.fill" size={28} color={Colors[colorScheme ?? 'light'].text} />
                 )}
               </Pressable>
+            )}
+            {!isCurrencyLoading && (
+              <View style={styles.currencyContainer}>
+                <ThemedText style={styles.currencyText}>{balance} زر</ThemedText>
+              </View>
             )}
         </View>
       </BlurView>
