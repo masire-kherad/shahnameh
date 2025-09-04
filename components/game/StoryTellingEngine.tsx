@@ -1,6 +1,6 @@
 import React, { useState, useEffect } from 'react';
 import { View, Text, StyleSheet, Animated, Image } from 'react-native';
-import { Audio } from 'expo-audio';
+import { AudioPlayer, createAudioPlayer } from 'expo-audio';
 import { Stage } from '@/types/shahname';
 
 interface StoryTellingEngineProps {
@@ -10,11 +10,13 @@ interface StoryTellingEngineProps {
 
 const StoryTellingEngine: React.FC<StoryTellingEngineProps> = ({ stage, onTextAnimationComplete }) => {
   const [fadeAnim] = useState(new Animated.Value(0));
-  const [sound, setSound] = useState<Audio.Sound>();
   const [sentences, setSentences] = useState<string[]>([]);
   const [animatedSentences, setAnimatedSentences] = useState<Animated.Value[]>([]);
 
   useEffect(() => {
+    let scenePlayer: AudioPlayer | null = null;
+    let quizPlayer: AudioPlayer | null = null;
+
     // Reset animations and sentences when stage changes
     fadeAnim.setValue(0);
     setSentences([]);
@@ -28,15 +30,14 @@ const StoryTellingEngine: React.FC<StoryTellingEngineProps> = ({ stage, onTextAn
     }).start();
 
     // Play sound effect
-    const playSound = async () => {
+    const playSound = () => {
       if (stage.sound) {
-        const { sound } = await Audio.Sound.createAsync({ uri: stage.sound });
-        setSound(sound);
-        await sound.playAsync();
+        scenePlayer = createAudioPlayer({ uri: stage.sound });
+        scenePlayer.play();
       }
       if (stage.type === 'quiz' && stage.quizSound) {
-        const { sound: quizSound } = await Audio.Sound.createAsync({ uri: stage.quizSound });
-        await quizSound.playAsync();
+        quizPlayer = createAudioPlayer({ uri: stage.quizSound });
+        quizPlayer.play();
       }
     };
 
@@ -58,7 +59,8 @@ const StoryTellingEngine: React.FC<StoryTellingEngineProps> = ({ stage, onTextAn
     });
 
     return () => {
-      sound?.unloadAsync();
+      scenePlayer?.release();
+      quizPlayer?.release();
     };
   }, [stage, onTextAnimationComplete]);
 
