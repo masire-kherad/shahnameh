@@ -1,19 +1,34 @@
-import React, { useState, useMemo } from 'react';
-import { View, Pressable, StyleSheet, Text } from 'react-native';
-import { useAudioPlayer, useAudioPlayerStatus } from 'expo-audio';
+import React, { useState, useMemo, useEffect } from 'react';
+import { View, Pressable, StyleSheet, Text, Platform } from 'react-native';
+import { useAudioPlayer, useAudioPlayerStatus, useAudioPlayerEvents } from 'expo-audio';
 import Slider from '@react-native-community/slider';
 import { IconSymbol } from './ui/IconSymbol';
 
 interface AudioPlayerProps {
-  uri: string;
+  uri: string | null | undefined;
 }
 
 const AudioPlayer: React.FC<AudioPlayerProps> = ({ uri }) => {
-  const source = useMemo(() => ({ uri }), [uri]);
-  const player = useAudioPlayer(source, 250); // Update status every 250ms
+  const source = useMemo(() => (uri ? { uri } : null), [uri]);
+  const player = useAudioPlayer(source, 250);
   const status = useAudioPlayerStatus(player);
   const [isSeeking, setIsSeeking] = useState(false);
   const [seekPosition, setSeekPosition] = useState(0);
+  const [sliderPosition, setSliderPosition] = useState(0);
+
+  useEffect(() => {
+    if (!isSeeking) {
+      setSliderPosition(status.currentTime ?? 0);
+    }
+  }, [status.currentTime, isSeeking]);
+
+  useAudioPlayerEvents(player, (event) => {
+    if (event.type === 'timeUpdate') {
+      if (!isSeeking) {
+        setSliderPosition(event.currentTime);
+      }
+    }
+  });
 
   const formatTime = (seconds: number) => {
     if (isNaN(seconds)) seconds = 0;
@@ -23,10 +38,11 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ uri }) => {
   };
 
   const handlePlayPause = () => {
+    if (!uri) return;
     if (status.playing) {
       player.pause();
     } else {
-      if (status.currentTime === status.duration) {
+      if (status.isLoaded && status.duration && status.currentTime === status.duration) {
         player.seekTo(0);
       }
       player.play();
@@ -34,46 +50,63 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ uri }) => {
   };
 
   const handleSlidingStart = (value: number) => {
+    if (!uri) return;
     setIsSeeking(true);
     setSeekPosition(value);
   };
 
   const handleValueChange = (value: number) => {
+    if (!uri) return;
     setSeekPosition(value);
   };
 
   const handleSlidingComplete = (value: number) => {
+    if (!uri) return;
     setIsSeeking(false);
     player.seekTo(value);
   };
 
-  const isLoading = !status.isLoaded;
+  const disabled = !uri;
+  const isLoading = status.isLoading;
   const isPlaying = status.playing;
   const duration = status.duration || 0;
   const position = status.currentTime || 0;
 
+  if (disabled) {
+    return (
+      <View style={[styles.container, styles.disabledContainer]}>
+        <Text style={styles.disabledText}>صوت این بخش هنوز آماده نشده است</Text>
+      </View>
+    );
+  }
+
   return (
     <View style={styles.container}>
-      <Pressable onPress={handlePlayPause} disabled={isLoading}>
-        <IconSymbol
-          name={isPlaying ? 'pause.circle.fill' : 'play.circle.fill'}
-          size={40}
-          color={isLoading ? '#ccc' : '#fff'}
-        />
+      <Pressable onPress={handlePlayPause} disabled={isLoading || disabled}>
+        {Platform.OS === 'web' ? (
+          <Text style={styles.webButton}>{isPlaying ? 'Pause' : 'Play'}</Text>
+        ) : (
+          <IconSymbol
+            name={isPlaying ? 'pause.circle.fill' : 'play.circle.fill'}
+            size={40}
+            color={isLoading || disabled ? '#ccc' : '#fff'}
+          />
+        )}
       </Pressable>
       <View style={styles.sliderContainer}>
-        <Text style={styles.timeText}>{formatTime(isSeeking ? seekPosition : position)}</Text>
+        <Text style={styles.timeText}>{formatTime(sliderPosition)}</Text>
         <Slider
           style={styles.slider}
           minimumValue={0}
           maximumValue={duration}
-          value={isSeeking ? seekPosition : position}
+          value={sliderPosition}
           onSlidingStart={handleSlidingStart}
           onValueChange={handleValueChange}
           onSlidingComplete={handleSlidingComplete}
           minimumTrackTintColor="#FFFFFF"
           maximumTrackTintColor="#AAAAAA"
           thumbTintColor="#FFFFFF"
+          disabled={disabled}
         />
         <Text style={styles.timeText}>{formatTime(duration)}</Text>
       </View>
@@ -82,6 +115,20 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ uri }) => {
 };
 
 const styles = StyleSheet.create({
+  webButton: {
+    color: '#fff',
+    fontSize: 18,
+    padding: 10,
+  },
+  disabledContainer: {
+    justifyContent: 'center',
+    alignItems: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+  },
+  disabledText: {
+    color: '#ccc',
+    fontSize: 16,
+  },
   container: {
     height: 80,
     width: '100%',

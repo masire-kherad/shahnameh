@@ -3,7 +3,7 @@ import { StyleSheet, ScrollView, View, Pressable, ImageSourcePropType, NativeSyn
 import { useLocalSearchParams, Stack } from 'expo-router';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-import { getPoemWithSummary, getCategories } from '@/services/dataService';
+import { getPoemWithSummary, getCategories, getPoemAudio } from '@/services/dataService';
 import { Poem, } from '@/types/shahname';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 import BendedRoad from '@/components/BendedRoad';
@@ -23,6 +23,7 @@ export default function ReadingScreen() {
   const { poem_id } = useLocalSearchParams();
   const [poem, setPoem] = useState<Poem | null>(null);
   const [couplets, setCouplets] = useState<Couplet[]>([]);
+  const [audio, setAudio] = useState<any>(null);
   const [categoryImage, setCategoryImage] = useState<ImageSourcePropType>(defaultImage);
   const { completedPoems, favoritePoems, markPoemAsComplete, unmarkPoemAsComplete, addFavorite, removeFavorite } =
     useProgress();
@@ -39,6 +40,10 @@ export default function ReadingScreen() {
       }
 
       const currentPoem = getPoemWithSummary(poemIdNum);
+      const audio = getPoemAudio(poemIdNum);
+      if (audio) {
+        setAudio(audio);
+      }
 
       if (currentPoem) {
         setPoem(currentPoem);
@@ -152,7 +157,7 @@ export default function ReadingScreen() {
           </View>
         </ScrollView>
         <View style={styles.audioPlayerContainer}>
-          <AudioPlayer uri="https://api.ganjoor.net/api/audio/file/13743.mp3" />
+          <AudioPlayer uri={audio?.audio_src} />
         </View>
       </View>
     </BendedRoad>
