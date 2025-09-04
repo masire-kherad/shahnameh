@@ -34,21 +34,24 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ uri }) => {
     }
   };
 
-  const handleSlidingStart = (value: number) => {
+  const handleSlidingStart = (value: any) => {
     if (!uri) return;
+    const seekValue = Platform.OS === 'web' ? value.target.value : value;
     setIsSeeking(true);
-    setSeekPosition(value);
+    setSeekPosition(seekValue);
   };
 
-  const handleValueChange = (value: number) => {
+  const handleValueChange = (value: any) => {
     if (!uri) return;
-    setSeekPosition(value);
+    const seekValue = Platform.OS === 'web' ? value.target.value : value;
+    setSeekPosition(seekValue);
   };
 
-  const handleSlidingComplete = (value: number) => {
+  const handleSlidingComplete = (value: any) => {
     if (!uri) return;
+    const seekValue = Platform.OS === 'web' ? value.target.value : value;
     setIsSeeking(false);
-    player.seekTo(value);
+    player.seekTo(seekValue);
   };
 
   const disabled = !uri;
