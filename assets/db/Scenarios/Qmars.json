@@ -6,6 +6,8 @@
       "id": 1,
       "title": "خبر دشمنی آهرمن",
       "text": "سروش به کیومرث خبر می‌دهد که دیوی سیاه از سوی آهرمن برای تخت او آمده است.",
+      "image": "https://raw.githubusercontent.com/example/repo/main/assets/images/Person/Qmars.png",
+      "sound": "https://i.ganjoor.net/a2/1321-fh.mp3",
       "choices": [
         {
           "option": "سیامک، فرزندت، را برای نبرد بفرست.",
@@ -24,6 +26,11 @@
     {
       "id": "quiz_1",
       "type": "quiz",
+      "title": "آزمون",
+      "text": "پاسخ صحیح را انتخاب کنید.",
+      "image": "https://raw.githubusercontent.com/example/repo/main/assets/images/Person/Ferdousi.png",
+      "sound": "https://i.ganjoor.net/a2/1321-fh.mp3",
+      "quizSound": "https://i.ganjoor.net/a2/1322-fh.mp3",
       "question": "بیت بعد از «کیومرث شد بر جهان کدخدای» کدام است؟",
       "options": [
         {"a": "نخستین به کوه اندرون ساخت جای", "correct": true},
@@ -38,6 +45,8 @@
       "id": 2,
       "title": "نبرد سیامک و دیو",
       "text": "سیامک بی‌زره و با پوست پلنگ آماده‌ی نبرد است.",
+      "image": "https://raw.githubusercontent.com/example/repo/main/assets/images/Person/Div.png",
+      "sound": "https://i.ganjoor.net/a2/1321-fh.mp3",
       "choices": [
         {
           "option": "به سیامک زره و سلاح بدهی.",
@@ -52,6 +61,11 @@
     {
       "id": "quiz_2",
       "type": "quiz",
+      "title": "آزمون",
+      "text": "پاسخ صحیح را انتخاب کنید.",
+      "image": "https://raw.githubusercontent.com/example/repo/main/assets/images/Person/Ferdousi.png",
+      "sound": "https://i.ganjoor.net/a2/1321-fh.mp3",
+      "quizSound": "https://i.ganjoor.net/a2/1322-fh.mp3",
       "question": "واژه‌ی «خدیو» در بیت «تبه گشت و ماند انجمن بی‌خدیو» چه معنایی دارد؟",
       "options": [
         {"a": "بی‌پادشاه", "correct": true},
@@ -66,6 +80,8 @@
       "id": 3,
       "title": "پس از مرگ سیامک",
       "text": "کیومرث در سوگ است. سروش فرمان می‌دهد برای انتقام آماده شود.",
+      "image": "https://raw.githubusercontent.com/example/repo/main/assets/images/Person/Qmars.png",
+      "sound": "https://i.ganjoor.net/a2/1321-fh.mp3",
       "choices": [
         {
           "option": "سپاه از جانوران و پریان فراهم کن.",
@@ -84,6 +100,11 @@
     {
       "id": "quiz_3",
       "type": "quiz",
+      "title": "آزمون",
+      "text": "پاسخ صحیح را انتخاب کنید.",
+      "image": "https://raw.githubusercontent.com/example/repo/main/assets/images/Person/Ferdousi.png",
+      "sound": "https://i.ganjoor.net/a2/1321-fh.mp3",
+      "quizSound": "https://i.ganjoor.net/a2/1322-fh.mp3",
       "question": "در بیت «پری و پلنگ انجمن کرد و شیر / ز درّندگان گرگ و ببر دلیر» واژه‌ی «انجمن کرد» چه معنایی دارد؟",
       "options": [
         {"a": "گرد آورد", "correct": true},
@@ -98,6 +119,8 @@
       "id": 4,
       "title": "نبرد نهایی هوشنگ",
       "text": "هوشنگ، نوه‌ی کیومرث، فرمانده سپاه می‌شود و دیو سیاه را به نبرد فرا می‌خواند.",
+      "image": "https://raw.githubusercontent.com/example/repo/main/assets/images/Person/Hooshang.png",
+      "sound": "https://i.ganjoor.net/a2/1321-fh.mp3",
       "choices": [
         {
           "option": "هوشنگ را جلو بفرستی و خود پشت سپاه بمانی.",
