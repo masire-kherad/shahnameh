@@ -1,4 +1,5 @@
 import AsyncStorage from '@react-native-async-storage/async-storage';
+import { Platform } from 'react-native';
 
 const COMPLETED_POEMS_KEY = 'completed_poems';
 
@@ -12,6 +13,9 @@ export type CompletedPoems = Record<number, boolean>;
  * @returns {Promise<CompletedPoems>} An object where keys are completed poem IDs.
  */
 export const getCompletedPoems = async (): Promise<CompletedPoems> => {
+  if (Platform.OS === 'web' && typeof window === 'undefined') {
+    return {};
+  }
   try {
     const completed = await AsyncStorage.getItem(COMPLETED_POEMS_KEY);
     return completed ? JSON.parse(completed) : {};
@@ -26,6 +30,9 @@ export const getCompletedPoems = async (): Promise<CompletedPoems> => {
  * @param {number} poemId - The ID of the poem to mark as complete.
  */
 export const markPoemAsComplete = async (poemId: number) => {
+  if (Platform.OS === 'web' && typeof window === 'undefined') {
+    return;
+  }
   try {
     const completedPoems = await getCompletedPoems();
     completedPoems[poemId] = true;
@@ -40,6 +47,9 @@ export const markPoemAsComplete = async (poemId: number) => {
  * @param {number} poemId - The ID of the poem to mark as not complete.
  */
 export const unmarkPoemAsComplete = async (poemId: number) => {
+  if (Platform.OS === 'web' && typeof window === 'undefined') {
+    return;
+  }
   try {
     const completedPoems = await getCompletedPoems();
     delete completedPoems[poemId];
@@ -54,6 +64,9 @@ const FAVORITE_POEMS_KEY = 'favorite_poems';
 export type FavoritePoems = Record<number, boolean>;
 
 export const getFavorites = async (): Promise<FavoritePoems> => {
+  if (Platform.OS === 'web' && typeof window === 'undefined') {
+    return {};
+  }
   try {
     const favorites = await AsyncStorage.getItem(FAVORITE_POEMS_KEY);
     return favorites ? JSON.parse(favorites) : {};
@@ -69,6 +82,9 @@ export const isFavorite = async (poemId: number): Promise<boolean> => {
 };
 
 export const addFavorite = async (poemId: number) => {
+  if (Platform.OS === 'web' && typeof window === 'undefined') {
+    return;
+  }
   try {
     const favorites = await getFavorites();
     favorites[poemId] = true;
@@ -79,6 +95,9 @@ export const addFavorite = async (poemId: number) => {
 };
 
 export const removeFavorite = async (poemId: number) => {
+  if (Platform.OS === 'web' && typeof window === 'undefined') {
+    return;
+  }
   try {
     const favorites = await getFavorites();
     delete favorites[poemId];
