@@ -1,6 +1,6 @@
-import React, { useState, useMemo, useEffect } from 'react';
+import React, { useState, useMemo } from 'react';
 import { View, Pressable, StyleSheet, Text, Platform } from 'react-native';
-import { useAudioPlayer, useAudioPlayerStatus, useAudioPlayerEvents } from 'expo-audio';
+import { useAudioPlayer, useAudioPlayerStatus } from 'expo-audio';
 import Slider from '@react-native-community/slider';
 import { IconSymbol } from './ui/IconSymbol';
 
@@ -10,25 +10,10 @@ interface AudioPlayerProps {
 
 const AudioPlayer: React.FC<AudioPlayerProps> = ({ uri }) => {
   const source = useMemo(() => (uri ? { uri } : null), [uri]);
-  const player = useAudioPlayer(source, 250);
+  const player = useAudioPlayer(source, 100);
   const status = useAudioPlayerStatus(player);
   const [isSeeking, setIsSeeking] = useState(false);
   const [seekPosition, setSeekPosition] = useState(0);
-  const [sliderPosition, setSliderPosition] = useState(0);
-
-  useEffect(() => {
-    if (!isSeeking) {
-      setSliderPosition(status.currentTime ?? 0);
-    }
-  }, [status.currentTime, isSeeking]);
-
-  useAudioPlayerEvents(player, (event) => {
-    if (event.type === 'timeUpdate') {
-      if (!isSeeking) {
-        setSliderPosition(event.currentTime);
-      }
-    }
-  });
 
   const formatTime = (seconds: number) => {
     if (isNaN(seconds)) seconds = 0;
@@ -94,12 +79,12 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ uri }) => {
         )}
       </Pressable>
       <View style={styles.sliderContainer}>
-        <Text style={styles.timeText}>{formatTime(sliderPosition)}</Text>
+        <Text style={styles.timeText}>{formatTime(isSeeking ? seekPosition : position)}</Text>
         <Slider
           style={styles.slider}
           minimumValue={0}
           maximumValue={duration}
-          value={sliderPosition}
+          value={isSeeking ? seekPosition : position}
           onSlidingStart={handleSlidingStart}
           onValueChange={handleValueChange}
           onSlidingComplete={handleSlidingComplete}
