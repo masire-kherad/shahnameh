@@ -3,6 +3,17 @@ import { Category, Poem, Poet, Verse } from '@/types/shahname';
 const poets: Poet[] = require('../assets/db/poet.json');
 const categories: Category[] = require('../assets/db/cat.json');
 const poems: Poem[] = require('../assets/db/poem.json');
+const audios: any[] = require('../assets/db/audio.json');
+
+export const getPoemAudio = (poemId: number) => {
+  const audio = audios.find(p => p.id === poemId);
+  if (!audio) {
+    return null;
+  }
+
+  return audio;
+};
+
 export const getShahnamehData = () => {
   return {
     poets,
