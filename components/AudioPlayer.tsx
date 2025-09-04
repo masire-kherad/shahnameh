@@ -14,6 +14,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ uri }) => {
   const status = useAudioPlayerStatus(player);
   const [isSeeking, setIsSeeking] = useState(false);
   const [seekPosition, setSeekPosition] = useState(0);
+  const [playbackRate, setPlaybackRate] = useState(1);
 
   const formatTime = (seconds: number) => {
     if (isNaN(seconds)) seconds = 0;
@@ -49,6 +50,15 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ uri }) => {
     if (!uri) return;
     setIsSeeking(false);
     player.seekTo(value);
+  };
+
+  const handleRateChange = () => {
+    const rates = [1, 1.5, 2, 4];
+    const currentIndex = rates.indexOf(playbackRate);
+    const nextIndex = (currentIndex + 1) % rates.length;
+    const newRate = rates[nextIndex];
+    setPlaybackRate(newRate);
+    player.setPlaybackRate(newRate);
   };
 
   const disabled = !uri;
@@ -95,11 +105,24 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ uri }) => {
         />
         <Text style={styles.timeText}>{formatTime(duration)}</Text>
       </View>
+      <Pressable onPress={handleRateChange} style={styles.speedButton}>
+        <Text style={styles.speedButtonText}>{playbackRate}x</Text>
+      </Pressable>
     </View>
   );
 };
 
 const styles = StyleSheet.create({
+  speedButton: {
+    padding: 8,
+    marginLeft: 16,
+    backgroundColor: '#555',
+    borderRadius: 5,
+  },
+  speedButtonText: {
+    color: '#fff',
+    fontSize: 14,
+  },
   webButton: {
     color: '#fff',
     fontSize: 18,
