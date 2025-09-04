@@ -1,7 +1,7 @@
-import React, { useState, useMemo } from 'react';
-import { View, Pressable, StyleSheet, Text, Platform } from 'react-native';
-import { useAudioPlayer, useAudioPlayerStatus } from 'expo-audio';
 import Slider from '@react-native-community/slider';
+import { useAudioPlayer, useAudioPlayerStatus } from 'expo-audio';
+import React, { useMemo, useState } from 'react';
+import { Platform, Pressable, StyleSheet, Text, View } from 'react-native';
 import { IconSymbol } from './ui/IconSymbol';
 
 interface AudioPlayerProps {
@@ -71,15 +71,11 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ uri }) => {
   return (
     <View style={styles.container}>
       <Pressable onPress={handlePlayPause} disabled={isLoading || disabled}>
-        {Platform.OS === 'web' ? (
-          <Text style={styles.webButton}>{isPlaying ? 'Pause' : 'Play'}</Text>
-        ) : (
           <IconSymbol
             name={isPlaying ? 'pause.circle.fill' : 'play.circle.fill'}
             size={40}
             color={isLoading || disabled ? '#ccc' : '#fff'}
           />
-        )}
       </Pressable>
       <View style={styles.sliderContainer}>
         <Text style={styles.timeText}>{formatTime(isSeeking ? seekPosition : position)}</Text>
