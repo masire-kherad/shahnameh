@@ -34,24 +34,21 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ uri }) => {
     }
   };
 
-  const handleSlidingStart = (value: any) => {
+  const handleSlidingStart = (value: number) => {
     if (!uri) return;
-    const seekValue = Platform.OS === 'web' ? value.target.value : value;
     setIsSeeking(true);
-    setSeekPosition(seekValue);
+    setSeekPosition(value);
   };
 
-  const handleValueChange = (value: any) => {
+  const handleValueChange = (value: number) => {
     if (!uri) return;
-    const seekValue = Platform.OS === 'web' ? value.target.value : value;
-    setSeekPosition(seekValue);
+    setSeekPosition(value);
   };
 
-  const handleSlidingComplete = (value: any) => {
+  const handleSlidingComplete = (value: number) => {
     if (!uri) return;
-    const seekValue = Platform.OS === 'web' ? value.target.value : value;
     setIsSeeking(false);
-    player.seekTo(seekValue);
+    player.seekTo(value);
   };
 
   const disabled = !uri;
@@ -94,7 +91,7 @@ const AudioPlayer: React.FC<AudioPlayerProps> = ({ uri }) => {
           minimumTrackTintColor="#FFFFFF"
           maximumTrackTintColor="#AAAAAA"
           thumbTintColor="#FFFFFF"
-          disabled={disabled}
+          disabled={disabled || Platform.OS === 'web'}
         />
         <Text style={styles.timeText}>{formatTime(duration)}</Text>
       </View>
