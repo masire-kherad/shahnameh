@@ -59,8 +59,8 @@ const StoryTellingEngine: React.FC<StoryTellingEngineProps> = ({ stage, onTextAn
     });
 
     return () => {
-      scenePlayer?.release();
-      quizPlayer?.release();
+      scenePlayer?.remove();
+      quizPlayer?.remove();
     };
   }, [stage, onTextAnimationComplete]);
 

@@ -55,9 +55,9 @@ const ScenarioScreen = () => {
     }
   }, [scenario]);
 
-  const handleTextAnimationComplete = () => {
+  const handleTextAnimationComplete = useCallback(() => {
     setIsStoryTelling(false);
-  };
+  }, []);
 
   if (!scenario || !currentStage || isCurrencyLoading) {
     return (

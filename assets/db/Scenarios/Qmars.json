@@ -45,7 +45,7 @@
       "id": 2,
       "title": "نبرد سیامک و دیو",
       "text": "سیامک بی‌زره و با پوست پلنگ آماده‌ی نبرد است.",
-      "image": "https://raw.githubusercontent.com/example/repo/main/assets/images/Person/Div.png",
+      "image": "https://raw.githubusercontent.com/example/repo/main/assets/images/Person/Rostam.png",
       "sound": "https://i.ganjoor.net/a2/1321-fh.mp3",
       "choices": [
         {
@@ -80,7 +80,7 @@
       "id": 3,
       "title": "پس از مرگ سیامک",
       "text": "کیومرث در سوگ است. سروش فرمان می‌دهد برای انتقام آماده شود.",
-      "image": "https://raw.githubusercontent.com/example/repo/main/assets/images/Person/Qmars.png",
+      "image": "https://raw.githubusercontent.com/example/repo/main/assets/images/Person/Jamshid.png",
       "sound": "https://i.ganjoor.net/a2/1321-fh.mp3",
       "choices": [
         {
@@ -119,7 +119,7 @@
       "id": 4,
       "title": "نبرد نهایی هوشنگ",
       "text": "هوشنگ، نوه‌ی کیومرث، فرمانده سپاه می‌شود و دیو سیاه را به نبرد فرا می‌خواند.",
-      "image": "https://raw.githubusercontent.com/example/repo/main/assets/images/Person/Hooshang.png",
+      "image": "https://raw.githubusercontent.com/example/repo/main/assets/images/Person/Fereidoon.png",
       "sound": "https://i.ganjoor.net/a2/1321-fh.mp3",
       "choices": [
         {
