@@ -1,7 +1,40 @@
 import React, { useState, useEffect } from 'react';
 import { View, StyleSheet, Animated, Image } from 'react-native';
-import { Audio } from 'expo-av';
+import { useAudioPlayer } from 'expo-audio';
 import { Stage } from '@/types/shahname';
+
+interface AnimatedSentenceProps {
+  sentence: string;
+  soundUri?: string;
+  onAnimationStart: () => void;
+  onAnimationComplete: () => void;
+}
+
+const AnimatedSentence: React.FC<AnimatedSentenceProps> = ({ sentence, soundUri, onAnimationStart, onAnimationComplete }) => {
+  const [fadeAnim] = useState(new Animated.Value(0));
+  const player = useAudioPlayer(soundUri);
+
+  useEffect(() => {
+    onAnimationStart();
+    if (player) {
+      player.play();
+    }
+    Animated.timing(fadeAnim, {
+      toValue: 1,
+      duration: 1000,
+      useNativeDriver: true,
+    }).start(() => {
+        onAnimationComplete();
+    });
+  }, [fadeAnim, onAnimationComplete, onAnimationStart, player]);
+
+  return (
+    <Animated.Text style={[styles.sentence, { opacity: fadeAnim }]}>
+      {sentence}.
+    </Animated.Text>
+  );
+};
+
 
 interface StoryTellingEngineProps {
   stage: Stage;
@@ -11,65 +44,39 @@ interface StoryTellingEngineProps {
 const StoryTellingEngine: React.FC<StoryTellingEngineProps> = ({ stage, onTextAnimationComplete }) => {
   const [fadeAnim] = useState(new Animated.Value(0));
   const [sentences, setSentences] = useState<string[]>([]);
-  const [animatedSentences, setAnimatedSentences] = useState<Animated.Value[]>([]);
-  const [sounds, setSounds] = useState<Audio.Sound[]>([]);
+  const [visibleSentences, setVisibleSentences] = useState<string[]>([]);
 
   useEffect(() => {
     // Reset animations and sentences when stage changes
     fadeAnim.setValue(0);
     const textLines = stage.text.split('.').filter(line => line.trim() !== '');
     setSentences(textLines);
-    setAnimatedSentences(textLines.map(() => new Animated.Value(0)));
+    setVisibleSentences([]);
 
     // Animate the image fade-in
     Animated.timing(fadeAnim, {
       toValue: 1,
       duration: 1500,
       useNativeDriver: true,
-    }).start();
-
-    // Create and play sounds
-    const createAndPlaySounds = async () => {
-      const loadedSounds: Audio.Sound[] = [];
-      if (stage.sound) {
-        for (let i = 0; i < textLines.length; i++) {
-          const { sound } = await Audio.Sound.createAsync({ uri: stage.sound });
-          loadedSounds.push(sound);
+    }).start(() => {
+        if(textLines.length > 0) {
+            setVisibleSentences([textLines[0]]);
         }
-        setSounds(loadedSounds);
-      }
-    };
-    createAndPlaySounds();
-
-    return () => {
-      // Unload all sounds
-      sounds.forEach(sound => sound.unloadAsync());
-    };
+    });
   }, [stage]);
 
-  useEffect(() => {
-    if (animatedSentences.length > 0) {
-      const animations = animatedSentences.map((anim, index) => {
-        return Animated.timing(anim, {
-          toValue: 1,
-          duration: 1000,
-          useNativeDriver: true,
-          delay: index * 2000,
-        });
-      });
-
-      Animated.sequence(animations).start(() => {
-        onTextAnimationComplete?.();
-      });
-
-      // Play sounds in sequence
-      sounds.forEach((sound, index) => {
-        setTimeout(() => {
-          sound.replayAsync();
-        }, index * 2000);
-      });
+  const handleAnimationComplete = () => {
+    if (visibleSentences.length < sentences.length) {
+      setVisibleSentences([...visibleSentences, sentences[visibleSentences.length]]);
+    } else {
+      onTextAnimationComplete?.();
     }
-  }, [animatedSentences, onTextAnimationComplete, sounds]);
+  };
+
+  const handleAnimationStart = () => {
+    // This function is called when the animation for a sentence starts.
+    // We can use this to play a sound or perform other actions.
+  };
 
   return (
     <View style={styles.container}>
@@ -79,10 +86,14 @@ const StoryTellingEngine: React.FC<StoryTellingEngineProps> = ({ stage, onTextAn
         resizeMode="cover"
       />
       <View style={styles.textContainer}>
-        {sentences.map((sentence, index) => (
-          <Animated.Text key={index} style={[styles.sentence, { opacity: animatedSentences[index] }]}>
-            {sentence}.
-          </Animated.Text>
+        {visibleSentences.map((sentence, index) => (
+          <AnimatedSentence
+            key={index}
+            sentence={sentence}
+            soundUri={stage.sound}
+            onAnimationStart={handleAnimationStart}
+            onAnimationComplete={handleAnimationComplete}
+          />
         ))}
       </View>
     </View>
