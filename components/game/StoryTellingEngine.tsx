@@ -1,7 +1,46 @@
 import React, { useState, useEffect } from 'react';
-import { View, Text, StyleSheet, Animated, Image } from 'react-native';
-import { AudioPlayer, createAudioPlayer } from 'expo-audio';
+import { View, StyleSheet, Animated, Image } from 'react-native';
+import { useAudioPlayer, AudioPlayer } from 'expo-audio';
 import { Stage } from '@/types/shahname';
+
+interface AnimatedSentenceProps {
+  sentence: string;
+  soundUri?: string;
+  onAnimationComplete: () => void;
+}
+
+const AnimatedSentence: React.FC<AnimatedSentenceProps> = ({ sentence, soundUri, onAnimationComplete }) => {
+  const [fadeAnim] = useState(new Animated.Value(0));
+  const player = useAudioPlayer(soundUri);
+
+  useEffect(() => {
+    if (player) {
+      player.play();
+    }
+    Animated.timing(fadeAnim, {
+      toValue: 1,
+      duration: 1000,
+      useNativeDriver: true,
+    }).start(() => {
+      setTimeout(() => {
+        Animated.timing(fadeAnim, {
+          toValue: 0,
+          duration: 1000,
+          useNativeDriver: true,
+        }).start(() => {
+          onAnimationComplete();
+        });
+      }, 2000); // Wait for 2 seconds before fading out
+    });
+  }, [fadeAnim, onAnimationComplete, player]);
+
+  return (
+    <Animated.Text style={[styles.sentence, { opacity: fadeAnim }]}>
+      {sentence}.
+    </Animated.Text>
+  );
+};
+
 
 interface StoryTellingEngineProps {
   stage: Stage;
@@ -11,16 +50,14 @@ interface StoryTellingEngineProps {
 const StoryTellingEngine: React.FC<StoryTellingEngineProps> = ({ stage, onTextAnimationComplete }) => {
   const [fadeAnim] = useState(new Animated.Value(0));
   const [sentences, setSentences] = useState<string[]>([]);
-  const [animatedSentences, setAnimatedSentences] = useState<Animated.Value[]>([]);
+  const [currentSentenceIndex, setCurrentSentenceIndex] = useState(0);
 
   useEffect(() => {
-    let scenePlayer: AudioPlayer | null = null;
-    let quizPlayer: AudioPlayer | null = null;
-
     // Reset animations and sentences when stage changes
     fadeAnim.setValue(0);
-    setSentences([]);
-    setAnimatedSentences([]);
+    const textLines = stage.text.split('.').filter(line => line.trim() !== '');
+    setSentences(textLines);
+    setCurrentSentenceIndex(0);
 
     // Animate the image fade-in
     Animated.timing(fadeAnim, {
@@ -28,41 +65,15 @@ const StoryTellingEngine: React.FC<StoryTellingEngineProps> = ({ stage, onTextAn
       duration: 1500,
       useNativeDriver: true,
     }).start();
+  }, [stage]);
 
-    // Play sound effect
-    const playSound = () => {
-      if (stage.sound) {
-        scenePlayer = createAudioPlayer({ uri: stage.sound });
-        scenePlayer.play();
-      }
-      if (stage.type === 'quiz' && stage.quizSound) {
-        quizPlayer = createAudioPlayer({ uri: stage.quizSound });
-        quizPlayer.play();
-      }
-    };
-
-    playSound();
-
-    const textLines = stage.text.split('.').filter(line => line.trim() !== '');
-    setSentences(textLines);
-    const sentenceAnimations = textLines.map(() => new Animated.Value(0));
-    setAnimatedSentences(sentenceAnimations);
-
-    const animations = sentenceAnimations.map(anim => Animated.timing(anim, {
-      toValue: 1,
-      duration: 1000,
-      useNativeDriver: true,
-    }));
-
-    Animated.sequence(animations).start(() => {
+  const handleAnimationComplete = () => {
+    if (currentSentenceIndex < sentences.length - 1) {
+      setCurrentSentenceIndex(currentSentenceIndex + 1);
+    } else {
       onTextAnimationComplete?.();
-    });
-
-    return () => {
-      scenePlayer?.remove();
-      quizPlayer?.remove();
-    };
-  }, [stage, onTextAnimationComplete]);
+    }
+  };
 
   return (
     <View style={styles.container}>
@@ -72,11 +83,13 @@ const StoryTellingEngine: React.FC<StoryTellingEngineProps> = ({ stage, onTextAn
         resizeMode="cover"
       />
       <View style={styles.textContainer}>
-        {sentences.map((sentence, index) => (
-          <Animated.Text key={index} style={[styles.sentence, { opacity: animatedSentences[index] }]}>
-            {sentence}.
-          </Animated.Text>
-        ))}
+        {sentences.length > 0 && currentSentenceIndex < sentences.length && (
+          <AnimatedSentence
+            sentence={sentences[currentSentenceIndex]}
+            soundUri={stage.sound}
+            onAnimationComplete={handleAnimationComplete}
+          />
+        )}
       </View>
     </View>
   );

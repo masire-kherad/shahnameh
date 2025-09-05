@@ -10,6 +10,7 @@ import { Scenario, Ending, Stage } from '@/types/shahname';
 import { ThemedText } from '@/components/ThemedText';
 import { getCategories } from '@/services/dataService';
 import { getScenario } from '@/services/scenarioLoader';
+import { categoryImages } from '@/services/personLoader';
 import { Category } from '@/types/shahname';
 
 
@@ -31,9 +32,17 @@ const ScenarioScreen = () => {
     if (currentCategory) {
       setCategory(currentCategory);
       const scenarioData = getScenario(currentCategory.image);
-      setScenario(scenarioData);
       if (scenarioData) {
-        setCurrentStage(scenarioData.stages[0]);
+        const images = Object.values(categoryImages);
+        const updatedStages = scenarioData.stages.map(stage => {
+          if (!stage.image) {
+            const randomImage = images[Math.floor(Math.random() * images.length)];
+            return { ...stage, image: randomImage };
+          }
+          return stage;
+        });
+        setScenario({ ...scenarioData, stages: updatedStages });
+        setCurrentStage(updatedStages[0]);
         setIsStoryTelling(true);
       }
     }
