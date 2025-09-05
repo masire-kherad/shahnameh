@@ -1,8 +1,7 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { View, Text, StyleSheet, Pressable } from 'react-native';
 import { useLocalSearchParams, router, Stack } from 'expo-router';
-import ScenarioEngine from '@/components/game/ScenarioEngine';
-import StoryTellingEngine from '@/components/game/StoryTellingEngine';
+import StoryWithChoices from '@/components/game/StoryWithChoices';
 import { useCurrency } from '@/hooks/useCurrency';
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { Colors } from '@/constants/Colors';
@@ -24,7 +23,6 @@ const ScenarioScreen = () => {
   const [category, setCategory] = useState<Category | null>(null);
   const [ending, setEnding] = useState<Ending | null>(null);
   const [sessionEarnings, setSessionEarnings] = useState(0);
-  const [isStoryTelling, setIsStoryTelling] = useState(true);
 
   useEffect(() => {
     const categories = getCategories();
@@ -43,7 +41,6 @@ const ScenarioScreen = () => {
         });
         setScenario({ ...scenarioData, stages: updatedStages });
         setCurrentStage(updatedStages[0]);
-        setIsStoryTelling(true);
       }
     }
   }, [cat_id]);
@@ -60,13 +57,11 @@ const ScenarioScreen = () => {
     const stage = scenario?.stages.find((s) => s.id === stageId);
     if (stage) {
       setCurrentStage(stage);
-      setIsStoryTelling(true);
+    } else if (scenario && typeof stageId === 'string' && scenario.endings[stageId]) {
+      // This is an ending
+      setEnding(scenario.endings[stageId]);
     }
   }, [scenario]);
-
-  const handleTextAnimationComplete = useCallback(() => {
-    setIsStoryTelling(false);
-  }, []);
 
   if (!scenario || !currentStage || isCurrencyLoading) {
     return (
@@ -92,18 +87,13 @@ const ScenarioScreen = () => {
   return (
     <View style={styles.container}>
       <Stack.Screen options={{ title: category?.text || "Scenario" }} />
-      {isStoryTelling && currentStage ? (
-        <StoryTellingEngine stage={currentStage} onTextAnimationComplete={handleTextAnimationComplete} />
-      ) : (
-        <View style={styles.gameContainer}>
-          <ScenarioEngine
-            scenario={scenario}
-            onGameEnd={handleGameEnd}
-            onStageChange={handleStageChange}
-            colorScheme={colorScheme}
-          />
-        </View>
-      )}
+      <StoryWithChoices
+        stage={currentStage}
+        onStageChange={handleStageChange}
+        onGameEnd={handleGameEnd}
+        scenarioEndings={scenario.endings}
+        colorScheme={colorScheme}
+      />
     </View>
   );
 };
@@ -118,10 +108,6 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: Colors[colorScheme].background,
-  },
-  gameContainer: {
-    flex: 1,
-    padding: 16,
   },
   endingContainer: {
     flex: 1,

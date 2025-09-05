@@ -1,7 +1,7 @@
 import type { Category } from '@/types/shahname';
 
 
-const categoryImages: { [key: string]: any } = {
+export const categoryImages: { [key: string]: any } = {
   aghaz: require('@/assets/images/Person/Ferdousi.png'),
   qmars: require('@/assets/images/Person/Qmars.png'),
   hushang: require('@/assets/images/Person/Hooshang.png'),
