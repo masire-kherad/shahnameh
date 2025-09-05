@@ -38,6 +38,9 @@ export interface Stage {
   type?: 'quiz';
   title: string;
   text: string;
+  image?: string;
+  sound?: string;
+  quizSound?: string;
   choices?: Choice[];
   question?: string;
   options?: QuizOption[];

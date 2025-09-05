@@ -1,16 +1,15 @@
 import React, { useState, useEffect, useCallback } from 'react';
 import { View, Text, StyleSheet, Pressable } from 'react-native';
 import { useLocalSearchParams, router, Stack } from 'expo-router';
-import LottieView from 'lottie-react-native';
-import ScenarioEngine from '@/components/game/ScenarioEngine';
-import { getCharacterAnimation } from '@/services/personLoader';
+import StoryWithChoices from '@/components/game/StoryWithChoices';
 import { useCurrency } from '@/hooks/useCurrency';
 import { useColorScheme } from '@/hooks/useColorScheme';
 import { Colors } from '@/constants/Colors';
-import { Scenario, Ending } from '@/types/shahname';
+import { Scenario, Ending, Stage } from '@/types/shahname';
 import { ThemedText } from '@/components/ThemedText';
 import { getCategories } from '@/services/dataService';
 import { getScenario } from '@/services/scenarioLoader';
+import { categoryImages } from '@/services/personLoader';
 import { Category } from '@/types/shahname';
 
 
@@ -20,22 +19,29 @@ const ScenarioScreen = () => {
   const { cat_id } = useLocalSearchParams();
   const { balance, increaseBalance, isLoading: isCurrencyLoading } = useCurrency();
   const [scenario, setScenario] = useState<Scenario | null>(null);
-  const [animation, setAnimation] = useState<any>(null);
-  const [progress, setProgress] = useState(0);
+  const [currentStage, setCurrentStage] = useState<Stage | null>(null);
   const [category, setCategory] = useState<Category | null>(null);
   const [ending, setEnding] = useState<Ending | null>(null);
   const [sessionEarnings, setSessionEarnings] = useState(0);
-
 
   useEffect(() => {
     const categories = getCategories();
     const currentCategory = categories.find((c) => c.id === Number(cat_id));
     if (currentCategory) {
-        setCategory(currentCategory)
-        const scenarioData = getScenario(currentCategory.image);
-        setScenario(scenarioData);
-        const animationPath = getCharacterAnimation(currentCategory);
-        setAnimation(animationPath);
+      setCategory(currentCategory);
+      const scenarioData = getScenario(currentCategory.image);
+      if (scenarioData) {
+        const images = Object.values(categoryImages);
+        const updatedStages = scenarioData.stages.map(stage => {
+          if (!stage.image) {
+            const randomImage = images[Math.floor(Math.random() * images.length)];
+            return { ...stage, image: randomImage };
+          }
+          return stage;
+        });
+        setScenario({ ...scenarioData, stages: updatedStages });
+        setCurrentStage(updatedStages[0]);
+      }
     }
   }, [cat_id]);
 
@@ -48,12 +54,16 @@ const ScenarioScreen = () => {
   }, [increaseBalance]);
 
   const handleStageChange = useCallback((stageId: number | string) => {
-    const stageIndex = scenario?.stages.findIndex((s) => s.id === stageId) || 0;
-    const progress = scenario ? (stageIndex + 1) / scenario.stages.length : 0;
-    setProgress(progress);
+    const stage = scenario?.stages.find((s) => s.id === stageId);
+    if (stage) {
+      setCurrentStage(stage);
+    } else if (scenario && typeof stageId === 'string' && scenario.endings[stageId]) {
+      // This is an ending
+      setEnding(scenario.endings[stageId]);
+    }
   }, [scenario]);
 
-  if (!scenario || !animation || isCurrencyLoading) {
+  if (!scenario || !currentStage || isCurrencyLoading) {
     return (
       <View style={styles.loadingContainer}>
         <Text>Loading...</Text>
@@ -77,22 +87,13 @@ const ScenarioScreen = () => {
   return (
     <View style={styles.container}>
       <Stack.Screen options={{ title: category?.text || "Scenario" }} />
-      <View style={styles.animationContainer}>
-        <LottieView
-          source={animation}
-          progress={progress}
-          style={styles.animation}
-          loop={false}
-        />
-      </View>
-      <View style={styles.gameContainer}>
-        <ScenarioEngine
-          scenario={scenario}
-          onGameEnd={handleGameEnd}
-          onStageChange={handleStageChange}
-          colorScheme={colorScheme}
-        />
-      </View>
+      <StoryWithChoices
+        stage={currentStage}
+        onStageChange={handleStageChange}
+        onGameEnd={handleGameEnd}
+        scenarioEndings={scenario.endings}
+        colorScheme={colorScheme}
+      />
     </View>
   );
 };
@@ -107,17 +108,6 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: Colors[colorScheme].background,
-  },
-  animationContainer: {
-    flex: 1,
-  },
-  animation: {
-    width: '100%',
-    height: '100%',
-  },
-  gameContainer: {
-    flex: 1,
-    padding: 16,
   },
   endingContainer: {
     flex: 1,
