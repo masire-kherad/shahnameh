@@ -1,4 +1,4 @@
-import React, { useState, useEffect } from 'react';
+import React, { useState, useEffect, useCallback } from 'react';
 import { View, StyleSheet, Animated, Image } from 'react-native';
 import { useAudioPlayer } from 'expo-audio';
 import { Stage } from '@/types/shahname';
@@ -6,16 +6,14 @@ import { Stage } from '@/types/shahname';
 interface AnimatedSentenceProps {
   sentence: string;
   soundUri?: string;
-  onAnimationStart: () => void;
   onAnimationComplete: () => void;
 }
 
-const AnimatedSentence: React.FC<AnimatedSentenceProps> = ({ sentence, soundUri, onAnimationStart, onAnimationComplete }) => {
+const AnimatedSentence: React.FC<AnimatedSentenceProps> = ({ sentence, soundUri, onAnimationComplete }) => {
   const [fadeAnim] = useState(new Animated.Value(0));
   const player = useAudioPlayer(soundUri);
 
   useEffect(() => {
-    onAnimationStart();
     if (player) {
       player.play();
     }
@@ -24,9 +22,11 @@ const AnimatedSentence: React.FC<AnimatedSentenceProps> = ({ sentence, soundUri,
       duration: 1000,
       useNativeDriver: true,
     }).start(() => {
+      setTimeout(() => {
         onAnimationComplete();
+      }, 2000); // Wait for 2 seconds before fading out
     });
-  }, [fadeAnim, onAnimationComplete, onAnimationStart, player]);
+  }, [fadeAnim, onAnimationComplete, player]);
 
   return (
     <Animated.Text style={[styles.sentence, { opacity: fadeAnim }]}>
@@ -65,18 +65,13 @@ const StoryTellingEngine: React.FC<StoryTellingEngineProps> = ({ stage, onTextAn
     });
   }, [stage]);
 
-  const handleAnimationComplete = () => {
+  const handleAnimationComplete = useCallback(() => {
     if (visibleSentences.length < sentences.length) {
-      setVisibleSentences([...visibleSentences, sentences[visibleSentences.length]]);
+      setVisibleSentences(prev => [...prev, sentences[visibleSentences.length]]);
     } else {
       onTextAnimationComplete?.();
     }
-  };
-
-  const handleAnimationStart = () => {
-    // This function is called when the animation for a sentence starts.
-    // We can use this to play a sound or perform other actions.
-  };
+  }, [visibleSentences, sentences, onTextAnimationComplete]);
 
   return (
     <View style={styles.container}>
@@ -91,7 +86,6 @@ const StoryTellingEngine: React.FC<StoryTellingEngineProps> = ({ stage, onTextAn
             key={index}
             sentence={sentence}
             soundUri={stage.sound}
-            onAnimationStart={handleAnimationStart}
             onAnimationComplete={handleAnimationComplete}
           />
         ))}
