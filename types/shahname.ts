@@ -31,6 +31,7 @@ export interface Scenario {
   description: string;
   stages: Stage[];
   endings: { [key: string]: Ending };
+  summary?: string;
 }
 
 export interface Stage {
@@ -60,4 +61,5 @@ export interface QuizOption {
 export interface Ending {
   title: string;
   text: string;
+  earnings?: number;
 }

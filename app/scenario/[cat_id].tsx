@@ -1,16 +1,16 @@
-import React, { useState, useEffect, useCallback } from 'react';
-import { View, Text, StyleSheet, Pressable } from 'react-native';
-import { useLocalSearchParams, router, Stack } from 'expo-router';
+import BendedRoad from '@/components/BendedRoad';
 import StoryWithChoices from '@/components/game/StoryWithChoices';
-import { useCurrency } from '@/hooks/useCurrency';
-import { useColorScheme } from '@/hooks/useColorScheme';
-import { Colors } from '@/constants/Colors';
-import { Scenario, Ending, Stage } from '@/types/shahname';
 import { ThemedText } from '@/components/ThemedText';
+import { Colors } from '@/constants/Colors';
+import { useColorScheme } from '@/hooks/useColorScheme';
+import { useCurrency } from '@/hooks/useCurrency';
 import { getCategories } from '@/services/dataService';
+import { categoryImages, defaultImage, getCategoryImage } from '@/services/personLoader';
 import { getScenario } from '@/services/scenarioLoader';
-import { categoryImages } from '@/services/personLoader';
-import { Category } from '@/types/shahname';
+import { Category, Ending, Scenario, Stage } from '@/types/shahname';
+import { router, Stack, useLocalSearchParams } from 'expo-router';
+import { useCallback, useEffect, useState } from 'react';
+import { Pressable, StyleSheet, Text, View } from 'react-native';
 
 
 const ScenarioScreen = () => {
@@ -23,6 +23,7 @@ const ScenarioScreen = () => {
   const [category, setCategory] = useState<Category | null>(null);
   const [ending, setEnding] = useState<Ending | null>(null);
   const [sessionEarnings, setSessionEarnings] = useState(0);
+  const [scenarioSummary, setScenarioSummary] = useState<string>('');
 
   useEffect(() => {
     const categories = getCategories();
@@ -31,6 +32,11 @@ const ScenarioScreen = () => {
       setCategory(currentCategory);
       const scenarioData = getScenario(currentCategory.image);
       if (scenarioData) {
+        // Set the scenario summary
+        if (scenarioData.summary) {
+          setScenarioSummary(scenarioData.summary);
+        }
+        
         const images = Object.values(categoryImages);
         const updatedStages = scenarioData.stages.map(stage => {
           if (!stage.image) {
@@ -72,15 +78,29 @@ const ScenarioScreen = () => {
   }
 
   if (ending) {
+    // Get the category image for the ending screen
+    const categoryImage = category ? getCategoryImage(category) : defaultImage;
+    
     return (
-      <View style={styles.endingContainer}>
-        <ThemedText style={styles.endingTitle}>{ending.title}</ThemedText>
-        <ThemedText style={styles.endingText}>{ending.text}</ThemedText>
-        <ThemedText style={styles.earningsText}>شما {sessionEarnings} زر به دست آوردید</ThemedText>
-        <Pressable onPress={() => router.back()} style={styles.returnButton}>
-          <Text style={styles.returnButtonText}>بازگشت</Text>
-        </Pressable>
-      </View>
+      <BendedRoad imageSource={categoryImage}>
+        <View style={styles.endingContainer}>
+          <ThemedText style={styles.endingTitle}>{ending.title}</ThemedText>
+          <ThemedText style={styles.endingText}>{ending.text}</ThemedText>
+          {scenarioSummary ? (
+            <ThemedText style={styles.summaryText}>
+              {scenarioSummary}
+            </ThemedText>
+          ) : (
+            <ThemedText style={styles.summaryText}>
+              {scenario.summarythe }
+            </ThemedText>
+          )}
+          <ThemedText style={styles.earningsText}>شما {sessionEarnings} زر به دست آوردید</ThemedText>
+          <Pressable onPress={() => router.back()} style={styles.returnButton}>
+            <Text style={styles.returnButtonText}>بازگشت</Text>
+          </Pressable>
+        </View>
+      </BendedRoad>
     );
   }
 
@@ -114,24 +134,46 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     padding: 16,
-    backgroundColor: Colors[colorScheme].background,
+    backgroundColor: 'transparent',
   },
   endingTitle: {
     fontSize: 24,
     fontWeight: 'bold',
     marginBottom: 16,
     textAlign: 'center',
+    color: '#ffffff',
+    textShadowColor: 'rgba(0, 0, 0, 0.75)',
+    textShadowOffset: { width: -1, height: 1 },
+    textShadowRadius: 10,
   },
   endingText: {
     fontSize: 18,
     textAlign: 'center',
     marginBottom: 24,
+    color: '#ffffff',
+    textShadowColor: 'rgba(0, 0, 0, 0.75)',
+    textShadowOffset: { width: -1, height: 1 },
+    textShadowRadius: 10,
+  },
+  summaryText: {
+    fontSize: 16,
+    textAlign: 'center',
+    marginBottom: 24,
+    color: '#ffffff',
+    textShadowColor: 'rgba(0, 0, 0, 0.75)',
+    textShadowOffset: { width: -1, height: 1 },
+    textShadowRadius: 10,
+    fontStyle: 'italic',
+    paddingHorizontal: 20,
   },
   earningsText: {
     fontSize: 20,
     fontWeight: 'bold',
     color: '#ffd700', // Gold color for earnings
     marginBottom: 32,
+    textShadowColor: 'rgba(0, 0, 0, 0.75)',
+    textShadowOffset: { width: -1, height: 1 },
+    textShadowRadius: 10,
   },
   returnButton: {
     backgroundColor: Colors[colorScheme].tint,

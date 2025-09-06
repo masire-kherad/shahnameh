@@ -30,6 +30,7 @@ const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({
   const [currentAnimatingIndex, setCurrentAnimatingIndex] = useState<number>(0);
   const [showChoices, setShowChoices] = useState<boolean>(false);
   const [choicesFadeAnim] = useState(new Animated.Value(0));
+  const [quizEarnings, setQuizEarnings] = useState(0);
   
   // Create audio player - use quizSound for quizzes, otherwise regular sound
   const audioFileName = stage.type === 'quiz' ? (stage.quizSound || stage.sound) : stage.sound;
@@ -43,6 +44,7 @@ const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({
     setCurrentAnimatingIndex(0);
     setShowChoices(false);
     choicesFadeAnim.setValue(0);
+    setQuizEarnings(0); // Reset quiz earnings when stage changes
     
     // Get the correct image for this stage
     const imagePath = getScenarioImage(stage.id);
@@ -106,12 +108,12 @@ const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({
     }
   }, [currentAnimatingIndex, sentences, sentenceAnimations, player, audioSource, choicesFadeAnim]);
 
-  const handleChoice = (nextStageId: number | string) => {
-    onStageChange(nextStageId);
-  };
-
   const handleAnswer = (isCorrect: boolean) => {
     if (isCorrect) {
+      // Award points for correct answer
+      const points = 10; // 10 points for each correct answer
+      setQuizEarnings(prev => prev + points);
+      
       if (stage?.on_correct) {
         onStageChange(stage.on_correct);
       }
@@ -125,7 +127,14 @@ const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({
   // Check if this stage is an ending
   if (typeof stage.id === 'string' && scenarioEndings[stage.id]) {
     const ending = scenarioEndings[stage.id];
-    onGameEnd(ending, 0); // TODO: Add scoring if needed
+    // Award points based on ending earnings or default values
+    const endingEarnings = ending.earnings || 
+      (stage.id === 'ending_good' ? 50 : 
+       stage.id === 'ending_main' ? 30 : 
+       stage.id === 'ending_bad' ? 10 : 0);
+    // Total earnings = quiz earnings + ending earnings
+    const totalEarnings = quizEarnings + endingEarnings;
+    onGameEnd(ending, totalEarnings);
     return null;
   }
 
@@ -177,7 +186,7 @@ const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({
                     stage.choices.map((choice, index) => (
                       <Pressable
                         key={index}
-                        onPress={() => handleChoice(choice.next_stage)}
+                        onPress={() => onStageChange(choice.next_stage)}
                         style={styles.choiceButton}
                       >
                         <ThemedText style={styles.choiceText}>{choice.option}</ThemedText>
