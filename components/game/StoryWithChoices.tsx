@@ -1,12 +1,13 @@
-import React, { useState, useEffect } from 'react';
-import { View, StyleSheet, Animated, Image, Pressable } from 'react-native';
-import { ThemedText } from '@/components/ThemedText';
-import { useAudioPlayer } from 'expo-audio';
-import { Stage } from '@/types/shahname';
 import QuizQuestion from '@/components/game/QuizQuestion';
+import { ThemedText } from '@/components/ThemedText';
 import { Colors } from '@/constants/Colors';
 import { getScenarioImage } from '@/services/scenarioImageLoader';
 import { getScenarioSound } from '@/services/scenarioSoundLoader';
+import { Stage } from '@/types/shahname';
+import { useAudioPlayer } from 'expo-audio';
+import { BlurView } from 'expo-blur';
+import React, { useEffect, useState } from 'react';
+import { Animated, Pressable, StyleSheet, View } from 'react-native';
 
 interface StoryWithChoicesProps {
   stage: Stage;
@@ -141,16 +142,18 @@ const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({
         resizeMode="cover"
       />
       <View style={styles.contentContainer}>
-        <View style={styles.textContainer}>
-          {sentences.map((sentence, index) => (
-            <Animated.Text 
-              key={index}
-              style={[styles.sentence, { opacity: sentenceAnimations[index] || 0 }]}
-            >
-              {sentence}.
-            </Animated.Text>
-          ))}
-        </View>
+        <BlurView intensity={10} style={styles.textBlurContainer} tint={colorScheme === 'dark' ? 'dark' : 'light'}>
+          <View style={styles.textContainer}>
+            {sentences.map((sentence, index) => (
+              <Animated.Text 
+                key={index}
+                style={[styles.sentence, { opacity: sentenceAnimations[index] || 0 }]}
+              >
+                {sentence}.
+              </Animated.Text>
+            ))}
+          </View>
+        </BlurView>
         
         <Animated.View style={[styles.choicesContainer, { opacity: choicesFadeAnim }]}>
           {showChoices && (
@@ -204,25 +207,32 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     flex: 1,
     justifyContent: 'space-between',
   },
-  textContainer: {
+  textBlurContainer: {
     position: 'absolute',
     top: '15%',
-    left: 0,
-    right: 0,
+    left: 20,
+    right: 20,
+    padding: 10,
+    borderRadius: 15,
+    backgroundColor: 'rgba(0, 0, 0, 0.3)', // Semi-transparent background
+  },
+  textContainer: {
     padding: 20,
-    alignItems: 'center',
+    backgroundColor: 'rgba(0, 0, 0, 0.3)', // Black with alpha for better visibility
+    borderRadius: 10,
   },
   sentence: {
     fontSize: 22,
-    color: 'white',
+    color: '#ffffff', // White text for better contrast
     textAlign: 'center',
     marginBottom: 15,
     textShadowColor: 'rgba(0, 0, 0, 0.75)',
     textShadowOffset: { width: -1, height: 1 },
     textShadowRadius: 10,
+    fontWeight: '500',
   },
   choicesContainer: {
-    backgroundColor: Colors[colorScheme].background,
+    backgroundColor: Colors[colorScheme].background + 'aa',
     padding: 16,
     borderTopLeftRadius: 20,
     borderTopRightRadius: 20,
@@ -235,9 +245,9 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     textAlign: 'center',
   },
   choiceButton: {
-    backgroundColor: Colors[colorScheme].background,
+    backgroundColor: Colors[colorScheme].background + 'aa',
     borderWidth: 1,
-    borderColor: Colors[colorScheme].tint,
+    borderColor: Colors[colorScheme].tint + 'aa',
     padding: 16,
     borderRadius: 16,
     marginBottom: 12,

@@ -1,6 +1,8 @@
+import { useColorScheme } from '@/hooks/useColorScheme';
+import { BlurView } from 'expo-blur';
 import React, { useState } from 'react';
-import { View, StyleSheet, ImageSourcePropType, LayoutChangeEvent } from 'react-native';
-import Svg, { Path, Defs, ClipPath, Image } from 'react-native-svg';
+import { ImageSourcePropType, LayoutChangeEvent, StyleSheet, View } from 'react-native';
+import Svg, { ClipPath, Defs, Image, Path } from 'react-native-svg';
 
 interface BendedRoadProps {
   imageSource: ImageSourcePropType;
@@ -10,6 +12,7 @@ interface BendedRoadProps {
 const BendedRoad: React.FC<BendedRoadProps> = ({ imageSource, children }) => {
   const [width, setWidth] = useState(0);
   const [height, setHeight] = useState(0);
+  const colorScheme = useColorScheme();
 
   const onLayout = (event: LayoutChangeEvent) => {
     const { width, height } = event.nativeEvent.layout;
@@ -31,20 +34,28 @@ const BendedRoad: React.FC<BendedRoadProps> = ({ imageSource, children }) => {
   return (
     <View style={styles.container} onLayout={onLayout}>
       {width > 0 && height > 0 && (
-        <Svg height={height} width={width} style={StyleSheet.absoluteFill}>
-          <Defs>
-            <ClipPath id="clip">
-              <Path d={getPath()} />
-            </ClipPath>
-          </Defs>
-          <Image
-            href={imageSource}
-            width={width}
-            height={height}
-            preserveAspectRatio="xMidYMid slice"
-            clipPath="url(#clip)"
+        <>
+          <Svg height={height} width={width} style={styles.backgroundSvg}>
+            <Defs>
+              <ClipPath id="clip">
+                <Path d={getPath()} />
+              </ClipPath>
+            </Defs>
+            <Image
+              href={imageSource}
+              width={width}
+              height={height}
+              preserveAspectRatio="xMidYMid slice"
+              clipPath="url(#clip)"
+              opacity="0.7" // Add opacity to the background image
+            />
+          </Svg>
+          <BlurView 
+            intensity={5} 
+            style={styles.blurOverlay} 
+            tint={colorScheme === 'dark' ? 'dark' : 'light'}
           />
-        </Svg>
+        </>
       )}
       {children}
     </View>
@@ -54,6 +65,13 @@ const BendedRoad: React.FC<BendedRoadProps> = ({ imageSource, children }) => {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+  },
+  backgroundSvg: {
+    ...StyleSheet.absoluteFillObject,
+  },
+  blurOverlay: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: 'rgba(0, 0, 0, 0.6)', // Semi-transparent overlay
   },
 });
 
