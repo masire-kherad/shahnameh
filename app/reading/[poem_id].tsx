@@ -1,16 +1,16 @@
-import React, { useEffect, useState } from 'react';
-import { StyleSheet, ScrollView, View, Pressable, ImageSourcePropType, NativeSyntheticEvent, NativeScrollEvent } from 'react-native';
-import { useLocalSearchParams, Stack } from 'expo-router';
+import AudioPlayer from '@/components/AudioPlayer';
+import BendedRoad from '@/components/BendedRoad';
+import HorizontalProgressBar from '@/components/HorizontalProgressBar';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-import { getPoemWithSummary, getCategories, getPoemAudio } from '@/services/dataService';
-import { Poem, } from '@/types/shahname';
 import { IconSymbol } from '@/components/ui/IconSymbol';
-import BendedRoad from '@/components/BendedRoad';
-import { defaultImage, getCategoryImage } from '@/services/personLoader';
 import { useProgress } from '@/hooks/useProgress';
-import HorizontalProgressBar from '@/components/HorizontalProgressBar';
-import AudioPlayer from '@/components/AudioPlayer';
+import { getCategories, getPoemAudio, getPoemWithSummary } from '@/services/dataService';
+import { defaultImage, getCategoryImage } from '@/services/personLoader';
+import { Poem, } from '@/types/shahname';
+import { Stack, useLocalSearchParams } from 'expo-router';
+import React, { useEffect, useState } from 'react';
+import { ImageSourcePropType, NativeScrollEvent, NativeSyntheticEvent, Pressable, ScrollView, StyleSheet, View } from 'react-native';
 
 type Couplet = {
   line1: string;
@@ -133,8 +133,8 @@ export default function ReadingScreen() {
           <View style={styles.coupletsContainer}>
             {couplets.map((couplet, index) => (
               <ThemedView key={index} style={styles.couplet}>
-                <ThemedText style={styles.verseText}>{couplet.line1}</ThemedText>
-                <ThemedText style={styles.verseText}>{couplet.line2}</ThemedText>
+                <ThemedText style={styles.verseText1}>{couplet.line1}</ThemedText>
+                <ThemedText style={styles.verseText2}>{couplet.line2}</ThemedText>
                 <ThemedView style={styles.summaryContainer}>
                   <ThemedText style={styles.summaryText}>{couplet.summary}</ThemedText>
                 </ThemedView>
@@ -203,10 +203,16 @@ const styles = StyleSheet.create({
     borderEndColor: '#A1CEDC',
     backgroundColor: 'rgba(0,0,0,0.1)',
   },
-  verseText: {
+  verseText1: {
     fontSize: 18,
     lineHeight: 30,
     textAlign: 'right',
+    color: '#fff',
+  },
+  verseText2: {
+    fontSize: 18,
+    lineHeight: 30,
+    textAlign: 'left',
     color: '#fff',
   },
   summaryContainer: {

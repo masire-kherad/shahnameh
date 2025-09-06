@@ -46,7 +46,7 @@ export default function StyledHeader({ title }: StyledHeaderProps) {
   };
 
   // Determine if we should show the back button
-  const shouldShowBackButton = pathname !== '/' && pathname !== '/index' && pathname !== '/profile';
+  const shouldShowBackButton = pathname !== '/' && pathname !== '/index';
   
   // Determine the correct chevron direction for RTL
   const chevronIcon = I18nManager.isRTL ? 'chevron.right' : 'chevron.left';
