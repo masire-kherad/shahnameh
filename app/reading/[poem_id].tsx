@@ -8,7 +8,7 @@ import { useProgress } from '@/hooks/useProgress';
 import { getCategories, getPoemAudio, getPoemWithSummary } from '@/services/dataService';
 import { defaultImage, getCategoryImage } from '@/services/personLoader';
 import { Poem, } from '@/types/shahname';
-import { Stack, useLocalSearchParams } from 'expo-router';
+import { Stack, useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import { ImageSourcePropType, NativeScrollEvent, NativeSyntheticEvent, Pressable, ScrollView, StyleSheet, View } from 'react-native';
 
@@ -20,6 +20,7 @@ type Couplet = {
 
 
 export default function ReadingScreen() {
+  const router = useRouter();
   const { poem_id } = useLocalSearchParams();
   const [poem, setPoem] = useState<Poem | null>(null);
   const [couplets, setCouplets] = useState<Couplet[]>([]);
@@ -80,6 +81,15 @@ export default function ReadingScreen() {
       unmarkPoemAsComplete(poemIdNum);
     } else {
       markPoemAsComplete(poemIdNum);
+      // Show congratulation screen when user marks poem as complete
+      router.push({
+        pathname: '/congratulation',
+        params: { 
+          poemTitle: poem?.title || '',
+          poemId: poemIdNum.toString(),
+          categoryImage: JSON.stringify(categoryImage)
+        }
+      });
     }
   };
 
