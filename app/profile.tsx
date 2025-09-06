@@ -1,13 +1,13 @@
-import React, { useEffect, useState, useCallback } from 'react';
-import { StyleSheet, ScrollView, Text, View, Image, Pressable, Alert } from 'react-native';
-import AsyncStorage from '@react-native-async-storage/async-storage';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-import { getPoems, getCategories, getUserInfo } from '@/services/dataService';
-import { getCompletedPoems } from '@/services/progressService';
 import { useCurrency } from '@/hooks/useCurrency';
-import { Poem, Category } from '@/types/shahname';
+import { getCategories, getPoems, getUserInfo } from '@/services/dataService';
+import { getCompletedPoems } from '@/services/progressService';
+import { Category, Poem } from '@/types/shahname';
+import AsyncStorage from '@react-native-async-storage/async-storage';
 import { router } from 'expo-router';
+import React, { useCallback, useEffect, useState } from 'react';
+import { Alert, Image, Pressable, ScrollView, StyleSheet, View } from 'react-native';
 
 const DAILY_REWARD_KEY = '@daily_reward_last_collection';
 
@@ -16,7 +16,7 @@ export default function ProfileScreen() {
   const [categories, setCategories] = useState<Category[]>([]);
   const [userInfo, setUserInfo] = useState(null);
   const [isRewardAvailable, setIsRewardAvailable] = useState(false);
-  const { increaseBalance } = useCurrency();
+  const { balance, increaseBalance } = useCurrency();
 
   const checkDailyReward = useCallback(async () => {
     const lastCollectionDate = await AsyncStorage.getItem(DAILY_REWARD_KEY);
@@ -74,6 +74,9 @@ export default function ProfileScreen() {
         <View style={styles.profileHeader}>
           <Image source={getGenderImage()} style={styles.profileImage} />
           <ThemedText type="title" style={{ paddingTop: 10 }}>{userInfo?.name || 'پروفایل'}</ThemedText>
+          <View style={styles.currencyContainer}>
+            <ThemedText style={styles.currencyText}>{balance} زر</ThemedText>
+          </View>
         </View>
 
         <Pressable
@@ -95,7 +98,7 @@ export default function ProfileScreen() {
             <ThemedText style={styles.favoritesButtonText}>علاقه‌مندی‌ها</ThemedText>
           </Pressable>
           <Pressable style={styles.navButton} onPress={() => router.push('/Info')}>
-            <ThemedText style={styles.favoritesButtonText}>راهنما</ThemedText>
+            <ThemedText style={styles.favoritesButtonText}>درباره‌ما</ThemedText>
           </Pressable>
         </View>
 
@@ -127,6 +130,20 @@ const styles = StyleSheet.create({
     height: 150,
     borderRadius: 75,
     marginBottom: 16,
+  },
+  currencyContainer: {
+    marginTop: 12,
+    paddingVertical: 8,
+    paddingHorizontal: 16,
+    borderRadius: 20,
+    backgroundColor: 'rgba(255, 215, 0, 0.2)',
+    borderWidth: 1,
+    borderColor: '#ffd700',
+  },
+  currencyText: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    color: '#ffd700',
   },
   titleContainer: {
     alignItems: 'center',

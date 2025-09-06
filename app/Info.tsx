@@ -1,9 +1,9 @@
-import React from 'react';
-import { StyleSheet, View, ScrollView, Pressable, Linking } from 'react-native';
 import { ThemedText } from '@/components/ThemedText';
-import { useColorScheme } from '@/hooks/useColorScheme';
-import { Colors } from '@/constants/Colors';
 import { IconSymbol } from '@/components/ui/IconSymbol';
+import { Colors } from '@/constants/Colors';
+import { useColorScheme } from '@/hooks/useColorScheme';
+import React from 'react';
+import { Linking, Pressable, ScrollView, StyleSheet, View } from 'react-native';
 
 export default function RahnamaScreen() {
   const colorScheme = useColorScheme();
@@ -49,6 +49,8 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
   pageContainer: {
     flex: 1,
     backgroundColor: Colors[colorScheme ?? 'light'].background,
+    writingDirection: 'ltr',
+    direction: 'ltr'
   },
   container: {
     padding: 24,

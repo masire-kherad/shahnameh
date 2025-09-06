@@ -1,10 +1,9 @@
 import { Colors } from '@/constants/Colors';
-import { useCurrency } from '@/hooks/useCurrency';
 import { getUserInfo } from '@/services/dataService';
 import { BlurView } from 'expo-blur';
 import { router, usePathname } from 'expo-router';
 import React, { useEffect, useState } from 'react';
-import { Image, ImageBackground, Pressable, StyleSheet, useColorScheme, View } from 'react-native';
+import { I18nManager, Image, ImageBackground, Pressable, StyleSheet, useColorScheme, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { ThemedText } from './ThemedText';
 import { IconSymbol } from './ui/IconSymbol';
@@ -16,8 +15,7 @@ interface StyledHeaderProps {
 export default function StyledHeader({ title }: StyledHeaderProps) {
   const insets = useSafeAreaInsets();
   const pathname = usePathname();
-  const [userInfo, setUserInfo] = useState(null);
-  const { balance, isLoading: isCurrencyLoading } = useCurrency();
+  const [userInfo, setUserInfo] = useState<any>(null);
   const colorScheme = useColorScheme();
   const styles = createStyles(colorScheme);
 
@@ -33,6 +31,10 @@ export default function StyledHeader({ title }: StyledHeaderProps) {
     router.push('/profile');
   };
 
+  const handleBackPress = () => {
+    router.back();
+  };
+
   const getGenderImage = () => {
     if (userInfo?.gender === 'male') {
       return require('@/assets/images/MaleUser.png');
@@ -43,6 +45,12 @@ export default function StyledHeader({ title }: StyledHeaderProps) {
     return null;
   };
 
+  // Determine if we should show the back button
+  const shouldShowBackButton = pathname !== '/' && pathname !== '/index';
+  
+  // Determine the correct chevron direction for RTL
+  const chevronIcon = 'chevron.right';
+
   return (
     <ImageBackground
       source={require('@/assets/images/corner.jpg')}
@@ -50,7 +58,6 @@ export default function StyledHeader({ title }: StyledHeaderProps) {
       imageStyle={styles.backgroundImage}
     >
       <BlurView intensity={80} tint={colorScheme} style={styles.blurView}>
-        <ThemedText type="title" style={{ color: Colors[colorScheme].text, paddingTop: 5 }}>{title}</ThemedText>
         <View style={styles.actionsContainer}>
           {pathname !== '/profile' && pathname !== '/favorites' && (
             <Pressable onPress={handleProfilePress}>
@@ -61,10 +68,15 @@ export default function StyledHeader({ title }: StyledHeaderProps) {
               )}
             </Pressable>
           )}
-          {!isCurrencyLoading && (
-            <View style={styles.currencyContainer}>
-              <ThemedText style={styles.currencyText}>{balance} زر</ThemedText>
-            </View>
+        </View>
+        <ThemedText type="title" style={[styles.title, { color: Colors[colorScheme].text }]}>
+          {title}
+        </ThemedText>
+        <View style={styles.headerContainer}>
+          {shouldShowBackButton && (
+            <Pressable onPress={handleBackPress} style={styles.backButton}>
+              <IconSymbol name={chevronIcon} size={28} color={Colors[colorScheme].text} />
+            </Pressable>
           )}
         </View>
       </BlurView>
@@ -81,27 +93,33 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     opacity: 0.1,
   },
   blurView: {
-    flexDirection: 'row-reverse',
+    flexDirection: I18nManager.isRTL ? 'row-reverse' : 'row',
     justifyContent: 'space-between',
     alignItems: 'center',
     paddingHorizontal: 16,
     paddingBottom: 12,
     backgroundColor: Colors[colorScheme].background + 'aa',
   },
+  backButton: {
+    padding: 4,
+    marginLeft: 8,
+  },
+  title: {
+    fontSize: 20,
+    flex: 1,
+    textAlign: 'center',
+    paddingTop: 5,
+  },
+  headerContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+    justifyContent: 'flex-end',
+    width: 60,
+  },
   actionsContainer: {
     flexDirection: 'row',
     alignItems: 'center',
-  },
-  currencyContainer: {
-    marginRight: 16,
-    paddingVertical: 4,
-    paddingHorizontal: 8,
-    borderRadius: 8,
-    backgroundColor: 'rgba(255, 255, 255, 0.1)',
-  },
-  currencyText: {
-    fontWeight: 'bold',
-    color: '#ffd700',
+    width: 60,
   },
   genderImage: {
     width: 35,
