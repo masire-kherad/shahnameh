@@ -44,7 +44,6 @@ const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({
     setCurrentAnimatingIndex(0);
     setShowChoices(false);
     choicesFadeAnim.setValue(0);
-    setQuizEarnings(0); // Reset quiz earnings when stage changes
     
     // Get the correct image for this stage
     const imagePath = getScenarioImage(stage.id);
