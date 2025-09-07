@@ -88,17 +88,19 @@ const ScenarioScreen = () => {
     return (
       <BendedRoad imageSource={categoryImage}>
         <View style={styles.endingContainer}>
-          <ThemedText style={styles.endingTitle}>{ending.title}</ThemedText>
-          <ThemedText style={styles.endingText}>{ending.text}</ThemedText>
-          {scenarioSummary ? (
-            <ThemedText style={styles.summaryText}>
-              {scenarioSummary}
-            </ThemedText>
-          ) : (
-            <ThemedText style={styles.summaryText}>
-              {scenario.summary }
-            </ThemedText>
-          )}
+          <View style={styles.endingTextBackground}>
+            <ThemedText style={styles.endingTitle}>{ending.title}</ThemedText>
+            <ThemedText style={styles.endingText}>{ending.text}</ThemedText>
+            {scenarioSummary ? (
+              <ThemedText style={styles.summaryText}>
+                {scenarioSummary}
+              </ThemedText>
+            ) : (
+              <ThemedText style={styles.summaryText}>
+                {scenario.summary }
+              </ThemedText>
+            )}
+          </View>
           {/* todo: add currency later */}
           {/* <ThemedText style={styles.earningsText}>شما {sessionEarnings} زر به دست آوردید</ThemedText> */}
           <Pressable onPress={() => router.back()} style={styles.returnButton}>
@@ -143,6 +145,14 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     padding: 16,
     backgroundColor: 'transparent',
   },
+  endingTextBackground: {
+    backgroundColor: 'rgba(0, 0, 0, 0.7)',
+    borderRadius: 15,
+    padding: 20,
+    marginBottom: 20,
+    width: '90%',
+    maxWidth: 500,
+  },
   endingTitle: {
     fontSize: 24,
     fontWeight: 'bold',
@@ -162,6 +172,7 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     textShadowColor: 'rgba(0, 0, 0, 0.75)',
     textShadowOffset: { width: -1, height: 1 },
     textShadowRadius: 10,
+    lineHeight: 28,
   },
   summaryText: {
     fontSize: 16,
@@ -173,6 +184,7 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     textShadowRadius: 10,
     fontStyle: 'italic',
     paddingHorizontal: 20,
+    lineHeight: 24,
   },
   earningsText: {
     fontSize: 20,

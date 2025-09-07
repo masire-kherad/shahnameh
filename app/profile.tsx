@@ -9,7 +9,7 @@ import { getShowMeanings, getUserInfo, setShowMeanings, setUserInfo } from '@/se
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { router } from 'expo-router';
 import React, { useCallback, useEffect, useState } from 'react';
-import { Image, ImageBackground, Modal, Pressable, ScrollView, StyleSheet, View } from 'react-native';
+import { Image, ImageBackground, Modal, Platform, Pressable, ScrollView, StyleSheet, View } from 'react-native';
 
 const DAILY_REWARD_KEY = '@daily_reward_last_collection';
 
@@ -138,7 +138,9 @@ export default function ProfileScreen() {
           style={styles.settingItem} 
           onPress={toggleShowMeanings}
         >
-          <View style={styles.checkboxContainer}>
+          <View style={[styles.checkboxContainer, { 
+            flexDirection: Platform.OS === 'web' ? 'row-reverse' : 'row',
+           }]}>
             <View style={[styles.checkbox, showMeanings && styles.checkboxChecked]}>
               {showMeanings && <IconSymbol name="checkmark" size={16} color="#fff" />}
             </View>
@@ -298,9 +300,9 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     borderRadius: 12,
     padding: 16,
     marginBottom: 16,
+    backdropFilter: 'blur(10px)',
   },
   checkboxContainer: {
-    flexDirection: 'row',
     alignItems: 'center',
   },
   checkbox: {
@@ -311,7 +313,7 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     borderColor: '#fff',
     alignItems: 'center',
     justifyContent: 'center',
-    marginEnd: 12,
+    marginHorizontal: 12,
   },
   checkboxChecked: {
     backgroundColor: '#3498db',

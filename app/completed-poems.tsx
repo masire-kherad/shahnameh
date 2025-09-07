@@ -1,11 +1,11 @@
+import React, { useEffect, useState } from 'react';
+import { StyleSheet, ScrollView, View, ImageBackground, Pressable, Platform } from 'react-native';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-import { getCategories, getPoems } from '@/services/dataService';
+import { getPoems, getCategories } from '@/services/dataService';
 import { getCompletedPoems } from '@/services/progressService';
-import { Category, Poem } from '@/types/shahname';
+import { Poem, Category } from '@/types/shahname';
 import { router } from 'expo-router';
-import React, { useEffect, useState } from 'react';
-import { Pressable, ScrollView, StyleSheet, View } from 'react-native';
 
 export default function CompletedPoemsScreen() {
   const [poems, setPoems] = useState<Poem[]>([]);
@@ -29,22 +29,27 @@ export default function CompletedPoemsScreen() {
   };
 
   return (
-    <View style={styles.container}>
-      <ScrollView contentContainerStyle={styles.contentContainer}>
-        <ThemedText type="title" style={styles.title}>اشعار تکمیل شده</ThemedText>
-        
+    <ImageBackground
+      source={require('@/assets/images/Person/Ferdousi.png')}
+      style={[styles.container, Platform.OS === 'web' ? {
+        width: '100%',
+        height: '100%',
+      } : {}]}
+    >
+      <View style={styles.overlay} />
+      <ScrollView>
+        <ThemedView style={styles.titleContainer}>
+          <ThemedText type="title" style={{ padding: 15 }}>اشعار تکمیل شده</ThemedText>
+        </ThemedView>
+
         {poems.length === 0 ? (
           <ThemedView style={styles.emptyContainer}>
             <ThemedText style={styles.emptyText}>هنوز هیچ شعری را تکمیل نکرده‌اید</ThemedText>
           </ThemedView>
         ) : (
           poems.map((poem) => (
-            <Pressable 
-              key={poem.id} 
-              onPress={() => router.push(`/reading/${poem.id}`)}
-              style={styles.poemItem}
-            >
-              <ThemedView>
+            <Pressable key={poem.id} onPress={() => router.push(`/reading/${poem.id}`)}>
+              <ThemedView style={styles.poemItem}>
                 <ThemedText style={styles.poemText}>{poem.title}</ThemedText>
                 <ThemedText style={styles.categoryText}>{getCategoryName(poem.cat_id)}</ThemedText>
               </ThemedView>
@@ -52,43 +57,54 @@ export default function CompletedPoemsScreen() {
           ))
         )}
       </ScrollView>
-    </View>
+    </ImageBackground>
   );
 }
 
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    backgroundColor: '#000',
-  },
-  contentContainer: {
     padding: 16,
   },
-  title: {
-    textAlign: 'center',
+  overlay: {
+    ...StyleSheet.absoluteFillObject,
+    backgroundColor: 'rgba(0,0,0,0.5)',
+  },
+  titleContainer: {
+    alignItems: 'center',
     marginBottom: 24,
+    borderRadius: 15,
+    backgroundColor: 'rgba(255, 255, 255, 0.1)',
   },
   emptyContainer: {
     alignItems: 'center',
     justifyContent: 'center',
     padding: 40,
+    backgroundColor: 'rgba(255, 255, 255, 0.1)',
+    borderRadius: 8,
+    margin: 16,
   },
   emptyText: {
     fontSize: 18,
     textAlign: 'center',
+    color: '#fff',
   },
   poemItem: {
+    padding: 16,
     marginBottom: 12,
+    borderRadius: 8,
+    backgroundColor: '#6EBF8B',
   },
   poemText: {
     fontSize: 18,
     fontWeight: 'bold',
     textAlign: 'center',
-    padding: 16,
+    color: '#fff',
   },
   categoryText: {
     fontSize: 14,
     textAlign: 'center',
     marginTop: 4,
+    color: '#fff',
   },
 });

@@ -1,4 +1,4 @@
-import { Category, Poem, Poet, Verse } from '@/types/shahname';
+import { Category, Poem, Poet } from '@/types/shahname';
 
 const poets: Poet[] = require('../assets/db/poet.json');
 const categories: Category[] = require('../assets/db/cat.json');
