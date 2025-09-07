@@ -1,3 +1,4 @@
+import Loading from '@/components/Loading';
 import { ThemedText } from '@/components/ThemedText';
 import UserInfoModal from '@/components/UserInfoModal';
 import { IconSymbol } from '@/components/ui/IconSymbol';
@@ -13,14 +14,15 @@ import { Image, ImageBackground, Modal, Pressable, ScrollView, StyleSheet, View 
 const DAILY_REWARD_KEY = '@daily_reward_last_collection';
 
 export default function ProfileScreen() {
-  const [userInfo, setUserInfoState] = useState(null);
+  const [userInfo, setUserInfoState] = useState<any>(null);
   const [isRewardAvailable, setIsRewardAvailable] = useState(false);
   const [isEditModalVisible, setIsEditModalVisible] = useState(false);
   const [isRewardModalVisible, setIsRewardModalVisible] = useState(false);
   const [showMeanings, setShowMeaningsState] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
   const { balance, increaseBalance } = useCurrency();
   const colorScheme = useColorScheme();
-  const styles = createStyles(colorScheme);
+  const styles = createStyles(colorScheme!);
 
   const checkDailyReward = useCallback(async () => {
     const lastCollectionDate = await AsyncStorage.getItem(DAILY_REWARD_KEY);
@@ -34,11 +36,18 @@ export default function ProfileScreen() {
 
   useEffect(() => {
     const loadData = async () => {
-      const info = await getUserInfo();
-      const showMeaningsPref = await getShowMeanings();
-      setUserInfoState(info);
-      setShowMeaningsState(showMeaningsPref);
-      checkDailyReward();
+      setIsLoading(true);
+      try {
+        const info = await getUserInfo();
+        const showMeaningsPref = await getShowMeanings();
+        setUserInfoState(info);
+        setShowMeaningsState(showMeaningsPref);
+        checkDailyReward();
+      } catch (error) {
+        console.error('Failed to load profile data', error);
+      } finally {
+        setIsLoading(false);
+      }
     };
     loadData();
   }, [checkDailyReward]);
@@ -82,6 +91,11 @@ export default function ProfileScreen() {
     setShowMeaningsState(newValue);
     await setShowMeanings(newValue);
   };
+
+  // Show loading screen while data is being fetched
+  if (isLoading) {
+    return <Loading message="در حال بارگذاری پروفایل..." />;
+  }
 
   return (
     <ImageBackground 
@@ -191,6 +205,8 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
   container: {
     flex: 1,
     backgroundColor: Colors[colorScheme].background,
+    width: '100%',
+    height: '100%',
   },
   backgroundOverlay: {
     ...StyleSheet.absoluteFillObject,

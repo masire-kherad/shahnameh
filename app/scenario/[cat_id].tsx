@@ -1,4 +1,5 @@
 import BendedRoad from '@/components/BendedRoad';
+import Loading from '@/components/Loading';
 import StoryWithChoices from '@/components/game/StoryWithChoices';
 import { ThemedText } from '@/components/ThemedText';
 import { Colors } from '@/constants/Colors';
@@ -77,11 +78,7 @@ const ScenarioScreen = () => {
   };
 
   if (!scenario || !currentStage || isCurrencyLoading) {
-    return (
-      <View style={styles.loadingContainer}>
-        <Text>Loading...</Text>
-      </View>
-    );
+    return <Loading message="در حال بارگذاری سناریو..." />;
   }
 
   if (ending) {

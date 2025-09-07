@@ -3,7 +3,7 @@ import { getUserInfo } from '@/services/dataService';
 import { BlurView } from 'expo-blur';
 import { router, usePathname } from 'expo-router';
 import React, { useEffect, useState } from 'react';
-import { I18nManager, Image, ImageBackground, Platform, Pressable, StyleSheet, useColorScheme, View } from 'react-native';
+import { Image, ImageBackground, Pressable, StyleSheet, useColorScheme, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { ThemedText } from './ThemedText';
 import { IconSymbol } from './ui/IconSymbol';
@@ -49,12 +49,12 @@ export default function StyledHeader({ title }: Readonly<StyledHeaderProps>) {
   const shouldShowBackButton = pathname !== '/' && pathname !== '/index';
   
   // Determine the correct chevron direction for RTL
-  const chevronIcon = I18nManager.isRTL ? 'chevron.right' : 'chevron.left';
+  const chevronIcon = 'chevron.right';
 
   return (
     <ImageBackground
       source={require('@/assets/images/corner.jpg')}
-      style={[styles.header, { paddingTop: Platform.OS === 'web' ? 24 : insets.top + 12 }]}
+      style={[styles.header]}
       imageStyle={styles.backgroundImage}
     >
       <BlurView intensity={80} tint={'dark'} style={styles.blurView}>
@@ -91,8 +91,8 @@ export default function StyledHeader({ title }: Readonly<StyledHeaderProps>) {
 const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
   header: {
     overflow: 'hidden',
-    paddingBottom: 12,
-    backgroundColor: Colors[colorScheme].background + 'aa',
+    backgroundColor: Colors[colorScheme].background + 'dd',
+    height: 64
   },
   backgroundImage: {
     resizeMode: 'cover',
@@ -103,12 +103,10 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
   blurView: {
     justifyContent: 'space-between',
     alignItems: 'center',
-    paddingHorizontal: 16,
-    paddingBottom: 12,
     flexDirection: 'row',
     width: '100%',
-    backgroundColor: Colors[colorScheme].background + 'dd',
-    backdropFilter: 'none'
+    height: '100%',
+    paddingHorizontal: 15,
   },
   backButton: {
     padding: 4,
@@ -119,7 +117,7 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     flex: 1,
     textAlign: 'center',
     paddingTop: 5,
-    paddingBottom: 10,
+    paddingBottom: 5,
   },
   headerContainer: {
     flexDirection: 'row',

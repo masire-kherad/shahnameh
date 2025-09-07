@@ -1,17 +1,18 @@
 import AudioPlayer from '@/components/AudioPlayer';
 import BendedRoad from '@/components/BendedRoad';
 import HorizontalProgressBar from '@/components/HorizontalProgressBar';
+import Loading from '@/components/Loading';
+import NotFound from '@/components/NotFound';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 import { useProgress } from '@/hooks/useProgress';
-import { getCategories, getPoemAudio, getPoemWithSummary } from '@/services/dataService';
+import { getCategories, getPoemAudio, getPoemWithSummary, getShowMeanings } from '@/services/dataService';
 import { defaultImage, getCategoryImage } from '@/services/personLoader';
 import { Poem, } from '@/types/shahname';
 import { Stack, useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import { ImageSourcePropType, NativeScrollEvent, NativeSyntheticEvent, Pressable, ScrollView, StyleSheet, View } from 'react-native';
-import { getShowMeanings } from '@/services/dataService';
 
 type Couplet = {
   line1: string;
@@ -28,6 +29,7 @@ export default function ReadingScreen() {
   const [audio, setAudio] = useState<any>(null);
   const [categoryImage, setCategoryImage] = useState<ImageSourcePropType>(defaultImage);
   const [showMeanings, setShowMeanings] = useState(true);
+  const [isLoading, setIsLoading] = useState(true);
   const { completedPoems, favoritePoems, markPoemAsComplete, unmarkPoemAsComplete, addFavorite, removeFavorite } =
     useProgress();
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -39,41 +41,50 @@ export default function ReadingScreen() {
   useEffect(() => {
     const loadData = async () => {
       if (isNaN(poemIdNum)) {
+        setIsLoading(false);
         return;
       }
 
-      // Load user preference for showing meanings
-      const showMeaningsPref = await getShowMeanings();
-      setShowMeanings(showMeaningsPref);
+      setIsLoading(true);
+      
+      try {
+        // Load user preference for showing meanings
+        const showMeaningsPref = await getShowMeanings();
+        setShowMeanings(showMeaningsPref);
 
-      const currentPoem = getPoemWithSummary(poemIdNum);
-      const audio = getPoemAudio(poemIdNum);
-      if (audio) {
-        setAudio(audio);
-      }
-
-      if (currentPoem) {
-        setPoem(currentPoem);
-        const poemVerses = currentPoem.verses.sort((a, b) => a.vorder - b.vorder);
-        const summaries = currentPoem.summaries;
-
-        const groupedCouplets: Couplet[] = [];
-        let j = 0
-        for (let i = 0; i < poemVerses.length; i += 2) {
-          groupedCouplets.push({
-            line1: poemVerses[i]?.text || '',
-            line2: poemVerses[i + 1]?.text || '',
-            summary: summaries[j] || '',
-          });
-          j++;
+        const currentPoem = getPoemWithSummary(poemIdNum);
+        const audio = getPoemAudio(poemIdNum);
+        if (audio) {
+          setAudio(audio);
         }
-        setCouplets(groupedCouplets);
 
-        const categories = getCategories();
-        const category = categories.find(c => c.id === currentPoem.cat_id);
-        if (category) {
-          setCategoryImage(getCategoryImage(category));
+        if (currentPoem) {
+          setPoem(currentPoem);
+          const poemVerses = currentPoem.verses.sort((a, b) => a.vorder - b.vorder);
+          const summaries = currentPoem.summaries;
+
+          const groupedCouplets: Couplet[] = [];
+          let j = 0
+          for (let i = 0; i < poemVerses.length; i += 2) {
+            groupedCouplets.push({
+              line1: poemVerses[i]?.text || '',
+              line2: poemVerses[i + 1]?.text || '',
+              summary: summaries[j] || '',
+            });
+            j++;
+          }
+          setCouplets(groupedCouplets);
+
+          const categories = getCategories();
+          const category = categories.find(c => c.id === currentPoem.cat_id);
+          if (category) {
+            setCategoryImage(getCategoryImage(category));
+          }
         }
+      } catch (error) {
+        console.error('Failed to load poem data', error);
+      } finally {
+        setIsLoading(false);
       }
     };
     loadData();
@@ -120,11 +131,17 @@ export default function ReadingScreen() {
     }
   };
 
+  // Show loading screen while data is being fetched
+  if (isLoading) {
+    return <Loading message="در حال بارگذاری شعر..." />;
+  }
+
   if (!poem) {
     return (
-      <ThemedView style={styles.container}>
-        <ThemedText>Poem not found!</ThemedText>
-      </ThemedView>
+      <NotFound 
+        title="شعر مورد نظر یافت نشد" 
+        message="متأسفانه شعری که به دنبال آن بودید یافت نشد." 
+      />
     );
   }
 
