@@ -11,7 +11,7 @@ import { useColorScheme } from '@/hooks/useColorScheme';
 import React, { useEffect, useState } from 'react';
 import UserInfoModal from '@/components/UserInfoModal';
 import RulesAgreement from '@/components/RulesAgreement';
-import { getUserInfo, getRulesAgreed, setRulesAgreed } from '@/services/dataService';
+import { getUserInfo, getRulesAgreed, setRulesAgreed, setUserInfo } from '@/services/dataService';
 
 try {
   I18nManager.allowRTL(true);

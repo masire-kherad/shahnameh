@@ -29,7 +29,7 @@ export default function CollaborationsScreen() {
     {
       id: 2,
       name: "سارا بیتوئی",
-      role: "مشاوره ادبی و توسعه محتوا",
+      role: "مشاور ادبی و طراحی",
       url: "https://www.linkedin.com/in/sara-beytuie/"
     },
     {
@@ -41,7 +41,7 @@ export default function CollaborationsScreen() {
     {
       id: 4,
       name: "علیرضا اسرافیلی",
-      role: "مشاور بازی و تست برنامه",
+      role: "مشاور تحلیل و تست برنامه",
       url: "https://www.linkedin.com/in/alireza-esrafili-ba3a02206/"
     }
   ];

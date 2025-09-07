@@ -1,6 +1,6 @@
 import { Colors } from '@/constants/Colors';
 import React, { useEffect, useState } from 'react';
-import { ImageBackground, Modal, Pressable, StyleSheet, TextInput, useColorScheme, View } from 'react-native';
+import { ImageBackground, Modal, Platform, Pressable, StyleSheet, TextInput, useColorScheme, View } from 'react-native';
 import { ThemedText } from './ThemedText';
 
 interface UserInfoModalProps {
@@ -27,8 +27,22 @@ export default function UserInfoModal({ visible, onClose, initialName = '', init
     }
   };
 
+  // For web platform, we need to ensure the modal is properly positioned
+  const modalProps = Platform.OS === 'web' 
+    ? { 
+        visible, 
+        transparent: true, 
+        animationType: "fade" as const,
+        onRequestClose: handleClose
+      } 
+    : { 
+        visible, 
+        transparent: true, 
+        animationType: "fade" as const
+      };
+
   return (
-    <Modal visible={visible} transparent animationType="fade">
+    <Modal {...modalProps}>
       <View style={styles.modalContainer}>
         <ImageBackground
           source={require('@/assets/images/corner.jpg')}
