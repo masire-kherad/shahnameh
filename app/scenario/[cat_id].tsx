@@ -122,6 +122,7 @@ const ScenarioScreen = () => {
         colorScheme={colorScheme}
         isMuted={isMuted}
         onToggleMute={toggleMute}
+        scenarioType={category?.image || 'qmars'}
       />
     </View>
   );

@@ -7,7 +7,7 @@ import { getScenarioSound } from '@/services/scenarioSoundLoader';
 import { Stage } from '@/types/shahname';
 import { useAudioPlayer } from 'expo-audio';
 import { BlurView } from 'expo-blur';
-import React, { useEffect, useState, useRef } from 'react';
+import React, { useEffect, useRef, useState } from 'react';
 import { Animated, Pressable, StyleSheet, View } from 'react-native';
 
 interface StoryWithChoicesProps {
@@ -18,6 +18,7 @@ interface StoryWithChoicesProps {
   colorScheme: 'light' | 'dark';
   isMuted: boolean;
   onToggleMute: () => void;
+  scenarioType: string;
 }
 
 const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({ 
@@ -27,7 +28,8 @@ const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({
   scenarioEndings,
   colorScheme,
   isMuted,
-  onToggleMute
+  onToggleMute,
+  scenarioType
 }) => {
   const [sentences, setSentences] = useState<string[]>([]);
   const [sentenceAnimations, setSentenceAnimations] = useState<Animated.Value[]>([]);
@@ -44,7 +46,7 @@ const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({
   const player = useAudioPlayer(audioSource);
   
   // Store previous stage ID to detect changes
-  const prevStageIdRef = useRef(stage.id);
+  const prevStageIdRef = useRef<typeof stage.id | null>(null);
 
   // Handle stage transitions
   useEffect(() => {
@@ -65,9 +67,11 @@ const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({
         
         // Set up sentences for new stage
         const textLines = stage.text
-          .split(/[.!?]+/)
-          .map(sentence => sentence.trim())
-          .filter(sentence => sentence.length > 0);
+          ? stage.text
+              .split(/[.!?]+/)
+              .map(sentence => sentence.trim())
+              .filter(sentence => sentence.length > 0)
+          : [];
         
         setSentences(textLines);
         const newAnimations = textLines.map(() => new Animated.Value(0));
@@ -84,13 +88,22 @@ const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({
     } else {
       // Initial load or same stage
       const textLines = stage.text
-        .split(/[.!?]+/)
-        .map(sentence => sentence.trim())
-        .filter(sentence => sentence.length > 0);
+        ? stage.text
+            .split(/[.!?]+/)
+            .map(sentence => sentence.trim())
+            .filter(sentence => sentence.length > 0)
+        : [];
       
       setSentences(textLines);
       const newAnimations = textLines.map(() => new Animated.Value(0));
       setSentenceAnimations(newAnimations);
+      
+      // For initial load, ensure image is visible
+      if (prevStageIdRef.current === null) {
+        imageFadeAnim.setValue(1);
+        setShowContent(true);
+        prevStageIdRef.current = stage.id;
+      }
     }
   }, [stage.id, imageFadeAnim, choicesFadeAnim]);
 
@@ -166,7 +179,7 @@ const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({
   }
 
   // Get the correct image for this stage
-  const imagePath = getScenarioImage(stage.id);
+  const imagePath = getScenarioImage(scenarioType, stage.id);
 
   const styles = createStyles(colorScheme);
 
