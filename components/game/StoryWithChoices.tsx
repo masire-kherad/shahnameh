@@ -7,7 +7,7 @@ import { getScenarioSound } from '@/services/scenarioSoundLoader';
 import { Stage } from '@/types/shahname';
 import { useAudioPlayer } from 'expo-audio';
 import { BlurView } from 'expo-blur';
-import React, { useEffect, useState } from 'react';
+import React, { useEffect, useState, useRef } from 'react';
 import { Animated, Pressable, StyleSheet, View } from 'react-native';
 
 interface StoryWithChoicesProps {
@@ -29,48 +29,70 @@ const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({
   isMuted,
   onToggleMute
 }) => {
-  const [imageFadeAnim] = useState(new Animated.Value(0));
   const [sentences, setSentences] = useState<string[]>([]);
   const [sentenceAnimations, setSentenceAnimations] = useState<Animated.Value[]>([]);
   const [currentAnimatingIndex, setCurrentAnimatingIndex] = useState<number>(0);
   const [showChoices, setShowChoices] = useState<boolean>(false);
   const [choicesFadeAnim] = useState(new Animated.Value(0));
   const [quizEarnings, setQuizEarnings] = useState(0);
+  const [imageFadeAnim] = useState(new Animated.Value(1)); // Start fully visible
+  const [showContent, setShowContent] = useState<boolean>(true);
   
   // Create audio player - use quizSound for quizzes, otherwise regular sound
   const audioFileName = stage.type === 'quiz' ? (stage.quizSound || stage.sound) : stage.sound;
   const audioSource = audioFileName ? getScenarioSound(audioFileName) : null;
   const player = useAudioPlayer(audioSource);
   
+  // Store previous stage ID to detect changes
+  const prevStageIdRef = useRef(stage.id);
 
-  // Split sentences and initialize animations when stage changes
+  // Handle stage transitions
   useEffect(() => {
-    // Reset animations when stage changes
-    imageFadeAnim.setValue(0);
-    setCurrentAnimatingIndex(0);
-    setShowChoices(false);
-    choicesFadeAnim.setValue(0);
+    const stageChanged = prevStageIdRef.current !== stage.id;
     
-    
-    // Better sentence splitting - handle multiple sentence endings
-    const textLines = stage.text
-      .split(/[.!?]+/)
-      .map(sentence => sentence.trim())
-      .filter(sentence => sentence.length > 0);
-    
-    setSentences(textLines);
-    
-    // Create animation values for each sentence
-    const newAnimations = textLines.map(() => new Animated.Value(0));
-    setSentenceAnimations(newAnimations);
-
-    // Animate the image fade-in
-    Animated.timing(imageFadeAnim, {
-      toValue: 1,
-      duration: 1500,
-      useNativeDriver: true,
-    }).start();
-  }, [stage.id, imageFadeAnim, choicesFadeAnim]); // Only re-run when stage.id changes
+    if (stageChanged) {
+      // Immediately hide content when stage changes
+      setShowContent(false);
+      imageFadeAnim.setValue(0);
+      prevStageIdRef.current = stage.id;
+      
+      // Small delay to ensure content is hidden, then show new content
+      setTimeout(() => {
+        // Reset animations for new stage
+        setCurrentAnimatingIndex(0);
+        setShowChoices(false);
+        choicesFadeAnim.setValue(0);
+        
+        // Set up sentences for new stage
+        const textLines = stage.text
+          .split(/[.!?]+/)
+          .map(sentence => sentence.trim())
+          .filter(sentence => sentence.length > 0);
+        
+        setSentences(textLines);
+        const newAnimations = textLines.map(() => new Animated.Value(0));
+        setSentenceAnimations(newAnimations);
+        
+        // Show new content with fade-in
+        setShowContent(true);
+        Animated.timing(imageFadeAnim, {
+          toValue: 1,
+          duration: 300,
+          useNativeDriver: true,
+        }).start();
+      }, 50); // Small delay to ensure previous content is hidden
+    } else {
+      // Initial load or same stage
+      const textLines = stage.text
+        .split(/[.!?]+/)
+        .map(sentence => sentence.trim())
+        .filter(sentence => sentence.length > 0);
+      
+      setSentences(textLines);
+      const newAnimations = textLines.map(() => new Animated.Value(0));
+      setSentenceAnimations(newAnimations);
+    }
+  }, [stage.id, imageFadeAnim, choicesFadeAnim]);
 
   // Update player mute state when isMuted prop changes
   useEffect(() => {
@@ -106,7 +128,7 @@ const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({
                 duration: 1000,
                 useNativeDriver: true,
               }).start();
-            }, 1500);
+            }, 500);
           }
         }, 500);
       });
@@ -147,6 +169,11 @@ const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({
   const imagePath = getScenarioImage(stage.id);
 
   const styles = createStyles(colorScheme);
+
+  // Don't render anything if content should be hidden
+  if (!showContent) {
+    return <View style={styles.container} />;
+  }
 
   return (
     <View style={styles.container}>

@@ -49,8 +49,7 @@ export default function CategoryScreen() {
         <View style={styles.overlay} />
         <Stack.Screen options={{ title: category?.text ?? 'فهرست اشعار' }} />
         <ScrollView
-          style={styles.scrollView}
-          contentContainerStyle={styles.contentContainer}
+          contentContainerStyle={styles.scrollViewContent}
         >
           {poems.map((poem, index) => {
             const isCompleted = completedPoems[poem.id];
@@ -80,8 +79,6 @@ export default function CategoryScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
-    padding: 20,
-    paddingBottom: 100,
   },
   overlay: {
     ...StyleSheet.absoluteFillObject,

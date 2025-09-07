@@ -2,21 +2,15 @@ import { ThemedText } from '@/components/ThemedText';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
-import { useRouter } from 'expo-router';
 import React from 'react';
 import { Linking, Pressable, ScrollView, StyleSheet, View } from 'react-native';
 
 export default function RahnamaScreen() {
   const colorScheme = useColorScheme();
-  const router = useRouter();
   const styles = createStyles(colorScheme!);
 
   const handleLinkPress = (url: string) => {
     Linking.openURL(url);
-  };
-
-  const handleCollaborationsPress = () => {
-    router.push('/Collaborations');
   };
 
   return (
@@ -35,6 +29,13 @@ export default function RahnamaScreen() {
         <ThemedText style={styles.paragraph}>
           اگر پیشنهادی دارید یا ایده‌ای برای بهتر شدن برنامه به ذهن‌تان رسید، خوشحال می‌شویم از طریق صفحه‌ی اینستاگرام با ما در میان بگذارید.
         </ThemedText>
+
+        <View style={styles.section}>
+          <ThemedText style={styles.sectionTitle}>درباره‌ی توسعه‌ آینده</ThemedText>
+          <ThemedText style={styles.paragraph}>
+            در حال حاضر قسمت چالش به صورت آزمایشی و تنها به قسمت کیومرث اضافه شده است که درصورت گرفتن بازخورد مناسب ادامه پیدا می‌کند. با ارائه بازخوردهایتان در اینستاگرام در توسعه این برنامه با ما همکاری کنید.
+          </ThemedText>
+        </View>
 
         <View style={styles.linksContainer}>
           <Pressable style={styles.linkButton} onPress={() => handleLinkPress('https://www.instagram.com/aslani.ts')}>
@@ -81,6 +82,7 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     fontSize: 20,
     fontWeight: 'bold',
     textAlign: 'right',
+    paddingTop: 16,
     marginBottom: 16,
   },
   collaborationButton: {
