@@ -23,11 +23,12 @@ const MAPPING: IconMapping = {
   'chevron.left': 'chevron-left',
   'chevron.right': 'chevron-right',
   'person.fill': 'person',
+  'checkmark': 'check',
   'checkmark.circle.fill': 'check-circle',
   'heart.fill': 'favorite',
   'play.circle.fill': 'play-circle',
   'pause.circle.fill': 'pause-circle',
-  'handshake': 'handshake', // This should work, but let's add alternatives
+  'handshake': 'handshake',
   'handshake.circle': 'handshake',
   'camera': 'camera',
   'paperplane': 'send',

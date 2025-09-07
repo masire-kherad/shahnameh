@@ -74,3 +74,22 @@ export const getUserInfo = async () => {
     return null;
   }
 };
+
+// User preference for showing poem meanings
+export const setShowMeanings = async (show: boolean) => {
+  try {
+    await AsyncStorage.setItem('showMeanings', JSON.stringify(show));
+  } catch (e) {
+    console.error('Failed to save show meanings preference.', e);
+  }
+};
+
+export const getShowMeanings = async () => {
+  try {
+    const showMeanings = await AsyncStorage.getItem('showMeanings');
+    return showMeanings ? JSON.parse(showMeanings) : true; // Default to true
+  } catch (e) {
+    console.error('Failed to fetch show meanings preference.', e);
+    return true; // Default to true
+  }
+};

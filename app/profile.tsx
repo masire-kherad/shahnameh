@@ -1,15 +1,14 @@
 import { ThemedText } from '@/components/ThemedText';
-import { ThemedView } from '@/components/ThemedView';
+import UserInfoModal from '@/components/UserInfoModal';
+import { IconSymbol } from '@/components/ui/IconSymbol';
+import { Colors } from '@/constants/Colors';
+import { useColorScheme } from '@/hooks/useColorScheme';
 import { useCurrency } from '@/hooks/useCurrency';
-import { getUserInfo, setUserInfo } from '@/services/dataService';
+import { getShowMeanings, getUserInfo, setShowMeanings, setUserInfo } from '@/services/dataService';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { router } from 'expo-router';
 import React, { useCallback, useEffect, useState } from 'react';
-import { Alert, Image, Pressable, ScrollView, StyleSheet, View, ImageBackground, Modal } from 'react-native';
-import UserInfoModal from '@/components/UserInfoModal';
-import { IconSymbol } from '@/components/ui/IconSymbol';
-import { useColorScheme } from '@/hooks/useColorScheme';
-import { Colors } from '@/constants/Colors';
+import { Image, ImageBackground, Modal, Pressable, ScrollView, StyleSheet, View } from 'react-native';
 
 const DAILY_REWARD_KEY = '@daily_reward_last_collection';
 
@@ -18,6 +17,7 @@ export default function ProfileScreen() {
   const [isRewardAvailable, setIsRewardAvailable] = useState(false);
   const [isEditModalVisible, setIsEditModalVisible] = useState(false);
   const [isRewardModalVisible, setIsRewardModalVisible] = useState(false);
+  const [showMeanings, setShowMeaningsState] = useState(true);
   const { balance, increaseBalance } = useCurrency();
   const colorScheme = useColorScheme();
   const styles = createStyles(colorScheme);
@@ -35,7 +35,9 @@ export default function ProfileScreen() {
   useEffect(() => {
     const loadData = async () => {
       const info = await getUserInfo();
+      const showMeaningsPref = await getShowMeanings();
       setUserInfoState(info);
+      setShowMeaningsState(showMeaningsPref);
       checkDailyReward();
     };
     loadData();
@@ -75,6 +77,12 @@ export default function ProfileScreen() {
     setIsEditModalVisible(false);
   };
 
+  const toggleShowMeanings = async () => {
+    const newValue = !showMeanings;
+    setShowMeaningsState(newValue);
+    await setShowMeanings(newValue);
+  };
+
   return (
     <ImageBackground 
       source={require('@/assets/images/bg.png')} 
@@ -95,12 +103,13 @@ export default function ProfileScreen() {
           <ThemedText type="title" style={styles.profileName}>
             {userInfo?.name || 'پروفایل'}
           </ThemedText>
-          <View style={styles.currencyContainer}>
+        {/* todo: no currency for now */}
+          {/* <View style={styles.currencyContainer}>
             <ThemedText style={styles.currencyText}>{balance} زر</ThemedText>
-          </View>
+          </View> */}
         </View>
 
-        <Pressable
+        {/* <Pressable
           style={[styles.dailyRewardButton, !isRewardAvailable && styles.disabledButton]}
           onPress={handleClaimReward}
           disabled={!isRewardAvailable}
@@ -108,6 +117,19 @@ export default function ProfileScreen() {
           <ThemedText style={styles.buttonText}>
             {isRewardAvailable ? 'دریافت پاداش روزانه' : 'پاداش امروز را دریافت کرده‌اید'}
           </ThemedText>
+        </Pressable> */}
+
+        {/* Show Meanings Checkbox */}
+        <Pressable 
+          style={styles.settingItem} 
+          onPress={toggleShowMeanings}
+        >
+          <View style={styles.checkboxContainer}>
+            <View style={[styles.checkbox, showMeanings && styles.checkboxChecked]}>
+              {showMeanings && <IconSymbol name="checkmark" size={16} color="#fff" />}
+            </View>
+            <ThemedText style={styles.settingText}>نمایش معانی اشعار</ThemedText>
+          </View>
         </Pressable>
 
         <View style={styles.navigationSection}>
@@ -254,6 +276,34 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     textShadowColor: 'rgba(0, 0, 0, 0.75)',
     textShadowOffset: { width: 1, height: 1 },
     textShadowRadius: 1,
+  },
+  settingItem: {
+    backgroundColor: 'rgba(255, 255, 255, 0.1)',
+    borderRadius: 12,
+    padding: 16,
+    marginBottom: 16,
+  },
+  checkboxContainer: {
+    flexDirection: 'row',
+    alignItems: 'center',
+  },
+  checkbox: {
+    width: 24,
+    height: 24,
+    borderRadius: 12,
+    borderWidth: 2,
+    borderColor: '#fff',
+    alignItems: 'center',
+    justifyContent: 'center',
+    marginEnd: 12,
+  },
+  checkboxChecked: {
+    backgroundColor: '#3498db',
+  },
+  settingText: {
+    color: '#fff',
+    fontSize: 18,
+    fontWeight: 'bold',
   },
   navigationSection: {
     backgroundColor: 'rgba(255, 255, 255, 0.1)',

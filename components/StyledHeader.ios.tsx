@@ -12,12 +12,12 @@ interface StyledHeaderProps {
   title: string;
 }
 
-export default function StyledHeader({ title }: StyledHeaderProps) {
+export default function StyledHeader({ title }: Readonly<StyledHeaderProps>) {
   const insets = useSafeAreaInsets();
   const pathname = usePathname();
   const [userInfo, setUserInfo] = useState<any>(null);
   const colorScheme = useColorScheme();
-  const styles = createStyles(colorScheme);
+  const styles = createStyles(colorScheme!);
 
   useEffect(() => {
     const fetchUserInfo = async () => {
@@ -57,25 +57,25 @@ export default function StyledHeader({ title }: StyledHeaderProps) {
       style={[styles.header, { paddingTop: insets.top + 12 }]}
       imageStyle={styles.backgroundImage}
     >
-      <BlurView intensity={80} tint={colorScheme} style={styles.blurView}>
+      <BlurView intensity={80} tint={'dark'} style={styles.blurView}>
         <View style={styles.actionsContainer}>
           {pathname !== '/profile' && pathname !== '/favorites' && (
             <Pressable onPress={handleProfilePress}>
               {userInfo && getGenderImage() ? (
                 <Image source={getGenderImage()} style={styles.genderImage} />
               ) : (
-                <IconSymbol name="person.fill" size={28} color={Colors[colorScheme].text} />
+                <IconSymbol name="person.fill" size={28} color={Colors[colorScheme!].text} />
               )}
             </Pressable>
           )}
         </View>
-        <ThemedText type="title" style={[styles.title, { color: Colors[colorScheme].text }]}>
+        <ThemedText type="title" style={[styles.title, { color: Colors[colorScheme!].text }]}>
           {title}
         </ThemedText>
         <View style={styles.headerContainer}>
           {shouldShowBackButton && (
             <Pressable onPress={handleBackPress} style={styles.backButton}>
-              <IconSymbol name={chevronIcon} size={28} color={Colors[colorScheme].text} />
+              <IconSymbol name={chevronIcon} size={20} color={Colors[colorScheme!].text} />
             </Pressable>
           )}
         </View>
@@ -102,7 +102,7 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
   },
   backButton: {
     padding: 4,
-    marginLeft: 8,
+    marginRight: 20,
   },
   title: {
     fontSize: 20,

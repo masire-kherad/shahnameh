@@ -11,6 +11,7 @@ import { Poem, } from '@/types/shahname';
 import { Stack, useLocalSearchParams, useRouter } from 'expo-router';
 import React, { useEffect, useState } from 'react';
 import { ImageSourcePropType, NativeScrollEvent, NativeSyntheticEvent, Pressable, ScrollView, StyleSheet, View } from 'react-native';
+import { getShowMeanings } from '@/services/dataService';
 
 type Couplet = {
   line1: string;
@@ -26,6 +27,7 @@ export default function ReadingScreen() {
   const [couplets, setCouplets] = useState<Couplet[]>([]);
   const [audio, setAudio] = useState<any>(null);
   const [categoryImage, setCategoryImage] = useState<ImageSourcePropType>(defaultImage);
+  const [showMeanings, setShowMeanings] = useState(true);
   const { completedPoems, favoritePoems, markPoemAsComplete, unmarkPoemAsComplete, addFavorite, removeFavorite } =
     useProgress();
   const [scrollProgress, setScrollProgress] = useState(0);
@@ -39,6 +41,10 @@ export default function ReadingScreen() {
       if (isNaN(poemIdNum)) {
         return;
       }
+
+      // Load user preference for showing meanings
+      const showMeaningsPref = await getShowMeanings();
+      setShowMeanings(showMeaningsPref);
 
       const currentPoem = getPoemWithSummary(poemIdNum);
       const audio = getPoemAudio(poemIdNum);
@@ -145,9 +151,11 @@ export default function ReadingScreen() {
               <ThemedView key={index} style={styles.couplet}>
                 <ThemedText style={styles.verseText1}>{couplet.line1}</ThemedText>
                 <ThemedText style={styles.verseText2}>{couplet.line2}</ThemedText>
-                <ThemedView style={styles.summaryContainer}>
-                  <ThemedText style={styles.summaryText}>{couplet.summary}</ThemedText>
-                </ThemedView>
+                {showMeanings && (
+                  <ThemedView style={styles.summaryContainer}>
+                    <ThemedText style={styles.summaryText}>{couplet.summary}</ThemedText>
+                  </ThemedView>
+                )}
               </ThemedView>
             ))}
           </View>
