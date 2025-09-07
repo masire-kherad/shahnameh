@@ -1,11 +1,11 @@
 {
   "expo": {
-    "name": "shahname",
-    "slug": "shahname",
+    "name": "MasireKherad",
+    "slug": "shahnameh",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/images/Logo.png",
-    "scheme": "shahname",
+    "scheme": "shahnameh",
     "userInterfaceStyle": "automatic",
     "newArchEnabled": true,
     "ios": {
@@ -17,7 +17,7 @@
         "backgroundColor": "#f0bf7d"
       },
       "edgeToEdgeEnabled": true,
-      "package": "com.aliaslani.mm.shahname"
+      "package": "com.aliaslani.mm.shahnameh"
     },
     "web": {
       "bundler": "metro",

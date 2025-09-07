@@ -79,6 +79,7 @@ export default function CategoryScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    paddingBottom: 80,
   },
   overlay: {
     ...StyleSheet.absoluteFillObject,
@@ -86,7 +87,6 @@ const styles = StyleSheet.create({
   },
   scrollViewContent: {
     padding: 16,
-    paddingBottom: 80, // Add padding to the bottom to avoid overlap with the button
   },
   poemItem: {
     padding: 16,

@@ -2,7 +2,7 @@ import { ThemedText } from '@/components/ThemedText';
 import { Colors } from '@/constants/Colors';
 import { QuizOption } from '@/types/shahname';
 import { BlurView } from 'expo-blur';
-import React from 'react';
+import React, { useState } from 'react';
 import { Pressable, StyleSheet, View } from 'react-native';
 
 interface QuizQuestionProps {
@@ -14,6 +14,16 @@ interface QuizQuestionProps {
 
 const QuizQuestion: React.FC<QuizQuestionProps> = ({ question, options, onAnswer, colorScheme }) => {
   const styles = createStyles(colorScheme);
+  const [selectedOptionIndex, setSelectedOptionIndex] = useState<number | null>(null);
+  const [answered, setAnswered] = useState(false);
+
+  const handleAnswer = (optionIndex: number, isCorrect: boolean) => {
+    if (answered) return; // Prevent multiple selections
+    
+    setSelectedOptionIndex(optionIndex);
+    setAnswered(true);
+    setTimeout(() => onAnswer(isCorrect), 500)
+  };
 
   return (
     <View style={styles.container}>
@@ -27,11 +37,26 @@ const QuizQuestion: React.FC<QuizQuestionProps> = ({ question, options, onAnswer
 
           const text = option[key] as string;
           const isCorrect = option.correct === true;
+          const isSelected = selectedOptionIndex === index;
+          const showFeedback = answered && isSelected;
 
           return (
-            <Pressable key={index} onPress={() => onAnswer(isCorrect)} style={styles.optionButton}>
-              <View style={styles.optionContainer}>
-                <ThemedText style={styles.optionText}>{text}</ThemedText>
+            <Pressable 
+              key={index} 
+              onPress={() => handleAnswer(index, isCorrect)} 
+              style={styles.optionButton}
+              disabled={answered}
+            >
+              <View style={[
+                styles.optionContainer,
+                showFeedback && (isCorrect ? styles.correctOption : styles.incorrectOption)
+              ]}>
+                <ThemedText style={[
+                  styles.optionText,
+                  showFeedback && styles.feedbackText
+                ]}>
+                  {text}
+                </ThemedText>
               </View>
             </Pressable>
           );
@@ -74,10 +99,21 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     padding: 16,
     borderRadius: 16,
   },
+  correctOption: {
+    backgroundColor: 'rgba(0, 128, 0, 0.3)', // Green with alpha for correct answer
+    borderColor: '#00ff00',
+  },
+  incorrectOption: {
+    backgroundColor: 'rgba(255, 0, 0, 0.3)', // Red with alpha for incorrect answer
+    borderColor: '#ff0000',
+  },
   optionText: {
     fontSize: 16,
     textAlign: 'center',
     color: '#ffffff',
+  },
+  feedbackText: {
+    fontWeight: 'bold',
   },
 });
 

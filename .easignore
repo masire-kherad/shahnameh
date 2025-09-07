@@ -1,0 +1,44 @@
+# EAS Build specific ignore file
+# This file tells EAS Build which files to ignore when creating the build archive
+
+# Dependencies - these are installed during the build process
+node_modules/
+
+# Expo specific files
+.expo/
+.expo-shared/
+
+# Build outputs
+dist/
+web-build/
+build/
+.eas/
+
+# Development files
+*.log
+.env*.local
+npm-debug.*
+yarn-debug.*
+yarn-error.*
+
+# IDE and editor files
+.vscode/
+.idea/
+*.swp
+*.swo
+
+# OS generated files
+.DS_Store
+Thumbs.db
+
+# TypeScript build info
+*.tsbuildinfo
+
+# Vercel files (not needed for Expo builds)
+.vercel/
+
+# Coverage reports
+coverage/
+
+# Ignore map files (useful for debugging but not needed in production)
+*.map
