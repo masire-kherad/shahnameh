@@ -59,7 +59,11 @@ export default function StyledHeader({ title }: Readonly<StyledHeaderProps>) {
     >
       <BlurView intensity={80} style={styles.blurView}>
         <View style={styles.actionsContainer}>
-          {pathname !== '/profile' &&  pathname !== '/favorites' && (
+          {pathname !== '/profile' && 
+           pathname !== '/favorites' && 
+           pathname !== '/Info' && 
+           pathname !== '/Collaborations' && 
+           pathname !== '/completed-poems' && (
             <Pressable onPress={handleProfilePress}>
               {userInfo && getGenderImage() ? (
                 <Image source={getGenderImage()} style={styles.genderImage} />
