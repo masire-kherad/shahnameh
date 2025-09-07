@@ -8,23 +8,23 @@ import { useCurrency } from '@/hooks/useCurrency';
 import { getShowMeanings, getUserInfo, setShowMeanings, setUserInfo } from '@/services/dataService';
 import AsyncStorage from '@react-native-async-storage/async-storage';
 import { router } from 'expo-router';
-import React, { useCallback, useEffect, useState } from 'react';
+import * as React from 'react';
 import { Image, ImageBackground, Modal, Platform, Pressable, ScrollView, StyleSheet, View } from 'react-native';
 
 const DAILY_REWARD_KEY = '@daily_reward_last_collection';
 
 export default function ProfileScreen() {
-  const [userInfo, setUserInfoState] = useState<any>(null);
-  const [isRewardAvailable, setIsRewardAvailable] = useState(false);
-  const [isEditModalVisible, setIsEditModalVisible] = useState(false);
-  const [isRewardModalVisible, setIsRewardModalVisible] = useState(false);
-  const [showMeanings, setShowMeaningsState] = useState(true);
-  const [isLoading, setIsLoading] = useState(true);
+  const [userInfo, setUserInfoState] = React.useState<any>(null);
+  const [isRewardAvailable, setIsRewardAvailable] = React.useState(false);
+  const [isEditModalVisible, setIsEditModalVisible] = React.useState(false);
+  const [isRewardModalVisible, setIsRewardModalVisible] = React.useState(false);
+  const [showMeanings, setShowMeaningsState] = React.useState(true);
+  const [isLoading, setIsLoading] = React.useState(true);
   const { balance, increaseBalance } = useCurrency();
   const colorScheme = useColorScheme();
   const styles = createStyles(colorScheme!);
 
-  const checkDailyReward = useCallback(async () => {
+  const checkDailyReward = React.useCallback(async () => {
     const lastCollectionDate = await AsyncStorage.getItem(DAILY_REWARD_KEY);
     const today = new Date().toLocaleDateString();
     if (lastCollectionDate !== today) {
@@ -34,7 +34,7 @@ export default function ProfileScreen() {
     }
   }, []);
 
-  useEffect(() => {
+  React.useEffect(() => {
     const loadData = async () => {
       setIsLoading(true);
       try {
@@ -52,7 +52,7 @@ export default function ProfileScreen() {
     loadData();
   }, [checkDailyReward]);
 
-  const handleClaimReward = useCallback(async () => {
+  const handleClaimReward = React.useCallback(async () => {
     if (isRewardAvailable) {
       await increaseBalance(5);
       const today = new Date().toLocaleDateString();
@@ -139,7 +139,7 @@ export default function ProfileScreen() {
           onPress={toggleShowMeanings}
         >
           <View style={[styles.checkboxContainer, { 
-            flexDirection: Platform.OS === 'web' ? 'row-reverse' : 'row',
+            flexDirection: Platform.OS !== 'android' ? 'row-reverse' : 'row',
            }]}>
             <View style={[styles.checkbox, showMeanings && styles.checkboxChecked]}>
               {showMeanings && <IconSymbol name="checkmark" size={16} color="#fff" />}
