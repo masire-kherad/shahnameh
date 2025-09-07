@@ -50,10 +50,10 @@ const BendedRoad: React.FC<BendedRoadProps> = ({ imageSource, children }) => {
               opacity="0.7" // Add opacity to the background image
             />
           </Svg>
-          <BlurView 
-            intensity={5} 
+          <BlurView
+            intensity={10} 
             style={styles.blurOverlay} 
-            tint={colorScheme === 'dark' ? 'dark' : 'light'}
+            tint={'dark'}
           />
         </>
       )}

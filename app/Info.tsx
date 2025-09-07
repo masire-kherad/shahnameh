@@ -2,15 +2,21 @@ import { ThemedText } from '@/components/ThemedText';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
+import { useRouter } from 'expo-router';
 import React from 'react';
 import { Linking, Pressable, ScrollView, StyleSheet, View } from 'react-native';
 
 export default function RahnamaScreen() {
   const colorScheme = useColorScheme();
-  const styles = createStyles(colorScheme);
+  const router = useRouter();
+  const styles = createStyles(colorScheme!);
 
   const handleLinkPress = (url: string) => {
     Linking.openURL(url);
+  };
+
+  const handleCollaborationsPress = () => {
+    router.push('/Collaborations');
   };
 
   return (
@@ -64,6 +70,33 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     lineHeight: 28,
     textAlign: 'right',
     marginBottom: 16,
+  },
+  section: {
+    marginTop: 32,
+    paddingTop: 16,
+    borderTopWidth: 1,
+    borderTopColor: Colors[colorScheme].tabIconDefault,
+  },
+  sectionTitle: {
+    fontSize: 20,
+    fontWeight: 'bold',
+    textAlign: 'right',
+    marginBottom: 16,
+  },
+  collaborationButton: {
+    flexDirection: 'row-reverse',
+    alignItems: 'center',
+    backgroundColor: Colors[colorScheme].tint,
+    paddingVertical: 12,
+    paddingHorizontal: 24,
+    borderRadius: 8,
+    alignSelf: 'flex-start',
+    gap: 8,
+  },
+  collaborationButtonText: {
+    color: '#fff',
+    fontSize: 16,
+    fontWeight: 'bold',
   },
   linksContainer: {
     marginTop: 32,

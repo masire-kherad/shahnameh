@@ -1,14 +1,14 @@
-import React, { useEffect, useState } from 'react';
-import { StyleSheet, ScrollView, View, Pressable, ImageSourcePropType } from 'react-native';
+import BendedRoad from '@/components/BendedRoad';
 import { ThemedText } from '@/components/ThemedText';
 import { ThemedView } from '@/components/ThemedView';
-import { getPoems, getCategories } from '@/services/dataService';
 import { useProgress } from '@/hooks/useProgress';
-import { Poem, Category } from '@/types/shahname';
-import { router, useLocalSearchParams, Stack } from 'expo-router';
-import BendedRoad from '@/components/BendedRoad';
+import { getCategories, getPoems } from '@/services/dataService';
 import { defaultImage, getCategoryImage } from '@/services/personLoader';
 import { getScenario } from '@/services/scenarioLoader';
+import { Category, Poem } from '@/types/shahname';
+import { router, Stack, useLocalSearchParams } from 'expo-router';
+import { useEffect, useState } from 'react';
+import { ImageSourcePropType, Pressable, ScrollView, StyleSheet, View } from 'react-native';
 
 
 export default function CategoryScreen() {
@@ -69,7 +69,7 @@ export default function CategoryScreen() {
           onPress={handlePlayPress}
           disabled={!isScenarioAvailable}
         >
-          <ThemedText style={styles.playButtonText}>بازی</ThemedText>
+          <ThemedText style={styles.playButtonText}>چالش</ThemedText>
         </Pressable>
         )}
       </View>
@@ -80,6 +80,8 @@ export default function CategoryScreen() {
 const styles = StyleSheet.create({
   container: {
     flex: 1,
+    padding: 20,
+    paddingBottom: 100,
   },
   overlay: {
     ...StyleSheet.absoluteFillObject,

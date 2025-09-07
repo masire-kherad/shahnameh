@@ -17,13 +17,14 @@ const ScenarioScreen = () => {
   const colorScheme = useColorScheme() ?? 'light';
   const styles = createStyles(colorScheme);
   const { cat_id } = useLocalSearchParams();
-  const { balance, increaseBalance, isLoading: isCurrencyLoading } = useCurrency();
+  const { increaseBalance, isLoading: isCurrencyLoading } = useCurrency();
   const [scenario, setScenario] = useState<Scenario | null>(null);
   const [currentStage, setCurrentStage] = useState<Stage | null>(null);
   const [category, setCategory] = useState<Category | null>(null);
   const [ending, setEnding] = useState<Ending | null>(null);
   const [sessionEarnings, setSessionEarnings] = useState(0);
   const [scenarioSummary, setScenarioSummary] = useState<string>('');
+  const [isMuted, setIsMuted] = useState<boolean>(false);
 
   useEffect(() => {
     const categories = getCategories();
@@ -41,7 +42,7 @@ const ScenarioScreen = () => {
         const updatedStages = scenarioData.stages.map(stage => {
           if (!stage.image) {
             const randomImage = images[Math.floor(Math.random() * images.length)];
-            return { ...stage, image: randomImage };
+            return { ...stage, image: randomImage }
           }
           return stage;
         });
@@ -51,13 +52,14 @@ const ScenarioScreen = () => {
     }
   }, [cat_id]);
 
-  const handleGameEnd = useCallback(async (gameEnding: Ending, earnings: number) => {
-    if (earnings > 0) {
-      await increaseBalance(earnings);
+  const handleGameEnd = useCallback(async (gameEnding: Ending, endingEarnings: number) => {
+    const totalEarnings = sessionEarnings + endingEarnings;
+    if (totalEarnings > 0) {
+      await increaseBalance(totalEarnings);
     }
     setEnding(gameEnding);
-    setSessionEarnings(earnings);
-  }, [increaseBalance]);
+    setSessionEarnings(totalEarnings);
+  }, [increaseBalance, sessionEarnings]);
 
   const handleStageChange = useCallback((stageId: number | string) => {
     const stage = scenario?.stages.find((s) => s.id === stageId);
@@ -68,6 +70,11 @@ const ScenarioScreen = () => {
       setEnding(scenario.endings[stageId]);
     }
   }, [scenario]);
+
+  // Toggle mute state
+  const toggleMute = () => {
+    setIsMuted(prev => !prev);
+  };
 
   if (!scenario || !currentStage || isCurrencyLoading) {
     return (
@@ -92,10 +99,11 @@ const ScenarioScreen = () => {
             </ThemedText>
           ) : (
             <ThemedText style={styles.summaryText}>
-              {scenario.summarythe }
+              {scenario.summary }
             </ThemedText>
           )}
-          <ThemedText style={styles.earningsText}>شما {sessionEarnings} زر به دست آوردید</ThemedText>
+          {/* todo: add currency later */}
+          {/* <ThemedText style={styles.earningsText}>شما {sessionEarnings} زر به دست آوردید</ThemedText> */}
           <Pressable onPress={() => router.back()} style={styles.returnButton}>
             <Text style={styles.returnButtonText}>بازگشت</Text>
           </Pressable>
@@ -113,6 +121,8 @@ const ScenarioScreen = () => {
         onGameEnd={handleGameEnd}
         scenarioEndings={scenario.endings}
         colorScheme={colorScheme}
+        isMuted={isMuted}
+        onToggleMute={toggleMute}
       />
     </View>
   );
@@ -139,6 +149,7 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
   endingTitle: {
     fontSize: 24,
     fontWeight: 'bold',
+    paddingTop: 16,
     marginBottom: 16,
     textAlign: 'center',
     color: '#ffffff',

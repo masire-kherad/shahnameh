@@ -16,7 +16,7 @@ try {
   I18nManager.allowRTL(true);
   I18nManager.forceRTL(true);
 } catch (e) {
-  console.log(e);
+  // Error handling for RTL configuration
 }
 
 export default function RootLayout() {
@@ -72,7 +72,9 @@ export default function RootLayout() {
             <Stack.Screen name="reading/[poem_id]" options={{ title: '' }} />
             <Stack.Screen name="scenario/[cat_id]" options={{ title: 'Scenario' }} />
             <Stack.Screen name="Info" options={{ title: 'درباره‌ما' }} />
+            <Stack.Screen name="Collaborations" options={{ title: 'همکاران' }} />
             <Stack.Screen name="favorites" options={{ title: 'علاقه‌مندی‌ها' }} />
+            <Stack.Screen name="completed-poems" options={{ title: 'اشعار تکمیل شده' }} />
             <Stack.Screen name="+not-found" />
           </Stack>
           <UserInfoModal visible={modalVisible} onClose={handleModalClose} />

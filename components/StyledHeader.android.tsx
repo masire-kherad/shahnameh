@@ -3,7 +3,7 @@ import { getUserInfo } from '@/services/dataService';
 import { BlurView } from 'expo-blur';
 import { router, usePathname } from 'expo-router';
 import React, { useEffect, useState } from 'react';
-import { I18nManager, Image, ImageBackground, Pressable, StyleSheet, useColorScheme, View } from 'react-native';
+import { Image, ImageBackground, Pressable, StyleSheet, useColorScheme, View } from 'react-native';
 import { useSafeAreaInsets } from 'react-native-safe-area-context';
 import { ThemedText } from './ThemedText';
 import { IconSymbol } from './ui/IconSymbol';
@@ -12,7 +12,7 @@ interface StyledHeaderProps {
   title: string;
 }
 
-export default function StyledHeader({ title }: StyledHeaderProps) {
+export default function StyledHeader({ title }: Readonly<StyledHeaderProps>) {
   const insets = useSafeAreaInsets();
   const pathname = usePathname();
   const [userInfo, setUserInfo] = useState<any>(null);
@@ -49,7 +49,7 @@ export default function StyledHeader({ title }: StyledHeaderProps) {
   const shouldShowBackButton = pathname !== '/' && pathname !== '/index';
   
   // Determine the correct chevron direction for RTL
-  const chevronIcon = I18nManager.isRTL ? 'chevron.right' : 'chevron.left';
+  const chevronIcon = 'chevron.left';
 
   return (
     <ImageBackground
@@ -57,7 +57,7 @@ export default function StyledHeader({ title }: StyledHeaderProps) {
       style={[styles.header, { paddingTop: insets.top + 12 }]}
       imageStyle={styles.backgroundImage}
     >
-      <BlurView intensity={80} tint={colorScheme} style={styles.blurView}>
+      <BlurView intensity={80} style={styles.blurView}>
         <View style={styles.actionsContainer}>
           {pathname !== '/profile' &&  pathname !== '/favorites' && (
             <Pressable onPress={handleProfilePress}>
@@ -87,6 +87,7 @@ export default function StyledHeader({ title }: StyledHeaderProps) {
 const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
   header: {
     overflow: 'hidden',
+    backgroundColor: Colors[colorScheme].background + 'aa',
   },
   backgroundImage: {
     resizeMode: 'cover',
@@ -98,7 +99,7 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     alignItems: 'center',
     paddingHorizontal: 16,
     paddingBottom: 12,
-    backgroundColor: Colors[colorScheme].background + 'aa',
+    backgroundColor: Colors[colorScheme].background + 'dd',
   },
   backButton: {
     padding: 4,

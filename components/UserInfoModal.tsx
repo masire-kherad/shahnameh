@@ -1,22 +1,29 @@
-import React, { useState } from 'react';
-import { View, Text, TextInput, Pressable, ImageBackground, StyleSheet, Modal, useColorScheme } from 'react-native';
-import { ThemedText } from './ThemedText';
 import { Colors } from '@/constants/Colors';
+import React, { useEffect, useState } from 'react';
+import { ImageBackground, Modal, Pressable, StyleSheet, TextInput, useColorScheme, View } from 'react-native';
+import { ThemedText } from './ThemedText';
 
 interface UserInfoModalProps {
   visible: boolean;
   onClose: (name: string, gender: 'male' | 'female') => void;
+  initialName?: string;
+  initialGender?: 'male' | 'female';
 }
 
-export default function UserInfoModal({ visible, onClose }: UserInfoModalProps) {
-  const [name, setName] = useState('');
-  const [gender, setGender] = useState<'male' | 'female'>('male');
+export default function UserInfoModal({ visible, onClose, initialName = '', initialGender = 'male' }: UserInfoModalProps) {
+  const [name, setName] = useState(initialName);
+  const [gender, setGender] = useState<'male' | 'female'>(initialGender);
   const colorScheme = useColorScheme();
-  const styles = createStyles(colorScheme);
+  const styles = createStyles(colorScheme!);
+
+  useEffect(() => {
+    setName(initialName);
+    setGender(initialGender);
+  }, [initialName, initialGender, visible]);
 
   const handleClose = () => {
-    if (name && gender) {
-      onClose(name, gender);
+    if (name.trim() && gender) {
+      onClose(name.trim(), gender);
     }
   };
 
@@ -33,7 +40,7 @@ export default function UserInfoModal({ visible, onClose }: UserInfoModalProps) 
             <TextInput
               style={styles.input}
               placeholder="نام خود را وارد کنید"
-              placeholderTextColor={Colors[colorScheme].text}
+              placeholderTextColor={Colors[colorScheme!].text}
               value={name}
               onChangeText={setName}
             />
@@ -43,13 +50,13 @@ export default function UserInfoModal({ visible, onClose }: UserInfoModalProps) 
                 style={[styles.genderButton, gender === 'male' && styles.selectedGender]}
                 onPress={() => setGender('male')}
               >
-                <ThemedText style={styles.genderText}>مرد</ThemedText>
+                <ThemedText style={[styles.genderText, gender === 'male' && styles.genderTextSelected]}>آقا</ThemedText>
               </Pressable>
               <Pressable
                 style={[styles.genderButton, gender === 'female' && styles.selectedGender]}
                 onPress={() => setGender('female')}
               >
-                <ThemedText style={styles.genderText}>زن</ThemedText>
+                <ThemedText style={[styles.genderText, gender === 'female' && styles.genderTextSelected]}>خانوم</ThemedText>
               </Pressable>
             </View>
             <Pressable style={styles.button} onPress={handleClose}>
@@ -68,6 +75,8 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     justifyContent: 'center',
     alignItems: 'center',
     backgroundColor: 'rgba(0, 0, 0, 0.6)',
+    writingDirection: 'ltr',
+    direction: 'ltr'
   },
   modalContent: {
     width: '80%',
@@ -125,6 +134,9 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
   genderText: {
     fontSize: 14,
     color: Colors[colorScheme].text,
+  },
+  genderTextSelected: {
+    color: 'rgba(0, 0, 0, 0.6)',
   },
   button: {
     backgroundColor: Colors[colorScheme].tint,

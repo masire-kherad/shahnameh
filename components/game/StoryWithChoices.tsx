@@ -1,5 +1,6 @@
 import QuizQuestion from '@/components/game/QuizQuestion';
 import { ThemedText } from '@/components/ThemedText';
+import { IconSymbol } from '@/components/ui/IconSymbol';
 import { Colors } from '@/constants/Colors';
 import { getScenarioImage } from '@/services/scenarioImageLoader';
 import { getScenarioSound } from '@/services/scenarioSoundLoader';
@@ -15,6 +16,8 @@ interface StoryWithChoicesProps {
   onGameEnd: (ending: any, earnings: number) => void;
   scenarioEndings: { [key: string]: any };
   colorScheme: 'light' | 'dark';
+  isMuted: boolean;
+  onToggleMute: () => void;
 }
 
 const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({ 
@@ -22,7 +25,9 @@ const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({
   onStageChange, 
   onGameEnd, 
   scenarioEndings,
-  colorScheme 
+  colorScheme,
+  isMuted,
+  onToggleMute
 }) => {
   const [imageFadeAnim] = useState(new Animated.Value(0));
   const [sentences, setSentences] = useState<string[]>([]);
@@ -36,6 +41,7 @@ const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({
   const audioFileName = stage.type === 'quiz' ? (stage.quizSound || stage.sound) : stage.sound;
   const audioSource = audioFileName ? getScenarioSound(audioFileName) : null;
   const player = useAudioPlayer(audioSource);
+  
 
   // Split sentences and initialize animations when stage changes
   useEffect(() => {
@@ -45,8 +51,6 @@ const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({
     setShowChoices(false);
     choicesFadeAnim.setValue(0);
     
-    // Get the correct image for this stage
-    const imagePath = getScenarioImage(stage.id);
     
     // Better sentence splitting - handle multiple sentence endings
     const textLines = stage.text
@@ -68,17 +72,19 @@ const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({
     }).start();
   }, [stage.id, imageFadeAnim, choicesFadeAnim]); // Only re-run when stage.id changes
 
+  // Update player mute state when isMuted prop changes
+  useEffect(() => {
+    player.muted = isMuted ?? false;
+  }, [isMuted, player]);
+
   // Animate sentences one by one
   useEffect(() => {
     if (sentences.length > 0 && currentAnimatingIndex < sentences.length && sentenceAnimations[currentAnimatingIndex]) {
       // Play sound for each sentence (if available)
       if (audioSource && player && currentAnimatingIndex === 0) {
-        try {
-          player.seekTo(0);
-          player.play();
-        } catch (error) {
-          console.log('Audio playback error:', error);
-        }
+        player.seekTo(0);
+        player.play();
+        player.muted = isMuted ?? false;
       }
       
       // Fade in current sentence
@@ -100,12 +106,12 @@ const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({
                 duration: 1000,
                 useNativeDriver: true,
               }).start();
-            }, 500);
+            }, 1500);
           }
         }, 500);
       });
     }
-  }, [currentAnimatingIndex, sentences, sentenceAnimations, player, audioSource, choicesFadeAnim]);
+  }, [currentAnimatingIndex, sentences, sentenceAnimations, player, audioSource, choicesFadeAnim, isMuted]);
 
   const handleAnswer = (isCorrect: boolean) => {
     if (isCorrect) {
@@ -149,6 +155,17 @@ const StoryWithChoices: React.FC<StoryWithChoicesProps> = ({
         style={[styles.image, { opacity: imageFadeAnim }]}
         resizeMode="cover"
       />
+      {/* Mute Button */}
+      <Pressable 
+        onPress={onToggleMute} 
+        style={styles.muteButton}
+      >
+        <IconSymbol 
+          name={isMuted ? "speaker.slash.fill" : "speaker.wave.2.fill"} 
+          size={24} 
+          color="#fff" 
+        />
+      </Pressable>
       <View style={styles.contentContainer}>
         <BlurView intensity={10} style={styles.textBlurContainer} tint={colorScheme === 'dark' ? 'dark' : 'light'}>
           <View style={styles.textContainer}>
@@ -211,6 +228,15 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     width: '100%',
     height: '100%',
   },
+  muteButton: {
+    position: 'absolute',
+    top: 20,
+    left: 20,
+    backgroundColor: 'rgba(0, 0, 0, 0.5)',
+    borderRadius: 20,
+    padding: 10,
+    zIndex: 10,
+  },
   contentContainer: {
     flex: 1,
     justifyContent: 'space-between',
@@ -249,6 +275,7 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
   title: {
     fontSize: 24,
     fontWeight: 'bold',
+    paddingTop: 16,
     marginBottom: 16,
     textAlign: 'center',
   },

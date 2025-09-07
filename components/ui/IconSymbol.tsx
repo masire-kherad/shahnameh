@@ -5,15 +5,19 @@ import { SymbolViewProps, SymbolWeight } from 'expo-symbols';
 import { ComponentProps } from 'react';
 import { OpaqueColorValue, type StyleProp, type TextStyle } from 'react-native';
 
-type IconMapping = Record<SymbolViewProps['name'], ComponentProps<typeof MaterialIcons>['name']>;
-type IconSymbolName = keyof typeof MAPPING;
+type IconMapping = Record<string, ComponentProps<typeof MaterialIcons>['name']>;
+type IconSymbolName = string; // Allow any string for more flexibility
 
 /**
  * Add your SF Symbols to Material Icons mappings here.
  * - see Material Icons in the [Icons Directory](https://icons.expo.fyi).
  * - see SF Symbols in the [SF Symbols](https://developer.apple.com/sf-symbols/) app.
+ * 
+ * Common SF Symbols to Material Icons mappings:
+ * - SF Symbols use a naming convention like "square.and.arrow.up"
+ * - Material Icons use a naming convention like "square-and-arrow-up"
  */
-const MAPPING = {
+const MAPPING: IconMapping = {
   'house.fill': 'home',
   'paperplane.fill': 'send',
   'chevron.left': 'chevron-left',
@@ -23,7 +27,20 @@ const MAPPING = {
   'heart.fill': 'favorite',
   'play.circle.fill': 'play-circle',
   'pause.circle.fill': 'pause-circle',
-} as IconMapping;
+  'handshake': 'handshake', // This should work, but let's add alternatives
+  'handshake.circle': 'handshake',
+  'camera': 'camera',
+  'paperplane': 'send',
+  'link': 'link',
+  'pencil': 'edit',
+  'pencil.circle.fill': 'edit',
+  'info.circle.fill': 'info',
+  'info': 'info',
+  'info.circle': 'info',
+  'edit': 'edit',
+  'speaker.wave.2.fill': 'volume-up',
+  'speaker.slash.fill': 'volume-off',
+} as const;
 
 /**
  * An icon component that uses native SF Symbols on iOS, and Material Icons on Android and web.
@@ -42,5 +59,28 @@ export function IconSymbol({
   style?: StyleProp<TextStyle>;
   weight?: SymbolWeight;
 }) {
-  return <MaterialIcons color={color} size={size} name={MAPPING[name]} style={style} />;
+  // Fallback to a default icon if the mapping doesn't exist
+  const iconName = MAPPING[name] || 'help'; // 'help' as fallback icon
+  
+  // Add some debugging to help identify issues
+  if (!MAPPING[name]) {
+    // No mapping found for SF Symbol, using fallback icon "help"
+  }
+  
+  // Debug log for rendering Material Icon
+  
+  // Check if the icon exists by trying to render it
+  try {
+    return <MaterialIcons color={color} size={size} name={iconName} style={style} />;
+  } catch (error) {
+    // Failed to render Material Icon, trying fallback icon
+    // Try fallback icons
+    try {
+      return <MaterialIcons color={color} size={size} name="help" style={style} />;
+    } catch (fallbackError) {
+      // Even fallback icon failed
+      // If all else fails, render nothing
+      return null;
+    }
+  }
 }

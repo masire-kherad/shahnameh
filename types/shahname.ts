@@ -31,7 +31,7 @@ export interface Scenario {
   description: string;
   stages: Stage[];
   endings: { [key: string]: Ending };
-  summary?: string;
+  summary: string;
 }
 
 export interface Stage {
