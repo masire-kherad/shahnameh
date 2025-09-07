@@ -1,13 +1,15 @@
+import RulesAgreement from '@/components/RulesAgreement';
 import { ThemedText } from '@/components/ThemedText';
 import { IconSymbol } from '@/components/ui/IconSymbol';
 import { Colors } from '@/constants/Colors';
 import { useColorScheme } from '@/hooks/useColorScheme';
-import React from 'react';
+import React, { useState } from 'react';
 import { Linking, Pressable, ScrollView, StyleSheet, View } from 'react-native';
 
 export default function RahnamaScreen() {
   const colorScheme = useColorScheme();
   const styles = createStyles(colorScheme!);
+  const [showRules, setShowRules] = useState(false);
 
   const handleLinkPress = (url: string) => {
     Linking.openURL(url);
@@ -37,6 +39,16 @@ export default function RahnamaScreen() {
           </ThemedText>
         </View>
 
+        <View style={styles.section}>
+          <ThemedText style={styles.sectionTitle}>قوانین و مقررات</ThemedText>
+          <ThemedText style={styles.paragraph}>
+            برای مشاهده قوانین و مقررات استفاده از این برنامه، روی دکمه زیر کلیک کنید.
+          </ThemedText>
+          <Pressable style={styles.collaborationButton} onPress={() => setShowRules(true)}>
+            <ThemedText style={styles.collaborationButtonText}>مشاهده قوانین و مقررات</ThemedText>
+          </Pressable>
+        </View>
+
         <View style={styles.linksContainer}>
           <Pressable style={styles.linkButton} onPress={() => handleLinkPress('https://www.instagram.com/aslani.ts')}>
             <IconSymbol name="camera" size={24} color="#fff" />
@@ -48,6 +60,7 @@ export default function RahnamaScreen() {
           </Pressable>
         </View>
       </ScrollView>
+      <RulesAgreement visible={showRules} onAgree={() => setShowRules(false)} />
     </View>
   );
 }
@@ -55,7 +68,7 @@ export default function RahnamaScreen() {
 const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
   pageContainer: {
     flex: 1,
-    backgroundColor: Colors[colorScheme ?? 'light'].background,
+    backgroundColor: Colors[colorScheme ?? 'dark'].background,
     writingDirection: 'ltr',
     direction: 'ltr'
   },
@@ -88,7 +101,7 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
   collaborationButton: {
     flexDirection: 'row-reverse',
     alignItems: 'center',
-    backgroundColor: Colors[colorScheme].tint,
+    backgroundColor: Colors[colorScheme ?? 'dark'].persian.node,
     paddingVertical: 12,
     paddingHorizontal: 24,
     borderRadius: 8,
@@ -96,7 +109,7 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     gap: 8,
   },
   collaborationButtonText: {
-    color: '#fff',
+    color: Colors[colorScheme ?? 'dark'].tint,
     fontSize: 16,
     fontWeight: 'bold',
   },

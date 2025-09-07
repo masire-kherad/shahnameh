@@ -10,7 +10,8 @@ import StyledHeader from '@/components/StyledHeader';
 import { useColorScheme } from '@/hooks/useColorScheme';
 import React, { useEffect, useState } from 'react';
 import UserInfoModal from '@/components/UserInfoModal';
-import { getUserInfo, setUserInfo } from '@/services/dataService';
+import RulesAgreement from '@/components/RulesAgreement';
+import { getUserInfo, getRulesAgreed, setRulesAgreed } from '@/services/dataService';
 
 try {
   I18nManager.allowRTL(true);
@@ -25,28 +26,43 @@ export default function RootLayout() {
     Vazirmatn: require('../assets/fonts/Vazirmatn-Regular.ttf'),
   });
   const [userInfo, setUserInfoState] = useState(null);
-  const [modalVisible, setModalVisible] = useState(false);
+  const [rulesModalVisible, setRulesModalVisible] = useState(false);
+  const [userInfoModalVisible, setUserInfoModalVisible] = useState(false);
 
   useEffect(() => {
-    const checkUserInfo = async () => {
+    const checkUserStatus = async () => {
+      const rulesAgreed = await getRulesAgreed();
       const info = await getUserInfo();
-      if (!info) {
-        setModalVisible(true);
+      
+      if (!rulesAgreed) {
+        setRulesModalVisible(true);
+      } else if (!info) {
+        setUserInfoModalVisible(true);
       } else {
         setUserInfoState(info);
       }
     };
-    checkUserInfo();
+    checkUserStatus();
   }, []);
 
   if (!loaded) {
     return null;
   }
 
-  const handleModalClose = async (name: string, gender: 'male' | 'female') => {
+  const handleRulesAgreed = async () => {
+    await setRulesAgreed();
+    setRulesModalVisible(false);
+    // Check if we need to show user info modal
+    const info = await getUserInfo();
+    if (!info) {
+      setUserInfoModalVisible(true);
+    }
+  };
+
+  const handleUserInfoClose = async (name: string, gender: 'male' | 'female') => {
     await setUserInfo(name, gender);
     setUserInfoState({ name, gender });
-    setModalVisible(false);
+    setUserInfoModalVisible(false);
   };
 
   return (
@@ -77,7 +93,8 @@ export default function RootLayout() {
             <Stack.Screen name="completed-poems" options={{ title: 'اشعار تکمیل شده' }} />
             <Stack.Screen name="+not-found" />
           </Stack>
-          <UserInfoModal visible={modalVisible} onClose={handleModalClose} />
+          <RulesAgreement visible={rulesModalVisible} onAgree={handleRulesAgreed} />
+          <UserInfoModal visible={userInfoModalVisible} onClose={handleUserInfoClose} />
           <StatusBar style="auto" />
         </View>
       </View>

@@ -75,6 +75,24 @@ export const getUserInfo = async () => {
   }
 };
 
+export const setRulesAgreed = async () => {
+  try {
+    await AsyncStorage.setItem('rulesAgreed', JSON.stringify(true));
+  } catch (e) {
+    console.error('Failed to save rules agreement.', e);
+  }
+};
+
+export const getRulesAgreed = async () => {
+  try {
+    const rulesAgreed = await AsyncStorage.getItem('rulesAgreed');
+    return rulesAgreed ? JSON.parse(rulesAgreed) : false;
+  } catch (e) {
+    console.error('Failed to fetch rules agreement.', e);
+    return false;
+  }
+};
+
 // User preference for showing poem meanings
 export const setShowMeanings = async (show: boolean) => {
   try {
