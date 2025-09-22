@@ -1,0 +1,65 @@
+// app.config.js
+import 'dotenv/config'; // Optional: if you plan to use environment variables
+
+export default ({ config }) => ({
+  ...config,
+  name: "MasireKherad",
+  slug: "shahname",
+  version: "1.0.0",
+  orientation: "portrait",
+  icon: "./assets/images/Logo.png",
+  scheme: "shahnameh",
+  userInterfaceStyle: "automatic",
+  newArchEnabled: true,
+  ios: {
+    supportsTablet: true,
+  },
+  android: {
+    adaptiveIcon: {
+      foregroundImage: "./assets/images/adaptive-icon.png",
+      backgroundColor: "#f0bf7d",
+    },
+    edgeToEdgeEnabled: true,
+    package: "com.aliaslani.mm.shahnameh",
+  },
+  web: {
+    bundler: "metro",
+    output: "static",
+    favicon: "./assets/images/favicon.png",
+    splash: {
+      image: "./assets/images/splash-icon.png",
+      resizeMode: "contain",
+      backgroundColor: "#f0bf7d",
+    },
+    pwa: {
+      name: "MasireKherad",
+      shortName: "MasireKherad",
+      themeColor: "#f0bf7d",
+      backgroundColor: "#f0bf7d",
+      display: "standalone",
+      scope: "/",
+      startUrl: "/",
+    },
+  },
+  plugins: [
+    "expo-router",
+    [
+      "expo-splash-screen",
+      {
+        image: "./assets/images/Logo.png",
+        resizeMode: "contain",
+        backgroundColor: "#f0bf7d",
+      },
+    ],
+    "expo-audio",
+  ],
+  experiments: {
+    typedRoutes: true,
+  },
+  extra: {
+    router: {},
+    eas: {
+      projectId: "045d8b5e-39fe-4e7e-b966-c6f556c1b74c",
+    },
+  },
+});
