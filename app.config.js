@@ -10,8 +10,9 @@ export default ({ config }) => ({
   icon: "./assets/images/Logo.png",
   scheme: "shahnameh",
   userInterfaceStyle: "automatic",
-  // Disable New Architecture for compatibility with very old Android devices
-  newArchEnabled: false,
+  // Required by react-native-reanimated 4.x (build fails otherwise).
+  // Old devices still supported via minSdkVersion 21 and edgeToEdgeEnabled: false.
+  newArchEnabled: true,
   ios: {
     supportsTablet: true,
   },
