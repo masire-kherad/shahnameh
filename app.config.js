@@ -10,7 +10,8 @@ export default ({ config }) => ({
   icon: "./assets/images/Logo.png",
   scheme: "shahnameh",
   userInterfaceStyle: "automatic",
-  newArchEnabled: true,
+  // Disable New Architecture for compatibility with very old Android devices
+  newArchEnabled: false,
   ios: {
     supportsTablet: true,
   },
@@ -19,8 +20,13 @@ export default ({ config }) => ({
       foregroundImage: "./assets/images/adaptive-icon.png",
       backgroundColor: "#f0bf7d",
     },
-    edgeToEdgeEnabled: true,
+    // Disable edge-to-edge for old Android versions (requires newer APIs)
+    edgeToEdgeEnabled: false,
     package: "com.aliaslani.mm.shahnameh",
+    // Support very old devices (Android 5.0 Lollipop, API 21)
+    minSdkVersion: 21,
+    // 32-bit (armeabi-v7a) + 64-bit (arm64-v8a) for old and new phones
+    abiFilters: ["armeabi-v7a", "arm64-v8a"],
   },
   web: {
     bundler: "metro",

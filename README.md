@@ -42,6 +42,23 @@ To learn more about developing your project with Expo, look at the following res
 - [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
 - [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
 
+## Android APK build & install
+
+Build a signed APK with EAS (required for install; unsigned APKs cause `INSTALL_PARSE_FAILED_NO_CERTIFICATES`):
+
+```bash
+eas build --platform android --profile production
+```
+
+After the build finishes, download the APK from the Expo dashboard and install it. If you see install errors:
+
+| Error | Cause | Fix |
+|-------|--------|-----|
+| **INSTALL_PARSE_FAILED_NO_CERTIFICATES** | APK is not signed | Always use **EAS Build** to produce the APK. Run `eas credentials` and ensure Android keystore is set. Do not install debug/unsigned builds from `expo run:android` as a release APK. |
+| **INSTALL_FAILED_INVALID_APK** | Corrupt or wrong file | Re-download the APK from Expo. Rebuild with `eas build --platform android --profile production --clear-cache`. |
+| **INSTALL_FAILED_INSUFFICIENT_STORAGE** | Not enough space on device | Free storage on the device. The app uses `abiFilters` for a smaller APK; if needed, uninstall other apps or clear cache. |
+| **INSTALL_FAILED_INTERNAL_ERROR** | System/package manager issue | Restart the device, clear "Package installer" app data (Settings → Apps), or try another device. |
+
 ## Join the community
 
 Join our community of developers creating universal apps.
