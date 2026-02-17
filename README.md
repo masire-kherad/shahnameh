@@ -1,67 +1,126 @@
-# Welcome to your Expo app 👋
+# MasireKherad (مسیر خرد) - Shahnameh Reading App
 
-This is an [Expo](https://expo.dev) project created with [`create-expo-app`](https://www.npmjs.com/package/create-expo-app).
+A gamified mobile and web application for reading and learning the epic Persian poem **Shahnameh** (شاهنامه) by Ferdowsi. This app makes reading Shahnameh an engaging and enjoyable experience through gamification, similar to language learning apps like Duolingo.
 
-## Get started
+## About
 
-1. Install dependencies
+This app is built with love for Shahnameh and Persian culture. Our goal is to transform reading Shahnameh from a heavy and difficult task into a delightful and entertaining experience. We've been inspired by language learning apps and have tried to make reading and learning Shahnameh stories engaging through gamification—where you progress through stories, earn points, unlock stages, and continue your journey.
+
+## Features
+
+- 📖 Read Shahnameh poems with an intuitive interface
+- 🎮 Gamified reading experience with points and achievements
+- 📱 Cross-platform: iOS, Android, and Web
+- 🌙 Dark mode support
+- ⭐ Favorites and completed poems tracking
+- 🎯 Challenge mode (experimental, currently for Keyumars, Hooshang, and Tahmores sections)
+- 🔊 Audio support for poems
+
+## Tech Stack
+
+- [Expo](https://expo.dev) - React Native framework
+- [React Native](https://reactnative.dev) - Mobile app framework
+- [Expo Router](https://docs.expo.dev/router/introduction) - File-based routing
+- TypeScript - Type safety
+- [EAS Build](https://docs.expo.dev/build/introduction/) - Build and deployment
+
+## Getting Started
+
+### Prerequisites
+
+- Node.js (>= 16.17.4)
+- npm or yarn
+- Expo CLI (optional, can use npx)
+
+### Installation
+
+1. Clone the repository
+
+   ```bash
+   git clone <repository-url>
+   cd shahname
+   ```
+
+2. Install dependencies
 
    ```bash
    npm install
+   # or
+   yarn install
    ```
 
-2. Start the app
+3. Start the development server
 
    ```bash
    npx expo start
    ```
 
-In the output, you'll find options to open the app in a
+4. Run on your preferred platform
 
-- [development build](https://docs.expo.dev/develop/development-builds/introduction/)
-- [Android emulator](https://docs.expo.dev/workflow/android-studio-emulator/)
-- [iOS simulator](https://docs.expo.dev/workflow/ios-simulator/)
-- [Expo Go](https://expo.dev/go), a limited sandbox for trying out app development with Expo
+   - **iOS**: Press `i` or scan QR code with Expo Go app
+   - **Android**: Press `a` or scan QR code with Expo Go app
+   - **Web**: Press `w` to open in browser
 
-You can start developing by editing the files inside the **app** directory. This project uses [file-based routing](https://docs.expo.dev/router/introduction).
+## Building for Production
 
-## Get a fresh project
+### Android APK
 
-When you're ready, run:
-
-```bash
-npm run reset-project
-```
-
-This command will move the starter code to the **app-example** directory and create a blank **app** directory where you can start developing.
-
-## Learn more
-
-To learn more about developing your project with Expo, look at the following resources:
-
-- [Expo documentation](https://docs.expo.dev/): Learn fundamentals, or go into advanced topics with our [guides](https://docs.expo.dev/guides).
-- [Learn Expo tutorial](https://docs.expo.dev/tutorial/introduction/): Follow a step-by-step tutorial where you'll create a project that runs on Android, iOS, and the web.
-
-## Android APK build & install
-
-Build a signed APK with EAS (required for install; unsigned APKs cause `INSTALL_PARSE_FAILED_NO_CERTIFICATES`):
+Build a signed APK with EAS Build:
 
 ```bash
 eas build --platform android --profile production
 ```
 
-After the build finishes, download the APK from the Expo dashboard and install it. If you see install errors:
+After the build finishes, download the APK from the [Expo dashboard](https://expo.dev/accounts/[your-account]/projects/shahname/builds) and install it.
+
+### Common Installation Errors
 
 | Error | Cause | Fix |
 |-------|--------|-----|
-| **INSTALL_PARSE_FAILED_NO_CERTIFICATES** | APK is not signed | Always use **EAS Build** to produce the APK. Run `eas credentials` and ensure Android keystore is set. Do not install debug/unsigned builds from `expo run:android` as a release APK. |
+| **INSTALL_PARSE_FAILED_NO_CERTIFICATES** | APK is not signed | Always use **EAS Build** to produce the APK. Run `eas credentials` and ensure Android keystore is set. |
 | **INSTALL_FAILED_INVALID_APK** | Corrupt or wrong file | Re-download the APK from Expo. Rebuild with `eas build --platform android --profile production --clear-cache`. |
-| **INSTALL_FAILED_INSUFFICIENT_STORAGE** | Not enough space on device | Free storage on the device. The app uses `abiFilters` for a smaller APK; if needed, uninstall other apps or clear cache. |
-| **INSTALL_FAILED_INTERNAL_ERROR** | System/package manager issue | Restart the device, clear "Package installer" app data (Settings → Apps), or try another device. |
+| **INSTALL_FAILED_INSUFFICIENT_STORAGE** | Not enough space | Free storage on the device. |
+| **INSTALL_FAILED_INTERNAL_ERROR** | System/package manager issue | Restart the device, clear "Package installer" app data, or try another device. |
 
-## Join the community
+## Project Structure
 
-Join our community of developers creating universal apps.
+```
+shahname/
+├── app/              # App screens (file-based routing)
+├── components/       # Reusable React components
+├── assets/          # Images, fonts, and data files
+├── constants/       # App constants and themes
+├── hooks/           # Custom React hooks
+├── services/        # Business logic and data services
+├── types/           # TypeScript type definitions
+└── public/          # Web-specific assets
+```
 
-- [Expo on GitHub](https://github.com/expo/expo): View our open source platform and contribute.
-- [Discord community](https://chat.expo.dev): Chat with Expo users and ask questions.
+## Screenshots
+
+<!-- Add screenshots of your app here -->
+<!-- Example:
+![Home Screen](screenshots/home.png)
+![Reading Screen](screenshots/reading.png)
+![Challenge Mode](screenshots/challenge.png)
+-->
+
+_Screenshots coming soon!_
+
+## Contributing
+
+We welcome contributions! Please read our [Contributing Guide](.github/CONTRIBUTING.md) to get started.
+
+- 🐛 Found a bug? [Report it](https://github.com/YOUR_USERNAME/shahname/issues/new?template=bug_report.md)
+- 💡 Have an idea? [Suggest a feature](https://github.com/YOUR_USERNAME/shahname/issues/new?template=feature_request.md)
+- 📝 Want to contribute code? Check out our [Contributing Guide](.github/CONTRIBUTING.md)
+
+You can also reach us via Instagram (mentioned in the app).
+
+## Changelog
+
+See [CHANGELOG.md](CHANGELOG.md) for a list of changes and version history.
+
+## License
+
+See [LICENSE](LICENSE) file for details.

@@ -1,0 +1,8 @@
+blank_issues_enabled: false
+contact_links:
+  - name: Question or Discussion
+    url: https://github.com/YOUR_USERNAME/shahname/discussions
+    about: Ask questions or start a discussion about the project
+  - name: Instagram Support
+    url: https://www.instagram.com/aslani.ts
+    about: Contact us via Instagram (mentioned in the app)
