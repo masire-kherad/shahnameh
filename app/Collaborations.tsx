@@ -84,7 +84,6 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     flex: 1,
     backgroundColor: Colors[colorScheme].background,
     writingDirection: 'ltr',
-    direction: 'ltr'
   },
   contentContainer: {
     padding: 24,

@@ -70,7 +70,6 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     flex: 1,
     backgroundColor: Colors[colorScheme ?? 'dark'].background,
     writingDirection: 'ltr',
-    direction: 'ltr'
   },
   container: {
     padding: 24,

@@ -1,6 +1,6 @@
 import { Colors } from '@/constants/Colors';
 import React, { useState } from 'react';
-import { ImageBackground, Modal, Pressable, StyleSheet, useColorScheme, View, ScrollView } from 'react-native';
+import { ImageBackground, Modal, Pressable, ScrollView, StyleSheet, View, useColorScheme } from 'react-native';
 import { ThemedText } from './ThemedText';
 
 interface RulesAgreementProps {
@@ -75,7 +75,6 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     alignItems: 'center',
     backgroundColor: 'rgba(0, 0, 0, 0.6)',
     writingDirection: 'ltr',
-    direction: 'ltr'
   },
   modalContent: {
     width: '90%',

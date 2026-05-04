@@ -1,6 +1,6 @@
 import { Colors } from '@/constants/Colors';
 import React, { useEffect, useState } from 'react';
-import { ImageBackground, Modal, Platform, Pressable, StyleSheet, TextInput, useColorScheme, View } from 'react-native';
+import { ImageBackground, Modal, Platform, Pressable, StyleSheet, TextInput, View, useColorScheme } from 'react-native';
 import { ThemedText } from './ThemedText';
 
 interface UserInfoModalProps {
@@ -90,7 +90,6 @@ const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
     alignItems: 'center',
     backgroundColor: 'rgba(0, 0, 0, 0.6)',
     writingDirection: 'ltr',
-    direction: 'ltr'
   },
   modalContent: {
     width: '80%',
