@@ -32,8 +32,12 @@ export default function StyledHeader({ title }: Readonly<StyledHeaderProps>) {
   };
 
   const handleBackPress = () => {
+  if (router.canGoBack()) {
     router.back();
-  };
+  } else {
+    router.replace('/');
+  }
+};
 
   const getGenderImage = () => {
     if (userInfo?.gender === 'male') {
