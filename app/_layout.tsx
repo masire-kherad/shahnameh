@@ -1,17 +1,24 @@
+import AudioPlayer from '@/components/AudioPlayer';
+import RulesAgreement from '@/components/RulesAgreement';
+import StyledHeader from '@/components/StyledHeader';
+import StyledHeaderAndroid from '@/components/StyledHeader.android';
+import StyledHeaderIos from '@/components/StyledHeader.ios';
+import UserInfoModal from '@/components/UserInfoModal';
+import { AudioTrackProvider, useAudioTrack } from '@/contexts/AudioTrackContext';
+import { useColorScheme } from '@/hooks/useColorScheme';
+import {
+  getRulesAgreed,
+  getUserInfo,
+  setRulesAgreed,
+  setUserInfo,
+} from '@/services/dataService';
 import { DarkTheme, DefaultTheme, ThemeProvider } from '@react-navigation/native';
 import { useFonts } from 'expo-font';
 import { Stack } from 'expo-router';
 import { StatusBar } from 'expo-status-bar';
-import { I18nManager, Platform, View, StyleSheet } from 'react-native';
-import 'react-native-reanimated';
-import StyledHeaderIos from '@/components/StyledHeader.ios';
-import StyledHeaderAndroid from '@/components/StyledHeader.android';
-import StyledHeader from '@/components/StyledHeader';
-import { useColorScheme } from '@/hooks/useColorScheme';
 import React, { useEffect, useState } from 'react';
-import UserInfoModal from '@/components/UserInfoModal';
-import RulesAgreement from '@/components/RulesAgreement';
-import { getUserInfo, getRulesAgreed, setRulesAgreed, setUserInfo } from '@/services/dataService';
+import { I18nManager, Platform, StyleSheet, View } from 'react-native';
+import 'react-native-reanimated';
 
 try {
   I18nManager.allowRTL(true);
@@ -20,11 +27,25 @@ try {
   // Error handling for RTL configuration
 }
 
-export default function RootLayout() {
+function GlobalAudioPlayer() {
+  const { currentTrack, clearTrack } = useAudioTrack();
+
+  if (!currentTrack) return null;
+
+  return (
+    <View style={styles.globalPlayerContainer}>
+      <AudioPlayer
+        key={currentTrack.uri}
+        uri={currentTrack.uri}
+        title={currentTrack.title}
+        onDismiss={clearTrack}
+      />
+    </View>
+  );
+}
+
+function AppContent() {
   const colorScheme = useColorScheme();
-  const [loaded] = useFonts({
-    Vazirmatn: require('../assets/fonts/Vazirmatn-Regular.ttf'),
-  });
   const [userInfo, setUserInfoState] = useState(null);
   const [rulesModalVisible, setRulesModalVisible] = useState(false);
   const [userInfoModalVisible, setUserInfoModalVisible] = useState(false);
@@ -33,7 +54,7 @@ export default function RootLayout() {
     const checkUserStatus = async () => {
       const rulesAgreed = await getRulesAgreed();
       const info = await getUserInfo();
-      
+
       if (!rulesAgreed) {
         setRulesModalVisible(true);
       } else if (!info) {
@@ -45,14 +66,9 @@ export default function RootLayout() {
     checkUserStatus();
   }, []);
 
-  if (!loaded) {
-    return null;
-  }
-
   const handleRulesAgreed = async () => {
     await setRulesAgreed();
     setRulesModalVisible(false);
-    // Check if we need to show user info modal
     const info = await getUserInfo();
     if (!info) {
       setUserInfoModalVisible(true);
@@ -93,12 +109,32 @@ export default function RootLayout() {
             <Stack.Screen name="completed-poems" options={{ title: 'اشعار تکمیل شده' }} />
             <Stack.Screen name="+not-found" />
           </Stack>
+
+          {/* Global persistent audio player */}
+          <GlobalAudioPlayer />
+
           <RulesAgreement visible={rulesModalVisible} onAgree={handleRulesAgreed} />
           <UserInfoModal visible={userInfoModalVisible} onClose={handleUserInfoClose} />
           <StatusBar style="auto" />
         </View>
       </View>
     </ThemeProvider>
+  );
+}
+
+export default function RootLayout() {
+  const [loaded] = useFonts({
+    Vazirmatn: require('../assets/fonts/Vazirmatn-Regular.ttf'),
+  });
+
+  if (!loaded) {
+    return null;
+  }
+
+  return (
+    <AudioTrackProvider>
+      <AppContent />
+    </AudioTrackProvider>
   );
 }
 
@@ -118,8 +154,16 @@ const styles = StyleSheet.create({
       web: {
         maxWidth: 420,
         width: '100%',
-        backgroundColor: 'white'
+        backgroundColor: 'white',
       },
     }),
+  },
+  globalPlayerContainer: {
+    position: 'absolute',
+    bottom: 0,
+    left: 0,
+    right: 0,
+    zIndex: 100,
+    elevation: 100,
   },
 });
