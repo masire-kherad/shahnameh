@@ -35,9 +35,6 @@ import {
 } from "react-native";
 import "react-native-reanimated";
 
-useEffect(() => {
-  Sentry.captureMessage("Sentry is working!");
-}, []);
 Sentry.init({
   dsn: "https://91f11c7ba06300219ec978417905af45@o4511557557288960.ingest.de.sentry.io/4511731385827408",
   debug: true,
@@ -101,18 +98,27 @@ function AppContent() {
 
   useEffect(() => {
     const checkUserStatus = async () => {
-      const rulesAgreed = await getRulesAgreed();
-      const info = await getUserInfo();
+      try {
+        const rulesAgreed = await getRulesAgreed();
+        const info = await getUserInfo();
 
-      if (!rulesAgreed) {
-        setRulesModalVisible(true);
-      } else if (!info) {
-        setUserInfoModalVisible(true);
-      } else {
-        setUserInfoState(info);
+        if (!rulesAgreed) {
+          setRulesModalVisible(true);
+        } else if (!info) {
+          setUserInfoModalVisible(true);
+        } else {
+          setUserInfoState(info);
+        }
+      } catch (error) {
+        console.error("Startup error:", error);
+        Sentry.captureException(error);
       }
     };
-    checkUserStatus();
+
+    checkUserStatus().catch((error) => {
+      console.error("Unhandled startup error:", error);
+      Sentry.captureException(error);
+    });
   }, []);
 
   const handleRulesAgreed = async () => {
