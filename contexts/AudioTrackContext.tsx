@@ -1,4 +1,4 @@
-import React, { createContext, useCallback, useContext, useState } from 'react';
+import React, { createContext, useCallback, useContext, useState } from "react";
 
 export interface AudioTrack {
   uri: string;
@@ -11,6 +11,8 @@ interface AudioTrackContextType {
   isPlaying: boolean;
   setTrack: (track: AudioTrack | null) => void;
   clearTrack: () => void;
+  showPlayer: () => void;
+  hidePlayer: () => void;
   setIsPlaying: (playing: boolean) => void;
 }
 
@@ -20,6 +22,8 @@ const AudioTrackContext = createContext<AudioTrackContextType>({
   isPlaying: false,
   setTrack: () => {},
   clearTrack: () => {},
+  showPlayer: () => {},
+  hidePlayer: () => {},
   setIsPlaying: () => {},
 });
 
@@ -30,17 +34,25 @@ export const AudioTrackProvider: React.FC<{ children: React.ReactNode }> = ({
 }) => {
   const [currentTrack, setCurrentTrack] = useState<AudioTrack | null>(null);
   const [isPlaying, setIsPlaying] = useState(false);
-
+  const [isPlayerVisible, setIsPlayerVisible] = useState(false);
   const setTrack = useCallback((track: AudioTrack | null) => {
     setCurrentTrack(track);
+    setIsPlayerVisible(true);
   }, []);
 
   const clearTrack = useCallback(() => {
     setCurrentTrack(null);
     setIsPlaying(false);
+    setIsPlayerVisible(false);
   }, []);
 
-  const isPlayerVisible = currentTrack !== null;
+  const showPlayer = useCallback(() => {
+    setIsPlayerVisible(true);
+  }, []);
+
+  const hidePlayer = useCallback(() => {
+    setIsPlayerVisible(false);
+  }, []);
 
   return (
     <AudioTrackContext.Provider
@@ -50,6 +62,8 @@ export const AudioTrackProvider: React.FC<{ children: React.ReactNode }> = ({
         isPlaying,
         setTrack,
         clearTrack,
+        showPlayer,
+        hidePlayer,
         setIsPlaying,
       }}
     >
