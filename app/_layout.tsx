@@ -39,6 +39,7 @@ Sentry.init({
   dsn: "https://91f11c7ba06300219ec978417905af45@o4511557557288960.ingest.de.sentry.io/4511731385827408",
   debug: true,
 });
+Sentry.captureMessage("App startup reached _layout");
 
 try {
   I18nManager.allowRTL(true);
