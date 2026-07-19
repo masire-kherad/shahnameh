@@ -1,6 +1,9 @@
-import { useAudioTrack } from '@/contexts/AudioTrackContext';
-import { useAudioPlayer as useExpoAudioPlayer, useAudioPlayerStatus as useExpoAudioStatus } from 'expo-audio';
-import { useEffect, useMemo, useRef, useState } from 'react';
+import { useAudioTrack } from "@/contexts/AudioTrackContext";
+import {
+  useAudioPlayer as useExpoAudioPlayer,
+  useAudioPlayerStatus as useExpoAudioStatus,
+} from "expo-audio";
+import { useEffect, useMemo, useRef, useState } from "react";
 
 interface UseAudioPlayerProps {
   uri: string | null | undefined;
@@ -10,7 +13,7 @@ interface UseAudioPlayerProps {
 
 export function useAudioPlayer({ uri, title, onDismiss }: UseAudioPlayerProps) {
   const source = useMemo(() => (uri ? { uri } : null), [uri]);
-  const player = useExpoAudioPlayer(source, 100);
+  const player = useExpoAudioPlayer(source);
   const status = useExpoAudioStatus(player);
   const [isSeeking, setIsSeeking] = useState(false);
   const [seekPosition, setSeekPosition] = useState(0);
@@ -25,15 +28,20 @@ export function useAudioPlayer({ uri, title, onDismiss }: UseAudioPlayerProps) {
   // Stop old audio when URI changes
   useEffect(() => {
     if (prevUriRef.current && prevUriRef.current !== uri) {
-      playerRef.current?.pause();
+      try {
+        playerRef.current?.pause();
+      } catch (error) {
+        console.log("Audio URI cleanup ignored:", error);
+      }
     }
+
     prevUriRef.current = uri;
   }, [uri]);
 
   // Stop audio on unmount
   useEffect(() => {
     return () => {
-      playerRef.current?.pause();
+      playerRef.current = null as any;
     };
   }, []);
 
@@ -41,20 +49,29 @@ export function useAudioPlayer({ uri, title, onDismiss }: UseAudioPlayerProps) {
     if (isNaN(seconds)) seconds = 0;
     const mins = Math.floor(seconds / 60);
     const secs = Math.floor(seconds % 60);
-    return `${mins}:${secs < 10 ? '0' : ''}${secs}`;
+    return `${mins}:${secs < 10 ? "0" : ""}${secs}`;
   };
 
   const handlePlayPause = () => {
-    if (!uri) return;
-    if (status.playing) {
-      player.pause();
-      setIsPlaying(false);
-    } else {
-      if (status.isLoaded && status.duration && status.currentTime === status.duration) {
-        player.seekTo(0);
+    try {
+      if (!uri) return;
+
+      if (status.playing) {
+        player.pause();
+        setIsPlaying(false);
+      } else {
+        if (
+          status.isLoaded &&
+          status.duration &&
+          status.currentTime === status.duration
+        ) {
+          player.seekTo(0);
+        }
+        player.play();
+        setIsPlaying(true);
       }
-      player.play();
-      setIsPlaying(true);
+    } catch (error) {
+      console.log("Audio play/pause ignored:", error);
     }
   };
 
@@ -85,14 +102,12 @@ export function useAudioPlayer({ uri, title, onDismiss }: UseAudioPlayerProps) {
   };
 
   const handleDismiss = () => {
-    player.pause();
-    player.seekTo(0);
     setIsPlaying(false);
     onDismiss?.();
   };
 
   const disabled = !uri;
-  const isLoading = status.isLoading;
+  const isLoading = !status.isLoaded;
   const isPlaying = status.playing;
   const duration = status.duration || 0;
   const position = status.currentTime || 0;
