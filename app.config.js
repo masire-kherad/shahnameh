@@ -1,5 +1,4 @@
 // app.config.js
-import "dotenv/config"; // Optional: if you plan to use environment variables
 
 export default ({ config }) => ({
   ...config,
