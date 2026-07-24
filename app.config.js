@@ -58,6 +58,15 @@ export default ({ config }) => ({
       },
     ],
     "expo-audio",
+    [
+      "expo-build-properties",
+      {
+        android: {
+          enableProguardInReleaseBuilds: true,
+          enableShrinkResourcesInReleaseBuilds: true,
+        },
+      },
+    ],
   ],
   experiments: {
     typedRoutes: true,
