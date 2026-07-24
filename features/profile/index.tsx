@@ -1,12 +1,12 @@
-import Loading from '@/components/Loading';
-import UserInfoModal from '@/components/UserInfoModal';
-import { ProfileHeader } from '@/features/profile/components/ProfileHeader';
-import { QuickNavigation } from '@/features/profile/components/QuickNavigation';
-import { RewardModal } from '@/features/profile/components/RewardModal';
-import { useProfile } from '@/features/profile/hooks/useProfile';
-import React, { useState } from 'react';
-import { ImageBackground, ScrollView, StyleSheet, View } from 'react-native';
-import { ShowMeaningsToggle } from './components/ShowMeaningsToggle';
+import Loading from "@/components/Loading";
+import UserInfoModal from "@/components/UserInfoModal";
+import { ProfileHeader } from "@/features/profile/components/ProfileHeader";
+import { QuickNavigation } from "@/features/profile/components/QuickNavigation";
+import { RewardModal } from "@/features/profile/components/RewardModal";
+import { useProfile } from "@/features/profile/hooks/useProfile";
+import React, { useState } from "react";
+import { ImageBackground, ScrollView, StyleSheet, View } from "react-native";
+import { ShowMeaningsToggle } from "./components/ShowMeaningsToggle";
 
 export default function ProfileScreen() {
   const {
@@ -29,7 +29,7 @@ export default function ProfileScreen() {
 
   return (
     <ImageBackground
-      source={require('@/assets/images/bg.png')}
+      source={require("@/assets/images/bg.webp")}
       style={styles.container}
       resizeMode="cover"
     >
@@ -44,10 +44,7 @@ export default function ProfileScreen() {
 
         {/* Uncomment when currency is re-enabled */}
         {/* <DailyReward isAvailable={isRewardAvailable} onClaim={claimReward} /> */}
-        <ShowMeaningsToggle 
-          checked={showMeanings} 
-          onToggle={toggleMeanings} 
-        />
+        <ShowMeaningsToggle checked={showMeanings} onToggle={toggleMeanings} />
 
         <QuickNavigation />
       </ScrollView>
@@ -59,20 +56,23 @@ export default function ProfileScreen() {
           setIsEditModalVisible(false);
         }}
         onCancel={() => setIsEditModalVisible(false)}
-        initialName={userInfo?.name || ''}
-        initialGender={userInfo?.gender || 'male'}
+        initialName={userInfo?.name || ""}
+        initialGender={userInfo?.gender || "male"}
       />
 
-      <RewardModal visible={isRewardModalVisible} onClose={dismissRewardModal} />
+      <RewardModal
+        visible={isRewardModalVisible}
+        onClose={dismissRewardModal}
+      />
     </ImageBackground>
   );
 }
 
 const styles = StyleSheet.create({
-  container: { flex: 1, width: '100%', height: '100%' },
+  container: { flex: 1, width: "100%", height: "100%" },
   overlay: {
     ...StyleSheet.absoluteFillObject,
-    backgroundColor: 'rgba(0, 0, 0, 0.6)',
+    backgroundColor: "rgba(0, 0, 0, 0.6)",
   },
   scroll: { padding: 16, paddingBottom: 32 },
 });

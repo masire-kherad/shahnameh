@@ -7,7 +7,7 @@ export default ({ config }) => ({
   slug: "shahname",
   version: "1.1.0",
   orientation: "portrait",
-  icon: "./assets/images/Logo.png",
+  icon: "./assets/images/Logo.webp",
   scheme: "shahnameh",
   userInterfaceStyle: "automatic",
   // Required by react-native-reanimated 4.x (build fails otherwise).
@@ -18,7 +18,7 @@ export default ({ config }) => ({
   },
   android: {
     adaptiveIcon: {
-      foregroundImage: "./assets/images/adaptive-icon.png",
+      foregroundImage: "./assets/images/adaptive-icon.webp",
       backgroundColor: "#f0bf7d",
     },
     // Disable edge-to-edge for old Android versions (requires newer APIs)
@@ -32,9 +32,9 @@ export default ({ config }) => ({
   web: {
     bundler: "metro",
     output: "static",
-    favicon: "./assets/images/favicon.png",
+    favicon: "./assets/images/favicon.webp",
     splash: {
-      image: "./assets/images/splash-icon.png",
+      image: "./assets/images/splash-icon.webp",
       resizeMode: "contain",
       backgroundColor: "#f0bf7d",
     },
@@ -53,7 +53,7 @@ export default ({ config }) => ({
     [
       "expo-splash-screen",
       {
-        image: "./assets/images/Logo.png",
+        image: "./assets/images/Logo.webp",
         resizeMode: "contain",
         backgroundColor: "#f0bf7d",
       },
