@@ -1,12 +1,19 @@
-import { Colors } from '@/constants/Colors';
-import { getUserInfo } from '@/services/dataService';
-import { BlurView } from 'expo-blur';
-import { router, usePathname } from 'expo-router';
-import React, { useEffect, useState } from 'react';
-import { Image, ImageBackground, Pressable, StyleSheet, useColorScheme, View } from 'react-native';
-import { useSafeAreaInsets } from 'react-native-safe-area-context';
-import { ThemedText } from './ThemedText';
-import { IconSymbol } from './ui/IconSymbol';
+import { Colors } from "@/constants/Colors";
+import { getUserInfo } from "@/services/dataService";
+import { BlurView } from "expo-blur";
+import { router, usePathname } from "expo-router";
+import React, { useEffect, useState } from "react";
+import {
+  Image,
+  ImageBackground,
+  Pressable,
+  StyleSheet,
+  useColorScheme,
+  View,
+} from "react-native";
+import { useSafeAreaInsets } from "react-native-safe-area-context";
+import { ThemedText } from "./ThemedText";
+import { IconSymbol } from "./ui/IconSymbol";
 
 interface StyledHeaderProps {
   title: string;
@@ -28,58 +35,73 @@ export default function StyledHeader({ title }: Readonly<StyledHeaderProps>) {
   }, [pathname]);
 
   const handleProfilePress = () => {
-    router.push('/profile');
+    router.push("/profile");
   };
 
   const handleBackPress = () => {
-    router.back();
+    if (router.canGoBack()) {
+      router.back();
+    } else {
+      router.replace("/");
+    }
   };
 
   const getGenderImage = () => {
-    if (userInfo?.gender === 'male') {
-      return require('@/assets/images/MaleUser.png');
+    if (userInfo?.gender === "male") {
+      return require("@/assets/images/MaleUser.webp");
     }
-    if (userInfo?.gender === 'female') {
-      return require('@/assets/images/FemaleUser.png');
+    if (userInfo?.gender === "female") {
+      return require("@/assets/images/FemaleUser.webp");
     }
     return null;
   };
 
   // Determine if we should show the back button
-  const shouldShowBackButton = pathname !== '/' && pathname !== '/index';
-  
+  const shouldShowBackButton = pathname !== "/" && pathname !== "/index";
+
   // Determine the correct chevron direction for RTL
-  const chevronIcon = 'chevron.right';
+  const chevronIcon = "chevron.right";
 
   return (
     <ImageBackground
-      source={require('@/assets/images/corner.jpg')}
+      source={require("@/assets/images/corner.webp")}
       style={[styles.header]}
       imageStyle={styles.backgroundImage}
     >
-      <BlurView intensity={80} tint={'dark'} style={styles.blurView}>
+      <BlurView intensity={80} tint={"dark"} style={styles.blurView}>
         <View style={styles.actionsContainer}>
-          {pathname !== '/profile' && 
-           pathname !== '/favorites' && 
-           pathname !== '/Info' && 
-           pathname !== '/Collaborations' && 
-           pathname !== '/completed-poems' && (
-            <Pressable onPress={handleProfilePress}>
-              {userInfo && getGenderImage() ? (
-                <Image source={getGenderImage()} style={styles.genderImage} />
-              ) : (
-                <IconSymbol name="person.fill" size={28} color={Colors[colorScheme ?? 'dark'].text} />
-              )}
-            </Pressable>
-          )}
+          {pathname !== "/profile" &&
+            pathname !== "/favorites" &&
+            pathname !== "/Info" &&
+            pathname !== "/Collaborations" &&
+            pathname !== "/completed-poems" && (
+              <Pressable onPress={handleProfilePress}>
+                {userInfo && getGenderImage() ? (
+                  <Image source={getGenderImage()} style={styles.genderImage} />
+                ) : (
+                  <IconSymbol
+                    name="person.fill"
+                    size={28}
+                    color={Colors[colorScheme ?? "dark"].text}
+                  />
+                )}
+              </Pressable>
+            )}
         </View>
-        <ThemedText type="title" style={[styles.title, { color: Colors[colorScheme ?? 'dark'].text }]}>
+        <ThemedText
+          type="title"
+          style={[styles.title, { color: Colors[colorScheme ?? "dark"].text }]}
+        >
           {title}
         </ThemedText>
         <View style={styles.headerContainer}>
           {shouldShowBackButton && (
             <Pressable onPress={handleBackPress} style={styles.backButton}>
-              <IconSymbol name={chevronIcon} size={22} color={Colors[colorScheme ?? 'dark'].text} />
+              <IconSymbol
+                name={chevronIcon}
+                size={22}
+                color={Colors[colorScheme ?? "dark"].text}
+              />
             </Pressable>
           )}
         </View>
@@ -88,51 +110,52 @@ export default function StyledHeader({ title }: Readonly<StyledHeaderProps>) {
   );
 }
 
-const createStyles = (colorScheme: 'light' | 'dark') => StyleSheet.create({
-  header: {
-    overflow: 'hidden',
-    backgroundColor: Colors[colorScheme].background + 'dd',
-    height: 64
-  },
-  backgroundImage: {
-    resizeMode: 'cover',
-    opacity: 0.1,
-    width: '100%',
-    height: '100%',
-  },
-  blurView: {
-    justifyContent: 'space-between',
-    alignItems: 'center',
-    flexDirection: 'row',
-    width: '100%',
-    height: '100%',
-    paddingHorizontal: 15,
-  },
-  backButton: {
-    padding: 4,
-    marginLeft: 8,
-  },
-  title: {
-    fontSize: 20,
-    flex: 1,
-    textAlign: 'center',
-    paddingTop: 5,
-    paddingBottom: 5,
-  },
-  headerContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    justifyContent: 'flex-end',
-    width: 60,
-  },
-  actionsContainer: {
-    flexDirection: 'row',
-    alignItems: 'center',
-    width: 60,
-  },
-  genderImage: {
-    width: 35,
-    height: 35,
-    borderRadius: 20,
-  },
-});
+const createStyles = (colorScheme: "light" | "dark") =>
+  StyleSheet.create({
+    header: {
+      overflow: "hidden",
+      backgroundColor: Colors[colorScheme].background + "dd",
+      height: 64,
+    },
+    backgroundImage: {
+      resizeMode: "cover",
+      opacity: 0.1,
+      width: "100%",
+      height: "100%",
+    },
+    blurView: {
+      justifyContent: "space-between",
+      alignItems: "center",
+      flexDirection: "row",
+      width: "100%",
+      height: "100%",
+      paddingHorizontal: 15,
+    },
+    backButton: {
+      padding: 4,
+      marginLeft: 8,
+    },
+    title: {
+      fontSize: 20,
+      flex: 1,
+      textAlign: "center",
+      paddingTop: 5,
+      paddingBottom: 5,
+    },
+    headerContainer: {
+      flexDirection: "row",
+      alignItems: "center",
+      justifyContent: "flex-end",
+      width: 60,
+    },
+    actionsContainer: {
+      flexDirection: "row",
+      alignItems: "center",
+      width: 60,
+    },
+    genderImage: {
+      width: 35,
+      height: 35,
+      borderRadius: 20,
+    },
+  });
