@@ -1,5 +1,4 @@
 // app.config.js
-import "dotenv/config"; // Optional: if you plan to use environment variables
 
 export default ({ config }) => ({
   ...config,
@@ -59,6 +58,15 @@ export default ({ config }) => ({
       },
     ],
     "expo-audio",
+    [
+      "expo-build-properties",
+      {
+        android: {
+          enableProguardInReleaseBuilds: true,
+          enableShrinkResourcesInReleaseBuilds: true,
+        },
+      },
+    ],
   ],
   experiments: {
     typedRoutes: true,
