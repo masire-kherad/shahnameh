@@ -15,7 +15,9 @@
     "android": "expo start --android",
     "ios": "expo start --ios",
     "web": "expo start --web",
-    "lint": "expo lint"
+    "lint": "expo lint",
+    "db:compact": "node ./scripts/compact-db-json.js",
+    "db:restore": "node ./scripts/restore-db-json.js"
   },
   "dependencies": {
     "@expo/metro-runtime": "~6.1.2",
