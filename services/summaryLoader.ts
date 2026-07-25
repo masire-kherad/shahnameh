@@ -1,5 +1,18 @@
+/** Compact files are string[]; legacy files are { summaries: string[] }. */
+function normalizeSummaries(raw: unknown): string[] {
+  if (Array.isArray(raw)) {
+    return raw.filter((item): item is string => typeof item === 'string');
+  }
+  if (raw && typeof raw === 'object' && Array.isArray((raw as { summaries?: unknown }).summaries)) {
+    return (raw as { summaries: unknown[] }).summaries.filter(
+      (item): item is string => typeof item === 'string'
+    );
+  }
+  return [];
+}
+
 export const loadPoemSummaries = (poemId: number): string[] => {
-  let summaryFile: { summaries: string[] };
+  let summaryFile: unknown;
   switch (poemId) {
     case 1321:
       summaryFile = require('../assets/db/summaries/1321.json');
@@ -2337,8 +2350,8 @@ export const loadPoemSummaries = (poemId: number): string[] => {
       break;
 
     default:
-      summaryFile = { summaries: [] };
+      summaryFile = [];
       break;
   }
-  return summaryFile.summaries;
+  return normalizeSummaries(summaryFile);
 };

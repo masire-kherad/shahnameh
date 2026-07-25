@@ -33,6 +33,9 @@ yarn-error.*
 # local env files
 .env*.local
 
+# DB compact/restore backups (full copies of poems + summaries)
+assets/db/_backups/
+
 # typescript
 *.tsbuildinfo
 

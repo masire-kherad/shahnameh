@@ -1,7 +1,25 @@
 import { Verse } from '@/types/shahname';
 
+/** Compact files are string[]; legacy files are Verse[]. */
+function normalizeVerses(raw: unknown, poemId: number): Verse[] {
+  if (!Array.isArray(raw) || raw.length === 0) {
+    return [];
+  }
+
+  if (typeof raw[0] === 'string') {
+    return (raw as string[]).map((text, index) => ({
+      poem_id: poemId,
+      vorder: index + 1,
+      position: (index % 2) as 0 | 1,
+      text,
+    }));
+  }
+
+  return raw as Verse[];
+}
+
 export const loadPoemVerses = (poemId: number): Verse[] => {
-  let verses: Verse[];
+  let verses: unknown;
   switch (poemId) {
     case 1321:
       verses = require('../assets/db/poems/1321.json');
@@ -2342,5 +2360,5 @@ export const loadPoemVerses = (poemId: number): Verse[] => {
       verses = [];
       break;
   }
-  return verses;
+  return normalizeVerses(verses, poemId);
 };
