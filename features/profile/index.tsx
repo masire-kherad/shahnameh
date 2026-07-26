@@ -55,7 +55,6 @@ export default function ProfileScreen() {
           await updateProfile(name, gender);
           setIsEditModalVisible(false);
         }}
-        onCancel={() => setIsEditModalVisible(false)}
         initialName={userInfo?.name || ""}
         initialGender={userInfo?.gender || "male"}
       />

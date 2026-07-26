@@ -1,8 +1,8 @@
-import { CompletedPoems } from '@/services/progressService';
-import type { Category, Poem } from '@/types/shahname';
-import { router } from 'expo-router';
-import { useMemo, useState } from 'react';
-import { I18nManager, ImageSourcePropType, Platform } from 'react-native';
+import { CompletedPoems } from "@/services/progressService";
+import type { Category, Poem } from "@/types/shahname";
+import { router } from "expo-router";
+import { useMemo, useState } from "react";
+import { I18nManager, ImageSourcePropType } from "react-native";
 
 interface UseRoadmapProps {
   categories: Category[];
@@ -11,9 +11,15 @@ interface UseRoadmapProps {
   containerWidth: number;
 }
 
-export function useRoadmap({ categories, poems, completedPoems, containerWidth }: UseRoadmapProps) {
+export function useRoadmap({
+  categories,
+  poems,
+  completedPoems,
+  containerWidth,
+}: UseRoadmapProps) {
   const [modalVisible, setModalVisible] = useState(false);
-  const [selectedImage, setSelectedImage] = useState<ImageSourcePropType | null>(null);
+  const [selectedImage, setSelectedImage] =
+    useState<ImageSourcePropType | null>(null);
   const [scrollY, setScrollY] = useState(0);
 
   const nodePositions = useMemo(() => {
@@ -34,13 +40,13 @@ export function useRoadmap({ categories, poems, completedPoems, containerWidth }
   }, [categories, containerWidth]);
 
   const pathD = useMemo(() => {
-    if (nodePositions.length < 2) return '';
-    let d = `M ${(I18nManager.isRTL || Platform.OS === 'android') ? containerWidth - nodePositions[0].offset : nodePositions[0].offset} ${nodePositions[0].y}`;
+    if (nodePositions.length < 2) return "";
+    let d = `M ${I18nManager.isRTL ? containerWidth - nodePositions[0].offset : nodePositions[0].offset} ${nodePositions[0].y}`;
     for (let i = 0; i < nodePositions.length - 1; i++) {
       const p1 = nodePositions[i];
       const p2 = nodePositions[i + 1];
-      const p1x = (I18nManager.isRTL || Platform.OS === 'android') ? containerWidth - p1.offset : p1.offset;
-      const p2x = (I18nManager.isRTL || Platform.OS === 'android') ? containerWidth - p2.offset : p2.offset;
+      const p1x = I18nManager.isRTL ? containerWidth - p1.offset : p1.offset;
+      const p2x = I18nManager.isRTL ? containerWidth - p2.offset : p2.offset;
       const midX = (p1x + p2x) / 2;
       const midY = (p1.y + p2.y) / 2;
       d += ` Q ${p1x} ${midY}, ${midX} ${midY}`;
@@ -49,9 +55,10 @@ export function useRoadmap({ categories, poems, completedPoems, containerWidth }
     return d;
   }, [nodePositions, containerWidth]);
 
-  const contentHeight = nodePositions.length > 0
-    ? nodePositions[nodePositions.length - 1].y + 200
-    : 0;
+  const contentHeight =
+    nodePositions.length > 0
+      ? nodePositions[nodePositions.length - 1].y + 200
+      : 0;
 
   const handleCategoryPress = (catId: number) => {
     router.push(`/category/${catId}`);
@@ -63,8 +70,10 @@ export function useRoadmap({ categories, poems, completedPoems, containerWidth }
   };
 
   const getCategoryProgress = (catId: number) => {
-    const categoryPoems = poems.filter(p => p.cat_id === catId);
-    const completedCategoryPoems = categoryPoems.filter(p => completedPoems[p.id]);
+    const categoryPoems = poems.filter((p) => p.cat_id === catId);
+    const completedCategoryPoems = categoryPoems.filter(
+      (p) => completedPoems[p.id],
+    );
     return {
       total: categoryPoems.length,
       completed: completedCategoryPoems.length,

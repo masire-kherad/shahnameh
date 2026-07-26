@@ -60,7 +60,7 @@ export default function StyledHeader({ title }: Readonly<StyledHeaderProps>) {
   const shouldShowBackButton = pathname !== "/" && pathname !== "/index";
 
   // Determine the correct chevron direction for RTL
-  const chevronIcon = "chevron.left";
+  const chevronIcon = "chevron.right";
 
   return (
     <ImageBackground
