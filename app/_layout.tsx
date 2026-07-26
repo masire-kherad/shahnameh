@@ -25,14 +25,7 @@ import { useFonts } from "expo-font";
 import { Stack } from "expo-router";
 import { StatusBar } from "expo-status-bar";
 import React, { useEffect, useState } from "react";
-import {
-  I18nManager,
-  Platform,
-  Pressable,
-  StyleSheet,
-  Text,
-  View,
-} from "react-native";
+import { Platform, Pressable, StyleSheet, Text, View } from "react-native";
 import "react-native-reanimated";
 
 Sentry.init({
@@ -44,8 +37,8 @@ setTimeout(() => {
 }, 1000);
 
 try {
-  I18nManager.allowRTL(true);
-  I18nManager.forceRTL(true);
+  // I18nManager.allowRTL(true);
+  // I18nManager.forceRTL(true);
 } catch (e) {
   // Error handling for RTL configuration
 }
@@ -193,7 +186,7 @@ function AppContent() {
             visible={userInfoModalVisible}
             onClose={handleUserInfoClose}
           />
-          <StatusBar style="auto" />
+          <StatusBar style="light" backgroundColor="#000000" />
         </View>
       </View>
     </ThemeProvider>

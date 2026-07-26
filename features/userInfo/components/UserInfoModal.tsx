@@ -1,6 +1,6 @@
 import { ThemedText } from "@/components/ThemedText";
 import { Colors } from "@/constants/Colors";
-import React from "react";
+import React, { useRef } from "react";
 import {
   ImageBackground,
   Modal,
@@ -48,9 +48,19 @@ export default function UserInfoModal({
           transparent: true,
           animationType: "fade" as const,
         };
+  const inputRef = useRef<TextInput>(null);
 
   return (
-    <Modal {...modalProps}>
+    <Modal
+      {...modalProps}
+      statusBarTranslucent
+      hardwareAccelerated
+      onShow={() => {
+        setTimeout(() => {
+          inputRef.current?.focus();
+        }, 400);
+      }}
+    >
       <View style={styles.modalContainer}>
         <ImageBackground
           source={require("@/assets/images/corner.webp")}
